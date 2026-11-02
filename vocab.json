@@ -1,0 +1,1261 @@
+[
+ {
+  "ru": "магазин",
+  "en": "store",
+  "theme": "At the grocery store",
+  "pos": "noun",
+  "g": "m",
+  "kind": "place",
+  "pp": "в"
+ },
+ {
+  "ru": "хлеб",
+  "en": "bread",
+  "theme": "At the grocery store",
+  "pos": "noun",
+  "g": "m",
+  "kind": "food",
+  "mass": true,
+  "forms": {
+   "npl": "хлеба",
+   "gpl": "хлебов"
+  }
+ },
+ {
+  "ru": "молоко",
+  "en": "milk",
+  "theme": "At the grocery store",
+  "pos": "noun",
+  "g": "n",
+  "kind": "food",
+  "mass": true
+ },
+ {
+  "ru": "мясо",
+  "en": "meat",
+  "theme": "At the grocery store",
+  "pos": "noun",
+  "g": "n",
+  "kind": "food",
+  "mass": true
+ },
+ {
+  "ru": "рыба",
+  "en": "fish",
+  "theme": "At the grocery store",
+  "pos": "noun",
+  "g": "f",
+  "kind": "food",
+  "enp": "fish"
+ },
+ {
+  "ru": "сыр",
+  "en": "cheese",
+  "theme": "At the grocery store",
+  "pos": "noun",
+  "g": "m",
+  "kind": "food",
+  "mass": true
+ },
+ {
+  "ru": "масло",
+  "en": "butter, oil",
+  "theme": "At the grocery store",
+  "pos": "noun",
+  "g": "n",
+  "kind": "food",
+  "mass": true
+ },
+ {
+  "ru": "колбаса",
+  "en": "sausage",
+  "theme": "At the grocery store",
+  "pos": "noun",
+  "g": "f",
+  "kind": "food",
+  "mass": true
+ },
+ {
+  "ru": "яйцо",
+  "en": "egg",
+  "theme": "At the grocery store",
+  "pos": "noun",
+  "g": "n",
+  "kind": "food",
+  "es": true,
+  "forms": {
+   "gpl": "яиц"
+  }
+ },
+ {
+  "ru": "яблоко",
+  "en": "apple",
+  "theme": "At the grocery store",
+  "pos": "noun",
+  "g": "n",
+  "kind": "food",
+  "forms": {
+   "npl": "яблоки"
+  }
+ },
+ {
+  "ru": "банан",
+  "en": "banana",
+  "theme": "At the grocery store",
+  "pos": "noun",
+  "g": "m",
+  "kind": "food"
+ },
+ {
+  "ru": "помидор",
+  "en": "tomato",
+  "theme": "At the grocery store",
+  "pos": "noun",
+  "g": "m",
+  "kind": "food",
+  "enp": "tomatoes"
+ },
+ {
+  "ru": "огурец",
+  "en": "cucumber",
+  "theme": "At the grocery store",
+  "pos": "noun",
+  "g": "m",
+  "kind": "food",
+  "fleet": true,
+  "es": true
+ },
+ {
+  "ru": "картошка",
+  "en": "potatoes",
+  "theme": "At the grocery store",
+  "pos": "noun",
+  "g": "f",
+  "kind": "food",
+  "mass": true
+ },
+ {
+  "ru": "лук",
+  "en": "onion",
+  "theme": "At the grocery store",
+  "pos": "noun",
+  "g": "m",
+  "kind": "food",
+  "mass": true
+ },
+ {
+  "ru": "сахар",
+  "en": "sugar",
+  "theme": "At the grocery store",
+  "pos": "noun",
+  "g": "m",
+  "kind": "food",
+  "mass": true
+ },
+ {
+  "ru": "вода",
+  "en": "water",
+  "theme": "At the grocery store",
+  "pos": "noun",
+  "g": "f",
+  "kind": "food",
+  "mass": true
+ },
+ {
+  "ru": "сок",
+  "en": "juice",
+  "theme": "At the grocery store",
+  "pos": "noun",
+  "g": "m",
+  "kind": "food",
+  "mass": true
+ },
+ {
+  "ru": "пакет",
+  "en": "bag (plastic)",
+  "theme": "At the grocery store",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing"
+ },
+ {
+  "ru": "бутылка",
+  "en": "bottle",
+  "theme": "At the grocery store",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "forms": {
+   "gpl": "бутылок"
+  }
+ },
+ {
+  "ru": "килограмм",
+  "en": "kilogram",
+  "theme": "At the grocery store",
+  "pos": "noun",
+  "g": "m",
+  "kind": "unit",
+  "gplAlt": "килограмм"
+ },
+ {
+  "ru": "свежий",
+  "en": "fresh",
+  "theme": "At the grocery store",
+  "pos": "adj"
+ },
+ {
+  "ru": "купить",
+  "en": "to buy",
+  "theme": "At the grocery store",
+  "pos": "verb"
+ },
+ {
+  "ru": "Где можно найти…?",
+  "en": "Where can I find…?",
+  "theme": "At the grocery store",
+  "pos": "phrase"
+ },
+ {
+  "ru": "касса",
+  "en": "checkout, till",
+  "theme": "At the checkout",
+  "pos": "noun",
+  "g": "f",
+  "kind": "place",
+  "pp": "на"
+ },
+ {
+  "ru": "кассир",
+  "en": "cashier",
+  "theme": "At the checkout",
+  "pos": "noun",
+  "g": "m",
+  "kind": "person",
+  "anim": true
+ },
+ {
+  "ru": "чек",
+  "en": "receipt",
+  "theme": "At the checkout",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing"
+ },
+ {
+  "ru": "сдача",
+  "en": "change (money back)",
+  "theme": "At the checkout",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "mass": true
+ },
+ {
+  "ru": "карта",
+  "en": "card",
+  "theme": "At the checkout",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing"
+ },
+ {
+  "ru": "деньги",
+  "en": "money",
+  "theme": "At the checkout",
+  "pos": "noun",
+  "g": "pl",
+  "kind": "thing",
+  "forms": {
+   "gen": "денег",
+   "dat": "деньгам",
+   "acc": "деньги",
+   "ins": "деньгами",
+   "prep": "деньгах",
+   "gpl": "денег"
+  }
+ },
+ {
+  "ru": "скидка",
+  "en": "discount",
+  "theme": "At the checkout",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "forms": {
+   "gpl": "скидок"
+  }
+ },
+ {
+  "ru": "цена",
+  "en": "price",
+  "theme": "At the checkout",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "skip": [
+   "gen",
+   "acc",
+   "ins"
+  ]
+ },
+ {
+  "ru": "рубль",
+  "en": "ruble",
+  "theme": "At the checkout",
+  "pos": "noun",
+  "g": "m",
+  "kind": "money",
+  "es": true
+ },
+ {
+  "ru": "копейка",
+  "en": "kopeck",
+  "theme": "At the checkout",
+  "pos": "noun",
+  "g": "f",
+  "kind": "money",
+  "forms": {
+   "gpl": "копеек"
+  }
+ },
+ {
+  "ru": "очередь",
+  "en": "line, queue",
+  "theme": "At the checkout",
+  "pos": "noun",
+  "g": "f",
+  "kind": "place",
+  "pp": "в",
+  "skip": [
+   "gen",
+   "dat",
+   "acc",
+   "ins"
+  ]
+ },
+ {
+  "ru": "кошелёк",
+  "en": "wallet",
+  "theme": "At the checkout",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing",
+  "forms": {
+   "gen": "кошелька",
+   "dat": "кошельку",
+   "ins": "кошельком",
+   "prep": "кошельке",
+   "npl": "кошельки",
+   "gpl": "кошельков"
+  }
+ },
+ {
+  "ru": "банкомат",
+  "en": "ATM",
+  "theme": "At the checkout",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing",
+  "skip": [
+   "gen",
+   "ins",
+   "prep"
+  ]
+ },
+ {
+  "ru": "платить",
+  "en": "to pay",
+  "theme": "At the checkout",
+  "pos": "verb"
+ },
+ {
+  "ru": "дорогой",
+  "en": "expensive",
+  "theme": "At the checkout",
+  "pos": "adj"
+ },
+ {
+  "ru": "дешёвый",
+  "en": "cheap",
+  "theme": "At the checkout",
+  "pos": "adj"
+ },
+ {
+  "ru": "Можно картой?",
+  "en": "Can I pay by card?",
+  "theme": "At the checkout",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Можно наличными?",
+  "en": "Can I pay in cash?",
+  "theme": "At the checkout",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Пакет нужен?",
+  "en": "Do you need a bag?",
+  "theme": "At the checkout",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Сколько с меня?",
+  "en": "How much do I owe?",
+  "theme": "At the checkout",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Сдачи не надо.",
+  "en": "Keep the change.",
+  "theme": "At the checkout",
+  "pos": "phrase"
+ },
+ {
+  "ru": "храм",
+  "en": "church (building), temple",
+  "theme": "At church",
+  "pos": "noun",
+  "g": "m",
+  "kind": "place",
+  "pp": "в"
+ },
+ {
+  "ru": "церковь",
+  "en": "church",
+  "theme": "At church",
+  "pos": "noun",
+  "g": "f",
+  "kind": "place",
+  "pp": "в",
+  "forms": {
+   "gen": "церкви",
+   "dat": "церкви",
+   "ins": "церковью",
+   "prep": "церкви",
+   "npl": "церкви",
+   "gpl": "церквей"
+  }
+ },
+ {
+  "ru": "икона",
+  "en": "icon",
+  "theme": "At church",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "approach": true
+ },
+ {
+  "ru": "свеча",
+  "en": "candle",
+  "theme": "At church",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "es": true,
+  "gplAlt": "свеч",
+  "forms": {
+   "gpl": "свечей"
+  }
+ },
+ {
+  "ru": "батюшка",
+  "en": "priest (Father)",
+  "theme": "At church",
+  "pos": "noun",
+  "g": "m",
+  "kind": "person",
+  "anim": true,
+  "forms": {
+   "gpl": "батюшек"
+  }
+ },
+ {
+  "ru": "священник",
+  "en": "priest",
+  "theme": "At church",
+  "pos": "noun",
+  "g": "m",
+  "kind": "person",
+  "anim": true
+ },
+ {
+  "ru": "литургия",
+  "en": "Divine Liturgy",
+  "theme": "At church",
+  "pos": "noun",
+  "g": "f",
+  "kind": "event"
+ },
+ {
+  "ru": "причастие",
+  "en": "Holy Communion",
+  "theme": "At church",
+  "pos": "noun",
+  "g": "n",
+  "kind": "event",
+  "mass": true,
+  "noArt": true,
+  "skip": [
+   "prep"
+  ]
+ },
+ {
+  "ru": "исповедь",
+  "en": "confession",
+  "theme": "At church",
+  "pos": "noun",
+  "g": "f",
+  "kind": "event",
+  "mass": true
+ },
+ {
+  "ru": "праздник",
+  "en": "feast day, holiday",
+  "theme": "At church",
+  "pos": "noun",
+  "g": "m",
+  "kind": "event"
+ },
+ {
+  "ru": "крест",
+  "en": "cross",
+  "theme": "At church",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing",
+  "es": true,
+  "approach": true,
+  "enp": "crosses"
+ },
+ {
+  "ru": "молитва",
+  "en": "prayer",
+  "theme": "At church",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "skip": [
+   "gen",
+   "ins"
+  ]
+ },
+ {
+  "ru": "служба",
+  "en": "church service",
+  "theme": "At church",
+  "pos": "noun",
+  "g": "f",
+  "kind": "event"
+ },
+ {
+  "ru": "Пасха",
+  "en": "Pascha, Easter",
+  "theme": "At church",
+  "pos": "noun",
+  "g": "f",
+  "kind": "event",
+  "mass": true,
+  "noArt": true,
+  "skip": [
+   "acc",
+   "prep"
+  ]
+ },
+ {
+  "ru": "Рождество",
+  "en": "Christmas, the Nativity",
+  "theme": "At church",
+  "pos": "noun",
+  "g": "n",
+  "kind": "event",
+  "mass": true,
+  "noArt": true,
+  "skip": [
+   "acc",
+   "prep"
+  ]
+ },
+ {
+  "ru": "пост",
+  "en": "Lent, fast",
+  "theme": "At church",
+  "pos": "noun",
+  "g": "m",
+  "kind": "event",
+  "mass": true,
+  "es": true,
+  "noArt": true,
+  "skip": [
+   "acc",
+   "prep"
+  ]
+ },
+ {
+  "ru": "платок",
+  "en": "headscarf",
+  "theme": "At church",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing",
+  "fleet": true,
+  "es": true,
+  "enp": "headscarves"
+ },
+ {
+  "ru": "православный",
+  "en": "Orthodox",
+  "theme": "At church",
+  "pos": "adj"
+ },
+ {
+  "ru": "святой",
+  "en": "holy; saint",
+  "theme": "At church",
+  "pos": "adj"
+ },
+ {
+  "ru": "молиться",
+  "en": "to pray",
+  "theme": "At church",
+  "pos": "verb"
+ },
+ {
+  "ru": "креститься",
+  "en": "to cross oneself",
+  "theme": "At church",
+  "pos": "verb"
+ },
+ {
+  "ru": "Благословите, батюшка.",
+  "en": "Bless me, Father.",
+  "theme": "At church",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Христос воскресе! — Воистину воскресе!",
+  "en": "Christ is risen! — Truly He is risen!",
+  "theme": "At church",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Господи, помилуй.",
+  "en": "Lord, have mercy.",
+  "theme": "At church",
+  "pos": "phrase"
+ },
+ {
+  "ru": "поставить свечу",
+  "en": "to light a candle (lit. to place a candle)",
+  "theme": "At church",
+  "pos": "phrase"
+ },
+ {
+  "ru": "ресторан",
+  "en": "restaurant",
+  "theme": "At the restaurant",
+  "pos": "noun",
+  "g": "m",
+  "kind": "place",
+  "pp": "в"
+ },
+ {
+  "ru": "кафе",
+  "en": "café",
+  "theme": "At the restaurant",
+  "pos": "noun",
+  "g": "n",
+  "kind": "place",
+  "indecl": true
+ },
+ {
+  "ru": "меню",
+  "en": "menu",
+  "theme": "At the restaurant",
+  "pos": "noun",
+  "g": "n",
+  "kind": "thing",
+  "indecl": true
+ },
+ {
+  "ru": "официант",
+  "en": "waiter",
+  "theme": "At the restaurant",
+  "pos": "noun",
+  "g": "m",
+  "kind": "person",
+  "anim": true
+ },
+ {
+  "ru": "столик",
+  "en": "table (in a café)",
+  "theme": "At the restaurant",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing",
+  "skip": [
+   "gen",
+   "ins"
+  ]
+ },
+ {
+  "ru": "счёт",
+  "en": "bill, check",
+  "theme": "At the restaurant",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing",
+  "forms": {
+   "npl": "счета",
+   "gpl": "счетов"
+  }
+ },
+ {
+  "ru": "суп",
+  "en": "soup",
+  "theme": "At the restaurant",
+  "pos": "noun",
+  "g": "m",
+  "kind": "food",
+  "mass": true,
+  "skip": [
+   "gen",
+   "ins"
+  ]
+ },
+ {
+  "ru": "салат",
+  "en": "salad",
+  "theme": "At the restaurant",
+  "pos": "noun",
+  "g": "m",
+  "kind": "food"
+ },
+ {
+  "ru": "кофе",
+  "en": "coffee",
+  "theme": "At the restaurant",
+  "pos": "noun",
+  "g": "m",
+  "kind": "food",
+  "indecl": true
+ },
+ {
+  "ru": "чай",
+  "en": "tea",
+  "theme": "At the restaurant",
+  "pos": "noun",
+  "g": "m",
+  "kind": "food",
+  "mass": true
+ },
+ {
+  "ru": "пиво",
+  "en": "beer",
+  "theme": "At the restaurant",
+  "pos": "noun",
+  "g": "n",
+  "kind": "food",
+  "mass": true
+ },
+ {
+  "ru": "вино",
+  "en": "wine",
+  "theme": "At the restaurant",
+  "pos": "noun",
+  "g": "n",
+  "kind": "food",
+  "mass": true
+ },
+ {
+  "ru": "стакан",
+  "en": "glass",
+  "theme": "At the restaurant",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing",
+  "enp": "glasses"
+ },
+ {
+  "ru": "чашка",
+  "en": "cup",
+  "theme": "At the restaurant",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "forms": {
+   "gpl": "чашек"
+  }
+ },
+ {
+  "ru": "вилка",
+  "en": "fork",
+  "theme": "At the restaurant",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "forms": {
+   "gpl": "вилок"
+  }
+ },
+ {
+  "ru": "нож",
+  "en": "knife",
+  "theme": "At the restaurant",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing",
+  "es": true,
+  "enp": "knives"
+ },
+ {
+  "ru": "ложка",
+  "en": "spoon",
+  "theme": "At the restaurant",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "forms": {
+   "gpl": "ложек"
+  }
+ },
+ {
+  "ru": "блюдо",
+  "en": "dish",
+  "theme": "At the restaurant",
+  "pos": "noun",
+  "g": "n",
+  "kind": "food",
+  "skip": [
+   "gen",
+   "ins"
+  ],
+  "enp": "dishes"
+ },
+ {
+  "ru": "заказать",
+  "en": "to order",
+  "theme": "At the restaurant",
+  "pos": "verb"
+ },
+ {
+  "ru": "вкусный",
+  "en": "tasty, delicious",
+  "theme": "At the restaurant",
+  "pos": "adj"
+ },
+ {
+  "ru": "Счёт, пожалуйста.",
+  "en": "The check, please.",
+  "theme": "At the restaurant",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Можно меню?",
+  "en": "Could I see the menu?",
+  "theme": "At the restaurant",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Что вы посоветуете?",
+  "en": "What do you recommend?",
+  "theme": "At the restaurant",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Столик на двоих.",
+  "en": "A table for two.",
+  "theme": "At the restaurant",
+  "pos": "phrase"
+ },
+ {
+  "ru": "граница",
+  "en": "border",
+  "theme": "At the border",
+  "pos": "noun",
+  "g": "f",
+  "kind": "place",
+  "pp": "на"
+ },
+ {
+  "ru": "таможня",
+  "en": "customs",
+  "theme": "At the border",
+  "pos": "noun",
+  "g": "f",
+  "kind": "place",
+  "pp": "на",
+  "forms": {
+   "gpl": "таможен"
+  }
+ },
+ {
+  "ru": "пограничник",
+  "en": "border guard",
+  "theme": "At the border",
+  "pos": "noun",
+  "g": "m",
+  "kind": "person",
+  "anim": true
+ },
+ {
+  "ru": "паспорт",
+  "en": "passport",
+  "theme": "At the border",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing",
+  "forms": {
+   "npl": "паспорта"
+  }
+ },
+ {
+  "ru": "виза",
+  "en": "visa",
+  "theme": "At the border",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing"
+ },
+ {
+  "ru": "документ",
+  "en": "document",
+  "theme": "At the border",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing"
+ },
+ {
+  "ru": "багаж",
+  "en": "luggage",
+  "theme": "At the border",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing",
+  "mass": true,
+  "es": true
+ },
+ {
+  "ru": "чемодан",
+  "en": "suitcase",
+  "theme": "At the border",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing"
+ },
+ {
+  "ru": "сумка",
+  "en": "bag",
+  "theme": "At the border",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "forms": {
+   "gpl": "сумок"
+  }
+ },
+ {
+  "ru": "страховка",
+  "en": "insurance policy",
+  "theme": "At the border",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "forms": {
+   "gpl": "страховок"
+  }
+ },
+ {
+  "ru": "декларация",
+  "en": "customs declaration",
+  "theme": "At the border",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing"
+ },
+ {
+  "ru": "адрес",
+  "en": "address",
+  "theme": "At the border",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing",
+  "enp": "addresses",
+  "forms": {
+   "npl": "адреса"
+  }
+ },
+ {
+  "ru": "приглашение",
+  "en": "invitation",
+  "theme": "At the border",
+  "pos": "noun",
+  "g": "n",
+  "kind": "thing"
+ },
+ {
+  "ru": "фамилия",
+  "en": "last name",
+  "theme": "At the border",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "skip": [
+   "gen",
+   "ins"
+  ]
+ },
+ {
+  "ru": "машина",
+  "en": "car",
+  "theme": "At the border",
+  "pos": "noun",
+  "g": "f",
+  "kind": "transport",
+  "skip": [
+   "acc"
+  ]
+ },
+ {
+  "ru": "показать",
+  "en": "to show",
+  "theme": "At the border",
+  "pos": "verb"
+ },
+ {
+  "ru": "открыть",
+  "en": "to open",
+  "theme": "At the border",
+  "pos": "verb"
+ },
+ {
+  "ru": "Ваш паспорт, пожалуйста.",
+  "en": "Your passport, please.",
+  "theme": "At the border",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Цель поездки?",
+  "en": "What is the purpose of your trip?",
+  "theme": "At the border",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Мне нечего декларировать.",
+  "en": "I have nothing to declare.",
+  "theme": "At the border",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Я турист.",
+  "en": "I'm a tourist.",
+  "theme": "At the border",
+  "pos": "phrase"
+ },
+ {
+  "ru": "вокзал",
+  "en": "train station",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "m",
+  "kind": "place",
+  "pp": "на"
+ },
+ {
+  "ru": "аэропорт",
+  "en": "airport",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "m",
+  "kind": "place",
+  "pp": "в",
+  "forms": {
+   "loc": "аэропорту"
+  }
+ },
+ {
+  "ru": "поезд",
+  "en": "train",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "m",
+  "kind": "transport",
+  "forms": {
+   "npl": "поезда"
+  }
+ },
+ {
+  "ru": "автобус",
+  "en": "bus",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "m",
+  "kind": "transport",
+  "enp": "buses"
+ },
+ {
+  "ru": "такси",
+  "en": "taxi",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "n",
+  "kind": "transport",
+  "indecl": true
+ },
+ {
+  "ru": "метро",
+  "en": "metro, subway",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "n",
+  "kind": "transport",
+  "indecl": true
+ },
+ {
+  "ru": "билет",
+  "en": "ticket",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing"
+ },
+ {
+  "ru": "гостиница",
+  "en": "hotel",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "f",
+  "kind": "place",
+  "pp": "в"
+ },
+ {
+  "ru": "номер",
+  "en": "room (hotel); number",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing",
+  "forms": {
+   "npl": "номера"
+  }
+ },
+ {
+  "ru": "ключ",
+  "en": "key",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing",
+  "es": true
+ },
+ {
+  "ru": "остановка",
+  "en": "bus stop",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "f",
+  "kind": "place",
+  "pp": "на",
+  "forms": {
+   "gpl": "остановок"
+  }
+ },
+ {
+  "ru": "улица",
+  "en": "street; outside (на улице)",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "f",
+  "kind": "place",
+  "pp": "на",
+  "enprep": "on",
+  "skip": [
+   "gen",
+   "dat",
+   "ins"
+  ]
+ },
+ {
+  "ru": "туалет",
+  "en": "restroom",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "m",
+  "kind": "place",
+  "pp": "в",
+  "skip": [
+   "ins"
+  ]
+ },
+ {
+  "ru": "город",
+  "en": "city",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "m",
+  "kind": "place",
+  "pp": "в",
+  "skip": [
+   "ins"
+  ],
+  "enp": "cities",
+  "forms": {
+   "npl": "города"
+  }
+ },
+ {
+  "ru": "платформа",
+  "en": "platform",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "f",
+  "kind": "place",
+  "pp": "на",
+  "enprep": "on",
+  "skip": [
+   "ins"
+  ]
+ },
+ {
+  "ru": "расписание",
+  "en": "timetable",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "n",
+  "kind": "thing",
+  "skip": [
+   "ins"
+  ]
+ },
+ {
+  "ru": "ехать",
+  "en": "to go (by vehicle)",
+  "theme": "Travel",
+  "pos": "verb"
+ },
+ {
+  "ru": "Как доехать до…?",
+  "en": "How do I get to…?",
+  "theme": "Travel",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Где находится…?",
+  "en": "Where is…?",
+  "theme": "Travel",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Один билет до Минска.",
+  "en": "One ticket to Minsk.",
+  "theme": "Travel",
+  "pos": "phrase"
+ },
+ {
+  "ru": "прямо, налево, направо",
+  "en": "straight ahead, left, right",
+  "theme": "Travel",
+  "pos": "phrase"
+ }
+]

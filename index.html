@@ -1,0 +1,738 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f6f5f1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16181c" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Русские упражнения · Grammar drills</title>
+<style>
+:root{--bg:#f6f5f1;--card:#fff;--text:#1d1f23;--muted:#6b6f76;--line:#e3e1db;--accent:#2f5d8a;--accent-soft:#e6eef6;--ok:#2e7d4f;--ok-soft:#e5f3ea;--bad:#b3412f;--bad-soft:#f8e7e3;--radius:14px}
+@media (prefers-color-scheme:dark){:root{--bg:#16181c;--card:#1f2228;--text:#ecebe7;--muted:#9a9ea6;--line:#30343b;--accent:#8db7e0;--accent-soft:#25303c;--ok:#7cc79a;--ok-soft:#1f3328;--bad:#ec8f7e;--bad-soft:#3a2522}}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--text)}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PT Sans","Noto Sans",Helvetica,Arial,sans-serif;font-size:17px;line-height:1.45;-webkit-text-size-adjust:100%;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+.wrap{max-width:560px;margin:0 auto;padding:16px 14px 40px;display:flex;flex-direction:column;min-height:100vh;min-height:100dvh}
+header h1{font-size:20px;margin:4px 0 2px;font-weight:650}
+header p{margin:0;color:var(--muted);font-size:14px}
+.stats{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 10px}
+.stat{flex:1 1 70px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 10px}
+.stat b{display:block;font-size:20px;font-variant-numeric:tabular-nums}
+.stat span{font-size:12px;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:999px;padding:9px 14px;font-size:15px;min-height:42px;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:6px 0}
+select{font:inherit;font-size:15px;padding:9px 10px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--text);min-height:42px;flex:1 1 200px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 16px;margin-top:12px}
+.meta{display:flex;flex-wrap:wrap;gap:6px;font-size:12px;color:var(--muted);margin-bottom:10px}
+.tag{background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:2px 9px}
+.tag.again{background:var(--bad-soft);color:var(--bad)}
+.sentence{font-size:22px;line-height:1.5;font-family:"PT Serif","Noto Serif",Georgia,"Times New Roman",serif;margin:4px 0 6px}
+.blank{display:inline-block;min-width:3.5em;border-bottom:2px solid var(--accent);text-align:center;color:var(--accent);padding:0 4px}
+.blank.ok{color:var(--ok);border-color:var(--ok)}.blank.bad{color:var(--bad);border-color:var(--bad)}
+.base{color:var(--muted);font-size:16px;margin-bottom:14px}
+.base b{color:var(--text);font-weight:600}
+.gl{color:var(--muted);font-size:14px;margin:-8px 0 10px}
+.trbtn{background:none;border:0;color:var(--accent);font:inherit;font-size:15px;padding:6px 0;min-height:40px;cursor:pointer;margin:-6px 0 8px}
+.tr{font-style:italic;color:var(--muted);font-size:15px;margin:-6px 0 12px}
+.fb .tr{color:var(--text);margin:4px 0}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media (max-width:360px){.opts{grid-template-columns:1fr}}
+.opt{font:inherit;font-size:18px;min-height:58px;padding:10px;border-radius:12px;border:1.5px solid var(--line);background:var(--bg);color:var(--text);cursor:pointer;word-break:break-word}
+.opt:active{transform:scale(.98)}
+.opt.ok{background:var(--ok-soft);border-color:var(--ok);color:var(--ok);font-weight:600}
+.opt.bad{background:var(--bad-soft);border-color:var(--bad);color:var(--bad)}
+.opt:disabled{cursor:default}
+input[type=text]{width:100%;font-size:20px;padding:14px;border-radius:12px;border:1.5px solid var(--line);background:var(--bg);color:var(--text);min-height:56px}
+input[type=text]:focus{outline:none;border-color:var(--accent)}
+.btn{font:inherit;font-size:17px;min-height:54px;border-radius:12px;border:0;background:var(--accent);color:var(--bg);padding:0 18px;cursor:pointer;width:100%;margin-top:10px;font-weight:600}
+.btn.quiet{background:transparent;color:var(--accent);border:1.5px solid var(--line);font-weight:500}
+.fb{margin-top:14px;padding:12px 14px;border-radius:12px;font-size:15px}
+.fb.ok{background:var(--ok-soft)}.fb.bad{background:var(--bad-soft)}
+.fb strong{display:block;margin-bottom:4px;font-size:16px}
+.fb.ok strong{color:var(--ok)}.fb.bad strong{color:var(--bad)}
+.ans{font-family:"PT Serif",Georgia,serif;font-size:18px}
+.done{text-align:center}
+.done h2{margin:6px 0}
+.muted{color:var(--muted);font-size:14px}
+details{margin-top:18px;color:var(--muted);font-size:14px}
+summary{cursor:pointer;min-height:40px;display:flex;align-items:center}
+.spacer{flex:1}
+.tabs{display:flex;gap:6px;margin:12px 0 4px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:4px}
+.tab{flex:1;font:inherit;font-size:15px;min-height:42px;border:0;border-radius:9px;background:transparent;color:var(--text);cursor:pointer}
+.tab[aria-selected=true]{background:var(--accent);color:var(--bg);font-weight:600}
+.hidden{display:none!important}
+.wlist{margin-top:10px}
+.wtheme{font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:16px 2px 6px}
+.witem{display:flex;gap:8px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin-bottom:6px}
+.witem .wt{flex:1;min-width:0}
+.witem .wr{font-family:"PT Serif",Georgia,serif;font-size:18px}
+.witem .we{color:var(--muted);font-size:14px}
+.witem .wm{font-size:12px;color:var(--muted)}
+.wm .fo{color:var(--bad)}
+.sbtn{font:inherit;font-size:14px;min-height:40px;min-width:44px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--accent);cursor:pointer;padding:0 10px}
+.sbtn.del{color:var(--bad)}
+.tools{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+.tools .sbtn{flex:1 1 30%}
+label.f{display:block;font-size:13px;color:var(--muted);margin:10px 0 4px}
+.fgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.fgrid label{font-size:12px;color:var(--muted)}
+.fgrid input,.fin{width:100%;font:inherit;font-size:17px;padding:10px;border-radius:10px;border:1.5px solid var(--line);background:var(--bg);color:var(--text);min-height:46px}
+.fgrid input.unc{border-color:var(--bad);border-style:dashed}
+.checks{display:flex;flex-wrap:wrap;gap:6px 14px;margin:10px 0;font-size:15px}
+.checks label{display:flex;align-items:center;gap:6px;min-height:36px}
+.checks input{width:20px;height:20px}
+.note{font-size:14px;background:var(--accent-soft);color:var(--text);border-radius:10px;padding:8px 10px;margin:10px 0}
+.note.warn{background:var(--bad-soft)}
+.bottom{position:sticky;bottom:0;padding:10px 0 4px;background:linear-gradient(transparent,var(--bg) 30%)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>Русская грамматика: тренажёр</h1>
+  <p>Fill in the blank with the right form. Grammar drills by level, or drill your own situation words. Missed items come back later in the session.</p>
+</header>
+<div class="tabs" role="tablist">
+  <button class="tab" role="tab" data-tab="grammar">Grammar</button>
+  <button class="tab" role="tab" data-tab="vocab">Vocabulary</button>
+  <button class="tab" role="tab" data-tab="words">My words</button>
+</div>
+
+<div id="drillArea">
+<div class="stats">
+  <div class="stat"><b id="sScore">0/0</b><span>Score</span></div>
+  <div class="stat"><b id="sStreak">0</b><span>Streak</span></div>
+  <div class="stat"><b id="sBest">0</b><span>Best streak</span></div>
+  <div class="stat"><b id="sLeft">0</b><span>Left</span></div>
+</div>
+
+<div id="gramCtl">
+<div class="chips" id="levels" role="group" aria-label="Level"></div>
+<div class="chips" id="cats" role="group" aria-label="Category"></div>
+</div>
+<div id="vocCtl" class="hidden">
+<div class="row"><select id="vtheme" aria-label="Theme"></select></div>
+<div class="chips" id="vdrills" role="group" aria-label="Drill type"></div>
+</div>
+<div class="row">
+  <select id="sub" aria-label="Subtopic"></select>
+  <div class="chips" id="modes" role="group" aria-label="Mode" style="margin:0"></div>
+</div>
+
+<div class="card" id="card"></div>
+</div>
+
+<div id="wordsArea" class="hidden">
+  <div class="row"><select id="wtheme" aria-label="Show theme"></select></div>
+  <div class="tools">
+    <button class="sbtn" id="addW">+ Add word</button>
+    <button class="sbtn" id="expW">Export</button>
+    <button class="sbtn" id="impW">Import</button>
+  </div>
+  <input type="file" id="impFile" accept=".json,application/json" class="hidden">
+  <div id="wpanel"></div>
+  <div id="wlist" class="wlist"></div>
+  <button class="btn quiet" id="restoreW">Restore missing starter words</button>
+</div>
+
+<div class="spacer"></div>
+<details>
+  <summary>About and settings</summary>
+  <p>Word hints under each sentence give the meaning of less common words. Tap Show translation for the whole sentence; it also appears after you answer.</p>
+  <p>Typed answers ignore capital letters, extra spaces, and ё/е differences. A missed item comes back 3–6 questions later and has to be answered correctly before the session ends.</p>
+  <p id="lifetime"></p>
+  <p>My words are saved in this browser only. Use Export to back them up or move them to your phone, then Import there.</p>
+  <p>To add grammar exercises, edit <code>exercises.json</code>; starter vocabulary lives in <code>vocab.json</code>. The page loads them when hosted and falls back to its built-in copy when you open the file directly.</p>
+  <button class="btn quiet" id="reset">Reset saved progress (keeps My words)</button>
+</details>
+</div>
+
+<script id="embedded" type="application/json">{"exercises": [{"id": 1, "level": "A1-A2", "cat": "basics", "sub": "possessives", "s": "Это ___ папа.", "base": "мой", "a": "мой", "alt": [], "d": ["моя", "моё", "мои"], "ex": "Папа ends in -а but means a man, so it is masculine: мой папа.", "translation": "This is my dad.", "glosses": ["папа: dad"]}, {"id": 2, "level": "A1-A2", "cat": "basics", "sub": "possessives", "s": "Это ___ мама.", "base": "мой", "a": "моя", "alt": [], "d": ["мой", "моё", "мои"], "ex": "Мама is feminine (ends in -а), so use моя.", "translation": "This is my mom.", "glosses": ["мама: mom"]}, {"id": 3, "level": "A1-A2", "cat": "basics", "sub": "possessives", "s": "Где ___ письмо?", "base": "мой", "a": "моё", "alt": [], "d": ["мой", "моя", "мои"], "ex": "Письмо is neuter (ends in -о), so use моё.", "translation": "Where is my letter?", "glosses": ["где: where", "письмо: letter"]}, {"id": 4, "level": "A1-A2", "cat": "basics", "sub": "possessives", "s": "Это ___ книги.", "base": "мой", "a": "мои", "alt": [], "d": ["мой", "моя", "моё"], "ex": "Книги is plural, so use мои.", "translation": "These are my books.", "glosses": ["книга: book"]}, {"id": 5, "level": "A1-A2", "cat": "basics", "sub": "possessives", "s": "___ сестра живёт в Москве.", "base": "твой", "a": "Твоя", "alt": [], "d": ["Твой", "Твоё", "Твои"], "ex": "Сестра is feminine, so твой becomes твоя.", "translation": "Your sister lives in Moscow.", "glosses": ["сестра: sister", "живёт: lives"]}, {"id": 6, "level": "A1-A2", "cat": "basics", "sub": "possessives", "s": "Это ___ дом.", "base": "наш", "a": "наш", "alt": [], "d": ["наша", "наше", "наши"], "ex": "Дом is masculine (ends in a consonant), so наш stays наш.", "translation": "This is our house.", "glosses": ["дом: house, home"]}, {"id": 7, "level": "A1-A2", "cat": "basics", "sub": "possessives", "s": "___ это машина?", "base": "чей", "a": "Чья", "alt": [], "d": ["Чей", "Чьё", "Чьи"], "ex": "Чей (whose) agrees with the noun. Машина is feminine: чья машина?", "translation": "Whose car is this?", "glosses": ["машина: car"]}, {"id": 8, "level": "A1-A2", "cat": "basics", "sub": "adjectives", "s": "У меня ___ машина.", "base": "новый", "a": "новая", "alt": [], "d": ["новый", "новое", "новые"], "ex": "Adjectives match the noun. Машина is feminine: новая.", "translation": "I have a new car.", "glosses": ["новый: new"]}, {"id": 9, "level": "A1-A2", "cat": "basics", "sub": "adjectives", "s": "Это очень ___ город.", "base": "красивый", "a": "красивый", "alt": [], "d": ["красивая", "красивое", "красивые"], "ex": "Город is masculine, so the adjective keeps the -ый ending.", "translation": "This is a very beautiful city.", "glosses": ["красивый: beautiful", "город: city"]}, {"id": 10, "level": "A1-A2", "cat": "basics", "sub": "adjectives", "s": "Сегодня ___ погода.", "base": "хороший", "a": "хорошая", "alt": [], "d": ["хороший", "хорошое", "хорошие"], "ex": "Погода is feminine: хорошая. (The neuter form is хорошее, never хорошое.)", "translation": "The weather is nice today.", "glosses": ["сегодня: today", "погода: weather"]}, {"id": 11, "level": "A1-A2", "cat": "basics", "sub": "adjectives", "s": "Это ___ окно.", "base": "большой", "a": "большое", "alt": [], "d": ["большой", "большая", "большие"], "ex": "Окно is neuter (ends in -о), so the adjective takes -ое.", "translation": "This is a big window.", "glosses": ["большой: big", "окно: window"]}, {"id": 12, "level": "A1-A2", "cat": "basics", "sub": "adjectives", "s": "У нас ___ соседи.", "base": "новый", "a": "новые", "alt": [], "d": ["новый", "новая", "новое"], "ex": "Соседи is plural, so the adjective takes -ые.", "translation": "We have new neighbors.", "glosses": ["сосед: neighbor"]}, {"id": 13, "level": "A1-A2", "cat": "basics", "sub": "adjectives", "s": "Москва — очень ___ город.", "base": "большой", "a": "большой", "alt": [], "d": ["большая", "большое", "большие"], "ex": "The adjective matches город (masculine), not Москва.", "translation": "Moscow is a very big city.", "glosses": ["город: city"]}, {"id": 14, "level": "A1-A2", "cat": "basics", "sub": "noun gender", "s": "Где мой телефон? — Вот ___.", "base": "он / она / оно / они", "a": "он", "alt": [], "d": ["она", "оно", "они"], "ex": "Телефон ends in a consonant, so it is masculine: он (it).", "translation": "Where's my phone? — Here it is.", "glosses": ["вот: here is"]}, {"id": 15, "level": "A1-A2", "cat": "basics", "sub": "noun gender", "s": "Где моя сумка? — Вот ___.", "base": "он / она / оно / они", "a": "она", "alt": [], "d": ["он", "оно", "они"], "ex": "Сумка ends in -а, so it is feminine: она (it).", "translation": "Where's my bag? — Here it is.", "glosses": ["сумка: bag"]}, {"id": 16, "level": "A1-A2", "cat": "basics", "sub": "noun gender", "s": "Где твоё пальто? — Вот ___.", "base": "он / она / оно / они", "a": "оно", "alt": [], "d": ["он", "она", "они"], "ex": "Пальто ends in -о, so it is neuter: оно (it). Пальто never changes its ending.", "translation": "Where's your coat? — Here it is.", "glosses": ["пальто: coat"]}, {"id": 17, "level": "A1-A2", "cat": "basics", "sub": "noun gender", "s": "Где ключи? — Вот ___.", "base": "он / она / оно / они", "a": "они", "alt": [], "d": ["он", "она", "оно"], "ex": "Ключи is plural: они (they).", "translation": "Where are the keys? — Here they are.", "glosses": ["ключ: key"]}, {"id": 18, "level": "A1-A2", "cat": "basics", "sub": "plurals", "s": "Это мои ___.", "base": "друг", "a": "друзья", "alt": [], "d": ["други", "друзи", "друга"], "ex": "Друг has an irregular plural: друзья.", "translation": "These are my friends.", "glosses": ["друг: friend"]}, {"id": 19, "level": "A1-A2", "cat": "basics", "sub": "plurals", "s": "На столе лежат ___.", "base": "книга", "a": "книги", "alt": [], "d": ["книгы", "книга", "книгу"], "ex": "Feminine -а nouns take -ы in the plural, but after г, к, х, ж, ш, щ, ч you write -и: книги.", "translation": "There are books on the table.", "glosses": ["стол: table", "лежать: to lie (be lying)"]}, {"id": 20, "level": "A1-A2", "cat": "basics", "sub": "plurals", "s": "В нашем районе новые ___.", "base": "дом", "a": "дома", "alt": [], "d": ["домы", "доми", "дом"], "ex": "Some masculine nouns take a stressed -а in the plural: дома, города.", "translation": "There are new buildings in our neighborhood.", "glosses": ["район: neighborhood", "дом: house, building"]}, {"id": 21, "level": "A1-A2", "cat": "basics", "sub": "plurals", "s": "В классе сидят ___.", "base": "студент", "a": "студенты", "alt": [], "d": ["студенти", "студента", "студент"], "ex": "Most masculine nouns add -ы in the plural: студенты.", "translation": "Students are sitting in the classroom.", "glosses": ["класс: classroom", "сидеть: to sit"]}, {"id": 22, "level": "A1-A2", "cat": "basics", "sub": "plurals", "s": "Где мои ___?", "base": "ключ", "a": "ключи", "alt": [], "d": ["ключы", "ключа", "ключ"], "ex": "After ч (and г, к, х, ж, ш, щ) the plural ending is -и, never -ы.", "translation": "Where are my keys?", "glosses": ["ключ: key"]}, {"id": 23, "level": "A1-A2", "cat": "basics", "sub": "plurals", "s": "Мои ___ любят футбол.", "base": "ребёнок", "a": "дети", "alt": [], "d": ["ребёнки", "детя", "ребёнок"], "ex": "Ребёнок has an irregular plural: дети.", "translation": "My kids love soccer.", "glosses": ["ребёнок: child", "футбол: soccer"]}, {"id": 24, "level": "A1-A2", "cat": "basics", "sub": "plurals", "s": "Мои ___ живут в Минске.", "base": "родитель", "a": "родители", "alt": [], "d": ["родителы", "родителя", "родитель"], "ex": "Nouns ending in a soft sign take -и in the plural: родитель → родители.", "translation": "My parents live in Minsk.", "glosses": ["родители: parents"]}, {"id": 25, "level": "A1-A2", "cat": "cases", "sub": "prepositional", "s": "Я живу в ___.", "base": "Москва", "a": "Москве", "alt": [], "d": ["Москва", "Москву", "Москвы"], "ex": "Location (where?) uses в/на + prepositional. Most nouns take -е: в Москве.", "translation": "I live in Moscow.", "glosses": ["жить: to live"]}, {"id": 26, "level": "A1-A2", "cat": "cases", "sub": "prepositional", "s": "Книга лежит на ___.", "base": "стол", "a": "столе", "alt": [], "d": ["стол", "стола", "столу"], "ex": "На + prepositional for location. Masculine nouns add -е: на столе.", "translation": "The book is on the table.", "glosses": ["лежать: to lie (be lying)", "стол: table"]}, {"id": 27, "level": "A1-A2", "cat": "cases", "sub": "prepositional", "s": "Мы сейчас в ___.", "base": "парк", "a": "парке", "alt": [], "d": ["парк", "парка", "парку"], "ex": "В + prepositional answers 'where?': в парке.", "translation": "We're in the park right now.", "glosses": ["сейчас: now"]}, {"id": 28, "level": "A1-A2", "cat": "cases", "sub": "prepositional", "s": "Моя мама работает в ___.", "base": "больница", "a": "больнице", "alt": [], "d": ["больница", "больницу", "больницы"], "ex": "Feminine -а nouns change -а to -е in the prepositional: в больнице.", "translation": "My mom works in a hospital.", "glosses": ["больница: hospital"]}, {"id": 29, "level": "A1-A2", "cat": "cases", "sub": "prepositional", "s": "Мой брат учится в ___.", "base": "университет", "a": "университете", "alt": [], "d": ["университет", "университета", "университету"], "ex": "В + prepositional: университет → в университете.", "translation": "My brother studies at the university.", "glosses": ["учиться: to study (be a student)"]}, {"id": 30, "level": "A1-A2", "cat": "cases", "sub": "prepositional", "s": "Вчера мы были на ___.", "base": "концерт", "a": "концерте", "alt": [], "d": ["концерт", "концерта", "концертом"], "ex": "Events use на: на концерте, на работе, на уроке.", "translation": "Yesterday we were at a concert.", "glosses": ["вчера: yesterday"]}, {"id": 31, "level": "A1-A2", "cat": "cases", "sub": "prepositional", "s": "Я часто думаю о ___.", "base": "работа", "a": "работе", "alt": [], "d": ["работа", "работу", "работой"], "ex": "О (about) + prepositional: о работе.", "translation": "I often think about work.", "glosses": ["часто: often", "думать: to think"]}, {"id": 32, "level": "A1-A2", "cat": "cases", "sub": "prepositional", "s": "Ты был в ___?", "base": "Россия", "a": "России", "alt": [], "d": ["Россие", "Россию", "Россия"], "ex": "Nouns in -ия take -ии (not -ие) in the prepositional: в России.", "translation": "Have you been to Russia?", "glosses": []}, {"id": 33, "level": "A1-A2", "cat": "cases", "sub": "accusative", "s": "Я читаю ___.", "base": "книга", "a": "книгу", "alt": [], "d": ["книга", "книги", "книге"], "ex": "A direct object goes in the accusative. Feminine -а becomes -у: книгу.", "translation": "I'm reading a book.", "glosses": ["читать: to read"]}, {"id": 34, "level": "A1-A2", "cat": "cases", "sub": "accusative", "s": "Я очень люблю ___.", "base": "музыка", "a": "музыку", "alt": [], "d": ["музыка", "музыки", "музыке"], "ex": "Любить + accusative: -а → -у.", "translation": "I really love music.", "glosses": []}, {"id": 35, "level": "A1-A2", "cat": "cases", "sub": "accusative", "s": "Она пьёт ___.", "base": "вода", "a": "воду", "alt": [], "d": ["вода", "водой", "воде"], "ex": "Direct object, feminine: вода → воду.", "translation": "She's drinking water.", "glosses": ["пить: to drink", "вода: water"]}, {"id": 36, "level": "A1-A2", "cat": "cases", "sub": "accusative", "s": "Я вижу ___.", "base": "Анна", "a": "Анну", "alt": [], "d": ["Анна", "Анны", "Анне"], "ex": "Видеть + accusative: Анна → Анну.", "translation": "I see Anna.", "glosses": ["видеть: to see"]}, {"id": 37, "level": "A1-A2", "cat": "cases", "sub": "accusative", "s": "Вечером мы смотрим ___.", "base": "фильм", "a": "фильм", "alt": [], "d": ["фильма", "фильму", "фильме"], "ex": "Masculine nouns for things don't change in the accusative: смотреть фильм.", "translation": "In the evening we watch a movie.", "glosses": ["вечером: in the evening", "смотреть: to watch"]}, {"id": 38, "level": "A1-A2", "cat": "cases", "sub": "accusative", "s": "Ты знаешь ___?", "base": "Иван", "a": "Ивана", "alt": [], "d": ["Иван", "Ивану", "Иване"], "ex": "Masculine nouns for people or animals add -а in the accusative: Ивана.", "translation": "Do you know Ivan?", "glosses": ["знать: to know"]}, {"id": 39, "level": "A1-A2", "cat": "cases", "sub": "accusative", "s": "Сейчас я иду в ___.", "base": "школа", "a": "школу", "alt": [], "d": ["школе", "школа", "школы"], "ex": "В + accusative answers 'where to?': в школу. В + prepositional answers 'where?': в школе.", "translation": "I'm going to school now.", "glosses": ["школа: school"]}, {"id": 40, "level": "A1-A2", "cat": "cases", "sub": "accusative", "s": "Вечером мы идём в ___.", "base": "кино", "a": "кино", "alt": [], "d": ["кине", "кина", "киной"], "ex": "Кино is a borrowed word and never changes its ending: в кино, о кино.", "translation": "We're going to the movies tonight.", "glosses": ["кино: movies, cinema"]}, {"id": 41, "level": "A1-A2", "cat": "cases", "sub": "у меня есть / нет", "s": "У ___ есть брат.", "base": "я", "a": "меня", "alt": [], "d": ["мне", "мной", "я"], "ex": "'I have' is у меня есть (literally 'by me there is'). У takes the genitive: меня.", "translation": "I have a brother.", "glosses": ["брат: brother"]}, {"id": 42, "level": "A1-A2", "cat": "cases", "sub": "у меня есть / нет", "s": "У ___ есть машина?", "base": "ты", "a": "тебя", "alt": [], "d": ["тебе", "ты", "тобой"], "ex": "У + genitive: ты → тебя.", "translation": "Do you have a car?", "glosses": []}, {"id": 43, "level": "A1-A2", "cat": "cases", "sub": "у меня есть / нет", "s": "У ___ есть собака.", "base": "он", "a": "него", "alt": [], "d": ["его", "ему", "он"], "ex": "After a preposition, он/она/они get an н-: у него, у неё, у них.", "translation": "He has a dog.", "glosses": ["собака: dog"]}, {"id": 44, "level": "A1-A2", "cat": "cases", "sub": "у меня есть / нет", "s": "У меня нет ___.", "base": "машина", "a": "машины", "alt": [], "d": ["машина", "машину", "машине"], "ex": "Нет (there is no) + genitive. Feminine -а → -ы: машины.", "translation": "I don't have a car.", "glosses": []}, {"id": 45, "level": "A1-A2", "cat": "cases", "sub": "у меня есть / нет", "s": "Извините, у нас нет ___.", "base": "хлеб", "a": "хлеба", "alt": [], "d": ["хлеб", "хлебу", "хлебе"], "ex": "Нет + genitive. Masculine nouns add -а: хлеба.", "translation": "Sorry, we don't have any bread.", "glosses": ["извините: sorry, excuse me", "хлеб: bread"]}, {"id": 46, "level": "A1-A2", "cat": "cases", "sub": "genitive", "s": "В магазине нет ___.", "base": "молоко", "a": "молока", "alt": [], "d": ["молоко", "молоку", "молоке"], "ex": "Нет + genitive. Neuter -о → -а: молока.", "translation": "There's no milk in the store.", "glosses": ["магазин: store", "молоко: milk"]}, {"id": 47, "level": "A1-A2", "cat": "cases", "sub": "genitive", "s": "Это сумка ___.", "base": "мама", "a": "мамы", "alt": [], "d": ["мама", "маму", "маме"], "ex": "'Mom's bag' is сумка мамы: the owner goes in the genitive, after the thing.", "translation": "This is Mom's bag.", "glosses": ["сумка: bag"]}, {"id": 48, "level": "A1-A2", "cat": "cases", "sub": "dative", "s": "___ нравится Москва.", "base": "я", "a": "Мне", "alt": [], "d": ["Меня", "Я", "Мной"], "ex": "Russian says 'Moscow is pleasing to me': the person who likes goes in the dative (мне).", "translation": "I like Moscow.", "glosses": ["нравится: is pleasing (= like)"]}, {"id": 49, "level": "A1-A2", "cat": "cases", "sub": "dative", "s": "___ нравится этот фильм?", "base": "ты", "a": "Тебе", "alt": [], "d": ["Тебя", "Ты", "Тобой"], "ex": "Нравится + dative: тебе.", "translation": "Do you like this movie?", "glosses": ["этот: this"]}, {"id": 50, "level": "A1-A2", "cat": "cases", "sub": "dative", "s": "___ надо работать.", "base": "он", "a": "Ему", "alt": [], "d": ["Его", "Он", "Нему"], "ex": "Надо (need to) takes the person in the dative: ему надо.", "translation": "He needs to work.", "glosses": ["надо: need to"]}, {"id": 51, "level": "A1-A2", "cat": "cases", "sub": "dative", "s": "___ нравится музыка.", "base": "Анна", "a": "Анне", "alt": [], "d": ["Анна", "Анну", "Анны"], "ex": "Нравится + dative. Feminine -а → -е: Анне.", "translation": "Anna likes music.", "glosses": []}, {"id": 52, "level": "A1-A2", "cat": "cases", "sub": "dative", "s": "Я звоню ___.", "base": "брат", "a": "брату", "alt": [], "d": ["брат", "брата", "брате"], "ex": "Звонить (to call) + dative. Masculine nouns add -у: брату.", "translation": "I'm calling my brother.", "glosses": ["звонить: to call (phone)"]}, {"id": 53, "level": "A1-A2", "cat": "cases", "sub": "dative", "s": "Уже поздно, ___ надо идти.", "base": "мы", "a": "нам", "alt": [], "d": ["нас", "мы", "нами"], "ex": "Надо + dative: мы → нам.", "translation": "It's late already; we need to go.", "glosses": ["уже: already", "поздно: late"]}, {"id": 54, "level": "A1-A2", "cat": "cases", "sub": "instrumental", "s": "Я пью чай с ___.", "base": "молоко", "a": "молоком", "alt": [], "d": ["молоко", "молока", "молоке"], "ex": "С (with) + instrumental. Neuter -о nouns add -м: с молоком.", "translation": "I drink tea with milk.", "glosses": ["чай: tea"]}, {"id": 55, "level": "A1-A2", "cat": "cases", "sub": "instrumental", "s": "Я живу с ___.", "base": "мама", "a": "мамой", "alt": [], "d": ["мама", "маму", "маме"], "ex": "С + instrumental. Feminine -а → -ой: с мамой.", "translation": "I live with my mom.", "glosses": []}, {"id": 56, "level": "A1-A2", "cat": "cases", "sub": "instrumental", "s": "Утром я гуляю с ___.", "base": "собака", "a": "собакой", "alt": [], "d": ["собака", "собаку", "собаки"], "ex": "С + instrumental: собака → собакой.", "translation": "In the morning I walk the dog.", "glosses": ["утром: in the morning", "гулять: to go for a walk"]}, {"id": 57, "level": "A1-A2", "cat": "cases", "sub": "instrumental", "s": "Я хожу в кино с ___.", "base": "друг", "a": "другом", "alt": [], "d": ["друг", "друга", "другу"], "ex": "С + instrumental. Masculine nouns add -ом: с другом.", "translation": "I go to the movies with a friend.", "glosses": []}, {"id": 58, "level": "A1-A2", "cat": "cases", "sub": "instrumental", "s": "Хочешь пойти с ___?", "base": "мы", "a": "нами", "alt": [], "d": ["нас", "нам", "мы"], "ex": "С + instrumental: мы → нами.", "translation": "Do you want to come with us?", "glosses": ["пойти: to go, set off"]}, {"id": 59, "level": "A1-A2", "cat": "cases", "sub": "pronouns", "s": "Я люблю ___.", "base": "ты", "a": "тебя", "alt": [], "d": ["тебе", "ты", "тобой"], "ex": "Любить + accusative: ты → тебя.", "translation": "I love you.", "glosses": []}, {"id": 60, "level": "A1-A2", "cat": "cases", "sub": "pronouns", "s": "Ты знаешь ___?", "base": "она", "a": "её", "alt": [], "d": ["ей", "она", "ней"], "ex": "Знать + accusative: она → её. (Ней is used only after a preposition.)", "translation": "Do you know her?", "glosses": []}, {"id": 61, "level": "A1-A2", "cat": "cases", "sub": "pronouns", "s": "Я позвоню ___ завтра.", "base": "вы", "a": "вам", "alt": [], "d": ["вас", "вы", "вами"], "ex": "Звонить/позвонить + dative: вы → вам.", "translation": "I'll call you tomorrow.", "glosses": ["завтра: tomorrow"]}, {"id": 62, "level": "A1-A2", "cat": "cases", "sub": "pronouns", "s": "Где Иван? Я не вижу ___.", "base": "он", "a": "его", "alt": [], "d": ["ему", "него", "он"], "ex": "Видеть + accusative: он → его. (Него is used only after a preposition.)", "translation": "Where's Ivan? I don't see him.", "glosses": []}, {"id": 63, "level": "A1-A2", "cat": "conjugation", "sub": "2nd conjugation", "s": "Я ___ по-русски.", "base": "говорить", "a": "говорю", "alt": [], "d": ["говору", "говорит", "говорим"], "ex": "2nd conjugation (most -ить verbs): я говорю, ты говоришь, он говорит, мы говорим, вы говорите, они говорят.", "translation": "I speak Russian.", "glosses": ["по-русски: in Russian"]}, {"id": 64, "level": "A1-A2", "cat": "conjugation", "sub": "2nd conjugation", "s": "Ты ___ по-английски?", "base": "говорить", "a": "говоришь", "alt": [], "d": ["говорешь", "говорит", "говорю"], "ex": "2nd conjugation: ты говоришь (-ишь).", "translation": "Do you speak English?", "glosses": ["по-английски: in English"]}, {"id": 65, "level": "A1-A2", "cat": "conjugation", "sub": "1st conjugation", "s": "Я ___ интересную книгу.", "base": "читать", "a": "читаю", "alt": [], "d": ["читу", "читает", "читаем"], "ex": "1st conjugation (most -ать verbs): я читаю, ты читаешь, он читает, мы читаем, вы читаете, они читают.", "translation": "I'm reading an interesting book.", "glosses": ["интересный: interesting"]}, {"id": 66, "level": "A1-A2", "cat": "conjugation", "sub": "1st conjugation", "s": "Мы ___ в банке.", "base": "работать", "a": "работаем", "alt": [], "d": ["работам", "работают", "работаю"], "ex": "1st conjugation: мы работаем (-ем).", "translation": "We work at a bank.", "glosses": []}, {"id": 67, "level": "A1-A2", "cat": "conjugation", "sub": "1st conjugation", "s": "Они часто ___ музыку.", "base": "слушать", "a": "слушают", "alt": [], "d": ["слушат", "слушаем", "слушаете"], "ex": "1st conjugation: они слушают (-ют).", "translation": "They often listen to music.", "glosses": ["слушать: to listen to"]}, {"id": 68, "level": "A1-A2", "cat": "conjugation", "sub": "1st conjugation", "s": "Что вы ___ в субботу?", "base": "делать", "a": "делаете", "alt": [], "d": ["делате", "делаем", "делают"], "ex": "1st conjugation: вы делаете (-ете).", "translation": "What are you doing on Saturday?", "glosses": ["делать: to do", "суббота: Saturday"]}, {"id": 69, "level": "A1-A2", "cat": "conjugation", "sub": "1st conjugation", "s": "Он хорошо ___ по-русски.", "base": "понимать", "a": "понимает", "alt": [], "d": ["понимат", "понимаю", "понимаешь"], "ex": "1st conjugation: он понимает (-ет).", "translation": "He understands Russian well.", "glosses": ["понимать: to understand"]}, {"id": 70, "level": "A1-A2", "cat": "conjugation", "sub": "2nd conjugation", "s": "Вечером мы ___ телевизор.", "base": "смотреть", "a": "смотрим", "alt": [], "d": ["смотрем", "смотрят", "смотрите"], "ex": "Смотреть is 2nd conjugation: мы смотрим (-им).", "translation": "In the evening we watch TV.", "glosses": []}, {"id": 71, "level": "A1-A2", "cat": "conjugation", "sub": "2nd conjugation", "s": "Они ___ в кафе.", "base": "сидеть", "a": "сидят", "alt": [], "d": ["сидют", "сидит", "сидим"], "ex": "2nd conjugation: они сидят (-ят).", "translation": "They're sitting in a café.", "glosses": ["сидеть: to sit"]}, {"id": 72, "level": "A1-A2", "cat": "conjugation", "sub": "2nd conjugation", "s": "Я очень ___ кофе.", "base": "любить", "a": "люблю", "alt": [], "d": ["любю", "любит", "любим"], "ex": "Любить: я люблю (an л is added in the я-form), ты любишь.", "translation": "I really love coffee.", "glosses": []}, {"id": 73, "level": "A1-A2", "cat": "conjugation", "sub": "2nd conjugation", "s": "Ты ещё ___?", "base": "спать", "a": "спишь", "alt": [], "d": ["спаешь", "спит", "сплю"], "ex": "Спать: я сплю, ты спишь, он спит, они спят.", "translation": "Are you still asleep?", "glosses": ["ещё: still", "спать: to sleep"]}, {"id": 74, "level": "A1-A2", "cat": "conjugation", "sub": "irregular", "s": "Я ___ в Минске.", "base": "жить", "a": "живу", "alt": [], "d": ["жиу", "живёт", "жить"], "ex": "Жить adds в: я живу, ты живёшь, он живёт, мы живём, вы живёте, они живут.", "translation": "I live in Minsk.", "glosses": []}, {"id": 75, "level": "A1-A2", "cat": "conjugation", "sub": "irregular", "s": "Где вы ___?", "base": "жить", "a": "живёте", "alt": [], "d": ["жите", "живут", "живёшь"], "ex": "Жить: вы живёте.", "translation": "Where do you live?", "glosses": []}, {"id": 76, "level": "A1-A2", "cat": "conjugation", "sub": "irregular", "s": "Я ___ чай.", "base": "хотеть", "a": "хочу", "alt": [], "d": ["хотю", "хочет", "хотим"], "ex": "Хотеть: я хочу, ты хочешь, он хочет (т → ч in the singular).", "translation": "I want tea.", "glosses": []}, {"id": 77, "level": "A1-A2", "cat": "conjugation", "sub": "irregular", "s": "Вы ___ кофе?", "base": "хотеть", "a": "хотите", "alt": [], "d": ["хочете", "хотят", "хочешь"], "ex": "Хотеть: мы хотим, вы хотите, они хотят (no ч in the plural).", "translation": "Would you like coffee?", "glosses": []}, {"id": 78, "level": "A1-A2", "cat": "conjugation", "sub": "irregular", "s": "Я не ___ мясо.", "base": "есть", "a": "ем", "alt": [], "d": ["ешь", "ест", "есть"], "ex": "Есть (to eat): я ем, ты ешь, он ест, мы едим, вы едите, они едят.", "translation": "I don't eat meat.", "glosses": ["мясо: meat"]}, {"id": 79, "level": "A1-A2", "cat": "conjugation", "sub": "irregular", "s": "Что ты ___ на обед?", "base": "есть", "a": "ешь", "alt": [], "d": ["ем", "ест", "едешь"], "ex": "Есть: ты ешь. Don't confuse it with едешь (from ехать, to ride).", "translation": "What do you eat for lunch?", "glosses": ["обед: lunch"]}, {"id": 80, "level": "A1-A2", "cat": "conjugation", "sub": "irregular", "s": "Ты ___ мне помочь?", "base": "мочь", "a": "можешь", "alt": [], "d": ["могешь", "может", "могу"], "ex": "Мочь (can): я могу, ты можешь, он может, мы можем, вы можете, они могут.", "translation": "Can you help me?", "glosses": ["помочь: to help"]}, {"id": 81, "level": "A1-A2", "cat": "conjugation", "sub": "irregular", "s": "Извините, мы не ___ прийти.", "base": "мочь", "a": "можем", "alt": [], "d": ["могем", "могут", "может"], "ex": "Мочь: мы можем.", "translation": "Sorry, we can't come.", "glosses": ["прийти: to come"]}, {"id": 82, "level": "A1-A2", "cat": "conjugation", "sub": "past tense", "s": "Вчера Иван ___ дома.", "base": "быть", "a": "был", "alt": [], "d": ["была", "было", "были"], "ex": "The past tense agrees with the subject: он был, она была, оно было, они были.", "translation": "Yesterday Ivan was at home.", "glosses": ["дома: at home"]}, {"id": 83, "level": "A1-A2", "cat": "conjugation", "sub": "past tense", "s": "Анна ___ в Москве в мае.", "base": "быть", "a": "была", "alt": [], "d": ["был", "было", "были"], "ex": "Feminine subject: была.", "translation": "Anna was in Moscow in May.", "glosses": ["май: May"]}, {"id": 84, "level": "A1-A2", "cat": "conjugation", "sub": "past tense", "s": "Мы ___ в кино в субботу.", "base": "быть", "a": "были", "alt": [], "d": ["был", "была", "было"], "ex": "Plural subjects (мы, вы, они): были.", "translation": "We were at the movies on Saturday.", "glosses": []}, {"id": 85, "level": "A1-A2", "cat": "conjugation", "sub": "past tense", "s": "Вчера ___ очень холодно.", "base": "быть", "a": "было", "alt": [], "d": ["был", "была", "были"], "ex": "Sentences with no subject (холодно, жарко) use the neuter: было.", "translation": "It was very cold yesterday.", "glosses": ["холодно: cold"]}, {"id": 86, "level": "A1-A2", "cat": "conjugation", "sub": "past tense", "s": "Маша, где ты ___ вчера?", "base": "быть", "a": "была", "alt": [], "d": ["был", "было", "были"], "ex": "Ты here is Маша, a woman, so the past tense is feminine: ты была.", "translation": "Masha, where were you yesterday?", "glosses": []}, {"id": 87, "level": "A1-A2", "cat": "conjugation", "sub": "past tense", "s": "Мама ___ вкусный суп.", "base": "готовить", "a": "готовила", "alt": [], "d": ["готовил", "готовило", "готовили"], "ex": "Feminine past: -ла. Мама готовила.", "translation": "Mom made a delicious soup.", "glosses": ["готовить: to cook", "вкусный: tasty"]}, {"id": 88, "level": "A1-A2", "cat": "conjugation", "sub": "past tense", "s": "Утром папа ___ газету.", "base": "читать", "a": "читал", "alt": [], "d": ["читала", "читали", "читало"], "ex": "Masculine past: -л. Папа читал.", "translation": "In the morning Dad read the newspaper.", "glosses": ["газета: newspaper"]}, {"id": 89, "level": "A1-A2", "cat": "conjugation", "sub": "past tense", "s": "Дети весь день ___ в парке.", "base": "играть", "a": "играли", "alt": [], "d": ["играл", "играла", "играло"], "ex": "Plural past: -ли. Дети играли.", "translation": "The kids played in the park all day.", "glosses": ["играть: to play", "весь день: all day"]}, {"id": 90, "level": "A1-A2", "cat": "conjugation", "sub": "past tense", "s": "Твоё письмо ___ вчера.", "base": "прийти", "a": "пришло", "alt": [], "d": ["пришёл", "пришла", "пришли"], "ex": "Прийти has an irregular past: пришёл, пришла, пришло, пришли. Письмо is neuter: пришло.", "translation": "Your letter arrived yesterday.", "glosses": ["прийти: to come, arrive"]}, {"id": 91, "level": "A1-A2", "cat": "conjugation", "sub": "past tense", "s": "Вчера мы ___ хороший фильм.", "base": "смотреть", "a": "смотрели", "alt": [], "d": ["смотрел", "смотрела", "смотрело"], "ex": "Мы takes the plural past: смотрели.", "translation": "Yesterday we watched a good movie.", "glosses": []}, {"id": 92, "level": "A1-A2", "cat": "motion", "sub": "идти", "s": "Сейчас я ___ домой.", "base": "идти", "a": "иду", "alt": [], "d": ["идю", "идёт", "идут"], "ex": "Идти (to go on foot): я иду, ты идёшь, он идёт, мы идём, вы идёте, они идут.", "translation": "I'm walking home now.", "glosses": ["домой: (to) home"]}, {"id": 93, "level": "A1-A2", "cat": "motion", "sub": "идти", "s": "Куда ты ___?", "base": "идти", "a": "идёшь", "alt": [], "d": ["идишь", "идёт", "иду"], "ex": "Идти: ты идёшь.", "translation": "Where are you going?", "glosses": ["куда: where to"]}, {"id": 94, "level": "A1-A2", "cat": "motion", "sub": "ехать", "s": "Мы ___ в Москву на поезде.", "base": "ехать", "a": "едем", "alt": [], "d": ["ехаем", "едут", "еду"], "ex": "Ехать (to go by vehicle): я еду, ты едешь, он едет, мы едем, вы едете, они едут.", "translation": "We're going to Moscow by train.", "glosses": ["поезд: train"]}, {"id": 95, "level": "A1-A2", "cat": "motion", "sub": "ехать", "s": "Они ___ на работу на автобусе.", "base": "ехать", "a": "едут", "alt": [], "d": ["ехают", "едем", "едет"], "ex": "Ехать: они едут.", "translation": "They're going to work by bus.", "glosses": ["автобус: bus"]}, {"id": 96, "level": "A1-A2", "cat": "motion", "sub": "идти or ехать", "s": "Он ___ в магазин пешком.", "base": "идти / ехать", "a": "идёт", "alt": [], "d": ["едет", "ехает", "идут"], "ex": "Пешком means on foot, so use идти.", "translation": "He's walking to the store.", "glosses": ["пешком: on foot", "магазин: store"]}, {"id": 97, "level": "A1-A2", "cat": "motion", "sub": "идти or ехать", "s": "Я ___ в Минск на машине.", "base": "идти / ехать", "a": "еду", "alt": [], "d": ["иду", "ехаю", "едет"], "ex": "By car, bus, or train you use ехать, not идти.", "translation": "I'm driving to Minsk.", "glosses": []}, {"id": 98, "level": "A1-A2", "cat": "motion", "sub": "идти or ехать", "s": "Завтра я ___ в Петербург.", "base": "ехать", "a": "еду", "alt": ["поеду"], "d": ["езжу", "едет", "ехал"], "ex": "The present tense of ехать can describe a planned trip: завтра я еду. (Поеду also works.)", "translation": "Tomorrow I'm going to St. Petersburg.", "glosses": []}, {"id": 99, "level": "A1-A2", "cat": "motion", "sub": "где / куда", "s": "___ ты живёшь?", "base": "где / куда", "a": "Где", "alt": [], "d": ["Куда", "Кто", "Чей"], "ex": "Где asks 'where?' (location). Куда asks 'where to?' (direction).", "translation": "Where do you live?", "glosses": []}, {"id": 100, "level": "A1-A2", "cat": "motion", "sub": "где / куда", "s": "___ ты идёшь?", "base": "где / куда", "a": "Куда", "alt": [], "d": ["Где", "Кто", "Чей"], "ex": "With motion verbs (идти, ехать) ask куда (where to).", "translation": "Where are you going?", "glosses": []}, {"id": 101, "level": "A1-A2", "cat": "motion", "sub": "где / куда", "s": "Сейчас я иду ___.", "base": "дом", "a": "домой", "alt": [], "d": ["дома", "дом", "доме"], "ex": "Домой means (to) home, with motion. Дома means at home (location).", "translation": "I'm going home now.", "glosses": []}, {"id": 102, "level": "A1-A2", "cat": "motion", "sub": "ходить", "s": "Вчера Маша ___ в театр.", "base": "ходить", "a": "ходила", "alt": [], "d": ["ходил", "ходили", "ходило"], "ex": "Ходила means went (and came back). Past tense, feminine: -ла.", "translation": "Yesterday Masha went to the theater.", "glosses": ["театр: theater"]}, {"id": 103, "level": "B1-C1", "cat": "cases", "sub": "prepositional", "s": "Я часто думаю о ___ после нашего разговора.", "base": "брат", "a": "брате", "alt": [], "d": ["брата", "брату", "братом"], "ex": "О + prepositional. Masculine hard-stem nouns take -е: о брате.", "translation": "I often think about my brother after our conversation.", "glosses": ["разговор: conversation"]}, {"id": 104, "level": "B1-C1", "cat": "cases", "sub": "prepositional", "s": "На совещании мы долго говорили о ___ компании.", "base": "будущее", "a": "будущем", "alt": [], "d": ["будущее", "будущего", "будущим"], "ex": "Будущее declines like a neuter adjective. Prepositional singular: -ем (о будущем).", "translation": "At the meeting we talked for a long time about the company's future.", "glosses": ["совещание: (work) meeting", "будущее: the future"]}, {"id": 105, "level": "B1-C1", "cat": "cases", "sub": "prepositional", "s": "Моя жена работает в ___ при университете.", "base": "лаборатория", "a": "лаборатории", "alt": [], "d": ["лаборатория", "лабораторию", "лабораторией"], "ex": "Nouns in -ия take -ии in the prepositional (and genitive, dative): в лаборатории, not *лабораторие.", "translation": "My wife works in a laboratory at the university.", "glosses": ["при: attached to"]}, {"id": 106, "level": "B1-C1", "cat": "cases", "sub": "prepositional", "s": "Прошлым летом мы отдыхали в ___.", "base": "Крым", "a": "Крыму", "alt": [], "d": ["Крыме", "Крыма", "Крымом"], "ex": "Some masculine nouns take stressed -у after в/на for location (locative): в Крыму, в лесу, в аэропорту.", "translation": "Last summer we vacationed in Crimea.", "glosses": ["отдыхать: to rest, vacation"]}, {"id": 107, "level": "B1-C1", "cat": "cases", "sub": "prepositional", "s": "Ключи от машины лежат на ___ в прихожей.", "base": "шкаф", "a": "шкафу", "alt": [], "d": ["шкафе", "шкафа", "шкафом"], "ex": "Шкаф has the locative -у after в/на: на шкафу, в шкафу (like на полу, в углу).", "translation": "The car keys are on the wardrobe in the hallway.", "glosses": ["шкаф: wardrobe, cabinet", "прихожая: entrance hall"]}, {"id": 108, "level": "B1-C1", "cat": "cases", "sub": "genitive", "s": "Извини, сегодня у меня совсем нет ___.", "base": "время", "a": "времени", "alt": [], "d": ["время", "временем", "времена"], "ex": "Нет + genitive. Neuter nouns in -мя add -ен-: время → времени (like имя → имени).", "translation": "Sorry, I have no time at all today.", "glosses": ["совсем: at all"]}, {"id": 109, "level": "B1-C1", "cat": "cases", "sub": "genitive", "s": "Это машина моего ___, он дал мне её на выходные.", "base": "дядя", "a": "дяди", "alt": [], "d": ["дяде", "дядю", "дядей"], "ex": "Possession = genitive. Masculine nouns in -я decline like feminine ones: дядя → дяди.", "translation": "This is my uncle's car; he lent it to me for the weekend.", "glosses": ["дядя: uncle", "выходные: weekend"]}, {"id": 110, "level": "B1-C1", "cat": "cases", "sub": "genitive plural", "s": "На конференции было очень много ___.", "base": "человек", "a": "людей", "alt": [], "d": ["человек", "человеков", "людях"], "ex": "After много/мало/несколько the genitive plural of человек is людей. The form человек is used only after numerals and сколько: пять человек.", "translation": "There were a lot of people at the conference.", "glosses": []}, {"id": 111, "level": "B1-C1", "cat": "cases", "sub": "genitive plural", "s": "К сожалению, в нашем районе нет хороших ___.", "base": "ресторан", "a": "ресторанов", "alt": [], "d": ["ресторанах", "рестораны", "ресторан"], "ex": "Нет + genitive plural. Masculine hard-stem nouns take -ов: ресторанов.", "translation": "Unfortunately, there are no good restaurants in our neighborhood.", "glosses": ["к сожалению: unfortunately", "район: neighborhood"]}, {"id": 112, "level": "B1-C1", "cat": "cases", "sub": "genitive plural", "s": "Купи, пожалуйста, шесть ___ для пирога.", "base": "яблоко", "a": "яблок", "alt": [], "d": ["яблоков", "яблоки", "яблока"], "ex": "After 5+ use the genitive plural. Neuter nouns in -о usually have a zero ending: яблоко → яблок.", "translation": "Please buy six apples for the pie.", "glosses": ["пирог: pie"]}, {"id": 113, "level": "B1-C1", "cat": "cases", "sub": "genitive plural", "s": "В нашем новом офисе очень мало ___.", "base": "окно", "a": "окон", "alt": [], "d": ["окнов", "окна", "окно"], "ex": "Мало + genitive plural. Neuter -о nouns take a zero ending, often with an inserted vowel: окно → окон.", "translation": "There are very few windows in our new office.", "glosses": ["мало: few, little"]}, {"id": 114, "level": "B1-C1", "cat": "cases", "sub": "genitive plural", "s": "Подожди меня, пожалуйста, мне нужно ещё пять ___.", "base": "минута", "a": "минут", "alt": [], "d": ["минуты", "минутов", "минуток"], "ex": "After пять and higher: genitive plural. Feminine -а nouns take a zero ending: минута → минут.", "translation": "Please wait for me, I need five more minutes.", "glosses": ["подождать: to wait (a while)"]}, {"id": 115, "level": "B1-C1", "cat": "cases", "sub": "genitive plural", "s": "До зарплаты ещё неделя, а у меня уже нет ___.", "base": "деньги", "a": "денег", "alt": [], "d": ["деньгов", "деньги", "деньгах"], "ex": "Деньги is plural-only. Its genitive is денег (with an inserted -е-, no -ов).", "translation": "It's still a week until payday, and I'm already out of money.", "glosses": ["зарплата: salary, pay"]}, {"id": 116, "level": "B1-C1", "cat": "cases", "sub": "genitive plural", "s": "Сколько у вас ___ отпуска в году?", "base": "неделя", "a": "недель", "alt": [], "d": ["недели", "неделей", "неделях"], "ex": "Сколько + genitive plural. Feminine nouns in -я after a consonant drop the ending and keep a soft sign: неделя → недель.", "translation": "How many weeks of vacation do you get a year?", "glosses": ["отпуск: vacation, leave"]}, {"id": 117, "level": "B1-C1", "cat": "cases", "sub": "genitive plural", "s": "В этом журнале много интересных ___ о науке.", "base": "статья", "a": "статей", "alt": [], "d": ["статьей", "статьи", "статий"], "ex": "Nouns in -ья have the genitive plural -ей: статья → статей (like семья → семей).", "translation": "There are many interesting articles about science in this magazine.", "glosses": ["журнал: magazine", "статья: article", "наука: science"]}, {"id": 118, "level": "B1-C1", "cat": "cases", "sub": "dative", "s": "Вчера вечером я позвонил ___ и рассказал про новую работу.", "base": "мама", "a": "маме", "alt": [], "d": ["мамы", "маму", "мамой"], "ex": "Звонить + dative (to call someone). Feminine -а nouns take -е: маме.", "translation": "Last night I called Mom and told her about my new job.", "glosses": ["рассказать: to tell"]}, {"id": 119, "level": "B1-C1", "cat": "cases", "sub": "dative", "s": "Этот фильм совсем не понравился ___.", "base": "мои родители", "a": "моим родителям", "alt": [], "d": ["моих родителей", "моими родителями", "мои родители"], "ex": "With нравиться, the person who likes something is in the dative. Plural: -им (possessive/adjective) + -ям/-ам (noun).", "translation": "My parents didn't like this movie at all.", "glosses": []}, {"id": 120, "level": "B1-C1", "cat": "cases", "sub": "dative", "s": "По вечерам я люблю гулять по ___.", "base": "набережная", "a": "набережной", "alt": [], "d": ["набережную", "набережная", "набережном"], "ex": "По (along, around) + dative. Набережная declines like a feminine adjective: dative -ой.", "translation": "In the evenings I like to walk along the embankment.", "glosses": ["набережная: embankment, waterfront"]}, {"id": 121, "level": "B1-C1", "cat": "cases", "sub": "dative", "s": "___ нужно уехать с работы пораньше.", "base": "Анна", "a": "Анне", "alt": [], "d": ["Анна", "Анну", "Анны"], "ex": "In impersonal constructions with нужно/надо/можно, the person goes in the dative: Анне нужно.", "translation": "Anna needs to leave work early.", "glosses": ["пораньше: a bit earlier"]}, {"id": 122, "level": "B1-C1", "cat": "cases", "sub": "instrumental", "s": "Мой муж уже десять лет работает ___.", "base": "инженер", "a": "инженером", "alt": [], "d": ["инженер", "инженера", "инженеру"], "ex": "Работать + instrumental for a profession: работать инженером, врачом.", "translation": "My husband has worked as an engineer for ten years.", "glosses": []}, {"id": 123, "level": "B1-C1", "cat": "cases", "sub": "instrumental", "s": "С детства я интересуюсь ___ Древнего Рима.", "base": "история", "a": "историей", "alt": [], "d": ["историю", "истории", "история"], "ex": "Интересоваться + instrumental. Feminine -ия → -ией.", "translation": "I've been interested in the history of Ancient Rome since childhood.", "glosses": ["с детства: since childhood", "интересоваться: to be interested in"]}, {"id": 124, "level": "B1-C1", "cat": "cases", "sub": "instrumental", "s": "Мы очень гордимся нашими ___.", "base": "дочь", "a": "дочерьми", "alt": ["дочерями"], "d": ["дочерям", "дочерей", "дочери"], "ex": "Гордиться + instrumental. Дочь has an irregular plural stem дочер-; the literary instrumental plural is дочерьми (дочерями is colloquial).", "translation": "We are very proud of our daughters.", "glosses": ["гордиться: to be proud of"]}, {"id": 125, "level": "B1-C1", "cat": "cases", "sub": "instrumental", "s": "Вчера я встретился с ___ в кафе.", "base": "бывший коллега", "a": "бывшим коллегой", "alt": [], "d": ["бывшего коллегу", "бывшему коллеге", "бывших коллег"], "ex": "С (with) + instrumental. Коллега declines like a feminine noun (-ой), but its adjective is masculine when it refers to a man: бывшим.", "translation": "Yesterday I met up with a former colleague at a café.", "glosses": ["бывший: former", "встретиться с: to meet up with"]}, {"id": 126, "level": "B1-C1", "cat": "cases", "sub": "accusative", "s": "В субботу я случайно увидел ___ в торговом центре.", "base": "твой брат", "a": "твоего брата", "alt": [], "d": ["твой брат", "твоему брату", "твоим братом"], "ex": "Accusative animate masculine = genitive form: твоего брата.", "translation": "On Saturday I happened to see your brother at the mall.", "glosses": ["случайно: by chance", "торговый центр: shopping mall"]}, {"id": 127, "level": "B1-C1", "cat": "cases", "sub": "accusative", "s": "Мы наконец купили ___ на кухню.", "base": "новый стол", "a": "новый стол", "alt": [], "d": ["нового стола", "новым столом", "новому столу"], "ex": "Accusative inanimate masculine = nominative form: новый стол. Only animate nouns change.", "translation": "We finally bought a new table for the kitchen.", "glosses": ["наконец: finally", "кухня: kitchen"]}, {"id": 128, "level": "B1-C1", "cat": "cases", "sub": "accusative", "s": "На Новый год мы пригласили ___ на ужин.", "base": "наши коллеги", "a": "наших коллег", "alt": [], "d": ["наши коллеги", "нашим коллегам", "нашими коллегами"], "ex": "Animate plural nouns (any gender) have accusative = genitive: наших коллег.", "translation": "For New Year's we invited our colleagues to dinner.", "glosses": ["пригласить: to invite"]}, {"id": 129, "level": "B1-C1", "cat": "cases", "sub": "accusative", "s": "Я очень люблю ___ девятнадцатого века.", "base": "русская литература", "a": "русскую литературу", "alt": [], "d": ["русская литература", "русской литературы", "русской литературе"], "ex": "Feminine accusative: adjective -ую, noun -у. Animacy doesn't matter in the feminine singular.", "translation": "I really love nineteenth-century Russian literature.", "glosses": ["век: century"]}, {"id": 130, "level": "B1-C1", "cat": "cases", "sub": "accusative", "s": "В прошлом месяце мы наняли ___ английского.", "base": "новый преподаватель", "a": "нового преподавателя", "alt": [], "d": ["новый преподаватель", "новому преподавателю", "новым преподавателем"], "ex": "Accusative animate masculine = genitive: soft-stem -тель → -теля, adjective -ого.", "translation": "Last month we hired a new English teacher.", "glosses": ["нанять: to hire", "преподаватель: teacher, instructor"]}, {"id": 131, "level": "B1-C1", "cat": "cases", "sub": "numerals", "s": "В нашей группе только два ___ из Москвы.", "base": "студент", "a": "студента", "alt": [], "d": ["студентов", "студенты", "студент"], "ex": "After 2, 3, 4 (два, три, четыре): genitive singular: два студента.", "translation": "There are only two students from Moscow in our group.", "glosses": []}, {"id": 132, "level": "B1-C1", "cat": "cases", "sub": "numerals", "s": "Я прожил в Новосибирске три ___.", "base": "год", "a": "года", "alt": [], "d": ["лет", "годов", "год"], "ex": "After 2–4: genitive singular года. After 5+ the form is лет: пять лет.", "translation": "I lived in Novosibirsk for three years.", "glosses": ["прожить: to live (for a period)"]}, {"id": 133, "level": "B1-C1", "cat": "cases", "sub": "numerals", "s": "Билет на автобус стоит пятьдесят ___.", "base": "рубль", "a": "рублей", "alt": [], "d": ["рубля", "рубли", "рублев"], "ex": "After 5–20 and round tens: genitive plural. Soft-stem masculine -ь → -ей: рублей.", "translation": "A bus ticket costs fifty rubles.", "glosses": ["билет: ticket", "стоить: to cost"]}, {"id": 134, "level": "B1-C1", "cat": "cases", "sub": "numerals", "s": "Моей сестре в мае исполнился двадцать один ___.", "base": "год", "a": "год", "alt": [], "d": ["года", "лет", "году"], "ex": "Compound numerals ending in один take the nominative singular: двадцать один год.", "translation": "My sister turned twenty-one in May.", "glosses": ["исполниться: to turn (an age)"]}, {"id": 135, "level": "B1-C1", "cat": "cases", "sub": "numerals", "s": "На столе лежат две ___ на английском.", "base": "книга", "a": "книги", "alt": [], "d": ["книг", "книга", "книгу"], "ex": "After две/три/четыре: genitive singular. Note две (feminine) instead of два.", "translation": "There are two books in English on the table.", "glosses": []}, {"id": 136, "level": "B1-C1", "cat": "cases", "sub": "numerals", "s": "В отделе продаж работают двадцать два ___.", "base": "сотрудник", "a": "сотрудника", "alt": [], "d": ["сотрудников", "сотрудники", "сотрудник"], "ex": "The last word of the numeral decides: ...два → genitive singular сотрудника.", "translation": "Twenty-two employees work in the sales department.", "glosses": ["отдел продаж: sales department", "сотрудник: employee"]}, {"id": 137, "level": "B1-C1", "cat": "cases", "sub": "numerals", "s": "У меня два ___ и младшая сестра.", "base": "старший брат", "a": "старших брата", "alt": [], "d": ["старшие брата", "старшего брата", "старших братьев"], "ex": "With 2–4 and masculine nouns, the noun is genitive singular but the adjective is genitive plural: два старших брата.", "translation": "I have two older brothers and a younger sister.", "glosses": ["старший: older", "младший: younger"]}, {"id": 138, "level": "B1-C1", "cat": "cases", "sub": "numerals", "s": "На встрече мы говорили о пяти новых ___.", "base": "проект", "a": "проектах", "alt": [], "d": ["проектов", "проекта", "проектам"], "ex": "In oblique cases the numeral and the noun agree in case: о пяти проектах (prepositional plural).", "translation": "At the meeting we talked about five new projects.", "glosses": ["встреча: meeting"]}, {"id": 139, "level": "B1-C1", "cat": "conjugation", "sub": "irregular", "s": "Я ___ поехать в отпуск в июле.", "base": "хотеть", "a": "хочу", "alt": [], "d": ["хотю", "хочет", "хотим"], "ex": "Хотеть is mixed: singular like 1st conj with т→ч (хочу, хочешь, хочет), plural like 2nd conj (хотим, хотите, хотят).", "translation": "I want to go on vacation in July.", "glosses": ["отпуск: vacation"]}, {"id": 140, "level": "B1-C1", "cat": "conjugation", "sub": "irregular", "s": "Мы ___ заказать столик на четверых.", "base": "хотеть", "a": "хотим", "alt": [], "d": ["хочем", "хотят", "хотите"], "ex": "Хотеть: the plural uses the 2nd-conjugation pattern with no т→ч change: хотим, хотите, хотят.", "translation": "We'd like to book a table for four.", "glosses": ["заказать столик: to reserve a table"]}, {"id": 141, "level": "B1-C1", "cat": "conjugation", "sub": "irregular", "s": "Что вы обычно ___ на завтрак?", "base": "есть", "a": "едите", "alt": [], "d": ["есте", "ест", "едят"], "ex": "Есть (to eat) is irregular: ем, ешь, ест, едим, едите, едят.", "translation": "What do you usually eat for breakfast?", "glosses": ["обычно: usually", "завтрак: breakfast"]}, {"id": 142, "level": "B1-C1", "cat": "conjugation", "sub": "irregular", "s": "Он редко ходит в рестораны, обычно он ___ дома.", "base": "есть", "a": "ест", "alt": [], "d": ["едет", "ешь", "естит"], "ex": "Есть: он ест. Don't confuse it with едет (from ехать, to go by vehicle).", "translation": "He rarely goes to restaurants; he usually eats at home.", "glosses": ["редко: rarely"]}, {"id": 143, "level": "B1-C1", "cat": "conjugation", "sub": "irregular", "s": "Я ___ тебе знать завтра утром.", "base": "дать", "a": "дам", "alt": [], "d": ["дадю", "даст", "дадим"], "ex": "Дать is irregular: дам, дашь, даст, дадим, дадите, дадут.", "translation": "I'll let you know tomorrow morning.", "glosses": ["дать знать: to let (someone) know"]}, {"id": 144, "level": "B1-C1", "cat": "conjugation", "sub": "irregular", "s": "Надеюсь, они ___ нам ответ в понедельник.", "base": "дать", "a": "дадут", "alt": [], "d": ["дадят", "дадит", "дат"], "ex": "Дать (perfective, future meaning): они дадут.", "translation": "I hope they'll give us an answer on Monday.", "glosses": ["надеяться: to hope"]}, {"id": 145, "level": "B1-C1", "cat": "conjugation", "sub": "stem change", "s": "Ты уже ___ отчёт за квартал?", "base": "писать", "a": "пишешь", "alt": [], "d": ["писаешь", "пишет", "пишишь"], "ex": "Писать: с→ш in every form, 1st-conjugation endings: пишу, пишешь, пишет.", "translation": "Are you already writing the quarterly report?", "glosses": ["отчёт: report", "квартал: quarter"]}, {"id": 146, "level": "B1-C1", "cat": "conjugation", "sub": "stem change", "s": "Она ___ прийти только после шести.", "base": "мочь", "a": "может", "alt": [], "d": ["можит", "мочет", "могет"], "ex": "Мочь: г in я/они (могу, могут), ж in the other forms (можешь, может, можем, можете).", "translation": "She can only come after six.", "glosses": []}, {"id": 147, "level": "B1-C1", "cat": "conjugation", "sub": "stem change", "s": "Я никак не ___ найти ключи от квартиры.", "base": "мочь", "a": "могу", "alt": [], "d": ["можу", "мочу", "может"], "ex": "Мочь: я могу, они могут. The ж only appears in the ты/он/мы/вы forms.", "translation": "I just can't find my apartment keys.", "glosses": ["никак не: just can't, in no way"]}, {"id": 148, "level": "B1-C1", "cat": "conjugation", "sub": "2nd conjugation", "s": "Мы почти всегда ___ картой.", "base": "платить", "a": "платим", "alt": [], "d": ["платем", "плачим", "платят"], "ex": "Платить is 2nd conj (-им, -ите, -ят). The т→ч change happens only in the я-form: плачу, платишь, платим.", "translation": "We almost always pay by card.", "glosses": []}, {"id": 149, "level": "B1-C1", "cat": "conjugation", "sub": "2nd conjugation", "s": "Сегодня я ___ за ужин, ты платил в прошлый раз.", "base": "платить", "a": "плачу", "alt": [], "d": ["платю", "плачю", "платит"], "ex": "2nd-conj verbs in -тить change т→ч only in the я-form: плачу. After ч write у, never ю.", "translation": "Today I'm paying for dinner; you paid last time.", "glosses": ["в прошлый раз: last time"]}, {"id": 150, "level": "B1-C1", "cat": "conjugation", "sub": "2nd conjugation", "s": "Я ___ работать по утрам, пока все спят.", "base": "любить", "a": "люблю", "alt": [], "d": ["любю", "любит", "любью"], "ex": "Labial stems (б, п, в, м, ф) add л in the я-form of 2nd-conj verbs: люблю, любишь.", "translation": "I like to work in the mornings while everyone is asleep.", "glosses": ["пока: while"]}, {"id": 151, "level": "B1-C1", "cat": "conjugation", "sub": "stem change", "s": "Он уже давно ___ в Петербурге.", "base": "жить", "a": "живёт", "alt": [], "d": ["жит", "живит", "живут"], "ex": "Жить adds в to the stem: живу, живёшь, живёт, живут.", "translation": "He has lived in St. Petersburg for a long time.", "glosses": ["давно: for a long time"]}, {"id": 152, "level": "B1-C1", "cat": "conjugation", "sub": "stem change", "s": "Что ты обычно ___ по утрам: чай или кофе?", "base": "пить", "a": "пьёшь", "alt": [], "d": ["пиешь", "пьёт", "пишь"], "ex": "Пить: the stem becomes пь-: пью, пьёшь, пьёт, пьём, пьёте, пьют (the same goes for бить, лить, шить).", "translation": "What do you usually drink in the morning: tea or coffee?", "glosses": []}, {"id": 153, "level": "B1-C1", "cat": "conjugation", "sub": "stem change", "s": "Я обычно ___ в семь, даже по выходным.", "base": "вставать", "a": "встаю", "alt": [], "d": ["вставаю", "встаёт", "вставу"], "ex": "Verbs in -авать (вставать, давать, узнавать) drop -ва- in the present: встаю, встаёшь.", "translation": "I usually get up at seven, even on weekends.", "glosses": ["вставать: to get up"]}, {"id": 154, "level": "B1-C1", "cat": "conjugation", "sub": "1st conjugation", "s": "Я ___ тебя у главного входа.", "base": "ждать", "a": "жду", "alt": [], "d": ["ждаю", "ждю", "ждёт"], "ex": "Ждать drops the -а-: жду, ждёшь, ждёт, ждут.", "translation": "I'll be waiting for you at the main entrance.", "glosses": ["главный вход: main entrance"]}, {"id": 155, "level": "B1-C1", "cat": "conjugation", "sub": "stem change", "s": "Они ___ эту конференцию каждый год.", "base": "организовать", "a": "организуют", "alt": [], "d": ["организовают", "организовуют", "организуются"], "ex": "Verbs in -овать/-евать change the suffix to -у-: организую, организуешь, организуют.", "translation": "They organize this conference every year.", "glosses": []}, {"id": 156, "level": "B1-C1", "cat": "conjugation", "sub": "2nd conjugation", "s": "Ты ___ ту вывеску на углу?", "base": "видеть", "a": "видишь", "alt": [], "d": ["видешь", "видит", "вижешь"], "ex": "Видеть is 2nd conj: вижу (д→ж only in the я-form), видишь, видит.", "translation": "Do you see that sign on the corner?", "glosses": ["вывеска: sign (on a building)", "угол: corner"]}, {"id": 157, "level": "B1-C1", "cat": "conjugation", "sub": "2nd conjugation", "s": "Сегодня я весь день ___ на совещаниях.", "base": "сидеть", "a": "сижу", "alt": [], "d": ["сидю", "сидит", "сяду"], "ex": "Сидеть: д→ж in the я-form only: сижу, сидишь. Сяду comes from a different verb (сесть, to sit down).", "translation": "Today I'm stuck in meetings all day.", "glosses": ["совещание: (work) meeting"]}, {"id": 158, "level": "B1-C1", "cat": "conjugation", "sub": "irregular", "s": "Смотри, они ___ на поезд!", "base": "бежать", "a": "бегут", "alt": [], "d": ["бежат", "бежут", "бегят"], "ex": "Бежать is mixed: бегу, бежишь, бежит, бежим, бежите, бегут (г in я and они).", "translation": "Look, they're running for the train!", "glosses": ["бежать: to run"]}, {"id": 159, "level": "B1-C1", "cat": "conjugation", "sub": "stem change", "s": "Он всегда ___ такси до аэропорта.", "base": "брать", "a": "берёт", "alt": [], "d": ["брает", "берит", "бирёт"], "ex": "Брать inserts е: беру, берёшь, берёт, берут.", "translation": "He always takes a taxi to the airport.", "glosses": []}, {"id": 160, "level": "B1-C1", "cat": "conjugation", "sub": "stem change", "s": "Как вы ___ такой вкусный пирог?", "base": "печь", "a": "печёте", "alt": [], "d": ["пекёте", "пекете", "печите"], "ex": "Печь alternates к/ч: пеку, печёшь, печёт, печём, печёте, пекут (к in я and они only).", "translation": "How do you bake such a delicious pie?", "glosses": ["печь: to bake", "пирог: pie"]}, {"id": 161, "level": "B1-C1", "cat": "aspect", "sub": "process vs result", "s": "Вчера я весь вечер ___ этот отчёт.", "base": "читать / прочитать", "a": "читал", "alt": [], "d": ["прочитал", "прочитаю", "читаю"], "ex": "A duration (весь вечер) points to the process, so use the imperfective: читал.", "translation": "Yesterday I spent the whole evening reading this report.", "glosses": ["отчёт: report"]}, {"id": 162, "level": "B1-C1", "cat": "aspect", "sub": "process vs result", "s": "Я уже ___ письмо, можешь проверить?", "base": "писать / написать", "a": "написал", "alt": [], "d": ["писал", "напишу", "пишу"], "ex": "A finished result that matters now (уже, ready to check) takes the perfective: написал.", "translation": "I've already written the letter; can you check it?", "glosses": ["проверить: to check"]}, {"id": 163, "level": "B1-C1", "cat": "aspect", "sub": "repeated action", "s": "Каждое утро он ___ кофе по дороге на работу.", "base": "покупать / купить", "a": "покупает", "alt": [], "d": ["купит", "купил", "купает"], "ex": "Regular repeated actions (каждое утро) take the imperfective: покупает.", "translation": "Every morning he buys coffee on his way to work.", "glosses": ["по дороге: on the way"]}, {"id": 164, "level": "B1-C1", "cat": "aspect", "sub": "imperative", "s": "Пожалуйста, не ___ окно, здесь очень душно.", "base": "закрывать / закрыть", "a": "закрывайте", "alt": ["закрывай"], "d": ["закройте", "закрываете", "закрыть"], "ex": "A negative request (не + imperative) normally uses the imperfective: не закрывайте. Не + perfective imperative is only for warnings (не упади!).", "translation": "Please don't close the window, it's very stuffy in here.", "glosses": ["душно: stuffy"]}, {"id": 165, "level": "B1-C1", "cat": "aspect", "sub": "future", "s": "Когда я ___ проект, я возьму отпуск.", "base": "заканчивать / закончить", "a": "закончу", "alt": [], "d": ["заканчиваю", "закончил", "заканчивал"], "ex": "A one-time action that must finish before another future action takes the perfective future: когда закончу, возьму.", "translation": "When I finish the project, I'll take a vacation.", "glosses": ["взять отпуск: to take time off"]}, {"id": 166, "level": "B1-C1", "cat": "aspect", "sub": "future", "s": "Я ___ тебе, как только приземлюсь.", "base": "звонить / позвонить", "a": "позвоню", "alt": [], "d": ["звоню", "звонил", "позвонил"], "ex": "A single future action with a result takes the perfective future: позвоню.", "translation": "I'll call you as soon as I land.", "glosses": ["как только: as soon as", "приземлиться: to land"]}, {"id": 167, "level": "B1-C1", "cat": "aspect", "sub": "process vs result", "s": "Он долго ___ эту задачу, но так и не смог.", "base": "решать / решить", "a": "решал", "alt": [], "d": ["решил", "решит", "решу"], "ex": "An attempt with no result (долго, так и не смог) takes the imperfective: решал.", "translation": "He worked on this problem for a long time but never managed to solve it.", "glosses": ["задача: problem, task", "так и не: never (in the end)"]}, {"id": 168, "level": "B1-C1", "cat": "aspect", "sub": "infinitive", "s": "В прошлом году я начал ___ китайский.", "base": "учить / выучить", "a": "учить", "alt": [], "d": ["выучить", "учу", "выучил"], "ex": "After начать, продолжать, закончить, перестать the infinitive is always imperfective.", "translation": "Last year I started learning Chinese.", "glosses": []}, {"id": 169, "level": "B1-C1", "cat": "aspect", "sub": "infinitive", "s": "Мне удалось ___ экзамен с первого раза.", "base": "сдавать / сдать", "a": "сдать", "alt": [], "d": ["сдавать", "сдал", "сдаю"], "ex": "Удалось means the result was achieved, so use the perfective: сдать. (Сдавать экзамен = take; сдать = pass.)", "translation": "I managed to pass the exam on the first try.", "glosses": ["удалось: managed to", "с первого раза: on the first try"]}, {"id": 170, "level": "B1-C1", "cat": "aspect", "sub": "infinitive", "s": "Не надо ___ хлеб, у нас ещё есть.", "base": "покупать / купить", "a": "покупать", "alt": [], "d": ["купить", "купи", "покупаю"], "ex": "Не надо/не нужно (no need to) + imperfective infinitive: не надо покупать.", "translation": "No need to buy bread, we still have some.", "glosses": []}, {"id": 171, "level": "B1-C1", "cat": "aspect", "sub": "repeated action", "s": "Я обычно ___ рано, но сегодня проспал.", "base": "вставать / встать", "a": "встаю", "alt": [], "d": ["встану", "встал", "вставай"], "ex": "Обычно marks a habit, so use the imperfective present: встаю.", "translation": "I usually get up early, but today I overslept.", "glosses": ["проспать: to oversleep"]}, {"id": 172, "level": "B1-C1", "cat": "aspect", "sub": "annulled action", "s": "Пока тебя не было, к тебе ___ какой-то мужчина, но он уже ушёл.", "base": "приходить / прийти", "a": "приходил", "alt": [], "d": ["пришёл", "придёт", "приходит"], "ex": "For a round trip whose result is gone (he came and left), use the imperfective past: приходил. Пришёл would mean he is still here.", "translation": "While you were out, some man came by to see you, but he's already left.", "glosses": ["какой-то: some (unknown)"]}, {"id": 173, "level": "B1-C1", "cat": "aspect", "sub": "future", "s": "Можно я ___ твою ручку на минутку?", "base": "брать / взять", "a": "возьму", "alt": [], "d": ["беру", "взял", "брал"], "ex": "A one-time request about the immediate future takes the perfective: возьму (from взять).", "translation": "Can I borrow your pen for a minute?", "glosses": ["ручка: pen"]}, {"id": 174, "level": "B1-C1", "cat": "aspect", "sub": "repeated action", "s": "Каждый раз, когда он ___, мы ходим в театр.", "base": "приезжать / приехать", "a": "приезжает", "alt": [], "d": ["приедет", "приехал", "приезжать"], "ex": "Каждый раз, когда... describes a repeated situation, so use the imperfective: приезжает.", "translation": "Every time he comes to visit, we go to the theater.", "glosses": ["каждый раз: every time"]}, {"id": 175, "level": "B1-C1", "cat": "motion", "sub": "идти / ходить", "s": "Сейчас я ___ в магазин, тебе что-нибудь купить?", "base": "идти / ходить", "a": "иду", "alt": [], "d": ["хожу", "шёл", "ходил"], "ex": "One direction, right now: use the unidirectional verb: иду.", "translation": "I'm heading to the store now; do you want me to get you anything?", "glosses": []}, {"id": 176, "level": "B1-C1", "cat": "motion", "sub": "идти / ходить", "s": "Каждую субботу мы ___ в бассейн.", "base": "идти / ходить", "a": "ходим", "alt": [], "d": ["идём", "шли", "идут"], "ex": "Regular trips there and back: use the multidirectional verb: ходим.", "translation": "Every Saturday we go to the pool.", "glosses": ["бассейн: swimming pool"]}, {"id": 177, "level": "B1-C1", "cat": "motion", "sub": "идти / ходить", "s": "Вчера я ___ в кино на новый фильм.", "base": "идти / ходить", "a": "ходил", "alt": [], "d": ["шёл", "иду", "хожу"], "ex": "A completed round trip in the past (went and came back) takes the multidirectional verb: ходил.", "translation": "Yesterday I went to the movies to see a new film.", "glosses": []}, {"id": 178, "level": "B1-C1", "cat": "motion", "sub": "идти / ходить", "s": "Мой сын уже ___, хотя ему всего год.", "base": "идти / ходить", "a": "ходит", "alt": [], "d": ["идёт", "шёл", "ходят"], "ex": "Ability, or movement in general, takes the multidirectional verb: ходит (he can walk).", "translation": "My son is already walking, even though he's only one.", "glosses": ["хотя: although", "всего: only"]}, {"id": 179, "level": "B1-C1", "cat": "motion", "sub": "идти / ходить", "s": "Смотри, вон ___ наш автобус!", "base": "идти / ходить", "a": "идёт", "alt": [], "d": ["ходит", "шёл", "идут"], "ex": "A specific bus coming right now, in one direction: идёт. Buses and trains 'walk' with идти/ходить.", "translation": "Look, there's our bus coming!", "glosses": ["вон: over there"]}, {"id": 180, "level": "B1-C1", "cat": "motion", "sub": "ехать / ездить", "s": "Завтра мы ___ в Казань на поезде.", "base": "ехать / ездить", "a": "едем", "alt": ["поедем"], "d": ["ездим", "ездили", "ехали"], "ex": "The present of a unidirectional verb can describe a planned future trip: завтра едем.", "translation": "Tomorrow we're going to Kazan by train.", "glosses": []}, {"id": 181, "level": "B1-C1", "cat": "motion", "sub": "ехать / ездить", "s": "Прошлым летом мы ___ на море, было чудесно.", "base": "ехать / ездить", "a": "ездили", "alt": [], "d": ["ехали", "едем", "ездим"], "ex": "A completed past trip there and back takes the multidirectional verb: ездили.", "translation": "Last summer we went to the seaside; it was wonderful.", "glosses": ["море: sea", "чудесно: wonderful"]}, {"id": 182, "level": "B1-C1", "cat": "motion", "sub": "ехать / ездить", "s": "Когда я ___ на работу, я увидел аварию.", "base": "ехать / ездить", "a": "ехал", "alt": [], "d": ["ездил", "еду", "езжу"], "ex": "Background action in progress, in one direction, takes the unidirectional verb: ехал.", "translation": "While I was driving to work, I saw an accident.", "glosses": ["авария: accident, crash"]}, {"id": 183, "level": "B1-C1", "cat": "motion", "sub": "ехать / ездить", "s": "Сколько времени ___ до аэропорта на такси?", "base": "ехать / ездить", "a": "ехать", "alt": [], "d": ["ездить", "едет", "ездит"], "ex": "A single trip in one direction (how long does it take to get there): ехать.", "translation": "How long does it take to get to the airport by taxi?", "glosses": []}, {"id": 184, "level": "B1-C1", "cat": "motion", "sub": "other pairs", "s": "Помоги мне, пожалуйста, я ___ очень тяжёлую сумку.", "base": "нести / носить", "a": "несу", "alt": [], "d": ["ношу", "нёс", "носил"], "ex": "Carrying something right now in one direction takes the unidirectional verb: несу.", "translation": "Please help me, I'm carrying a very heavy bag.", "glosses": ["тяжёлый: heavy"]}, {"id": 185, "level": "B1-C1", "cat": "motion", "sub": "other pairs", "s": "Он ___ машину уже двадцать лет.", "base": "вести / водить", "a": "водит", "alt": [], "d": ["ведёт", "везёт", "возит"], "ex": "A skill or habit (knowing how to drive) takes the multidirectional verb: водит машину.", "translation": "He has been driving for twenty years.", "glosses": ["водить машину: to drive a car"]}, {"id": 186, "level": "B1-C1", "cat": "motion", "sub": "other pairs", "s": "Мы ___ в Сочи, когда началась турбулентность.", "base": "лететь / летать", "a": "летели", "alt": [], "d": ["летали", "летим", "летаем"], "ex": "An action in progress in one direction, interrupted by an event: летели.", "translation": "We were flying to Sochi when the turbulence started.", "glosses": []}, {"id": 187, "level": "B1-C1", "cat": "motion", "sub": "prefixed", "s": "Он ___ из офиса в шесть и пошёл домой.", "base": "prefix + йти: went out", "a": "вышел", "alt": [], "d": ["вошёл", "пришёл", "зашёл"], "ex": "Вы- means out of: выйти из офиса. В- is into, при- is arrival, за- is a short stop.", "translation": "He left the office at six and went home.", "glosses": []}, {"id": 188, "level": "B1-C1", "cat": "motion", "sub": "prefixed", "s": "По дороге домой я ___ в аптеку.", "base": "prefix + йти: stopped by", "a": "зашёл", "alt": [], "d": ["вышел", "пришёл", "перешёл"], "ex": "За- means dropping in briefly on the way: зайти в аптеку.", "translation": "On my way home I stopped by the pharmacy.", "glosses": ["аптека: pharmacy"]}, {"id": 189, "level": "B1-C1", "cat": "motion", "sub": "prefixed", "s": "Чтобы попасть в музей, нужно ___ через мост.", "base": "prefix + йти: cross", "a": "перейти", "alt": [], "d": ["выйти", "прийти", "уйти"], "ex": "Пере- means across: перейти через мост, перейти улицу.", "translation": "To get to the museum, you need to cross the bridge.", "glosses": ["попасть: to get to", "мост: bridge"]}, {"id": 190, "level": "B1-C1", "cat": "motion", "sub": "prefixed", "s": "Наш самолёт ___ в семь утра, так что в аэропорту надо быть в пять.", "base": "prefix + летать: departs", "a": "вылетает", "alt": ["улетает"], "d": ["прилетает", "долетает", "залетает"], "ex": "Вы- + летать means to take off or depart: самолёт вылетает в семь. При- means arrive, до- means reach, за- means fly in briefly.", "translation": "Our plane leaves at seven in the morning, so we need to be at the airport at five.", "glosses": ["самолёт: plane"]}, {"id": 191, "level": "B1-C1", "cat": "motion", "sub": "prefixed", "s": "Мой коллега ___ в командировку в Самару.", "base": "уйти / уехать", "a": "уехал", "alt": [], "d": ["ушёл", "уходит", "уехала"], "ex": "Travel to another city uses ехать-based verbs: уехать в командировку. Уехала would need a female subject.", "translation": "My colleague went on a business trip to Samara.", "glosses": ["командировка: business trip"]}], "vocab": [{"ru": "магазин", "en": "store", "theme": "At the grocery store", "pos": "noun", "g": "m", "kind": "place", "pp": "в"}, {"ru": "хлеб", "en": "bread", "theme": "At the grocery store", "pos": "noun", "g": "m", "kind": "food", "mass": true, "forms": {"npl": "хлеба", "gpl": "хлебов"}}, {"ru": "молоко", "en": "milk", "theme": "At the grocery store", "pos": "noun", "g": "n", "kind": "food", "mass": true}, {"ru": "мясо", "en": "meat", "theme": "At the grocery store", "pos": "noun", "g": "n", "kind": "food", "mass": true}, {"ru": "рыба", "en": "fish", "theme": "At the grocery store", "pos": "noun", "g": "f", "kind": "food", "enp": "fish"}, {"ru": "сыр", "en": "cheese", "theme": "At the grocery store", "pos": "noun", "g": "m", "kind": "food", "mass": true}, {"ru": "масло", "en": "butter, oil", "theme": "At the grocery store", "pos": "noun", "g": "n", "kind": "food", "mass": true}, {"ru": "колбаса", "en": "sausage", "theme": "At the grocery store", "pos": "noun", "g": "f", "kind": "food", "mass": true}, {"ru": "яйцо", "en": "egg", "theme": "At the grocery store", "pos": "noun", "g": "n", "kind": "food", "es": true, "forms": {"gpl": "яиц"}}, {"ru": "яблоко", "en": "apple", "theme": "At the grocery store", "pos": "noun", "g": "n", "kind": "food", "forms": {"npl": "яблоки"}}, {"ru": "банан", "en": "banana", "theme": "At the grocery store", "pos": "noun", "g": "m", "kind": "food"}, {"ru": "помидор", "en": "tomato", "theme": "At the grocery store", "pos": "noun", "g": "m", "kind": "food", "enp": "tomatoes"}, {"ru": "огурец", "en": "cucumber", "theme": "At the grocery store", "pos": "noun", "g": "m", "kind": "food", "fleet": true, "es": true}, {"ru": "картошка", "en": "potatoes", "theme": "At the grocery store", "pos": "noun", "g": "f", "kind": "food", "mass": true}, {"ru": "лук", "en": "onion", "theme": "At the grocery store", "pos": "noun", "g": "m", "kind": "food", "mass": true}, {"ru": "сахар", "en": "sugar", "theme": "At the grocery store", "pos": "noun", "g": "m", "kind": "food", "mass": true}, {"ru": "вода", "en": "water", "theme": "At the grocery store", "pos": "noun", "g": "f", "kind": "food", "mass": true}, {"ru": "сок", "en": "juice", "theme": "At the grocery store", "pos": "noun", "g": "m", "kind": "food", "mass": true}, {"ru": "пакет", "en": "bag (plastic)", "theme": "At the grocery store", "pos": "noun", "g": "m", "kind": "thing"}, {"ru": "бутылка", "en": "bottle", "theme": "At the grocery store", "pos": "noun", "g": "f", "kind": "thing", "forms": {"gpl": "бутылок"}}, {"ru": "килограмм", "en": "kilogram", "theme": "At the grocery store", "pos": "noun", "g": "m", "kind": "unit", "gplAlt": "килограмм"}, {"ru": "свежий", "en": "fresh", "theme": "At the grocery store", "pos": "adj"}, {"ru": "купить", "en": "to buy", "theme": "At the grocery store", "pos": "verb"}, {"ru": "Где можно найти…?", "en": "Where can I find…?", "theme": "At the grocery store", "pos": "phrase"}, {"ru": "касса", "en": "checkout, till", "theme": "At the checkout", "pos": "noun", "g": "f", "kind": "place", "pp": "на"}, {"ru": "кассир", "en": "cashier", "theme": "At the checkout", "pos": "noun", "g": "m", "kind": "person", "anim": true}, {"ru": "чек", "en": "receipt", "theme": "At the checkout", "pos": "noun", "g": "m", "kind": "thing"}, {"ru": "сдача", "en": "change (money back)", "theme": "At the checkout", "pos": "noun", "g": "f", "kind": "thing", "mass": true}, {"ru": "карта", "en": "card", "theme": "At the checkout", "pos": "noun", "g": "f", "kind": "thing"}, {"ru": "деньги", "en": "money", "theme": "At the checkout", "pos": "noun", "g": "pl", "kind": "thing", "forms": {"gen": "денег", "dat": "деньгам", "acc": "деньги", "ins": "деньгами", "prep": "деньгах", "gpl": "денег"}}, {"ru": "скидка", "en": "discount", "theme": "At the checkout", "pos": "noun", "g": "f", "kind": "thing", "forms": {"gpl": "скидок"}}, {"ru": "цена", "en": "price", "theme": "At the checkout", "pos": "noun", "g": "f", "kind": "thing", "skip": ["gen", "acc", "ins"]}, {"ru": "рубль", "en": "ruble", "theme": "At the checkout", "pos": "noun", "g": "m", "kind": "money", "es": true}, {"ru": "копейка", "en": "kopeck", "theme": "At the checkout", "pos": "noun", "g": "f", "kind": "money", "forms": {"gpl": "копеек"}}, {"ru": "очередь", "en": "line, queue", "theme": "At the checkout", "pos": "noun", "g": "f", "kind": "place", "pp": "в", "skip": ["gen", "dat", "acc", "ins"]}, {"ru": "кошелёк", "en": "wallet", "theme": "At the checkout", "pos": "noun", "g": "m", "kind": "thing", "forms": {"gen": "кошелька", "dat": "кошельку", "ins": "кошельком", "prep": "кошельке", "npl": "кошельки", "gpl": "кошельков"}}, {"ru": "банкомат", "en": "ATM", "theme": "At the checkout", "pos": "noun", "g": "m", "kind": "thing", "skip": ["gen", "ins", "prep"]}, {"ru": "платить", "en": "to pay", "theme": "At the checkout", "pos": "verb"}, {"ru": "дорогой", "en": "expensive", "theme": "At the checkout", "pos": "adj"}, {"ru": "дешёвый", "en": "cheap", "theme": "At the checkout", "pos": "adj"}, {"ru": "Можно картой?", "en": "Can I pay by card?", "theme": "At the checkout", "pos": "phrase"}, {"ru": "Можно наличными?", "en": "Can I pay in cash?", "theme": "At the checkout", "pos": "phrase"}, {"ru": "Пакет нужен?", "en": "Do you need a bag?", "theme": "At the checkout", "pos": "phrase"}, {"ru": "Сколько с меня?", "en": "How much do I owe?", "theme": "At the checkout", "pos": "phrase"}, {"ru": "Сдачи не надо.", "en": "Keep the change.", "theme": "At the checkout", "pos": "phrase"}, {"ru": "храм", "en": "church (building), temple", "theme": "At church", "pos": "noun", "g": "m", "kind": "place", "pp": "в"}, {"ru": "церковь", "en": "church", "theme": "At church", "pos": "noun", "g": "f", "kind": "place", "pp": "в", "forms": {"gen": "церкви", "dat": "церкви", "ins": "церковью", "prep": "церкви", "npl": "церкви", "gpl": "церквей"}}, {"ru": "икона", "en": "icon", "theme": "At church", "pos": "noun", "g": "f", "kind": "thing", "approach": true}, {"ru": "свеча", "en": "candle", "theme": "At church", "pos": "noun", "g": "f", "kind": "thing", "es": true, "gplAlt": "свеч", "forms": {"gpl": "свечей"}}, {"ru": "батюшка", "en": "priest (Father)", "theme": "At church", "pos": "noun", "g": "m", "kind": "person", "anim": true, "forms": {"gpl": "батюшек"}}, {"ru": "священник", "en": "priest", "theme": "At church", "pos": "noun", "g": "m", "kind": "person", "anim": true}, {"ru": "литургия", "en": "Divine Liturgy", "theme": "At church", "pos": "noun", "g": "f", "kind": "event"}, {"ru": "причастие", "en": "Holy Communion", "theme": "At church", "pos": "noun", "g": "n", "kind": "event", "mass": true, "noArt": true, "skip": ["prep"]}, {"ru": "исповедь", "en": "confession", "theme": "At church", "pos": "noun", "g": "f", "kind": "event", "mass": true}, {"ru": "праздник", "en": "feast day, holiday", "theme": "At church", "pos": "noun", "g": "m", "kind": "event"}, {"ru": "крест", "en": "cross", "theme": "At church", "pos": "noun", "g": "m", "kind": "thing", "es": true, "approach": true, "enp": "crosses"}, {"ru": "молитва", "en": "prayer", "theme": "At church", "pos": "noun", "g": "f", "kind": "thing", "skip": ["gen", "ins"]}, {"ru": "служба", "en": "church service", "theme": "At church", "pos": "noun", "g": "f", "kind": "event"}, {"ru": "Пасха", "en": "Pascha, Easter", "theme": "At church", "pos": "noun", "g": "f", "kind": "event", "mass": true, "noArt": true, "skip": ["acc", "prep"]}, {"ru": "Рождество", "en": "Christmas, the Nativity", "theme": "At church", "pos": "noun", "g": "n", "kind": "event", "mass": true, "noArt": true, "skip": ["acc", "prep"]}, {"ru": "пост", "en": "Lent, fast", "theme": "At church", "pos": "noun", "g": "m", "kind": "event", "mass": true, "es": true, "noArt": true, "skip": ["acc", "prep"]}, {"ru": "платок", "en": "headscarf", "theme": "At church", "pos": "noun", "g": "m", "kind": "thing", "fleet": true, "es": true, "enp": "headscarves"}, {"ru": "православный", "en": "Orthodox", "theme": "At church", "pos": "adj"}, {"ru": "святой", "en": "holy; saint", "theme": "At church", "pos": "adj"}, {"ru": "молиться", "en": "to pray", "theme": "At church", "pos": "verb"}, {"ru": "креститься", "en": "to cross oneself", "theme": "At church", "pos": "verb"}, {"ru": "Благословите, батюшка.", "en": "Bless me, Father.", "theme": "At church", "pos": "phrase"}, {"ru": "Христос воскресе! — Воистину воскресе!", "en": "Christ is risen! — Truly He is risen!", "theme": "At church", "pos": "phrase"}, {"ru": "Господи, помилуй.", "en": "Lord, have mercy.", "theme": "At church", "pos": "phrase"}, {"ru": "поставить свечу", "en": "to light a candle (lit. to place a candle)", "theme": "At church", "pos": "phrase"}, {"ru": "ресторан", "en": "restaurant", "theme": "At the restaurant", "pos": "noun", "g": "m", "kind": "place", "pp": "в"}, {"ru": "кафе", "en": "café", "theme": "At the restaurant", "pos": "noun", "g": "n", "kind": "place", "indecl": true}, {"ru": "меню", "en": "menu", "theme": "At the restaurant", "pos": "noun", "g": "n", "kind": "thing", "indecl": true}, {"ru": "официант", "en": "waiter", "theme": "At the restaurant", "pos": "noun", "g": "m", "kind": "person", "anim": true}, {"ru": "столик", "en": "table (in a café)", "theme": "At the restaurant", "pos": "noun", "g": "m", "kind": "thing", "skip": ["gen", "ins"]}, {"ru": "счёт", "en": "bill, check", "theme": "At the restaurant", "pos": "noun", "g": "m", "kind": "thing", "forms": {"npl": "счета", "gpl": "счетов"}}, {"ru": "суп", "en": "soup", "theme": "At the restaurant", "pos": "noun", "g": "m", "kind": "food", "mass": true, "skip": ["gen", "ins"]}, {"ru": "салат", "en": "salad", "theme": "At the restaurant", "pos": "noun", "g": "m", "kind": "food"}, {"ru": "кофе", "en": "coffee", "theme": "At the restaurant", "pos": "noun", "g": "m", "kind": "food", "indecl": true}, {"ru": "чай", "en": "tea", "theme": "At the restaurant", "pos": "noun", "g": "m", "kind": "food", "mass": true}, {"ru": "пиво", "en": "beer", "theme": "At the restaurant", "pos": "noun", "g": "n", "kind": "food", "mass": true}, {"ru": "вино", "en": "wine", "theme": "At the restaurant", "pos": "noun", "g": "n", "kind": "food", "mass": true}, {"ru": "стакан", "en": "glass", "theme": "At the restaurant", "pos": "noun", "g": "m", "kind": "thing", "enp": "glasses"}, {"ru": "чашка", "en": "cup", "theme": "At the restaurant", "pos": "noun", "g": "f", "kind": "thing", "forms": {"gpl": "чашек"}}, {"ru": "вилка", "en": "fork", "theme": "At the restaurant", "pos": "noun", "g": "f", "kind": "thing", "forms": {"gpl": "вилок"}}, {"ru": "нож", "en": "knife", "theme": "At the restaurant", "pos": "noun", "g": "m", "kind": "thing", "es": true, "enp": "knives"}, {"ru": "ложка", "en": "spoon", "theme": "At the restaurant", "pos": "noun", "g": "f", "kind": "thing", "forms": {"gpl": "ложек"}}, {"ru": "блюдо", "en": "dish", "theme": "At the restaurant", "pos": "noun", "g": "n", "kind": "food", "skip": ["gen", "ins"], "enp": "dishes"}, {"ru": "заказать", "en": "to order", "theme": "At the restaurant", "pos": "verb"}, {"ru": "вкусный", "en": "tasty, delicious", "theme": "At the restaurant", "pos": "adj"}, {"ru": "Счёт, пожалуйста.", "en": "The check, please.", "theme": "At the restaurant", "pos": "phrase"}, {"ru": "Можно меню?", "en": "Could I see the menu?", "theme": "At the restaurant", "pos": "phrase"}, {"ru": "Что вы посоветуете?", "en": "What do you recommend?", "theme": "At the restaurant", "pos": "phrase"}, {"ru": "Столик на двоих.", "en": "A table for two.", "theme": "At the restaurant", "pos": "phrase"}, {"ru": "граница", "en": "border", "theme": "At the border", "pos": "noun", "g": "f", "kind": "place", "pp": "на"}, {"ru": "таможня", "en": "customs", "theme": "At the border", "pos": "noun", "g": "f", "kind": "place", "pp": "на", "forms": {"gpl": "таможен"}}, {"ru": "пограничник", "en": "border guard", "theme": "At the border", "pos": "noun", "g": "m", "kind": "person", "anim": true}, {"ru": "паспорт", "en": "passport", "theme": "At the border", "pos": "noun", "g": "m", "kind": "thing", "forms": {"npl": "паспорта"}}, {"ru": "виза", "en": "visa", "theme": "At the border", "pos": "noun", "g": "f", "kind": "thing"}, {"ru": "документ", "en": "document", "theme": "At the border", "pos": "noun", "g": "m", "kind": "thing"}, {"ru": "багаж", "en": "luggage", "theme": "At the border", "pos": "noun", "g": "m", "kind": "thing", "mass": true, "es": true}, {"ru": "чемодан", "en": "suitcase", "theme": "At the border", "pos": "noun", "g": "m", "kind": "thing"}, {"ru": "сумка", "en": "bag", "theme": "At the border", "pos": "noun", "g": "f", "kind": "thing", "forms": {"gpl": "сумок"}}, {"ru": "страховка", "en": "insurance policy", "theme": "At the border", "pos": "noun", "g": "f", "kind": "thing", "forms": {"gpl": "страховок"}}, {"ru": "декларация", "en": "customs declaration", "theme": "At the border", "pos": "noun", "g": "f", "kind": "thing"}, {"ru": "адрес", "en": "address", "theme": "At the border", "pos": "noun", "g": "m", "kind": "thing", "enp": "addresses", "forms": {"npl": "адреса"}}, {"ru": "приглашение", "en": "invitation", "theme": "At the border", "pos": "noun", "g": "n", "kind": "thing"}, {"ru": "фамилия", "en": "last name", "theme": "At the border", "pos": "noun", "g": "f", "kind": "thing", "skip": ["gen", "ins"]}, {"ru": "машина", "en": "car", "theme": "At the border", "pos": "noun", "g": "f", "kind": "transport", "skip": ["acc"]}, {"ru": "показать", "en": "to show", "theme": "At the border", "pos": "verb"}, {"ru": "открыть", "en": "to open", "theme": "At the border", "pos": "verb"}, {"ru": "Ваш паспорт, пожалуйста.", "en": "Your passport, please.", "theme": "At the border", "pos": "phrase"}, {"ru": "Цель поездки?", "en": "What is the purpose of your trip?", "theme": "At the border", "pos": "phrase"}, {"ru": "Мне нечего декларировать.", "en": "I have nothing to declare.", "theme": "At the border", "pos": "phrase"}, {"ru": "Я турист.", "en": "I'm a tourist.", "theme": "At the border", "pos": "phrase"}, {"ru": "вокзал", "en": "train station", "theme": "Travel", "pos": "noun", "g": "m", "kind": "place", "pp": "на"}, {"ru": "аэропорт", "en": "airport", "theme": "Travel", "pos": "noun", "g": "m", "kind": "place", "pp": "в", "forms": {"loc": "аэропорту"}}, {"ru": "поезд", "en": "train", "theme": "Travel", "pos": "noun", "g": "m", "kind": "transport", "forms": {"npl": "поезда"}}, {"ru": "автобус", "en": "bus", "theme": "Travel", "pos": "noun", "g": "m", "kind": "transport", "enp": "buses"}, {"ru": "такси", "en": "taxi", "theme": "Travel", "pos": "noun", "g": "n", "kind": "transport", "indecl": true}, {"ru": "метро", "en": "metro, subway", "theme": "Travel", "pos": "noun", "g": "n", "kind": "transport", "indecl": true}, {"ru": "билет", "en": "ticket", "theme": "Travel", "pos": "noun", "g": "m", "kind": "thing"}, {"ru": "гостиница", "en": "hotel", "theme": "Travel", "pos": "noun", "g": "f", "kind": "place", "pp": "в"}, {"ru": "номер", "en": "room (hotel); number", "theme": "Travel", "pos": "noun", "g": "m", "kind": "thing", "forms": {"npl": "номера"}}, {"ru": "ключ", "en": "key", "theme": "Travel", "pos": "noun", "g": "m", "kind": "thing", "es": true}, {"ru": "остановка", "en": "bus stop", "theme": "Travel", "pos": "noun", "g": "f", "kind": "place", "pp": "на", "forms": {"gpl": "остановок"}}, {"ru": "улица", "en": "street; outside (на улице)", "theme": "Travel", "pos": "noun", "g": "f", "kind": "place", "pp": "на", "enprep": "on", "skip": ["gen", "dat", "ins"]}, {"ru": "туалет", "en": "restroom", "theme": "Travel", "pos": "noun", "g": "m", "kind": "place", "pp": "в", "skip": ["ins"]}, {"ru": "город", "en": "city", "theme": "Travel", "pos": "noun", "g": "m", "kind": "place", "pp": "в", "skip": ["ins"], "enp": "cities", "forms": {"npl": "города"}}, {"ru": "платформа", "en": "platform", "theme": "Travel", "pos": "noun", "g": "f", "kind": "place", "pp": "на", "enprep": "on", "skip": ["ins"]}, {"ru": "расписание", "en": "timetable", "theme": "Travel", "pos": "noun", "g": "n", "kind": "thing", "skip": ["ins"]}, {"ru": "ехать", "en": "to go (by vehicle)", "theme": "Travel", "pos": "verb"}, {"ru": "Как доехать до…?", "en": "How do I get to…?", "theme": "Travel", "pos": "phrase"}, {"ru": "Где находится…?", "en": "Where is…?", "theme": "Travel", "pos": "phrase"}, {"ru": "Один билет до Минска.", "en": "One ticket to Minsk.", "theme": "Travel", "pos": "phrase"}, {"ru": "прямо, налево, направо", "en": "straight ahead, left, right", "theme": "Travel", "pos": "phrase"}]}</script>
+<script>
+/* Russian noun declension + vocabulary drill generator. Plain ES5 so it runs in any browser. */
+var RuEngine = (function () {
+  "use strict";
+  var VOW = "аеёиоуыэюя", VEL = "гкх", HUSH = "жшщч";
+  var KEYS = ["gen", "dat", "acc", "ins", "prep", "npl", "gpl"];
+  var SAFE_CLUSTERS = ["ст", "зд", "рт", "рд", "рм", "рф", "мм", "сс", "тт", "лл", "нн", "тв", "жб", "нт", "нд", "мп", "рб", "сп", "шт"];
+  var A_PLURALS = ["дом", "город", "паспорт", "поезд", "адрес", "номер", "вечер", "лес", "берег", "голос", "доктор", "профессор", "директор", "остров", "цвет", "сорт", "повар", "катер", "бок", "век", "снег", "сторож", "холод", "паспорт"];
+
+  // common irregular plurals [nom pl, gen pl]
+  var IRREG_PL = { "брат": ["братья", "братьев"], "друг": ["друзья", "друзей"], "стул": ["стулья", "стульев"], "сын": ["сыновья", "сыновей"],
+    "муж": ["мужья", "мужей"], "человек": ["люди", "людей"], "ребёнок": ["дети", "детей"], "лист": ["листья", "листьев"], "дерево": ["деревья", "деревьев"],
+    "сосед": ["соседи", "соседей"], "мать": ["матери", "матерей"], "дочь": ["дочери", "дочерей"], "время": ["времена", "времён"], "имя": ["имена", "имён"],
+    "глаз": ["глаза", "глаз"], "раз": ["разы", "раз"], "солдат": ["солдаты", "солдат"], "господин": ["господа", "господ"], "хозяин": ["хозяева", "хозяев"],
+    "гражданин": ["граждане", "граждан"], "англичанин": ["англичане", "англичан"], "белорус": ["белорусы", "белорусов"] };
+  var IRREG_ALL = ["мать", "дочь", "время", "имя", "путь", "ребёнок", "человек", "гражданин", "англичанин", "церковь", "любовь", "господин"];
+  function isV(c) { return VOW.indexOf(c) >= 0; }
+  function L(s, n) { return s.charAt(s.length - (n || 1)).toLowerCase(); }
+  function vowelCount(s) { var n = 0; for (var i = 0; i < s.length; i++) if (isV(s.charAt(i).toLowerCase())) n++; return n; }
+  // zero-ending genitive plural is safe unless the stem ends in a consonant cluster that usually takes an inserted vowel
+  function zeroSafe(stem) {
+    var a = L(stem), b = L(stem, 2);
+    if (isV(a)) return false;
+    if (isV(b)) return true;
+    return SAFE_CLUSTERS.indexOf(b + a) >= 0;
+  }
+  function dropFleeting(s) {
+    // remove the vowel before the final consonant: огурец -> огурц, платок -> платк
+    var i = s.length - 2;
+    if (i < 1 || !isV(s.charAt(i).toLowerCase())) return null;
+    return s.slice(0, i) + s.slice(i + 1);
+  }
+
+  // returns {f: forms, unc: {key:true}, note: string}
+  function decline(w) {
+    var ru = (w.ru || "").trim(), f = {}, unc = {}, note = "";
+    var es = !!w.es, anim = !!w.anim;
+    function allUnc(msg) { KEYS.forEach(function (k) { unc[k] = true; }); note = msg; }
+    if (!ru || /\s/.test(ru)) { allUnc("Multi-word entries can't be declined automatically."); }
+    else if (w.indecl) { KEYS.forEach(function (k) { f[k] = ru; }); }
+    else if (w.g === "pl") { allUnc("Plural-only nouns need their forms typed in."); f.npl = ru; delete unc.npl; }
+    else {
+      var last = L(ru), stem = ru.slice(0, -1), t = L(stem);
+      if (last === "а") {
+        var yi = (VEL + HUSH).indexOf(t) >= 0 ? "и" : "ы";
+        f.gen = stem + yi; f.dat = stem + "е"; f.acc = stem + "у";
+        f.ins = stem + ((HUSH + "ц").indexOf(t) >= 0 && !es ? "ей" : "ой");
+        f.prep = stem + "е"; f.npl = stem + yi; f.gpl = stem;
+        if (!zeroSafe(stem) || (HUSH.indexOf(t) >= 0 && es)) unc.gpl = true;
+      } else if (last === "я") {
+        if (t === "и") {
+          f.gen = stem + "и"; f.dat = stem + "и"; f.acc = stem + "ю"; f.ins = stem + "ей"; f.prep = stem + "и"; f.npl = stem + "и"; f.gpl = stem + "й";
+        } else {
+          f.gen = stem + "и"; f.dat = stem + "е"; f.acc = stem + "ю"; f.ins = stem + (es ? "ёй" : "ей"); f.prep = stem + "е"; f.npl = stem + "и";
+          if (isV(t)) f.gpl = stem + "й";
+          else { f.gpl = stem + "ь"; if (!isV(L(stem, 2))) unc.gpl = true; }
+          if (t === "ь" || t === "й") { unc.gpl = true; }
+        }
+        if (w.g === "m" && anim) { /* дядя-type: acc is still -ю */ }
+      } else if (last === "ь") {
+        if (w.g === "f") {
+          f.gen = stem + "и"; f.dat = stem + "и"; f.acc = ru; f.ins = ru + "ю"; f.prep = stem + "и"; f.npl = stem + "и"; f.gpl = stem + "ей";
+        } else if (w.g === "m") {
+          var st = stem;
+          if (w.fleet) { st = dropFleeting(stem) || stem; }
+          f.gen = st + "я"; f.dat = st + "ю"; f.acc = anim ? f.gen : ru; f.ins = st + (es ? "ём" : "ем"); f.prep = st + "е"; f.npl = st + "и"; f.gpl = st + "ей";
+          if (!w.fleet && !w.noFleet && /[еёо][нл]$/.test(stem)) { KEYS.forEach(function (k) { if (k !== "acc" || anim) unc[k] = true; }); note = "This word may have a fleeting vowel (день → дня). Tick 'fleeting vowel' or type the forms."; }
+        } else allUnc("Choose masculine or feminine for nouns ending in -ь.");
+      } else if (last === "й") {
+        f.gen = stem + "я"; f.dat = stem + "ю"; f.acc = anim ? f.gen : ru; f.ins = stem + "ем";
+        f.prep = stem + (t === "и" ? "и" : "е"); f.npl = stem + "и"; f.gpl = stem + "ев";
+      } else if (last === "о") {
+        f.gen = stem + "а"; f.dat = stem + "у"; f.acc = ru; f.ins = stem + ((HUSH + "ц").indexOf(t) >= 0 && !es ? "ем" : "ом");
+        f.prep = stem + "е"; f.npl = stem + "а"; f.gpl = stem;
+        if (VEL.indexOf(t) >= 0 || HUSH.indexOf(t) >= 0) unc.npl = true;
+        if (!zeroSafe(stem)) unc.gpl = true;
+      } else if (last === "е") {
+        if (t === "и") {
+          f.gen = stem + "я"; f.dat = stem + "ю"; f.acc = ru; f.ins = stem + "ем"; f.prep = stem + "и"; f.npl = stem + "я"; f.gpl = stem + "й";
+        } else if ((HUSH + "ц").indexOf(t) >= 0) {
+          allUnc("Check the forms for this word.");
+        } else {
+          f.gen = stem + "я"; f.dat = stem + "ю"; f.acc = ru; f.ins = stem + "ем"; f.prep = stem + "е"; f.npl = stem + "я"; f.gpl = stem + "ей";
+        }
+      } else if (!isV(last)) {
+        if (w.g && w.g !== "m") allUnc("Nouns ending in a consonant are usually masculine. Check the gender.");
+        else {
+          var obl = ru;
+          if (w.fleet) { obl = dropFleeting(ru); if (!obl) { allUnc("Couldn't drop the fleeting vowel. Type the forms."); obl = ru; } }
+          var o = L(obl);
+          f.gen = obl + "а"; f.dat = obl + "у"; f.acc = anim ? f.gen : ru;
+          f.ins = obl + ((HUSH + "ц").indexOf(o) >= 0 && !es ? "ем" : "ом");
+          f.prep = obl + "е";
+          var aPl = A_PLURALS.indexOf(ru.toLowerCase()) >= 0;
+          f.npl = obl + (aPl ? "а" : ((VEL + HUSH).indexOf(o) >= 0 ? "и" : "ы"));
+          f.gpl = obl + (HUSH.indexOf(o) >= 0 ? "ей" : (o === "ц" && !es ? "ев" : "ов"));
+          if (!w.fleet && !w.noFleet && vowelCount(ru) > 1 && /(ок|ек|ёк|ец|ень)$/.test(ru.toLowerCase())) {
+            KEYS.forEach(function (k) { if (k !== "acc" || anim) unc[k] = true; });
+            note = "Words ending in -ок/-ек/-ец often lose that vowel (платок → платка). Tick 'fleeting vowel' or type the forms.";
+          }
+        }
+      } else {
+        allUnc("This ending isn't regular. It may be indeclinable (like кофе, меню). Tick 'indeclinable' or type the forms.");
+      }
+    }
+    var lw = ru.toLowerCase();
+    if (IRREG_ALL.indexOf(lw) >= 0 && !(w.forms && Object.keys(w.forms).length)) { allUnc("This word is irregular. Type its forms."); }
+    if (IRREG_PL[lw]) { f.npl = IRREG_PL[lw][0]; f.gpl = IRREG_PL[lw][1]; delete unc.npl; delete unc.gpl; }
+    // explicit forms always win
+    var ov = w.forms || {};
+    Object.keys(ov).forEach(function (k) { if (ov[k]) { f[k] = ov[k]; delete unc[k]; } });
+    if (w.loc) f.loc = w.loc;
+    return { f: f, unc: unc, note: note };
+  }
+
+  // forms that drills may use (certain or supplied)
+  function usable(w) {
+    var d = decline(w), out = {};
+    KEYS.forEach(function (k) {
+      if (!d.f[k] || d.unc[k]) return;
+      if (w.mass && (k === "npl" || k === "gpl") && !(w.forms && w.forms[k])) return; // no invented plurals for mass nouns
+      out[k] = d.f[k];
+    });
+    if (d.f.loc) out.loc = d.f.loc;
+    return out;
+  }
+
+  // ---------- English helpers ----------
+  function en1(w) { return (w.en || "").split(/[,(;]/)[0].trim(); }
+  function enPl(w) {
+    if (w.enp) return w.enp;
+    var e = en1(w);
+    if (/(s|sh|ch|x|z)$/.test(e)) return e + "es";
+    if (/[^aeiou]y$/.test(e)) return e.slice(0, -1) + "ies";
+    if (/fe$/.test(e)) return e.slice(0, -2) + "ves";
+    return e + "s";
+  }
+
+  // preposition variants: в/во, с/со, к/ко, о/об
+  function prepFix(p, word) {
+    var w = word.toLowerCase(), a = w.charAt(0), b = w.charAt(1);
+    var cons2 = b && !isV(b);
+    if (p === "в" && (a === "в" || a === "ф") && cons2) return "во";
+    if (p === "с" && ((("сзшж").indexOf(a) >= 0 && cons2) || a === "щ")) return "со";
+    if (p === "о" && "аоуэи".indexOf(a) >= 0) return "об";
+    return p;
+  }
+
+  // templates per kind and case: [ru, en, rule]. "{p:X}" = preposition X adjusted to the noun; {pp} = place preposition
+  var T = {
+    person: {
+      gen: ["Сегодня нет ___.", "The {en} isn't here today.", "Нет (there is no) takes the genitive."],
+      dat: ["Я сказал ___ спасибо.", "I said thank you to the {en}.", "Сказать кому? (to whom?) takes the dative."],
+      acc: ["Я вижу ___.", "I see the {en}.", "A direct object goes in the accusative. Masculine nouns for people use the genitive form here."],
+      ins: ["Я говорю {p:с} ___.", "I'm talking with the {en}.", "С (with) takes the instrumental."],
+      prep: ["Я думаю {p:о} ___.", "I'm thinking about the {en}.", "О (about) takes the prepositional."]
+    },
+    place: {
+      gen: ["Это далеко от ___?", "Is it far from the {en}?", "От (from) takes the genitive."],
+      dat: ["Как пройти {p:к} ___?", "How do I get to the {en}?", "К (towards) takes the dative."],
+      acc: ["Я иду {pp} ___.", "I'm going to the {en}.", "В/на + accusative answers 'where to?'"],
+      ins: ["Встретимся перед ___.", "Let's meet in front of the {en}.", "Перед (in front of) takes the instrumental."],
+      prep: ["Я сейчас {pp} ___.", "I'm {at} the {en} now.", "В/на + prepositional answers 'where?'"]
+    },
+    thing: {
+      gen: ["У меня нет ___.", "I don't have {a} {en}.", "Нет (there is no) takes the genitive."],
+      dat: ["Я подхожу {p:к} ___.", "I'm going up to the {en}.", "К (towards) takes the dative."],
+      acc: ["Я ищу ___.", "I'm looking for the {en}.", "A direct object goes in the accusative."],
+      ins: ["Что делать {p:с} ___?", "What should I do with the {en}?", "С (with) takes the instrumental."],
+      prep: ["Я спросил {p:о} ___.", "I asked about the {en}.", "О (about) takes the prepositional."]
+    },
+    food: {
+      gen: ["В магазине нет ___.", "The store has no {en}.", "Нет (there is no) takes the genitive."],
+      acc: ["Дайте, пожалуйста, ___.", "{En}, please.", "Дайте (give me) + direct object in the accusative."],
+      ins: ["Можно {p:с} ___?", "Can I have it with {en}?", "С (with) takes the instrumental."],
+      prep: ["Я спросил {p:о} ___.", "I asked about the {en}.", "О (about) takes the prepositional."]
+    },
+    event: {
+      gen: ["После ___ мы идём домой.", "After the {en} we go home.", "После (after) takes the genitive."],
+      dat: ["Я готовлюсь {p:к} ___.", "I'm preparing for the {en}.", "Готовиться к (to prepare for) takes the dative."],
+      acc: ["Я иду на ___.", "I'm going to the {en}.", "На + accusative answers 'where to?' for events."],
+      ins: ["Что делать перед ___?", "What should I do before the {en}?", "Перед (before) takes the instrumental."],
+      prep: ["Мы были на ___.", "We were at the {en}.", "На + prepositional for being at an event."]
+    },
+    transport: {
+      gen: ["Я вышел из ___.", "I got out of the {en}.", "Из (out of) takes the genitive."],
+      dat: ["Как пройти {p:к} ___?", "How do I get to the {en}?", "К (towards) takes the dative."],
+      acc: ["Я опоздал на ___.", "I missed the {en}.", "Опоздать на (to be late for) takes the accusative."],
+      prep: ["Я еду на ___.", "I'm going by {en}.", "Ехать на + prepositional: how you travel."]
+    },
+    money: {}, unit: {}
+  };
+  var CASE_NAME = { gen: "genitive", dat: "dative", acc: "accusative", ins: "instrumental", prep: "prepositional" };
+
+  function cap(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
+  function fill(tpl, w, form) {
+    return tpl.replace(/\{pp\}/g, prepFix(w.pp || "в", form)).replace(/\{p:([^}]+)\}/g, function (_, p) { return prepFix(p, form); });
+  }
+  function fillEn(tpl, w, plural) {
+    var e = plural ? enPl(w) : en1(w);
+    var art = (w.mass || w.g === "pl") ? "any " : (/^[aeiou]/i.test(e) ? "an " : "a ");
+    var out = tpl.replace(/\{a\} /g, art).replace(/\{at\}/g, w.enprep || (w.pp === "на" ? "at" : "in"));
+    if (w.noArt) out = out.replace(/the \{en\}/g, "{en}");
+    return out.replace(/\{En\}/g, cap(e)).replace(/\{en\}/g, e);
+  }
+  function rnd(n) { return Math.floor(Math.random() * n); }
+  function shuffle(a) { a = a.slice(); for (var i = a.length - 1; i > 0; i--) { var j = rnd(i + 1), t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+  function uniq(arr, not) {
+    var seen = {}, out = [];
+    arr.forEach(function (x) { if (!x) return; var k = x.toLowerCase(); if (k === (not || "").toLowerCase() || seen[k]) return; seen[k] = 1; out.push(x); });
+    return out;
+  }
+  function distractorsFrom(F, ans, w) {
+    var pool = uniq([w.ru, F.gen, F.dat, F.acc, F.ins, F.prep, F.loc, F.npl, F.gpl], ans);
+    return shuffle(pool).slice(0, 3);
+  }
+
+  var NUMS = {
+    one: [[1, { m: "один", f: "одна", n: "одно" }], [21, { m: "двадцать один", f: "двадцать одна", n: "двадцать одно" }]],
+    few: [[2, { m: "два", f: "две", n: "два" }], [3, "три"], [4, "четыре"], [22, { m: "двадцать два", f: "двадцать две", n: "двадцать два" }]],
+    many: [[5, "пять"], [6, "шесть"], [10, "десять"], [25, "двадцать пять"]]
+  };
+  function numWord(spec, g) { return typeof spec === "string" ? spec : spec[g] || spec.m; }
+
+  // Build exercises for one word. types: cases, plurals, numbers, cards
+  function wordExercises(w, types, pool) {
+    var out = [];
+    var gl = [w.ru + ": " + w.en];
+    if (w.pos === "noun" && !w.indecl) {
+      var F = usable(w), plOnly = w.g === "pl";
+      var tk = T[w.kind || "thing"] || T.thing, skip = w.skip || [];
+      if (types.cases) {
+        ["gen", "dat", "acc", "ins", "prep"].forEach(function (c) {
+          var tpl = tk[c];
+          if (c === "gen" && w.kind === "food" && !w.mass) tpl = T.thing.gen;
+          if (!tpl || skip.indexOf(c) >= 0) return;
+          if (c === "dat" && (w.kind || "thing") === "thing" && !w.approach) return;
+          var form = (c === "prep" && F.loc && (w.kind === "place")) ? F.loc : F[c];
+          if (!form) return;
+          var rule = tpl[2];
+          if (c === "acc" && w.kind !== "person" && w.anim && w.g === "m") rule += " Animate masculine nouns use the genitive form.";
+          if (c === "prep" && form === F.loc && F.loc !== F.prep) rule += " " + w.ru + " takes the special ending -у after в/на for location (but о " + F.prep + ").";
+          out.push({
+            cat: "vocab", sub: CASE_NAME[c], s: fill(tpl[0], w, form), base: w.ru + (plOnly ? ", plural only" : ""), a: form, alt: [],
+            d: distractorsFrom(F, form, w), ex: rule + " " + w.ru + " → " + form + ".",
+            translation: fillEn(tpl[1], w, false), glosses: gl, word: w.ru
+          });
+        });
+      }
+      var countable = !w.mass && !plOnly && w.kind !== "event";
+      var pluralDrill = countable && w.kind !== "unit";
+      if (types.plurals && pluralDrill) {
+        if (F.npl) out.push({ cat: "vocab", sub: "nominative plural", s: "Где ___?", base: w.ru + ", plural", a: F.npl, alt: [], d: distractorsFrom(F, F.npl, w),
+          ex: "Nominative plural: " + w.ru + " → " + F.npl + ".", translation: "Where are the " + enPl(w) + "?", glosses: gl, word: w.ru });
+        if (F.gpl) out.push({ cat: "vocab", sub: "genitive plural", s: "Здесь много ___.", base: w.ru, a: F.gpl, alt: w.gplAlt ? [w.gplAlt] : [], d: distractorsFrom(F, F.gpl, w).filter(function (x) { return x !== w.gplAlt; }),
+          ex: "Много (a lot of) takes the genitive plural: " + w.ru + " → " + F.gpl + ".", translation: "There are a lot of " + enPl(w) + " here.", glosses: gl, word: w.ru });
+      }
+      if (types.numbers && countable && F.gen && F.npl && F.gpl && w.g) {
+        var frame = w.kind === "money" ? ["Это стоит {n} ___.", "It costs {N} {en}."] : ["Здесь {n} ___.", "There {be} {N} {en} here."];
+        [["one", w.ru, "1 and numbers ending in 1 (but not 11) take the nominative singular."],
+         ["few", F.gen, "2, 3, 4 (and 22, 23, 24…) take the genitive singular."],
+         ["many", F.gpl, "5 and up (and 11–14) take the genitive plural."]].forEach(function (b) {
+          var pick = NUMS[b[0]][rnd(NUMS[b[0]].length)], nw = numWord(pick[1], w.g), n = pick[0];
+          var single = n === 1;
+          out.push({ cat: "vocab", sub: "numbers", s: frame[0].replace("{n}", nw), base: w.ru, a: b[1], alt: [], d: distractorsFrom(F, b[1], w),
+            ex: b[2] + " " + nw + " " + b[1] + ".", translation: frame[1].replace("{be}", single ? "is" : "are").replace("{N}", String(n)).replace("{en}", single ? en1(w) : enPl(w)),
+            glosses: gl, word: w.ru });
+        });
+      }
+    }
+    if (types.cards && pool) {
+      var same = pool.filter(function (x) { return x !== w && x.theme === w.theme; });
+      var others = same.length >= 3 ? same : pool.filter(function (x) { return x !== w; });
+      var enD = uniq(shuffle(others).map(function (x) { return x.en; }), w.en).slice(0, 3);
+      var ruD = uniq(shuffle(others.filter(function (x) { return x.pos === w.pos; }).concat(shuffle(others))).map(function (x) { return x.ru; }), w.ru).slice(0, 3);
+      out.push({ cat: "vocab", sub: "flashcard ru→en", s: "«" + w.ru + "» — ___", base: "choose the English meaning", a: w.en, alt: [], d: enD, ex: w.ru + " means \"" + w.en + "\".", translation: "", glosses: [], word: w.ru, choiceOnly: true });
+      out.push({ cat: "vocab", sub: "flashcard en→ru", s: "«" + w.en + "» — ___", base: "по-русски", a: w.ru, alt: [], d: ruD, ex: "\"" + w.en + "\" is " + w.ru + ".", translation: "", glosses: [], word: w.ru });
+    }
+    return out;
+  }
+
+  function buildSession(words, drill, limit) {
+    var types = drill === "mixed" ? { cases: 1, plurals: 1, numbers: 1, cards: 1 } : {};
+    if (drill !== "mixed") types[drill] = 1;
+    var all = [];
+    words.forEach(function (w) { all = all.concat(wordExercises(w, types, words)); });
+    all = shuffle(all);
+    if (drill === "mixed") {
+      // keep variety: at most 2 items per word in a mixed session
+      var cap = Math.max(2, Math.ceil(25 / Math.max(1, words.length))), per = {};
+      all = all.filter(function (e) { per[e.word] = (per[e.word] || 0) + 1; return per[e.word] <= cap; });
+    }
+    return limit ? all.slice(0, limit) : all;
+  }
+
+  return { decline: decline, usable: usable, wordExercises: wordExercises, buildSession: buildSession, prepFix: prepFix, KEYS: KEYS, enPl: enPl, en1: en1 };
+})();
+if (typeof module !== "undefined") module.exports = RuEngine;
+
+</script>
+<script>
+(function(){
+"use strict";
+var E=window.RuEngine;
+var CATS=[["all","All"],["basics","Basics"],["cases","Cases"],["conjugation","Verbs"],["aspect","Aspect"],["motion","Motion"]];
+var LEVELS=[["A1-A2","A1–A2"],["B1-C1","B1–C1"]];
+var MODES=[["choice","Choice"],["type","Type"]];
+var VDRILLS=[["mixed","Mixed"],["cases","Cases"],["plurals","Plurals"],["numbers","Numbers"],["cards","Flashcards"]];
+var KIND_LABEL={thing:"thing",food:"food/drink",place:"place",person:"person",event:"service/event",transport:"transport",money:"money",unit:"measure"};
+var G_LABEL={m:"masc.",f:"fem.",n:"neut.",pl:"plural only"};
+var FORM_LABEL={gen:"Genitive (нет …)",dat:"Dative (к …)",acc:"Accusative (вижу …)",ins:"Instrumental (с …)",prep:"Prepositional (о …)",npl:"Nominative plural",gpl:"Genitive plural (много …)"};
+var LS="ruDrills.v1",LSW="ruDrills.words.v1";
+var DATA=[],STARTER=[],WORDS=[];
+var store=load(LS)||{};
+var st={tab:store.tab||"grammar",level:store.level||"A1-A2",showTr:false,cat:store.cat||"all",sub:"all",mode:store.mode||"choice",
+  vtheme:store.vtheme||"all",vdrill:store.vdrill||"mixed",wtheme:"all",queue:[],cur:null,answered:false,right:0,total:0,streak:0,picked:null,editing:null,importing:null};
+
+function load(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}}
+function save(){try{store.cat=st.cat;store.mode=st.mode;store.level=st.level;store.tab=st.tab;store.vtheme=st.vtheme;store.vdrill=st.vdrill;localStorage.setItem(LS,JSON.stringify(store))}catch(e){}}
+function saveWords(){try{localStorage.setItem(LSW,JSON.stringify({version:1,words:WORDS}))}catch(e){alert("Couldn't save words in this browser (storage full or blocked).")}}
+function $(id){return document.getElementById(id)}
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function norm(s){return String(s).toLowerCase().replace(/ё/g,"е").replace(/[.,!?;:«»"]/g,"").replace(/\s+/g," ").trim()}
+function shuffle(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t}return a}
+function clone(o){return JSON.parse(JSON.stringify(o))}
+var CAT_LABEL={basics:"Basics",cases:"Cases",conjugation:"Verbs",aspect:"Aspect",motion:"Motion",vocab:"Vocabulary"};
+function lvl(){return DATA.filter(function(e){return e.level===st.level})}
+function themes(){var t=[];WORDS.forEach(function(w){if(t.indexOf(w.theme)<0)t.push(w.theme)});return t}
+function themeWords(th){return WORDS.filter(function(w){return th==="all"||w.theme===th})}
+
+// ---------- drill pool ----------
+function pool(){
+  if(st.tab==="vocab"){
+    var ex=E.buildSession(themeWords(st.vtheme),st.vdrill,0);
+    if(st.sub!=="all")ex=ex.filter(function(e){return e.sub===st.sub});
+    return ex.slice(0,25);
+  }
+  return lvl().filter(function(e){return (st.cat==="all"||e.cat===st.cat)&&(st.sub==="all"||e.sub===st.sub)});
+}
+function subsFor(){
+  if(st.tab==="vocab"){var s=[];E.buildSession(themeWords(st.vtheme),st.vdrill,0).forEach(function(e){if(s.indexOf(e.sub)<0)s.push(e.sub)});return s.sort()}
+  var subs=[];lvl().forEach(function(e){if((st.cat==="all"||e.cat===st.cat)&&subs.indexOf(e.sub)<0)subs.push(e.sub)});return subs;
+}
+
+function renderControls(){
+  Array.prototype.forEach.call(document.querySelectorAll(".tab"),function(b){b.setAttribute("aria-selected",String(b.dataset.tab===st.tab))});
+  $("drillArea").classList.toggle("hidden",st.tab==="words");
+  $("wordsArea").classList.toggle("hidden",st.tab!=="words");
+  $("gramCtl").classList.toggle("hidden",st.tab!=="grammar");
+  $("vocCtl").classList.toggle("hidden",st.tab!=="vocab");
+  if(st.tab==="words"){renderWords();return}
+  if(st.tab==="grammar"){
+    var L=lvl();
+    $("levels").innerHTML=LEVELS.map(function(l){return '<button class="chip" data-level="'+l[0]+'" aria-pressed="'+(st.level===l[0])+'">'+l[1]+'<\/button>'}).join("");
+    $("cats").innerHTML=CATS.map(function(c){var n=c[0]==="all"?L.length:L.filter(function(e){return e.cat===c[0]}).length;if(!n)return "";
+      return '<button class="chip" data-cat="'+c[0]+'" aria-pressed="'+(st.cat===c[0])+'">'+c[1]+' · '+n+'<\/button>'}).join("");
+  }else{
+    var th=themes();if(st.vtheme!=="all"&&th.indexOf(st.vtheme)<0)st.vtheme="all";
+    $("vtheme").innerHTML='<option value="all">All my words · '+WORDS.length+'<\/option>'+th.map(function(x){return '<option value="'+esc(x)+'"'+(st.vtheme===x?" selected":"")+'>'+esc(x)+' · '+themeWords(x).length+'<\/option>'}).join("");
+    $("vdrills").innerHTML=VDRILLS.map(function(d){return '<button class="chip" data-vdrill="'+d[0]+'" aria-pressed="'+(st.vdrill===d[0])+'">'+d[1]+'<\/button>'}).join("");
+  }
+  var subs=subsFor();if(subs.indexOf(st.sub)<0)st.sub="all";
+  $("sub").innerHTML='<option value="all">'+(st.tab==="vocab"?"All drill types":"All subtopics")+'<\/option>'+subs.map(function(s){return '<option value="'+esc(s)+'"'+(st.sub===s?" selected":"")+'>'+esc(s)+'<\/option>'}).join("");
+  $("modes").innerHTML=MODES.map(function(m){return '<button class="chip" data-mode="'+m[0]+'" aria-pressed="'+(st.mode===m[0])+'">'+m[1]+'<\/button>'}).join("");
+}
+
+function newSession(){
+  if(st.tab==="words")return;
+  st.queue=shuffle(pool()).map(function(e){return {e:e,again:false}});
+  st.right=0;st.total=0;st.streak=0;
+  next();
+}
+function useChoice(e){return st.mode==="choice"||e.choiceOnly}
+function next(){
+  st.cur=st.queue.shift()||null;st.answered=false;st.picked=null;st.showTr=false;
+  if(st.cur)st.cur.opts=shuffle([st.cur.e.a].concat(st.cur.e.d));
+  render();
+}
+function itemKey(e){return e.id!=null?String(e.id):("v:"+e.word+"|"+e.sub+"|"+e.s)}
+function check(val){
+  if(st.answered||!st.cur)return;
+  var e=st.cur.e,ok=[e.a].concat(e.alt||[]).some(function(a){return norm(a)===norm(val)});
+  st.answered=true;st.picked=val;st.ok=ok;st.total++;
+  var rec=store.items=store.items||{};var k=itemKey(e);var r=rec[k]=rec[k]||{seen:0,right:0};r.seen++;
+  if(ok){st.right++;st.streak++;r.right++;if(st.streak>(store.best||0))store.best=st.streak}
+  else{st.streak=0;var pos=Math.min(st.queue.length,3+Math.floor(Math.random()*4));st.queue.splice(pos,0,{e:e,again:true})}
+  save();render();
+}
+
+function sentenceHTML(e,fill,cls){
+  var parts=e.s.split("___");
+  return esc(parts[0])+'<span class="blank '+(cls||"")+'">'+(fill?esc(fill):"&nbsp;")+'<\/span>'+esc(parts[1]);
+}
+function render(){
+  $("sScore").textContent=st.right+"/"+st.total;
+  $("sStreak").textContent=st.streak;
+  $("sBest").textContent=store.best||0;
+  $("sLeft").textContent=st.queue.length+(st.cur?1:0);
+  var items=store.items||{},seen=0,right=0;Object.keys(items).forEach(function(k){seen+=items[k].seen;right+=items[k].right});
+  $("lifetime").textContent=seen?("All-time on this device: "+right+" correct out of "+seen+" answers."):"";
+  var c=$("card");
+  if(!st.cur){
+    if(!st.total){c.innerHTML='<div class="done"><h2>Nothing to drill here yet<\/h2><p class="muted">'+(st.tab==="vocab"?"This theme has no words that fit this drill. Nouns need a gender and forms the app is sure about, and Flashcards work with any word. Add words in My words.":"No exercises match these settings.")+'<\/p><\/div>';return}
+    var pct=Math.round(100*st.right/st.total);
+    c.innerHTML='<div class="done"><h2>Отлично, сессия окончена!<\/h2><p class="muted">'+st.right+' correct out of '+st.total+' answers ('+pct+'%). Every missed item came back until you got it right.<\/p><button class="btn" id="again">Start a new session<\/button><\/div>';
+    $("again").onclick=newSession;return;
+  }
+  var e=st.cur.e,h="",choice=useChoice(e);
+  h+='<div class="meta"><span class="tag">'+CAT_LABEL[e.cat]+'<\/span><span class="tag">'+esc(e.sub)+'<\/span>'+(st.cur.again?'<span class="tag again">again<\/span>':'')+'<\/div>';
+  var fill=st.answered?e.a:"",cls=st.answered?(st.ok?"ok":"bad"):"";
+  h+='<div class="sentence" lang="ru">'+sentenceHTML(e,fill,cls)+'<\/div>';
+  h+='<div class="base">(<b lang="ru">'+esc(e.base)+'<\/b>)<\/div>';
+  if(e.glosses&&e.glosses.length)h+='<div class="gl">'+esc(e.glosses.join(" · "))+'<\/div>';
+  if(!st.answered&&e.translation)h+=st.showTr?'<div class="tr">'+esc(e.translation)+'<\/div>':'<button class="trbtn" id="trBtn">Show translation<\/button>';
+  if(choice){
+    h+='<div class="opts" lang="ru">'+st.cur.opts.map(function(o,i){
+      var k="";if(st.answered){if(o===e.a)k="ok";else if(o===st.picked)k="bad"}
+      return '<button class="opt '+k+'" data-i="'+i+'"'+(st.answered?" disabled":"")+'>'+esc(o)+'<\/button>'}).join("")+'<\/div>';
+  }else{
+    h+='<input type="text" id="typed" lang="ru" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" enterkeyhint="done" placeholder="Type the missing form" '+(st.answered?'disabled value="'+esc(st.picked)+'"':'')+'>';
+    if(!st.answered)h+='<button class="btn" id="checkBtn">Check<\/button>';
+  }
+  if(st.answered){
+    h+='<div class="fb '+(st.ok?"ok":"bad")+'"><strong>'+(st.ok?"Верно!":"Not quite. It will come back later.")+'<\/strong>'+
+      (st.ok?"":'<div>Answer: <span class="ans" lang="ru">'+esc(e.a)+'<\/span>'+((e.alt&&e.alt.length)?' (also accepted: '+esc(e.alt.join(", "))+')':'')+'<\/div>')+
+      (e.translation?'<div class="tr">'+esc(e.translation)+'<\/div>':'')+'<div>'+esc(e.ex)+'<\/div><\/div>';
+    h+='<button class="btn" id="nextBtn">Next →<\/button>';
+  }
+  c.innerHTML=h;
+  if(choice&&!st.answered){Array.prototype.forEach.call(c.querySelectorAll(".opt"),function(b){b.onclick=function(){check(st.cur.opts[+b.dataset.i])}})}
+  if(!choice&&!st.answered){var inp=$("typed");$("checkBtn").onclick=function(){if(inp.value.trim())check(inp.value)};
+    inp.onkeydown=function(ev){if(ev.key==="Enter"&&!ev.isComposing&&inp.value.trim()){ev.preventDefault();ev.stopPropagation();check(inp.value)}};setTimeout(function(){inp.focus()},30)}
+  var tb=$("trBtn");if(tb)tb.onclick=function(){st.showTr=true;var v=$("typed")?$("typed").value:"";render();if(v&&$("typed"))$("typed").value=v};
+  if(st.answered){var nb=$("nextBtn");nb.onclick=next;if(!choice)nb.focus()}
+}
+
+// ---------- My words ----------
+function wordStatus(w){
+  if(w.pos!=="noun")return {txt:"flashcards",fo:false};
+  if(w.indecl)return {txt:"indeclinable · flashcards only",fo:true};
+  var ex=E.wordExercises(w,{cases:1,plurals:1,numbers:1},null);
+  if(!ex.length)return {txt:"flashcards only until you add its forms",fo:true};
+  var kinds=[];ex.forEach(function(x){var k=x.sub.indexOf("plural")>=0?"plurals":(x.sub==="numbers"?"numbers":"cases");if(kinds.indexOf(k)<0)kinds.push(k)});
+  return {txt:kinds.join(", ")+" + flashcards",fo:false};
+}
+function renderWords(){
+  var th=themes();if(st.wtheme!=="all"&&th.indexOf(st.wtheme)<0)st.wtheme="all";
+  $("wtheme").innerHTML='<option value="all">All themes · '+WORDS.length+' words<\/option>'+th.map(function(x){return '<option value="'+esc(x)+'"'+(st.wtheme===x?" selected":"")+'>'+esc(x)+' · '+themeWords(x).length+'<\/option>'}).join("");
+  renderPanel();
+  var h="";
+  (st.wtheme==="all"?th:[st.wtheme]).forEach(function(t){
+    h+='<div class="wtheme">'+esc(t)+'<\/div>';
+    WORDS.forEach(function(w,i){if(w.theme!==t)return;var s=wordStatus(w);
+      var meta=w.pos==="noun"?[G_LABEL[w.g]||"gender?",w.anim?"animate":"",KIND_LABEL[w.kind]||"",w.kind==="place"?(w.pp||"в")+" + place":""].filter(Boolean).join(" · "):w.pos;
+      h+='<div class="witem"><div class="wt"><div class="wr" lang="ru">'+esc(w.ru)+'<\/div><div class="we">'+esc(w.en)+'<\/div><div class="wm">'+esc(meta)+' · <span class="'+(s.fo?"fo":"")+'">'+esc(s.txt)+'<\/span><\/div><\/div>'+
+        '<button class="sbtn" data-edit="'+i+'" aria-label="Edit '+esc(w.ru)+'">Edit<\/button><button class="sbtn del" data-del="'+i+'" aria-label="Delete '+esc(w.ru)+'">✕<\/button><\/div>';
+    });
+  });
+  $("wlist").innerHTML=h||'<p class="muted">No words yet. Tap “+ Add word”.<\/p>';
+}
+function blankWord(){return {ru:"",en:"",theme:st.wtheme!=="all"?st.wtheme:(themes()[0]||"My words"),pos:"noun",g:"",kind:"thing",pp:"в",forms:{}}}
+function renderPanel(){
+  var p=$("wpanel");
+  if(st.importing){
+    var n=st.importing.length;
+    p.innerHTML='<div class="card"><b>Import '+n+' word'+(n===1?"":"s")+'<\/b><p class="muted">Merge adds new words and updates words with the same Russian and theme. Replace swaps your whole list for the imported one.<\/p>'+
+      '<button class="btn" id="impMerge">Merge into my list<\/button><button class="btn quiet" id="impReplace">Replace my list<\/button><button class="btn quiet" id="impCancel">Cancel<\/button><\/div>';
+    $("impMerge").onclick=function(){var add=0,upd=0;st.importing.forEach(function(w){var j=WORDS.findIndex(function(x){return x.ru===w.ru&&x.theme===w.theme});if(j>=0){WORDS[j]=w;upd++}else{WORDS.push(w);add++}});st.importing=null;saveWords();renderWords();alert("Imported: "+add+" new, "+upd+" updated.")};
+    $("impReplace").onclick=function(){if(!confirm("Replace all "+WORDS.length+" words with the "+n+" imported words?"))return;WORDS=st.importing;st.importing=null;saveWords();renderWords()};
+    $("impCancel").onclick=function(){st.importing=null;renderWords()};
+    return;
+  }
+  if(!st.editing){p.innerHTML="";return}
+  var w=st.editing.w,th=themes();if(th.indexOf(w.theme)<0&&w.theme)th.push(w.theme);
+  var h='<div class="card" id="editor"><b>'+(st.editing.i<0?"Add a word":"Edit word")+'<\/b>';
+  h+='<label class="f" for="fRu">Russian<\/label><input class="fin" id="fRu" lang="ru" autocomplete="off" autocapitalize="none" value="'+esc(w.ru)+'">';
+  h+='<label class="f" for="fEn">English<\/label><input class="fin" id="fEn" autocomplete="off" value="'+esc(w.en)+'">';
+  h+='<label class="f" for="fTheme">Theme<\/label><select id="fTheme">'+th.map(function(x){return '<option'+(x===w.theme?" selected":"")+'>'+esc(x)+'<\/option>'}).join("")+'<option value="__new">New theme…<\/option><\/select>';
+  h+='<input class="fin hidden" id="fThemeNew" placeholder="Theme name, e.g. At the pharmacy" style="margin-top:6px">';
+  h+='<label class="f" for="fPos">Type<\/label><select id="fPos">'+[["noun","Noun"],["adj","Adjective"],["verb","Verb"],["phrase","Phrase"]].map(function(o){return '<option value="'+o[0]+'"'+(w.pos===o[0]?" selected":"")+'>'+o[1]+'<\/option>'}).join("")+'<\/select>';
+  h+='<div id="nounBox"'+(w.pos==="noun"?"":' class="hidden"')+'>';
+  h+='<div class="fgrid"><div><label class="f" for="fG">Gender<\/label><select id="fG"><option value="">choose…<\/option>'+["m","f","n","pl"].map(function(g){return '<option value="'+g+'"'+(w.g===g?" selected":"")+'>'+{m:"masculine",f:"feminine",n:"neuter",pl:"plural only"}[g]+'<\/option>'}).join("")+'<\/select><\/div>';
+  h+='<div><label class="f" for="fKind">Used like a…<\/label><select id="fKind">'+Object.keys(KIND_LABEL).map(function(k){return '<option value="'+k+'"'+(w.kind===k?" selected":"")+'>'+KIND_LABEL[k]+'<\/option>'}).join("")+'<\/select><\/div><\/div>';
+  h+='<div id="ppBox"'+(w.kind==="place"?"":' class="hidden"')+'><label class="f" for="fPp">Place takes<\/label><select id="fPp"><option value="в"'+(w.pp!=="на"?" selected":"")+'>в (в магазине)<\/option><option value="на"'+(w.pp==="на"?" selected":"")+'>на (на вокзале)<\/option><\/select><\/div>';
+  h+='<div class="checks">'+[["anim","animate (a person or animal)"],["indecl","indeclinable (кофе, меню)"],["mass","no plural (молоко)"],["fleet","fleeting vowel (платок → платка)"],["es","stressed ending (ножом, рублём)"]].map(function(c){return '<label><input type="checkbox" id="c_'+c[0]+'"'+(w[c[0]]?" checked":"")+'> '+c[1]+'<\/label>'}).join("")+'<\/div>';
+  h+='<div class="muted">Forms: grey text is generated automatically. Type in a box to override it. Red dashed boxes are forms the app isn’t sure about, and they’re skipped in drills until you fill them in.<\/div>';
+  h+='<div class="fgrid" id="formsGrid" style="margin-top:8px">'+E.KEYS.map(function(k){return '<div><label for="fm_'+k+'">'+FORM_LABEL[k]+'<\/label><input id="fm_'+k+'" lang="ru" autocomplete="off" autocapitalize="none" value="'+esc((w.forms||{})[k]||"")+'"><\/div>'}).join("")+'<\/div>';
+  h+='<button class="sbtn" id="fillSug" style="margin-top:8px;width:100%">Use the suggested forms for unsure boxes<\/button>';
+  h+='<\/div><div id="fNote"><\/div>';
+  h+='<button class="btn" id="fSave">Save word<\/button><button class="btn quiet" id="fCancel">Cancel<\/button><\/div>';
+  p.innerHTML=h;
+  function readForm(){
+    var nw={ru:$("fRu").value.trim(),en:$("fEn").value.trim(),pos:$("fPos").value};
+    nw.theme=$("fTheme").value==="__new"?($("fThemeNew").value.trim()||"My words"):$("fTheme").value;
+    if(nw.pos==="noun"){
+      nw.g=$("fG").value;nw.kind=$("fKind").value;if(nw.kind==="place")nw.pp=$("fPp").value;
+      ["anim","indecl","mass","fleet","es"].forEach(function(c){if($("c_"+c).checked)nw[c]=true});
+      var f={};E.KEYS.forEach(function(k){var v=$("fm_"+k).value.trim();if(v)f[k]=v});nw.forms=f;
+      ["skip","loc","enp","enprep","noArt","approach","gplAlt","noFleet"].forEach(function(k){if(w[k]!=null&&nw.ru===w.ru)nw[k]=w[k]});
+      if(w.forms&&w.forms.loc&&nw.ru===w.ru)nw.forms.loc=w.forms.loc;
+    }
+    return nw;
+  }
+  function preview(){
+    var nw=readForm();$("nounBox").classList.toggle("hidden",nw.pos!=="noun");
+    if(nw.pos!=="noun"){$("fNote").innerHTML='<div class="note">Adjectives, verbs and phrases are drilled as flashcards in both directions.<\/div>';return}
+    $("ppBox").classList.toggle("hidden",nw.kind!=="place");
+    var auto=E.decline(Object.assign({},nw,{forms:{}}));
+    E.KEYS.forEach(function(k){var el=$("fm_"+k);el.placeholder=auto.f[k]?(auto.unc[k]?"? "+auto.f[k]:auto.f[k]):"?";el.classList.toggle("unc",!!auto.unc[k]&&!el.value.trim())});
+    var notes=[];if(auto.note)notes.push(auto.note);
+    if(!nw.g&&!nw.indecl)notes.push("Pick a gender. Case drills need it.");
+    if(nw.indecl)notes.push("Indeclinable nouns never change form, so they're drilled only as flashcards.");
+    var s=wordStatus(nw);notes.push("This word will appear in: "+s.txt+".");
+    $("fNote").innerHTML='<div class="note'+(s.fo?" warn":"")+'">'+notes.map(esc).join("<br>")+'<\/div>';
+  }
+  Array.prototype.forEach.call(p.querySelectorAll("input,select"),function(el){el.addEventListener("input",preview);el.addEventListener("change",preview)});
+  $("fTheme").addEventListener("change",function(){$("fThemeNew").classList.toggle("hidden",this.value!=="__new");if(this.value==="__new")$("fThemeNew").focus()});
+  $("fillSug").onclick=function(){var nw=readForm();var auto=E.decline(Object.assign({},nw,{forms:{}}));E.KEYS.forEach(function(k){var el=$("fm_"+k);if(auto.unc[k]&&!el.value.trim()&&auto.f[k])el.value=auto.f[k]});preview()};
+  $("fCancel").onclick=function(){st.editing=null;renderWords()};
+  $("fSave").onclick=function(){
+    var nw=readForm();if(!nw.ru||!nw.en){alert("Please fill in both the Russian and the English.");return}
+    if(st.editing.i>=0){if(nw.ru!==w.ru&&w.forms&&Object.keys(w.forms).length&&!confirm("You changed the Russian word, so its saved forms were regenerated. Check them before saving. Save now?"))return;WORDS[st.editing.i]=nw}
+    else WORDS.push(nw);
+    st.editing=null;st.wtheme=nw.theme;saveWords();renderWords();
+  };
+  if(st.editing.i>=0&&st.editing.w.ru!==w.ru){} 
+  preview();
+  $("fRu").addEventListener("input",function(){if(st.editing.i>=0&&$("fRu").value.trim()!==w.ru){E.KEYS.forEach(function(k){$("fm_"+k).value=""});preview()}});
+  setTimeout(function(){p.scrollIntoView({behavior:"smooth",block:"start"})},30);
+}
+$("wlist").addEventListener("click",function(ev){
+  var b=ev.target.closest("button");if(!b)return;
+  if(b.dataset.edit!=null){var i=+b.dataset.edit;st.importing=null;st.editing={i:i,w:clone(WORDS[i])};renderPanel()}
+  if(b.dataset.del!=null){var j=+b.dataset.del;if(confirm("Delete “"+WORDS[j].ru+"”?")){WORDS.splice(j,1);saveWords();st.editing=null;renderWords()}}
+});
+$("addW").onclick=function(){st.importing=null;st.editing={i:-1,w:blankWord()};renderPanel();setTimeout(function(){$("fRu").focus()},60)};
+$("expW").onclick=function(){
+  var data=JSON.stringify({app:"ruDrills",version:1,exported:new Date().toISOString(),words:WORDS},null,1);
+  var dt=new Date(),name="russian-words-"+dt.getFullYear()+"-"+("0"+(dt.getMonth()+1)).slice(-2)+"-"+("0"+dt.getDate()).slice(-2)+".json";
+  try{var blob=new Blob([data],{type:"application/json"});var a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=name;document.body.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);a.remove()},500)}
+  catch(e){prompt("Copy this text and save it as "+name,data)}
+};
+$("impW").onclick=function(){$("impFile").value="";$("impFile").click()};
+$("impFile").onchange=function(){
+  var f=this.files&&this.files[0];if(!f)return;var r=new FileReader();
+  r.onload=function(){try{var d=JSON.parse(r.result);var arr=Array.isArray(d)?d:d.words;if(!Array.isArray(arr))throw 0;
+      arr=arr.filter(function(w){return w&&typeof w.ru==="string"&&typeof w.en==="string"&&w.ru.trim()}).map(function(w){if(!w.theme)w.theme="My words";if(!w.pos)w.pos="noun";return w});
+      if(!arr.length)throw 0;st.editing=null;st.importing=arr;renderPanel();$("wpanel").scrollIntoView({behavior:"smooth"})}
+    catch(e){alert("That file doesn't look like an exported word list.")}};
+  r.readAsText(f);
+};
+$("restoreW").onclick=function(){var n=0;STARTER.forEach(function(s){if(!WORDS.some(function(w){return w.ru===s.ru&&w.theme===s.theme})){WORDS.push(clone(s));n++}});saveWords();renderWords();alert(n?("Restored "+n+" starter word"+(n===1?"":"s")+"."):"All starter words are already in your list.")};
+$("wtheme").onchange=function(){st.wtheme=this.value;renderWords()};
+
+// ---------- events ----------
+document.addEventListener("click",function(ev){
+  var t=ev.target.closest&&ev.target.closest("[data-cat],[data-mode],[data-level],[data-tab],[data-vdrill]");if(!t)return;
+  if(t.dataset.tab){st.tab=t.dataset.tab;st.sub="all";save();renderControls();newSession();return}
+  if(t.dataset.level){st.level=t.dataset.level;st.cat="all";st.sub="all";renderControls();save();newSession();return}
+  if(t.dataset.vdrill){st.vdrill=t.dataset.vdrill;st.sub="all";renderControls();save();newSession();return}
+  if(t.dataset.cat){st.cat=t.dataset.cat;st.sub="all";renderControls();save();newSession()}
+  if(t.dataset.mode){st.mode=t.dataset.mode;renderControls();save();if(st.cur&&!st.answered)render()}
+});
+document.addEventListener("keydown",function(ev){if(st.tab!=="words"&&ev.key==="Enter"&&st.answered&&document.activeElement.id!=="nextBtn"){ev.preventDefault();next()}});
+$("sub").onchange=function(){st.sub=this.value;newSession()};
+$("vtheme").onchange=function(){st.vtheme=this.value;st.sub="all";save();renderControls();newSession()};
+$("reset").onclick=function(){if(confirm("Reset scores and progress on this device? Your words are kept.")){var keepTab=st.tab;store={tab:keepTab};try{localStorage.removeItem(LS)}catch(e){};newSession()}};
+
+function start(d,v){
+  DATA=d.map(function(e){if(!e.level)e.level="B1-C1";return e});
+  STARTER=v||[];
+  var saved=load(LSW);WORDS=(saved&&Array.isArray(saved.words))?saved.words:clone(STARTER);
+  if(!lvl().length)st.level="A1-A2";if(!lvl().some(function(e){return st.cat==="all"||e.cat===st.cat}))st.cat="all";
+  renderControls();newSession();
+}
+var emb={exercises:[],vocab:[]};try{emb=JSON.parse($("embedded").textContent)}catch(e){}
+function getJSON(u,fb){return fetch(u,{cache:"no-cache"}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(x){return Array.isArray(x)&&x.length?x:fb}).catch(function(){return fb})}
+if(location.protocol.indexOf("http")===0&&window.fetch&&window.Promise){
+  Promise.all([getJSON("exercises.json",emb.exercises),getJSON("vocab.json",emb.vocab)]).then(function(r){start(r[0],r[1])});
+}else start(emb.exercises,emb.vocab);
+})();
+
+</script>
+</body>
+</html>

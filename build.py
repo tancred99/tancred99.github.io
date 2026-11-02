@@ -1,0 +1,10 @@
+import json, subprocess
+subprocess.run(['python3','build_vocab.py'],cwd='src',check=True,capture_output=True)
+d=json.load(open('exercises.json')); v=json.load(open('vocab.json'))
+def safe(s): return s.replace('</','<\\/')
+s=open('template.html').read()
+s=s.replace('/*__DATA__*/',safe(json.dumps({'exercises':d,'vocab':v},ensure_ascii=False)))
+s=s.replace('/*__ENGINE__*/',safe(open('src/engine.js').read()))
+s=s.replace('/*__APP__*/',safe(open('src/app.js').read()))
+open('index.html','w').write(s)
+print('ok',len(d),'exercises',len(v),'words',len(s)//1024,'KB')
