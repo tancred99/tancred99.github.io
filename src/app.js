@@ -8,27 +8,36 @@ var VDRILLS=[["mixed","Mixed"],["cases","Cases"],["plurals","Plurals"],["numbers
 var KIND_LABEL={thing:"thing",food:"food/drink",place:"place",person:"person",event:"service/event",transport:"transport",money:"money",unit:"measure"};
 var G_LABEL={m:"masc.",f:"fem.",n:"neut.",pl:"plural only"};
 var FORM_LABEL={gen:"Genitive (нет …)",dat:"Dative (к …)",acc:"Accusative (вижу …)",ins:"Instrumental (с …)",prep:"Prepositional (о …)",npl:"Nominative plural",gpl:"Genitive plural (много …)"};
-var LS="ruDrills.v1",LSW="ruDrills.words.v1";
-var DATA=[],STARTER=[],WORDS=[];
+var LS="ruDrills.v1",LSW="ruDrills.words.v1",LSL="ruDrills.lessons.v1";
+var DATA=[],STARTER=[],WORDS=[],COURSE={course:[],lessons:{}};
+var lprog=load(LSL);if(!lprog||typeof lprog.lessons!=="object"||!lprog.lessons)lprog={version:1,lessons:{}};
 var store=load(LS)||{};
-var st={tab:store.tab||"grammar",level:store.level||"A1-A2",showTr:false,cat:store.cat||"all",sub:"all",mode:store.mode||"choice",
+var st={tab:store.tab||"lessons",lview:"map",lid:null,first:0,lsaved:false,level:store.level||"A1-A2",showTr:false,cat:store.cat||"all",sub:"all",mode:store.mode||"choice",
   vtheme:store.vtheme||"all",vdrill:store.vdrill||"mixed",wtheme:"all",queue:[],cur:null,answered:false,right:0,total:0,streak:0,picked:null,editing:null,importing:null};
 
 function load(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}}
 function save(){try{store.cat=st.cat;store.mode=st.mode;store.level=st.level;store.tab=st.tab;store.vtheme=st.vtheme;store.vdrill=st.vdrill;localStorage.setItem(LS,JSON.stringify(store))}catch(e){}}
+function saveLessons(){try{localStorage.setItem(LSL,JSON.stringify(lprog))}catch(e){}}
 function saveWords(){try{localStorage.setItem(LSW,JSON.stringify({version:1,words:WORDS}))}catch(e){alert("Couldn't save words in this browser (storage full or blocked).")}}
 function $(id){return document.getElementById(id)}
 function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
 function norm(s){return String(s).toLowerCase().replace(/ё/g,"е").replace(/[.,!?;:«»"]/g,"").replace(/\s+/g," ").trim()}
 function shuffle(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t}return a}
 function clone(o){return JSON.parse(JSON.stringify(o))}
-var CAT_LABEL={basics:"Basics",cases:"Cases",conjugation:"Verbs",aspect:"Aspect",motion:"Motion",vocab:"Vocabulary"};
+var CAT_LABEL={basics:"Basics",cases:"Cases",conjugation:"Verbs",aspect:"Aspect",motion:"Motion",vocab:"Vocabulary",lesson:"Lesson"};
 function lvl(){return DATA.filter(function(e){return e.level===st.level})}
 function themes(){var t=[];WORDS.forEach(function(w){if(t.indexOf(w.theme)<0)t.push(w.theme)});return t}
 function themeWords(th){return WORDS.filter(function(w){return th==="all"||w.theme===th})}
 
 // ---------- drill pool ----------
+function lessonItems(L){
+  var parts=[];L.exercises.forEach(function(e){if(parts.indexOf(e.part)<0)parts.push(e.part)});
+  var out=[];parts.forEach(function(p){
+    out=out.concat(shuffle(L.exercises.map(function(e,i){var x=clone(e);x.id=L.id+":"+i;x.cat="lesson";x.catLabel="Lesson "+L.n;return x}).filter(function(e){return e.part===p})))});
+  return out;
+}
 function pool(){
+  if(st.tab==="lessons"){var L=COURSE.lessons[st.lid];return L?lessonItems(L):[]}
   if(st.tab==="vocab"){
     var ex=E.buildSession(themeWords(st.vtheme),st.vdrill,0);
     if(st.sub!=="all")ex=ex.filter(function(e){return e.sub===st.sub});
@@ -43,11 +52,16 @@ function subsFor(){
 
 function renderControls(){
   Array.prototype.forEach.call(document.querySelectorAll(".tab"),function(b){b.setAttribute("aria-selected",String(b.dataset.tab===st.tab))});
-  $("drillArea").classList.toggle("hidden",st.tab==="words");
+  var lex=st.tab==="lessons"&&st.lview==="ex";
+  $("drillArea").classList.toggle("hidden",st.tab==="words"||(st.tab==="lessons"&&!lex));
   $("wordsArea").classList.toggle("hidden",st.tab!=="words");
+  $("lessonsArea").classList.toggle("hidden",st.tab!=="lessons"||lex);
+  $("lessCtl").classList.toggle("hidden",!lex);
   $("gramCtl").classList.toggle("hidden",st.tab!=="grammar");
   $("vocCtl").classList.toggle("hidden",st.tab!=="vocab");
+  $("sub").classList.toggle("hidden",st.tab==="lessons");
   if(st.tab==="words"){renderWords();return}
+  if(st.tab==="lessons"){$("modes").innerHTML=MODES.map(function(m){return '<button class="chip" data-mode="'+m[0]+'" aria-pressed="'+(st.mode===m[0])+'">'+m[1]+'</button>'}).join("");if(!lex)renderLessons();return}
   if(st.tab==="grammar"){
     var L=lvl();
     $("levels").innerHTML=LEVELS.map(function(l){return '<button class="chip" data-level="'+l[0]+'" aria-pressed="'+(st.level===l[0])+'">'+l[1]+'</button>'}).join("");
@@ -65,8 +79,10 @@ function renderControls(){
 
 function newSession(){
   if(st.tab==="words")return;
-  st.queue=shuffle(pool()).map(function(e){return {e:e,again:false}});
-  st.right=0;st.total=0;st.streak=0;
+  if(st.tab==="lessons"&&st.lview!=="ex"){st.queue=[];st.cur=null;st.answered=false;return}
+  var items=pool();
+  st.queue=(st.tab==="lessons"?items:shuffle(items)).map(function(e){return {e:e,again:false}});
+  st.right=0;st.total=0;st.streak=0;st.first=0;st.lsaved=false;
   next();
 }
 function useChoice(e){return st.mode==="choice"||e.choiceOnly}
@@ -81,6 +97,7 @@ function check(val){
   var e=st.cur.e,ok=[e.a].concat(e.alt||[]).some(function(a){return norm(a)===norm(val)});
   st.answered=true;st.picked=val;st.ok=ok;st.total++;
   var rec=store.items=store.items||{};var k=itemKey(e);var r=rec[k]=rec[k]||{seen:0,right:0};r.seen++;
+  if(ok&&!st.cur.again)st.first++;
   if(ok){st.right++;st.streak++;r.right++;if(st.streak>(store.best||0))store.best=st.streak}
   else{st.streak=0;var pos=Math.min(st.queue.length,3+Math.floor(Math.random()*4));st.queue.splice(pos,0,{e:e,again:true})}
   save();render();
@@ -98,6 +115,8 @@ function render(){
   var items=store.items||{},seen=0,right=0;Object.keys(items).forEach(function(k){seen+=items[k].seen;right+=items[k].right});
   $("lifetime").textContent=seen?("All-time on this device: "+right+" correct out of "+seen+" answers."):"";
   var c=$("card");
+  if(st.tab==="lessons")renderLessonHead();
+  if(!st.cur&&st.tab==="lessons"&&st.total){lessonComplete(c);return}
   if(!st.cur){
     if(!st.total){c.innerHTML='<div class="done"><h2>Nothing to drill here yet</h2><p class="muted">'+(st.tab==="vocab"?"This theme has no words that fit this drill. Nouns need a gender and forms the app is sure about, and Flashcards work with any word. Add words in My words.":"No exercises match these settings.")+'</p></div>';return}
     var pct=Math.round(100*st.right/st.total);
@@ -105,10 +124,10 @@ function render(){
     $("again").onclick=newSession;return;
   }
   var e=st.cur.e,h="",choice=useChoice(e);
-  h+='<div class="meta"><span class="tag">'+CAT_LABEL[e.cat]+'</span><span class="tag">'+esc(e.sub)+'</span>'+(st.cur.again?'<span class="tag again">again</span>':'')+'</div>';
+  h+='<div class="meta"><span class="tag">'+esc(e.catLabel||CAT_LABEL[e.cat])+'</span><span class="tag">'+esc(e.sub)+'</span>'+(st.cur.again?'<span class="tag again">again</span>':'')+'</div>';
   var fill=st.answered?e.a:"",cls=st.answered?(st.ok?"ok":"bad"):"";
   h+='<div class="sentence" lang="ru">'+sentenceHTML(e,fill,cls)+'</div>';
-  h+='<div class="base">(<b lang="ru">'+esc(e.base)+'</b>)</div>';
+  if(e.base)h+='<div class="base">(<b lang="ru">'+esc(e.base)+'</b>)</div>';
   if(e.glosses&&e.glosses.length)h+='<div class="gl">'+esc(e.glosses.join(" · "))+'</div>';
   if(!st.answered&&e.translation)h+=st.showTr?'<div class="tr">'+esc(e.translation)+'</div>':'<button class="trbtn" id="trBtn">Show translation</button>';
   if(choice){
@@ -132,6 +151,67 @@ function render(){
   var tb=$("trBtn");if(tb)tb.onclick=function(){st.showTr=true;var v=$("typed")?$("typed").value:"";render();if(v&&$("typed"))$("typed").value=v};
   if(st.answered){var nb=$("nextBtn");nb.onclick=next;if(!choice)nb.focus()}
 }
+
+// ---------- Lessons ----------
+function lp(id){return lprog.lessons[id]||null}
+function renderLessons(){
+  var a=$("lessonsArea");
+  if(st.lview==="read"&&COURSE.lessons[st.lid]){renderLesson(a,COURSE.lessons[st.lid]);return}
+  var h='<div class="lesson"><h2>Course roadmap · A1–A2</h2><p class="goal">The classroom way: read a short lesson, practice that one rule, then review. Lessons unlock as they’re written.</p><ol class="course">';
+  COURSE.course.forEach(function(c){
+    var L=COURSE.lessons[c.id],p=lp(c.id),ready=!!L,done=p&&p.completed;
+    var cls=(c.review?"review ":"")+(ready?"":"soon ")+(done?"fin":"");
+    var stx=ready?(done?'<div class="st ok">✓ Completed<br>best '+p.best+'/'+p.of+'</div>':''):'<div class="st">Coming soon</div>';
+    h+='<li class="'+cls+'"><div class="num">'+(c.review?"★":c.n)+'</div><div class="lt1"><b>'+(c.review?"":"Lesson "+c.n+": ")+esc(c.title)+'</b><span>'+esc(c.topic)+'</span></div>'+stx+
+      (ready?'<button class="go" data-lopen="'+c.id+'">'+(done?"Review":"Start")+'</button>':'')+'</li>';
+  });
+  a.innerHTML=h+'</ol></div>';
+}
+function renderLesson(a,L){
+  var p=lp(L.id);
+  var h='<div class="lesson"><div class="lhead"><button class="back" data-lmap="1">← All lessons</button><div class="lt2">Lesson '+L.n+(p&&p.completed?' · ✓ best '+p.best+'/'+p.of:'')+'</div></div>';
+  h+='<h2>'+esc(L.title)+'</h2><p class="goal">'+esc(L.goal)+'<br>'+esc(L.minutes)+'</p>';
+  h+='<div style="display:flex;gap:8px"><button class="sbtn" data-lexpand="1" style="flex:1">Open all steps</button><button class="sbtn" data-lexpand="0" style="flex:1">Close all</button></div>';
+  L.sections.forEach(function(s){h+='<details class="ls"'+(s.open?" open":"")+'><summary>'+esc(s.h)+'</summary><div>'+s.html+'</div></details>'});
+  h+='<button class="btn" data-lstart="'+L.id+'">Start the exercises ('+L.exercises.length+')</button>';
+  h+='<p class="muted">Three parts: '+Object.keys(L.parts).map(function(k){return esc(L.parts[k])}).join(", ")+'. Every answer comes with the rule behind it.</p></div>';
+  a.innerHTML=h;
+}
+function renderLessonHead(){
+  var L=COURSE.lessons[st.lid];if(!L)return;
+  var part=st.cur&&st.cur.e.part?L.parts[st.cur.e.part]:"Results";
+  $("lessCtl").innerHTML='<button class="back" data-lread="1">← Lesson '+L.n+'</button><div class="lt2"><b>'+esc(part||"")+'</b>'+esc(L.title)+'</div>';
+}
+function lessonComplete(c){
+  var L=COURSE.lessons[st.lid],n=L.exercises.length,first=st.first,pct=Math.round(100*first/n);
+  if(!st.lsaved){
+    var p=lprog.lessons[L.id]||{attempts:0,best:0};
+    p.completed=true;p.attempts=(p.attempts||0)+1;p.of=n;p.last=first;p.lastDate=new Date().toISOString();
+    if(first>=(p.best||0))p.best=first;
+    lprog.lessons[L.id]=p;saveLessons();st.lsaved=true;
+  }
+  var pr=L.practice,best=lprog.lessons[L.id].best;
+  var h='<div class="done"><h2>Lesson '+L.n+' complete!</h2>';
+  h+='<p><b style="font-size:28px">'+first+'/'+n+'</b><br><span class="muted">right on the first try ('+pct+'%) · best '+best+'/'+n+'</span></p>';
+  h+='<p class="muted">'+(pct>=90?"Excellent. You’ve got this rule.":pct>=70?"Good work. Re-read the steps you missed, then try again.":"This one takes practice. Re-read the lesson, then redo the exercises.")+' Every missed item came back until you got it right.</p>';
+  if(pr)h+='<div class="practice"><b>'+esc(pr.title)+'</b><div>'+esc(pr.text)+'</div><div class="muted" style="margin-top:6px">For example:</div><ul lang="ru">'+pr.examples.map(function(x){return '<li>'+esc(x)+'</li>'}).join("")+'</ul></div>';
+  h+='<button class="btn" id="lAgain">Redo the exercises</button><button class="btn quiet" data-lread="1">Re-read the lesson</button><button class="btn quiet" data-lmap="1">Back to all lessons</button></div>';
+  c.innerHTML=h;$("lAgain").onclick=newSession;
+}
+$("lessonsArea").addEventListener("click",function(ev){
+  var b=ev.target.closest("button");if(!b)return;
+  if(b.dataset.lexpand!=null){Array.prototype.forEach.call($("lessonsArea").querySelectorAll("details.ls"),function(d){d.open=b.dataset.lexpand==="1"})}
+});
+document.addEventListener("click",function(ev){
+  var b=ev.target.closest&&ev.target.closest("[data-lopen],[data-lstart],[data-lmap],[data-lread]");if(!b)return;
+  if(b.dataset.lopen){st.lid=b.dataset.lopen;st.lview="read"}
+  else if(b.dataset.lstart){st.lid=b.dataset.lstart;st.lview="ex"}
+  else if(b.dataset.lmap){st.lview="map"}
+  else if(b.dataset.lread){st.lview="read"}
+  renderControls();
+  if(st.lview==="ex")newSession();else{st.queue=[];st.cur=null;st.answered=false}
+  window.scrollTo(0,0);
+});
 
 // ---------- My words ----------
 function wordStatus(w){
@@ -254,27 +334,29 @@ $("wtheme").onchange=function(){st.wtheme=this.value;renderWords()};
 // ---------- events ----------
 document.addEventListener("click",function(ev){
   var t=ev.target.closest&&ev.target.closest("[data-cat],[data-mode],[data-level],[data-tab],[data-vdrill]");if(!t)return;
-  if(t.dataset.tab){st.tab=t.dataset.tab;st.sub="all";save();renderControls();newSession();return}
+  if(t.dataset.tab){if(t.dataset.tab==="lessons"&&st.tab==="lessons")st.lview="map";st.tab=t.dataset.tab;st.sub="all";save();renderControls();newSession();return}
   if(t.dataset.level){st.level=t.dataset.level;st.cat="all";st.sub="all";renderControls();save();newSession();return}
   if(t.dataset.vdrill){st.vdrill=t.dataset.vdrill;st.sub="all";renderControls();save();newSession();return}
   if(t.dataset.cat){st.cat=t.dataset.cat;st.sub="all";renderControls();save();newSession()}
   if(t.dataset.mode){st.mode=t.dataset.mode;renderControls();save();if(st.cur&&!st.answered)render()}
 });
-document.addEventListener("keydown",function(ev){if(st.tab!=="words"&&ev.key==="Enter"&&st.answered&&document.activeElement.id!=="nextBtn"){ev.preventDefault();next()}});
+document.addEventListener("keydown",function(ev){if(!$("drillArea").classList.contains("hidden")&&st.cur&&ev.key==="Enter"&&st.answered&&document.activeElement.id!=="nextBtn"){ev.preventDefault();next()}});
 $("sub").onchange=function(){st.sub=this.value;newSession()};
 $("vtheme").onchange=function(){st.vtheme=this.value;st.sub="all";save();renderControls();newSession()};
-$("reset").onclick=function(){if(confirm("Reset scores and progress on this device? Your words are kept.")){var keepTab=st.tab;store={tab:keepTab};try{localStorage.removeItem(LS)}catch(e){};newSession()}};
+$("reset").onclick=function(){if(confirm("Reset drill scores on this device? Your words and lesson progress are kept.")){var keepTab=st.tab;store={tab:keepTab};try{localStorage.removeItem(LS)}catch(e){};newSession()}};
 
-function start(d,v){
+function start(d,v,les){
+  if(les&&Array.isArray(les.course))COURSE=les;
   DATA=d.map(function(e){if(!e.level)e.level="B1-C1";return e});
   STARTER=v||[];
   var saved=load(LSW);WORDS=(saved&&Array.isArray(saved.words))?saved.words:clone(STARTER);
   if(!lvl().length)st.level="A1-A2";if(!lvl().some(function(e){return st.cat==="all"||e.cat===st.cat}))st.cat="all";
   renderControls();newSession();
 }
-var emb={exercises:[],vocab:[]};try{emb=JSON.parse($("embedded").textContent)}catch(e){}
+var emb={exercises:[],vocab:[],lessons:null};try{emb=JSON.parse($("embedded").textContent)}catch(e){}
 function getJSON(u,fb){return fetch(u,{cache:"no-cache"}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(x){return Array.isArray(x)&&x.length?x:fb}).catch(function(){return fb})}
 if(location.protocol.indexOf("http")===0&&window.fetch&&window.Promise){
-  Promise.all([getJSON("exercises.json",emb.exercises),getJSON("vocab.json",emb.vocab)]).then(function(r){start(r[0],r[1])});
-}else start(emb.exercises,emb.vocab);
+  var getLessons=fetch("lessons.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(x){return x&&Array.isArray(x.course)?x:emb.lessons}).catch(function(){return emb.lessons});
+  Promise.all([getJSON("exercises.json",emb.exercises),getJSON("vocab.json",emb.vocab),getLessons]).then(function(r){start(r[0],r[1],r[2])});
+}else start(emb.exercises,emb.vocab,emb.lessons);
 })();

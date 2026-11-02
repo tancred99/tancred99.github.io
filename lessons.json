@@ -1,0 +1,669 @@
+{
+ "version": 1,
+ "course": [
+  {
+   "n": 1,
+   "id": "L1",
+   "title": "Noun gender + the prepositional case",
+   "topic": "где? в/на — saying where something is"
+  },
+  {
+   "n": 2,
+   "id": "L2",
+   "title": "Accusative (things) + куда? в/на",
+   "topic": "saying where you're going"
+  },
+  {
+   "n": 3,
+   "id": "L3",
+   "title": "Present tense: 1st and 2nd conjugation",
+   "topic": "я читаю, ты говоришь"
+  },
+  {
+   "n": 4,
+   "id": "L4",
+   "title": "Genitive: у меня есть / нет",
+   "topic": "having and not having"
+  },
+  {
+   "review": true,
+   "id": "R1",
+   "title": "Review 1",
+   "topic": "mixed practice on lessons 1–4"
+  },
+  {
+   "n": 5,
+   "id": "L5",
+   "title": "Past tense",
+   "topic": "я был, она была"
+  },
+  {
+   "n": 6,
+   "id": "L6",
+   "title": "Accusative: people and animals",
+   "topic": "я вижу брата"
+  },
+  {
+   "n": 7,
+   "id": "L7",
+   "title": "Dative",
+   "topic": "to whom? мне нравится"
+  },
+  {
+   "n": 8,
+   "id": "L8",
+   "title": "Instrumental",
+   "topic": "with whom? чай с молоком"
+  },
+  {
+   "review": true,
+   "id": "R2",
+   "title": "Review 2",
+   "topic": "mixed practice on lessons 5–8"
+  },
+  {
+   "n": 9,
+   "id": "L9",
+   "title": "Plurals",
+   "topic": "один билет, два билета, пять билетов"
+  },
+  {
+   "n": 10,
+   "id": "L10",
+   "title": "Adjective agreement",
+   "topic": "новый храм, новая церковь"
+  },
+  {
+   "n": 11,
+   "id": "L11",
+   "title": "Aspect: an introduction",
+   "topic": "делать / сделать"
+  },
+  {
+   "n": 12,
+   "id": "L12",
+   "title": "Verbs of motion: an introduction",
+   "topic": "идти / ходить, ехать / ездить"
+  },
+  {
+   "review": true,
+   "id": "R3",
+   "title": "Review 3",
+   "topic": "mixed practice on lessons 9–12"
+  }
+ ],
+ "lessons": {
+  "L1": {
+   "id": "L1",
+   "n": 1,
+   "title": "Noun gender and the prepositional case (where?)",
+   "goal": "By the end you'll be able to say where you are and where things are: Я в храме. Я на вокзале. Мы в Беларуси.",
+   "minutes": "15–20 min to read, then 31 exercises",
+   "sections": [
+    {
+     "h": "Step 1 · Every noun has a gender",
+     "open": true,
+     "html": "<p>Every Russian noun is <b>masculine</b>, <b>feminine</b> or <b>neuter</b>. It's grammar, not meaning: a church can be masculine (<span lang=\"ru\" class=\"r\">храм</span>) or feminine (<span lang=\"ru\" class=\"r\">церковь</span>). The good news: the <b>last letter of the dictionary form</b> almost always tells you.</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Ends in</th><th>Gender</th><th>Examples</th></tr></thead><tbody><tr><td>a consonant</td><td>masculine (он)</td><td><span lang=\"ru\" class=\"r\">магазин</span> store · <span lang=\"ru\" class=\"r\">храм</span> church · <span lang=\"ru\" class=\"r\">паспорт</span> passport · <span lang=\"ru\" class=\"r\">Минск</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">-й</span></td><td>masculine (он)</td><td><span lang=\"ru\" class=\"r\">музей</span> museum · <span lang=\"ru\" class=\"r\">чай</span> tea · <span lang=\"ru\" class=\"r\">трамвай</span> tram</td></tr><tr><td><span lang=\"ru\" class=\"r\">-а</span></td><td>feminine (она)</td><td><span lang=\"ru\" class=\"r\">касса</span> checkout · <span lang=\"ru\" class=\"r\">улица</span> street · <span lang=\"ru\" class=\"r\">граница</span> border · <span lang=\"ru\" class=\"r\">работа</span> work</td></tr><tr><td><span lang=\"ru\" class=\"r\">-я</span></td><td>feminine (она)</td><td><span lang=\"ru\" class=\"r\">таможня</span> customs · <span lang=\"ru\" class=\"r\">деревня</span> village · <span lang=\"ru\" class=\"r\">Россия</span> Russia</td></tr><tr><td><span lang=\"ru\" class=\"r\">-о</span></td><td>neuter (оно)</td><td><span lang=\"ru\" class=\"r\">окно</span> window · <span lang=\"ru\" class=\"r\">место</span> place, seat · <span lang=\"ru\" class=\"r\">молоко</span> milk</td></tr><tr><td><span lang=\"ru\" class=\"r\">-е</span></td><td>neuter (оно)</td><td><span lang=\"ru\" class=\"r\">море</span> sea · <span lang=\"ru\" class=\"r\">здание</span> building · <span lang=\"ru\" class=\"r\">расписание</span> timetable</td></tr><tr><td><span lang=\"ru\" class=\"r\">-ь</span></td><td>either</td><td>see Step 2</td></tr></tbody></table></div><p class=\"tip\"><b>One exception to know now:</b> men are masculine even when the word ends in <span lang=\"ru\" class=\"r\">-а/-я</span>: <span lang=\"ru\" class=\"r\">папа</span> (dad), <span lang=\"ru\" class=\"r\">дедушка</span> (grandpa), <span lang=\"ru\" class=\"r\">батюшка</span> (Father, the priest), <span lang=\"ru\" class=\"r\">мужчина</span> (man).</p><p class=\"tip\"><b>Habit:</b> learn every noun with он, она or оно: <span lang=\"ru\" class=\"r\">магазин — он, касса — она, окно — оно</span>.</p>"
+    },
+    {
+     "h": "Step 2 · Nouns ending in -ь",
+     "open": false,
+     "html": "<p>The soft sign <span lang=\"ru\" class=\"r\">ь</span> doesn't tell you the gender by itself. A few clues help:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Ending</th><th>Gender</th><th>Examples</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">-чь, -шь, -щь, -жь</span></td><td>always feminine</td><td><span lang=\"ru\" class=\"r\">ночь</span> night · <span lang=\"ru\" class=\"r\">дочь</span> daughter · <span lang=\"ru\" class=\"r\">вещь</span> thing (masculine words with these sounds have no <span lang=\"ru\" class=\"r\">ь</span>: <span lang=\"ru\" class=\"r\">врач</span> doctor, <span lang=\"ru\" class=\"r\">нож</span> knife)</td></tr><tr><td><span lang=\"ru\" class=\"r\">-ость</span></td><td>feminine</td><td><span lang=\"ru\" class=\"r\">новость</span> news · <span lang=\"ru\" class=\"r\">радость</span> joy</td></tr><tr><td><span lang=\"ru\" class=\"r\">-тель</span></td><td>masculine</td><td><span lang=\"ru\" class=\"r\">учитель</span> teacher · <span lang=\"ru\" class=\"r\">водитель</span> driver · <span lang=\"ru\" class=\"r\">житель</span> resident</td></tr></tbody></table></div><p>For everything else, just learn it with он or она. Common ones:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Masculine (он)</th><th>Feminine (она)</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">рубль</span> ruble</td><td><span lang=\"ru\" class=\"r\">церковь</span> church</td></tr><tr><td><span lang=\"ru\" class=\"r\">день</span> day</td><td><span lang=\"ru\" class=\"r\">очередь</span> line, queue</td></tr><tr><td><span lang=\"ru\" class=\"r\">Гомель</span> (the city)</td><td><span lang=\"ru\" class=\"r\">Беларусь</span> Belarus</td></tr><tr><td></td><td><span lang=\"ru\" class=\"r\">площадь</span> square · <span lang=\"ru\" class=\"r\">дверь</span> door</td></tr></tbody></table></div>"
+    },
+    {
+     "h": "Step 3 · What the prepositional case is for",
+     "open": false,
+     "html": "<p>Russian nouns change their ending depending on their job in the sentence. These forms are called <b>cases</b>. This lesson is about the <b>prepositional case</b> (<span lang=\"ru\" class=\"r\">предложный падеж</span>). It gets its name because it's only used after a preposition.</p><p>After <span lang=\"ru\" class=\"r\">в</span> (in) or <span lang=\"ru\" class=\"r\">на</span> (on, at), it answers the question <span lang=\"ru\" class=\"r\">где?</span> (where?):</p><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Где батюшка? — Батюшка в храме.</span><span class=\"g\">Where's Father? — Father is in the church.</span></li><li><span lang=\"ru\" class=\"r\">Где ты? — Я на вокзале.</span><span class=\"g\">Where are you? — I'm at the train station.</span></li><li><span lang=\"ru\" class=\"r\">Где вы живёте? — Я живу в Минске.</span><span class=\"g\">Where do you live? — I live in Minsk.</span></li></ul><p class=\"tip\">Russian has no \"is / am / are\" in the present tense. <span lang=\"ru\" class=\"r\">Я в храме</span> is simply “I (am) in the church.”</p><p>The same endings are used after <span lang=\"ru\" class=\"r\">о</span> (about): <span lang=\"ru\" class=\"r\">Я думаю о Минске</span> (I'm thinking about Minsk).</p>"
+    },
+    {
+     "h": "Step 4 · The endings: -е or -и",
+     "open": false,
+     "html": "<p>Take the dictionary form, look at the ending, and apply one of two rules.</p><h4>Rule 1 · Most nouns take -е</h4><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Dictionary form</th><th>What happens</th><th>Где?</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">храм</span></td><td>add <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">в храме</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Минск</span></td><td>add <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">в Минске</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">магазин</span></td><td>add <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">в магазине</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">музей</span></td><td><span lang=\"ru\" class=\"r\">-й</span> → <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">в музее</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">работа</span></td><td><span lang=\"ru\" class=\"r\">-а</span> → <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">на работе</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">граница</span></td><td><span lang=\"ru\" class=\"r\">-а</span> → <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">на границе</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">деревня</span></td><td><span lang=\"ru\" class=\"r\">-я</span> → <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">в деревне</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">таможня</span></td><td><span lang=\"ru\" class=\"r\">-я</span> → <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">на таможне</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">место</span></td><td><span lang=\"ru\" class=\"r\">-о</span> → <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">на месте</span> (in place, on the spot)</td></tr><tr><td><span lang=\"ru\" class=\"r\">море</span></td><td>stays <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">на море</span> (at the seaside)</td></tr><tr><td><span lang=\"ru\" class=\"r\">Гомель</span> (masc.)</td><td><span lang=\"ru\" class=\"r\">-ь</span> → <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">в Гомеле</span></td></tr></tbody></table></div><h4>Rule 2 · Two groups take -и</h4><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Group</th><th>Dictionary form</th><th>Где?</th></tr></thead><tbody><tr><td>feminine <span lang=\"ru\" class=\"r\">-ь</span></td><td><span lang=\"ru\" class=\"r\">церковь</span></td><td><span lang=\"ru\" class=\"r\">в церкви</span> (the о drops out)</td></tr><tr><td></td><td><span lang=\"ru\" class=\"r\">Беларусь</span></td><td><span lang=\"ru\" class=\"r\">в Беларуси</span></td></tr><tr><td></td><td><span lang=\"ru\" class=\"r\">очередь</span></td><td><span lang=\"ru\" class=\"r\">в очереди</span> (in line)</td></tr><tr><td></td><td><span lang=\"ru\" class=\"r\">площадь</span></td><td><span lang=\"ru\" class=\"r\">на площади</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">-ия</span></td><td><span lang=\"ru\" class=\"r\">Россия</span></td><td><span lang=\"ru\" class=\"r\">в России</span></td></tr><tr><td></td><td><span lang=\"ru\" class=\"r\">литургия</span></td><td><span lang=\"ru\" class=\"r\">на литургии</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">-ие</span></td><td><span lang=\"ru\" class=\"r\">здание</span></td><td><span lang=\"ru\" class=\"r\">в здании</span></td></tr><tr><td></td><td><span lang=\"ru\" class=\"r\">расписание</span></td><td><span lang=\"ru\" class=\"r\">в расписании</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">-ий</span></td><td><span lang=\"ru\" class=\"r\">санаторий</span> (health resort)</td><td><span lang=\"ru\" class=\"r\">в санатории</span></td></tr></tbody></table></div><p class=\"tip\"><b>Memory hook:</b> feminine <span lang=\"ru\" class=\"r\">-ь</span>, and anything with <span lang=\"ru\" class=\"r\">и</span> just before the ending (<span lang=\"ru\" class=\"r\">-ия, -ие, -ий</span>), takes <span lang=\"ru\" class=\"r\">-и</span>. Everything else takes <span lang=\"ru\" class=\"r\">-е</span>. So it's <span lang=\"ru\" class=\"r\">в России</span>, never “в Россие”, and <span lang=\"ru\" class=\"r\">в Гомеле</span> (masculine), but <span lang=\"ru\" class=\"r\">в Беларуси</span> (feminine).</p><h4>Around Belarus</h4><div class=\"tw\"><table class=\"lt \"><thead><tr><th>City / country</th><th>Где?</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">Минск</span></td><td><span lang=\"ru\" class=\"r\">в Минске</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Брест</span></td><td><span lang=\"ru\" class=\"r\">в Бресте</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Витебск</span></td><td><span lang=\"ru\" class=\"r\">в Витебске</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Могилёв</span></td><td><span lang=\"ru\" class=\"r\">в Могилёве</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Гомель</span></td><td><span lang=\"ru\" class=\"r\">в Гомеле</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Березино</span></td><td><span lang=\"ru\" class=\"r\">в Березине</span> (in everyday speech you'll also hear <span lang=\"ru\" class=\"r\">в Березино</span>)</td></tr><tr><td><span lang=\"ru\" class=\"r\">Беларусь</span></td><td><span lang=\"ru\" class=\"r\">в Беларуси</span></td></tr></tbody></table></div>"
+    },
+    {
+     "h": "Step 5 · в or на?",
+     "open": false,
+     "html": "<p><b><span lang=\"ru\" class=\"r\">в</span> = in, inside.</b> Use it for buildings and rooms, and for cities and countries: <span lang=\"ru\" class=\"r\">в храме, в церкви, в магазине, в Минске, в Беларуси</span>.</p><p><b><span lang=\"ru\" class=\"r\">на</span> = on, at.</b> Use it for surfaces (<span lang=\"ru\" class=\"r\">на столе</span>, on the table), for events and activities (<span lang=\"ru\" class=\"r\">на литургии, на службе, на работе</span>), and for a set of places you just have to learn:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Word</th><th>Где?</th><th>Meaning</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">рынок</span></td><td><span lang=\"ru\" class=\"r\">на рынке</span></td><td>at the market (the о drops out)</td></tr><tr><td><span lang=\"ru\" class=\"r\">вокзал</span></td><td><span lang=\"ru\" class=\"r\">на вокзале</span></td><td>at the train station</td></tr><tr><td><span lang=\"ru\" class=\"r\">работа</span></td><td><span lang=\"ru\" class=\"r\">на работе</span></td><td>at work</td></tr><tr><td><span lang=\"ru\" class=\"r\">почта</span></td><td><span lang=\"ru\" class=\"r\">на почте</span></td><td>at the post office</td></tr><tr><td><span lang=\"ru\" class=\"r\">улица</span></td><td><span lang=\"ru\" class=\"r\">на улице</span></td><td>in the street; outside</td></tr><tr><td><span lang=\"ru\" class=\"r\">граница</span></td><td><span lang=\"ru\" class=\"r\">на границе</span></td><td>at the border</td></tr><tr><td><span lang=\"ru\" class=\"r\">касса</span></td><td><span lang=\"ru\" class=\"r\">на кассе</span></td><td>at the checkout (for a ticket office you'll also hear <span lang=\"ru\" class=\"r\">в кассе</span>)</td></tr><tr><td><span lang=\"ru\" class=\"r\">остановка</span></td><td><span lang=\"ru\" class=\"r\">на остановке</span></td><td>at the (bus) stop</td></tr><tr><td><span lang=\"ru\" class=\"r\">таможня</span></td><td><span lang=\"ru\" class=\"r\">на таможне</span></td><td>at customs</td></tr><tr><td><span lang=\"ru\" class=\"r\">площадь</span></td><td><span lang=\"ru\" class=\"r\">на площади</span></td><td>in the square</td></tr></tbody></table></div><p class=\"tip\"><b>Habit:</b> learn new place words together with their preposition: <span lang=\"ru\" class=\"r\">в магазине, на вокзале</span>. <span lang=\"ru\" class=\"r\">на улице</span> also just means “outside”: <span lang=\"ru\" class=\"r\">На улице холодно</span> (It's cold outside).</p>"
+    },
+    {
+     "h": "Step 6 · во and об",
+     "open": false,
+     "html": "<p>Two small spelling helpers make words easier to say:</p><p><b><span lang=\"ru\" class=\"r\">в → во</span></b> before a word starting with <span lang=\"ru\" class=\"r\">в</span> or <span lang=\"ru\" class=\"r\">ф</span> plus another consonant: <span lang=\"ru\" class=\"r\">во Франции</span> (in France), <span lang=\"ru\" class=\"r\">во Владимире</span> (in Vladimir). But: <span lang=\"ru\" class=\"r\">в Минске, в Витебске</span> (a vowel follows the в).</p><p><b><span lang=\"ru\" class=\"r\">о → об</span></b> (about) before a vowel sound (<span lang=\"ru\" class=\"r\">а, о, у, э, и</span>): <span lang=\"ru\" class=\"r\">Я думаю об Америке</span> (I'm thinking about America). But: <span lang=\"ru\" class=\"r\">о Минске</span>.</p><p><span lang=\"ru\" class=\"r\">на</span> never changes.</p>"
+    },
+    {
+     "h": "Step 7 · A few exceptions",
+     "open": false,
+     "html": "<p>A small group of masculine nouns take a stressed <b><span lang=\"ru\" class=\"r\">-у</span></b> after <span lang=\"ru\" class=\"r\">в / на</span> when they mean location. Learn these as set phrases:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Word</th><th>Где?</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">аэропорт</span> airport</td><td><span lang=\"ru\" class=\"r\">в аэропорту</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">лес</span> forest</td><td><span lang=\"ru\" class=\"r\">в лесу</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">мост</span> bridge</td><td><span lang=\"ru\" class=\"r\">на мосту</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">сад</span> garden</td><td><span lang=\"ru\" class=\"r\">в саду</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">пол</span> floor</td><td><span lang=\"ru\" class=\"r\">на полу</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">шкаф</span> wardrobe</td><td><span lang=\"ru\" class=\"r\">в шкафу</span></td></tr></tbody></table></div><p>After <span lang=\"ru\" class=\"r\">о</span> (about) they're regular: <span lang=\"ru\" class=\"r\">о лесе, об аэропорте</span>. You'll hear <span lang=\"ru\" class=\"r\">в аэропорте</span> in casual speech, but <span lang=\"ru\" class=\"r\">в аэропорту</span> is the standard form.</p><p>Also good to know: <b>at home</b> is <span lang=\"ru\" class=\"r\">дома</span> (not “в доме”). Foreign words like <span lang=\"ru\" class=\"r\">кафе, метро, такси</span> never change: <span lang=\"ru\" class=\"r\">в кафе, в метро, в такси</span>.</p>"
+    },
+    {
+     "h": "Summary",
+     "open": false,
+     "html": "<ul class=\"sum\"><li>Gender: consonant or <span lang=\"ru\" class=\"r\">-й</span> → masculine; <span lang=\"ru\" class=\"r\">-а / -я</span> → feminine; <span lang=\"ru\" class=\"r\">-о / -е</span> → neuter; <span lang=\"ru\" class=\"r\">-ь</span> → learn it. Men are masculine.</li><li><span lang=\"ru\" class=\"r\">Где?</span> = <span lang=\"ru\" class=\"r\">в / на</span> + prepositional.</li><li>Endings: <span lang=\"ru\" class=\"r\">-е</span>, except feminine <span lang=\"ru\" class=\"r\">-ь</span> and <span lang=\"ru\" class=\"r\">-ия / -ие / -ий</span> → <span lang=\"ru\" class=\"r\">-и</span>.</li><li><span lang=\"ru\" class=\"r\">на</span> for events and for <span lang=\"ru\" class=\"r\">рынок, вокзал, работа, почта, улица, граница, касса, остановка</span>.</li><li><span lang=\"ru\" class=\"r\">во / об</span> before awkward clusters and vowels; <span lang=\"ru\" class=\"r\">в аэропорту, в лесу, на мосту</span>.</li></ul>"
+    }
+   ],
+   "parts": {
+    "A": "Part A · Pick the gender",
+    "B": "Part B · Form the prepositional",
+    "C": "Part C · в or на + the right form"
+   },
+   "practice": {
+    "title": "Now use it: write to your tutor",
+    "text": "Write 3 short sentences to your tutor in chat saying where people or things are. Use at least one на-word and one -и ending.",
+    "examples": [
+     "Я живу в Минске.",
+     "Батюшка в церкви.",
+     "Мой паспорт на столе."
+    ]
+   },
+   "exercises": [
+    {
+     "part": "A",
+     "sub": "A · gender",
+     "s": "магазин — ___",
+     "base": "store",
+     "a": "masculine",
+     "d": [
+      "feminine",
+      "neuter"
+     ],
+     "ex": "It ends in a consonant (н), so it's masculine: он. (Step 1)",
+     "translation": "",
+     "glosses": [],
+     "choiceOnly": true
+    },
+    {
+     "part": "A",
+     "sub": "A · gender",
+     "s": "касса — ___",
+     "base": "checkout",
+     "a": "feminine",
+     "d": [
+      "masculine",
+      "neuter"
+     ],
+     "ex": "It ends in -а, so it's feminine: она. (Step 1)",
+     "translation": "",
+     "glosses": [],
+     "choiceOnly": true
+    },
+    {
+     "part": "A",
+     "sub": "A · gender",
+     "s": "окно — ___",
+     "base": "window",
+     "a": "neuter",
+     "d": [
+      "masculine",
+      "feminine"
+     ],
+     "ex": "It ends in -о, so it's neuter: оно. (Step 1)",
+     "translation": "",
+     "glosses": [],
+     "choiceOnly": true
+    },
+    {
+     "part": "A",
+     "sub": "A · gender",
+     "s": "таможня — ___",
+     "base": "customs",
+     "a": "feminine",
+     "d": [
+      "masculine",
+      "neuter"
+     ],
+     "ex": "It ends in -я, so it's feminine: она. (Step 1)",
+     "translation": "",
+     "glosses": [],
+     "choiceOnly": true
+    },
+    {
+     "part": "A",
+     "sub": "A · gender",
+     "s": "музей — ___",
+     "base": "museum",
+     "a": "masculine",
+     "d": [
+      "feminine",
+      "neuter"
+     ],
+     "ex": "It ends in -й, so it's masculine: он. (Step 1)",
+     "translation": "",
+     "glosses": [],
+     "choiceOnly": true
+    },
+    {
+     "part": "A",
+     "sub": "A · gender",
+     "s": "здание — ___",
+     "base": "building",
+     "a": "neuter",
+     "d": [
+      "masculine",
+      "feminine"
+     ],
+     "ex": "It ends in -е (here -ие), so it's neuter: оно. (Step 1)",
+     "translation": "",
+     "glosses": [],
+     "choiceOnly": true
+    },
+    {
+     "part": "A",
+     "sub": "A · gender",
+     "s": "ночь — ___",
+     "base": "night",
+     "a": "feminine",
+     "d": [
+      "masculine",
+      "neuter"
+     ],
+     "ex": "-ь after ч, ш, щ or ж is always feminine: ночь, дочь, вещь. (Step 2)",
+     "translation": "",
+     "glosses": [],
+     "choiceOnly": true
+    },
+    {
+     "part": "A",
+     "sub": "A · gender",
+     "s": "учитель — ___",
+     "base": "teacher",
+     "a": "masculine",
+     "d": [
+      "feminine",
+      "neuter"
+     ],
+     "ex": "Nouns in -тель are masculine: учитель, водитель, житель. (Step 2)",
+     "translation": "",
+     "glosses": [],
+     "choiceOnly": true
+    },
+    {
+     "part": "A",
+     "sub": "A · gender",
+     "s": "церковь — ___",
+     "base": "church",
+     "a": "feminine",
+     "d": [
+      "masculine",
+      "neuter"
+     ],
+     "ex": "A -ь word you just have to learn: церковь is feminine. That's why it's в церкви. (Step 2)",
+     "translation": "",
+     "glosses": [],
+     "choiceOnly": true
+    },
+    {
+     "part": "A",
+     "sub": "A · gender",
+     "s": "батюшка — ___",
+     "base": "Father (the priest)",
+     "a": "masculine",
+     "d": [
+      "feminine",
+      "neuter"
+     ],
+     "ex": "It ends in -а, but men are masculine: папа, дедушка, батюшка. (Step 1)",
+     "translation": "",
+     "glosses": [],
+     "choiceOnly": true
+    },
+    {
+     "part": "B",
+     "sub": "B · prepositional",
+     "s": "Я в ___.",
+     "base": "храм",
+     "a": "храме",
+     "d": [
+      "храми",
+      "храм",
+      "храма"
+     ],
+     "ex": "Rule 1: a consonant adds -е. храм → в храме. (Step 4)",
+     "translation": "I'm in the church.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · prepositional",
+     "s": "Я живу в ___.",
+     "base": "Минск",
+     "a": "Минске",
+     "d": [
+      "Мински",
+      "Минск",
+      "Минска"
+     ],
+     "ex": "Rule 1: a consonant adds -е. Минск → в Минске. (Step 4)",
+     "translation": "I live in Minsk.",
+     "glosses": [
+      "живу: I live"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · prepositional",
+     "s": "Батюшка в ___.",
+     "base": "церковь",
+     "a": "церкви",
+     "d": [
+      "церкве",
+      "церковь",
+      "церкови"
+     ],
+     "ex": "Rule 2: feminine -ь takes -и, and the о drops out. церковь → в церкви. (Step 4)",
+     "translation": "Father is in the church.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · prepositional",
+     "s": "Мой друг живёт в ___.",
+     "base": "Россия",
+     "a": "России",
+     "d": [
+      "Россие",
+      "Россия",
+      "Росси"
+     ],
+     "ex": "Rule 2: -ия becomes -ии. Россия → в России, never “в Россие”. (Step 4)",
+     "translation": "My friend lives in Russia.",
+     "glosses": [
+      "мой друг: my friend",
+      "живёт: lives"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · prepositional",
+     "s": "Мы в ___.",
+     "base": "здание",
+     "a": "здании",
+     "d": [
+      "здание",
+      "здания",
+      "зданию"
+     ],
+     "ex": "Rule 2: -ие becomes -ии. здание → в здании. (Step 4)",
+     "translation": "We're in the building.",
+     "glosses": [
+      "мы: we"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · prepositional",
+     "s": "Мы в ___.",
+     "base": "музей",
+     "a": "музее",
+     "d": [
+      "музеи",
+      "музей",
+      "музея"
+     ],
+     "ex": "Rule 1: -й becomes -е. музей → в музее. (Step 4)",
+     "translation": "We're in the museum.",
+     "glosses": [
+      "мы: we"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · prepositional",
+     "s": "Бабушка живёт в ___.",
+     "base": "деревня",
+     "a": "деревне",
+     "d": [
+      "деревни",
+      "деревня",
+      "деревню"
+     ],
+     "ex": "Rule 1: -я becomes -е. деревня → в деревне. (Step 4)",
+     "translation": "Grandma lives in the village.",
+     "glosses": [
+      "бабушка: grandma",
+      "живёт: lives"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · prepositional",
+     "s": "Я на ___.",
+     "base": "работа",
+     "a": "работе",
+     "d": [
+      "работи",
+      "работа",
+      "работу"
+     ],
+     "ex": "Rule 1: -а becomes -е. работа → на работе. (Step 4)",
+     "translation": "I'm at work.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · prepositional",
+     "s": "Мой друг в ___.",
+     "base": "Гомель",
+     "a": "Гомеле",
+     "d": [
+      "Гомели",
+      "Гомель",
+      "Гомеля"
+     ],
+     "ex": "Гомель is masculine, so Rule 1 applies: -ь becomes -е. Only feminine -ь takes -и. (Steps 2 and 4)",
+     "translation": "My friend is in Gomel.",
+     "glosses": [
+      "мой друг: my friend"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · prepositional",
+     "s": "Мама в ___.",
+     "base": "санаторий",
+     "a": "санатории",
+     "d": [
+      "санаторие",
+      "санаторий",
+      "санатория"
+     ],
+     "ex": "Rule 2: -ий becomes -ии. санаторий → в санатории. (Step 4)",
+     "translation": "Mom is at the health resort.",
+     "glosses": [
+      "санаторий: health resort"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · в or на",
+     "s": "Мы сейчас ___.",
+     "base": "магазин · в or на?",
+     "a": "в магазине",
+     "d": [
+      "на магазине",
+      "в магазини",
+      "на магазини"
+     ],
+     "ex": "в: a store is a building you're inside. Rule 1: магазин + е. (Steps 4 and 5)",
+     "translation": "We're at the store now.",
+     "glosses": [
+      "сейчас: now"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · в or на",
+     "s": "Паспорта проверяют ___.",
+     "base": "граница · в or на?",
+     "a": "на границе",
+     "d": [
+      "в границе",
+      "на граници",
+      "в граници"
+     ],
+     "ex": "граница is on the на-list. Rule 1: -а becomes -е. (Steps 4 and 5)",
+     "translation": "They check passports at the border.",
+     "glosses": [
+      "паспорта: passports",
+      "проверяют: (they) check"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · в or на",
+     "s": "Я жду автобус ___.",
+     "base": "остановка · в or на?",
+     "a": "на остановке",
+     "d": [
+      "в остановке",
+      "на остановки",
+      "в остановки"
+     ],
+     "ex": "остановка is on the на-list. Rule 1: -а becomes -е. (Steps 4 and 5)",
+     "translation": "I'm waiting for the bus at the stop.",
+     "glosses": [
+      "жду: I'm waiting for",
+      "автобус: bus"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · в or на",
+     "s": "Свечи продают ___.",
+     "base": "храм · в or на?",
+     "a": "в храме",
+     "d": [
+      "на храме",
+      "в храми",
+      "на храми"
+     ],
+     "ex": "в: inside a building. Rule 1: храм + е. (Steps 4 and 5)",
+     "translation": "They sell candles in the church.",
+     "glosses": [
+      "свечи: candles",
+      "продают: (they) sell"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · в or на",
+     "s": "Я живу ___.",
+     "base": "Беларусь · в or на?",
+     "a": "в Беларуси",
+     "d": [
+      "в Беларусе",
+      "на Беларуси",
+      "на Беларусе"
+     ],
+     "ex": "в for countries and cities. Rule 2: feminine -ь takes -и. (Steps 4 and 5)",
+     "translation": "I live in Belarus.",
+     "glosses": [
+      "живу: I live"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · в or на",
+     "s": "Овощи дешевле ___.",
+     "base": "рынок · в or на?",
+     "a": "на рынке",
+     "d": [
+      "в рынке",
+      "на рыноке",
+      "в рыноке"
+     ],
+     "ex": "рынок is on the на-list, and its о drops out: на рынке. (Step 5)",
+     "translation": "Vegetables are cheaper at the market.",
+     "glosses": [
+      "овощи: vegetables",
+      "дешевле: cheaper"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · в or на",
+     "s": "Я ___.",
+     "base": "почта · в or на?",
+     "a": "на почте",
+     "d": [
+      "в почте",
+      "на почти",
+      "в почти"
+     ],
+     "ex": "почта is on the на-list. Rule 1: -а becomes -е. (Steps 4 and 5)",
+     "translation": "I'm at the post office.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · в or на",
+     "s": "Мы встретились ___.",
+     "base": "вокзал · в or на?",
+     "a": "на вокзале",
+     "d": [
+      "в вокзале",
+      "на вокзали",
+      "в вокзали"
+     ],
+     "ex": "вокзал is on the на-list. Rule 1: вокзал + е. (Steps 4 and 5)",
+     "translation": "We met at the train station.",
+     "glosses": [
+      "встретились: (we) met"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · в or на",
+     "s": "Я сейчас ___.",
+     "base": "аэропорт · в or на?",
+     "a": "в аэропорту",
+     "d": [
+      "в аэропорте",
+      "на аэропорту",
+      "на аэропорте"
+     ],
+     "ex": "аэропорт is an exception: в аэропорту. You'll hear в аэропорте in casual speech, but в аэропорту is standard. (Step 7)",
+     "translation": "I'm at the airport now.",
+     "glosses": [
+      "сейчас: now"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · в or на",
+     "s": "Сегодня ___ холодно.",
+     "base": "улица · в or на?",
+     "a": "на улице",
+     "d": [
+      "в улице",
+      "на улици",
+      "в улици"
+     ],
+     "ex": "на улице means in the street, or simply outside. Rule 1: -а becomes -е. (Steps 4 and 5)",
+     "translation": "It's cold outside today.",
+     "glosses": [
+      "сегодня: today",
+      "холодно: (it's) cold"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · в or на",
+     "s": "Мой друг живёт ___.",
+     "base": "Франция · в or на?",
+     "a": "во Франции",
+     "d": [
+      "в Франции",
+      "во Франце",
+      "на Франции"
+     ],
+     "ex": "в becomes во before ф + a consonant. Rule 2: -ия becomes -ии. (Steps 4 and 6)",
+     "translation": "My friend lives in France.",
+     "glosses": [
+      "мой друг: my friend",
+      "живёт: lives"
+     ]
+    }
+   ]
+  }
+ }
+}
