@@ -22,7 +22,7 @@ T = {
  "рынок": ("m","на","рынке"), "вокзал": ("m","на","вокзале"), "почта": ("f","на","почте"), "остановка": ("f","на","остановке"),
  "стол": ("m","на","столе"), "служба": ("f","на","службе"), "Франция": ("f","во","Франции"), "Владимир": ("m","во","Владимире"),
  "аэропорт": ("m","в","аэропорту"), "лес": ("m","в","лесу"), "мост": ("m","на","мосту"), "сад": ("m","в","саду"), "пол": ("m","на","полу"), "шкаф": ("m","в","шкафу"),
- "Америка": ("f",None,None),
+ "Америка": ("f","в","Америке"),
 }
 # forms after о (about) mentioned in the lesson
 ABOUT = {"Минск": "Минске", "лес": "лесе", "аэропорт": "аэропорте", "Америка": "Америке"}
@@ -51,14 +51,56 @@ GN = {"masculine":"m","feminine":"f","neuter":"n"}
 inv = {}
 for w,(g,prep,loc) in T.items():
     if loc: inv[loc] = (w,prep)
+# Lesson 2: accusative of things. word: (preposition for куда?, accusative form). Checked against the dictionary (inanimate reading).
+ACC = {
+ "хлеб": (None,"хлеб"), "вода": (None,"воду"), "молоко": (None,"молоко"), "касса": ("на","кассу"), "рыба": (None,"рыбу"),
+ "паспорт": (None,"паспорт"), "свеча": (None,"свечу"), "молитва": (None,"молитву"), "церковь": ("в","церковь"), "Беларусь": ("в","Беларусь"),
+ "храм": ("в","храм"), "Минск": ("в","Минск"), "граница": ("на","границу"), "работа": ("на","работу"), "магазин": ("в","магазин"),
+ "вокзал": ("на","вокзал"), "Березино": ("в","Березино"), "рынок": ("на","рынок"), "аэропорт": ("в","аэропорт"),
+ "литургия": ("на","литургию"), "Америка": ("в","Америку"), "Россия": ("в","Россию"), "почта": ("на","почту"), "таможня": ("на","таможню"),
+ "музей": ("в","музей"), "Гомель": ("в","Гомель"), "море": ("на","море"), "деревня": ("в","деревню"), "площадь": ("на","площадь"),
+ "Франция": ("во","Францию"), "очередь": ("в","очередь"),
+}
+MANUAL = {"Джексон": ("m","в","Джексоне","Джексон")}  # the city; the dictionary only has the surname
+for w,(pr,acc) in ACC.items():
+    forms = set()
+    for q in M.parse(w):
+        if q.tag.POS == "NOUN" and q.normal_form == w.lower() and "anim" not in q.tag:
+            x = q.inflect({"accs","sing"});
+            if x: forms.add(x.word)
+    if w == "рыба": forms |= {"рыбу"}  # food reading; the dictionary marks рыба animate, accusative is рыбу either way
+    if acc.lower() not in forms: errs.append("accusative %s: table %s, dict %s" % (w,acc,forms))
+    if pr and w in T and T[w][1] != pr: errs.append("preposition differs between где/куда for %s" % w)
+for w,(g,pr,loc,acc) in MANUAL.items():
+    T.setdefault(w,(g,pr,loc)); ACC.setdefault(w,(pr,acc))
 n = 0
 for lid,les in L["lessons"].items():
     for e in les["exercises"]:
         n += 1
         opts = [e["a"]] + e["d"]
-        if len(set(opts)) != (3 if e["part"] == "A" else 4): errs.append("options not 4 distinct: %s" % opts)
+        if len(set(opts)) != (3 if (lid == "L1" and e["part"] == "A") else 4): errs.append("options not distinct / wrong count: %s" % opts)
         if not e.get("ex"): errs.append("no explanation: "+e["s"])
         if e["s"].count("___") != 1: errs.append("blank: "+e["s"])
+        if not re.search(r"Step", e["ex"]): errs.append("explanation lacks a rule pointer: "+e["s"])
+        if lid == "L2":
+            w = e["base"].split(" · ")[0]
+            if e["part"] == "A":
+                if ACC[w][1] != e["a"]: errs.append("L2 A answer %s %s" % (w,e["a"]))
+            elif e["part"] == "B":
+                if e["a"] != ACC[w][0]+" "+ACC[w][1]: errs.append("L2 B answer %s %s" % (w,e["a"]))
+            else:
+                k = e.get("k")
+                exp = {"where": (T.get(w,("",None,None))[1] or "")+" "+(T.get(w,("",None,None))[2] or ""),
+                       "whereto": ACC.get(w,("",""))[0]+" "+ACC.get(w,("",""))[1], "home": "домой"}.get(k)
+                if e["a"] != exp: errs.append("L2 C answer %s %s (expected %s)" % (w,e["a"],exp))
+                # the other case's form should be among the distractors so the item tests где vs куда
+                other = {"where": "whereto", "whereto": "where", "home": None}[k]
+                if other:
+                    o = {"where": T[w][1]+" "+T[w][2], "whereto": ACC[w][0]+" "+ACC[w][1]}[other]
+                    if o not in e["d"]: errs.append("L2 C missing other-case distractor %s" % e["s"])
+            for d in e["d"]:
+                if d == e["a"]: errs.append("distractor equals answer "+d)
+            continue
         if e["part"] == "A":
             w = e["s"].split(" — ")[0]
             if GN[e["a"]] != T[w][0]: errs.append("gender answer "+w)
@@ -74,8 +116,6 @@ for lid,les in L["lessons"].items():
             for d in e["d"]:
                 pr, fo = d.split(" ",1)
                 if pr == T[w][1] and fo == T[w][2]: errs.append("distractor equals answer "+d)
-        # the explanation must name a step of the lesson
-        if not re.search(r"Step", e["ex"]): errs.append("explanation lacks a rule pointer: "+e["s"])
 # context words in sentences/glosses: check they exist
 words = set()
 blob = json.dumps(L, ensure_ascii=False)

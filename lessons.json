@@ -664,6 +664,655 @@
      ]
     }
    ]
+  },
+  "L2": {
+   "id": "L2",
+   "n": 2,
+   "title": "The accusative case (things) and куда? (where to?)",
+   "goal": "By the end you'll be able to say where you're going and what you're buying: Я иду в храм. Я еду на работу. Я покупаю воду.",
+   "minutes": "15–20 min to read, then 33 exercises",
+   "sections": [
+    {
+     "h": "Step 1 · Где? or куда?",
+     "open": true,
+     "html": "<p>In Lesson 1, <span lang=\"ru\" class=\"r\">где?</span> (where?) used <span lang=\"ru\" class=\"r\">в / на</span> + the prepositional: <span lang=\"ru\" class=\"r\">Я в храме</span>. When you're <b>moving toward</b> a place, Russian asks <span lang=\"ru\" class=\"r\">куда?</span> (where to?) and uses a different case: the <b>accusative</b> (<span lang=\"ru\" class=\"r\">винительный падеж</span>).</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Где? · being somewhere</th><th>Куда? · going somewhere</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">Я в храме.</span><br>I'm in church.</td><td><span lang=\"ru\" class=\"r\">Я иду в храм.</span><br>I'm going to church.</td></tr><tr><td><span lang=\"ru\" class=\"r\">Я на работе.</span><br>I'm at work.</td><td><span lang=\"ru\" class=\"r\">Я еду на работу.</span><br>I'm driving to work.</td></tr><tr><td><span lang=\"ru\" class=\"r\">Жена в магазине.</span><br>My wife is at the store.</td><td><span lang=\"ru\" class=\"r\">Жена идёт в магазин.</span><br>My wife is going to the store.</td></tr><tr><td><span lang=\"ru\" class=\"r\">Я был в Джексоне.</span><br>I was in Jackson.</td><td><span lang=\"ru\" class=\"r\">Я ездил в Джексон.</span><br>I went to Jackson.</td></tr></tbody></table></div><p class=\"tip\"><b>The test:</b> is someone moving toward the place? Then it's <span lang=\"ru\" class=\"r\">куда?</span> + accusative. Being, living, working, waiting somewhere is <span lang=\"ru\" class=\"r\">где?</span> + prepositional.</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Где? verbs</th><th>Куда? verbs</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">быть</span> be · <span lang=\"ru\" class=\"r\">жить</span> live · <span lang=\"ru\" class=\"r\">работать</span> work · <span lang=\"ru\" class=\"r\">стоять</span> stand</td><td><span lang=\"ru\" class=\"r\">идти</span> go on foot · <span lang=\"ru\" class=\"r\">ехать</span> go by vehicle · <span lang=\"ru\" class=\"r\">ходить / ездить</span> go (and come back) · <span lang=\"ru\" class=\"r\">лететь</span> fly</td></tr></tbody></table></div>"
+    },
+    {
+     "h": "Step 2 · The accusative endings for things",
+     "open": false,
+     "html": "<p>Good news: for things and places, <b>only feminine <span lang=\"ru\" class=\"r\">-а</span> and <span lang=\"ru\" class=\"r\">-я</span> change.</b> Everything else stays in the dictionary form.</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Dictionary form</th><th>Accusative</th><th>Examples</th></tr></thead><tbody><tr><td>masc. consonant, <span lang=\"ru\" class=\"r\">-й</span>, <span lang=\"ru\" class=\"r\">-ь</span></td><td>no change</td><td><span lang=\"ru\" class=\"r\">магазин → в магазин</span> · <span lang=\"ru\" class=\"r\">Минск → в Минск</span> · <span lang=\"ru\" class=\"r\">музей → в музей</span> · <span lang=\"ru\" class=\"r\">Гомель → в Гомель</span></td></tr><tr><td>neuter <span lang=\"ru\" class=\"r\">-о / -е</span></td><td>no change</td><td><span lang=\"ru\" class=\"r\">Березино → в Березино</span> · <span lang=\"ru\" class=\"r\">море → на море</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">-а</span></td><td><span lang=\"ru\" class=\"r\">-а → -у</span></td><td><span lang=\"ru\" class=\"r\">работа → на работу</span> · <span lang=\"ru\" class=\"r\">граница → на границу</span> · <span lang=\"ru\" class=\"r\">Америка → в Америку</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">-я</span></td><td><span lang=\"ru\" class=\"r\">-я → -ю</span></td><td><span lang=\"ru\" class=\"r\">деревня → в деревню</span> · <span lang=\"ru\" class=\"r\">таможня → на таможню</span> · <span lang=\"ru\" class=\"r\">Россия → в Россию</span></td></tr><tr><td>feminine <span lang=\"ru\" class=\"r\">-ь</span></td><td>no change</td><td><span lang=\"ru\" class=\"r\">церковь → в церковь</span> · <span lang=\"ru\" class=\"r\">Беларусь → в Беларусь</span> · <span lang=\"ru\" class=\"r\">площадь → на площадь</span></td></tr></tbody></table></div><p class=\"tip\"><b>Memory hook:</b> <span lang=\"ru\" class=\"r\">-а → -у, -я → -ю</span>. Everything else stays the same. Compare the prepositional: <span lang=\"ru\" class=\"r\">в церкви</span> (where?) but <span lang=\"ru\" class=\"r\">в церковь</span> (where to?).</p><p>Foreign words like <span lang=\"ru\" class=\"r\">кафе, метро, такси, кофе</span> never change: <span lang=\"ru\" class=\"r\">Я иду в кафе. Я беру такси.</span></p><p class=\"tip\">This lesson is about <b>things and places</b>. People and animals work differently in the masculine (<span lang=\"ru\" class=\"r\">я вижу брата</span>). That's Lesson 6.</p>"
+    },
+    {
+     "h": "Step 3 · The accusative for things you buy, see and want",
+     "open": false,
+     "html": "<p>The accusative has a second job, with no preposition at all: it marks the <b>direct object</b>, the thing you buy, see, want or order. The endings are the same as in Step 2.</p><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">В магазине я покупаю хлеб и воду.</span><span class=\"g\">At the store I'm buying bread and water. (хлеб stays, вода → воду)</span></li><li><span lang=\"ru\" class=\"r\">Я ищу кассу.</span><span class=\"g\">I'm looking for the checkout. (касса → кассу)</span></li><li><span lang=\"ru\" class=\"r\">Покажите, пожалуйста, паспорт.</span><span class=\"g\">Show your passport, please. (паспорт stays)</span></li><li><span lang=\"ru\" class=\"r\">В ресторане я заказываю рыбу.</span><span class=\"g\">At the restaurant I order fish. (рыба → рыбу)</span></li><li><span lang=\"ru\" class=\"r\">Я ставлю свечу.</span><span class=\"g\">I'm putting up a candle. (свеча → свечу)</span></li><li><span lang=\"ru\" class=\"r\">Я вижу церковь.</span><span class=\"g\">I see the church. (церковь stays)</span></li></ul><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Useful verbs (I …)</th><th>Meaning</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">покупаю</span></td><td>I buy, I'm buying</td></tr><tr><td><span lang=\"ru\" class=\"r\">беру</span></td><td>I take</td></tr><tr><td><span lang=\"ru\" class=\"r\">хочу</span></td><td>I want</td></tr><tr><td><span lang=\"ru\" class=\"r\">ищу</span></td><td>I'm looking for</td></tr><tr><td><span lang=\"ru\" class=\"r\">вижу</span></td><td>I see</td></tr><tr><td><span lang=\"ru\" class=\"r\">люблю</span></td><td>I love</td></tr><tr><td><span lang=\"ru\" class=\"r\">заказываю</span></td><td>I order</td></tr><tr><td><span lang=\"ru\" class=\"r\">читаю</span></td><td>I read</td></tr></tbody></table></div><p class=\"tip\"><b>Gender still decides everything.</b> It's also why we say <span lang=\"ru\" class=\"r\">моя работа</span> (feminine, ends in <span lang=\"ru\" class=\"r\">-а</span>) but <span lang=\"ru\" class=\"r\">мой паспорт</span> (masculine) and <span lang=\"ru\" class=\"r\">моё место</span> (neuter): <span lang=\"ru\" class=\"r\">мой / моя / моё</span> matches the noun. So: <span lang=\"ru\" class=\"r\">Мне нравится моя работа.</span></p>"
+    },
+    {
+     "h": "Step 4 · в or на: same as Lesson 1",
+     "open": false,
+     "html": "<p>The preposition doesn't change. If a place takes <span lang=\"ru\" class=\"r\">в</span> for <span lang=\"ru\" class=\"r\">где?</span>, it takes <span lang=\"ru\" class=\"r\">в</span> for <span lang=\"ru\" class=\"r\">куда?</span>. The same goes for <span lang=\"ru\" class=\"r\">на</span>. Only the ending changes.</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Word</th><th>Где?</th><th>Куда?</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">храм</span></td><td><span lang=\"ru\" class=\"r\">в храме</span></td><td><span lang=\"ru\" class=\"r\">в храм</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">церковь</span></td><td><span lang=\"ru\" class=\"r\">в церкви</span></td><td><span lang=\"ru\" class=\"r\">в церковь</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">магазин</span></td><td><span lang=\"ru\" class=\"r\">в магазине</span></td><td><span lang=\"ru\" class=\"r\">в магазин</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Джексон</span></td><td><span lang=\"ru\" class=\"r\">в Джексоне</span></td><td><span lang=\"ru\" class=\"r\">в Джексон</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Беларусь</span></td><td><span lang=\"ru\" class=\"r\">в Беларуси</span></td><td><span lang=\"ru\" class=\"r\">в Беларусь</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Россия</span></td><td><span lang=\"ru\" class=\"r\">в России</span></td><td><span lang=\"ru\" class=\"r\">в Россию</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">работа</span></td><td><span lang=\"ru\" class=\"r\">на работе</span></td><td><span lang=\"ru\" class=\"r\">на работу</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">граница</span></td><td><span lang=\"ru\" class=\"r\">на границе</span></td><td><span lang=\"ru\" class=\"r\">на границу</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">таможня</span></td><td><span lang=\"ru\" class=\"r\">на таможне</span></td><td><span lang=\"ru\" class=\"r\">на таможню</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">вокзал</span></td><td><span lang=\"ru\" class=\"r\">на вокзале</span></td><td><span lang=\"ru\" class=\"r\">на вокзал</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">рынок</span></td><td><span lang=\"ru\" class=\"r\">на рынке</span></td><td><span lang=\"ru\" class=\"r\">на рынок</span> (the о is back)</td></tr><tr><td><span lang=\"ru\" class=\"r\">почта</span></td><td><span lang=\"ru\" class=\"r\">на почте</span></td><td><span lang=\"ru\" class=\"r\">на почту</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">литургия</span></td><td><span lang=\"ru\" class=\"r\">на литургии</span></td><td><span lang=\"ru\" class=\"r\">на литургию</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">аэропорт</span></td><td><span lang=\"ru\" class=\"r\">в аэропорту</span></td><td><span lang=\"ru\" class=\"r\">в аэропорт</span> (the -у exception is only for где?)</td></tr><tr><td><span lang=\"ru\" class=\"r\">Франция</span></td><td><span lang=\"ru\" class=\"r\">во Франции</span></td><td><span lang=\"ru\" class=\"r\">во Францию</span></td></tr></tbody></table></div><p class=\"tip\"><b>Home</b> has its own two words: <span lang=\"ru\" class=\"r\">дома</span> (at home, где?) and <span lang=\"ru\" class=\"r\">домой</span> (home, куда?): <span lang=\"ru\" class=\"r\">Я дома. Вечером я иду домой.</span></p>"
+    },
+    {
+     "h": "Step 5 · Going: on foot or by vehicle",
+     "open": false,
+     "html": "<p>Russian picks the verb by <b>how</b> you go. The full story is in Lesson 12. For now, learn these forms as phrases.</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th></th><th>On foot</th><th>By vehicle</th></tr></thead><tbody><tr><td>right now, today</td><td><span lang=\"ru\" class=\"r\">я иду · ты идёшь · он, она идёт · мы идём</span></td><td><span lang=\"ru\" class=\"r\">я еду · ты едешь · он, она едет · мы едем</span></td></tr><tr><td>went and came back</td><td><span lang=\"ru\" class=\"r\">я ходил · я ходила (f) · мы ходили</span></td><td><span lang=\"ru\" class=\"r\">я ездил · я ездила (f) · мы ездили</span></td></tr></tbody></table></div><p>In Jackson you drive almost everywhere, so it's <span lang=\"ru\" class=\"r\">Я еду в магазин</span> even for a short trip by car. Walking to the church next door is <span lang=\"ru\" class=\"r\">Я иду в храм</span>. A flight is <span lang=\"ru\" class=\"r\">Мы летим в Минск</span> (We're flying to Minsk).</p><p class=\"tip\"><b>Two ways to say the same trip:</b> <span lang=\"ru\" class=\"r\">Я ездил в Джексон</span> (motion → куда? → accusative) = <span lang=\"ru\" class=\"r\">Я был в Джексоне</span> (being → где? → prepositional). Both mean you went there. Just match the case to the verb.</p>"
+    },
+    {
+     "h": "Summary",
+     "open": false,
+     "html": "<ul class=\"sum\"><li><span lang=\"ru\" class=\"r\">Где?</span> (being) → <span lang=\"ru\" class=\"r\">в / на</span> + prepositional. <span lang=\"ru\" class=\"r\">Куда?</span> (going) → <span lang=\"ru\" class=\"r\">в / на</span> + accusative.</li><li>Accusative of things: <span lang=\"ru\" class=\"r\">-а → -у</span>, <span lang=\"ru\" class=\"r\">-я → -ю</span>. Everything else (masculine, neuter, feminine <span lang=\"ru\" class=\"r\">-ь</span>) stays the same.</li><li>The same accusative marks the thing you buy, see or want: <span lang=\"ru\" class=\"r\">Я покупаю воду.</span></li><li><span lang=\"ru\" class=\"r\">в</span> stays <span lang=\"ru\" class=\"r\">в</span>, <span lang=\"ru\" class=\"r\">на</span> stays <span lang=\"ru\" class=\"r\">на</span>. <span lang=\"ru\" class=\"r\">дома</span> = at home, <span lang=\"ru\" class=\"r\">домой</span> = (going) home.</li><li><span lang=\"ru\" class=\"r\">иду / ходил</span> on foot; <span lang=\"ru\" class=\"r\">еду / ездил</span> by vehicle. <span lang=\"ru\" class=\"r\">Я ездил в Джексон = Я был в Джексоне.</span></li></ul>"
+    }
+   ],
+   "parts": {
+    "A": "Part A · Form the accusative",
+    "B": "Part B · Куда? в or на + the accusative",
+    "C": "Part C · Где or куда? Pick the right case"
+   },
+   "practice": {
+    "title": "Now use it: write to your tutor",
+    "text": "Write 3 short sentences to your tutor in chat: one about where you're going (куда?), one about where you were (где?), and one about something you're buying.",
+    "examples": [
+     "Завтра я еду на работу.",
+     "Вчера я был в храме.",
+     "В магазине я покупаю воду."
+    ]
+   },
+   "exercises": [
+    {
+     "part": "A",
+     "sub": "A · accusative (things)",
+     "s": "В магазине я покупаю ___.",
+     "base": "хлеб",
+     "a": "хлеб",
+     "d": [
+      "хлебом",
+      "хлебе",
+      "хлебу"
+     ],
+     "ex": "Masculine thing: no change. хлеб → хлеб. (Steps 2 and 3)",
+     "translation": "At the store I'm buying bread.",
+     "glosses": [
+      "покупаю: I'm buying"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · accusative (things)",
+     "s": "Я покупаю ___.",
+     "base": "вода",
+     "a": "воду",
+     "d": [
+      "вода",
+      "воде",
+      "водой"
+     ],
+     "ex": "Feminine -а → -у. вода → воду. (Steps 2 and 3)",
+     "translation": "I'm buying water.",
+     "glosses": [
+      "покупаю: I'm buying"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · accusative (things)",
+     "s": "Жена любит ___.",
+     "base": "молоко",
+     "a": "молоко",
+     "d": [
+      "молоку",
+      "молоке",
+      "молоком"
+     ],
+     "ex": "Neuter -о: no change. молоко → молоко. (Steps 2 and 3)",
+     "translation": "My wife loves milk.",
+     "glosses": [
+      "жена: wife",
+      "любит: loves"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · accusative (things)",
+     "s": "Я ищу ___.",
+     "base": "касса",
+     "a": "кассу",
+     "d": [
+      "касса",
+      "кассе",
+      "кассой"
+     ],
+     "ex": "Feminine -а → -у. касса → кассу. (Steps 2 and 3)",
+     "translation": "I'm looking for the checkout.",
+     "glosses": [
+      "ищу: I'm looking for"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · accusative (things)",
+     "s": "В ресторане я заказываю ___.",
+     "base": "рыба",
+     "a": "рыбу",
+     "d": [
+      "рыба",
+      "рыбе",
+      "рыбой"
+     ],
+     "ex": "Feminine -а → -у. рыба → рыбу. (Steps 2 and 3)",
+     "translation": "At the restaurant I order fish.",
+     "glosses": [
+      "заказываю: I order"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · accusative (things)",
+     "s": "Покажите, пожалуйста, ___.",
+     "base": "паспорт",
+     "a": "паспорт",
+     "d": [
+      "паспортом",
+      "паспорте",
+      "паспорту"
+     ],
+     "ex": "Masculine thing: no change. паспорт → паспорт. (Steps 2 and 3)",
+     "translation": "Show your passport, please.",
+     "glosses": [
+      "покажите: show",
+      "пожалуйста: please"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · accusative (things)",
+     "s": "Я ставлю ___.",
+     "base": "свеча",
+     "a": "свечу",
+     "d": [
+      "свеча",
+      "свече",
+      "свечой"
+     ],
+     "ex": "Feminine -а → -у. свеча → свечу. (Steps 2 and 3)",
+     "translation": "I'm putting up a candle.",
+     "glosses": [
+      "ставлю: I put (up), I place"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · accusative (things)",
+     "s": "Батюшка читает ___.",
+     "base": "молитва",
+     "a": "молитву",
+     "d": [
+      "молитва",
+      "молитве",
+      "молитвой"
+     ],
+     "ex": "Feminine -а → -у. молитва → молитву. (Steps 2 and 3)",
+     "translation": "Father is reading the prayer.",
+     "glosses": [
+      "батюшка: Father (the priest)",
+      "читает: reads"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · accusative (things)",
+     "s": "Я вижу ___.",
+     "base": "церковь",
+     "a": "церковь",
+     "d": [
+      "церкове",
+      "церкву",
+      "церковью"
+     ],
+     "ex": "Feminine -ь: no change in the accusative. церковь → церковь. (Steps 2 and 3)",
+     "translation": "I see the church.",
+     "glosses": [
+      "вижу: I see"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · accusative (things)",
+     "s": "Я люблю ___.",
+     "base": "Беларусь",
+     "a": "Беларусь",
+     "d": [
+      "Беларуси",
+      "Беларусю",
+      "Беларусу"
+     ],
+     "ex": "Feminine -ь: no change. Беларусь → Беларусь. (Steps 2 and 3)",
+     "translation": "I love Belarus.",
+     "glosses": [
+      "люблю: I love"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · куда? в or на",
+     "s": "Я иду ___.",
+     "base": "храм · в or на?",
+     "a": "в храм",
+     "d": [
+      "в храме",
+      "на храм",
+      "на храме"
+     ],
+     "ex": "Going → куда? храм takes в, and a masculine thing doesn't change. (Steps 1, 2 and 4)",
+     "translation": "I'm going to church.",
+     "glosses": [
+      "иду: I'm going (on foot)"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · куда? в or на",
+     "s": "Завтра я еду ___.",
+     "base": "Минск · в or на?",
+     "a": "в Минск",
+     "d": [
+      "в Минске",
+      "на Минск",
+      "на Минске"
+     ],
+     "ex": "Going → куда? в for cities, and Минск doesn't change. (Steps 1, 2 and 4)",
+     "translation": "Tomorrow I'm going to Minsk.",
+     "glosses": [
+      "завтра: tomorrow",
+      "еду: I'm going (by vehicle)"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · куда? в or на",
+     "s": "Мы едем ___.",
+     "base": "граница · в or на?",
+     "a": "на границу",
+     "d": [
+      "на границе",
+      "в границу",
+      "в границе"
+     ],
+     "ex": "Going → куда? граница takes на, and -а → -у. (Steps 1, 2 and 4)",
+     "translation": "We're driving to the border.",
+     "glosses": [
+      "мы едем: we're going (by vehicle)"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · куда? в or на",
+     "s": "Утром я еду ___.",
+     "base": "работа · в or на?",
+     "a": "на работу",
+     "d": [
+      "на работе",
+      "в работу",
+      "в работе"
+     ],
+     "ex": "Going → куда? работа takes на, and -а → -у. (Steps 1, 2 and 4)",
+     "translation": "In the morning I drive to work.",
+     "glosses": [
+      "утром: in the morning",
+      "еду: I'm going (by vehicle)"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · куда? в or на",
+     "s": "Жена идёт ___.",
+     "base": "магазин · в or на?",
+     "a": "в магазин",
+     "d": [
+      "в магазине",
+      "на магазин",
+      "на магазине"
+     ],
+     "ex": "Going → куда? магазин takes в and doesn't change. (Steps 1, 2 and 4)",
+     "translation": "My wife is going to the store.",
+     "glosses": [
+      "жена: wife",
+      "идёт: is going (on foot)"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · куда? в or на",
+     "s": "Сегодня мы идём ___.",
+     "base": "церковь · в or на?",
+     "a": "в церковь",
+     "d": [
+      "в церкви",
+      "на церковь",
+      "на церкви"
+     ],
+     "ex": "Going → куда? Feminine -ь doesn't change: в церковь. Compare where?: в церкви. (Steps 1, 2 and 4)",
+     "translation": "Today we're going to church.",
+     "glosses": [
+      "сегодня: today",
+      "мы идём: we're going (on foot)"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · куда? в or на",
+     "s": "Я еду ___.",
+     "base": "вокзал · в or на?",
+     "a": "на вокзал",
+     "d": [
+      "на вокзале",
+      "в вокзал",
+      "в вокзале"
+     ],
+     "ex": "Going → куда? вокзал takes на and doesn't change. (Steps 1, 2 and 4)",
+     "translation": "I'm going to the train station.",
+     "glosses": [
+      "еду: I'm going (by vehicle)"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · куда? в or на",
+     "s": "Мой друг едет ___.",
+     "base": "Березино · в or на?",
+     "a": "в Березино",
+     "d": [
+      "в Березине",
+      "на Березино",
+      "на Березине"
+     ],
+     "ex": "Going → куда? в for towns, and neuter -о doesn't change. (Steps 1, 2 and 4)",
+     "translation": "My friend is going to Berezino.",
+     "glosses": [
+      "мой друг: my friend",
+      "едет: is going (by vehicle)"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · куда? в or на",
+     "s": "В субботу мы идём ___.",
+     "base": "рынок · в or на?",
+     "a": "на рынок",
+     "d": [
+      "на рынке",
+      "в рынок",
+      "в рынке"
+     ],
+     "ex": "Going → куда? рынок takes на, and it doesn't change (the о stays). (Steps 1, 2 and 4)",
+     "translation": "On Saturday we're going to the market.",
+     "glosses": [
+      "в субботу: on Saturday",
+      "мы идём: we're going (on foot)"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · куда? в or на",
+     "s": "Мы едем ___.",
+     "base": "аэропорт · в or на?",
+     "a": "в аэропорт",
+     "d": [
+      "в аэропорту",
+      "на аэропорт",
+      "на аэропорту"
+     ],
+     "ex": "Going → куда? в аэропорт. The -у form (в аэропорту) is only for where?. (Steps 1 and 4)",
+     "translation": "We're going to the airport.",
+     "glosses": [
+      "мы едем: we're going (by vehicle)"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · куда? в or на",
+     "s": "Летом мы едем ___.",
+     "base": "Беларусь · в or на?",
+     "a": "в Беларусь",
+     "d": [
+      "в Беларуси",
+      "на Беларусь",
+      "на Беларуси"
+     ],
+     "ex": "Going → куда? в for countries, and feminine -ь doesn't change. (Steps 1, 2 and 4)",
+     "translation": "In the summer we're going to Belarus.",
+     "glosses": [
+      "летом: in the summer",
+      "мы едем: we're going (by vehicle)"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · где or куда?",
+     "k": "where",
+     "s": "Вчера я был ___.",
+     "base": "Джексон · где or куда?",
+     "a": "в Джексоне",
+     "d": [
+      "в Джексон",
+      "на Джексоне",
+      "на Джексон"
+     ],
+     "ex": "был = was, being somewhere → где? → prepositional: в Джексоне. (Steps 1 and 5)",
+     "translation": "Yesterday I was in Jackson.",
+     "glosses": [
+      "вчера: yesterday",
+      "был: was"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · где or куда?",
+     "k": "whereto",
+     "s": "Вчера я ездил ___.",
+     "base": "Джексон · где or куда?",
+     "a": "в Джексон",
+     "d": [
+      "в Джексоне",
+      "на Джексон",
+      "на Джексоне"
+     ],
+     "ex": "ездил = went (and came back) → куда? → accusative: в Джексон. (Steps 1 and 5)",
+     "translation": "Yesterday I went to Jackson.",
+     "glosses": [
+      "вчера: yesterday",
+      "ездил: went (by vehicle)"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · где or куда?",
+     "k": "where",
+     "s": "Мой друг работает ___.",
+     "base": "Минск · где or куда?",
+     "a": "в Минске",
+     "d": [
+      "в Минск",
+      "на Минске",
+      "на Минск"
+     ],
+     "ex": "работает = works, being somewhere → где? → в Минске. (Step 1)",
+     "translation": "My friend works in Minsk.",
+     "glosses": [
+      "мой друг: my friend",
+      "работает: works"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · где or куда?",
+     "k": "where",
+     "s": "Жена сейчас ___.",
+     "base": "магазин · где or куда?",
+     "a": "в магазине",
+     "d": [
+      "в магазин",
+      "на магазине",
+      "на магазин"
+     ],
+     "ex": "No movement: she is there → где? → prepositional: в магазине. (Step 1)",
+     "translation": "My wife is at the store now.",
+     "glosses": [
+      "жена: wife",
+      "сейчас: now"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · где or куда?",
+     "k": "whereto",
+     "s": "В воскресенье мы идём ___.",
+     "base": "литургия · где or куда?",
+     "a": "на литургию",
+     "d": [
+      "на литургии",
+      "в литургию",
+      "в литургии"
+     ],
+     "ex": "идём = going → куда? → на + accusative, -я → -ю. (Steps 1, 2 and 4)",
+     "translation": "On Sunday we're going to the Liturgy.",
+     "glosses": [
+      "в воскресенье: on Sunday",
+      "мы идём: we're going (on foot)"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · где or куда?",
+     "k": "where",
+     "s": "Вчера мы были ___.",
+     "base": "литургия · где or куда?",
+     "a": "на литургии",
+     "d": [
+      "на литургию",
+      "в литургии",
+      "в литургию"
+     ],
+     "ex": "были = were → где? → на + prepositional: на литургии. (Steps 1 and 4)",
+     "translation": "Yesterday we were at the Liturgy.",
+     "glosses": [
+      "вчера: yesterday",
+      "мы были: we were"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · где or куда?",
+     "k": "where",
+     "s": "Я стою ___.",
+     "base": "очередь · где or куда?",
+     "a": "в очереди",
+     "d": [
+      "в очередь",
+      "на очередь",
+      "в очереде"
+     ],
+     "ex": "стою = I'm standing, no movement → где? → в очереди. (Step 1)",
+     "translation": "I'm standing in line.",
+     "glosses": [
+      "стою: I'm standing"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · где or куда?",
+     "k": "whereto",
+     "s": "Завтра мы летим ___.",
+     "base": "Америка · где or куда?",
+     "a": "в Америку",
+     "d": [
+      "в Америке",
+      "на Америку",
+      "на Америке"
+     ],
+     "ex": "летим = we're flying → куда? → accusative, -а → -у. (Steps 1, 2 and 5)",
+     "translation": "Tomorrow we're flying to America.",
+     "glosses": [
+      "завтра: tomorrow",
+      "летим: we're flying"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · где or куда?",
+     "k": "whereto",
+     "s": "Летом мы ездили ___.",
+     "base": "Россия · где or куда?",
+     "a": "в Россию",
+     "d": [
+      "в России",
+      "на Россию",
+      "в Россие"
+     ],
+     "ex": "ездили = went (and came back) → куда? → accusative, -я → -ю. (Steps 1, 2 and 5)",
+     "translation": "In the summer we went to Russia.",
+     "glosses": [
+      "летом: in the summer",
+      "мы ездили: we went (by vehicle)"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · где or куда?",
+     "k": "where",
+     "s": "Паспорта проверяют ___.",
+     "base": "таможня · где or куда?",
+     "a": "на таможне",
+     "d": [
+      "на таможню",
+      "в таможне",
+      "в таможню"
+     ],
+     "ex": "They check passports there, no movement → где? → на + prepositional: на таможне. (Step 1)",
+     "translation": "They check passports at customs.",
+     "glosses": [
+      "паспорта: passports",
+      "проверяют: (they) check"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · где or куда?",
+     "k": "whereto",
+     "s": "Сейчас я еду ___.",
+     "base": "почта · где or куда?",
+     "a": "на почту",
+     "d": [
+      "на почте",
+      "в почту",
+      "в почте"
+     ],
+     "ex": "еду = I'm going → куда? → на + accusative, -а → -у. (Steps 1, 2 and 4)",
+     "translation": "I'm going to the post office now.",
+     "glosses": [
+      "сейчас: now",
+      "еду: I'm going (by vehicle)"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · где or куда?",
+     "k": "home",
+     "s": "Вечером я иду ___.",
+     "base": "дом (home) · где or куда?",
+     "a": "домой",
+     "d": [
+      "дома",
+      "в доме",
+      "на дом"
+     ],
+     "ex": "Going home → куда? → домой. дома means at home (где?). (Step 4)",
+     "translation": "In the evening I go home.",
+     "glosses": [
+      "вечером: in the evening",
+      "иду: I'm going (on foot)"
+     ]
+    }
+   ]
   }
  }
 }

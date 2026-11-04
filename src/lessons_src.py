@@ -186,6 +186,129 @@ EX = [
  cq("Мой друг живёт ___.", "Франция", "во Франции", ["в Франции", "во Франце", "на Франции"], "в becomes во before ф + a consonant. Rule 2: -ия becomes -ии. (Steps 4 and 6)", "My friend lives in France.", ["мой друг: my friend", "живёт: lives"]),
 ]
 
+
+# ---------------- Lesson 2 ----------------
+SECTIONS2 = [
+ {"h": "Step 1 · Где? or куда?", "open": True, "html":
+  "<p>In Lesson 1, " + ru("где?") + " (where?) used " + ru("в / на") + " + the prepositional: " + ru("Я в храме") + ". When you're <b>moving toward</b> a place, Russian asks " + ru("куда?") + " (where to?) and uses a different case: the <b>accusative</b> (" + ru("винительный падеж") + ").</p>"
+  + t(["Где? · being somewhere", "Куда? · going somewhere"], [
+    [ru("Я в храме.") + "<br>I'm in church.", ru("Я иду в храм.") + "<br>I'm going to church."],
+    [ru("Я на работе.") + "<br>I'm at work.", ru("Я еду на работу.") + "<br>I'm driving to work."],
+    [ru("Жена в магазине.") + "<br>My wife is at the store.", ru("Жена идёт в магазин.") + "<br>My wife is going to the store."],
+    [ru("Я был в Джексоне.") + "<br>I was in Jackson.", ru("Я ездил в Джексон.") + "<br>I went to Jackson."],
+  ])
+  + '<p class="tip"><b>The test:</b> is someone moving toward the place? Then it\'s ' + ru("куда?") + " + accusative. Being, living, working, waiting somewhere is " + ru("где?") + " + prepositional.</p>"
+  + t(["Где? verbs", "Куда? verbs"], [
+    [ru("быть") + " be · " + ru("жить") + " live · " + ru("работать") + " work · " + ru("стоять") + " stand", ru("идти") + " go on foot · " + ru("ехать") + " go by vehicle · " + ru("ходить / ездить") + " go (and come back) · " + ru("лететь") + " fly"],
+  ])},
+ {"h": "Step 2 · The accusative endings for things", "open": False, "html":
+  "<p>Good news: for things and places, <b>only feminine " + ru("-а") + " and " + ru("-я") + " change.</b> Everything else stays in the dictionary form.</p>"
+  + t(["Dictionary form", "Accusative", "Examples"], [
+    ["masc. consonant, " + ru("-й") + ", " + ru("-ь"), "no change", ru("магазин → в магазин") + " · " + ru("Минск → в Минск") + " · " + ru("музей → в музей") + " · " + ru("Гомель → в Гомель")],
+    ["neuter " + ru("-о / -е"), "no change", ru("Березино → в Березино") + " · " + ru("море → на море")],
+    [ru("-а"), ru("-а → -у"), ru("работа → на работу") + " · " + ru("граница → на границу") + " · " + ru("Америка → в Америку")],
+    [ru("-я"), ru("-я → -ю"), ru("деревня → в деревню") + " · " + ru("таможня → на таможню") + " · " + ru("Россия → в Россию")],
+    ["feminine " + ru("-ь"), "no change", ru("церковь → в церковь") + " · " + ru("Беларусь → в Беларусь") + " · " + ru("площадь → на площадь")],
+  ])
+  + '<p class="tip"><b>Memory hook:</b> ' + ru("-а → -у, -я → -ю") + ". Everything else stays the same. Compare the prepositional: " + ru("в церкви") + " (where?) but " + ru("в церковь") + " (where to?).</p>"
+  + "<p>Foreign words like " + ru("кафе, метро, такси, кофе") + " never change: " + ru("Я иду в кафе. Я беру такси.") + "</p>"
+  + '<p class="tip">This lesson is about <b>things and places</b>. People and animals work differently in the masculine (' + ru("я вижу брата") + "). That's Lesson 6.</p>"},
+ {"h": "Step 3 · The accusative for things you buy, see and want", "open": False, "html":
+  "<p>The accusative has a second job, with no preposition at all: it marks the <b>direct object</b>, the thing you buy, see, want or order. The endings are the same as in Step 2.</p>"
+  + exl([("В магазине я покупаю хлеб и воду.", "At the store I'm buying bread and water. (хлеб stays, вода → воду)"),
+         ("Я ищу кассу.", "I'm looking for the checkout. (касса → кассу)"),
+         ("Покажите, пожалуйста, паспорт.", "Show your passport, please. (паспорт stays)"),
+         ("В ресторане я заказываю рыбу.", "At the restaurant I order fish. (рыба → рыбу)"),
+         ("Я ставлю свечу.", "I'm putting up a candle. (свеча → свечу)"),
+         ("Я вижу церковь.", "I see the church. (церковь stays)")])
+  + t(["Useful verbs (I …)", "Meaning"], [
+    [ru("покупаю"), "I buy, I'm buying"], [ru("беру"), "I take"], [ru("хочу"), "I want"], [ru("ищу"), "I'm looking for"],
+    [ru("вижу"), "I see"], [ru("люблю"), "I love"], [ru("заказываю"), "I order"], [ru("читаю"), "I read"],
+  ])
+  + '<p class="tip"><b>Gender still decides everything.</b> It\'s also why we say ' + ru("моя работа") + " (feminine, ends in " + ru("-а") + ") but " + ru("мой паспорт") + " (masculine) and " + ru("моё место") + " (neuter): " + ru("мой / моя / моё") + " matches the noun. So: " + ru("Мне нравится моя работа.") + "</p>"},
+ {"h": "Step 4 · в or на: same as Lesson 1", "open": False, "html":
+  "<p>The preposition doesn't change. If a place takes " + ru("в") + " for " + ru("где?") + ", it takes " + ru("в") + " for " + ru("куда?") + ". The same goes for " + ru("на") + ". Only the ending changes.</p>"
+  + t(["Word", "Где?", "Куда?"], [
+    [ru("храм"), ru("в храме"), ru("в храм")],
+    [ru("церковь"), ru("в церкви"), ru("в церковь")],
+    [ru("магазин"), ru("в магазине"), ru("в магазин")],
+    [ru("Джексон"), ru("в Джексоне"), ru("в Джексон")],
+    [ru("Беларусь"), ru("в Беларуси"), ru("в Беларусь")],
+    [ru("Россия"), ru("в России"), ru("в Россию")],
+    [ru("работа"), ru("на работе"), ru("на работу")],
+    [ru("граница"), ru("на границе"), ru("на границу")],
+    [ru("таможня"), ru("на таможне"), ru("на таможню")],
+    [ru("вокзал"), ru("на вокзале"), ru("на вокзал")],
+    [ru("рынок"), ru("на рынке"), ru("на рынок") + " (the о is back)"],
+    [ru("почта"), ru("на почте"), ru("на почту")],
+    [ru("литургия"), ru("на литургии"), ru("на литургию")],
+    [ru("аэропорт"), ru("в аэропорту"), ru("в аэропорт") + " (the -у exception is only for где?)"],
+    [ru("Франция"), ru("во Франции"), ru("во Францию")],
+  ])
+  + '<p class="tip"><b>Home</b> has its own two words: ' + ru("дома") + " (at home, где?) and " + ru("домой") + " (home, куда?): " + ru("Я дома. Вечером я иду домой.") + "</p>"},
+ {"h": "Step 5 · Going: on foot or by vehicle", "open": False, "html":
+  "<p>Russian picks the verb by <b>how</b> you go. The full story is in Lesson 12. For now, learn these forms as phrases.</p>"
+  + t(["", "On foot", "By vehicle"], [
+    ["right now, today", ru("я иду · ты идёшь · он, она идёт · мы идём"), ru("я еду · ты едешь · он, она едет · мы едем")],
+    ["went and came back", ru("я ходил · я ходила (f) · мы ходили"), ru("я ездил · я ездила (f) · мы ездили")],
+  ])
+  + "<p>In Jackson you drive almost everywhere, so it's " + ru("Я еду в магазин") + " even for a short trip by car. Walking to the church next door is " + ru("Я иду в храм") + ". A flight is " + ru("Мы летим в Минск") + " (We're flying to Minsk).</p>"
+  + '<p class="tip"><b>Two ways to say the same trip:</b> ' + ru("Я ездил в Джексон") + " (motion → куда? → accusative) = " + ru("Я был в Джексоне") + " (being → где? → prepositional). Both mean you went there. Just match the case to the verb.</p>"},
+ {"h": "Summary", "open": False, "html":
+  '<ul class="sum">'
+  + "<li>" + ru("Где?") + " (being) → " + ru("в / на") + " + prepositional. " + ru("Куда?") + " (going) → " + ru("в / на") + " + accusative.</li>"
+  + "<li>Accusative of things: " + ru("-а → -у") + ", " + ru("-я → -ю") + ". Everything else (masculine, neuter, feminine " + ru("-ь") + ") stays the same.</li>"
+  + "<li>The same accusative marks the thing you buy, see or want: " + ru("Я покупаю воду.") + "</li>"
+  + "<li>" + ru("в") + " stays " + ru("в") + ", " + ru("на") + " stays " + ru("на") + ". " + ru("дома") + " = at home, " + ru("домой") + " = (going) home.</li>"
+  + "<li>" + ru("иду / ходил") + " on foot; " + ru("еду / ездил") + " by vehicle. " + ru("Я ездил в Джексон = Я был в Джексоне.") + "</li>"
+  + "</ul>"},
+]
+
+def aq(s, base, ans, d, ex, tr, gl=None):
+    return {"part": "A", "sub": "A · accusative (things)", "s": s, "base": base, "a": ans, "d": d, "ex": ex, "translation": tr, "glosses": gl or []}
+def bq(s, base, ans, d, ex, tr, gl=None):
+    return {"part": "B", "sub": "B · куда? в or на", "s": s, "base": base + " · в or на?", "a": ans, "d": d, "ex": ex, "translation": tr, "glosses": gl or []}
+def wq(k, s, base, ans, d, ex, tr, gl=None):  # k: "where" (prepositional) or "whereto" (accusative)
+    return {"part": "C", "sub": "C · где or куда?", "k": k, "s": s, "base": base + " · где or куда?", "a": ans, "d": d, "ex": ex, "translation": tr, "glosses": gl or []}
+
+EX2 = [
+ aq("В магазине я покупаю ___.", "хлеб", "хлеб", ["хлебом", "хлебе", "хлебу"], "Masculine thing: no change. хлеб → хлеб. (Steps 2 and 3)", "At the store I'm buying bread.", ["покупаю: I'm buying"]),
+ aq("Я покупаю ___.", "вода", "воду", ["вода", "воде", "водой"], "Feminine -а → -у. вода → воду. (Steps 2 and 3)", "I'm buying water.", ["покупаю: I'm buying"]),
+ aq("Жена любит ___.", "молоко", "молоко", ["молоку", "молоке", "молоком"], "Neuter -о: no change. молоко → молоко. (Steps 2 and 3)", "My wife loves milk.", ["жена: wife", "любит: loves"]),
+ aq("Я ищу ___.", "касса", "кассу", ["касса", "кассе", "кассой"], "Feminine -а → -у. касса → кассу. (Steps 2 and 3)", "I'm looking for the checkout.", ["ищу: I'm looking for"]),
+ aq("В ресторане я заказываю ___.", "рыба", "рыбу", ["рыба", "рыбе", "рыбой"], "Feminine -а → -у. рыба → рыбу. (Steps 2 and 3)", "At the restaurant I order fish.", ["заказываю: I order"]),
+ aq("Покажите, пожалуйста, ___.", "паспорт", "паспорт", ["паспортом", "паспорте", "паспорту"], "Masculine thing: no change. паспорт → паспорт. (Steps 2 and 3)", "Show your passport, please.", ["покажите: show", "пожалуйста: please"]),
+ aq("Я ставлю ___.", "свеча", "свечу", ["свеча", "свече", "свечой"], "Feminine -а → -у. свеча → свечу. (Steps 2 and 3)", "I'm putting up a candle.", ["ставлю: I put (up), I place"]),
+ aq("Батюшка читает ___.", "молитва", "молитву", ["молитва", "молитве", "молитвой"], "Feminine -а → -у. молитва → молитву. (Steps 2 and 3)", "Father is reading the prayer.", ["батюшка: Father (the priest)", "читает: reads"]),
+ aq("Я вижу ___.", "церковь", "церковь", ["церкове", "церкву", "церковью"], "Feminine -ь: no change in the accusative. церковь → церковь. (Steps 2 and 3)", "I see the church.", ["вижу: I see"]),
+ aq("Я люблю ___.", "Беларусь", "Беларусь", ["Беларуси", "Беларусю", "Беларусу"], "Feminine -ь: no change. Беларусь → Беларусь. (Steps 2 and 3)", "I love Belarus.", ["люблю: I love"]),
+
+ bq("Я иду ___.", "храм", "в храм", ["в храме", "на храм", "на храме"], "Going → куда? храм takes в, and a masculine thing doesn't change. (Steps 1, 2 and 4)", "I'm going to church.", ["иду: I'm going (on foot)"]),
+ bq("Завтра я еду ___.", "Минск", "в Минск", ["в Минске", "на Минск", "на Минске"], "Going → куда? в for cities, and Минск doesn't change. (Steps 1, 2 and 4)", "Tomorrow I'm going to Minsk.", ["завтра: tomorrow", "еду: I'm going (by vehicle)"]),
+ bq("Мы едем ___.", "граница", "на границу", ["на границе", "в границу", "в границе"], "Going → куда? граница takes на, and -а → -у. (Steps 1, 2 and 4)", "We're driving to the border.", ["мы едем: we're going (by vehicle)"]),
+ bq("Утром я еду ___.", "работа", "на работу", ["на работе", "в работу", "в работе"], "Going → куда? работа takes на, and -а → -у. (Steps 1, 2 and 4)", "In the morning I drive to work.", ["утром: in the morning", "еду: I'm going (by vehicle)"]),
+ bq("Жена идёт ___.", "магазин", "в магазин", ["в магазине", "на магазин", "на магазине"], "Going → куда? магазин takes в and doesn't change. (Steps 1, 2 and 4)", "My wife is going to the store.", ["жена: wife", "идёт: is going (on foot)"]),
+ bq("Сегодня мы идём ___.", "церковь", "в церковь", ["в церкви", "на церковь", "на церкви"], "Going → куда? Feminine -ь doesn't change: в церковь. Compare where?: в церкви. (Steps 1, 2 and 4)", "Today we're going to church.", ["сегодня: today", "мы идём: we're going (on foot)"]),
+ bq("Я еду ___.", "вокзал", "на вокзал", ["на вокзале", "в вокзал", "в вокзале"], "Going → куда? вокзал takes на and doesn't change. (Steps 1, 2 and 4)", "I'm going to the train station.", ["еду: I'm going (by vehicle)"]),
+ bq("Мой друг едет ___.", "Березино", "в Березино", ["в Березине", "на Березино", "на Березине"], "Going → куда? в for towns, and neuter -о doesn't change. (Steps 1, 2 and 4)", "My friend is going to Berezino.", ["мой друг: my friend", "едет: is going (by vehicle)"]),
+ bq("В субботу мы идём ___.", "рынок", "на рынок", ["на рынке", "в рынок", "в рынке"], "Going → куда? рынок takes на, and it doesn't change (the о stays). (Steps 1, 2 and 4)", "On Saturday we're going to the market.", ["в субботу: on Saturday", "мы идём: we're going (on foot)"]),
+ bq("Мы едем ___.", "аэропорт", "в аэропорт", ["в аэропорту", "на аэропорт", "на аэропорту"], "Going → куда? в аэропорт. The -у form (в аэропорту) is only for where?. (Steps 1 and 4)", "We're going to the airport.", ["мы едем: we're going (by vehicle)"]),
+ bq("Летом мы едем ___.", "Беларусь", "в Беларусь", ["в Беларуси", "на Беларусь", "на Беларуси"], "Going → куда? в for countries, and feminine -ь doesn't change. (Steps 1, 2 and 4)", "In the summer we're going to Belarus.", ["летом: in the summer", "мы едем: we're going (by vehicle)"]),
+
+ wq("where", "Вчера я был ___.", "Джексон", "в Джексоне", ["в Джексон", "на Джексоне", "на Джексон"], "был = was, being somewhere → где? → prepositional: в Джексоне. (Steps 1 and 5)", "Yesterday I was in Jackson.", ["вчера: yesterday", "был: was"]),
+ wq("whereto", "Вчера я ездил ___.", "Джексон", "в Джексон", ["в Джексоне", "на Джексон", "на Джексоне"], "ездил = went (and came back) → куда? → accusative: в Джексон. (Steps 1 and 5)", "Yesterday I went to Jackson.", ["вчера: yesterday", "ездил: went (by vehicle)"]),
+ wq("where", "Мой друг работает ___.", "Минск", "в Минске", ["в Минск", "на Минске", "на Минск"], "работает = works, being somewhere → где? → в Минске. (Step 1)", "My friend works in Minsk.", ["мой друг: my friend", "работает: works"]),
+ wq("where", "Жена сейчас ___.", "магазин", "в магазине", ["в магазин", "на магазине", "на магазин"], "No movement: she is there → где? → prepositional: в магазине. (Step 1)", "My wife is at the store now.", ["жена: wife", "сейчас: now"]),
+ wq("whereto", "В воскресенье мы идём ___.", "литургия", "на литургию", ["на литургии", "в литургию", "в литургии"], "идём = going → куда? → на + accusative, -я → -ю. (Steps 1, 2 and 4)", "On Sunday we're going to the Liturgy.", ["в воскресенье: on Sunday", "мы идём: we're going (on foot)"]),
+ wq("where", "Вчера мы были ___.", "литургия", "на литургии", ["на литургию", "в литургии", "в литургию"], "были = were → где? → на + prepositional: на литургии. (Steps 1 and 4)", "Yesterday we were at the Liturgy.", ["вчера: yesterday", "мы были: we were"]),
+ wq("where", "Я стою ___.", "очередь", "в очереди", ["в очередь", "на очередь", "в очереде"], "стою = I'm standing, no movement → где? → в очереди. (Step 1)", "I'm standing in line.", ["стою: I'm standing"]),
+ wq("whereto", "Завтра мы летим ___.", "Америка", "в Америку", ["в Америке", "на Америку", "на Америке"], "летим = we're flying → куда? → accusative, -а → -у. (Steps 1, 2 and 5)", "Tomorrow we're flying to America.", ["завтра: tomorrow", "летим: we're flying"]),
+ wq("whereto", "Летом мы ездили ___.", "Россия", "в Россию", ["в России", "на Россию", "в Россие"], "ездили = went (and came back) → куда? → accusative, -я → -ю. (Steps 1, 2 and 5)", "In the summer we went to Russia.", ["летом: in the summer", "мы ездили: we went (by vehicle)"]),
+ wq("where", "Паспорта проверяют ___.", "таможня", "на таможне", ["на таможню", "в таможне", "в таможню"], "They check passports there, no movement → где? → на + prepositional: на таможне. (Step 1)", "They check passports at customs.", ["паспорта: passports", "проверяют: (they) check"]),
+ wq("whereto", "Сейчас я еду ___.", "почта", "на почту", ["на почте", "в почту", "в почте"], "еду = I'm going → куда? → на + accusative, -а → -у. (Steps 1, 2 and 4)", "I'm going to the post office now.", ["сейчас: now", "еду: I'm going (by vehicle)"]),
+ wq("home", "Вечером я иду ___.", "дом (home)", "домой", ["дома", "в доме", "на дом"], "Going home → куда? → домой. дома means at home (где?). (Step 4)", "In the evening I go home.", ["вечером: in the evening", "иду: I'm going (on foot)"]),
+]
+
 LESSONS = {
  "L1": {
   "id": "L1", "n": 1,
@@ -200,6 +323,20 @@ LESSONS = {
     "examples": ["Я живу в Минске.", "Батюшка в церкви.", "Мой паспорт на столе."]
   },
   "exercises": EX,
+ },
+ "L2": {
+  "id": "L2", "n": 2,
+  "title": "The accusative case (things) and куда? (where to?)",
+  "goal": "By the end you'll be able to say where you're going and what you're buying: Я иду в храм. Я еду на работу. Я покупаю воду.",
+  "minutes": "15–20 min to read, then 33 exercises",
+  "sections": SECTIONS2,
+  "parts": {"A": "Part A · Form the accusative", "B": "Part B · Куда? в or на + the accusative", "C": "Part C · Где or куда? Pick the right case"},
+  "practice": {
+    "title": "Now use it: write to your tutor",
+    "text": "Write 3 short sentences to your tutor in chat: one about where you're going (куда?), one about where you were (где?), and one about something you're buying.",
+    "examples": ["Завтра я еду на работу.", "Вчера я был в храме.", "В магазине я покупаю воду."]
+  },
+  "exercises": EX2,
  }
 }
 
