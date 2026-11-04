@@ -16,9 +16,12 @@ var st={tab:store.tab||"lessons",lview:"map",lid:null,first:0,lsaved:false,level
   vtheme:store.vtheme||"all",vdrill:store.vdrill||"mixed",wtheme:"all",queue:[],cur:null,answered:false,right:0,total:0,streak:0,picked:null,editing:null,importing:null};
 
 function load(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}}
-function save(){try{store.cat=st.cat;store.mode=st.mode;store.level=st.level;store.tab=st.tab;store.vtheme=st.vtheme;store.vdrill=st.vdrill;localStorage.setItem(LS,JSON.stringify(store))}catch(e){}}
-function saveLessons(){try{localStorage.setItem(LSL,JSON.stringify(lprog))}catch(e){}}
-function saveWords(){try{localStorage.setItem(LSW,JSON.stringify({version:1,words:WORDS}))}catch(e){alert("Couldn't save words in this browser (storage full or blocked).")}}
+var listeners=[],started=false;
+function changed(kind){listeners.forEach(function(f){try{f(kind)}catch(e){}})}
+function saveLocal(){try{store.cat=st.cat;store.mode=st.mode;store.level=st.level;store.tab=st.tab;store.vtheme=st.vtheme;store.vdrill=st.vdrill;localStorage.setItem(LS,JSON.stringify(store))}catch(e){}}
+function save(){saveLocal();changed("drills")}
+function saveLessons(){try{localStorage.setItem(LSL,JSON.stringify(lprog))}catch(e){}changed("lessons")}
+function saveWords(){try{localStorage.setItem(LSW,JSON.stringify({version:1,words:WORDS}))}catch(e){alert("Couldn't save words in this browser (storage full or blocked).")}changed("words")}
 function $(id){return document.getElementById(id)}
 function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
 function norm(s){return String(s).toLowerCase().replace(/ё/g,"е").replace(/[.,!?;:«»"]/g,"").replace(/\s+/g," ").trim()}
@@ -113,7 +116,7 @@ function render(){
   $("sBest").textContent=store.best||0;
   $("sLeft").textContent=st.queue.length+(st.cur?1:0);
   var items=store.items||{},seen=0,right=0;Object.keys(items).forEach(function(k){seen+=items[k].seen;right+=items[k].right});
-  $("lifetime").textContent=seen?("All-time on this device: "+right+" correct out of "+seen+" answers."):"";
+  $("lifetime").textContent=seen?("All-time: "+right+" correct out of "+seen+" answers."):"";
   var c=$("card");
   if(st.tab==="lessons")renderLessonHead();
   if(!st.cur&&st.tab==="lessons"&&st.total){lessonComplete(c);return}
@@ -343,7 +346,7 @@ document.addEventListener("click",function(ev){
 document.addEventListener("keydown",function(ev){if(!$("drillArea").classList.contains("hidden")&&st.cur&&ev.key==="Enter"&&st.answered&&document.activeElement.id!=="nextBtn"){ev.preventDefault();next()}});
 $("sub").onchange=function(){st.sub=this.value;newSession()};
 $("vtheme").onchange=function(){st.vtheme=this.value;st.sub="all";save();renderControls();newSession()};
-$("reset").onclick=function(){if(confirm("Reset drill scores on this device? Your words and lesson progress are kept.")){var keepTab=st.tab;store={tab:keepTab};try{localStorage.removeItem(LS)}catch(e){};newSession()}};
+$("reset").onclick=function(){if(confirm("Reset drill scores on this device? Your words and lesson progress are kept.")){var keepTab=st.tab;store={tab:keepTab};try{localStorage.removeItem(LS)}catch(e){};changed("drills");newSession()}};
 
 function start(d,v,les){
   if(les&&Array.isArray(les.course))COURSE=les;
@@ -351,8 +354,27 @@ function start(d,v,les){
   STARTER=v||[];
   var saved=load(LSW);WORDS=(saved&&Array.isArray(saved.words))?saved.words:clone(STARTER);
   if(!lvl().length)st.level="A1-A2";if(!lvl().some(function(e){return st.cat==="all"||e.cat===st.cat}))st.cat="all";
-  renderControls();newSession();
+  started=true;renderControls();newSession();
 }
+// ---------- bridge for cloud sync (cloud.js) ----------
+function applyPrefs(){st.tab=store.tab||st.tab;st.level=store.level||st.level;st.cat=store.cat||"all";st.mode=store.mode||st.mode;st.vtheme=store.vtheme||"all";st.vdrill=store.vdrill||"mixed";st.sub="all";
+  if(started){if(!lvl().length)st.level="A1-A2";if(!lvl().some(function(e){return st.cat==="all"||e.cat===st.cat}))st.cat="all"}}
+window.RuApp={
+  keys:{drills:LS,lessons:LSL,words:LSW},
+  snapshot:function(){if(started)saveLocal();return {drills:load(LS)||{},lessons:load(LSL)||{version:1,lessons:{}},words:load(LSW)}},
+  hasLocalProgress:function(){var d=load(LS)||{},l=load(LSL);return !!((d.items&&Object.keys(d.items).length)||d.best||(l&&l.lessons&&Object.keys(l.lessons).length)||load(LSW))},
+  apply:function(snap){
+    store=(snap.drills&&typeof snap.drills==="object")?snap.drills:{};
+    lprog=(snap.lessons&&typeof snap.lessons.lessons==="object"&&snap.lessons.lessons)?snap.lessons:{version:1,lessons:{}};
+    try{localStorage.setItem(LS,JSON.stringify(store));localStorage.setItem(LSL,JSON.stringify(lprog));
+      if(snap.words&&Array.isArray(snap.words.words))localStorage.setItem(LSW,JSON.stringify(snap.words));else localStorage.removeItem(LSW)}catch(e){}
+    if(started){WORDS=(snap.words&&Array.isArray(snap.words.words))?snap.words.words:clone(STARTER)}
+    applyPrefs();st.editing=null;st.importing=null;
+    if(started){if(st.tab==="lessons"&&st.lview==="ex"&&st.cur)render();else{renderControls();newSession()}}
+  },
+  clearLocal:function(){[LS,LSL,LSW].forEach(function(k){try{localStorage.removeItem(k)}catch(e){}})},
+  onChange:function(f){listeners.push(f)}
+};
 var emb={exercises:[],vocab:[],lessons:null};try{emb=JSON.parse($("embedded").textContent)}catch(e){}
 function getJSON(u,fb){return fetch(u,{cache:"no-cache"}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(x){return Array.isArray(x)&&x.length?x:fb}).catch(function(){return fb})}
 if(location.protocol.indexOf("http")===0&&window.fetch&&window.Promise){

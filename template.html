@@ -127,11 +127,65 @@ label.f{display:block;font-size:13px;color:var(--muted);margin:10px 0 4px}
 .practice{text-align:left;background:var(--accent-soft);border-radius:12px;padding:12px 14px;margin:14px 0 4px}
 .practice ul{margin:6px 0 0;padding-left:20px}
 .bottom{position:sticky;bottom:0;padding:10px 0 4px;background:linear-gradient(transparent,var(--bg) 30%)}
+/* accounts */
+body.locked{overflow:hidden}
+.ubar{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--muted);margin:2px 0 0;min-height:32px;flex-wrap:wrap}
+.ubar #uName{color:var(--text);font-weight:600;max-width:50%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.usync.ok{color:var(--ok)}.usync.warn{color:#a6701b}.usync.bad{color:var(--bad)}
+.ubar button{margin-left:auto;font:inherit;font-size:13px;background:none;border:1px solid var(--line);border-radius:8px;color:var(--accent);min-height:32px;padding:0 10px;cursor:pointer}
+.aov{position:fixed;inset:0;z-index:50;background:var(--bg);overflow-y:auto;-webkit-overflow-scrolling:touch;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+.abox{max-width:420px;margin:0 auto;padding:28px 18px 40px}
+.abox h1{font-size:22px;margin:0 0 4px}
+.abox h2{font-size:19px;margin:18px 0 6px}
+.abox p{color:var(--muted);font-size:15px;margin:0 0 10px}
+.abox label{display:block;font-size:14px;color:var(--muted);margin:12px 0 4px}
+.abox input{width:100%;font:inherit;font-size:18px;padding:12px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--text);min-height:52px}
+.abox input:focus{outline:none;border-color:var(--accent)}
+.pw{display:flex;gap:8px}.pw input{flex:1;min-width:0}
+.pw button{font:inherit;font-size:14px;border:1.5px solid var(--line);border-radius:12px;background:var(--card);color:var(--accent);padding:0 12px;min-width:64px;cursor:pointer}
+.alink{display:block;width:100%;background:none;border:0;font:inherit;font-size:15px;color:var(--accent);min-height:46px;cursor:pointer;margin-top:4px}
+.alink:disabled,.btn:disabled{opacity:.6}
+.amsg{font-size:15px;margin:12px 0 0;min-height:1em}.amsg.bad{color:var(--bad)}.amsg.ok{color:var(--ok)}
+.ahint{font-size:13px;color:var(--muted);margin-top:4px}
+.aguest{border-top:1px solid var(--line);margin-top:18px;padding-top:8px}
+.aguest .alink{color:var(--muted);font-size:14px}
+.toast{position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom));transform:translateX(-50%);background:var(--text);color:var(--bg);padding:10px 16px;border-radius:12px;font-size:14px;z-index:60;max-width:92%;text-align:center}
 </style>
 </head>
-<body>
+<body class="locked">
+<div id="authOv" class="aov">
+ <div class="abox">
+  <h1>Русская грамматика: тренажёр</h1>
+  <p>Lessons and drills for Russian learners.</p>
+  <div id="avLoading"><p>Загрузка… Loading…</p></div>
+  <div id="avForm" class="hidden">
+   <h2 id="aTitle">Войти · Sign in</h2>
+   <p>Sign in to save your progress to your account, so it follows you to any device.</p>
+   <form id="aForm" novalidate>
+    <div id="aNameBox" class="hidden"><label for="aName">Your name (shown at the top of the app)</label><input id="aName" autocomplete="nickname" maxlength="60" placeholder="e.g. Chris"></div>
+    <label for="aEmail">Email</label><input id="aEmail" type="email" inputmode="email" autocomplete="email" autocapitalize="none" spellcheck="false">
+    <label for="aPass">Password</label>
+    <div class="pw"><input id="aPass" type="password" autocomplete="current-password"><button type="button" id="aShow">Show</button></div>
+    <div id="aPassHint" class="ahint hidden">At least 6 characters.</div>
+    <div id="aMsg" class="amsg" role="status" aria-live="polite"></div>
+    <button class="btn" id="aGo" type="submit">Sign in</button>
+   </form>
+   <button class="alink" id="aForgot" type="button">Forgot password?</button>
+   <button class="alink" id="aSwitch" type="button">New here? Create an account</button>
+   <div class="aguest"><button class="alink" id="aGuest" type="button">Continue without an account (progress stays on this device only)</button></div>
+  </div>
+  <div id="avFail" class="hidden">
+   <h2>Sign-in isn't available right now</h2>
+   <p id="fText"></p>
+   <button class="btn" id="fRetry" type="button">Try again</button>
+   <button class="btn quiet" id="fGuest" type="button">Use on this device only</button>
+  </div>
+ </div>
+</div>
+<div id="toast" class="toast hidden" role="status"></div>
 <div class="wrap">
 <header>
+  <div id="userbar" class="ubar hidden"><span id="uName"></span><span id="uSync" class="usync"></span><button id="uOut" type="button">Sign out</button></div>
   <h1>Русская грамматика: тренажёр</h1>
   <p>Learn a rule in Lessons, then practice it. Grammar drills by level, or drill your own situation words. Missed items come back later in the session.</p>
 </header>
@@ -188,7 +242,7 @@ label.f{display:block;font-size:13px;color:var(--muted);margin:10px 0 4px}
   <p>Word hints under each sentence give the meaning of less common words. Tap Show translation for the whole sentence; it also appears after you answer.</p>
   <p>Typed answers ignore capital letters, extra spaces, and ё/е differences. A missed item comes back 3–6 questions later and has to be answered correctly before the session ends.</p>
   <p id="lifetime"></p>
-  <p>My words are saved in this browser only. Use Export to back them up or move them to your phone, then Import there.</p>
+  <p>When you're signed in, your lesson progress, drill scores and My words are saved to your account, so they follow you to any phone or computer. Without an account they stay in this browser only. Export makes a backup file of My words.</p>
   <p>To add grammar exercises, edit <code>exercises.json</code>; starter vocabulary lives in <code>vocab.json</code>, and lessons in <code>lessons.json</code>. The page loads them when hosted and falls back to its built-in copy when you open the file directly.</p>
   <button class="btn quiet" id="reset">Reset drill scores (keeps My words and lesson progress)</button>
 </details>
@@ -199,7 +253,14 @@ label.f{display:block;font-size:13px;color:var(--muted);margin:10px 0 4px}
 /*__ENGINE__*/
 </script>
 <script>
+/*__FBCONFIG__*/
+</script>
+<script>
 /*__APP__*/
 </script>
+<script type="module">
+/*__CLOUD__*/
+</script>
+<script nomodule>document.getElementById("authOv").style.display="none";document.body.classList.remove("locked")</script>
 </body>
 </html>

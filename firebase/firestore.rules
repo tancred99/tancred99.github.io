@@ -1,0 +1,50 @@
+rules_version = '2';
+
+// Russian drills: each signed-in learner can read and write ONLY their own
+// document users/{uid} and anything under it. Everything else is denied.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isOwner(uid) {
+      return request.auth != null && request.auth.uid == uid;
+    }
+
+    // Shape of users/{uid}. Progress blobs are JSON strings written by the app.
+    function validProfile(d) {
+      return d.keys().hasAll(['v', 'displayName', 'drills', 'lessons', 'words', 'createdAt', 'updatedAt'])
+        && d.keys().hasOnly(['v', 'displayName', 'drills', 'lessons', 'words', 'createdAt', 'updatedAt'])
+        && d.v is int && d.v >= 1 && d.v <= 100
+        && d.displayName is string && d.displayName.size() >= 1 && d.displayName.size() <= 60
+        && d.drills is string && d.drills.size() <= 300000
+        && d.lessons is string && d.lessons.size() <= 100000
+        && (d.words == null || (d.words is string && d.words.size() <= 400000))
+        && d.createdAt is timestamp
+        && d.updatedAt == request.time;
+    }
+
+    match /users/{uid} {
+      allow get: if isOwner(uid);
+      allow list: if false;
+      allow create: if isOwner(uid)
+        && validProfile(request.resource.data)
+        && request.resource.data.createdAt == request.time;
+      allow update: if isOwner(uid)
+        && validProfile(request.resource.data)
+        && request.resource.data.createdAt == resource.data.createdAt;
+      allow delete: if isOwner(uid);
+
+      // Reserved for future per-user data (e.g. history). Owner only, size-capped.
+      match /{sub}/{docId} {
+        allow read: if isOwner(uid);
+        allow create, update: if isOwner(uid)
+          && request.resource.data.keys().size() <= 20;
+        allow delete: if isOwner(uid);
+      }
+    }
+
+    // Default deny for everything else.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
