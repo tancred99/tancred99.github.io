@@ -1,11 +1,11 @@
 (function(){
 "use strict";
 var E=window.RuEngine;
-var CATS=[["all","All"],["basics","Basics"],["cases","Cases"],["conjugation","Verbs"],["aspect","Aspect"],["motion","Motion"]];
+var CATS=[["all","All"],["basics","Basics"],["cases","Cases"],["conjugation","Verbs"],["aspect","Aspect"],["motion","Motion"],["home","At home"]];
 var LEVELS=[["A1-A2","A1–A2"],["B1-C1","B1–C1"]];
 var MODES=[["choice","Choice"],["type","Type"]];
 var VDRILLS=[["mixed","Mixed"],["cases","Cases"],["plurals","Plurals"],["numbers","Numbers"],["cards","Flashcards"]];
-var KIND_LABEL={thing:"thing",food:"food/drink",place:"place",person:"person",event:"service/event",transport:"transport",money:"money",unit:"measure"};
+var KIND_LABEL={thing:"thing",food:"food/drink",place:"place",person:"person",event:"service/event",transport:"transport",money:"money",unit:"measure",home:"furniture/spot in a room"};
 var G_LABEL={m:"masc.",f:"fem.",n:"neut.",pl:"plural only"};
 var FORM_LABEL={gen:"Genitive (нет …)",dat:"Dative (к …)",acc:"Accusative (вижу …)",ins:"Instrumental (с …)",prep:"Prepositional (о …)",npl:"Nominative plural",gpl:"Genitive plural (много …)"};
 var LS="ruDrills.v1",LSW="ruDrills.words.v1",LSL="ruDrills.lessons.v1";
@@ -27,7 +27,7 @@ function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return
 function norm(s){return String(s).toLowerCase().replace(/ё/g,"е").replace(/[.,!?;:«»"]/g,"").replace(/\s+/g," ").trim()}
 function shuffle(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t}return a}
 function clone(o){return JSON.parse(JSON.stringify(o))}
-var CAT_LABEL={basics:"Basics",cases:"Cases",conjugation:"Verbs",aspect:"Aspect",motion:"Motion",vocab:"Vocabulary",lesson:"Lesson"};
+var CAT_LABEL={basics:"Basics",cases:"Cases",conjugation:"Verbs",aspect:"Aspect",motion:"Motion",home:"At home",vocab:"Vocabulary",lesson:"Lesson"};
 function lvl(){return DATA.filter(function(e){return e.level===st.level})}
 function themes(){var t=[];WORDS.forEach(function(w){if(t.indexOf(w.theme)<0)t.push(w.theme)});return t}
 function themeWords(th){return WORDS.filter(function(w){return th==="all"||w.theme===th})}
@@ -233,7 +233,7 @@ function renderWords(){
   (st.wtheme==="all"?th:[st.wtheme]).forEach(function(t){
     h+='<div class="wtheme">'+esc(t)+'</div>';
     WORDS.forEach(function(w,i){if(w.theme!==t)return;var s=wordStatus(w);
-      var meta=w.pos==="noun"?[G_LABEL[w.g]||"gender?",w.anim?"animate":"",KIND_LABEL[w.kind]||"",w.kind==="place"?(w.pp||"в")+" + place":""].filter(Boolean).join(" · "):w.pos;
+      var meta=w.pos==="noun"?[G_LABEL[w.g]||"gender?",w.anim?"animate":"",KIND_LABEL[w.kind]||"",(w.kind==="place"||w.kind==="home")?(w.pp||"в")+" + place":""].filter(Boolean).join(" · "):w.pos;
       h+='<div class="witem"><div class="wt"><div class="wr" lang="ru">'+esc(w.ru)+'</div><div class="we">'+esc(w.en)+'</div><div class="wm">'+esc(meta)+' · <span class="'+(s.fo?"fo":"")+'">'+esc(s.txt)+'</span></div></div>'+
         '<button class="sbtn" data-edit="'+i+'" aria-label="Edit '+esc(w.ru)+'">Edit</button><button class="sbtn del" data-del="'+i+'" aria-label="Delete '+esc(w.ru)+'">✕</button></div>';
     });
@@ -263,7 +263,7 @@ function renderPanel(){
   h+='<div id="nounBox"'+(w.pos==="noun"?"":' class="hidden"')+'>';
   h+='<div class="fgrid"><div><label class="f" for="fG">Gender</label><select id="fG"><option value="">choose…</option>'+["m","f","n","pl"].map(function(g){return '<option value="'+g+'"'+(w.g===g?" selected":"")+'>'+{m:"masculine",f:"feminine",n:"neuter",pl:"plural only"}[g]+'</option>'}).join("")+'</select></div>';
   h+='<div><label class="f" for="fKind">Used like a…</label><select id="fKind">'+Object.keys(KIND_LABEL).map(function(k){return '<option value="'+k+'"'+(w.kind===k?" selected":"")+'>'+KIND_LABEL[k]+'</option>'}).join("")+'</select></div></div>';
-  h+='<div id="ppBox"'+(w.kind==="place"?"":' class="hidden"')+'><label class="f" for="fPp">Place takes</label><select id="fPp"><option value="в"'+(w.pp!=="на"?" selected":"")+'>в (в магазине)</option><option value="на"'+(w.pp==="на"?" selected":"")+'>на (на вокзале)</option></select></div>';
+  h+='<div id="ppBox"'+(w.kind==="place"||w.kind==="home"?"":' class="hidden"')+'><label class="f" for="fPp">Place takes</label><select id="fPp"><option value="в"'+(w.pp!=="на"?" selected":"")+'>в (в магазине)</option><option value="на"'+(w.pp==="на"?" selected":"")+'>на (на вокзале)</option></select></div>';
   h+='<div class="checks">'+[["anim","animate (a person or animal)"],["indecl","indeclinable (кофе, меню)"],["mass","no plural (молоко)"],["fleet","fleeting vowel (платок → платка)"],["es","stressed ending (ножом, рублём)"]].map(function(c){return '<label><input type="checkbox" id="c_'+c[0]+'"'+(w[c[0]]?" checked":"")+'> '+c[1]+'</label>'}).join("")+'</div>';
   h+='<div class="muted">Forms: grey text is generated automatically. Type in a box to override it. Red dashed boxes are forms the app isn’t sure about, and they’re skipped in drills until you fill them in.</div>';
   h+='<div class="fgrid" id="formsGrid" style="margin-top:8px">'+E.KEYS.map(function(k){return '<div><label for="fm_'+k+'">'+FORM_LABEL[k]+'</label><input id="fm_'+k+'" lang="ru" autocomplete="off" autocapitalize="none" value="'+esc((w.forms||{})[k]||"")+'"></div>'}).join("")+'</div>';
@@ -275,10 +275,10 @@ function renderPanel(){
     var nw={ru:$("fRu").value.trim(),en:$("fEn").value.trim(),pos:$("fPos").value};
     nw.theme=$("fTheme").value==="__new"?($("fThemeNew").value.trim()||"My words"):$("fTheme").value;
     if(nw.pos==="noun"){
-      nw.g=$("fG").value;nw.kind=$("fKind").value;if(nw.kind==="place")nw.pp=$("fPp").value;
+      nw.g=$("fG").value;nw.kind=$("fKind").value;if(nw.kind==="place"||nw.kind==="home")nw.pp=$("fPp").value;
       ["anim","indecl","mass","fleet","es"].forEach(function(c){if($("c_"+c).checked)nw[c]=true});
       var f={};E.KEYS.forEach(function(k){var v=$("fm_"+k).value.trim();if(v)f[k]=v});nw.forms=f;
-      ["skip","loc","enp","enprep","noArt","approach","gplAlt","noFleet"].forEach(function(k){if(w[k]!=null&&nw.ru===w.ru)nw[k]=w[k]});
+      ["skip","loc","enp","enprep","noArt","approach","gplAlt","noFleet","put","lie","nonum"].forEach(function(k){if(w[k]!=null&&nw.ru===w.ru)nw[k]=w[k]});
       if(w.forms&&w.forms.loc&&nw.ru===w.ru)nw.forms.loc=w.forms.loc;
     }
     return nw;
@@ -286,7 +286,7 @@ function renderPanel(){
   function preview(){
     var nw=readForm();$("nounBox").classList.toggle("hidden",nw.pos!=="noun");
     if(nw.pos!=="noun"){$("fNote").innerHTML='<div class="note">Adjectives, verbs and phrases are drilled as flashcards in both directions.</div>';return}
-    $("ppBox").classList.toggle("hidden",nw.kind!=="place");
+    $("ppBox").classList.toggle("hidden",nw.kind!=="place"&&nw.kind!=="home");
     var auto=E.decline(Object.assign({},nw,{forms:{}}));
     E.KEYS.forEach(function(k){var el=$("fm_"+k);el.placeholder=auto.f[k]?(auto.unc[k]?"? "+auto.f[k]:auto.f[k]):"?";el.classList.toggle("unc",!!auto.unc[k]&&!el.value.trim())});
     var notes=[];if(auto.note)notes.push(auto.note);
@@ -353,8 +353,21 @@ function start(d,v,les){
   DATA=d.map(function(e){if(!e.level)e.level="B1-C1";return e});
   STARTER=v||[];
   var saved=load(LSW);WORDS=(saved&&Array.isArray(saved.words))?saved.words:clone(STARTER);
+  addNewStarterThemes();
   if(!lvl().length)st.level="A1-A2";if(!lvl().some(function(e){return st.cat==="all"||e.cat===st.cat}))st.cat="all";
   started=true;renderControls();newSession();
+}
+// New built-in themes reach people who already have a saved word list (once per theme, so deleting one sticks).
+var OLD_THEMES=["At the grocery store","At the checkout","At church","At the restaurant","At the border","Travel"];
+function addNewStarterThemes(){
+  var all=[];STARTER.forEach(function(w){if(all.indexOf(w.theme)<0)all.push(w.theme)});
+  var seen=Array.isArray(store.seenThemes)?store.seenThemes:OLD_THEMES,saved=load(LSW),n=0;
+  var fresh=all.filter(function(t){return seen.indexOf(t)<0});
+  if(saved&&Array.isArray(saved.words)&&fresh.length){
+    STARTER.forEach(function(s){if(fresh.indexOf(s.theme)>=0&&!WORDS.some(function(w){return w.ru===s.ru&&w.theme===s.theme})){WORDS.push(clone(s));n++}});
+  }
+  if(String(seen)!==String(all)||!Array.isArray(store.seenThemes)){store.seenThemes=all;save()}
+  if(n){saveWords();if(st.tab==="words")renderWords();else if(st.tab==="vocab")renderControls()}
 }
 // ---------- bridge for cloud sync (cloud.js) ----------
 function applyPrefs(){st.tab=store.tab||st.tab;st.level=store.level||st.level;st.cat=store.cat||"all";st.mode=store.mode||st.mode;st.vtheme=store.vtheme||"all";st.vdrill=store.vdrill||"mixed";st.sub="all";
@@ -368,7 +381,7 @@ window.RuApp={
     lprog=(snap.lessons&&typeof snap.lessons.lessons==="object"&&snap.lessons.lessons)?snap.lessons:{version:1,lessons:{}};
     try{localStorage.setItem(LS,JSON.stringify(store));localStorage.setItem(LSL,JSON.stringify(lprog));
       if(snap.words&&Array.isArray(snap.words.words))localStorage.setItem(LSW,JSON.stringify(snap.words));else localStorage.removeItem(LSW)}catch(e){}
-    if(started){WORDS=(snap.words&&Array.isArray(snap.words.words))?snap.words.words:clone(STARTER)}
+    if(started){WORDS=(snap.words&&Array.isArray(snap.words.words))?snap.words.words:clone(STARTER);setTimeout(addNewStarterThemes,0)}
     applyPrefs();st.editing=null;st.importing=null;
     if(started){if(st.tab==="lessons"&&st.lview==="ex"&&st.cur)render();else{renderControls();newSession()}}
   },

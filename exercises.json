@@ -3788,5 +3788,706 @@
   "glosses": [
    "командировка: business trip"
   ]
+ },
+ {
+  "id": 192,
+  "level": "A1-A2",
+  "cat": "home",
+  "sub": "где? в / на + prepositional",
+  "s": "Мама сейчас на ___.",
+  "base": "кухня",
+  "a": "кухне",
+  "alt": [],
+  "d": [
+   "кухню",
+   "кухня",
+   "кухней"
+  ],
+  "ex": "Кухня takes на, not в: на кухне (in the kitchen). Где? → prepositional, -а/-я → -е.",
+  "translation": "Mom is in the kitchen now.",
+  "glosses": [
+   "сейчас: now"
+  ]
+ },
+ {
+  "id": 193,
+  "level": "A1-A2",
+  "cat": "home",
+  "sub": "где? в / на + prepositional",
+  "s": "Ключи лежат на ___.",
+  "base": "стол",
+  "a": "столе",
+  "alt": [],
+  "d": [
+   "стол",
+   "стола",
+   "столу"
+  ],
+  "ex": "Где? → на + prepositional: на столе.",
+  "translation": "The keys are on the table.",
+  "glosses": [
+   "ключи: keys",
+   "лежать: to lie"
+  ]
+ },
+ {
+  "id": 194,
+  "level": "A1-A2",
+  "cat": "home",
+  "sub": "где? в / на + prepositional",
+  "s": "Пальто висит в ___.",
+  "base": "шкаф",
+  "a": "шкафу",
+  "alt": [],
+  "d": [
+   "шкафе",
+   "шкаф",
+   "шкафа"
+  ],
+  "ex": "Шкаф has a special location ending -у after в/на: в шкафу (but о шкафе, 'about the wardrobe').",
+  "translation": "The coat is hanging in the wardrobe.",
+  "glosses": [
+   "пальто: coat",
+   "висеть: to hang"
+  ]
+ },
+ {
+  "id": 195,
+  "level": "A1-A2",
+  "cat": "home",
+  "sub": "где? в / на + prepositional",
+  "s": "Кошка спит на ___.",
+  "base": "пол",
+  "a": "полу",
+  "alt": [],
+  "d": [
+   "поле",
+   "пол",
+   "пола"
+  ],
+  "ex": "Пол takes the special location ending -у: на полу. (В поле means 'in a field'!)",
+  "translation": "The cat is sleeping on the floor.",
+  "glosses": [
+   "кошка: cat",
+   "спать: to sleep"
+  ]
+ },
+ {
+  "id": 196,
+  "level": "A1-A2",
+  "cat": "home",
+  "sub": "где? в / на + prepositional",
+  "s": "Стул стоит в ___.",
+  "base": "угол",
+  "a": "углу",
+  "alt": [],
+  "d": [
+   "угле",
+   "угол",
+   "угла"
+  ],
+  "ex": "Угол loses its о (угл-) and takes the special location ending -у: в углу.",
+  "translation": "The chair is standing in the corner.",
+  "glosses": [
+   "стоять: to stand"
+  ]
+ },
+ {
+  "id": 197,
+  "level": "A1-A2",
+  "cat": "home",
+  "sub": "где? в / на + prepositional",
+  "s": "Мы сидим в ___.",
+  "base": "гостиная",
+  "a": "гостиной",
+  "alt": [],
+  "d": [
+   "гостиную",
+   "гостиная",
+   "гостиные"
+  ],
+  "ex": "Гостиная (like ванная, прихожая) declines like an adjective: в гостиной.",
+  "translation": "We're sitting in the living room.",
+  "glosses": [
+   "сидеть: to sit"
+  ]
+ },
+ {
+  "id": 198,
+  "level": "A1-A2",
+  "cat": "home",
+  "sub": "куда? в / на + accusative",
+  "s": "Положи ключи на ___.",
+  "base": "стол",
+  "a": "стол",
+  "alt": [],
+  "d": [
+   "столе",
+   "стола",
+   "столом"
+  ],
+  "ex": "Положить (to put) answers куда? → на + accusative. Masculine things don't change: на стол.",
+  "translation": "Put the keys on the table.",
+  "glosses": [
+   "положить: to put (lying)"
+  ]
+ },
+ {
+  "id": 199,
+  "level": "A1-A2",
+  "cat": "home",
+  "sub": "куда? в / на + accusative",
+  "s": "Поставь молоко в ___.",
+  "base": "холодильник",
+  "a": "холодильник",
+  "alt": [],
+  "d": [
+   "холодильнике",
+   "холодильника",
+   "холодильнику"
+  ],
+  "ex": "Куда? → в + accusative: в холодильник. Compare где? → в холодильнике.",
+  "translation": "Put the milk in the fridge.",
+  "glosses": [
+   "поставить: to put (standing)"
+  ]
+ },
+ {
+  "id": 200,
+  "level": "A1-A2",
+  "cat": "home",
+  "sub": "куда? в / на + accusative",
+  "s": "Повесь пальто на ___.",
+  "base": "вешалка",
+  "a": "вешалку",
+  "alt": [],
+  "d": [
+   "вешалке",
+   "вешалка",
+   "вешалки"
+  ],
+  "ex": "Куда? → на + accusative, -а → -у: на вешалку. Compare где? → на вешалке.",
+  "translation": "Hang your coat on the coat rack.",
+  "glosses": [
+   "повесить: to hang (up)",
+   "вешалка: coat rack"
+  ]
+ },
+ {
+  "id": 201,
+  "level": "A1-A2",
+  "cat": "home",
+  "sub": "куда? в / на + accusative",
+  "s": "Иди на ___, там чай.",
+  "base": "кухня",
+  "a": "кухню",
+  "alt": [],
+  "d": [
+   "кухне",
+   "кухня",
+   "кухни"
+  ],
+  "ex": "Куда? → на + accusative, -я → -ю: на кухню.",
+  "translation": "Go to the kitchen, there's tea there.",
+  "glosses": [
+   "иди: go!"
+  ]
+ },
+ {
+  "id": 202,
+  "level": "A1-A2",
+  "cat": "home",
+  "sub": "куда? в / на + accusative",
+  "s": "Сними куртку и повесь её в ___.",
+  "base": "шкаф",
+  "a": "шкаф",
+  "alt": [],
+  "d": [
+   "шкафу",
+   "шкафе",
+   "шкафа"
+  ],
+  "ex": "Куда? → в + accusative: в шкаф. The -у form (в шкафу) is only for где?",
+  "translation": "Take off your jacket and hang it in the wardrobe.",
+  "glosses": [
+   "снять: to take off",
+   "куртка: jacket"
+  ]
+ },
+ {
+  "id": 203,
+  "level": "A1-A2",
+  "cat": "home",
+  "sub": "куда? в / на + accusative",
+  "s": "Поставь обувь у ___.",
+  "base": "дверь",
+  "a": "двери",
+  "alt": [],
+  "d": [
+   "дверь",
+   "дверью",
+   "дверей"
+  ],
+  "ex": "У (by, next to) takes the genitive: у двери. It works for both где? and куда?",
+  "translation": "Put your shoes by the door.",
+  "glosses": [
+   "обувь: shoes"
+  ]
+ },
+ {
+  "id": 204,
+  "level": "A1-A2",
+  "cat": "home",
+  "sub": "в или на?",
+  "s": "Чашки стоят ___ полке.",
+  "base": "в / на / у",
+  "a": "на",
+  "alt": [],
+  "d": [
+   "в",
+   "у",
+   "под"
+  ],
+  "ex": "A shelf is a surface, so на: на полке.",
+  "translation": "The cups are on the shelf.",
+  "glosses": [
+   "чашка: cup",
+   "полка: shelf"
+  ]
+ },
+ {
+  "id": 205,
+  "level": "A1-A2",
+  "cat": "home",
+  "sub": "в или на?",
+  "s": "Курица ___ духовке.",
+  "base": "в / на / у",
+  "a": "в",
+  "alt": [],
+  "d": [
+   "на",
+   "у",
+   "с"
+  ],
+  "ex": "An oven is a box you put things inside, so в: в духовке.",
+  "translation": "The chicken is in the oven.",
+  "glosses": [
+   "курица: chicken",
+   "духовка: oven"
+  ]
+ },
+ {
+  "id": 206,
+  "level": "A1-A2",
+  "cat": "home",
+  "sub": "в или на?",
+  "s": "Мы пьём чай ___ кухне.",
+  "base": "в / на / у",
+  "a": "на",
+  "alt": [],
+  "d": [
+   "в",
+   "у",
+   "к"
+  ],
+  "ex": "Кухня is the exception among rooms: на кухне. Other rooms take в: в комнате, в спальне, в ванной.",
+  "translation": "We drink tea in the kitchen.",
+  "glosses": [
+   "пить: to drink"
+  ]
+ },
+ {
+  "id": 207,
+  "level": "A1-A2",
+  "cat": "home",
+  "sub": "в или на?",
+  "s": "Дети играют ___ комнате.",
+  "base": "в / на / у",
+  "a": "в",
+  "alt": [],
+  "d": [
+   "на",
+   "у",
+   "к"
+  ],
+  "ex": "Rooms take в: в комнате, в спальне, в гостиной (but на кухне).",
+  "translation": "The kids are playing in the room.",
+  "glosses": [
+   "дети: children",
+   "играть: to play"
+  ]
+ },
+ {
+  "id": 208,
+  "level": "A1-A2",
+  "cat": "home",
+  "sub": "в или на?",
+  "s": "Он пьёт кофе ___ балконе.",
+  "base": "в / на / у",
+  "a": "на",
+  "alt": [],
+  "d": [
+   "в",
+   "у",
+   "к"
+  ],
+  "ex": "A balcony is an open platform, so на: на балконе.",
+  "translation": "He drinks coffee on the balcony.",
+  "glosses": []
+ },
+ {
+  "id": 209,
+  "level": "A1-A2",
+  "cat": "home",
+  "sub": "в или на?",
+  "s": "Картина висит ___ стене.",
+  "base": "в / на / у",
+  "a": "на",
+  "alt": [],
+  "d": [
+   "в",
+   "у",
+   "о"
+  ],
+  "ex": "Things hang on the surface of a wall: на стене.",
+  "translation": "The picture is hanging on the wall.",
+  "glosses": [
+   "картина: picture, painting"
+  ]
+ },
+ {
+  "id": 210,
+  "level": "A1-A2",
+  "cat": "home",
+  "sub": "в или на?",
+  "s": "Ключи висят ___ двери.",
+  "base": "в / на / у",
+  "a": "у",
+  "alt": [],
+  "d": [
+   "в",
+   "к",
+   "с"
+  ],
+  "ex": "У + genitive means 'by, next to': у двери (by the door), у окна (by the window).",
+  "translation": "The keys hang by the door.",
+  "glosses": [
+   "ключи: keys"
+  ]
+ },
+ {
+  "id": 211,
+  "level": "A1-A2",
+  "cat": "home",
+  "sub": "дома / домой",
+  "s": "Я сейчас ___.",
+  "base": "дом",
+  "a": "дома",
+  "alt": [],
+  "d": [
+   "домой",
+   "дом",
+   "доме"
+  ],
+  "ex": "Дома = at home (где?). Домой = (to) home (куда?).",
+  "translation": "I'm at home now.",
+  "glosses": []
+ },
+ {
+  "id": 212,
+  "level": "A1-A2",
+  "cat": "home",
+  "sub": "дома / домой",
+  "s": "Уже поздно, пора ___.",
+  "base": "дом",
+  "a": "домой",
+  "alt": [],
+  "d": [
+   "дома",
+   "дом",
+   "доме"
+  ],
+  "ex": "Пора домой (time to go home) is about direction, so домой.",
+  "translation": "It's late, time to go home.",
+  "glosses": [
+   "пора: it's time"
+  ]
+ },
+ {
+  "id": 213,
+  "level": "B1-C1",
+  "cat": "home",
+  "sub": "стоять / лежать / висеть",
+  "s": "Тарелки ___ на столе.",
+  "base": "стоять / лежать / висеть",
+  "a": "стоят",
+  "alt": [],
+  "d": [
+   "лежат",
+   "висят",
+   "ставят"
+  ],
+  "ex": "Russian says plates, cups and glasses стоят (stand) on the table, even though plates are flat.",
+  "translation": "The plates are on the table.",
+  "glosses": [
+   "тарелка: plate"
+  ]
+ },
+ {
+  "id": 214,
+  "level": "B1-C1",
+  "cat": "home",
+  "sub": "стоять / лежать / висеть",
+  "s": "Вилки и ножи ___ на столе.",
+  "base": "стоять / лежать / висеть",
+  "a": "лежат",
+  "alt": [],
+  "d": [
+   "стоят",
+   "висят",
+   "кладут"
+  ],
+  "ex": "Forks and knives lie flat: лежат.",
+  "translation": "The forks and knives are on the table.",
+  "glosses": [
+   "вилка: fork",
+   "нож: knife"
+  ]
+ },
+ {
+  "id": 215,
+  "level": "B1-C1",
+  "cat": "home",
+  "sub": "стоять / лежать / висеть",
+  "s": "Пальто ___ на вешалке.",
+  "base": "стоять / лежать / висеть",
+  "a": "висит",
+  "alt": [],
+  "d": [
+   "стоит",
+   "лежит",
+   "вешает"
+  ],
+  "ex": "Clothes on a hook or rack висят (hang).",
+  "translation": "The coat is hanging on the coat rack.",
+  "glosses": []
+ },
+ {
+  "id": 216,
+  "level": "B1-C1",
+  "cat": "home",
+  "sub": "стоять / лежать / висеть",
+  "s": "Ботинки ___ у двери.",
+  "base": "стоять / лежать / висеть",
+  "a": "стоят",
+  "alt": [],
+  "d": [
+   "лежат",
+   "висят",
+   "ставят"
+  ],
+  "ex": "Shoes standing on the floor стоят.",
+  "translation": "The boots are by the door.",
+  "glosses": [
+   "ботинки: boots, shoes"
+  ]
+ },
+ {
+  "id": 217,
+  "level": "B1-C1",
+  "cat": "home",
+  "sub": "стоять / лежать / висеть",
+  "s": "Телефон ___ на диване.",
+  "base": "стоять / лежать / висеть",
+  "a": "лежит",
+  "alt": [],
+  "d": [
+   "стоит",
+   "висит",
+   "кладёт"
+  ],
+  "ex": "A phone lying flat лежит.",
+  "translation": "The phone is on the sofa.",
+  "glosses": [
+   "диван: sofa"
+  ]
+ },
+ {
+  "id": 218,
+  "level": "B1-C1",
+  "cat": "home",
+  "sub": "стоять / лежать / висеть",
+  "s": "Холодильник ___ на кухне.",
+  "base": "стоять / лежать / висеть",
+  "a": "стоит",
+  "alt": [],
+  "d": [
+   "лежит",
+   "висит",
+   "ставит"
+  ],
+  "ex": "Furniture and appliances стоят: холодильник стоит, шкаф стоит, диван стоит.",
+  "translation": "The fridge is in the kitchen.",
+  "glosses": []
+ },
+ {
+  "id": 219,
+  "level": "B1-C1",
+  "cat": "home",
+  "sub": "поставить / положить / повесить",
+  "s": "___ пальто на вешалку.",
+  "base": "повесить / поставить / положить",
+  "a": "Повесь",
+  "alt": [],
+  "d": [
+   "Поставь",
+   "Положи",
+   "Висит"
+  ],
+  "ex": "Where something will hang → повесить (impf. вешать).",
+  "translation": "Hang your coat on the coat rack.",
+  "glosses": []
+ },
+ {
+  "id": 220,
+  "level": "B1-C1",
+  "cat": "home",
+  "sub": "поставить / положить / повесить",
+  "s": "___ вилки на стол.",
+  "base": "повесить / поставить / положить",
+  "a": "Положи",
+  "alt": [],
+  "d": [
+   "Поставь",
+   "Повесь",
+   "Лежат"
+  ],
+  "ex": "Things that will lie flat → положить (impf. класть).",
+  "translation": "Put the forks on the table.",
+  "glosses": []
+ },
+ {
+  "id": 221,
+  "level": "B1-C1",
+  "cat": "home",
+  "sub": "поставить / положить / повесить",
+  "s": "___ стакан на полку.",
+  "base": "повесить / поставить / положить",
+  "a": "Поставь",
+  "alt": [],
+  "d": [
+   "Положи",
+   "Повесь",
+   "Стоит"
+  ],
+  "ex": "Things that will stand upright → поставить (impf. ставить).",
+  "translation": "Put the glass on the shelf.",
+  "glosses": [
+   "стакан: glass"
+  ]
+ },
+ {
+  "id": 222,
+  "level": "B1-C1",
+  "cat": "home",
+  "sub": "aspect at home",
+  "s": "Каждый вечер я ___ ключи на крючок.",
+  "base": "вешать / повесить",
+  "a": "вешаю",
+  "alt": [],
+  "d": [
+   "повешу",
+   "повесил",
+   "вишу"
+  ],
+  "ex": "Repeated action (каждый вечер) → imperfective вешать: я вешаю.",
+  "translation": "Every evening I hang my keys on the hook.",
+  "glosses": [
+   "крючок: hook"
+  ]
+ },
+ {
+  "id": 223,
+  "level": "B1-C1",
+  "cat": "home",
+  "sub": "aspect at home",
+  "s": "Куда ты ___ мои очки? Не могу их найти.",
+  "base": "класть / положить",
+  "a": "положил",
+  "alt": [
+   "положила"
+  ],
+  "d": [
+   "клал",
+   "кладёшь",
+   "лежал"
+  ],
+  "ex": "One completed action whose result matters now (I can't find them) → perfective положить.",
+  "translation": "Where did you put my glasses? I can't find them.",
+  "glosses": [
+   "очки: glasses"
+  ]
+ },
+ {
+  "id": 224,
+  "level": "B1-C1",
+  "cat": "home",
+  "sub": "aspect at home",
+  "s": "Где можно ___ руки?",
+  "base": "мыть / помыть",
+  "a": "помыть",
+  "alt": [
+   "вымыть"
+  ],
+  "d": [
+   "мыть",
+   "моет",
+   "помою"
+  ],
+  "ex": "A single concrete action after можно → perfective: помыть (or вымыть).",
+  "translation": "Where can I wash my hands?",
+  "glosses": [
+   "рука: hand"
+  ]
+ },
+ {
+  "id": 225,
+  "level": "B1-C1",
+  "cat": "home",
+  "sub": "aspect at home",
+  "s": "Можно ___ обувь?",
+  "base": "снимать / снять",
+  "a": "снять",
+  "alt": [],
+  "d": [
+   "снимать",
+   "сниму",
+   "снял"
+  ],
+  "ex": "Asking permission for one action → perfective снять.",
+  "translation": "May I take off my shoes?",
+  "glosses": [
+   "обувь: shoes"
+  ]
+ },
+ {
+  "id": 226,
+  "level": "B1-C1",
+  "cat": "home",
+  "sub": "aspect at home",
+  "s": "Проходите, ___!",
+  "base": "садиться / сесть",
+  "a": "садитесь",
+  "alt": [],
+  "d": [
+   "сидите",
+   "садиться",
+   "сидеть"
+  ],
+  "ex": "A warm invitation to sit down uses the imperfective imperative: садитесь. Сидите means 'stay seated'.",
+  "translation": "Come in, have a seat!",
+  "glosses": [
+   "проходите: come in"
+  ]
  }
 ]

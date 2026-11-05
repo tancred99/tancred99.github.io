@@ -1257,5 +1257,675 @@
   "en": "straight ahead, left, right",
   "theme": "Travel",
   "pos": "phrase"
+ },
+ {
+  "ru": "комната",
+  "en": "room",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "f",
+  "kind": "place",
+  "pp": "в",
+  "skip": [
+   "gen",
+   "dat",
+   "ins"
+  ]
+ },
+ {
+  "ru": "кухня",
+  "en": "kitchen",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "f",
+  "kind": "place",
+  "pp": "на",
+  "enprep": "in",
+  "skip": [
+   "gen",
+   "dat",
+   "ins"
+  ],
+  "forms": {
+   "gpl": "кухонь"
+  }
+ },
+ {
+  "ru": "спальня",
+  "en": "bedroom",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "f",
+  "kind": "place",
+  "pp": "в",
+  "skip": [
+   "gen",
+   "dat",
+   "ins"
+  ],
+  "forms": {
+   "gpl": "спален"
+  }
+ },
+ {
+  "ru": "гостиная",
+  "en": "living room",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "f",
+  "kind": "place",
+  "pp": "в",
+  "skip": [
+   "gen",
+   "dat",
+   "ins"
+  ],
+  "nonum": true,
+  "forms": {
+   "gen": "гостиной",
+   "dat": "гостиной",
+   "acc": "гостиную",
+   "ins": "гостиной",
+   "prep": "гостиной",
+   "npl": "гостиные",
+   "gpl": "гостиных"
+  }
+ },
+ {
+  "ru": "ванная",
+  "en": "bathroom (bath/shower)",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "f",
+  "kind": "place",
+  "pp": "в",
+  "skip": [
+   "gen",
+   "dat",
+   "ins"
+  ],
+  "nonum": true,
+  "forms": {
+   "gen": "ванной",
+   "dat": "ванной",
+   "acc": "ванную",
+   "ins": "ванной",
+   "prep": "ванной",
+   "npl": "ванные",
+   "gpl": "ванных"
+  }
+ },
+ {
+  "ru": "прихожая",
+  "en": "entryway, front hall",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "f",
+  "kind": "place",
+  "pp": "в",
+  "skip": [
+   "gen",
+   "dat",
+   "ins"
+  ],
+  "nonum": true,
+  "forms": {
+   "gen": "прихожей",
+   "dat": "прихожей",
+   "acc": "прихожую",
+   "ins": "прихожей",
+   "prep": "прихожей",
+   "npl": "прихожие",
+   "gpl": "прихожих"
+  }
+ },
+ {
+  "ru": "туалет",
+  "en": "toilet, WC",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "m",
+  "kind": "place",
+  "pp": "в",
+  "skip": [
+   "gen",
+   "dat",
+   "ins"
+  ]
+ },
+ {
+  "ru": "коридор",
+  "en": "hallway, corridor",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "m",
+  "kind": "place",
+  "pp": "в",
+  "skip": [
+   "gen",
+   "dat",
+   "ins"
+  ]
+ },
+ {
+  "ru": "балкон",
+  "en": "balcony",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "m",
+  "kind": "place",
+  "pp": "на",
+  "enprep": "on",
+  "skip": [
+   "gen",
+   "dat",
+   "ins"
+  ]
+ },
+ {
+  "ru": "стол",
+  "en": "table",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "m",
+  "kind": "home",
+  "pp": "на"
+ },
+ {
+  "ru": "стул",
+  "en": "chair",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "m",
+  "kind": "home",
+  "pp": "на"
+ },
+ {
+  "ru": "диван",
+  "en": "sofa, couch",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "m",
+  "kind": "home",
+  "pp": "на"
+ },
+ {
+  "ru": "кровать",
+  "en": "bed",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "f",
+  "kind": "home",
+  "pp": "на"
+ },
+ {
+  "ru": "шкаф",
+  "en": "wardrobe, cupboard",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "m",
+  "kind": "home",
+  "pp": "в",
+  "forms": {
+   "loc": "шкафу"
+  }
+ },
+ {
+  "ru": "полка",
+  "en": "shelf",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "f",
+  "kind": "home",
+  "pp": "на",
+  "enp": "shelves",
+  "put": "Поставь",
+  "lie": "стоит",
+  "forms": {
+   "gpl": "полок"
+  }
+ },
+ {
+  "ru": "тумбочка",
+  "en": "nightstand, bedside table",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "f",
+  "kind": "home",
+  "pp": "на",
+  "forms": {
+   "gpl": "тумбочек"
+  }
+ },
+ {
+  "ru": "вешалка",
+  "en": "coat rack, hanger",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "f",
+  "kind": "home",
+  "pp": "на",
+  "put": "Повесь",
+  "lie": "висит",
+  "forms": {
+   "gpl": "вешалок"
+  }
+ },
+ {
+  "ru": "крючок",
+  "en": "hook",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "m",
+  "kind": "home",
+  "pp": "на",
+  "put": "Повесь",
+  "lie": "висит",
+  "fleet": true,
+  "skip": [
+   "ins"
+  ]
+ },
+ {
+  "ru": "пол",
+  "en": "floor",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "m",
+  "kind": "home",
+  "pp": "на",
+  "mass": true,
+  "skip": [
+   "ins"
+  ],
+  "forms": {
+   "loc": "полу"
+  }
+ },
+ {
+  "ru": "стена",
+  "en": "wall",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "f",
+  "kind": "home",
+  "pp": "на",
+  "put": "Повесь",
+  "lie": "висит",
+  "skip": [
+   "ins"
+  ]
+ },
+ {
+  "ru": "угол",
+  "en": "corner",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "m",
+  "kind": "home",
+  "pp": "в",
+  "put": "Поставь",
+  "lie": "стоит",
+  "fleet": true,
+  "skip": [
+   "ins"
+  ],
+  "forms": {
+   "loc": "углу"
+  }
+ },
+ {
+  "ru": "окно",
+  "en": "window (на окне = on the windowsill)",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "n",
+  "kind": "home",
+  "pp": "на",
+  "put": "Поставь",
+  "lie": "стоит",
+  "forms": {
+   "gpl": "окон"
+  }
+ },
+ {
+  "ru": "холодильник",
+  "en": "fridge",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "m",
+  "kind": "home",
+  "pp": "в",
+  "put": "Поставь",
+  "lie": "стоит"
+ },
+ {
+  "ru": "плита",
+  "en": "stove",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "f",
+  "kind": "home",
+  "pp": "на",
+  "put": "Поставь",
+  "lie": "стоит"
+ },
+ {
+  "ru": "духовка",
+  "en": "oven",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "f",
+  "kind": "home",
+  "pp": "в",
+  "put": "Поставь",
+  "lie": "стоит",
+  "skip": [
+   "ins"
+  ],
+  "forms": {
+   "gpl": "духовок"
+  }
+ },
+ {
+  "ru": "микроволновка",
+  "en": "microwave",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "f",
+  "kind": "home",
+  "pp": "в",
+  "put": "Поставь",
+  "lie": "стоит",
+  "skip": [
+   "ins"
+  ],
+  "forms": {
+   "gpl": "микроволновок"
+  }
+ },
+ {
+  "ru": "раковина",
+  "en": "sink",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "f",
+  "kind": "home",
+  "pp": "в"
+ },
+ {
+  "ru": "стиральная машина",
+  "en": "washing machine",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "f",
+  "kind": "home",
+  "pp": "в",
+  "nonum": true,
+  "forms": {
+   "gen": "стиральной машины",
+   "dat": "стиральной машине",
+   "acc": "стиральную машину",
+   "ins": "стиральной машиной",
+   "prep": "стиральной машине",
+   "npl": "стиральные машины",
+   "gpl": "стиральных машин"
+  }
+ },
+ {
+  "ru": "дверь",
+  "en": "door",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "approach": true,
+  "skip": [
+   "gen",
+   "acc",
+   "prep"
+  ]
+ },
+ {
+  "ru": "чайник",
+  "en": "kettle",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing"
+ },
+ {
+  "ru": "кастрюля",
+  "en": "pot, saucepan",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing"
+ },
+ {
+  "ru": "тарелка",
+  "en": "plate",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "forms": {
+   "gpl": "тарелок"
+  }
+ },
+ {
+  "ru": "чашка",
+  "en": "cup",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "forms": {
+   "gpl": "чашек"
+  }
+ },
+ {
+  "ru": "полотенце",
+  "en": "towel",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "n",
+  "kind": "thing",
+  "forms": {
+   "gen": "полотенца",
+   "dat": "полотенцу",
+   "acc": "полотенце",
+   "ins": "полотенцем",
+   "prep": "полотенце",
+   "npl": "полотенца",
+   "gpl": "полотенец"
+  }
+ },
+ {
+  "ru": "мыло",
+  "en": "soap",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "n",
+  "kind": "thing",
+  "mass": true
+ },
+ {
+  "ru": "подушка",
+  "en": "pillow",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "forms": {
+   "gpl": "подушек"
+  }
+ },
+ {
+  "ru": "одеяло",
+  "en": "blanket",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "n",
+  "kind": "thing"
+ },
+ {
+  "ru": "обувь",
+  "en": "shoes, footwear",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "mass": true
+ },
+ {
+  "ru": "тапочки",
+  "en": "slippers",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "pl",
+  "kind": "thing",
+  "forms": {
+   "gen": "тапочек",
+   "dat": "тапочкам",
+   "acc": "тапочки",
+   "ins": "тапочками",
+   "prep": "тапочках",
+   "gpl": "тапочек"
+  }
+ },
+ {
+  "ru": "пальто",
+  "en": "coat",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "n",
+  "kind": "thing",
+  "indecl": true
+ },
+ {
+  "ru": "куртка",
+  "en": "jacket",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "forms": {
+   "gpl": "курток"
+  }
+ },
+ {
+  "ru": "уютный",
+  "en": "cozy",
+  "theme": "Around the house",
+  "pos": "adj"
+ },
+ {
+  "ru": "ставить / поставить",
+  "en": "to put (standing up): impf. / pf.",
+  "theme": "Around the house",
+  "pos": "verb"
+ },
+ {
+  "ru": "класть / положить",
+  "en": "to put (lying down): impf. / pf.",
+  "theme": "Around the house",
+  "pos": "verb"
+ },
+ {
+  "ru": "вешать / повесить",
+  "en": "to hang (something up): impf. / pf.",
+  "theme": "Around the house",
+  "pos": "verb"
+ },
+ {
+  "ru": "стоять",
+  "en": "to stand, be standing (где?)",
+  "theme": "Around the house",
+  "pos": "verb"
+ },
+ {
+  "ru": "лежать",
+  "en": "to lie, be lying (где?)",
+  "theme": "Around the house",
+  "pos": "verb"
+ },
+ {
+  "ru": "висеть",
+  "en": "to hang, be hanging (где?)",
+  "theme": "Around the house",
+  "pos": "verb"
+ },
+ {
+  "ru": "снимать / снять",
+  "en": "to take off (shoes, coat): impf. / pf.",
+  "theme": "Around the house",
+  "pos": "verb"
+ },
+ {
+  "ru": "Проходите, садитесь.",
+  "en": "Come in, have a seat.",
+  "theme": "Around the house",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Можно снять обувь?",
+  "en": "May I take off my shoes?",
+  "theme": "Around the house",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Куда можно повесить пальто?",
+  "en": "Where can I hang my coat?",
+  "theme": "Around the house",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Куда поставить обувь?",
+  "en": "Where should I put my shoes?",
+  "theme": "Around the house",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Где можно помыть руки?",
+  "en": "Where can I wash my hands?",
+  "theme": "Around the house",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Положи это на стол.",
+  "en": "Put it on the table.",
+  "theme": "Around the house",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Поставь молоко в холодильник.",
+  "en": "Put the milk in the fridge.",
+  "theme": "Around the house",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Чувствуйте себя как дома.",
+  "en": "Make yourself at home.",
+  "theme": "Around the house",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Вот тапочки.",
+  "en": "Here are some slippers.",
+  "theme": "Around the house",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Ключи висят у двери.",
+  "en": "The keys are hanging by the door.",
+  "theme": "Around the house",
+  "pos": "phrase"
+ },
+ {
+  "ru": "дома / домой",
+  "en": "at home (где?) / home, homeward (куда?)",
+  "theme": "Around the house",
+  "pos": "phrase"
  }
 ]

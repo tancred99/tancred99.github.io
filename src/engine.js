@@ -187,18 +187,32 @@ var RuEngine = (function () {
       acc: ["Я опоздал на ___.", "I missed the {en}.", "Опоздать на (to be late for) takes the accusative."],
       prep: ["Я еду на ___.", "I'm going by {en}.", "Ехать на + prepositional: how you travel."]
     },
+    // furniture, appliances and spots in a room: где? (в/на + prep) vs куда? (в/на + acc) vs откуда? (из/с + gen)
+    home: {
+      gen: ["Возьми это {from} ___.", "Take it {off} the {en}.", "Откуда? (from where?) Из (out of, the opposite of в) and с (off, the opposite of на) take the genitive."],
+      acc: ["{put} это {pp} ___.", "{Put} it {into} the {en}.", "Куда? (where to?) В/на + accusative after a verb of putting (поставить, положить, повесить)."],
+      ins: ["Что лежит под ___?", "What's under the {en}?", "Под (under) + instrumental answers 'where?'"],
+      prep: ["Это {lie} {pp} ___.", "It's {at} the {en}.", "Где? (where?) В/на + prepositional after стоять, лежать, висеть."]
+    },
     money: {}, unit: {}
   };
   var CASE_NAME = { gen: "genitive", dat: "dative", acc: "accusative", ins: "instrumental", prep: "prepositional" };
 
   function cap(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
   function fill(tpl, w, form) {
-    return tpl.replace(/\{pp\}/g, prepFix(w.pp || "в", form)).replace(/\{p:([^}]+)\}/g, function (_, p) { return prepFix(p, form); });
+    return tpl.replace(/\{put\}/g, w.put || "Положи").replace(/\{lie\}/g, w.lie || "лежит")
+      .replace(/\{from\}/g, prepFix(w.pp === "на" ? "с" : "из", form))
+      .replace(/\{pp\}/g, prepFix(w.pp || "в", form)).replace(/\{p:([^}]+)\}/g, function (_, p) { return prepFix(p, form); });
   }
   function fillEn(tpl, w, plural) {
     var e = plural ? enPl(w) : en1(w);
     var art = (w.mass || w.g === "pl") ? "any " : (/^[aeiou]/i.test(e) ? "an " : "a ");
-    var out = tpl.replace(/\{a\} /g, art).replace(/\{at\}/g, w.enprep || (w.pp === "на" ? "at" : "in"));
+    var on = w.pp === "на";
+    var out = tpl.replace(/\{a\} /g, art)
+      .replace(/\{Put\}/g, w.put === "Повесь" ? "Hang" : "Put")
+      .replace(/\{off\}/g, on ? "off" : "out of")
+      .replace(/\{into\}/g, w.enprep || (on ? "on" : "in"))
+      .replace(/\{at\}/g, w.enprep || (on ? (w.kind === "home" ? "on" : "at") : "in"));
     if (w.noArt) out = out.replace(/the \{en\}/g, "{en}");
     return out.replace(/\{En\}/g, cap(e)).replace(/\{en\}/g, e);
   }
@@ -234,7 +248,7 @@ var RuEngine = (function () {
           if (c === "gen" && w.kind === "food" && !w.mass) tpl = T.thing.gen;
           if (!tpl || skip.indexOf(c) >= 0) return;
           if (c === "dat" && (w.kind || "thing") === "thing" && !w.approach) return;
-          var form = (c === "prep" && F.loc && (w.kind === "place")) ? F.loc : F[c];
+          var form = (c === "prep" && F.loc && (w.kind === "place" || w.kind === "home")) ? F.loc : F[c];
           if (!form) return;
           var rule = tpl[2];
           if (c === "acc" && w.kind !== "person" && w.anim && w.g === "m") rule += " Animate masculine nouns use the genitive form.";
@@ -247,6 +261,7 @@ var RuEngine = (function () {
         });
       }
       var countable = !w.mass && !plOnly && w.kind !== "event";
+      var numOk = countable && !w.nonum; // nonum: adjective-type nouns (ванная) need adjective endings after 2-4
       var pluralDrill = countable && w.kind !== "unit";
       if (types.plurals && pluralDrill) {
         if (F.npl) out.push({ cat: "vocab", sub: "nominative plural", s: "Где ___?", base: w.ru + ", plural", a: F.npl, alt: [], d: distractorsFrom(F, F.npl, w),
@@ -254,7 +269,7 @@ var RuEngine = (function () {
         if (F.gpl) out.push({ cat: "vocab", sub: "genitive plural", s: "Здесь много ___.", base: w.ru, a: F.gpl, alt: w.gplAlt ? [w.gplAlt] : [], d: distractorsFrom(F, F.gpl, w).filter(function (x) { return x !== w.gplAlt; }),
           ex: "Много (a lot of) takes the genitive plural: " + w.ru + " → " + F.gpl + ".", translation: "There are a lot of " + enPl(w) + " here.", glosses: gl, word: w.ru });
       }
-      if (types.numbers && countable && F.gen && F.npl && F.gpl && w.g) {
+      if (types.numbers && numOk && F.gen && F.npl && F.gpl && w.g) {
         var frame = w.kind === "money" ? ["Это стоит {n} ___.", "It costs {N} {en}."] : ["Здесь {n} ___.", "There {be} {N} {en} here."];
         [["one", w.ru, "1 and numbers ending in 1 (but not 11) take the nominative singular."],
          ["few", F.gen, "2, 3, 4 (and 22, 23, 24…) take the genitive singular."],

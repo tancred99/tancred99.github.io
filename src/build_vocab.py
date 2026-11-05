@@ -14,7 +14,9 @@ for line in open('vocab_source.txt'):
     for f in flags.split():
         if '=' in f:
             k,v=f.split('=',1)
+            v=v.replace('_',' ')
             if k=='pp': w['pp']=v
+            elif k in('put','lie'): w[k]=v
             elif k=='skip': w['skip']=v.split(',')
             elif k=='enp': w['enp']=v
             elif k=='gpl_alt': w['gplAlt']=v
