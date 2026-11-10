@@ -4489,5 +4489,1431 @@
   "glosses": [
    "проходите: come in"
   ]
+ },
+ {
+  "id": 227,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "nominative: какой / какая / какое / какие",
+  "s": "___ сегодня день?",
+  "base": "какой",
+  "a": "Какой",
+  "alt": [],
+  "d": [
+   "Какая",
+   "Какое",
+   "Какого"
+  ],
+  "ex": "День is masculine and the subject (nominative) → какой.",
+  "translation": "What day is it today?",
+  "glosses": []
+ },
+ {
+  "id": 228,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "nominative: какой / какая / какое / какие",
+  "s": "___ у тебя машина?",
+  "base": "какой",
+  "a": "Какая",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какую",
+   "Какое"
+  ],
+  "ex": "Машина is feminine; у тебя (есть) машина — машина is the subject, nominative → какая.",
+  "translation": "What kind of car do you have?",
+  "glosses": []
+ },
+ {
+  "id": 229,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "prepositional (в / на / о): каком / какой / каких",
+  "s": "В ___ стране ты живёшь?",
+  "base": "какой",
+  "a": "какой",
+  "alt": [],
+  "d": [
+   "каком",
+   "какая",
+   "какую"
+  ],
+  "ex": "Где? в + prepositional. Страна is feminine → в какой стране.",
+  "translation": "Which country do you live in?",
+  "glosses": []
+ },
+ {
+  "id": 230,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "accusative (things): какой / какую / какое / какие",
+  "s": "___ ручку ты купил?",
+  "base": "какой",
+  "a": "Какую",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какая",
+   "Какое"
+  ],
+  "ex": "Ручка is feminine, the object of купил → accusative какую.",
+  "translation": "Which pen did you buy?",
+  "glosses": [
+   "ручка: pen"
+  ]
+ },
+ {
+  "id": 231,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "genitive (из / у / для / без): какого / какой / каких",
+  "s": "Для ___ подруги этот подарок?",
+  "base": "какой",
+  "a": "какой",
+  "alt": [],
+  "d": [
+   "какого",
+   "какая",
+   "какую"
+  ],
+  "ex": "Для always takes the genitive. Подруга is feminine → для какой подруги.",
+  "translation": "Which friend is this present for?",
+  "glosses": [
+   "подарок: present, gift"
+  ]
+ },
+ {
+  "id": 232,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "accusative (things): какой / какую / какое / какие",
+  "s": "___ машину ты любишь?",
+  "base": "какой",
+  "a": "Какую",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какая",
+   "Какое"
+  ],
+  "ex": "Машина is feminine, the object of любишь → accusative какую.",
+  "translation": "Which car do you like?",
+  "glosses": []
+ },
+ {
+  "id": 233,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "nominative: какой / какая / какое / какие",
+  "s": "___ фрукт тебе нравится?",
+  "base": "какой",
+  "a": "Какой",
+  "alt": [],
+  "d": [
+   "Какая",
+   "Какое",
+   "Какого"
+  ],
+  "ex": "With нравится the thing you like is the subject (nominative). Фрукт is masculine → какой.",
+  "translation": "Which fruit do you like?",
+  "glosses": [
+   "фрукт: fruit"
+  ]
+ },
+ {
+  "id": 234,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "nominative: какой / какая / какое / какие",
+  "s": "___ мясо тебе нравится?",
+  "base": "какой",
+  "a": "Какое",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какая",
+   "Какого"
+  ],
+  "ex": "With нравится the thing you like is nominative. Мясо is neuter → какое.",
+  "translation": "What meat do you like?",
+  "glosses": [
+   "мясо: meat"
+  ]
+ },
+ {
+  "id": 235,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "nominative: какой / какая / какое / какие",
+  "s": "___ страна тебе нравится?",
+  "base": "какой",
+  "a": "Какая",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какую",
+   "Какое"
+  ],
+  "ex": "With нравится the thing you like is nominative. Страна is feminine → какая.",
+  "translation": "Which country do you like?",
+  "glosses": []
+ },
+ {
+  "id": 236,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "accusative (things): какой / какую / какое / какие",
+  "s": "___ собаку ты любишь?",
+  "base": "какой",
+  "a": "Какую",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какая",
+   "Какое"
+  ],
+  "ex": "Собака is feminine, object of любишь → какую. (Feminine accusative is -ую for animals too.)",
+  "translation": "Which dog do you love?",
+  "glosses": [
+   "собака: dog"
+  ]
+ },
+ {
+  "id": 237,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "nominative: какой / какая / какое / какие",
+  "s": "___ твой любимый ресторан?",
+  "base": "какой",
+  "a": "Какой",
+  "alt": [],
+  "d": [
+   "Какая",
+   "Какое",
+   "Какого"
+  ],
+  "ex": "Ресторан is masculine, the subject → какой.",
+  "translation": "What's your favorite restaurant?",
+  "glosses": [
+   "любимый: favorite"
+  ]
+ },
+ {
+  "id": 238,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "nominative: какой / какая / какое / какие",
+  "s": "___ город тебе больше нравится — Минск или Джексон?",
+  "base": "какой",
+  "a": "Какой",
+  "alt": [],
+  "d": [
+   "Какая",
+   "Какое",
+   "Какого"
+  ],
+  "ex": "With нравится the thing you like is nominative. Город is masculine → какой.",
+  "translation": "Which city do you like more, Minsk or Jackson?",
+  "glosses": []
+ },
+ {
+  "id": 239,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "nominative: какой / какая / какое / какие",
+  "s": "___ сегодня число?",
+  "base": "какой",
+  "a": "Какое",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какая",
+   "Какого"
+  ],
+  "ex": "Число is neuter, the subject → какое. A set phrase: Какое сегодня число?",
+  "translation": "What's the date today?",
+  "glosses": [
+   "число: date (day of month)"
+  ]
+ },
+ {
+  "id": 240,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "nominative: какой / какая / какое / какие",
+  "s": "___ у вас фирменное блюдо?",
+  "base": "какой",
+  "a": "Какое",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какая",
+   "Какого"
+  ],
+  "ex": "Блюдо is neuter, the subject → какое.",
+  "translation": "What's your signature dish?",
+  "glosses": [
+   "фирменное блюдо: signature dish"
+  ]
+ },
+ {
+  "id": 241,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "nominative: какой / какая / какое / какие",
+  "s": "___ сегодня погода?",
+  "base": "какой",
+  "a": "Какая",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какую",
+   "Какое"
+  ],
+  "ex": "Погода is feminine, the subject → какая.",
+  "translation": "What's the weather like today?",
+  "glosses": [
+   "погода: weather"
+  ]
+ },
+ {
+  "id": 242,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "nominative: какой / какая / какое / какие",
+  "s": "___ музыка тебе нравится?",
+  "base": "какой",
+  "a": "Какая",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какую",
+   "Какое"
+  ],
+  "ex": "With нравится the thing you like is nominative. Музыка is feminine → какая.",
+  "translation": "What music do you like?",
+  "glosses": []
+ },
+ {
+  "id": 243,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "nominative: какой / какая / какое / какие",
+  "s": "___ у тебя планы на выходные?",
+  "base": "какой",
+  "a": "Какие",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какая",
+   "Каких"
+  ],
+  "ex": "Планы is plural, the subject → какие.",
+  "translation": "What are your plans for the weekend?",
+  "glosses": [
+   "выходные: weekend"
+  ]
+ },
+ {
+  "id": 244,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "nominative: какой / какая / какое / какие",
+  "s": "___ фрукты тебе нравятся?",
+  "base": "какой",
+  "a": "Какие",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какая",
+   "Каких"
+  ],
+  "ex": "Plural subject → нравятся (not нравится) and какие.",
+  "translation": "Which fruits do you like?",
+  "glosses": []
+ },
+ {
+  "id": 245,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "nominative: какой / какая / какое / какие",
+  "s": "___ брюки тебе нравятся — синие или чёрные?",
+  "base": "какой",
+  "a": "Какие",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какая",
+   "Каких"
+  ],
+  "ex": "Брюки exists only in the plural → какие, and the verb is нравятся.",
+  "translation": "Which trousers do you like, the blue or the black?",
+  "glosses": [
+   "брюки: trousers",
+   "синий: blue"
+  ]
+ },
+ {
+  "id": 246,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "nominative: какой / какая / какое / какие",
+  "s": "___ деньги у тебя есть — доллары или рубли?",
+  "base": "какой",
+  "a": "Какие",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какая",
+   "Каких"
+  ],
+  "ex": "Деньги is always plural. У тебя есть деньги → subject, nominative какие.",
+  "translation": "What money do you have, dollars or rubles?",
+  "glosses": [
+   "деньги: money"
+  ]
+ },
+ {
+  "id": 247,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "accusative (things): какой / какую / какое / какие",
+  "s": "___ хлеб ты купил?",
+  "base": "какой",
+  "a": "Какой",
+  "alt": [],
+  "d": [
+   "Какую",
+   "Какое",
+   "Какого"
+  ],
+  "ex": "Хлеб is masculine and not alive: accusative looks like nominative → какой.",
+  "translation": "What bread did you buy?",
+  "glosses": [
+   "хлеб: bread"
+  ]
+ },
+ {
+  "id": 248,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "accusative (things): какой / какую / какое / какие",
+  "s": "___ кофе вы будете?",
+  "base": "какой",
+  "a": "Какой",
+  "alt": [],
+  "d": [
+   "Какую",
+   "Какое",
+   "Какого"
+  ],
+  "ex": "Кофе is masculine (an exception!). Object of будете, not alive → какой. (In casual speech you may hear какое кофе, but какой is the standard.)",
+  "translation": "What coffee will you have?",
+  "glosses": []
+ },
+ {
+  "id": 249,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "accusative (things): какой / какую / какое / какие",
+  "s": "___ язык ты учишь?",
+  "base": "какой",
+  "a": "Какой",
+  "alt": [],
+  "d": [
+   "Какую",
+   "Какое",
+   "Какого"
+  ],
+  "ex": "Язык is masculine, not alive → accusative = nominative: какой.",
+  "translation": "Which language are you learning?",
+  "glosses": [
+   "учить: to study"
+  ]
+ },
+ {
+  "id": 250,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "accusative (things): какой / какую / какое / какие",
+  "s": "___ вино вы посоветуете?",
+  "base": "какой",
+  "a": "Какое",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какую",
+   "Какого"
+  ],
+  "ex": "Вино is neuter. Neuter accusative = nominative → какое.",
+  "translation": "Which wine would you recommend?",
+  "glosses": [
+   "посоветовать: to recommend"
+  ]
+ },
+ {
+  "id": 251,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "accusative (things): какой / какую / какое / какие",
+  "s": "___ молоко ты обычно покупаешь?",
+  "base": "какой",
+  "a": "Какое",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какую",
+   "Какого"
+  ],
+  "ex": "Молоко is neuter, object of покупаешь → какое.",
+  "translation": "What milk do you usually buy?",
+  "glosses": []
+ },
+ {
+  "id": 252,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "accusative (things): какой / какую / какое / какие",
+  "s": "___ музыку ты слушаешь?",
+  "base": "какой",
+  "a": "Какую",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какая",
+   "Какое"
+  ],
+  "ex": "Музыка is feminine, object of слушаешь → какую.",
+  "translation": "What music do you listen to?",
+  "glosses": []
+ },
+ {
+  "id": 253,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "accusative (things): какой / какую / какое / какие",
+  "s": "___ книгу ты сейчас читаешь?",
+  "base": "какой",
+  "a": "Какую",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какая",
+   "Какое"
+  ],
+  "ex": "Книга is feminine, object of читаешь → какую.",
+  "translation": "What book are you reading now?",
+  "glosses": []
+ },
+ {
+  "id": 254,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "accusative (things): какой / какую / какое / какие",
+  "s": "___ языки ты знаешь?",
+  "base": "какой",
+  "a": "Какие",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какую",
+   "Каких"
+  ],
+  "ex": "Plural, not alive: accusative = nominative → какие.",
+  "translation": "Which languages do you know?",
+  "glosses": []
+ },
+ {
+  "id": 255,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "accusative (things): какой / какую / какое / какие",
+  "s": "___ продукты ты купил в магазине?",
+  "base": "какой",
+  "a": "Какие",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какую",
+   "Каких"
+  ],
+  "ex": "Plural things: accusative = nominative → какие.",
+  "translation": "What groceries did you buy at the store?",
+  "glosses": [
+   "продукты: groceries"
+  ]
+ },
+ {
+  "id": 256,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "accusative (things): какой / какую / какое / какие",
+  "s": "___ брюки ты наденешь в церковь?",
+  "base": "какой",
+  "a": "Какие",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какую",
+   "Каких"
+  ],
+  "ex": "Брюки is plural-only and not alive → accusative какие.",
+  "translation": "Which trousers will you wear to church?",
+  "glosses": [
+   "надеть: to put on"
+  ]
+ },
+ {
+  "id": 257,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "prepositional (в / на / о): каком / какой / каких",
+  "s": "В ___ городе ты живёшь?",
+  "base": "какой",
+  "a": "каком",
+  "alt": [],
+  "d": [
+   "какой",
+   "каких",
+   "какого"
+  ],
+  "ex": "Где? в + prepositional. Город is masculine → в каком городе.",
+  "translation": "Which city do you live in?",
+  "glosses": []
+ },
+ {
+  "id": 258,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "prepositional (в / на / о): каком / какой / каких",
+  "s": "На ___ этаже твой офис?",
+  "base": "какой",
+  "a": "каком",
+  "alt": [],
+  "d": [
+   "какой",
+   "каких",
+   "какого"
+  ],
+  "ex": "Где? на + prepositional. Этаж is masculine → на каком этаже.",
+  "translation": "What floor is your office on?",
+  "glosses": [
+   "этаж: floor, storey"
+  ]
+ },
+ {
+  "id": 259,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "prepositional (в / на / о): каком / какой / каких",
+  "s": "В ___ кафе мы встречаемся?",
+  "base": "какой",
+  "a": "каком",
+  "alt": [],
+  "d": [
+   "какое",
+   "какой",
+   "каких"
+  ],
+  "ex": "Кафе is neuter (it never changes) → в каком кафе.",
+  "translation": "Which café are we meeting at?",
+  "glosses": [
+   "встречаться: to meet"
+  ]
+ },
+ {
+  "id": 260,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "prepositional (в / на / о): каком / какой / каких",
+  "s": "В ___ церкви ты был в воскресенье?",
+  "base": "какой",
+  "a": "какой",
+  "alt": [],
+  "d": [
+   "каком",
+   "какая",
+   "какую"
+  ],
+  "ex": "Где? в + prepositional. Церковь is feminine → в какой церкви.",
+  "translation": "Which church were you at on Sunday?",
+  "glosses": [
+   "воскресенье: Sunday"
+  ]
+ },
+ {
+  "id": 261,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "prepositional (в / на / о): каком / какой / каких",
+  "s": "На ___ улице твой дом?",
+  "base": "какой",
+  "a": "какой",
+  "alt": [],
+  "d": [
+   "каком",
+   "какая",
+   "какую"
+  ],
+  "ex": "Улица takes на. Prepositional feminine → на какой улице.",
+  "translation": "What street is your house on?",
+  "glosses": []
+ },
+ {
+  "id": 262,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "prepositional (в / на / о): каком / какой / каких",
+  "s": "На ___ кассе можно платить картой?",
+  "base": "какой",
+  "a": "какой",
+  "alt": [],
+  "d": [
+   "каком",
+   "какая",
+   "какую"
+  ],
+  "ex": "Касса takes на. Prepositional feminine → на какой кассе.",
+  "translation": "At which register can I pay by card?",
+  "glosses": [
+   "платить картой: pay by card"
+  ]
+ },
+ {
+  "id": 263,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "prepositional (в / на / о): каком / какой / каких",
+  "s": "О ___ фильме ты говоришь?",
+  "base": "какой",
+  "a": "каком",
+  "alt": [],
+  "d": [
+   "какой",
+   "каких",
+   "какого"
+  ],
+  "ex": "О (about) takes the prepositional. Фильм is masculine → о каком фильме.",
+  "translation": "Which film are you talking about?",
+  "glosses": []
+ },
+ {
+  "id": 264,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "prepositional (в / на / о): каком / какой / каких",
+  "s": "В ___ странах ты был?",
+  "base": "какой",
+  "a": "каких",
+  "alt": [],
+  "d": [
+   "каком",
+   "какие",
+   "какой"
+  ],
+  "ex": "Где? в + prepositional plural → в каких странах.",
+  "translation": "Which countries have you been to?",
+  "glosses": []
+ },
+ {
+  "id": 265,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "prepositional (в / на / о): каком / какой / каких",
+  "s": "На ___ языках ты говоришь?",
+  "base": "какой",
+  "a": "каких",
+  "alt": [],
+  "d": [
+   "каком",
+   "какие",
+   "какой"
+  ],
+  "ex": "Говорить на языке: на + prepositional. Plural → на каких языках.",
+  "translation": "Which languages do you speak?",
+  "glosses": []
+ },
+ {
+  "id": 266,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "prepositional (в / на / о): каком / какой / каких",
+  "s": "В ___ брюках ты пойдёшь в церковь?",
+  "base": "какой",
+  "a": "каких",
+  "alt": [],
+  "d": [
+   "каком",
+   "какие",
+   "какой"
+  ],
+  "ex": "В брюках = wearing trousers: в + prepositional plural → в каких брюках.",
+  "translation": "Which trousers will you wear to church?",
+  "glosses": []
+ },
+ {
+  "id": 267,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "accusative (people, animals): какого / какую / каких",
+  "s": "___ врача ты посоветуешь?",
+  "base": "какой",
+  "a": "Какого",
+  "alt": [],
+  "d": [
+   "Какую",
+   "Какой",
+   "Какое"
+  ],
+  "ex": "Врач is masculine and a person: accusative = genitive → какого.",
+  "translation": "Which doctor would you recommend?",
+  "glosses": [
+   "врач: doctor"
+  ]
+ },
+ {
+  "id": 268,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "accusative (people, animals): какого / какую / каких",
+  "s": "___ брата ты ждёшь — старшего или младшего?",
+  "base": "какой",
+  "a": "Какого",
+  "alt": [],
+  "d": [
+   "Какую",
+   "Какой",
+   "Какое"
+  ],
+  "ex": "Брат is a masculine person: accusative = genitive → какого.",
+  "translation": "Which brother are you waiting for, the older or the younger?",
+  "glosses": [
+   "старший / младший: older / younger"
+  ]
+ },
+ {
+  "id": 269,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "accusative (people, animals): какого / какую / каких",
+  "s": "___ кота ты хочешь взять?",
+  "base": "какой",
+  "a": "Какого",
+  "alt": [],
+  "d": [
+   "Какую",
+   "Какой",
+   "Какое"
+  ],
+  "ex": "Кот is a masculine animal: accusative = genitive → какого.",
+  "translation": "Which cat do you want to take?",
+  "glosses": [
+   "кот: cat (male)"
+  ]
+ },
+ {
+  "id": 270,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "accusative (people, animals): какого / какую / каких",
+  "s": "___ друзей ты пригласил на ужин?",
+  "base": "какой",
+  "a": "Каких",
+  "alt": [],
+  "d": [
+   "Какого",
+   "Какие",
+   "Какую"
+  ],
+  "ex": "Друзья are people: plural accusative = genitive → каких.",
+  "translation": "Which friends did you invite to dinner?",
+  "glosses": [
+   "пригласить: to invite",
+   "ужин: dinner"
+  ]
+ },
+ {
+  "id": 271,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "accusative (people, animals): какого / какую / каких",
+  "s": "___ животных ты любишь?",
+  "base": "какой",
+  "a": "Каких",
+  "alt": [],
+  "d": [
+   "Какого",
+   "Какие",
+   "Какую"
+  ],
+  "ex": "Животные are alive: plural accusative = genitive → каких.",
+  "translation": "Which animals do you like?",
+  "glosses": [
+   "животное: animal"
+  ]
+ },
+ {
+  "id": 272,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "genitive (из / у / для / без): какого / какой / каких",
+  "s": "Из ___ города ты приехал?",
+  "base": "какой",
+  "a": "какого",
+  "alt": [],
+  "d": [
+   "какой",
+   "каких",
+   "какому"
+  ],
+  "ex": "Из takes the genitive. Город is masculine → из какого города.",
+  "translation": "Which city did you come from?",
+  "glosses": [
+   "приехать: to arrive"
+  ]
+ },
+ {
+  "id": 273,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "genitive (из / у / для / без): какого / какой / каких",
+  "s": "У ___ врача ты был?",
+  "base": "какой",
+  "a": "какого",
+  "alt": [],
+  "d": [
+   "какой",
+   "каких",
+   "какому"
+  ],
+  "ex": "У (at someone's) takes the genitive → у какого врача.",
+  "translation": "Which doctor did you go to?",
+  "glosses": []
+ },
+ {
+  "id": 274,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "genitive (из / у / для / без): какого / какой / каких",
+  "s": "Из ___ мяса этот суп?",
+  "base": "какой",
+  "a": "какого",
+  "alt": [],
+  "d": [
+   "какое",
+   "какой",
+   "каких"
+  ],
+  "ex": "Из takes the genitive. Мясо is neuter → из какого мяса.",
+  "translation": "What meat is this soup made from?",
+  "glosses": []
+ },
+ {
+  "id": 275,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "genitive (из / у / для / без): какого / какой / каких",
+  "s": "До ___ числа нужно заплатить?",
+  "base": "какой",
+  "a": "какого",
+  "alt": [],
+  "d": [
+   "какое",
+   "какой",
+   "каких"
+  ],
+  "ex": "До takes the genitive. Число is neuter → до какого числа.",
+  "translation": "By what date do I need to pay?",
+  "glosses": [
+   "заплатить: to pay"
+  ]
+ },
+ {
+  "id": 276,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "genitive (из / у / для / без): какого / какой / каких",
+  "s": "Из ___ страны твой друг?",
+  "base": "какой",
+  "a": "какой",
+  "alt": [],
+  "d": [
+   "какого",
+   "какая",
+   "какую"
+  ],
+  "ex": "Из takes the genitive. Страна is feminine → из какой страны.",
+  "translation": "Which country is your friend from?",
+  "glosses": []
+ },
+ {
+  "id": 277,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "genitive (из / у / для / без): какого / какой / каких",
+  "s": "У ___ кассы очередь меньше?",
+  "base": "какой",
+  "a": "какой",
+  "alt": [],
+  "d": [
+   "какого",
+   "какая",
+   "какую"
+  ],
+  "ex": "У (by, next to) takes the genitive. Касса is feminine → у какой кассы.",
+  "translation": "Which register has the shorter line?",
+  "glosses": [
+   "очередь: line, queue"
+  ]
+ },
+ {
+  "id": 278,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "genitive (из / у / для / без): какого / какой / каких",
+  "s": "___ продуктов у нас нет?",
+  "base": "какой",
+  "a": "Каких",
+  "alt": [],
+  "d": [
+   "Какого",
+   "Какие",
+   "Какой"
+  ],
+  "ex": "Нет takes the genitive. Plural → каких продуктов.",
+  "translation": "Which groceries are we out of?",
+  "glosses": []
+ },
+ {
+  "id": 279,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "genitive (из / у / для / без): какого / какой / каких",
+  "s": "___ документов не хватает?",
+  "base": "какой",
+  "a": "Каких",
+  "alt": [],
+  "d": [
+   "Какого",
+   "Какие",
+   "Какой"
+  ],
+  "ex": "Не хватает takes the genitive. Plural → каких документов.",
+  "translation": "Which documents are missing?",
+  "glosses": [
+   "не хватает: is/are missing"
+  ]
+ },
+ {
+  "id": 280,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "genitive (из / у / для / без): какого / какой / каких",
+  "s": "Для ___ документов нужна печать?",
+  "base": "какой",
+  "a": "каких",
+  "alt": [],
+  "d": [
+   "какого",
+   "какие",
+   "какой"
+  ],
+  "ex": "Для takes the genitive. Plural → для каких документов.",
+  "translation": "Which documents need a stamp?",
+  "glosses": [
+   "печать: stamp, seal"
+  ]
+ },
+ {
+  "id": 281,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "dative (к / по): какому / какой / каким",
+  "s": "К ___ врачу ты идёшь?",
+  "base": "какой",
+  "a": "какому",
+  "alt": [],
+  "d": [
+   "какой",
+   "каким",
+   "какого"
+  ],
+  "ex": "К (to a person) takes the dative. Врач is masculine → к какому врачу.",
+  "translation": "Which doctor are you going to?",
+  "glosses": []
+ },
+ {
+  "id": 282,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "dative (к / по): какому / какой / каким",
+  "s": "По ___ адресу мы едем?",
+  "base": "какой",
+  "a": "какому",
+  "alt": [],
+  "d": [
+   "какой",
+   "каким",
+   "какого"
+  ],
+  "ex": "По takes the dative. Адрес is masculine → по какому адресу.",
+  "translation": "What address are we going to?",
+  "glosses": [
+   "адрес: address"
+  ]
+ },
+ {
+  "id": 283,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "dative (к / по): какому / какой / каким",
+  "s": "К ___ блюду подходит это вино?",
+  "base": "какой",
+  "a": "какому",
+  "alt": [],
+  "d": [
+   "какое",
+   "какой",
+   "каким"
+  ],
+  "ex": "Подходить к + dative. Блюдо is neuter → к какому блюду.",
+  "translation": "Which dish does this wine go with?",
+  "glosses": [
+   "подходить: to suit, go with"
+  ]
+ },
+ {
+  "id": 284,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "dative (к / по): какому / какой / каким",
+  "s": "По ___ дороге лучше ехать в Минск?",
+  "base": "какой",
+  "a": "какой",
+  "alt": [],
+  "d": [
+   "какому",
+   "какая",
+   "какую"
+  ],
+  "ex": "По takes the dative. Дорога is feminine → по какой дороге.",
+  "translation": "Which road is it better to take to Minsk?",
+  "glosses": [
+   "дорога: road"
+  ]
+ },
+ {
+  "id": 285,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "dative (к / по): какому / какой / каким",
+  "s": "___ подруге ты пишешь?",
+  "base": "какой",
+  "a": "Какой",
+  "alt": [],
+  "d": [
+   "Какому",
+   "Какая",
+   "Какую"
+  ],
+  "ex": "Писать кому? → dative. Подруга is feminine → какой подруге.",
+  "translation": "Which friend are you writing to?",
+  "glosses": []
+ },
+ {
+  "id": 286,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "dative (к / по): какому / какой / каким",
+  "s": "По ___ дням работает магазин?",
+  "base": "какой",
+  "a": "каким",
+  "alt": [],
+  "d": [
+   "какому",
+   "какие",
+   "какой"
+  ],
+  "ex": "По + dative plural (on which days) → по каким дням.",
+  "translation": "On which days is the store open?",
+  "glosses": []
+ },
+ {
+  "id": 287,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "dative (к / по): какому / какой / каким",
+  "s": "По ___ праздникам ты ходишь в церковь?",
+  "base": "какой",
+  "a": "каким",
+  "alt": [],
+  "d": [
+   "какому",
+   "какие",
+   "какой"
+  ],
+  "ex": "По + dative plural → по каким праздникам.",
+  "translation": "On which holidays do you go to church?",
+  "glosses": [
+   "праздник: holiday, feast"
+  ]
+ },
+ {
+  "id": 288,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "instrumental (с / чем?): каким / какой / какими",
+  "s": "С ___ другом ты ездил в Минск?",
+  "base": "какой",
+  "a": "каким",
+  "alt": [],
+  "d": [
+   "какой",
+   "какими",
+   "какого"
+  ],
+  "ex": "С (with) takes the instrumental. Друг is masculine → с каким другом.",
+  "translation": "Which friend did you go to Minsk with?",
+  "glosses": []
+ },
+ {
+  "id": 289,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "instrumental (с / чем?): каким / какой / какими",
+  "s": "___ транспортом ты ездишь на работу?",
+  "base": "какой",
+  "a": "Каким",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какими",
+   "Какого"
+  ],
+  "ex": "Ездить чем? → instrumental. Транспорт is masculine → каким транспортом.",
+  "translation": "How do you get to work? (what transport)",
+  "glosses": [
+   "транспорт: transport"
+  ]
+ },
+ {
+  "id": 290,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "instrumental (с / чем?): каким / какой / какими",
+  "s": "С ___ мясом эти пирожки?",
+  "base": "какой",
+  "a": "каким",
+  "alt": [],
+  "d": [
+   "какое",
+   "какой",
+   "какими"
+  ],
+  "ex": "С (with) takes the instrumental. Мясо is neuter → с каким мясом.",
+  "translation": "What meat are these pies filled with?",
+  "glosses": [
+   "пирожки: little pies"
+  ]
+ },
+ {
+  "id": 291,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "instrumental (с / чем?): каким / какой / какими",
+  "s": "___ картой вы будете платить?",
+  "base": "какой",
+  "a": "Какой",
+  "alt": [],
+  "d": [
+   "Каким",
+   "Какая",
+   "Какую"
+  ],
+  "ex": "Платить чем? → instrumental. Карта is feminine → какой картой.",
+  "translation": "Which card will you pay with?",
+  "glosses": [
+   "карта: card"
+  ]
+ },
+ {
+  "id": 292,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "instrumental (с / чем?): каким / какой / какими",
+  "s": "Над ___ задачей ты сейчас работаешь?",
+  "base": "какой",
+  "a": "какой",
+  "alt": [],
+  "d": [
+   "каким",
+   "какая",
+   "какую"
+  ],
+  "ex": "Работать над + instrumental. Задача is feminine → над какой задачей.",
+  "translation": "Which task are you working on now?",
+  "glosses": [
+   "задача: task"
+  ]
+ },
+ {
+  "id": 293,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "instrumental (с / чем?): каким / какой / какими",
+  "s": "С ___ программами ты работаешь?",
+  "base": "какой",
+  "a": "какими",
+  "alt": [],
+  "d": [
+   "каким",
+   "какие",
+   "какой"
+  ],
+  "ex": "С (with) takes the instrumental. Plural → с какими программами.",
+  "translation": "Which programs do you work with?",
+  "glosses": [
+   "программа: program, software"
+  ]
+ },
+ {
+  "id": 294,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "instrumental (с / чем?): каким / какой / какими",
+  "s": "С ___ друзьями ты был в ресторане?",
+  "base": "какой",
+  "a": "какими",
+  "alt": [],
+  "d": [
+   "каким",
+   "какие",
+   "какой"
+  ],
+  "ex": "С (with) takes the instrumental. Plural → с какими друзьями.",
+  "translation": "Which friends were you at the restaurant with?",
+  "glosses": []
+ },
+ {
+  "id": 295,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "accusative (things): какой / какую / какое / какие",
+  "s": "___ окно можно открыть?",
+  "base": "какой",
+  "a": "Какое",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какую",
+   "Какого"
+  ],
+  "ex": "Окно is neuter. Neuter accusative = nominative → какое.",
+  "translation": "Which window can I open?",
+  "glosses": [
+   "открыть: to open"
+  ]
+ },
+ {
+  "id": 296,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "prepositional (в / на / о): каком / какой / каких",
+  "s": "В ___ здании твой офис?",
+  "base": "какой",
+  "a": "каком",
+  "alt": [],
+  "d": [
+   "какое",
+   "какой",
+   "каких"
+  ],
+  "ex": "Где? в + prepositional. Здание is neuter → в каком здании.",
+  "translation": "Which building is your office in?",
+  "glosses": [
+   "здание: building"
+  ]
+ },
+ {
+  "id": 297,
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "prepositional (в / на / о): каком / какой / каких",
+  "s": "На ___ месте мы встречаемся?",
+  "base": "какой",
+  "a": "каком",
+  "alt": [],
+  "d": [
+   "какое",
+   "какой",
+   "каких"
+  ],
+  "ex": "На + prepositional. Место is neuter → на каком месте.",
+  "translation": "Where (at what spot) are we meeting?",
+  "glosses": [
+   "место: place, spot"
+  ]
+ },
+ {
+  "id": 298,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "dative (к / по): какому / какой / каким",
+  "s": "По ___ расписанию ходит автобус?",
+  "base": "какой",
+  "a": "какому",
+  "alt": [],
+  "d": [
+   "какое",
+   "какой",
+   "каким"
+  ],
+  "ex": "По takes the dative. Расписание is neuter → по какому расписанию.",
+  "translation": "What schedule does the bus run on?",
+  "glosses": [
+   "расписание: schedule"
+  ]
+ },
+ {
+  "id": 299,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "dative (к / по): какому / какой / каким",
+  "s": "___ другу ты звонил?",
+  "base": "какой",
+  "a": "Какому",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Каким",
+   "Какого"
+  ],
+  "ex": "Звонить кому? → dative. Друг is masculine → какому другу.",
+  "translation": "Which friend did you call?",
+  "glosses": [
+   "звонить: to call"
+  ]
+ },
+ {
+  "id": 300,
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "instrumental (с / чем?): каким / какой / какими",
+  "s": "Перед ___ зданием мы встречаемся?",
+  "base": "какой",
+  "a": "каким",
+  "alt": [],
+  "d": [
+   "какое",
+   "какой",
+   "какими"
+  ],
+  "ex": "Перед takes the instrumental. Здание is neuter → перед каким зданием.",
+  "translation": "Which building are we meeting in front of?",
+  "glosses": [
+   "перед: in front of"
+  ]
  }
 ]
