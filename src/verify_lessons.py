@@ -73,6 +73,57 @@ for w,(pr,acc) in ACC.items():
     if pr and w in T and T[w][1] != pr: errs.append("preposition differs between где/куда for %s" % w)
 for w,(g,pr,loc,acc) in MANUAL.items():
     T.setdefault(w,(g,pr,loc)); ACC.setdefault(w,(pr,acc))
+# Lesson 3: present tense. Every form shown in the lesson tables, checked against the dictionary.
+PERS = ["1s","2s","3s","1p","2p","3p"]
+PTAG = {"1s":{"1per","sing"},"2s":{"2per","sing"},"3s":{"3per","sing"},"1p":{"1per","plur"},"2p":{"2per","plur"},"3p":{"3per","plur"}}
+def pres(inf, p):
+    for q in M.parse(inf):
+        if q.tag.POS == "INFN" and q.word == inf:
+            x = q.inflect(PTAG[p] | {"pres","indc"})
+            if x: return x.word
+    return None
+TABLE3 = {  # all six forms, or a dict of the persons shown
+ "работать": "работаю работаешь работает работаем работаете работают", "читать": "читаю читаешь читает читаем читаете читают",
+ "говорить": "говорю говоришь говорит говорим говорите говорят", "звонить": "звоню звонишь звонит звоним звоните звонят",
+ "хотеть": "хочу хочешь хочет хотим хотите хотят",
+ "учить": {"1s":"учу","2s":"учишь","3p":"учат"}, "слышать": {"1s":"слышу","2s":"слышишь","3p":"слышат"},
+ "любить": {"1s":"люблю","2s":"любишь","3p":"любят"}, "готовить": {"1s":"готовлю","2s":"готовишь","3p":"готовят"},
+ "ходить": {"1s":"хожу","2s":"ходишь","3p":"ходят"}, "видеть": {"1s":"вижу","2s":"видишь","3p":"видят"},
+ "платить": {"1s":"плачу","2s":"платишь","3p":"платят"}, "просить": {"1s":"прошу","2s":"просишь","3p":"просят"},
+ "жить": {"1s":"живу","2s":"живёшь","3s":"живёт","3p":"живут"}, "писать": {"1s":"пишу","2s":"пишешь","3p":"пишут"},
+ "брать": {"1s":"беру","2s":"берёшь","3p":"берут"}, "пить": {"1s":"пью","2s":"пьёшь","3p":"пьют"},
+ "искать": {"1s":"ищу","2s":"ищешь","3p":"ищут"}, "идти": {"1s":"иду","2s":"идёшь","3p":"идут"}, "ехать": {"1s":"еду","2s":"едешь","3p":"едут"},
+ "стоять": {"2s":"стоишь"}, "спать": {"2s":"спишь"}, "уметь": {"1s":"умею","2s":"умеешь"},
+}
+# conjugation group claimed in the lesson (checked via the ты ending)
+GROUP3 = {"работать":1,"читать":1,"делать":1,"знать":1,"понимать":1,"думать":1,"слушать":1,"отдыхать":1,"покупать":1,"гулять":1,"завтракать":1,"ужинать":1,
+ "говорить":2,"звонить":2,"любить":2,"учить":2,"платить":2,"ходить":2,"смотреть":2,"видеть":2,"сидеть":2,"слышать":2,"стоять":2,"спать":2,"готовить":2,"просить":2,
+ "жить":1,"пить":1,"писать":1,"брать":1,"искать":1,"идти":1,"ехать":1,"уметь":1,"хотеть":"mixed"}
+for inf,forms in TABLE3.items():
+    if isinstance(forms,str): forms = dict(zip(PERS, forms.split()))
+    for p,f in forms.items():
+        d = pres(inf,p)
+        if d != f: errs.append("L3 table %s %s: lesson %s, dict %s" % (inf,p,f,d))
+for inf,g in GROUP3.items():
+    if g == "mixed":  # хотеть: 1st-conjugation singular, 2nd-conjugation plural
+        if not (pres(inf,"2s").endswith("ешь") and pres(inf,"1p").endswith("им")): errs.append("L3 mixed group "+inf)
+        continue
+    t2 = pres(inf,"2s") or ""
+    got = 2 if t2.endswith("ишь") else 1 if (t2.endswith("ешь") or t2.endswith("ёшь")) else None
+    if got != g: errs.append("L3 group %s: lesson %s, dict ты-form %s" % (inf,g,t2))
+PRON = {"я":"1s","ты":"2s","мы":"1p","вы":"2p","они":"3p","он":"3s","она":"3s"}
+def nrm(x): return x.lower().replace("ё","е")
+def check_l3(e):
+    exp = pres(e["base"], e["p"])
+    if exp != e["a"]: errs.append("L3 answer %s %s: %s, dict %s" % (e["s"],e["base"],e["a"],exp))
+    toks = [w.strip("?,.!").lower() for w in e["s"].split()]
+    ps = {PRON[w] for w in toks if w in PRON}
+    if ps and ps != {e["p"]}: errs.append("L3 subject pronoun vs person: %s (%s)" % (e["s"],e["p"]))
+    if not ps and e["p"] != "3s": errs.append("L3 noun subject should be 3s: "+e["s"])
+    for d in e["d"]:
+        if nrm(d) == nrm(e["a"]): errs.append("L3 distractor equals answer (ignoring ё): "+d)
+    if e["base"] not in GROUP3: errs.append("L3 verb not covered by the lesson's groups: "+e["base"])
+
 n = 0
 for lid,les in L["lessons"].items():
     for e in les["exercises"]:
@@ -100,6 +151,9 @@ for lid,les in L["lessons"].items():
                     if o not in e["d"]: errs.append("L2 C missing other-case distractor %s" % e["s"])
             for d in e["d"]:
                 if d == e["a"]: errs.append("distractor equals answer "+d)
+            continue
+        if lid == "L3":
+            check_l3(e)
             continue
         if e["part"] == "A":
             w = e["s"].split(" — ")[0]

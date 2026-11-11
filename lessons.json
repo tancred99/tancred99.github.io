@@ -1313,6 +1313,668 @@
      ]
     }
    ]
+  },
+  "L3": {
+   "id": "L3",
+   "n": 3,
+   "title": "The present tense: 1st and 2nd conjugation",
+   "goal": "By the end you'll be able to say what you and other people do: Я работаю в IT. Вы говорите по-русски? Мы с женой живём в Джексоне.",
+   "minutes": "15–20 min to read, then 33 exercises",
+   "sections": [
+    {
+     "h": "Step 1 · What conjugation is",
+     "open": true,
+     "html": "<p>An English verb barely changes: I work, you work, he work<b>s</b>. A Russian verb changes its ending for every <b>person</b> and <b>number</b>. That's <b>conjugation</b> (<span lang=\"ru\" class=\"r\">спряжение</span>). The verb <b>agrees with its subject</b>, and the subject is always in the <b>nominative</b> case.</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Person</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td>1st</td><td><span lang=\"ru\" class=\"r\">я</span> I</td><td><span lang=\"ru\" class=\"r\">мы</span> we</td></tr><tr><td>2nd</td><td><span lang=\"ru\" class=\"r\">ты</span> you (one friend, family)</td><td><span lang=\"ru\" class=\"r\">вы</span> you (polite, or more than one)</td></tr><tr><td>3rd</td><td><span lang=\"ru\" class=\"r\">он, она, оно</span> he, she, it</td><td><span lang=\"ru\" class=\"r\">они</span> they</td></tr></tbody></table></div><p class=\"tip\"><b>You already know this from German:</b> ich arbeite, du arbeitest, er arbeitet, wir arbeiten. Russian works the same way. <span lang=\"ru\" class=\"r\">ты</span> is du; <span lang=\"ru\" class=\"r\">вы</span> is both Sie (polite) and ihr (you all), and it always takes the <span lang=\"ru\" class=\"r\">вы</span> form, even when you're speaking to one person.</p><p>Two terms you'll see: the <b>infinitive</b> is the dictionary form, which ends in <span lang=\"ru\" class=\"r\">-ть</span> (<span lang=\"ru\" class=\"r\">работать</span>, to work). The <b>stem</b> is what's left when you take the ending off (<span lang=\"ru\" class=\"r\">работа-</span>). You add the personal endings to the stem.</p><p>A noun subject takes the 3rd person, just like <span lang=\"ru\" class=\"r\">он / она</span> or <span lang=\"ru\" class=\"r\">они</span>:</p><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Жена работает.</span><span class=\"g\">My wife works. (жена = она)</span></li><li><span lang=\"ru\" class=\"r\">Батюшка читает молитву.</span><span class=\"g\">Father reads the prayer. (батюшка = он)</span></li><li><span lang=\"ru\" class=\"r\">Мы с женой живём в Джексоне.</span><span class=\"g\">My wife and I live in Jackson. (мы с женой = мы)</span></li></ul><p class=\"tip\"><b>One present tense, like German.</b> <span lang=\"ru\" class=\"r\">Я читаю</span> covers I read, I'm reading and I do read, just as ich lese does. There's no separate “-ing” form.</p>"
+    },
+    {
+     "h": "Step 2 · 1st conjugation: the е-verbs",
+     "open": false,
+     "html": "<p>Most verbs whose infinitive ends in <span lang=\"ru\" class=\"r\">-ать</span> or <span lang=\"ru\" class=\"r\">-ять</span> belong to the <b>1st conjugation</b>. Drop <span lang=\"ru\" class=\"r\">-ть</span> and add these endings. Notice the <span lang=\"ru\" class=\"r\">е</span> in the middle of the endings: that's why some textbooks call it the е-conjugation.</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Subject</th><th>Ending</th><th><span lang=\"ru\" class=\"r\">работать</span> to work</th><th><span lang=\"ru\" class=\"r\">читать</span> to read</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">я</span></td><td><span lang=\"ru\" class=\"r\">-ю</span></td><td><span lang=\"ru\" class=\"r\">работа<b>ю</b></span></td><td><span lang=\"ru\" class=\"r\">чита<b>ю</b></span></td></tr><tr><td><span lang=\"ru\" class=\"r\">ты</span></td><td><span lang=\"ru\" class=\"r\">-ешь</span></td><td><span lang=\"ru\" class=\"r\">работа<b>ешь</b></span></td><td><span lang=\"ru\" class=\"r\">чита<b>ешь</b></span></td></tr><tr><td><span lang=\"ru\" class=\"r\">он, она</span></td><td><span lang=\"ru\" class=\"r\">-ет</span></td><td><span lang=\"ru\" class=\"r\">работа<b>ет</b></span></td><td><span lang=\"ru\" class=\"r\">чита<b>ет</b></span></td></tr><tr><td><span lang=\"ru\" class=\"r\">мы</span></td><td><span lang=\"ru\" class=\"r\">-ем</span></td><td><span lang=\"ru\" class=\"r\">работа<b>ем</b></span></td><td><span lang=\"ru\" class=\"r\">чита<b>ем</b></span></td></tr><tr><td><span lang=\"ru\" class=\"r\">вы</span></td><td><span lang=\"ru\" class=\"r\">-ете</span></td><td><span lang=\"ru\" class=\"r\">работа<b>ете</b></span></td><td><span lang=\"ru\" class=\"r\">чита<b>ете</b></span></td></tr><tr><td><span lang=\"ru\" class=\"r\">они</span></td><td><span lang=\"ru\" class=\"r\">-ют</span></td><td><span lang=\"ru\" class=\"r\">работа<b>ют</b></span></td><td><span lang=\"ru\" class=\"r\">чита<b>ют</b></span></td></tr></tbody></table></div><p>Verbs that work exactly like this:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Infinitive</th><th>Meaning</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">делать</span></td><td>do, make</td></tr><tr><td><span lang=\"ru\" class=\"r\">знать</span></td><td>know</td></tr><tr><td><span lang=\"ru\" class=\"r\">понимать</span></td><td>understand</td></tr><tr><td><span lang=\"ru\" class=\"r\">думать</span></td><td>think</td></tr><tr><td><span lang=\"ru\" class=\"r\">слушать</span></td><td>listen (to)</td></tr><tr><td><span lang=\"ru\" class=\"r\">отдыхать</span></td><td>rest, relax</td></tr><tr><td><span lang=\"ru\" class=\"r\">покупать</span></td><td>buy</td></tr><tr><td><span lang=\"ru\" class=\"r\">гулять</span></td><td>go for a walk</td></tr><tr><td><span lang=\"ru\" class=\"r\">завтракать</span></td><td>have breakfast</td></tr><tr><td><span lang=\"ru\" class=\"r\">ужинать</span></td><td>have dinner</td></tr></tbody></table></div><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Я работаю в IT.</span><span class=\"g\">I work in IT.</span></li><li><span lang=\"ru\" class=\"r\">Что ты делаешь после работы?</span><span class=\"g\">What do you do after work?</span></li><li><span lang=\"ru\" class=\"r\">Вы понимаете?</span><span class=\"g\">Do you understand?</span></li><li><span lang=\"ru\" class=\"r\">В субботу мы отдыхаем.</span><span class=\"g\">On Saturday we rest.</span></li></ul><p class=\"tip\">When the stem ends in a consonant, the <span lang=\"ru\" class=\"r\">я</span> ending is <span lang=\"ru\" class=\"r\">-у</span> and the <span lang=\"ru\" class=\"r\">они</span> ending is <span lang=\"ru\" class=\"r\">-ут</span>: <span lang=\"ru\" class=\"r\">живу, живут</span>. When the ending is stressed, <span lang=\"ru\" class=\"r\">е</span> becomes <span lang=\"ru\" class=\"r\">ё</span>: <span lang=\"ru\" class=\"r\">живёшь, живёт</span>. More in Step 6.</p>"
+    },
+    {
+     "h": "Step 3 · 2nd conjugation: the и-verbs",
+     "open": false,
+     "html": "<p>Most verbs whose infinitive ends in <span lang=\"ru\" class=\"r\">-ить</span> belong to the <b>2nd conjugation</b>. Drop the <span lang=\"ru\" class=\"r\">-ить</span> and add these endings. Here the vowel is <span lang=\"ru\" class=\"r\">и</span>, and <span lang=\"ru\" class=\"r\">они</span> ends in <span lang=\"ru\" class=\"r\">-ят</span>.</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Subject</th><th>Ending</th><th><span lang=\"ru\" class=\"r\">говорить</span> to speak</th><th><span lang=\"ru\" class=\"r\">звонить</span> to call</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">я</span></td><td><span lang=\"ru\" class=\"r\">-ю</span></td><td><span lang=\"ru\" class=\"r\">говор<b>ю</b></span></td><td><span lang=\"ru\" class=\"r\">звон<b>ю</b></span></td></tr><tr><td><span lang=\"ru\" class=\"r\">ты</span></td><td><span lang=\"ru\" class=\"r\">-ишь</span></td><td><span lang=\"ru\" class=\"r\">говор<b>ишь</b></span></td><td><span lang=\"ru\" class=\"r\">звон<b>ишь</b></span></td></tr><tr><td><span lang=\"ru\" class=\"r\">он, она</span></td><td><span lang=\"ru\" class=\"r\">-ит</span></td><td><span lang=\"ru\" class=\"r\">говор<b>ит</b></span></td><td><span lang=\"ru\" class=\"r\">звон<b>ит</b></span></td></tr><tr><td><span lang=\"ru\" class=\"r\">мы</span></td><td><span lang=\"ru\" class=\"r\">-им</span></td><td><span lang=\"ru\" class=\"r\">говор<b>им</b></span></td><td><span lang=\"ru\" class=\"r\">звон<b>им</b></span></td></tr><tr><td><span lang=\"ru\" class=\"r\">вы</span></td><td><span lang=\"ru\" class=\"r\">-ите</span></td><td><span lang=\"ru\" class=\"r\">говор<b>ите</b></span></td><td><span lang=\"ru\" class=\"r\">звон<b>ите</b></span></td></tr><tr><td><span lang=\"ru\" class=\"r\">они</span></td><td><span lang=\"ru\" class=\"r\">-ят</span></td><td><span lang=\"ru\" class=\"r\">говор<b>ят</b></span></td><td><span lang=\"ru\" class=\"r\">звон<b>ят</b></span></td></tr></tbody></table></div><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Side by side</th><th>1st conjugation</th><th>2nd conjugation</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">ты</span></td><td><span lang=\"ru\" class=\"r\">-ешь</span></td><td><span lang=\"ru\" class=\"r\">-ишь</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">он, она</span></td><td><span lang=\"ru\" class=\"r\">-ет</span></td><td><span lang=\"ru\" class=\"r\">-ит</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">мы</span></td><td><span lang=\"ru\" class=\"r\">-ем</span></td><td><span lang=\"ru\" class=\"r\">-им</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">вы</span></td><td><span lang=\"ru\" class=\"r\">-ете</span></td><td><span lang=\"ru\" class=\"r\">-ите</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">они</span></td><td><span lang=\"ru\" class=\"r\">-ют / -ут</span></td><td><span lang=\"ru\" class=\"r\">-ят / -ат</span></td></tr></tbody></table></div><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Вы говорите по-английски?</span><span class=\"g\">Do you speak English?</span></li><li><span lang=\"ru\" class=\"r\">Я звоню жене.</span><span class=\"g\">I'm calling my wife. (жене: to my wife, dative, the indirect object)</span></li><li><span lang=\"ru\" class=\"r\">Вечером мы смотрим фильм.</span><span class=\"g\">In the evening we watch a movie.</span></li><li><span lang=\"ru\" class=\"r\">Мой друг часто звонит мне.</span><span class=\"g\">My friend often calls me.</span></li></ul>"
+    },
+    {
+     "h": "Step 4 · Which group is a verb in?",
+     "open": false,
+     "html": "<p>The infinitive gives you a strong hint, with a few exceptions to learn:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Infinitive ends in</th><th>Usually</th><th>Exceptions to know</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">-ить</span></td><td>2nd: <span lang=\"ru\" class=\"r\">говорить, звонить, любить, учить, платить, ходить</span></td><td><span lang=\"ru\" class=\"r\">жить</span> (live) and <span lang=\"ru\" class=\"r\">пить</span> (drink) are 1st: <span lang=\"ru\" class=\"r\">живёшь, пьёшь</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">-ать, -ять</span></td><td>1st: <span lang=\"ru\" class=\"r\">работать, читать, гулять</span></td><td>a few are 2nd: <span lang=\"ru\" class=\"r\">слышать</span> (hear), <span lang=\"ru\" class=\"r\">стоять</span> (stand), <span lang=\"ru\" class=\"r\">спать</span> (sleep): <span lang=\"ru\" class=\"r\">слышишь, стоишь, спишь</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">-еть</span></td><td>the common ones are 2nd: <span lang=\"ru\" class=\"r\">смотреть</span> (watch), <span lang=\"ru\" class=\"r\">видеть</span> (see), <span lang=\"ru\" class=\"r\">сидеть</span> (sit)</td><td>a few are 1st: <span lang=\"ru\" class=\"r\">уметь</span> (know how): <span lang=\"ru\" class=\"r\">умею, умеешь</span></td></tr></tbody></table></div><p class=\"tip\"><b>The sure test is the <span lang=\"ru\" class=\"r\">ты</span> form.</b> <span lang=\"ru\" class=\"r\">-ешь</span> means 1st conjugation, <span lang=\"ru\" class=\"r\">-ишь</span> means 2nd. That's why good dictionaries list every verb with its <span lang=\"ru\" class=\"r\">я</span> and <span lang=\"ru\" class=\"r\">ты</span> forms: <span lang=\"ru\" class=\"r\">читать (-аю, -аешь)</span>, <span lang=\"ru\" class=\"r\">говорить (-ю, -ишь)</span>. Learn new verbs in threes: <span lang=\"ru\" class=\"r\">говорить · говорю · говоришь</span>. From those you can build the whole verb.</p>"
+    },
+    {
+     "h": "Step 5 · Two spelling rules for the я form",
+     "open": false,
+     "html": "<h4>Rule 1 · After ж, ч, ш, щ write у and а</h4><p>Russian spelling never puts <span lang=\"ru\" class=\"r\">ю</span> or <span lang=\"ru\" class=\"r\">я</span> after <span lang=\"ru\" class=\"r\">ж, ч, ш, щ</span>. The sound is the same; only the letter changes: <span lang=\"ru\" class=\"r\">-ю → -у</span> and <span lang=\"ru\" class=\"r\">-ят → -ат</span>.</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Infinitive</th><th><span lang=\"ru\" class=\"r\">я</span></th><th><span lang=\"ru\" class=\"r\">ты</span></th><th><span lang=\"ru\" class=\"r\">они</span></th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">учить</span> study, teach</td><td><span lang=\"ru\" class=\"r\">уч<b>у</b></span></td><td><span lang=\"ru\" class=\"r\">уч<b>ишь</b></span></td><td><span lang=\"ru\" class=\"r\">уч<b>ат</b></span></td></tr><tr><td><span lang=\"ru\" class=\"r\">слышать</span> hear</td><td><span lang=\"ru\" class=\"r\">слыш<b>у</b></span></td><td><span lang=\"ru\" class=\"r\">слыш<b>ишь</b></span></td><td><span lang=\"ru\" class=\"r\">слыш<b>ат</b></span></td></tr></tbody></table></div><h4>Rule 2 · 2nd-conjugation consonant change in the я form</h4><p>In the 2nd conjugation, many stems change their last consonant <b>in the <span lang=\"ru\" class=\"r\">я</span> form only</b>. Every other person keeps the stem from the infinitive.</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Change</th><th>Infinitive</th><th><span lang=\"ru\" class=\"r\">я</span></th><th><span lang=\"ru\" class=\"r\">ты · они</span></th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">б, в, п, м</span> + <span lang=\"ru\" class=\"r\">л</span></td><td><span lang=\"ru\" class=\"r\">любить</span> love</td><td><span lang=\"ru\" class=\"r\">люблю</span></td><td><span lang=\"ru\" class=\"r\">любишь · любят</span></td></tr><tr><td></td><td><span lang=\"ru\" class=\"r\">готовить</span> cook</td><td><span lang=\"ru\" class=\"r\">готовлю</span></td><td><span lang=\"ru\" class=\"r\">готовишь · готовят</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">д → ж</span></td><td><span lang=\"ru\" class=\"r\">ходить</span> go (on foot), walk</td><td><span lang=\"ru\" class=\"r\">хожу</span></td><td><span lang=\"ru\" class=\"r\">ходишь · ходят</span></td></tr><tr><td></td><td><span lang=\"ru\" class=\"r\">видеть</span> see</td><td><span lang=\"ru\" class=\"r\">вижу</span></td><td><span lang=\"ru\" class=\"r\">видишь · видят</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">т → ч</span></td><td><span lang=\"ru\" class=\"r\">платить</span> pay</td><td><span lang=\"ru\" class=\"r\">плачу</span></td><td><span lang=\"ru\" class=\"r\">платишь · платят</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">с → ш</span></td><td><span lang=\"ru\" class=\"r\">просить</span> ask (for)</td><td><span lang=\"ru\" class=\"r\">прошу</span></td><td><span lang=\"ru\" class=\"r\">просишь · просят</span></td></tr></tbody></table></div><p class=\"tip\">After the change you often land on <span lang=\"ru\" class=\"r\">ж, ч, ш</span>, so Rule 1 kicks in too: <span lang=\"ru\" class=\"r\">плачу</span>, never “плачю”. <span lang=\"ru\" class=\"r\">На кассе я плачу картой.</span> (At the checkout I pay by card.)</p>"
+    },
+    {
+     "h": "Step 6 · Verbs that change their stem",
+     "open": false,
+     "html": "<p>Like German strong verbs (ich lese, du liest; ich fahre, du fährst), some of the most common Russian verbs change their stem. The good news: the <b>endings are regular 1st conjugation</b>. Once you know <span lang=\"ru\" class=\"r\">я</span> and <span lang=\"ru\" class=\"r\">ты</span>, the rest follows.</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Infinitive</th><th><span lang=\"ru\" class=\"r\">я</span></th><th><span lang=\"ru\" class=\"r\">ты</span></th><th><span lang=\"ru\" class=\"r\">они</span></th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">жить</span> live</td><td><span lang=\"ru\" class=\"r\">живу</span></td><td><span lang=\"ru\" class=\"r\">живёшь</span></td><td><span lang=\"ru\" class=\"r\">живут</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">писать</span> write</td><td><span lang=\"ru\" class=\"r\">пишу</span></td><td><span lang=\"ru\" class=\"r\">пишешь</span></td><td><span lang=\"ru\" class=\"r\">пишут</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">брать</span> take</td><td><span lang=\"ru\" class=\"r\">беру</span></td><td><span lang=\"ru\" class=\"r\">берёшь</span></td><td><span lang=\"ru\" class=\"r\">берут</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">пить</span> drink</td><td><span lang=\"ru\" class=\"r\">пью</span></td><td><span lang=\"ru\" class=\"r\">пьёшь</span></td><td><span lang=\"ru\" class=\"r\">пьют</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">искать</span> look for</td><td><span lang=\"ru\" class=\"r\">ищу</span></td><td><span lang=\"ru\" class=\"r\">ищешь</span></td><td><span lang=\"ru\" class=\"r\">ищут</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">идти</span> go (on foot)</td><td><span lang=\"ru\" class=\"r\">иду</span></td><td><span lang=\"ru\" class=\"r\">идёшь</span></td><td><span lang=\"ru\" class=\"r\">идут</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">ехать</span> go (by vehicle)</td><td><span lang=\"ru\" class=\"r\">еду</span></td><td><span lang=\"ru\" class=\"r\">едешь</span></td><td><span lang=\"ru\" class=\"r\">едут</span></td></tr></tbody></table></div><p class=\"tip\"><b>ё:</b> when the ending is stressed, its <span lang=\"ru\" class=\"r\">е</span> becomes <span lang=\"ru\" class=\"r\">ё</span>: <span lang=\"ru\" class=\"r\">живёшь, берёшь, идёшь, пьёшь</span>. When it isn't stressed it stays <span lang=\"ru\" class=\"r\">е</span>: <span lang=\"ru\" class=\"r\">пишешь, ищешь, едешь</span>.</p><h4>One mixed verb: хотеть (to want)</h4><p><span lang=\"ru\" class=\"r\">хотеть</span> is 1st conjugation in the singular and 2nd in the plural:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">я хочу</span></td><td><span lang=\"ru\" class=\"r\">мы хотим</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">ты хочешь</span></td><td><span lang=\"ru\" class=\"r\">вы хотите</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">он, она хочет</span></td><td><span lang=\"ru\" class=\"r\">они хотят</span></td></tr></tbody></table></div><p class=\"tip\">You met <span lang=\"ru\" class=\"r\">иду, еду, беру, хочу, ищу</span> in Lesson 2. Now you know they're simply the <span lang=\"ru\" class=\"r\">я</span> forms of these verbs.</p>"
+    },
+    {
+     "h": "Summary",
+     "open": false,
+     "html": "<ul class=\"sum\"><li>The verb agrees with its subject (nominative) in person and number. A noun subject is 3rd person; <span lang=\"ru\" class=\"r\">мы с женой</span> takes the <span lang=\"ru\" class=\"r\">мы</span> form.</li><li>1st conjugation (most <span lang=\"ru\" class=\"r\">-ать / -ять</span>): <span lang=\"ru\" class=\"r\">-ю, -ешь, -ет, -ем, -ете, -ют</span>.</li><li>2nd conjugation (most <span lang=\"ru\" class=\"r\">-ить</span>, plus <span lang=\"ru\" class=\"r\">смотреть, видеть, слышать, стоять</span>): <span lang=\"ru\" class=\"r\">-ю, -ишь, -ит, -им, -ите, -ят</span>.</li><li>After <span lang=\"ru\" class=\"r\">ж, ч, ш, щ</span>: <span lang=\"ru\" class=\"r\">-у, -ат</span>. 2nd-conjugation <span lang=\"ru\" class=\"r\">я</span> forms can change the consonant: <span lang=\"ru\" class=\"r\">люблю, хожу, плачу</span>.</li><li>Stem changers keep 1st-conjugation endings: <span lang=\"ru\" class=\"r\">живу, пишу, беру, пью, иду, еду</span>. <span lang=\"ru\" class=\"r\">хочу, хочешь, хочет / хотим, хотите, хотят</span>.</li><li>The <span lang=\"ru\" class=\"r\">ты</span> form tells you the group: <span lang=\"ru\" class=\"r\">-ешь</span> = 1st, <span lang=\"ru\" class=\"r\">-ишь</span> = 2nd.</li></ul>"
+    }
+   ],
+   "parts": {
+    "A": "Part A · 1st conjugation (-ешь, -ют)",
+    "B": "Part B · 2nd conjugation (-ишь, -ят)",
+    "C": "Part C · Stem changes, хотеть, and any subject"
+   },
+   "practice": {
+    "title": "Now use it: write to your tutor",
+    "text": "Answer in chat: Что ты делаешь после работы? Write 3 short sentences: one about yourself (я), one about your wife or your friend (3rd person), and one with мы с женой. Use at least one 2nd-conjugation verb (-ишь).",
+    "examples": [
+     "После работы я отдыхаю.",
+     "Вечером я смотрю фильм.",
+     "Мой друг живёт в Беларуси.",
+     "Мы с женой ходим в церковь."
+    ]
+   },
+   "exercises": [
+    {
+     "part": "A",
+     "sub": "A · 1st conjugation",
+     "p": "1s",
+     "s": "Я ___ в IT.",
+     "base": "работать",
+     "a": "работаю",
+     "d": [
+      "работаешь",
+      "работает",
+      "работают"
+     ],
+     "ex": "я → -ю. Stem работа- + ю = работаю. (Steps 1 and 2)",
+     "translation": "I work in IT.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · 1st conjugation",
+     "p": "2s",
+     "s": "Что ты ___ после работы?",
+     "base": "делать",
+     "a": "делаешь",
+     "d": [
+      "делаю",
+      "делает",
+      "делаишь"
+     ],
+     "ex": "ты → -ешь in the 1st conjugation: делаешь. -ишь belongs to the 2nd conjugation. (Step 2)",
+     "translation": "What do you do after work?",
+     "glosses": [
+      "после работы: after work"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · 1st conjugation",
+     "p": "3s",
+     "s": "Батюшка ___ молитву.",
+     "base": "читать",
+     "a": "читает",
+     "d": [
+      "читаю",
+      "читают",
+      "читаит"
+     ],
+     "ex": "The subject батюшка is a noun, so it's 3rd person singular, like он: -ет. (Steps 1 and 2)",
+     "translation": "Father reads the prayer.",
+     "glosses": [
+      "батюшка: Father (the priest)",
+      "молитву: the prayer (accusative)"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · 1st conjugation",
+     "p": "1p",
+     "s": "Мы ___ по-русски.",
+     "base": "понимать",
+     "a": "понимаем",
+     "d": [
+      "понимаете",
+      "понимают",
+      "понимаим"
+     ],
+     "ex": "мы → -ем: понимаем. (Step 2)",
+     "translation": "We understand Russian.",
+     "glosses": [
+      "по-русски: (in) Russian"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · 1st conjugation",
+     "p": "2p",
+     "s": "Вы ___, где касса?",
+     "base": "знать",
+     "a": "знаете",
+     "d": [
+      "знаешь",
+      "знаем",
+      "знаите"
+     ],
+     "ex": "вы → -ете. Polite вы (like German Sie) always takes the вы form, even for one person. (Steps 1 and 2)",
+     "translation": "Do you know where the checkout is?",
+     "glosses": [
+      "касса: checkout"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · 1st conjugation",
+     "p": "3p",
+     "s": "Они ___ в парке.",
+     "base": "гулять",
+     "a": "гуляют",
+     "d": [
+      "гуляет",
+      "гуляем",
+      "гулят"
+     ],
+     "ex": "они → -ют in the 1st conjugation: гуляют. -ят belongs to the 2nd. (Step 2)",
+     "translation": "They're taking a walk in the park.",
+     "glosses": [
+      "гулять: to go for a walk",
+      "в парке: in the park"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · 1st conjugation",
+     "p": "1p",
+     "s": "В субботу мы ___.",
+     "base": "отдыхать",
+     "a": "отдыхаем",
+     "d": [
+      "отдыхают",
+      "отдыхаете",
+      "отдыхаим"
+     ],
+     "ex": "мы → -ем: отдыхаем. (Step 2)",
+     "translation": "On Saturday we rest.",
+     "glosses": [
+      "в субботу: on Saturday",
+      "отдыхать: to rest, relax"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · 1st conjugation",
+     "p": "3s",
+     "s": "Жена ___ продукты в магазине.",
+     "base": "покупать",
+     "a": "покупает",
+     "d": [
+      "покупаю",
+      "покупают",
+      "покупаит"
+     ],
+     "ex": "The subject жена is 3rd person singular, like она: -ет. (Steps 1 and 2)",
+     "translation": "My wife buys groceries at the store.",
+     "glosses": [
+      "жена: wife",
+      "продукты: groceries"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · 1st conjugation",
+     "p": "2s",
+     "s": "Ты ___ музыку?",
+     "base": "слушать",
+     "a": "слушаешь",
+     "d": [
+      "слушаю",
+      "слушает",
+      "слушишь"
+     ],
+     "ex": "ты → -ешь: слушаешь. (Step 2)",
+     "translation": "Do you listen to music?",
+     "glosses": [
+      "музыку: music (accusative)"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · 1st conjugation",
+     "p": "1p",
+     "s": "Мы с женой ___ в семь часов.",
+     "base": "завтракать",
+     "a": "завтракаем",
+     "d": [
+      "завтракаю",
+      "завтракают",
+      "завтракает"
+     ],
+     "ex": "Мы с женой means “my wife and I”, so the verb takes the мы form: -ем. (Steps 1 and 2)",
+     "translation": "My wife and I have breakfast at seven.",
+     "glosses": [
+      "мы с женой: my wife and I",
+      "в семь часов: at seven o'clock"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · 1st conjugation",
+     "p": "1s",
+     "s": "Я ___, что это правильно.",
+     "base": "думать",
+     "a": "думаю",
+     "d": [
+      "думаешь",
+      "думает",
+      "думаем"
+     ],
+     "ex": "я → -ю: думаю. (Step 2)",
+     "translation": "I think that's right.",
+     "glosses": [
+      "правильно: right, correct"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · 2nd conjugation",
+     "p": "2p",
+     "s": "Вы ___ по-английски?",
+     "base": "говорить",
+     "a": "говорите",
+     "d": [
+      "говорит",
+      "говорим",
+      "говорете"
+     ],
+     "ex": "говорить is -ить, so 2nd conjugation: вы → -ите. -ете belongs to the 1st. (Steps 3 and 4)",
+     "translation": "Do you speak English?",
+     "glosses": [
+      "по-английски: (in) English"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · 2nd conjugation",
+     "p": "1s",
+     "s": "Я ___ жене каждый день.",
+     "base": "звонить",
+     "a": "звоню",
+     "d": [
+      "звонишь",
+      "звонит",
+      "звонят"
+     ],
+     "ex": "я → -ю: звоню. (Step 3)",
+     "translation": "I call my wife every day.",
+     "glosses": [
+      "жене: (to) my wife (dative, the indirect object)",
+      "каждый день: every day"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · 2nd conjugation",
+     "p": "3s",
+     "s": "Мой друг ___ по-русски и по-белорусски.",
+     "base": "говорить",
+     "a": "говорит",
+     "d": [
+      "говорю",
+      "говорят",
+      "говорет"
+     ],
+     "ex": "The subject мой друг is 3rd person singular, like он: -ит. (Steps 1 and 3)",
+     "translation": "My friend speaks Russian and Belarusian.",
+     "glosses": [
+      "мой друг: my friend",
+      "по-белорусски: (in) Belarusian"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · 2nd conjugation",
+     "p": "1p",
+     "s": "Вечером мы ___ фильм.",
+     "base": "смотреть",
+     "a": "смотрим",
+     "d": [
+      "смотрем",
+      "смотрят",
+      "смотрите"
+     ],
+     "ex": "смотреть ends in -еть but is 2nd conjugation: мы → -им. (Steps 3 and 4)",
+     "translation": "In the evening we watch a movie.",
+     "glosses": [
+      "вечером: in the evening",
+      "фильм: movie"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · 2nd conjugation",
+     "p": "1s",
+     "s": "Я ___ свою работу.",
+     "base": "любить",
+     "a": "люблю",
+     "d": [
+      "любю",
+      "любит",
+      "любишь"
+     ],
+     "ex": "A б-stem adds л in the я form: любить → люблю. Only the я form: любишь, любит. (Step 5)",
+     "translation": "I love my work.",
+     "glosses": [
+      "свою работу: my (own) work (accusative)"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · 2nd conjugation",
+     "p": "1s",
+     "s": "На кассе я ___ картой.",
+     "base": "платить",
+     "a": "плачу",
+     "d": [
+      "плачю",
+      "платю",
+      "платит"
+     ],
+     "ex": "т → ч in the я form, and after ч you write у, not ю: плачу. (Step 5)",
+     "translation": "At the checkout I pay by card.",
+     "glosses": [
+      "на кассе: at the checkout",
+      "картой: by card"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · 2nd conjugation",
+     "p": "2s",
+     "s": "Ты ___ русский язык?",
+     "base": "учить",
+     "a": "учишь",
+     "d": [
+      "учешь",
+      "учит",
+      "учу"
+     ],
+     "ex": "учить is -ить, so 2nd conjugation: ты → -ишь. (Steps 3 and 4)",
+     "translation": "Are you learning Russian?",
+     "glosses": [
+      "русский язык: the Russian language"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · 2nd conjugation",
+     "p": "3p",
+     "s": "Они ___ в очереди.",
+     "base": "стоять",
+     "a": "стоят",
+     "d": [
+      "стоют",
+      "стоит",
+      "стоим"
+     ],
+     "ex": "стоять looks like 1st conjugation (-ять), but it's 2nd: они → -ят, not -ют. (Steps 3 and 4)",
+     "translation": "They're standing in line.",
+     "glosses": [
+      "в очереди: in line"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · 2nd conjugation",
+     "p": "1s",
+     "s": "Я ___ храм.",
+     "base": "видеть",
+     "a": "вижу",
+     "d": [
+      "видю",
+      "видит",
+      "видишь"
+     ],
+     "ex": "д → ж in the я form: вижу. The other forms keep д: видишь, видит. (Step 5)",
+     "translation": "I see the church.",
+     "glosses": [
+      "храм: church"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · 2nd conjugation",
+     "p": "1p",
+     "s": "По воскресеньям мы ___ в церковь.",
+     "base": "ходить",
+     "a": "ходим",
+     "d": [
+      "ходем",
+      "ходят",
+      "хожу"
+     ],
+     "ex": "мы → -им: ходим. The д → ж change (хожу) happens only in the я form. (Steps 3 and 5)",
+     "translation": "On Sundays we go to church.",
+     "glosses": [
+      "по воскресеньям: on Sundays"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · 2nd conjugation",
+     "p": "2p",
+     "s": "Вы ___ меня?",
+     "base": "слышать",
+     "a": "слышите",
+     "d": [
+      "слышете",
+      "слышишь",
+      "слышат"
+     ],
+     "ex": "слышать is one of the -ать verbs in the 2nd conjugation: вы → -ите. (Step 4)",
+     "translation": "Can you hear me?",
+     "glosses": [
+      "меня: me"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · stem changes and хотеть",
+     "p": "1p",
+     "s": "Мы с женой ___ в Джексоне.",
+     "base": "жить",
+     "a": "живём",
+     "d": [
+      "живут",
+      "живёте",
+      "живим"
+     ],
+     "ex": "жить ends in -ить but is 1st conjugation with the stem жив-: мы → живём (ё because the ending is stressed). (Steps 4 and 6)",
+     "translation": "My wife and I live in Jackson.",
+     "glosses": [
+      "мы с женой: my wife and I"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · stem changes and хотеть",
+     "p": "3s",
+     "s": "Мой друг ___ в Беларуси.",
+     "base": "жить",
+     "a": "живёт",
+     "d": [
+      "живит",
+      "живут",
+      "живу"
+     ],
+     "ex": "жить is 1st conjugation: он → живёт, not “живит”. (Steps 4 and 6)",
+     "translation": "My friend lives in Belarus.",
+     "glosses": [
+      "мой друг: my friend"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · stem changes and хотеть",
+     "p": "1s",
+     "s": "Я ___ письмо другу.",
+     "base": "писать",
+     "a": "пишу",
+     "d": [
+      "писаю",
+      "пишет",
+      "пишут"
+     ],
+     "ex": "писать changes its stem to пиш-: пишу, пишешь, пишут. The endings are 1st conjugation. (Step 6)",
+     "translation": "I'm writing a letter to my friend.",
+     "glosses": [
+      "письмо: letter (accusative, the direct object)",
+      "другу: to my friend (dative, the indirect object)"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · stem changes and хотеть",
+     "p": "2s",
+     "s": "Что ты ___? Чай или кофе?",
+     "base": "пить",
+     "a": "пьёшь",
+     "d": [
+      "пишь",
+      "пьют",
+      "пьёт"
+     ],
+     "ex": "пить has the stem пь- and 1st-conjugation endings: ты → пьёшь. (Steps 4 and 6)",
+     "translation": "What are you drinking? Tea or coffee?",
+     "glosses": [
+      "чай: tea",
+      "или: or"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · stem changes and хотеть",
+     "p": "2s",
+     "s": "Ты ___ такси?",
+     "base": "брать",
+     "a": "берёшь",
+     "d": [
+      "бераешь",
+      "берёт",
+      "беришь"
+     ],
+     "ex": "брать changes its stem to бер-: беру, берёшь. The ending is stressed, so it's ё. (Step 6)",
+     "translation": "Are you taking a taxi?",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · stem changes and хотеть",
+     "p": "2p",
+     "s": "Что вы ___?",
+     "base": "искать",
+     "a": "ищете",
+     "d": [
+      "искаете",
+      "ищите",
+      "ищут"
+     ],
+     "ex": "искать changes its stem to ищ-: ищу, ищешь, ищете. Careful: ищите (with и) is the command “look for!”. (Step 6)",
+     "translation": "What are you looking for?",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · stem changes and хотеть",
+     "p": "1s",
+     "s": "Я ___ кофе.",
+     "base": "хотеть",
+     "a": "хочу",
+     "d": [
+      "хотю",
+      "хочет",
+      "хотим"
+     ],
+     "ex": "хотеть is mixed. Singular: хочу, хочешь, хочет. Plural: хотим, хотите, хотят. (Step 6)",
+     "translation": "I want coffee.",
+     "glosses": [
+      "кофе: coffee"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · stem changes and хотеть",
+     "p": "1p",
+     "s": "Мы ___ поехать в Минск.",
+     "base": "хотеть",
+     "a": "хотим",
+     "d": [
+      "хочем",
+      "хотят",
+      "хочешь"
+     ],
+     "ex": "In the plural хотеть switches to the 2nd conjugation: мы хотим. “Хочем” is a very common mistake. (Step 6)",
+     "translation": "We want to go to Minsk.",
+     "glosses": [
+      "поехать: to go (by vehicle)"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · stem changes and хотеть",
+     "p": "2s",
+     "s": "Куда ты ___?",
+     "base": "идти",
+     "a": "идёшь",
+     "d": [
+      "идишь",
+      "иду",
+      "идут"
+     ],
+     "ex": "идти has 1st-conjugation endings, and the ending is stressed: ты → идёшь. (Step 6)",
+     "translation": "Where are you going?",
+     "glosses": [
+      "куда: where to"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · stem changes and хотеть",
+     "p": "3p",
+     "s": "Завтра они ___ на границу.",
+     "base": "ехать",
+     "a": "едут",
+     "d": [
+      "ехают",
+      "едят",
+      "едет"
+     ],
+     "ex": "ехать changes its stem to ед-: еду, едешь, едут. Careful: едят means “they eat”. (Steps 2 and 6)",
+     "translation": "Tomorrow they're driving to the border.",
+     "glosses": [
+      "завтра: tomorrow",
+      "на границу: to the border"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · stem changes and хотеть",
+     "p": "3s",
+     "s": "Жена ___ борщ.",
+     "base": "готовить",
+     "a": "готовит",
+     "d": [
+      "готовлит",
+      "готовлю",
+      "готовет"
+     ],
+     "ex": "готовить is 2nd conjugation: она → готовит. The л appears only in the я form (готовлю). (Steps 3 and 5)",
+     "translation": "My wife is making borscht.",
+     "glosses": [
+      "жена: wife",
+      "борщ: borscht"
+     ]
+    }
+   ]
   }
  }
 }
