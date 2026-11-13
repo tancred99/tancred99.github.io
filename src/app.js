@@ -1,7 +1,7 @@
 (function(){
 "use strict";
 var E=window.RuEngine;
-var CATS=[["all","All"],["basics","Basics"],["cases","Cases"],["conjugation","Verbs"],["aspect","Aspect"],["motion","Motion"],["home","At home"],["kakoy","какой / какая / какое / какие"]];
+var CATS=[["all","All"],["basics","Basics"],["cases","Cases"],["conjugation","Verbs"],["aspect","Aspect"],["motion","Motion"],["home","At home"],["kakoy","какой / какая / какое / какие"],["frequency","никогда / иногда / всегда / часто / редко"]];
 var LEVELS=[["A1-A2","A1–A2"],["B1-C1","B1–C1"]];
 var MODES=[["choice","Choice"],["type","Type"]];
 var VDRILLS=[["mixed","Mixed"],["cases","Cases"],["plurals","Plurals"],["numbers","Numbers"],["cards","Flashcards"]];
@@ -27,7 +27,7 @@ function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return
 function norm(s){return String(s).toLowerCase().replace(/ё/g,"е").replace(/[.,!?;:«»"]/g,"").replace(/\s+/g," ").trim()}
 function shuffle(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t}return a}
 function clone(o){return JSON.parse(JSON.stringify(o))}
-var CAT_LABEL={basics:"Basics",cases:"Cases",conjugation:"Verbs",aspect:"Aspect",motion:"Motion",home:"At home",kakoy:"какой / какая / какое / какие",vocab:"Vocabulary",lesson:"Lesson"};
+var CAT_LABEL={basics:"Basics",cases:"Cases",conjugation:"Verbs",aspect:"Aspect",motion:"Motion",home:"At home",kakoy:"какой / какая / какое / какие",frequency:"никогда / иногда / всегда / часто / редко",vocab:"Vocabulary",lesson:"Lesson"};
 function lvl(){return DATA.filter(function(e){return e.level===st.level})}
 function themes(){var t=[];WORDS.forEach(function(w){if(t.indexOf(w.theme)<0)t.push(w.theme)});return t}
 function themeWords(th){return WORDS.filter(function(w){return th==="all"||w.theme===th})}

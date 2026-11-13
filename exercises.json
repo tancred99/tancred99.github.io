@@ -5915,5 +5915,956 @@
   "glosses": [
    "перед: in front of"
   ]
+ },
+ {
+  "id": 301,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "context clues: which adverb?",
+  "s": "Мой друг ___ звонит мне в субботу, но не каждую неделю.",
+  "base": "никогда · иногда · всегда · часто · редко",
+  "a": "иногда",
+  "alt": [],
+  "d": [
+   "всегда",
+   "никогда"
+  ],
+  "ex": "Clue: «но не каждую неделю» (but not every week) = not always, but it happens → иногда. Всегда contradicts the clue; никогда would also need не before the verb.",
+  "translation": "My friend sometimes calls me on Saturday, but not every week.",
+  "glosses": [
+   "звонить: to call"
+  ]
+ },
+ {
+  "id": 302,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "context clues: which adverb?",
+  "s": "Я ___ не курю.",
+  "base": "никогда · иногда · всегда · часто · редко",
+  "a": "никогда",
+  "alt": [],
+  "d": [
+   "всегда",
+   "часто",
+   "редко"
+  ],
+  "ex": "The не before the verb (курю) is the clue: Russian uses a double negative, никогда + не + verb = never. «Всегда/часто/редко не курю» makes no sense.",
+  "translation": "I never smoke.",
+  "glosses": [
+   "курить: to smoke"
+  ]
+ },
+ {
+  "id": 303,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "context clues: which adverb?",
+  "s": "Батюшка ___ приходит в церковь рано. Каждое утро в семь часов он уже там.",
+  "base": "никогда · иногда · всегда · часто · редко",
+  "a": "всегда",
+  "alt": [],
+  "d": [
+   "никогда",
+   "редко",
+   "иногда"
+  ],
+  "ex": "Clue: «каждое утро» (every morning, no exceptions) → всегда. Редко and иногда contradict «каждое утро»; никогда would need не.",
+  "translation": "Father always comes to church early. Every morning at seven he is already there.",
+  "glosses": [
+   "батюшка: Father (priest)",
+   "приходить: to arrive, come"
+  ]
+ },
+ {
+  "id": 304,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "context clues: which adverb?",
+  "s": "Я ___ хожу в церковь в воскресенье, каждую неделю.",
+  "base": "никогда · иногда · всегда · часто · редко",
+  "a": "всегда",
+  "alt": [],
+  "d": [
+   "иногда",
+   "редко",
+   "никогда"
+  ],
+  "ex": "Clue: «каждую неделю» (every week) → всегда. Ходить (not идти) because it is a regular, repeated action.",
+  "translation": "I always go to church on Sunday, every week.",
+  "glosses": [
+   "ходить: to go (regularly)"
+  ]
+ },
+ {
+  "id": 305,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "context clues: which adverb?",
+  "s": "Я ___ не был в Москве.",
+  "base": "никогда · иногда · всегда · часто · редко",
+  "a": "никогда",
+  "alt": [],
+  "d": [
+   "всегда",
+   "часто",
+   "иногда"
+  ],
+  "ex": "Не + был (past tense of быть) = haven't been. With the double negative: никогда не был = have never been.",
+  "translation": "I have never been to Moscow.",
+  "glosses": []
+ },
+ {
+  "id": 306,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "context clues: which adverb?",
+  "s": "Мы с женой ___ ходим в ресторан: только раз в год, на годовщину.",
+  "base": "никогда · иногда · всегда · часто · редко",
+  "a": "редко",
+  "alt": [],
+  "d": [
+   "всегда",
+   "часто",
+   "никогда"
+  ],
+  "ex": "Clue: «только раз в год» (only once a year) → редко (rarely). Никогда would need не and would contradict «раз в год».",
+  "translation": "My wife and I rarely go to a restaurant: only once a year, on our anniversary.",
+  "glosses": [
+   "годовщина: anniversary"
+  ]
+ },
+ {
+  "id": 307,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "context clues: which adverb?",
+  "s": "Жена ___ покупает хлеб в этом магазине: почти каждый день.",
+  "base": "никогда · иногда · всегда · часто · редко",
+  "a": "часто",
+  "alt": [],
+  "d": [
+   "всегда",
+   "редко",
+   "никогда"
+  ],
+  "ex": "Clue: «почти каждый день» (almost every day) → часто (often). «Почти» rules out всегда (always = every time).",
+  "translation": "My wife often buys bread in this store: almost every day.",
+  "glosses": [
+   "хлеб: bread"
+  ]
+ },
+ {
+  "id": 308,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "context clues: which adverb?",
+  "s": "Я ___ пью кофе утром. Без кофе я не могу работать!",
+  "base": "никогда · иногда · всегда · часто · редко",
+  "a": "всегда",
+  "alt": [],
+  "d": [
+   "никогда",
+   "редко",
+   "иногда"
+  ],
+  "ex": "Clue: «без кофе я не могу работать» (I can't work without coffee) → every morning → всегда.",
+  "translation": "I always drink coffee in the morning. I can't work without coffee!",
+  "glosses": [
+   "без + genitive: without"
+  ]
+ },
+ {
+  "id": 309,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "context clues: which adverb?",
+  "s": "Мой друг живёт в Беларуси, поэтому мы ___ видимся: раз в два-три года.",
+  "base": "никогда · иногда · всегда · часто · редко",
+  "a": "редко",
+  "alt": [],
+  "d": [
+   "часто",
+   "всегда",
+   "никогда"
+  ],
+  "ex": "Clue: «раз в два-три года» (once every two or three years) → редко.",
+  "translation": "My friend lives in Belarus, so we rarely see each other: once every two or three years.",
+  "glosses": [
+   "видеться: to see each other",
+   "поэтому: so, that's why"
+  ]
+ },
+ {
+  "id": 310,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "context clues: which adverb?",
+  "s": "Я ___ не смотрю телевизор. У нас дома нет телевизора.",
+  "base": "никогда · иногда · всегда · часто · редко",
+  "a": "никогда",
+  "alt": [],
+  "d": [
+   "часто",
+   "всегда",
+   "иногда"
+  ],
+  "ex": "Clue: there is no TV at home, and не stands before the verb → никогда не смотрю (double negative).",
+  "translation": "I never watch TV. We don't have a TV at home.",
+  "glosses": [
+   "телевизор: TV set"
+  ]
+ },
+ {
+  "id": 311,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "context clues: which adverb?",
+  "s": "Я ___ гуляю в парке: два-три раза в неделю.",
+  "base": "никогда · иногда · всегда · часто · редко",
+  "a": "часто",
+  "alt": [],
+  "d": [
+   "никогда",
+   "редко",
+   "всегда"
+  ],
+  "ex": "Clue: «два-три раза в неделю» (two or three times a week) → часто. Not every day, so not всегда.",
+  "translation": "I often walk in the park: two or three times a week.",
+  "glosses": [
+   "гулять: to stroll, take a walk"
+  ]
+ },
+ {
+  "id": 312,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "context clues: which adverb?",
+  "s": "Я ___ не ем мясо в пятницу: в пятницу пост.",
+  "base": "никогда · иногда · всегда · часто · редко",
+  "a": "никогда",
+  "alt": [],
+  "d": [
+   "всегда",
+   "часто",
+   "иногда"
+  ],
+  "ex": "Clue: Friday is a fast day, and не stands before the verb → никогда не ем. (Ем is the я-form of the irregular verb есть, to eat.)",
+  "translation": "I never eat meat on Friday: Friday is a fast day.",
+  "glosses": [
+   "пост: fast (religious)",
+   "мясо: meat"
+  ]
+ },
+ {
+  "id": 313,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "context clues: which adverb?",
+  "s": "В магазине я ___ плачу картой. У меня нет наличных.",
+  "base": "никогда · иногда · всегда · часто · редко",
+  "a": "всегда",
+  "alt": [],
+  "d": [
+   "никогда",
+   "редко",
+   "иногда"
+  ],
+  "ex": "Clue: «у меня нет наличных» (I have no cash) → card every time → всегда. Картой is instrumental: pay with what?",
+  "translation": "In the store I always pay by card. I don't have any cash.",
+  "glosses": [
+   "платить (плачу): to pay",
+   "наличные: cash"
+  ]
+ },
+ {
+  "id": 314,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "context clues: which adverb?",
+  "s": "Мой друг ___ пишет мне письма: может быть, одно письмо в год.",
+  "base": "никогда · иногда · всегда · часто · редко",
+  "a": "редко",
+  "alt": [],
+  "d": [
+   "часто",
+   "всегда",
+   "никогда"
+  ],
+  "ex": "Clue: «одно письмо в год» (one letter a year) → редко.",
+  "translation": "My friend rarely writes me letters: maybe one letter a year.",
+  "glosses": [
+   "письмо: letter"
+  ]
+ },
+ {
+  "id": 315,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "context clues: which adverb?",
+  "s": "Ты работаешь в субботу? — ___. Не каждую субботу.",
+  "base": "никогда · иногда · всегда · часто · редко",
+  "a": "Иногда",
+  "alt": [],
+  "d": [
+   "Всегда",
+   "Никогда"
+  ],
+  "ex": "Clue: «не каждую субботу» (not every Saturday) → it happens, but not always → иногда.",
+  "translation": "Do you work on Saturday? — Sometimes. Not every Saturday.",
+  "glosses": []
+ },
+ {
+  "id": 316,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "context clues: which adverb?",
+  "s": "Я ___ слушаю музыку в машине: каждый раз, когда я еду на работу.",
+  "base": "никогда · иногда · всегда · часто · редко",
+  "a": "всегда",
+  "alt": [],
+  "d": [
+   "никогда",
+   "редко",
+   "иногда"
+  ],
+  "ex": "Clue: «каждый раз» (every time) → всегда.",
+  "translation": "I always listen to music in the car: every time I drive to work.",
+  "glosses": [
+   "каждый раз: every time"
+  ]
+ },
+ {
+  "id": 317,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "context clues: which adverb?",
+  "s": "Ты ___ звонишь другу в Беларусь? — Да, почти каждый день.",
+  "base": "никогда · иногда · всегда · часто · редко",
+  "a": "часто",
+  "alt": [],
+  "d": [
+   "никогда",
+   "редко",
+   "всегда"
+  ],
+  "ex": "Clue: «почти каждый день» (almost every day) → часто. «Почти» rules out всегда. Звонить кому? → dative: другу.",
+  "translation": "Do you often call your friend in Belarus? — Yes, almost every day.",
+  "glosses": []
+ },
+ {
+  "id": 318,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "context clues: which adverb?",
+  "s": "Я ___ покупаю рыбу. Я не очень люблю рыбу, поэтому покупаю её раз в два месяца.",
+  "base": "никогда · иногда · всегда · часто · редко",
+  "a": "редко",
+  "alt": [],
+  "d": [
+   "часто",
+   "всегда",
+   "никогда"
+  ],
+  "ex": "Clue: «не очень люблю» and «раз в два месяца» (once every two months) → редко.",
+  "translation": "I rarely buy fish. I don't really like fish, so I buy it once every two months.",
+  "glosses": [
+   "рыба: fish"
+  ]
+ },
+ {
+  "id": 319,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "context clues: which adverb?",
+  "s": "___ я пью чай, а иногда — кофе.",
+  "base": "никогда · иногда · всегда · часто · редко",
+  "a": "Иногда",
+  "alt": [],
+  "d": [
+   "Всегда",
+   "Никогда"
+  ],
+  "ex": "The fixed pattern «иногда…, а иногда…» = sometimes…, and sometimes…. Всегда contradicts «а иногда кофе»; никогда would need не.",
+  "translation": "Sometimes I drink tea, and sometimes coffee.",
+  "glosses": []
+ },
+ {
+  "id": 320,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "никогда + не: the double negative",
+  "s": "___",
+  "base": "Which sentence means: \"I never drink vodka.\"",
+  "a": "Я никогда не пью водку.",
+  "alt": [],
+  "d": [
+   "Я никогда пью водку.",
+   "Я иногда не пью водку.",
+   "Я ни когда не пью водку."
+  ],
+  "ex": "Никогда needs не before the verb (double negative): никогда не пью. «Иногда не пью» means 'sometimes I don't drink'. Никогда is one word.",
+  "translation": "",
+  "glosses": [],
+  "choiceOnly": true
+ },
+ {
+  "id": 321,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "никогда + не: the double negative",
+  "s": "___",
+  "base": "Which sentence means: \"Sometimes I don't work on Saturday.\"",
+  "a": "Я иногда не работаю в субботу.",
+  "alt": [],
+  "d": [
+   "Я никогда не работаю в субботу.",
+   "Я иногда ни работаю в субботу.",
+   "Я никогда работаю в субботу."
+  ],
+  "ex": "Иногда is not a negative word, so it adds no не of its own; here не is there because the meaning is 'don't work': иногда не работаю. The particle is не, never «ни». Никогда не работаю = never work.",
+  "translation": "",
+  "glosses": [],
+  "choiceOnly": true
+ },
+ {
+  "id": 322,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "никогда + не: the double negative",
+  "s": "___",
+  "base": "Which sentence means: \"My wife always cooks borscht on Sunday.\"",
+  "a": "Жена всегда готовит борщ в воскресенье.",
+  "alt": [],
+  "d": [
+   "Жена всегда не готовит борщ в воскресенье.",
+   "Жена никогда готовит борщ в воскресенье.",
+   "Жена никогда не готовит борщ в воскресенье."
+  ],
+  "ex": "Всегда takes no не: всегда готовит. An extra не reverses the meaning; никогда не готовит = never cooks; никогда without не is ungrammatical.",
+  "translation": "",
+  "glosses": [],
+  "choiceOnly": true
+ },
+ {
+  "id": 323,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "никогда + не: the double negative",
+  "s": "___",
+  "base": "Which sentence means: \"My friend never calls me in the morning.\"",
+  "a": "Мой друг никогда не звонит мне утром.",
+  "alt": [],
+  "d": [
+   "Мой друг никогда звонит мне утром.",
+   "Мой друг не никогда звонит мне утром.",
+   "Мой друг всегда не звонит мне утром."
+  ],
+  "ex": "The не goes right before the verb, after никогда: никогда не звонит. «Не никогда» is wrong order; «всегда не звонит» is not how Russian says 'never'.",
+  "translation": "",
+  "glosses": [],
+  "choiceOnly": true
+ },
+ {
+  "id": 324,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "никогда + не: the double negative",
+  "s": "___",
+  "base": "Which sentence means: \"I often don't understand the priest when he speaks fast.\"",
+  "a": "Я часто не понимаю батюшку, когда он говорит быстро.",
+  "alt": [],
+  "d": [
+   "Я никогда понимаю батюшку, когда он говорит быстро.",
+   "Я часто понимаю батюшку, когда он говорит быстро.",
+   "Я никогда не понимаю батюшку, когда он говорит быстро."
+  ],
+  "ex": "Часто + не + verb = often don't: часто не понимаю. Without не it means 'often understand'; никогда не понимаю (never understand) is too strong.",
+  "translation": "",
+  "glosses": [],
+  "choiceOnly": true
+ },
+ {
+  "id": 325,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "никогда + не: the double negative",
+  "s": "___",
+  "base": "Which sentence means: \"We never rest on Monday.\"",
+  "a": "Мы никогда не отдыхаем в понедельник.",
+  "alt": [],
+  "d": [
+   "Мы никогда отдыхаем в понедельник.",
+   "Мы всегда отдыхаем в понедельник.",
+   "Мы иногда не отдыхаем в понедельник."
+  ],
+  "ex": "Never = никогда не + verb: никогда не отдыхаем. Иногда не отдыхаем = sometimes we don't rest.",
+  "translation": "",
+  "glosses": [],
+  "choiceOnly": true
+ },
+ {
+  "id": 326,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "никогда + не: the double negative",
+  "s": "___",
+  "base": "Which sentence means: \"Nobody here speaks English.\"",
+  "a": "Здесь никто не говорит по-английски.",
+  "alt": [],
+  "d": [
+   "Здесь никто говорит по-английски.",
+   "Здесь не никто говорит по-английски.",
+   "Здесь кто-то не говорит по-английски."
+  ],
+  "ex": "Никто (nobody) works like никогда: it is the subject (nominative) and the verb still needs не → никто не говорит. Кто-то не говорит = someone doesn't speak.",
+  "translation": "",
+  "glosses": [],
+  "choiceOnly": true
+ },
+ {
+  "id": 327,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "никогда + не: the double negative",
+  "s": "___",
+  "base": "Which sentence means: \"I don't buy anything in this store.\"",
+  "a": "Я ничего не покупаю в этом магазине.",
+  "alt": [],
+  "d": [
+   "Я ничего покупаю в этом магазине.",
+   "Я не покупаю что-то в этом магазине.",
+   "Я ничто не покупаю в этом магазине."
+  ],
+  "ex": "'Not … anything' = ничего не. Ничего is the direct object here (genitive form after negation); ничто is only used as a subject or after prepositions, and что-то (something) doesn't go with не like this.",
+  "translation": "",
+  "glosses": [],
+  "choiceOnly": true
+ },
+ {
+  "id": 328,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "никогда + не: the double negative",
+  "s": "___",
+  "base": "Which sentence means: \"I rarely smoke.\"",
+  "a": "Я редко курю.",
+  "alt": [],
+  "d": [
+   "Я редко не курю.",
+   "Я никогда курю.",
+   "Я никогда не курю."
+  ],
+  "ex": "Редко already means 'rarely', so no не: редко курю. Никогда не курю = I never smoke (different meaning).",
+  "translation": "",
+  "glosses": [],
+  "choiceOnly": true
+ },
+ {
+  "id": 329,
+  "level": "A1-A2",
+  "cat": "frequency",
+  "sub": "никогда + не: the double negative",
+  "s": "___",
+  "base": "Which sentence means: \"My wife never watches football.\"",
+  "a": "Жена никогда не смотрит футбол.",
+  "alt": [],
+  "d": [
+   "Жена никогда смотрит футбол.",
+   "Жена часто не смотрит футбол.",
+   "Жена всегда смотрит футбол."
+  ],
+  "ex": "Никогда + не + verb: никогда не смотрит. Часто не смотрит = often doesn't watch (but sometimes does).",
+  "translation": "",
+  "glosses": [],
+  "choiceOnly": true
+ },
+ {
+  "id": 330,
+  "level": "B1-C1",
+  "cat": "frequency",
+  "sub": "ни разу, почти никогда, время от времени",
+  "s": "Я ___ не был в Беларуси, но очень хочу поехать к другу.",
+  "base": "иногда · ни разу · редко · часто",
+  "a": "ни разу",
+  "alt": [],
+  "d": [
+   "редко",
+   "иногда",
+   "часто"
+  ],
+  "ex": "Ни разу (not once) works like никогда: it is a negative word, so the verb needs не → ни разу не был. Note the spelling: ни разу, not «не разу».",
+  "translation": "I have never once been to Belarus, but I really want to go visit my friend.",
+  "glosses": [
+   "ни разу: not once"
+  ]
+ },
+ {
+  "id": 331,
+  "level": "B1-C1",
+  "cat": "frequency",
+  "sub": "ни разу, почти никогда, время от времени",
+  "s": "Мы с женой ___ не ходим в кино — может быть, раз в три года.",
+  "base": "время от времени · почти всегда · почти никогда · часто",
+  "a": "почти никогда",
+  "alt": [],
+  "d": [
+   "почти всегда",
+   "часто",
+   "время от времени"
+  ],
+  "ex": "Clue: «раз в три года» (once every three years) → почти никогда (almost never). Like никогда, почти никогда needs не before the verb: почти никогда не ходим.",
+  "translation": "My wife and I almost never go to the movies — maybe once every three years.",
+  "glosses": [
+   "кино: the movies"
+  ]
+ },
+ {
+  "id": 332,
+  "level": "B1-C1",
+  "cat": "frequency",
+  "sub": "ни разу, почти никогда, время от времени",
+  "s": "Я ___ хожу в этот ресторан: раз в месяц, не чаще — когда есть время.",
+  "base": "время от времени · всегда · никогда · почти всегда",
+  "a": "время от времени",
+  "alt": [],
+  "d": [
+   "всегда",
+   "почти всегда",
+   "никогда"
+  ],
+  "ex": "Clue: «раз в месяц, не чаще» (once a month, no more often) → время от времени (from time to time), a slightly more bookish synonym of иногда.",
+  "translation": "I go to this restaurant from time to time: once a month, no more often — when I have time.",
+  "glosses": [
+   "не чаще: no more often",
+   "время от времени: from time to time"
+  ]
+ },
+ {
+  "id": 333,
+  "level": "B1-C1",
+  "cat": "frequency",
+  "sub": "ни разу, почти никогда, время от времени",
+  "s": "Мой друг ___ не опаздывает: за десять лет он опоздал только два раза.",
+  "base": "всегда · никогда · почти никогда · часто",
+  "a": "почти никогда",
+  "alt": [],
+  "d": [
+   "никогда",
+   "всегда",
+   "часто"
+  ],
+  "ex": "Clue: «только два раза» (only twice) → not never, but nearly → почти никогда не. Plain никогда would contradict the two times.",
+  "translation": "My friend almost never runs late: in ten years he has been late only twice.",
+  "glosses": [
+   "опаздывать: to be late"
+  ]
+ },
+ {
+  "id": 334,
+  "level": "B1-C1",
+  "cat": "frequency",
+  "sub": "ни разу, почти никогда, время от времени",
+  "s": "Я ___ в жизни не пил текилу.",
+  "base": "иногда · ни разу · редко · часто",
+  "a": "ни разу",
+  "alt": [],
+  "d": [
+   "иногда",
+   "часто",
+   "редко"
+  ],
+  "ex": "«Ни разу в жизни не…» = never once in my life. Ни разу is negative, so не is required before the verb.",
+  "translation": "I have never once in my life drunk tequila.",
+  "glosses": [
+   "в жизни: in (my) life"
+  ]
+ },
+ {
+  "id": 335,
+  "level": "B1-C1",
+  "cat": "frequency",
+  "sub": "ни разу, почти никогда, время от времени",
+  "s": "Он ___ не ходит в магазин — всё покупает жена.",
+  "base": "всегда · никогда · редко · часто",
+  "a": "никогда",
+  "alt": [],
+  "d": [
+   "часто",
+   "всегда",
+   "редко"
+  ],
+  "ex": "Clue: «всё покупает жена» (his wife buys everything) → he never goes → никогда не ходит.",
+  "translation": "He never goes to the store — his wife buys everything.",
+  "glosses": []
+ },
+ {
+  "id": 336,
+  "level": "B1-C1",
+  "cat": "frequency",
+  "sub": "ни разу, почти никогда, время от времени",
+  "s": "Я ___ хожу в магазин в воскресенье, только если что-то срочно нужно.",
+  "base": "всегда · никогда · редко · часто",
+  "a": "редко",
+  "alt": [],
+  "d": [
+   "всегда",
+   "часто",
+   "никогда"
+  ],
+  "ex": "Clue: «только если что-то срочно нужно» (only if something is urgent) → редко. Никогда would need не.",
+  "translation": "I rarely go to the store on Sunday, only if something is urgently needed.",
+  "glosses": [
+   "срочно: urgently"
+  ]
+ },
+ {
+  "id": 337,
+  "level": "B1-C1",
+  "cat": "frequency",
+  "sub": "ни разу, почти никогда, время от времени",
+  "s": "Я ___ не видел такой красивой церкви!",
+  "base": "всегда · никогда · редко · часто",
+  "a": "никогда",
+  "alt": [],
+  "d": [
+   "часто",
+   "всегда",
+   "редко"
+  ],
+  "ex": "Никогда не видел = have never seen. Notice the genitive of negation: after не видел the object often goes into the genitive (такой красивой церкви), not the accusative.",
+  "translation": "I have never seen such a beautiful church!",
+  "glosses": [
+   "такой: such"
+  ]
+ },
+ {
+  "id": 338,
+  "level": "B1-C1",
+  "cat": "frequency",
+  "sub": "ни разу, почти никогда, время от времени",
+  "s": "Вы ___ бываете в Минске? — Да, почти каждую неделю, по работе.",
+  "base": "ни разу · никогда · редко · часто",
+  "a": "часто",
+  "alt": [],
+  "d": [
+   "никогда",
+   "редко",
+   "ни разу"
+  ],
+  "ex": "Clue: «почти каждую неделю» → часто. Бывать = to be somewhere repeatedly, to visit regularly.",
+  "translation": "Do you often come to Minsk? — Yes, almost every week, for work.",
+  "glosses": [
+   "бывать: to be (somewhere) regularly",
+   "по работе: for work"
+  ]
+ },
+ {
+  "id": 339,
+  "level": "B1-C1",
+  "cat": "frequency",
+  "sub": "ни разу, почти никогда, время от времени",
+  "s": "Жена ___ не забывает купить молоко, а я забываю почти каждый раз.",
+  "base": "всегда · никогда · редко · часто",
+  "a": "никогда",
+  "alt": [],
+  "d": [
+   "часто",
+   "всегда",
+   "редко"
+  ],
+  "ex": "The contrast (а я забываю почти каждый раз) shows she never forgets → никогда не забывает.",
+  "translation": "My wife never forgets to buy milk, but I forget almost every time.",
+  "glosses": [
+   "забывать: to forget"
+  ]
+ },
+ {
+  "id": 340,
+  "level": "B1-C1",
+  "cat": "frequency",
+  "sub": "multiple negation: никто, ничего, никуда + не",
+  "s": "Я никогда ___ не покупаю в этом магазине.",
+  "base": "нечего · ничего · что · что-то",
+  "a": "ничего",
+  "alt": [],
+  "d": [
+   "что-то",
+   "что",
+   "нечего"
+  ],
+  "ex": "In a negative sentence every 'any-' word becomes a ни-word: никогда + ничего + не. Что-то (something) can't stand under не here; нечего means 'there is nothing to' and is a different construction.",
+  "translation": "I never buy anything in this store.",
+  "glosses": []
+ },
+ {
+  "id": 341,
+  "level": "B1-C1",
+  "cat": "frequency",
+  "sub": "multiple negation: никто, ничего, никуда + не",
+  "s": "В субботу мне ___ не звонит.",
+  "base": "все · кто-то · никто · ничего",
+  "a": "никто",
+  "alt": [],
+  "d": [
+   "кто-то",
+   "все",
+   "ничего"
+  ],
+  "ex": "Никто (nobody) is the subject (nominative) and needs не before the verb: никто не звонит. Все would need a plural verb (звонят); ничего is 'nothing', not a person.",
+  "translation": "Nobody calls me on Saturday.",
+  "glosses": []
+ },
+ {
+  "id": 342,
+  "level": "B1-C1",
+  "cat": "frequency",
+  "sub": "multiple negation: никто, ничего, никуда + не",
+  "s": "___",
+  "base": "Which sentence means: \"I never buy anything here.\"",
+  "a": "Я здесь никогда ничего не покупаю.",
+  "alt": [],
+  "d": [
+   "Я здесь никогда что-то не покупаю.",
+   "Я здесь никогда ничего покупаю.",
+   "Я здесь не никогда ничего покупаю."
+  ],
+  "ex": "Russian stacks negatives: every 'ever/any' word becomes a ни-word, and there is still one не before the verb: никогда ничего не покупаю.",
+  "translation": "",
+  "glosses": [],
+  "choiceOnly": true
+ },
+ {
+  "id": 343,
+  "level": "B1-C1",
+  "cat": "frequency",
+  "sub": "multiple negation: никто, ничего, никуда + не",
+  "s": "___",
+  "base": "Which sentence means: \"Nobody ever calls me on Saturday.\"",
+  "a": "В субботу мне никто никогда не звонит.",
+  "alt": [],
+  "d": [
+   "В субботу мне никто никогда звонит.",
+   "В субботу мне кто-то никогда не звонит.",
+   "В субботу мне никто всегда не звонит."
+  ],
+  "ex": "Nobody + ever = никто никогда, plus не before the verb. All the 'any/ever' words go negative together.",
+  "translation": "",
+  "glosses": [],
+  "choiceOnly": true
+ },
+ {
+  "id": 344,
+  "level": "B1-C1",
+  "cat": "frequency",
+  "sub": "multiple negation: никто, ничего, никуда + не",
+  "s": "___",
+  "base": "Which sentence means: \"I have not been to Moscow even once.\"",
+  "a": "Я ни разу не был в Москве.",
+  "alt": [],
+  "d": [
+   "Я ни разу был в Москве.",
+   "Я не разу не был в Москве.",
+   "Я один раз не был в Москве."
+  ],
+  "ex": "Ни разу (not once) is spelled with ни and needs не before the verb: ни разу не был. «Не разу» is a common spelling mistake, even among native speakers.",
+  "translation": "",
+  "glosses": [],
+  "choiceOnly": true
+ },
+ {
+  "id": 345,
+  "level": "B1-C1",
+  "cat": "frequency",
+  "sub": "multiple negation: никто, ничего, никуда + не",
+  "s": "___",
+  "base": "Which sentence means: \"I almost never cook.\"",
+  "a": "Я почти никогда не готовлю.",
+  "alt": [],
+  "d": [
+   "Я почти никогда готовлю.",
+   "Я почти не никогда готовлю.",
+   "Я иногда готовлю."
+  ],
+  "ex": "Почти никогда (almost never) behaves like никогда: it needs не before the verb → почти никогда не готовлю.",
+  "translation": "",
+  "glosses": [],
+  "choiceOnly": true
+ },
+ {
+  "id": 346,
+  "level": "B1-C1",
+  "cat": "frequency",
+  "sub": "multiple negation: никто, ничего, никуда + не",
+  "s": "___",
+  "base": "Which sentence means: \"Sometimes I don't understand anything.\"",
+  "a": "Иногда я ничего не понимаю.",
+  "alt": [],
+  "d": [
+   "Иногда я ничего понимаю.",
+   "Иногда я что-то не понимаю.",
+   "Никогда я ничего понимаю."
+  ],
+  "ex": "Иногда is positive, but ничего (nothing/anything) is negative, so it needs не: ничего не понимаю. «Что-то не понимаю» = there's something I don't understand.",
+  "translation": "",
+  "glosses": [],
+  "choiceOnly": true
+ },
+ {
+  "id": 347,
+  "level": "B1-C1",
+  "cat": "frequency",
+  "sub": "multiple negation: никто, ничего, никуда + не",
+  "s": "___",
+  "base": "Which sentence means: \"My friend never tells anybody anything.\"",
+  "a": "Мой друг никогда никому ничего не рассказывает.",
+  "alt": [],
+  "d": [
+   "Мой друг никогда никому ничего рассказывает.",
+   "Мой друг никогда кому-то что-то не рассказывает.",
+   "Мой друг не никогда никому ничего рассказывает."
+  ],
+  "ex": "Three ни-words, one не: никогда (never) + никому (to nobody, dative = indirect object) + ничего (nothing, direct object) + не рассказывает.",
+  "translation": "",
+  "glosses": [],
+  "choiceOnly": true
+ },
+ {
+  "id": 348,
+  "level": "B1-C1",
+  "cat": "frequency",
+  "sub": "multiple negation: никто, ничего, никуда + не",
+  "s": "___",
+  "base": "Which sentence means: \"On Sunday I don't go anywhere except church.\"",
+  "a": "В воскресенье я никуда не хожу, кроме церкви.",
+  "alt": [],
+  "d": [
+   "В воскресенье я никуда хожу, кроме церкви.",
+   "В воскресенье я нигде не хожу, кроме церкви.",
+   "В воскресенье я куда-то не хожу, кроме церкви."
+  ],
+  "ex": "Хожу is a verb of motion, so 'anywhere' answers куда? (where to?) → никуда, with не before the verb. Нигде answers где? (location) and does not fit a motion verb here.",
+  "translation": "",
+  "glosses": [],
+  "choiceOnly": true
+ },
+ {
+  "id": 349,
+  "level": "B1-C1",
+  "cat": "frequency",
+  "sub": "multiple negation: никто, ничего, никуда + не",
+  "s": "___",
+  "base": "Which sentence means: \"Never say \"never\".\"",
+  "a": "Никогда не говори «никогда».",
+  "alt": [],
+  "d": [
+   "Никогда говори «никогда».",
+   "Не никогда говори «никогда».",
+   "Всегда не говори «никогда»."
+  ],
+  "ex": "A common saying. The double negative works in commands too: никогда + не + imperative (говори). The не always stands directly before the verb.",
+  "translation": "",
+  "glosses": [],
+  "choiceOnly": true
  }
 ]
