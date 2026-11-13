@@ -202,3 +202,84 @@
 Вот тапочки.|Here are some slippers.|phrase
 Ключи висят у двери.|The keys are hanging by the door.|phrase
 дома / домой|at home (где?) / home, homeward (куда?)|phrase
+@Молчат Дома: Колесом
+колесо|wheel|n|thing|npl=колёса gpl=колёс note=«Колесом»_(instrumental)_=_like_a_wheel,_rolling._Pl._колёса,_колёс.|колеса|колесу|колесо|колесом|колесе|колёса|колёс
+цикл|cycle|m|abstract|skip=gen,acc note=«Цикл_закончится»_=_the_cycle_will_end.|цикла|циклу|цикл|циклом|цикле|циклы|циклов
+вид|view, sight; kind, species|m|thing|note=«Виды_меняются»_=_the_views_(or_kinds)_change.|вида|виду|вид|видом|виде|виды|видов
+линия|line|f|thing||линии|линии|линию|линией|линии|линии|линий
+нить|thread|f|thing|note=Feminine_-ь_noun:_нить,_нити,_нитью._«Линий_тонких_нить»_=_a_thread_of_thin_lines.|нити|нити|нить|нитью|нити|нити|нитей
+катиться|to roll (impf.)|verb|impf 1s=качусь 2s=катишься 3s=катится 1p=катимся 2p=катитесь 3p=катятся f3s=Куда_{}_колесо? note=качусь,_катишься_(т_→_ч_in_я-form)._«Куда_катится?»_=_where_is_it_rolling?
+закончиться|to end, come to an end (pf.)|verb|pf 3s=закончится 3p=закончатся f3s=Скоро_всё_{}. f3p=Скоро_песни_{}. note=Usually_3rd_person:_всё_закончится._«Цикл_закончится»_=_the_cycle_will_end.
+меняться|to change (impf.)|verb|impf 1s=меняюсь 2s=меняешься 3s=меняется 1p=меняемся 2p=меняетесь 3p=меняются f3p=Люди_{}. note=«Люди_меняются»_=_people_change.
+встречаться|to meet (each other) (impf.)|verb|impf 1s=встречаюсь 2s=встречаешься 3s=встречается 1p=встречаемся 2p=встречаетесь 3p=встречаются f3p=Люди_{}. note=Also_"to_date":_я_встречаюсь_с_ней._«Люди_встречаются»_=_people_meet.
+падать|to fall (impf.)|verb|impf 1s=падаю 2s=падаешь 3s=падает 1p=падаем 2p=падаете 3p=падают f1p=Зачем_мы_{}_вниз? note=«Зачем_падаем_ровно_вниз?»_=_why_do_we_fall_straight_down?
+собираться|to intend, plan to (impf.) + infinitive|verb|impf 1s=собираюсь 2s=собираешься 3s=собирается 1p=собираемся 2p=собираетесь 3p=собираются f2p=Как_вы_{}_дальше_жить? note=Also_"to_gather,_get_ready"._«Как_собираетесь_дальше_жить?»_=_how_do_you_plan_to_go_on_living?
+покорить|to conquer, subdue (pf.)|verb|pf 1s=покорю 2s=покоришь 3s=покорит 1p=покорим 2p=покорите 3p=покорят f1s=Я_{}_этот_мир. note=«Всех_не_покорить»_=_you_can’t_conquer_everyone.
+переплести|to interweave, braid together (pf.)|verb|pf 1s=переплету 2s=переплетёшь 3s=переплетёт 1p=переплетём 2p=переплетёте 3p=переплетут note=Irregular:_переплету,_переплетёшь,_переплетут;_past_переплёл,_переплела.
+упустить|to let slip, miss (a chance) (pf.)|verb|pf 1s=упущу 2s=упустишь 3s=упустит 1p=упустим 2p=упустите 3p=упустят note=упущу,_упустишь_(ст_→_щ_in_я-form)._«Не_упустить_то,_что_дарит_жизнь»_=_not_to_miss_what_life_gives.
+дарить|to give (as a gift) (impf.)|verb|impf 1s=дарю 2s=даришь 3s=дарит 1p=дарим 2p=дарите 3p=дарят f3s=То,_что_{}_жизнь. note=дарить_+_dative_(to_whom)_+_accusative_(what)._«То,_что_дарит_жизнь»_=_what_life_gives.
+непоколебимый|unshakable|adj|note=Short_form:_непоколебим._«Непоколебим_мною_этот_мир»_=_this_world_can’t_be_shaken_by_me.
+тонкий|thin, fine|adj|note=Short_form:_тонок,_тонка._«Линий_тонких»_=_of_thin_lines_(genitive_plural).
+ровно|straight, evenly; exactly|adv|note=«Ровно_вниз»_=_straight_down._«Ровно_в_семь»_=_at_seven_sharp.
+вниз|down, downward (куда?)|adv|note=Motion._Compare_внизу_=_down_below_(где?).
+дальше|further, on; then|adv|note=Comparative_of_далеко._«Дальше_жить»_=_to_go_on_living.
+впереди|ahead, in front (где?)|adv|note=«Всё,_что_впереди»_=_everything_that_lies_ahead.
+@Молчат Дома: Ты же не знаешь, кто я
+поступок|deed, action|m|abstract|fleet skip=gen,dat,acc nonum note=Fleeting_о:_поступок_→_поступка,_поступки._«Неверный_поступок»_=_an_unfaithful_act.|поступка|поступку|поступок|поступком|поступке|поступки|поступков
+очаг|hearth|m|thing|note=«Любовный_очаг»_=_the_hearth_of_love,_i.e._home.|очага|очагу|очаг|очагом|очаге|очаги|очагов
+перо|pen, quill; feather|n|thing|npl=перья gpl=перьев note=Irregular_plural:_перья,_перьев._«Хватают_перо»_=_grab_the_pen.|пера|перу|перо|пером|пере|перья|перьев
+шум|noise|m|abstract|mass skip=acc note=Pl._шумы_(in_the_song:_«Шумы,_крики,_гам»).|шума|шуму|шум|шумом|шуме|шумы|шумов
+крик|shout, scream|m|abstract|skip=acc nonum note=Pl._крики.|крика|крику|крик|криком|крике|крики|криков
+гам|din, racket|m|abstract|mass skip=acc|гама|гаму|гам|гамом|гаме|-|-
+провод|wire|m|thing|npl=провода note=Stressed_-а_plural:_провода,_проводов._«По_проводам»_=_along_the_wires,_over_the_phone.|провода|проводу|провод|проводом|проводе|провода|проводов
+слеза|tear (crying)|f|abstract|skip=gen,dat,acc,ins npl=слёзы gpl=слёз note=Pl._слёзы,_слёз,_dat._слезам_(stress_moves)._«Ты_же_не_веришь_слезам»_=_you_don’t_believe_tears.|слезы|слезе|слезу|слезой|слезе|слёзы|слёз
+задуть|to blow out (a flame) (pf.)|verb|pf 1s=задую 2s=задуешь 3s=задует 1p=задуем 2p=задуете 3p=задуют note=задую,_задуешь._«Задует_любовный_очаг»_=_will_blow_out_the_hearth_of_love.
+резать|to cut (impf.)|verb|impf 1s=режу 2s=режешь 3s=режет 1p=режем 2p=режете 3p=режут f3s=Слово_{}_пополам. note=Irregular:_режу,_режешь,_режут_(з_→_ж_everywhere)._«Слово_режет_пополам»_=_a_word_cuts_in_half.
+ответить|to answer (pf.) + dat. (whom) / на + acc. (what)|verb|pf 1s=отвечу 2s=ответишь 3s=ответит 1p=ответим 2p=ответите 3p=ответят f1p=Мы_{}_только:_«Пока…» note=отвечу,_ответишь_(т_→_ч_in_я-form)._Impf.:_отвечать.
+представлять себе|to imagine (impf.)|verb|impf 1s=представляю_себе 2s=представляешь_себе 3s=представляет_себе 1p=представляем_себе 2p=представляете_себе 3p=представляют_себе note=Себе_(dative_of_себя)_stays_the_same:_я_представляю_себе,_ты_представляешь_себе._Pf.:_представить_себе.
+раздражать|to irritate, annoy (impf.)|verb|impf 1s=раздражаю 2s=раздражаешь 3s=раздражает 1p=раздражаем 2p=раздражаете 3p=раздражают f1s=Я_{}_тебя_всегда. note=«Я_раздражаю_всегда»_=_I’m_always_annoying_(you).
+верить|to believe, trust (impf.) + dat.|verb|impf 1s=верю 2s=веришь 3s=верит 1p=верим 2p=верите 3p=верят f2s=Ты_же_не_{}_слезам. note=Dative,_like_German_glauben_+_Dativ:_верить_тебе,_верить_слезам._Верить_в_+_acc._=_believe_in.
+прошептать|to whisper (pf.)|verb|pf 1s=прошепчу 2s=прошепчешь 3s=прошепчет 1p=прошепчем 2p=прошепчете 3p=прошепчут f1s=Я_{}_те_слова. note=Irregular:_прошепчу,_прошепчешь_(т_→_ч_everywhere)._Impf.:_шептать.
+дрожать|to tremble, shake (impf.)|verb|impf 1s=дрожу 2s=дрожишь 3s=дрожит 1p=дрожим 2p=дрожите 3p=дрожат f3p=Руки_{}. note=2nd_conjugation_despite_-ать:_дрожу,_дрожишь,_дрожат._«Руки_дрожат»_=_hands_are_shaking.
+хватать|to grab, snatch (impf.)|verb|impf 1s=хватаю 2s=хватаешь 3s=хватает 1p=хватаем 2p=хватаете 3p=хватают f3p=Руки_{}_перо. note=Pf.:_схватить._Also_impersonal_хватать_+_gen._=_to_be_enough:_денег_не_хватает.
+стоить|to be worth; to cost (impf.)|verb|impf 3s=стоит 3p=стоят f3s=Это_не_{}_того. f3p=Билеты_{}_дорого. note=«Не_стоит_того»_=_it’s_not_worth_it._«Сколько_стоит?»_=_how_much_is_it?
+полететь|to fly off, take off (pf.)|verb|pf 1s=полечу 2s=полетишь 3s=полетит 1p=полетим 2p=полетите 3p=полетят note=полечу,_полетишь_(т_→_ч_in_я-form)._«Полетело_по_проводам»_=_it_flew_down_the_wires.
+случиться|to happen (pf.)|verb|pf 3s=случится 3p=случатся f3s=Что_{}_завтра? f3p=Чудеса_{}. note=Usually_3rd_person:_что_случилось?_=_what_happened?_«Что_случилось_там»_=_what_happened_there.
+неверный|unfaithful; wrong, false|adj|note=«Неверный_поступок»_=_an_act_of_infidelity.
+любовный|love (adj.), romantic|adj|note=«Любовный_очаг»_=_the_hearth_of_love.
+злой|angry, mean, wicked|adj|note=Short_form:_зол,_зла._«Злые_вопросы»_=_cruel_questions.
+неподвластно|beyond (one’s) control, uncontrollably|adv|note=From_неподвластный_=_not_subject_to_someone’s_power.
+известно|(it is) known|adv|note=«Это_известно_только_нам»_=_only_we_know_this_(lit._it_is_known_only_to_us).
+пополам|in half|adv|note=The_lyric_spells_it_«на_пополам»,_but_standard_Russian_is_just_пополам.
+же|after all, you know (emphatic particle)|adv|note=«Ты_же_не_знаешь,_кто_я»_=_but_you_don’t_even_know_who_I_am._Also_"the_same":_тот_же.
+@Молчат Дома: Не вдвоём
+грудь|chest, breast|f|body|mass note=Feminine_-ь_noun._«У_неё_горит_в_груди»_=_her_chest_is_burning.|груди|груди|грудь|грудью|груди|груди|грудей
+кусок|piece|m|thing|fleet note=Fleeting_о:_куска,_куски._«Разрывает_на_куски»_=_tears_to_pieces.|куска|куску|кусок|куском|куске|куски|кусков
+ритм|rhythm|m|abstract|nonum note=«Ритм_сердца»_=_heartbeat_rhythm.|ритма|ритму|ритм|ритмом|ритме|ритмы|ритмов
+тело|body|n|body|mass note=Pl._тела,_тел;_dative_pl._телам:_«Дай_телам_переплестись».|тела|телу|тело|телом|теле|тела|тел
+суета|bustle, fuss; vanity|f|abstract|mass note=«В_мире,_полном_суеты»_=_in_a_world_full_of_bustle._In_church:_«суета_сует»_=_vanity_of_vanities.|суеты|суете|суету|суетой|суете|суеты|сует
+страсть|passion|f|abstract|mass note=«Море_страсти»_=_a_sea_of_passion.|страсти|страсти|страсть|страстью|страсти|страсти|страстей
+ненасытность|insatiability|f|abstract|mass skip=dat,acc|ненасытности|ненасытности|ненасытность|ненасытностью|ненасытности|ненасытности|ненасытностей
+жажда|thirst, craving|f|abstract|mass skip=dat note=«Жажды_миг»_=_a_moment_of_craving.|жажды|жажде|жажду|жаждой|жажде|жажды|жажд
+миг|instant, moment|m|abstract|mass skip=gen,dat,acc,ins note=Poetic_for_момент._«В_один_миг»_=_in_an_instant.|мига|мигу|миг|мигом|миге|-|-
+сила|strength, force|f|abstract|mass skip=gen,dat note=Pl._силы,_сил._«Сил_больше_не_достать»_=_no_more_strength_to_be_found.|силы|силе|силу|силой|силе|силы|сил
+бред|nonsense, delirium|m|abstract|mass skip=acc note=«Это_просто_бред»_=_that’s_just_nonsense._В_бреду_=_delirious.|бреда|бреду|бред|бредом|бреде|-|-
+бояться|to be afraid (impf.) + gen.|verb|impf 1s=боюсь 2s=боишься 3s=боится 1p=боимся 2p=боитесь 3p=боятся f2s=Ты_{}_темноты? note=2nd_conjugation:_боюсь,_боишься,_боятся._«Не_бойся»_=_don’t_be_afraid._Бояться_темноты_=_to_be_afraid_of_the_dark.
+подойти|to come up to, approach (pf.) + к + dat.|verb|pf 1s=подойду 2s=подойдёшь 3s=подойдёт 1p=подойдём 2p=подойдёте 3p=подойдут f1s=Я_{}_к_ней. note=Irregular:_подойду,_подойдёшь;_past_подошёл,_подошла._Impf.:_подходить.
+гореть|to burn (impf.)|verb|impf 1s=горю 2s=горишь 3s=горит 1p=горим 2p=горите 3p=горят f3s=У_неё_{}_в_груди. note=2nd_conjugation:_горю,_горишь._«У_неё_горит_в_груди»_=_her_chest_is_on_fire.
+разрывать|to tear apart (impf.)|verb|impf 1s=разрываю 2s=разрываешь 3s=разрывает 1p=разрываем 2p=разрываете 3p=разрывают note=Pf.:_разорвать._«Разрывает_на_куски»_=_tears_to_pieces.
+переплестись|to intertwine (pf.)|verb|pf 1p=переплетёмся 2p=переплетётесь 3p=переплетутся f3p=Наши_руки_{}. note=Reflexive_of_переплести:_переплетусь,_переплетёшься;_past_переплёлся,_переплелась.
+опустошить|to empty; to devastate (pf.)|verb|pf 1s=опустошу 2s=опустошишь 3s=опустошит 1p=опустошим 2p=опустошите 3p=опустошат note=«Голову_опустоши»_=_empty_your_head_(imperative).
+оторваться|to tear oneself away, break loose; (slang) to cut loose (pf.)|verb|pf 1s=оторвусь 2s=оторвёшься 3s=оторвётся 1p=оторвёмся 2p=оторвётесь 3p=оторвутся f1p=Мы_{}_от_земли. note=оторвусь,_оторвёшься._«Оторвёмся_от_земли»_=_let’s_leave_the_ground.
+разлиться|to spill, overflow (pf.)|verb|pf 3s=разольётся 3p=разольются f3s=Река_{}_весной. f3p=Реки_{}_весной. note=Irregular:_разольётся,_разольются;_past_разлился,_разлилась,_разлилось._«Море_страсти_разлилось»_=_a_sea_of_passion_overflowed.
+сбыться|to come true (pf.)|verb|pf 3s=сбудется 3p=сбудутся f3s=Всё_{}. f3p=Мечты_{}. note=Future_сбудется;_past_сбылся,_сбылось._«Всё_сбылось»_=_everything_came_true.
+достать|to get, reach, obtain (pf.)|verb|pf 1s=достану 2s=достанешь 3s=достанет 1p=достанем 2p=достанете 3p=достанут note=Irregular:_достану,_достанешь._Impf.:_доставать.
+закрываться|to close (impf.)|verb|impf 3s=закрывается 3p=закрываются f3s=Магазин_{}_в_девять. f3p=Глаза_{}. note=«Закрываются_глаза»_=_(my)_eyes_are_closing.
+пропустить|to skip, miss (pf.)|verb|pf 1s=пропущу 2s=пропустишь 3s=пропустит 1p=пропустим 2p=пропустите 3p=пропустят note=пропущу,_пропустишь_(ст_→_щ_in_я-form)._«Утро_пропустило_сон»_=_morning_skipped_sleep.
+проснуться|to wake up (pf.)|verb|pf 1s=проснусь 2s=проснёшься 3s=проснётся 1p=проснёмся 2p=проснётесь 3p=проснутся f1p=Завтра_мы_{}_вдвоём. note=проснусь,_проснёшься._«Мы_проснулись_не_вдвоём»_=_we_didn’t_wake_up_together.
+поверить|to believe (pf.) + dat.; в + acc. = to believe in|verb|pf 1s=поверю 2s=поверишь 3s=поверит 1p=поверим 2p=поверите 3p=поверят note=«Не_поверил_бы_во_всё»_=_I_wouldn’t_have_believed_it_all.
+встретить|to meet, run into (pf.)|verb|pf 1s=встречу 2s=встретишь 3s=встретит 1p=встретим 2p=встретите 3p=встретят note=встречу,_встретишь_(т_→_ч_in_я-form)._«Если_бы_не_встретил_вновь_её»_=_if_I_hadn’t_met_her_again.
+полный|full (+ gen.)|adj|note=Short_form:_полон,_полна._«В_мире,_полном_суеты»_=_in_a_world_full_of_bustle.
+изнутри|from inside|adv|note=«Ритм_сердца_изнутри»_=_the_heartbeat_from_within.
+вдвоём|the two of us, together (as a pair)|adv|note=«Мы_проснулись_не_вдвоём»_=_we_didn’t_wake_up_together.
+вновь|again (poetic)|adv|note=Same_as_снова._«Встретил_вновь_её»_=_met_her_again.

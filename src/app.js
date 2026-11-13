@@ -4,8 +4,9 @@ var E=window.RuEngine;
 var CATS=[["all","All"],["basics","Basics"],["cases","Cases"],["conjugation","Verbs"],["aspect","Aspect"],["motion","Motion"],["home","At home"],["kakoy","какой / какая / какое / какие"],["frequency","никогда / иногда / всегда / часто / редко"]];
 var LEVELS=[["A1-A2","A1–A2"],["B1-C1","B1–C1"]];
 var MODES=[["choice","Choice"],["type","Type"]];
-var VDRILLS=[["mixed","Mixed"],["cases","Cases"],["plurals","Plurals"],["numbers","Numbers"],["cards","Flashcards"]];
-var KIND_LABEL={thing:"thing",food:"food/drink",place:"place",person:"person",event:"service/event",transport:"transport",money:"money",unit:"measure",home:"furniture/spot in a room"};
+var VDRILLS=[["mixed","Mixed"],["cases","Cases"],["plurals","Plurals"],["numbers","Numbers"],["conj","Verbs"],["cards","Flashcards"]];
+var KIND_LABEL={thing:"thing",food:"food/drink",place:"place",person:"person",event:"service/event",transport:"transport",money:"money",unit:"measure",home:"furniture/spot in a room",abstract:"abstract (feeling, sound, idea)",body:"body part"};
+var POS_LABEL={adj:"adjective",verb:"verb",phrase:"phrase",adv:"adverb/particle"};
 var G_LABEL={m:"masc.",f:"fem.",n:"neut.",pl:"plural only"};
 var FORM_LABEL={gen:"Genitive (нет …)",dat:"Dative (к …)",acc:"Accusative (вижу …)",ins:"Instrumental (с …)",prep:"Prepositional (о …)",npl:"Nominative plural",gpl:"Genitive plural (много …)"};
 var LS="ruDrills.v1",LSW="ruDrills.words.v1",LSL="ruDrills.lessons.v1";
@@ -218,7 +219,7 @@ document.addEventListener("click",function(ev){
 
 // ---------- My words ----------
 function wordStatus(w){
-  if(w.pos!=="noun")return {txt:"flashcards",fo:false};
+  if(w.pos!=="noun")return {txt:w.pos==="verb"&&w.conj?"conjugation + flashcards":"flashcards",fo:false};
   if(w.indecl)return {txt:"indeclinable · flashcards only",fo:true};
   var ex=E.wordExercises(w,{cases:1,plurals:1,numbers:1},null);
   if(!ex.length)return {txt:"flashcards only until you add its forms",fo:true};
@@ -233,8 +234,8 @@ function renderWords(){
   (st.wtheme==="all"?th:[st.wtheme]).forEach(function(t){
     h+='<div class="wtheme">'+esc(t)+'</div>';
     WORDS.forEach(function(w,i){if(w.theme!==t)return;var s=wordStatus(w);
-      var meta=w.pos==="noun"?[G_LABEL[w.g]||"gender?",w.anim?"animate":"",KIND_LABEL[w.kind]||"",(w.kind==="place"||w.kind==="home")?(w.pp||"в")+" + place":""].filter(Boolean).join(" · "):w.pos;
-      h+='<div class="witem"><div class="wt"><div class="wr" lang="ru">'+esc(w.ru)+'</div><div class="we">'+esc(w.en)+'</div><div class="wm">'+esc(meta)+' · <span class="'+(s.fo?"fo":"")+'">'+esc(s.txt)+'</span></div></div>'+
+      var meta=w.pos==="noun"?[G_LABEL[w.g]||"gender?",w.anim?"animate":"",KIND_LABEL[w.kind]||"",(w.kind==="place"||w.kind==="home")?(w.pp||"в")+" + place":""].filter(Boolean).join(" · "):(POS_LABEL[w.pos]||w.pos)+(w.asp?" · "+w.asp+".":"");
+      h+='<div class="witem"><div class="wt"><div class="wr" lang="ru">'+esc(w.ru)+'</div><div class="we">'+esc(w.en)+'</div>'+(w.note?'<div class="wm">'+esc(w.note)+'</div>':'')+'<div class="wm">'+esc(meta)+' · <span class="'+(s.fo?"fo":"")+'">'+esc(s.txt)+'</span></div></div>'+
         '<button class="sbtn" data-edit="'+i+'" aria-label="Edit '+esc(w.ru)+'">Edit</button><button class="sbtn del" data-del="'+i+'" aria-label="Delete '+esc(w.ru)+'">✕</button></div>';
     });
   });
@@ -259,7 +260,7 @@ function renderPanel(){
   h+='<label class="f" for="fEn">English</label><input class="fin" id="fEn" autocomplete="off" value="'+esc(w.en)+'">';
   h+='<label class="f" for="fTheme">Theme</label><select id="fTheme">'+th.map(function(x){return '<option'+(x===w.theme?" selected":"")+'>'+esc(x)+'</option>'}).join("")+'<option value="__new">New theme…</option></select>';
   h+='<input class="fin hidden" id="fThemeNew" placeholder="Theme name, e.g. At the pharmacy" style="margin-top:6px">';
-  h+='<label class="f" for="fPos">Type</label><select id="fPos">'+[["noun","Noun"],["adj","Adjective"],["verb","Verb"],["phrase","Phrase"]].map(function(o){return '<option value="'+o[0]+'"'+(w.pos===o[0]?" selected":"")+'>'+o[1]+'</option>'}).join("")+'</select>';
+  h+='<label class="f" for="fPos">Type</label><select id="fPos">'+[["noun","Noun"],["adj","Adjective"],["verb","Verb"],["adv","Adverb/particle"],["phrase","Phrase"]].map(function(o){return '<option value="'+o[0]+'"'+(w.pos===o[0]?" selected":"")+'>'+o[1]+'</option>'}).join("")+'</select>';
   h+='<div id="nounBox"'+(w.pos==="noun"?"":' class="hidden"')+'>';
   h+='<div class="fgrid"><div><label class="f" for="fG">Gender</label><select id="fG"><option value="">choose…</option>'+["m","f","n","pl"].map(function(g){return '<option value="'+g+'"'+(w.g===g?" selected":"")+'>'+{m:"masculine",f:"feminine",n:"neuter",pl:"plural only"}[g]+'</option>'}).join("")+'</select></div>';
   h+='<div><label class="f" for="fKind">Used like a…</label><select id="fKind">'+Object.keys(KIND_LABEL).map(function(k){return '<option value="'+k+'"'+(w.kind===k?" selected":"")+'>'+KIND_LABEL[k]+'</option>'}).join("")+'</select></div></div>';
@@ -281,11 +282,12 @@ function renderPanel(){
       ["skip","loc","enp","enprep","noArt","approach","gplAlt","noFleet","put","lie","nonum"].forEach(function(k){if(w[k]!=null&&nw.ru===w.ru)nw[k]=w[k]});
       if(w.forms&&w.forms.loc&&nw.ru===w.ru)nw.forms.loc=w.forms.loc;
     }
+    if(nw.ru===w.ru){["note"].concat(nw.pos==="verb"&&w.pos==="verb"?["asp","conj","frames"]:[]).forEach(function(k){if(w[k]!=null)nw[k]=w[k]})}
     return nw;
   }
   function preview(){
     var nw=readForm();$("nounBox").classList.toggle("hidden",nw.pos!=="noun");
-    if(nw.pos!=="noun"){$("fNote").innerHTML='<div class="note">Adjectives, verbs and phrases are drilled as flashcards in both directions.</div>';return}
+    if(nw.pos!=="noun"){$("fNote").innerHTML='<div class="note">Adjectives, verbs, adverbs and phrases are drilled as flashcards in both directions.'+(nw.conj?' Its saved conjugation forms are drilled under Verbs too.':'')+'</div>';return}
     $("ppBox").classList.toggle("hidden",nw.kind!=="place"&&nw.kind!=="home");
     var auto=E.decline(Object.assign({},nw,{forms:{}}));
     E.KEYS.forEach(function(k){var el=$("fm_"+k);el.placeholder=auto.f[k]?(auto.unc[k]?"? "+auto.f[k]:auto.f[k]):"?";el.classList.toggle("unc",!!auto.unc[k]&&!el.value.trim())});

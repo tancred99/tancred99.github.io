@@ -1927,5 +1927,1061 @@
   "en": "at home (где?) / home, homeward (куда?)",
   "theme": "Around the house",
   "pos": "phrase"
+ },
+ {
+  "ru": "колесо",
+  "en": "wheel",
+  "theme": "Молчат Дома: Колесом",
+  "pos": "noun",
+  "g": "n",
+  "kind": "thing",
+  "note": "«Колесом» (instrumental) = like a wheel, rolling. Pl. колёса, колёс.",
+  "forms": {
+   "npl": "колёса",
+   "gpl": "колёс"
+  }
+ },
+ {
+  "ru": "цикл",
+  "en": "cycle",
+  "theme": "Молчат Дома: Колесом",
+  "pos": "noun",
+  "g": "m",
+  "kind": "abstract",
+  "skip": [
+   "gen",
+   "acc"
+  ],
+  "note": "«Цикл закончится» = the cycle will end."
+ },
+ {
+  "ru": "вид",
+  "en": "view, sight; kind, species",
+  "theme": "Молчат Дома: Колесом",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing",
+  "note": "«Виды меняются» = the views (or kinds) change."
+ },
+ {
+  "ru": "линия",
+  "en": "line",
+  "theme": "Молчат Дома: Колесом",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing"
+ },
+ {
+  "ru": "нить",
+  "en": "thread",
+  "theme": "Молчат Дома: Колесом",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "note": "Feminine -ь noun: нить, нити, нитью. «Линий тонких нить» = a thread of thin lines."
+ },
+ {
+  "ru": "катиться",
+  "en": "to roll (impf.)",
+  "theme": "Молчат Дома: Колесом",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "качусь, катишься (т → ч in я-form). «Куда катится?» = where is it rolling?",
+  "conj": {
+   "1s": "качусь",
+   "2s": "катишься",
+   "3s": "катится",
+   "1p": "катимся",
+   "2p": "катитесь",
+   "3p": "катятся"
+  },
+  "frames": {
+   "3s": "Куда {} колесо?"
+  }
+ },
+ {
+  "ru": "закончиться",
+  "en": "to end, come to an end (pf.)",
+  "theme": "Молчат Дома: Колесом",
+  "pos": "verb",
+  "asp": "pf",
+  "note": "Usually 3rd person: всё закончится. «Цикл закончится» = the cycle will end.",
+  "conj": {
+   "3s": "закончится",
+   "3p": "закончатся"
+  },
+  "frames": {
+   "3s": "Скоро всё {}.",
+   "3p": "Скоро песни {}."
+  }
+ },
+ {
+  "ru": "меняться",
+  "en": "to change (impf.)",
+  "theme": "Молчат Дома: Колесом",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "«Люди меняются» = people change.",
+  "conj": {
+   "1s": "меняюсь",
+   "2s": "меняешься",
+   "3s": "меняется",
+   "1p": "меняемся",
+   "2p": "меняетесь",
+   "3p": "меняются"
+  },
+  "frames": {
+   "3p": "Люди {}."
+  }
+ },
+ {
+  "ru": "встречаться",
+  "en": "to meet (each other) (impf.)",
+  "theme": "Молчат Дома: Колесом",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "Also \"to date\": я встречаюсь с ней. «Люди встречаются» = people meet.",
+  "conj": {
+   "1s": "встречаюсь",
+   "2s": "встречаешься",
+   "3s": "встречается",
+   "1p": "встречаемся",
+   "2p": "встречаетесь",
+   "3p": "встречаются"
+  },
+  "frames": {
+   "3p": "Люди {}."
+  }
+ },
+ {
+  "ru": "падать",
+  "en": "to fall (impf.)",
+  "theme": "Молчат Дома: Колесом",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "«Зачем падаем ровно вниз?» = why do we fall straight down?",
+  "conj": {
+   "1s": "падаю",
+   "2s": "падаешь",
+   "3s": "падает",
+   "1p": "падаем",
+   "2p": "падаете",
+   "3p": "падают"
+  },
+  "frames": {
+   "1p": "Зачем мы {} вниз?"
+  }
+ },
+ {
+  "ru": "собираться",
+  "en": "to intend, plan to (impf.) + infinitive",
+  "theme": "Молчат Дома: Колесом",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "Also \"to gather, get ready\". «Как собираетесь дальше жить?» = how do you plan to go on living?",
+  "conj": {
+   "1s": "собираюсь",
+   "2s": "собираешься",
+   "3s": "собирается",
+   "1p": "собираемся",
+   "2p": "собираетесь",
+   "3p": "собираются"
+  },
+  "frames": {
+   "2p": "Как вы {} дальше жить?"
+  }
+ },
+ {
+  "ru": "покорить",
+  "en": "to conquer, subdue (pf.)",
+  "theme": "Молчат Дома: Колесом",
+  "pos": "verb",
+  "asp": "pf",
+  "note": "«Всех не покорить» = you can’t conquer everyone.",
+  "conj": {
+   "1s": "покорю",
+   "2s": "покоришь",
+   "3s": "покорит",
+   "1p": "покорим",
+   "2p": "покорите",
+   "3p": "покорят"
+  },
+  "frames": {
+   "1s": "Я {} этот мир."
+  }
+ },
+ {
+  "ru": "переплести",
+  "en": "to interweave, braid together (pf.)",
+  "theme": "Молчат Дома: Колесом",
+  "pos": "verb",
+  "asp": "pf",
+  "note": "Irregular: переплету, переплетёшь, переплетут; past переплёл, переплела.",
+  "conj": {
+   "1s": "переплету",
+   "2s": "переплетёшь",
+   "3s": "переплетёт",
+   "1p": "переплетём",
+   "2p": "переплетёте",
+   "3p": "переплетут"
+  }
+ },
+ {
+  "ru": "упустить",
+  "en": "to let slip, miss (a chance) (pf.)",
+  "theme": "Молчат Дома: Колесом",
+  "pos": "verb",
+  "asp": "pf",
+  "note": "упущу, упустишь (ст → щ in я-form). «Не упустить то, что дарит жизнь» = not to miss what life gives.",
+  "conj": {
+   "1s": "упущу",
+   "2s": "упустишь",
+   "3s": "упустит",
+   "1p": "упустим",
+   "2p": "упустите",
+   "3p": "упустят"
+  }
+ },
+ {
+  "ru": "дарить",
+  "en": "to give (as a gift) (impf.)",
+  "theme": "Молчат Дома: Колесом",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "дарить + dative (to whom) + accusative (what). «То, что дарит жизнь» = what life gives.",
+  "conj": {
+   "1s": "дарю",
+   "2s": "даришь",
+   "3s": "дарит",
+   "1p": "дарим",
+   "2p": "дарите",
+   "3p": "дарят"
+  },
+  "frames": {
+   "3s": "То, что {} жизнь."
+  }
+ },
+ {
+  "ru": "непоколебимый",
+  "en": "unshakable",
+  "theme": "Молчат Дома: Колесом",
+  "pos": "adj",
+  "note": "Short form: непоколебим. «Непоколебим мною этот мир» = this world can’t be shaken by me."
+ },
+ {
+  "ru": "тонкий",
+  "en": "thin, fine",
+  "theme": "Молчат Дома: Колесом",
+  "pos": "adj",
+  "note": "Short form: тонок, тонка. «Линий тонких» = of thin lines (genitive plural)."
+ },
+ {
+  "ru": "ровно",
+  "en": "straight, evenly; exactly",
+  "theme": "Молчат Дома: Колесом",
+  "pos": "adv",
+  "note": "«Ровно вниз» = straight down. «Ровно в семь» = at seven sharp."
+ },
+ {
+  "ru": "вниз",
+  "en": "down, downward (куда?)",
+  "theme": "Молчат Дома: Колесом",
+  "pos": "adv",
+  "note": "Motion. Compare внизу = down below (где?)."
+ },
+ {
+  "ru": "дальше",
+  "en": "further, on; then",
+  "theme": "Молчат Дома: Колесом",
+  "pos": "adv",
+  "note": "Comparative of далеко. «Дальше жить» = to go on living."
+ },
+ {
+  "ru": "впереди",
+  "en": "ahead, in front (где?)",
+  "theme": "Молчат Дома: Колесом",
+  "pos": "adv",
+  "note": "«Всё, что впереди» = everything that lies ahead."
+ },
+ {
+  "ru": "поступок",
+  "en": "deed, action",
+  "theme": "Молчат Дома: Ты же не знаешь, кто я",
+  "pos": "noun",
+  "g": "m",
+  "kind": "abstract",
+  "fleet": true,
+  "skip": [
+   "gen",
+   "dat",
+   "acc"
+  ],
+  "nonum": true,
+  "note": "Fleeting о: поступок → поступка, поступки. «Неверный поступок» = an unfaithful act."
+ },
+ {
+  "ru": "очаг",
+  "en": "hearth",
+  "theme": "Молчат Дома: Ты же не знаешь, кто я",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing",
+  "note": "«Любовный очаг» = the hearth of love, i.e. home."
+ },
+ {
+  "ru": "перо",
+  "en": "pen, quill; feather",
+  "theme": "Молчат Дома: Ты же не знаешь, кто я",
+  "pos": "noun",
+  "g": "n",
+  "kind": "thing",
+  "note": "Irregular plural: перья, перьев. «Хватают перо» = grab the pen.",
+  "forms": {
+   "npl": "перья",
+   "gpl": "перьев"
+  }
+ },
+ {
+  "ru": "шум",
+  "en": "noise",
+  "theme": "Молчат Дома: Ты же не знаешь, кто я",
+  "pos": "noun",
+  "g": "m",
+  "kind": "abstract",
+  "mass": true,
+  "skip": [
+   "acc"
+  ],
+  "note": "Pl. шумы (in the song: «Шумы, крики, гам»)."
+ },
+ {
+  "ru": "крик",
+  "en": "shout, scream",
+  "theme": "Молчат Дома: Ты же не знаешь, кто я",
+  "pos": "noun",
+  "g": "m",
+  "kind": "abstract",
+  "skip": [
+   "acc"
+  ],
+  "nonum": true,
+  "note": "Pl. крики."
+ },
+ {
+  "ru": "гам",
+  "en": "din, racket",
+  "theme": "Молчат Дома: Ты же не знаешь, кто я",
+  "pos": "noun",
+  "g": "m",
+  "kind": "abstract",
+  "mass": true,
+  "skip": [
+   "acc"
+  ]
+ },
+ {
+  "ru": "провод",
+  "en": "wire",
+  "theme": "Молчат Дома: Ты же не знаешь, кто я",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing",
+  "note": "Stressed -а plural: провода, проводов. «По проводам» = along the wires, over the phone.",
+  "forms": {
+   "npl": "провода"
+  }
+ },
+ {
+  "ru": "слеза",
+  "en": "tear (crying)",
+  "theme": "Молчат Дома: Ты же не знаешь, кто я",
+  "pos": "noun",
+  "g": "f",
+  "kind": "abstract",
+  "skip": [
+   "gen",
+   "dat",
+   "acc",
+   "ins"
+  ],
+  "note": "Pl. слёзы, слёз, dat. слезам (stress moves). «Ты же не веришь слезам» = you don’t believe tears.",
+  "forms": {
+   "npl": "слёзы",
+   "gpl": "слёз"
+  }
+ },
+ {
+  "ru": "задуть",
+  "en": "to blow out (a flame) (pf.)",
+  "theme": "Молчат Дома: Ты же не знаешь, кто я",
+  "pos": "verb",
+  "asp": "pf",
+  "note": "задую, задуешь. «Задует любовный очаг» = will blow out the hearth of love.",
+  "conj": {
+   "1s": "задую",
+   "2s": "задуешь",
+   "3s": "задует",
+   "1p": "задуем",
+   "2p": "задуете",
+   "3p": "задуют"
+  }
+ },
+ {
+  "ru": "резать",
+  "en": "to cut (impf.)",
+  "theme": "Молчат Дома: Ты же не знаешь, кто я",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "Irregular: режу, режешь, режут (з → ж everywhere). «Слово режет пополам» = a word cuts in half.",
+  "conj": {
+   "1s": "режу",
+   "2s": "режешь",
+   "3s": "режет",
+   "1p": "режем",
+   "2p": "режете",
+   "3p": "режут"
+  },
+  "frames": {
+   "3s": "Слово {} пополам."
+  }
+ },
+ {
+  "ru": "ответить",
+  "en": "to answer (pf.) + dat. (whom) / на + acc. (what)",
+  "theme": "Молчат Дома: Ты же не знаешь, кто я",
+  "pos": "verb",
+  "asp": "pf",
+  "note": "отвечу, ответишь (т → ч in я-form). Impf.: отвечать.",
+  "conj": {
+   "1s": "отвечу",
+   "2s": "ответишь",
+   "3s": "ответит",
+   "1p": "ответим",
+   "2p": "ответите",
+   "3p": "ответят"
+  },
+  "frames": {
+   "1p": "Мы {} только: «Пока…»"
+  }
+ },
+ {
+  "ru": "представлять себе",
+  "en": "to imagine (impf.)",
+  "theme": "Молчат Дома: Ты же не знаешь, кто я",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "Себе (dative of себя) stays the same: я представляю себе, ты представляешь себе. Pf.: представить себе.",
+  "conj": {
+   "1s": "представляю себе",
+   "2s": "представляешь себе",
+   "3s": "представляет себе",
+   "1p": "представляем себе",
+   "2p": "представляете себе",
+   "3p": "представляют себе"
+  }
+ },
+ {
+  "ru": "раздражать",
+  "en": "to irritate, annoy (impf.)",
+  "theme": "Молчат Дома: Ты же не знаешь, кто я",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "«Я раздражаю всегда» = I’m always annoying (you).",
+  "conj": {
+   "1s": "раздражаю",
+   "2s": "раздражаешь",
+   "3s": "раздражает",
+   "1p": "раздражаем",
+   "2p": "раздражаете",
+   "3p": "раздражают"
+  },
+  "frames": {
+   "1s": "Я {} тебя всегда."
+  }
+ },
+ {
+  "ru": "верить",
+  "en": "to believe, trust (impf.) + dat.",
+  "theme": "Молчат Дома: Ты же не знаешь, кто я",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "Dative, like German glauben + Dativ: верить тебе, верить слезам. Верить в + acc. = believe in.",
+  "conj": {
+   "1s": "верю",
+   "2s": "веришь",
+   "3s": "верит",
+   "1p": "верим",
+   "2p": "верите",
+   "3p": "верят"
+  },
+  "frames": {
+   "2s": "Ты же не {} слезам."
+  }
+ },
+ {
+  "ru": "прошептать",
+  "en": "to whisper (pf.)",
+  "theme": "Молчат Дома: Ты же не знаешь, кто я",
+  "pos": "verb",
+  "asp": "pf",
+  "note": "Irregular: прошепчу, прошепчешь (т → ч everywhere). Impf.: шептать.",
+  "conj": {
+   "1s": "прошепчу",
+   "2s": "прошепчешь",
+   "3s": "прошепчет",
+   "1p": "прошепчем",
+   "2p": "прошепчете",
+   "3p": "прошепчут"
+  },
+  "frames": {
+   "1s": "Я {} те слова."
+  }
+ },
+ {
+  "ru": "дрожать",
+  "en": "to tremble, shake (impf.)",
+  "theme": "Молчат Дома: Ты же не знаешь, кто я",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "2nd conjugation despite -ать: дрожу, дрожишь, дрожат. «Руки дрожат» = hands are shaking.",
+  "conj": {
+   "1s": "дрожу",
+   "2s": "дрожишь",
+   "3s": "дрожит",
+   "1p": "дрожим",
+   "2p": "дрожите",
+   "3p": "дрожат"
+  },
+  "frames": {
+   "3p": "Руки {}."
+  }
+ },
+ {
+  "ru": "хватать",
+  "en": "to grab, snatch (impf.)",
+  "theme": "Молчат Дома: Ты же не знаешь, кто я",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "Pf.: схватить. Also impersonal хватать + gen. = to be enough: денег не хватает.",
+  "conj": {
+   "1s": "хватаю",
+   "2s": "хватаешь",
+   "3s": "хватает",
+   "1p": "хватаем",
+   "2p": "хватаете",
+   "3p": "хватают"
+  },
+  "frames": {
+   "3p": "Руки {} перо."
+  }
+ },
+ {
+  "ru": "стоить",
+  "en": "to be worth; to cost (impf.)",
+  "theme": "Молчат Дома: Ты же не знаешь, кто я",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "«Не стоит того» = it’s not worth it. «Сколько стоит?» = how much is it?",
+  "conj": {
+   "3s": "стоит",
+   "3p": "стоят"
+  },
+  "frames": {
+   "3s": "Это не {} того.",
+   "3p": "Билеты {} дорого."
+  }
+ },
+ {
+  "ru": "полететь",
+  "en": "to fly off, take off (pf.)",
+  "theme": "Молчат Дома: Ты же не знаешь, кто я",
+  "pos": "verb",
+  "asp": "pf",
+  "note": "полечу, полетишь (т → ч in я-form). «Полетело по проводам» = it flew down the wires.",
+  "conj": {
+   "1s": "полечу",
+   "2s": "полетишь",
+   "3s": "полетит",
+   "1p": "полетим",
+   "2p": "полетите",
+   "3p": "полетят"
+  }
+ },
+ {
+  "ru": "случиться",
+  "en": "to happen (pf.)",
+  "theme": "Молчат Дома: Ты же не знаешь, кто я",
+  "pos": "verb",
+  "asp": "pf",
+  "note": "Usually 3rd person: что случилось? = what happened? «Что случилось там» = what happened there.",
+  "conj": {
+   "3s": "случится",
+   "3p": "случатся"
+  },
+  "frames": {
+   "3s": "Что {} завтра?",
+   "3p": "Чудеса {}."
+  }
+ },
+ {
+  "ru": "неверный",
+  "en": "unfaithful; wrong, false",
+  "theme": "Молчат Дома: Ты же не знаешь, кто я",
+  "pos": "adj",
+  "note": "«Неверный поступок» = an act of infidelity."
+ },
+ {
+  "ru": "любовный",
+  "en": "love (adj.), romantic",
+  "theme": "Молчат Дома: Ты же не знаешь, кто я",
+  "pos": "adj",
+  "note": "«Любовный очаг» = the hearth of love."
+ },
+ {
+  "ru": "злой",
+  "en": "angry, mean, wicked",
+  "theme": "Молчат Дома: Ты же не знаешь, кто я",
+  "pos": "adj",
+  "note": "Short form: зол, зла. «Злые вопросы» = cruel questions."
+ },
+ {
+  "ru": "неподвластно",
+  "en": "beyond (one’s) control, uncontrollably",
+  "theme": "Молчат Дома: Ты же не знаешь, кто я",
+  "pos": "adv",
+  "note": "From неподвластный = not subject to someone’s power."
+ },
+ {
+  "ru": "известно",
+  "en": "(it is) known",
+  "theme": "Молчат Дома: Ты же не знаешь, кто я",
+  "pos": "adv",
+  "note": "«Это известно только нам» = only we know this (lit. it is known only to us)."
+ },
+ {
+  "ru": "пополам",
+  "en": "in half",
+  "theme": "Молчат Дома: Ты же не знаешь, кто я",
+  "pos": "adv",
+  "note": "The lyric spells it «на пополам», but standard Russian is just пополам."
+ },
+ {
+  "ru": "же",
+  "en": "after all, you know (emphatic particle)",
+  "theme": "Молчат Дома: Ты же не знаешь, кто я",
+  "pos": "adv",
+  "note": "«Ты же не знаешь, кто я» = but you don’t even know who I am. Also \"the same\": тот же."
+ },
+ {
+  "ru": "грудь",
+  "en": "chest, breast",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "noun",
+  "g": "f",
+  "kind": "body",
+  "mass": true,
+  "note": "Feminine -ь noun. «У неё горит в груди» = her chest is burning."
+ },
+ {
+  "ru": "кусок",
+  "en": "piece",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing",
+  "fleet": true,
+  "note": "Fleeting о: куска, куски. «Разрывает на куски» = tears to pieces."
+ },
+ {
+  "ru": "ритм",
+  "en": "rhythm",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "noun",
+  "g": "m",
+  "kind": "abstract",
+  "nonum": true,
+  "note": "«Ритм сердца» = heartbeat rhythm."
+ },
+ {
+  "ru": "тело",
+  "en": "body",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "noun",
+  "g": "n",
+  "kind": "body",
+  "mass": true,
+  "note": "Pl. тела, тел; dative pl. телам: «Дай телам переплестись»."
+ },
+ {
+  "ru": "суета",
+  "en": "bustle, fuss; vanity",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "noun",
+  "g": "f",
+  "kind": "abstract",
+  "mass": true,
+  "note": "«В мире, полном суеты» = in a world full of bustle. In church: «суета сует» = vanity of vanities."
+ },
+ {
+  "ru": "страсть",
+  "en": "passion",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "noun",
+  "g": "f",
+  "kind": "abstract",
+  "mass": true,
+  "note": "«Море страсти» = a sea of passion."
+ },
+ {
+  "ru": "ненасытность",
+  "en": "insatiability",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "noun",
+  "g": "f",
+  "kind": "abstract",
+  "mass": true,
+  "skip": [
+   "dat",
+   "acc"
+  ]
+ },
+ {
+  "ru": "жажда",
+  "en": "thirst, craving",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "noun",
+  "g": "f",
+  "kind": "abstract",
+  "mass": true,
+  "skip": [
+   "dat"
+  ],
+  "note": "«Жажды миг» = a moment of craving."
+ },
+ {
+  "ru": "миг",
+  "en": "instant, moment",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "noun",
+  "g": "m",
+  "kind": "abstract",
+  "mass": true,
+  "skip": [
+   "gen",
+   "dat",
+   "acc",
+   "ins"
+  ],
+  "note": "Poetic for момент. «В один миг» = in an instant."
+ },
+ {
+  "ru": "сила",
+  "en": "strength, force",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "noun",
+  "g": "f",
+  "kind": "abstract",
+  "mass": true,
+  "skip": [
+   "gen",
+   "dat"
+  ],
+  "note": "Pl. силы, сил. «Сил больше не достать» = no more strength to be found."
+ },
+ {
+  "ru": "бред",
+  "en": "nonsense, delirium",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "noun",
+  "g": "m",
+  "kind": "abstract",
+  "mass": true,
+  "skip": [
+   "acc"
+  ],
+  "note": "«Это просто бред» = that’s just nonsense. В бреду = delirious."
+ },
+ {
+  "ru": "бояться",
+  "en": "to be afraid (impf.) + gen.",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "2nd conjugation: боюсь, боишься, боятся. «Не бойся» = don’t be afraid. Бояться темноты = to be afraid of the dark.",
+  "conj": {
+   "1s": "боюсь",
+   "2s": "боишься",
+   "3s": "боится",
+   "1p": "боимся",
+   "2p": "боитесь",
+   "3p": "боятся"
+  },
+  "frames": {
+   "2s": "Ты {} темноты?"
+  }
+ },
+ {
+  "ru": "подойти",
+  "en": "to come up to, approach (pf.) + к + dat.",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "verb",
+  "asp": "pf",
+  "note": "Irregular: подойду, подойдёшь; past подошёл, подошла. Impf.: подходить.",
+  "conj": {
+   "1s": "подойду",
+   "2s": "подойдёшь",
+   "3s": "подойдёт",
+   "1p": "подойдём",
+   "2p": "подойдёте",
+   "3p": "подойдут"
+  },
+  "frames": {
+   "1s": "Я {} к ней."
+  }
+ },
+ {
+  "ru": "гореть",
+  "en": "to burn (impf.)",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "2nd conjugation: горю, горишь. «У неё горит в груди» = her chest is on fire.",
+  "conj": {
+   "1s": "горю",
+   "2s": "горишь",
+   "3s": "горит",
+   "1p": "горим",
+   "2p": "горите",
+   "3p": "горят"
+  },
+  "frames": {
+   "3s": "У неё {} в груди."
+  }
+ },
+ {
+  "ru": "разрывать",
+  "en": "to tear apart (impf.)",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "Pf.: разорвать. «Разрывает на куски» = tears to pieces.",
+  "conj": {
+   "1s": "разрываю",
+   "2s": "разрываешь",
+   "3s": "разрывает",
+   "1p": "разрываем",
+   "2p": "разрываете",
+   "3p": "разрывают"
+  }
+ },
+ {
+  "ru": "переплестись",
+  "en": "to intertwine (pf.)",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "verb",
+  "asp": "pf",
+  "note": "Reflexive of переплести: переплетусь, переплетёшься; past переплёлся, переплелась.",
+  "conj": {
+   "1p": "переплетёмся",
+   "2p": "переплетётесь",
+   "3p": "переплетутся"
+  },
+  "frames": {
+   "3p": "Наши руки {}."
+  }
+ },
+ {
+  "ru": "опустошить",
+  "en": "to empty; to devastate (pf.)",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "verb",
+  "asp": "pf",
+  "note": "«Голову опустоши» = empty your head (imperative).",
+  "conj": {
+   "1s": "опустошу",
+   "2s": "опустошишь",
+   "3s": "опустошит",
+   "1p": "опустошим",
+   "2p": "опустошите",
+   "3p": "опустошат"
+  }
+ },
+ {
+  "ru": "оторваться",
+  "en": "to tear oneself away, break loose; (slang) to cut loose (pf.)",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "verb",
+  "asp": "pf",
+  "note": "оторвусь, оторвёшься. «Оторвёмся от земли» = let’s leave the ground.",
+  "conj": {
+   "1s": "оторвусь",
+   "2s": "оторвёшься",
+   "3s": "оторвётся",
+   "1p": "оторвёмся",
+   "2p": "оторвётесь",
+   "3p": "оторвутся"
+  },
+  "frames": {
+   "1p": "Мы {} от земли."
+  }
+ },
+ {
+  "ru": "разлиться",
+  "en": "to spill, overflow (pf.)",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "verb",
+  "asp": "pf",
+  "note": "Irregular: разольётся, разольются; past разлился, разлилась, разлилось. «Море страсти разлилось» = a sea of passion overflowed.",
+  "conj": {
+   "3s": "разольётся",
+   "3p": "разольются"
+  },
+  "frames": {
+   "3s": "Река {} весной.",
+   "3p": "Реки {} весной."
+  }
+ },
+ {
+  "ru": "сбыться",
+  "en": "to come true (pf.)",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "verb",
+  "asp": "pf",
+  "note": "Future сбудется; past сбылся, сбылось. «Всё сбылось» = everything came true.",
+  "conj": {
+   "3s": "сбудется",
+   "3p": "сбудутся"
+  },
+  "frames": {
+   "3s": "Всё {}.",
+   "3p": "Мечты {}."
+  }
+ },
+ {
+  "ru": "достать",
+  "en": "to get, reach, obtain (pf.)",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "verb",
+  "asp": "pf",
+  "note": "Irregular: достану, достанешь. Impf.: доставать.",
+  "conj": {
+   "1s": "достану",
+   "2s": "достанешь",
+   "3s": "достанет",
+   "1p": "достанем",
+   "2p": "достанете",
+   "3p": "достанут"
+  }
+ },
+ {
+  "ru": "закрываться",
+  "en": "to close (impf.)",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "«Закрываются глаза» = (my) eyes are closing.",
+  "conj": {
+   "3s": "закрывается",
+   "3p": "закрываются"
+  },
+  "frames": {
+   "3s": "Магазин {} в девять.",
+   "3p": "Глаза {}."
+  }
+ },
+ {
+  "ru": "пропустить",
+  "en": "to skip, miss (pf.)",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "verb",
+  "asp": "pf",
+  "note": "пропущу, пропустишь (ст → щ in я-form). «Утро пропустило сон» = morning skipped sleep.",
+  "conj": {
+   "1s": "пропущу",
+   "2s": "пропустишь",
+   "3s": "пропустит",
+   "1p": "пропустим",
+   "2p": "пропустите",
+   "3p": "пропустят"
+  }
+ },
+ {
+  "ru": "проснуться",
+  "en": "to wake up (pf.)",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "verb",
+  "asp": "pf",
+  "note": "проснусь, проснёшься. «Мы проснулись не вдвоём» = we didn’t wake up together.",
+  "conj": {
+   "1s": "проснусь",
+   "2s": "проснёшься",
+   "3s": "проснётся",
+   "1p": "проснёмся",
+   "2p": "проснётесь",
+   "3p": "проснутся"
+  },
+  "frames": {
+   "1p": "Завтра мы {} вдвоём."
+  }
+ },
+ {
+  "ru": "поверить",
+  "en": "to believe (pf.) + dat.; в + acc. = to believe in",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "verb",
+  "asp": "pf",
+  "note": "«Не поверил бы во всё» = I wouldn’t have believed it all.",
+  "conj": {
+   "1s": "поверю",
+   "2s": "поверишь",
+   "3s": "поверит",
+   "1p": "поверим",
+   "2p": "поверите",
+   "3p": "поверят"
+  }
+ },
+ {
+  "ru": "встретить",
+  "en": "to meet, run into (pf.)",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "verb",
+  "asp": "pf",
+  "note": "встречу, встретишь (т → ч in я-form). «Если бы не встретил вновь её» = if I hadn’t met her again.",
+  "conj": {
+   "1s": "встречу",
+   "2s": "встретишь",
+   "3s": "встретит",
+   "1p": "встретим",
+   "2p": "встретите",
+   "3p": "встретят"
+  }
+ },
+ {
+  "ru": "полный",
+  "en": "full (+ gen.)",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "adj",
+  "note": "Short form: полон, полна. «В мире, полном суеты» = in a world full of bustle."
+ },
+ {
+  "ru": "изнутри",
+  "en": "from inside",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "adv",
+  "note": "«Ритм сердца изнутри» = the heartbeat from within."
+ },
+ {
+  "ru": "вдвоём",
+  "en": "the two of us, together (as a pair)",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "adv",
+  "note": "«Мы проснулись не вдвоём» = we didn’t wake up together."
+ },
+ {
+  "ru": "вновь",
+  "en": "again (poetic)",
+  "theme": "Молчат Дома: Не вдвоём",
+  "pos": "adv",
+  "note": "Same as снова. «Встретил вновь её» = met her again."
  }
 ]

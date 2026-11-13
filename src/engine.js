@@ -194,6 +194,20 @@ var RuEngine = (function () {
       ins: ["Что лежит под ___?", "What's under the {en}?", "Под (under) + instrumental answers 'where?'"],
       prep: ["Это {lie} {pp} ___.", "It's {at} the {en}.", "Где? (where?) В/на + prepositional after стоять, лежать, висеть."]
     },
+    // abstract nouns (feelings, sounds, ideas): Молчат Дома song words
+    abstract: {
+      gen: ["Это песня без ___.", "It's a song without {a} {en}.", "Без (without) takes the genitive."],
+      dat: ["Я уже привык {p:к} ___.", "I've already gotten used to the {en}.", "Привыкнуть к (to get used to) takes the dative."],
+      acc: ["Я чувствую ___.", "I feel the {en}.", "A direct object goes in the accusative."],
+      ins: ["Что делать {p:с} ___?", "What should I do with the {en}?", "С (with) takes the instrumental."],
+      prep: ["Это песня {p:о} ___.", "It's a song about the {en}.", "О (about) takes the prepositional."]
+    },
+    // parts of the body
+    body: {
+      dat: ["Он прижал руку {p:к} ___.", "He pressed his hand to his {en}.", "К (towards, against) takes the dative."],
+      acc: ["Он показал на ___.", "He pointed at his {en}.", "Показать на (to point at) takes the accusative."],
+      prep: ["Что-то горит {p:в} ___.", "Something is burning in the {en}.", "В + prepositional answers 'where?' (like the song: «У неё горит в груди»)."]
+    },
     money: {}, unit: {}
   };
   var CASE_NAME = { gen: "genitive", dat: "dative", acc: "accusative", ins: "instrumental", prep: "prepositional" };
@@ -236,6 +250,8 @@ var RuEngine = (function () {
   function numWord(spec, g) { return typeof spec === "string" ? spec : spec[g] || spec.m; }
 
   // Build exercises for one word. types: cases, plurals, numbers, cards
+  var PERS = ["1s", "2s", "3s", "1p", "2p", "3p"];
+  var PRON = { "1s": ["Я", "I"], "2s": ["Ты", "you"], "3s": ["Он", "he/she/it", "он/она/оно"], "1p": ["Мы", "we"], "2p": ["Вы", "you, plural/formal"], "3p": ["Они", "they"] };
   function wordExercises(w, types, pool) {
     var out = [];
     var gl = [w.ru + ": " + w.en];
@@ -282,19 +298,34 @@ var RuEngine = (function () {
         });
       }
     }
+    // conjugation (verbs that carry their present/future forms, e.g. the Молчат Дома words)
+    if (types.conj && w.pos === "verb" && w.conj) {
+      var ks = PERS.filter(function (k) { return w.conj[k]; });
+      var pf = w.asp === "pf", tense = pf ? "future" : "present";
+      var para = ks.map(function (k) { return (PRON[k][2] || PRON[k][0].toLowerCase()) + " " + w.conj[k]; }).join(" · ");
+      var enV = (w.en || "").split(" (")[0];
+      ks.forEach(function (k) {
+        var fr = (w.frames && w.frames[k]) || (PRON[k][0] + " {}.");
+        var a = w.conj[k];
+        var d = shuffle(uniq(ks.filter(function (x) { return x !== k; }).map(function (x) { return w.conj[x]; }).concat([w.ru]), a)).slice(0, 3);
+        out.push({ cat: "vocab", sub: "conjugation", s: fr.replace("{}", "___"), base: w.ru + (pf ? " (pf. → future)" : " (impf. → present)"), a: a, alt: [], d: d,
+          ex: (pf ? "Perfective verbs have no present tense: these endings make the future. " : "") + para + ".",
+          translation: "(" + PRON[k][1] + ") " + enV + ", " + tense + " tense", glosses: gl, word: w.ru });
+      });
+    }
     if (types.cards && pool) {
       var same = pool.filter(function (x) { return x !== w && x.theme === w.theme; });
       var others = same.length >= 3 ? same : pool.filter(function (x) { return x !== w; });
       var enD = uniq(shuffle(others).map(function (x) { return x.en; }), w.en).slice(0, 3);
       var ruD = uniq(shuffle(others.filter(function (x) { return x.pos === w.pos; }).concat(shuffle(others))).map(function (x) { return x.ru; }), w.ru).slice(0, 3);
-      out.push({ cat: "vocab", sub: "flashcard ru→en", s: "«" + w.ru + "» — ___", base: "choose the English meaning", a: w.en, alt: [], d: enD, ex: w.ru + " means \"" + w.en + "\".", translation: "", glosses: [], word: w.ru, choiceOnly: true });
-      out.push({ cat: "vocab", sub: "flashcard en→ru", s: "«" + w.en + "» — ___", base: "по-русски", a: w.ru, alt: [], d: ruD, ex: "\"" + w.en + "\" is " + w.ru + ".", translation: "", glosses: [], word: w.ru });
+      out.push({ cat: "vocab", sub: "flashcard ru→en", s: "«" + w.ru + "» — ___", base: "choose the English meaning", a: w.en, alt: [], d: enD, ex: w.ru + " means \"" + w.en + "\"." + (w.note ? " " + w.note : ""), translation: "", glosses: [], word: w.ru, choiceOnly: true });
+      out.push({ cat: "vocab", sub: "flashcard en→ru", s: "«" + w.en + "» — ___", base: "по-русски", a: w.ru, alt: [], d: ruD, ex: "\"" + w.en + "\" is " + w.ru + "." + (w.note ? " " + w.note : ""), translation: "", glosses: [], word: w.ru });
     }
     return out;
   }
 
   function buildSession(words, drill, limit) {
-    var types = drill === "mixed" ? { cases: 1, plurals: 1, numbers: 1, cards: 1 } : {};
+    var types = drill === "mixed" ? { cases: 1, plurals: 1, numbers: 1, cards: 1, conj: 1 } : {};
     if (drill !== "mixed") types[drill] = 1;
     var all = [];
     words.forEach(function (w) { all = all.concat(wordExercises(w, types, words)); });

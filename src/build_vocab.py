@@ -1,13 +1,27 @@
 import json
 words=[];table={};theme=None
+PERS=('1s','2s','3s','1p','2p','3p')
 for line in open('vocab_source.txt'):
     line=line.rstrip('\n')
     if not line or line.startswith('#'): continue
     if line.startswith('@'): theme=line[1:]; continue
     p=line.split('|')
     ru,en,pg=p[0],p[1],p[2]
-    if pg in('adj','verb','phrase'):
-        words.append(dict(ru=ru,en=en,theme=theme,pos=pg)); continue
+    if pg in('adj','verb','phrase','adv'):
+        w=dict(ru=ru,en=en,theme=theme,pos=pg)
+        # optional 4th field (Молчат Дома words): aspect, conjugation forms 1s..3p, sentence frames f1s..f3p, note
+        if len(p)>3 and p[3]:
+            conj={};frames={}
+            for f in p[3].split():
+                if f in('impf','pf'): w['asp']=f; continue
+                k,v=f.split('=',1); v=v.replace('_',' ')
+                if k=='note': w['note']=v
+                elif k in PERS: conj[k]=v
+                elif k[:1]=='f' and k[1:] in PERS: frames[k[1:]]=v
+                else: raise SystemExit('unknown flag '+f+' in '+ru)
+            if conj: w['conj']=conj
+            if frames: w['frames']=frames
+        words.append(w); continue
     kind,flags=p[3],p[4]
     w=dict(ru=ru,en=en,theme=theme,pos='noun',g=pg,kind=kind)
     forms={}
@@ -21,6 +35,7 @@ for line in open('vocab_source.txt'):
             elif k=='enp': w['enp']=v
             elif k=='gpl_alt': w['gplAlt']=v
             elif k=='enprep': w['enprep']=v
+            elif k=='note': w['note']=v
             else: forms[k]=v
         else: w[f]=True
     if forms: w['forms']=forms
