@@ -28,6 +28,9 @@ select{font:inherit;font-size:15px;padding:9px 10px;border-radius:10px;border:1p
 .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 16px;margin-top:12px}
 .meta{display:flex;flex-wrap:wrap;gap:6px;font-size:12px;color:var(--muted);margin-bottom:10px}
 .tag{background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:2px 9px}
+.tag.pos{background:var(--accent);color:var(--bg);font-weight:600}
+.slbl{font-size:14px;color:var(--muted)}
+.sizes .chip{min-width:52px}
 .tag.again{background:var(--bad-soft);color:var(--bad)}
 .sentence{font-size:22px;line-height:1.5;font-family:"PT Serif","Noto Serif",Georgia,"Times New Roman",serif;margin:4px 0 6px}
 .blank{display:inline-block;min-width:3.5em;border-bottom:2px solid var(--accent);text-align:center;color:var(--accent);padding:0 4px}
@@ -219,6 +222,7 @@ body.locked{overflow:hidden}
   <select id="sub" aria-label="Subtopic"></select>
   <div class="chips" id="modes" role="group" aria-label="Mode" style="margin:0"></div>
 </div>
+<div class="row sizes"><span class="slbl" id="sizesLbl">Questions per set</span><div class="chips" id="sizes" role="group" aria-labelledby="sizesLbl" style="margin:0"></div></div>
 
 <div class="card" id="card"></div>
 </div>
