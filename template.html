@@ -67,6 +67,16 @@ summary{cursor:pointer;min-height:40px;display:flex;align-items:center}
 .tab{flex:1;font:inherit;font-size:14px;min-height:42px;padding:0 4px;border:0;border-radius:9px;background:transparent;color:var(--text);cursor:pointer}
 .tab[aria-selected=true]{background:var(--accent);color:var(--bg);font-weight:600}
 .hidden{display:none!important}
+.ru-w{-webkit-tap-highlight-color:transparent;border-radius:3px;transition:background-color .2s}
+.ru-w.ru-say{background:var(--accent-soft)}
+@media (hover:hover){body:not(.tts-off) .ru-w:hover{text-decoration:underline dotted;text-decoration-thickness:1px;text-underline-offset:3px;cursor:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24'%3E%3Cpath d='M4 9h4l5-4v14l-5-4H4z' fill='%232f5d8a' stroke='white' stroke-width='1.2'/%3E%3Cpath d='M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12' fill='none' stroke='%232f5d8a' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E") 4 11,pointer}}
+@media (hover:none){body:not(.tts-off) .ru-w{-webkit-touch-callout:none;-webkit-user-select:none;user-select:none}}
+.say{font-size:17px;line-height:1;vertical-align:middle;background:var(--accent-soft);border:0;border-radius:999px;min-width:36px;min-height:36px;padding:0 8px;margin-left:6px;cursor:pointer;-webkit-touch-callout:none;-webkit-user-select:none;user-select:none}
+.tog{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--muted);min-height:36px;cursor:pointer}
+.tog input{width:20px;height:20px;margin:0}
+.sptoast{position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom));transform:translateX(-50%);width:min(520px,calc(100% - 24px));background:var(--text);color:var(--bg);border-radius:12px;padding:12px 40px 12px 14px;font-size:14px;line-height:1.4;z-index:1000;box-shadow:0 6px 24px rgba(0,0,0,.25)}
+.sptoast .tx{position:absolute;top:6px;right:6px;background:none;border:0;color:inherit;font-size:16px;min-width:32px;min-height:32px;cursor:pointer}
+
 .wlist{margin-top:10px}
 .wtheme{font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:16px 2px 6px}
 .witem{display:flex;gap:8px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin-bottom:6px}
@@ -223,6 +233,7 @@ body.locked{overflow:hidden}
   <div class="chips" id="modes" role="group" aria-label="Mode" style="margin:0"></div>
 </div>
 <div class="row sizes"><span class="slbl" id="sizesLbl">Questions per set</span><div class="chips" id="sizes" role="group" aria-labelledby="sizesLbl" style="margin:0"></div></div>
+<div class="row"><label class="tog"><input type="checkbox" id="ttsT" checked> Tap words to hear them</label></div>
 
 <div class="card" id="card"></div>
 </div>
@@ -246,6 +257,8 @@ body.locked{overflow:hidden}
   <p>Word hints under each sentence give the meaning of less common words. Tap Show translation for the whole sentence; it also appears after you answer.</p>
   <p>Typed answers ignore capital letters, extra spaces, and ё/е differences. A missed item comes back 3–6 questions later and has to be answered correctly before the session ends.</p>
   <p id="lifetime"></p>
+  <label class="tog"><input type="checkbox" id="ttsT2" checked> Tap words to hear them</label>
+  <p>Tap or click any Russian word to hear it; long-press, Shift-click or right-click plays it slowly. After you answer, 🔊 reads the whole sentence. Stress marks (´) come from the OpenRussian.org dictionary (CC BY-SA 4.0) and are shown only where the stress is certain.</p>
   <p>When you're signed in, your lesson progress, drill scores and My words are saved to your account, so they follow you to any phone or computer. Without an account they stay in this browser only. Export makes a backup file of My words.</p>
   <p>To add grammar exercises, edit <code>exercises.json</code>; starter vocabulary lives in <code>vocab.json</code>, and lessons in <code>lessons.json</code>. The page loads them when hosted and falls back to its built-in copy when you open the file directly.</p>
   <button class="btn quiet" id="reset">Reset drill scores (keeps My words and lesson progress)</button>
@@ -253,6 +266,10 @@ body.locked{overflow:hidden}
 </div>
 
 <script id="embedded" type="application/json">/*__DATA__*/</script>
+<script id="stressData" type="application/json">/*__STRESS__*/</script>
+<script>
+/*__SPEECH__*/
+</script>
 <script>
 /*__ENGINE__*/
 </script>

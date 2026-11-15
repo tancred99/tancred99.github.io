@@ -12,4 +12,4 @@ After editing the JSON, rebuild the page from the repo root:
 python3 build.py
 ```
 
-Grammar items live in `exercises.json`. `build.py` regenerates `vocab.json` from `src/vocab_source.txt` and `lessons.json` from `src/lessons_src.py`, then inlines those JSON files plus `src/engine.js`, `src/app.js`, `src/firebase-config.js`, and `src/cloud.js` into `template.html` and writes `index.html`. Put lasting starter-vocabulary edits in `src/vocab_source.txt` and lasting lesson edits in `src/lessons_src.py` so the rebuild keeps them.
+Grammar items live in `exercises.json`. `build.py` regenerates `vocab.json` from `src/vocab_source.txt` and `lessons.json` from `src/lessons_src.py`, then inlines those JSON files plus `src/stress.json`, `src/speech.js`, `src/engine.js`, `src/app.js`, `src/firebase-config.js`, and `src/cloud.js` into `template.html` and writes `index.html`. Put lasting starter-vocabulary edits in `src/vocab_source.txt` and lasting lesson edits in `src/lessons_src.py` so the rebuild keeps them.

@@ -1,6 +1,8 @@
 (function(){
 "use strict";
 var E=window.RuEngine;
+var SP=window.RuSpeech||{accent:function(s){return s},setEnabled:function(){}};
+var CYR=/[А-Яа-яЁё]/;
 var CATS=[["all","All"],["basics","Basics"],["cases","Cases"],["conjugation","Verbs"],["aspect","Aspect"],["motion","Motion"],["home","At home"],["kakoy","какой / какая / какое / какие"],["frequency","никогда / иногда / всегда / часто / редко"]];
 var LEVELS=[["A1-A2","A1–A2"],["B1-C1","B1–C1"]];
 var MODES=[["choice","Choice"],["type","Type"]];
@@ -16,20 +18,20 @@ var lprog=load(LSL);if(!lprog||typeof lprog.lessons!=="object"||!lprog.lessons)l
 var store=load(LS)||{};
 var cyc=load(LSC);if(!cyc||typeof cyc!=="object")cyc={};
 var st={tab:store.tab||"lessons",lview:"map",lid:null,first:0,lsaved:false,level:store.level||"A1-A2",showTr:false,cat:store.cat||"all",sub:"all",mode:store.mode||"choice",
-  vtheme:store.vtheme||"all",size:sizeOf(store.setSize),setN:0,setDone:0,pk:null,pending:null,setInfo:null,setClosed:false,vdrill:store.vdrill||"mixed",wtheme:"all",queue:[],cur:null,answered:false,right:0,total:0,streak:0,picked:null,editing:null,importing:null};
+  vtheme:store.vtheme||"all",size:sizeOf(store.setSize),tts:store.tts!==false,setN:0,setDone:0,pk:null,pending:null,setInfo:null,setClosed:false,vdrill:store.vdrill||"mixed",wtheme:"all",queue:[],cur:null,answered:false,right:0,total:0,streak:0,picked:null,editing:null,importing:null};
 
 function load(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}}
 function sizeOf(n){return (n===0||n===10||n===15||n===20)?n:10}
 function saveCyc(){try{localStorage.setItem(LSC,JSON.stringify(cyc))}catch(e){}}
 var listeners=[],started=false;
 function changed(kind){listeners.forEach(function(f){try{f(kind)}catch(e){}})}
-function saveLocal(){try{store.cat=st.cat;store.mode=st.mode;store.level=st.level;store.tab=st.tab;store.vtheme=st.vtheme;store.vdrill=st.vdrill;store.setSize=st.size;localStorage.setItem(LS,JSON.stringify(store))}catch(e){}}
+function saveLocal(){try{store.cat=st.cat;store.mode=st.mode;store.level=st.level;store.tab=st.tab;store.vtheme=st.vtheme;store.vdrill=st.vdrill;store.setSize=st.size;store.tts=st.tts;localStorage.setItem(LS,JSON.stringify(store))}catch(e){}}
 function save(){saveLocal();changed("drills")}
 function saveLessons(){try{localStorage.setItem(LSL,JSON.stringify(lprog))}catch(e){}changed("lessons")}
 function saveWords(){try{localStorage.setItem(LSW,JSON.stringify({version:1,words:WORDS}))}catch(e){alert("Couldn't save words in this browser (storage full or blocked).")}changed("words")}
 function $(id){return document.getElementById(id)}
 function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
-function norm(s){return String(s).toLowerCase().replace(/ё/g,"е").replace(/[.,!?;:«»"]/g,"").replace(/\s+/g," ").trim()}
+function norm(s){return String(s).replace(/\u0301/g,"").toLowerCase().replace(/ё/g,"е").replace(/[.,!?;:«»"]/g,"").replace(/\s+/g," ").trim()}
 function shuffle(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t}return a}
 function clone(o){return JSON.parse(JSON.stringify(o))}
 var CAT_LABEL={basics:"Basics",cases:"Cases",conjugation:"Verbs",aspect:"Aspect",motion:"Motion",home:"At home",kakoy:"какой / какая / какое / какие",frequency:"никогда / иногда / всегда / часто / редко",vocab:"Vocabulary",lesson:"Lesson"};
@@ -184,10 +186,19 @@ function check(val){
   save();render();
 }
 
-function sentenceHTML(e,fill,cls){
-  var parts=e.s.split("___");
-  return esc(parts[0])+'<span class="blank '+(cls||"")+'">'+(fill?esc(fill):"&nbsp;")+'</span>'+esc(parts[1]);
+function sentenceHTML(e,fill,cls,acc){
+  var parts=e.s.split("___"),f=acc?function(x){return SP.accent(x)}:function(x){return x};
+  return esc(f(parts[0]))+'<span class="blank '+(cls||"")+'">'+(fill?esc(SP.accent(fill)):"&nbsp;")+'</span>'+esc(f(parts[1]));
 }
+// what 🔊 reads after an answer: the completed sentence (flashcards: just the Russian word)
+function sayText(e){
+  var t;
+  if(/^flashcard/.test(e.sub||"")&&e.word)t=e.word;
+  else{var rest=e.s.replace("___","");t=CYR.test(e.a)?(CYR.test(rest)?e.s.replace("___",e.a):e.a):rest}
+  t=String(t).replace(/^[\s—–-]+|[\s—–-]+$/g,"");
+  return CYR.test(t)?t:"";
+}
+function syncTts(){SP.setEnabled(st.tts);["ttsT","ttsT2"].forEach(function(id){var el=$(id);if(el)el.checked=st.tts})}
 function render(){
   $("sScore").textContent=st.right+"/"+st.total;
   $("sStreak").textContent=st.streak;
@@ -208,21 +219,22 @@ function render(){
   var e=st.cur.e,h="",choice=useChoice(e);
   h+='<div class="meta"><span class="tag">'+esc(e.catLabel||CAT_LABEL[e.cat])+'</span><span class="tag">'+esc(e.sub)+'</span>'+(st.cur.again?'<span class="tag again">again</span>':'')+(st.setN?'<span class="tag pos" id="setPos">'+Math.min(st.setN,st.setDone+(st.cur.again||st.answered?0:1))+'/'+st.setN+'</span>':'')+'</div>';
   var fill=st.answered?e.a:"",cls=st.answered?(st.ok?"ok":"bad"):"";
-  h+='<div class="sentence" lang="ru">'+sentenceHTML(e,fill,cls)+'</div>';
+  var say=st.answered?sayText(e):"";
+  h+='<div class="sentence" lang="ru">'+sentenceHTML(e,fill,cls,st.answered&&/^flashcard/.test(e.sub||""))+(say?'<button class="say" id="sayBtn" data-say="'+esc(say)+'" aria-label="Hear the sentence" title="Hear it (Shift-click or right-click: slowly)">🔊</button>':'')+'</div>';
   if(e.base)h+='<div class="base">(<b lang="ru">'+esc(e.base)+'</b>)</div>';
   if(e.glosses&&e.glosses.length)h+='<div class="gl">'+esc(e.glosses.join(" · "))+'</div>';
   if(!st.answered&&e.translation)h+=st.showTr?'<div class="tr">'+esc(e.translation)+'</div>':'<button class="trbtn" id="trBtn">Show translation</button>';
   if(choice){
     h+='<div class="opts" lang="ru">'+st.cur.opts.map(function(o,i){
       var k="";if(st.answered){if(o===e.a)k="ok";else if(o===st.picked)k="bad"}
-      return '<button class="opt '+k+'" data-i="'+i+'"'+(st.answered?" disabled":"")+'>'+esc(o)+'</button>'}).join("")+'</div>';
+      return '<button class="opt '+k+'" data-i="'+i+'"'+(st.answered?" disabled":"")+'>'+esc(st.answered&&o===e.a?SP.accent(o):o)+'</button>'}).join("")+'</div>';
   }else{
     h+='<input type="text" id="typed" lang="ru" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" enterkeyhint="done" placeholder="Type the missing form" '+(st.answered?'disabled value="'+esc(st.picked)+'"':'')+'>';
     if(!st.answered)h+='<button class="btn" id="checkBtn">Check</button>';
   }
   if(st.answered){
     h+='<div class="fb '+(st.ok?"ok":"bad")+'"><strong>'+(st.ok?"Верно!":"Not quite. It will come back later.")+'</strong>'+
-      (st.ok?"":'<div>Answer: <span class="ans" lang="ru">'+esc(e.a)+'</span>'+((e.alt&&e.alt.length)?' (also accepted: '+esc(e.alt.join(", "))+')':'')+'</div>')+
+      (st.ok?"":'<div>Answer: <span class="ans" lang="ru">'+esc(SP.accent(e.a))+'</span>'+((e.alt&&e.alt.length)?' (also accepted: '+esc(e.alt.join(", "))+')':'')+'</div>')+
       (e.translation?'<div class="tr">'+esc(e.translation)+'</div>':'')+'<div>'+esc(e.ex)+'</div></div>';
     h+='<button class="btn" id="nextBtn">Next →</button>';
   }
@@ -334,7 +346,7 @@ function renderWords(){
     h+='<div class="wtheme">'+esc(t)+'</div>';
     WORDS.forEach(function(w,i){if(w.theme!==t)return;var s=wordStatus(w);
       var meta=w.pos==="noun"?[G_LABEL[w.g]||"gender?",w.anim?"animate":"",KIND_LABEL[w.kind]||"",(w.kind==="place"||w.kind==="home")?(w.pp||"в")+" + place":""].filter(Boolean).join(" · "):(POS_LABEL[w.pos]||w.pos)+(w.asp?" · "+w.asp+".":"");
-      h+='<div class="witem"><div class="wt"><div class="wr" lang="ru">'+esc(w.ru)+'</div><div class="we">'+esc(w.en)+'</div>'+(w.note?'<div class="wm">'+esc(w.note)+'</div>':'')+'<div class="wm">'+esc(meta)+' · <span class="'+(s.fo?"fo":"")+'">'+esc(s.txt)+'</span></div></div>'+
+      h+='<div class="witem"><div class="wt"><div class="wr" lang="ru">'+esc(SP.accent(w.ru))+'</div><div class="we">'+esc(w.en)+'</div>'+(w.note?'<div class="wm">'+esc(w.note)+'</div>':'')+'<div class="wm">'+esc(meta)+' · <span class="'+(s.fo?"fo":"")+'">'+esc(s.txt)+'</span></div></div>'+
         '<button class="sbtn" data-edit="'+i+'" aria-label="Edit '+esc(w.ru)+'">Edit</button><button class="sbtn del" data-del="'+i+'" aria-label="Delete '+esc(w.ru)+'">✕</button></div>';
     });
   });
@@ -434,6 +446,7 @@ $("impFile").onchange=function(){
 };
 $("restoreW").onclick=function(){var n=0;STARTER.forEach(function(s){if(!WORDS.some(function(w){return w.ru===s.ru&&w.theme===s.theme})){WORDS.push(clone(s));n++}});saveWords();renderWords();alert(n?("Restored "+n+" starter word"+(n===1?"":"s")+"."):"All starter words are already in your list.")};
 $("wtheme").onchange=function(){st.wtheme=this.value;renderWords()};
+["ttsT","ttsT2"].forEach(function(id){var el=$(id);if(el)el.onchange=function(){st.tts=this.checked;syncTts();save()}});
 
 // ---------- events ----------
 document.addEventListener("click",function(ev){
@@ -457,7 +470,7 @@ function start(d,v,les){
   var saved=load(LSW);WORDS=(saved&&Array.isArray(saved.words))?saved.words:clone(STARTER);
   addNewStarterThemes();
   if(!lvl().length)st.level="A1-A2";if(!lvl().some(function(e){return st.cat==="all"||e.cat===st.cat}))st.cat="all";
-  started=true;renderControls();newSession();
+  started=true;syncTts();renderControls();newSession();
 }
 // New built-in themes reach people who already have a saved word list (once per theme, so deleting one sticks).
 var OLD_THEMES=["At the grocery store","At the checkout","At church","At the restaurant","At the border","Travel"];
@@ -472,7 +485,7 @@ function addNewStarterThemes(){
   if(n){saveWords();if(st.tab==="words")renderWords();else if(st.tab==="vocab")renderControls()}
 }
 // ---------- bridge for cloud sync (cloud.js) ----------
-function applyPrefs(){st.tab=store.tab||st.tab;st.level=store.level||st.level;st.cat=store.cat||"all";st.mode=store.mode||st.mode;st.vtheme=store.vtheme||"all";st.vdrill=store.vdrill||"mixed";st.size=sizeOf(store.setSize);st.sub="all";
+function applyPrefs(){st.tab=store.tab||st.tab;st.level=store.level||st.level;st.cat=store.cat||"all";st.mode=store.mode||st.mode;st.vtheme=store.vtheme||"all";st.vdrill=store.vdrill||"mixed";st.size=sizeOf(store.setSize);st.tts=store.tts!==false;st.sub="all";syncTts();
   if(started){if(!lvl().length)st.level="A1-A2";if(!lvl().some(function(e){return st.cat==="all"||e.cat===st.cat}))st.cat="all"}}
 window.RuApp={
   keys:{drills:LS,lessons:LSL,words:LSW},
