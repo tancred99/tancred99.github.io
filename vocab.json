@@ -1929,6 +1929,769 @@
   "pos": "phrase"
  },
  {
+  "ru": "ферма",
+  "en": "farm",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "f",
+  "kind": "place",
+  "pp": "на",
+  "enprep": "on",
+  "note": "На ферме = on the farm (на, not в)."
+ },
+ {
+  "ru": "корова",
+  "en": "cow",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "f",
+  "kind": "animal",
+  "anim": true
+ },
+ {
+  "ru": "бык",
+  "en": "bull",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "m",
+  "kind": "animal",
+  "anim": true,
+  "es": true
+ },
+ {
+  "ru": "телёнок",
+  "en": "calf",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "m",
+  "kind": "animal",
+  "anim": true,
+  "fleet": true,
+  "enp": "calves",
+  "note": "Baby-animal nouns in -ёнок have a special plural: телёнок → телята, телят.",
+  "forms": {
+   "npl": "телята",
+   "gpl": "телят"
+  }
+ },
+ {
+  "ru": "скот",
+  "en": "livestock, cattle",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "m",
+  "kind": "animal",
+  "mass": true,
+  "note": "Collective and grammatically inanimate: кормить скот. Крупный рогатый скот (КРС) = cattle; голова скота = head of cattle."
+ },
+ {
+  "ru": "курица",
+  "en": "chicken, hen",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "f",
+  "kind": "animal",
+  "anim": true,
+  "note": "On a farm the plural is куры, кур (курицы is also heard).",
+  "forms": {
+   "npl": "куры",
+   "gpl": "кур"
+  }
+ },
+ {
+  "ru": "петух",
+  "en": "rooster",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "m",
+  "kind": "animal",
+  "anim": true,
+  "es": true
+ },
+ {
+  "ru": "цыплёнок",
+  "en": "chick",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "m",
+  "kind": "animal",
+  "anim": true,
+  "fleet": true,
+  "note": "Like телёнок: цыплёнок → цыплята, цыплят.",
+  "forms": {
+   "npl": "цыплята",
+   "gpl": "цыплят"
+  }
+ },
+ {
+  "ru": "индюк",
+  "en": "turkey (tom)",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "m",
+  "kind": "animal",
+  "anim": true,
+  "es": true,
+  "note": "Male turkey. The hen (and the meat) is индейка."
+ },
+ {
+  "ru": "индейка",
+  "en": "turkey (hen); turkey meat",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "f",
+  "kind": "animal",
+  "anim": true,
+  "note": "Дикая индейка = wild turkey.",
+  "forms": {
+   "gpl": "индеек"
+  }
+ },
+ {
+  "ru": "олень",
+  "en": "deer",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "m",
+  "kind": "wild",
+  "anim": true,
+  "noFleet": true,
+  "enp": "deer",
+  "note": "Белохвостый олень = white-tailed deer. No fleeting vowel: оленя, олени."
+ },
+ {
+  "ru": "кролик",
+  "en": "rabbit",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "m",
+  "kind": "animal",
+  "anim": true,
+  "note": "Кролик = a rabbit (pet, farm or cottontail). A wild hare is заяц."
+ },
+ {
+  "ru": "заяц",
+  "en": "hare, wild rabbit",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "m",
+  "kind": "wild",
+  "anim": true,
+  "note": "The я turns into й before an ending: зайца, зайцы.",
+  "forms": {
+   "gen": "зайца",
+   "dat": "зайцу",
+   "acc": "зайца",
+   "ins": "зайцем",
+   "prep": "зайце",
+   "npl": "зайцы",
+   "gpl": "зайцев"
+  }
+ },
+ {
+  "ru": "опоссум",
+  "en": "possum, opossum",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "m",
+  "kind": "wild",
+  "anim": true,
+  "note": "An American animal; Russians know it from zoos and cartoons."
+ },
+ {
+  "ru": "коза",
+  "en": "goat (nanny)",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "f",
+  "kind": "animal",
+  "anim": true
+ },
+ {
+  "ru": "козёл",
+  "en": "billy goat",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "m",
+  "kind": "animal",
+  "anim": true,
+  "fleet": true,
+  "note": "Fleeting ё: козла, козлы. Also an insult (“jerk”)."
+ },
+ {
+  "ru": "овца",
+  "en": "sheep (ewe)",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "f",
+  "kind": "animal",
+  "anim": true,
+  "es": true,
+  "enp": "sheep",
+  "note": "Gen. pl. овец (inserted е).",
+  "forms": {
+   "gpl": "овец"
+  }
+ },
+ {
+  "ru": "баран",
+  "en": "ram (male sheep)",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "m",
+  "kind": "animal",
+  "anim": true
+ },
+ {
+  "ru": "свинья",
+  "en": "pig",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "f",
+  "kind": "animal",
+  "anim": true,
+  "es": true,
+  "forms": {
+   "gpl": "свиней"
+  }
+ },
+ {
+  "ru": "поросёнок",
+  "en": "piglet",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "m",
+  "kind": "animal",
+  "anim": true,
+  "fleet": true,
+  "note": "Like телёнок: поросёнок → поросята, поросят.",
+  "forms": {
+   "npl": "поросята",
+   "gpl": "поросят"
+  }
+ },
+ {
+  "ru": "лошадь",
+  "en": "horse",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "f",
+  "kind": "animal",
+  "anim": true,
+  "note": "Instrumental plural is irregular: с лошадьми."
+ },
+ {
+  "ru": "сарай",
+  "en": "barn, shed",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "m",
+  "kind": "place",
+  "pp": "в",
+  "note": "The everyday word for a barn or shed. Амбар = a grain barn."
+ },
+ {
+  "ru": "коровник",
+  "en": "cow barn",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "m",
+  "kind": "place",
+  "pp": "в"
+ },
+ {
+  "ru": "курятник",
+  "en": "chicken coop",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "m",
+  "kind": "place",
+  "pp": "в"
+ },
+ {
+  "ru": "пастбище",
+  "en": "pasture",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "n",
+  "kind": "place",
+  "pp": "на",
+  "enprep": "in",
+  "note": "На пастбище = in the pasture (на, like на лугу).",
+  "forms": {
+   "gen": "пастбища",
+   "dat": "пастбищу",
+   "acc": "пастбище",
+   "ins": "пастбищем",
+   "prep": "пастбище",
+   "npl": "пастбища",
+   "gpl": "пастбищ"
+  }
+ },
+ {
+  "ru": "луг",
+  "en": "meadow, hayfield",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "m",
+  "kind": "place",
+  "pp": "на",
+  "enprep": "in",
+  "note": "На лугу = in the meadow (special -у ending); о луге.",
+  "forms": {
+   "loc": "лугу",
+   "npl": "луга"
+  }
+ },
+ {
+  "ru": "поле",
+  "en": "field",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "n",
+  "kind": "place",
+  "pp": "в",
+  "note": "В поле = in the field."
+ },
+ {
+  "ru": "пруд",
+  "en": "pond",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "m",
+  "kind": "place",
+  "pp": "на",
+  "enprep": "at",
+  "note": "На пруду = at/on the pond (special -у ending); о пруде.",
+  "forms": {
+   "loc": "пруду"
+  }
+ },
+ {
+  "ru": "забор",
+  "en": "fence",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "m",
+  "kind": "farm",
+  "note": "Any fence. Колючая проволока = barbed wire; электропастух = electric fence."
+ },
+ {
+  "ru": "ворота",
+  "en": "gate",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "pl",
+  "kind": "farm",
+  "enSg": true,
+  "note": "Plural only, even for one gate: одни ворота, у ворот, за воротами.",
+  "forms": {
+   "gen": "ворот",
+   "dat": "воротам",
+   "acc": "ворота",
+   "ins": "воротами",
+   "prep": "воротах",
+   "gpl": "ворот"
+  }
+ },
+ {
+  "ru": "калитка",
+  "en": "small gate (for people)",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "f",
+  "kind": "farm",
+  "note": "The little walk-through gate next to the big ворота.",
+  "forms": {
+   "gpl": "калиток"
+  }
+ },
+ {
+  "ru": "столб",
+  "en": "post (fence post)",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "m",
+  "kind": "farm",
+  "es": true
+ },
+ {
+  "ru": "трава",
+  "en": "grass",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "f",
+  "kind": "feed",
+  "mass": true,
+  "skip": [
+   "acc"
+  ]
+ },
+ {
+  "ru": "сено",
+  "en": "hay",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "n",
+  "kind": "feed",
+  "mass": true,
+  "note": "Тюк сена = a bale of hay. Косить сено = to make hay."
+ },
+ {
+  "ru": "солома",
+  "en": "straw",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "f",
+  "kind": "feed",
+  "mass": true,
+  "skip": [
+   "ins"
+  ],
+  "note": "Straw is bedding (подстилка), hay is food."
+ },
+ {
+  "ru": "корм",
+  "en": "feed (animal)",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "m",
+  "kind": "feed",
+  "mass": true,
+  "skip": [
+   "ins"
+  ]
+ },
+ {
+  "ru": "зерно",
+  "en": "grain",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "n",
+  "kind": "feed",
+  "mass": true
+ },
+ {
+  "ru": "кукуруза",
+  "en": "corn (maize)",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "f",
+  "kind": "feed",
+  "mass": true
+ },
+ {
+  "ru": "тюк",
+  "en": "bale",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing",
+  "es": true,
+  "note": "Тюк сена = a bale of hay; a big round bale is рулон сена."
+ },
+ {
+  "ru": "трактор",
+  "en": "tractor",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "m",
+  "kind": "farm",
+  "note": "Standard pl. тракторы; farmers often say трактора."
+ },
+ {
+  "ru": "прицеп",
+  "en": "trailer",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "m",
+  "kind": "farm"
+ },
+ {
+  "ru": "косилка",
+  "en": "mower",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "f",
+  "kind": "farm",
+  "forms": {
+   "gpl": "косилок"
+  }
+ },
+ {
+  "ru": "пикап",
+  "en": "pickup truck",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "m",
+  "kind": "farm",
+  "note": "Грузовик = truck in general."
+ },
+ {
+  "ru": "лопата",
+  "en": "shovel",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "f",
+  "kind": "farm"
+ },
+ {
+  "ru": "вилы",
+  "en": "pitchfork",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "pl",
+  "kind": "farm",
+  "enSg": true,
+  "note": "Plural only, like ворота and ножницы: одни вилы.",
+  "forms": {
+   "gen": "вил",
+   "dat": "вилам",
+   "acc": "вилы",
+   "ins": "вилами",
+   "prep": "вилах",
+   "gpl": "вил"
+  }
+ },
+ {
+  "ru": "ведро",
+  "en": "bucket, pail",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "n",
+  "kind": "farm",
+  "es": true,
+  "note": "Pl. вёдра, вёдер (е → ё, inserted е).",
+  "forms": {
+   "npl": "вёдра",
+   "gpl": "вёдер"
+  }
+ },
+ {
+  "ru": "проволока",
+  "en": "wire",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "mass": true,
+  "note": "Колючая проволока = barbed wire."
+ },
+ {
+  "ru": "кормушка",
+  "en": "feeder",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "f",
+  "kind": "farm",
+  "note": "From кормить (to feed). Поилка = waterer.",
+  "forms": {
+   "gpl": "кормушек"
+  }
+ },
+ {
+  "ru": "дикий",
+  "en": "wild",
+  "theme": "Around the farm",
+  "pos": "adj",
+  "note": "Дикая индейка = wild turkey; дикие животные = wild animals."
+ },
+ {
+  "ru": "пасти",
+  "en": "to graze, herd (animals) (impf.)",
+  "theme": "Around the farm",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "пасу, пасёшь. Коровы пасутся = the cows are grazing.",
+  "conj": {
+   "1s": "пасу",
+   "2s": "пасёшь",
+   "3s": "пасёт",
+   "1p": "пасём",
+   "2p": "пасёте",
+   "3p": "пасут"
+  },
+  "frames": {
+   "1s": "Утром я {} коров на лугу."
+  }
+ },
+ {
+  "ru": "кормить",
+  "en": "to feed (impf.)",
+  "theme": "Around the farm",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "кормлю, кормишь (м → мл in я-form). Кормить кого? чем?: кормить коров сеном. Pf.: покормить.",
+  "conj": {
+   "1s": "кормлю",
+   "2s": "кормишь",
+   "3s": "кормит",
+   "1p": "кормим",
+   "2p": "кормите",
+   "3p": "кормят"
+  },
+  "frames": {
+   "1s": "Каждое утро я {} кур."
+  }
+ },
+ {
+  "ru": "доить",
+  "en": "to milk (impf.)",
+  "theme": "Around the farm",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "дою, доишь, доят. Pf.: подоить.",
+  "conj": {
+   "1s": "дою",
+   "2s": "доишь",
+   "3s": "доит",
+   "1p": "доим",
+   "2p": "доите",
+   "3p": "доят"
+  },
+  "frames": {
+   "3s": "Сосед {} коров в шесть утра."
+  }
+ },
+ {
+  "ru": "косить",
+  "en": "to mow, cut (grass, hay) (impf.)",
+  "theme": "Around the farm",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "кошу, косишь (с → ш in я-form). Pf.: скосить.",
+  "conj": {
+   "1s": "кошу",
+   "2s": "косишь",
+   "3s": "косит",
+   "1p": "косим",
+   "2p": "косите",
+   "3p": "косят"
+  },
+  "frames": {
+   "1p": "Летом мы {} траву на сено."
+  }
+ },
+ {
+  "ru": "чинить",
+  "en": "to fix, repair (impf.)",
+  "theme": "Around the farm",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "Pf.: починить: «Завтра я починю ворота».",
+  "conj": {
+   "1s": "чиню",
+   "2s": "чинишь",
+   "3s": "чинит",
+   "1p": "чиним",
+   "2p": "чините",
+   "3p": "чинят"
+  },
+  "frames": {
+   "1s": "Сегодня я {} забор."
+  }
+ },
+ {
+  "ru": "пахать",
+  "en": "to plow (impf.)",
+  "theme": "Around the farm",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "пашу, пашешь, пашут (х → ш everywhere).",
+  "conj": {
+   "1s": "пашу",
+   "2s": "пашешь",
+   "3s": "пашет",
+   "1p": "пашем",
+   "2p": "пашете",
+   "3p": "пашут"
+  },
+  "frames": {
+   "3s": "Сосед {} поле на тракторе."
+  }
+ },
+ {
+  "ru": "собирать",
+  "en": "to gather, collect (impf.)",
+  "theme": "Around the farm",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "Собирать яйца = to collect eggs. Pf.: собрать (соберу, соберёшь).",
+  "conj": {
+   "1s": "собираю",
+   "2s": "собираешь",
+   "3s": "собирает",
+   "1p": "собираем",
+   "2p": "собираете",
+   "3p": "собирают"
+  },
+  "frames": {
+   "1s": "Каждый вечер я {} яйца в курятнике."
+  }
+ },
+ {
+  "ru": "нести",
+  "en": "to carry; to lay (eggs) (impf.)",
+  "theme": "Around the farm",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "несу, несёшь. Куры несутся = the hens are laying.",
+  "conj": {
+   "1s": "несу",
+   "2s": "несёшь",
+   "3s": "несёт",
+   "1p": "несём",
+   "2p": "несёте",
+   "3p": "несут"
+  },
+  "frames": {
+   "3p": "Наши куры хорошо {} яйца."
+  }
+ },
+ {
+  "ru": "сбежать",
+  "en": "to run off, get out (pf.)",
+  "theme": "Around the farm",
+  "pos": "verb",
+  "asp": "pf",
+  "note": "сбегу, сбежишь, сбегут (like бежать). «Корова сбежала!» = the cow got out!",
+  "conj": {
+   "1s": "сбегу",
+   "2s": "сбежишь",
+   "3s": "сбежит",
+   "1p": "сбежим",
+   "2p": "сбежите",
+   "3p": "сбегут"
+  },
+  "frames": {
+   "3p": "Если ворота открыты, коровы {}."
+  }
+ },
+ {
+  "ru": "Коровы пасутся на лугу.",
+  "en": "The cows are grazing in the meadow.",
+  "theme": "Around the farm",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Закрой ворота!",
+  "en": "Close the gate!",
+  "theme": "Around the farm",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Корова сбежала!",
+  "en": "The cow got out!",
+  "theme": "Around the farm",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Сколько у вас голов скота?",
+  "en": "How many head of cattle do you have?",
+  "theme": "Around the farm",
+  "pos": "phrase"
+ },
+ {
   "ru": "колесо",
   "en": "wheel",
   "theme": "Молчат Дома: Колесом",

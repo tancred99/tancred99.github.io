@@ -208,6 +208,36 @@ var RuEngine = (function () {
       acc: ["Он показал на ___.", "He pointed at his {en}.", "Показать на (to point at) takes the accusative."],
       prep: ["Что-то горит {p:в} ___.", "Something is burning in the {en}.", "В + prepositional answers 'where?' (like the song: «У неё горит в груди»)."]
     },
+    // Around the farm: domestic animals (the animal is often the indirect object: нести воду корове)
+    animal: {
+      gen: ["У нас нет ___.", "We don't have {a} {en}.", "Нет (there is no) takes the genitive."],
+      dat: ["Я несу воду ___.", "I'm bringing water to the {en}.", "Нести кому? (to whom?) The animal is the indirect object, so it goes in the dative."],
+      acc: ["Я вижу ___.", "I see the {en}.", "A direct object goes in the accusative."],
+      ins: ["Что случилось {p:с} ___?", "What happened to the {en}?", "Что случилось с… (what happened to…) takes the instrumental."],
+      prep: ["Мы говорим {p:о} ___.", "We're talking about the {en}.", "О (about) takes the prepositional."]
+    },
+    // wild animals around the farm
+    wild: {
+      gen: ["Это следы ___.", "These are the {en}'s tracks.", "Whose? The owner goes in the genitive (следы оленя = the deer's tracks)."],
+      acc: ["Вчера я видел ___ у забора.", "Yesterday I saw {a} {en} by the fence.", "A direct object goes in the accusative."],
+      ins: ["Собака бежит за ___.", "The dog is running after the {en}.", "За (after, chasing) takes the instrumental."],
+      prep: ["Мы говорим {p:о} ___.", "We're talking about the {en}.", "О (about) takes the prepositional."]
+    },
+    // fences, gates and equipment
+    farm: {
+      gen: ["У нас нет ___.", "We don't have {a} {en}.", "Нет (there is no) takes the genitive."],
+      dat: ["Корова подошла {p:к} ___.", "The cow walked up to the {en}.", "К (towards, up to) takes the dative."],
+      acc: ["Надо починить ___.", "The {en} needs fixing.", "Починить что? The thing being fixed is the direct object, so it goes in the accusative."],
+      ins: ["Что случилось {p:с} ___?", "What happened to the {en}?", "Что случилось с… (what happened to…) takes the instrumental."],
+      prep: ["Мы говорим {p:о} ___.", "We're talking about the {en}.", "О (about) takes the prepositional."]
+    },
+    // feed and bedding (mass nouns)
+    feed: {
+      gen: ["Нам не хватает ___.", "We're short on {en}.", "Не хватает (there isn't enough) takes the genitive."],
+      acc: ["Надо купить ___.", "We need to buy {en}.", "Купить что? The direct object goes in the accusative."],
+      ins: ["Мы кормим скот ___.", "We feed the livestock {en}.", "Кормить кого? чем? The animal is the direct object (accusative); the food goes in the instrumental."],
+      prep: ["Мы говорим {p:о} ___.", "We're talking about {en}.", "О (about) takes the prepositional."]
+    },
     money: {}, unit: {}
   };
   var CASE_NAME = { gen: "genitive", dat: "dative", acc: "accusative", ins: "instrumental", prep: "prepositional" };
@@ -220,7 +250,7 @@ var RuEngine = (function () {
   }
   function fillEn(tpl, w, plural) {
     var e = plural ? enPl(w) : en1(w);
-    var art = (w.mass || w.g === "pl") ? "any " : (/^[aeiou]/i.test(e) ? "an " : "a ");
+    var art = (w.mass || (w.g === "pl" && !w.enSg)) ? "any " : (/^[aeiou]/i.test(e) ? "an " : "a ");
     var on = w.pp === "на";
     var out = tpl.replace(/\{a\} /g, art)
       .replace(/\{Put\}/g, w.put === "Повесь" ? "Hang" : "Put")

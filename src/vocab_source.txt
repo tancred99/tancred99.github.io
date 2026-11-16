@@ -202,6 +202,69 @@
 Вот тапочки.|Here are some slippers.|phrase
 Ключи висят у двери.|The keys are hanging by the door.|phrase
 дома / домой|at home (где?) / home, homeward (куда?)|phrase
+@Around the farm
+ферма|farm|f|place|pp=на enprep=on note=На_ферме_=_on_the_farm_(на,_not_в).|фермы|ферме|ферму|фермой|ферме|фермы|ферм
+корова|cow|f|animal|anim|коровы|корове|корову|коровой|корове|коровы|коров
+бык|bull|m|animal|anim es|быка|быку|быка|быком|быке|быки|быков
+телёнок|calf|m|animal|anim fleet enp=calves npl=телята gpl=телят note=Baby-animal_nouns_in_-ёнок_have_a_special_plural:_телёнок_→_телята,_телят.|телёнка|телёнку|телёнка|телёнком|телёнке|телята|телят
+скот|livestock, cattle|m|animal|mass note=Collective_and_grammatically_inanimate:_кормить_скот._Крупный_рогатый_скот_(КРС)_=_cattle;_голова_скота_=_head_of_cattle.|скота|скоту|скот|скотом|скоте|-|-
+курица|chicken, hen|f|animal|anim npl=куры gpl=кур note=On_a_farm_the_plural_is_куры,_кур_(курицы_is_also_heard).|курицы|курице|курицу|курицей|курице|куры|кур
+петух|rooster|m|animal|anim es|петуха|петуху|петуха|петухом|петухе|петухи|петухов
+цыплёнок|chick|m|animal|anim fleet npl=цыплята gpl=цыплят note=Like_телёнок:_цыплёнок_→_цыплята,_цыплят.|цыплёнка|цыплёнку|цыплёнка|цыплёнком|цыплёнке|цыплята|цыплят
+индюк|turkey (tom)|m|animal|anim es note=Male_turkey._The_hen_(and_the_meat)_is_индейка.|индюка|индюку|индюка|индюком|индюке|индюки|индюков
+индейка|turkey (hen); turkey meat|f|animal|anim gpl=индеек note=Дикая_индейка_=_wild_turkey.|индейки|индейке|индейку|индейкой|индейке|индейки|индеек
+олень|deer|m|wild|anim noFleet enp=deer note=Белохвостый_олень_=_white-tailed_deer._No_fleeting_vowel:_оленя,_олени.|оленя|оленю|оленя|оленем|олене|олени|оленей
+кролик|rabbit|m|animal|anim note=Кролик_=_a_rabbit_(pet,_farm_or_cottontail)._A_wild_hare_is_заяц.|кролика|кролику|кролика|кроликом|кролике|кролики|кроликов
+заяц|hare, wild rabbit|m|wild|anim gen=зайца dat=зайцу acc=зайца ins=зайцем prep=зайце npl=зайцы gpl=зайцев note=The_я_turns_into_й_before_an_ending:_зайца,_зайцы.|зайца|зайцу|зайца|зайцем|зайце|зайцы|зайцев
+опоссум|possum, opossum|m|wild|anim note=An_American_animal;_Russians_know_it_from_zoos_and_cartoons.|опоссума|опоссуму|опоссума|опоссумом|опоссуме|опоссумы|опоссумов
+коза|goat (nanny)|f|animal|anim|козы|козе|козу|козой|козе|козы|коз
+козёл|billy goat|m|animal|anim fleet note=Fleeting_ё:_козла,_козлы._Also_an_insult_(“jerk”).|козла|козлу|козла|козлом|козле|козлы|козлов
+овца|sheep (ewe)|f|animal|anim es enp=sheep gpl=овец note=Gen._pl._овец_(inserted_е).|овцы|овце|овцу|овцой|овце|овцы|овец
+баран|ram (male sheep)|m|animal|anim|барана|барану|барана|бараном|баране|бараны|баранов
+свинья|pig|f|animal|anim es gpl=свиней|свиньи|свинье|свинью|свиньёй|свинье|свиньи|свиней
+поросёнок|piglet|m|animal|anim fleet npl=поросята gpl=поросят note=Like_телёнок:_поросёнок_→_поросята,_поросят.|поросёнка|поросёнку|поросёнка|поросёнком|поросёнке|поросята|поросят
+лошадь|horse|f|animal|anim note=Instrumental_plural_is_irregular:_с_лошадьми.|лошади|лошади|лошадь|лошадью|лошади|лошади|лошадей
+сарай|barn, shed|m|place|pp=в note=The_everyday_word_for_a_barn_or_shed._Амбар_=_a_grain_barn.|сарая|сараю|сарай|сараем|сарае|сараи|сараев
+коровник|cow barn|m|place|pp=в|коровника|коровнику|коровник|коровником|коровнике|коровники|коровников
+курятник|chicken coop|m|place|pp=в|курятника|курятнику|курятник|курятником|курятнике|курятники|курятников
+пастбище|pasture|n|place|pp=на enprep=in gen=пастбища dat=пастбищу acc=пастбище ins=пастбищем prep=пастбище npl=пастбища gpl=пастбищ note=На_пастбище_=_in_the_pasture_(на,_like_на_лугу).|пастбища|пастбищу|пастбище|пастбищем|пастбище|пастбища|пастбищ
+луг|meadow, hayfield|m|place|pp=на enprep=in loc=лугу npl=луга note=На_лугу_=_in_the_meadow_(special_-у_ending);_о_луге.|луга|лугу|луг|лугом|луге|луга|лугов
+поле|field|n|place|pp=в note=В_поле_=_in_the_field.|поля|полю|поле|полем|поле|поля|полей
+пруд|pond|m|place|pp=на enprep=at loc=пруду note=На_пруду_=_at/on_the_pond_(special_-у_ending);_о_пруде.|пруда|пруду|пруд|прудом|пруде|пруды|прудов
+забор|fence|m|farm|note=Any_fence._Колючая_проволока_=_barbed_wire;_электропастух_=_electric_fence.|забора|забору|забор|забором|заборе|заборы|заборов
+ворота|gate|pl|farm|enSg gen=ворот dat=воротам acc=ворота ins=воротами prep=воротах gpl=ворот note=Plural_only,_even_for_one_gate:_одни_ворота,_у_ворот,_за_воротами.|ворот|воротам|ворота|воротами|воротах|ворота|ворот
+калитка|small gate (for people)|f|farm|gpl=калиток note=The_little_walk-through_gate_next_to_the_big_ворота.|калитки|калитке|калитку|калиткой|калитке|калитки|калиток
+столб|post (fence post)|m|farm|es|столба|столбу|столб|столбом|столбе|столбы|столбов
+трава|grass|f|feed|mass skip=acc|травы|траве|траву|травой|траве|-|-
+сено|hay|n|feed|mass note=Тюк_сена_=_a_bale_of_hay._Косить_сено_=_to_make_hay.|сена|сену|сено|сеном|сене|-|-
+солома|straw|f|feed|mass skip=ins note=Straw_is_bedding_(подстилка),_hay_is_food.|соломы|соломе|солому|соломой|соломе|-|-
+корм|feed (animal)|m|feed|mass skip=ins|корма|корму|корм|кормом|корме|-|-
+зерно|grain|n|feed|mass|зерна|зерну|зерно|зерном|зерне|-|-
+кукуруза|corn (maize)|f|feed|mass|кукурузы|кукурузе|кукурузу|кукурузой|кукурузе|-|-
+тюк|bale|m|thing|es note=Тюк_сена_=_a_bale_of_hay;_a_big_round_bale_is_рулон_сена.|тюка|тюку|тюк|тюком|тюке|тюки|тюков
+трактор|tractor|m|farm|note=Standard_pl._тракторы;_farmers_often_say_трактора.|трактора|трактору|трактор|трактором|тракторе|тракторы|тракторов
+прицеп|trailer|m|farm||прицепа|прицепу|прицеп|прицепом|прицепе|прицепы|прицепов
+косилка|mower|f|farm|gpl=косилок|косилки|косилке|косилку|косилкой|косилке|косилки|косилок
+пикап|pickup truck|m|farm|note=Грузовик_=_truck_in_general.|пикапа|пикапу|пикап|пикапом|пикапе|пикапы|пикапов
+лопата|shovel|f|farm||лопаты|лопате|лопату|лопатой|лопате|лопаты|лопат
+вилы|pitchfork|pl|farm|enSg gen=вил dat=вилам acc=вилы ins=вилами prep=вилах gpl=вил note=Plural_only,_like_ворота_and_ножницы:_одни_вилы.|вил|вилам|вилы|вилами|вилах|вилы|вил
+ведро|bucket, pail|n|farm|es npl=вёдра gpl=вёдер note=Pl._вёдра,_вёдер_(е_→_ё,_inserted_е).|ведра|ведру|ведро|ведром|ведре|вёдра|вёдер
+проволока|wire|f|thing|mass note=Колючая_проволока_=_barbed_wire.|проволоки|проволоке|проволоку|проволокой|проволоке|-|-
+кормушка|feeder|f|farm|gpl=кормушек note=From_кормить_(to_feed)._Поилка_=_waterer.|кормушки|кормушке|кормушку|кормушкой|кормушке|кормушки|кормушек
+дикий|wild|adj|note=Дикая_индейка_=_wild_turkey;_дикие_животные_=_wild_animals.
+пасти|to graze, herd (animals) (impf.)|verb|impf 1s=пасу 2s=пасёшь 3s=пасёт 1p=пасём 2p=пасёте 3p=пасут f1s=Утром_я_{}_коров_на_лугу. note=пасу,_пасёшь._Коровы_пасутся_=_the_cows_are_grazing.
+кормить|to feed (impf.)|verb|impf 1s=кормлю 2s=кормишь 3s=кормит 1p=кормим 2p=кормите 3p=кормят f1s=Каждое_утро_я_{}_кур. note=кормлю,_кормишь_(м_→_мл_in_я-form)._Кормить_кого?_чем?:_кормить_коров_сеном._Pf.:_покормить.
+доить|to milk (impf.)|verb|impf 1s=дою 2s=доишь 3s=доит 1p=доим 2p=доите 3p=доят f3s=Сосед_{}_коров_в_шесть_утра. note=дою,_доишь,_доят._Pf.:_подоить.
+косить|to mow, cut (grass, hay) (impf.)|verb|impf 1s=кошу 2s=косишь 3s=косит 1p=косим 2p=косите 3p=косят f1p=Летом_мы_{}_траву_на_сено. note=кошу,_косишь_(с_→_ш_in_я-form)._Pf.:_скосить.
+чинить|to fix, repair (impf.)|verb|impf 1s=чиню 2s=чинишь 3s=чинит 1p=чиним 2p=чините 3p=чинят f1s=Сегодня_я_{}_забор. note=Pf.:_починить:_«Завтра_я_починю_ворота».
+пахать|to plow (impf.)|verb|impf 1s=пашу 2s=пашешь 3s=пашет 1p=пашем 2p=пашете 3p=пашут f3s=Сосед_{}_поле_на_тракторе. note=пашу,_пашешь,_пашут_(х_→_ш_everywhere).
+собирать|to gather, collect (impf.)|verb|impf 1s=собираю 2s=собираешь 3s=собирает 1p=собираем 2p=собираете 3p=собирают f1s=Каждый_вечер_я_{}_яйца_в_курятнике. note=Собирать_яйца_=_to_collect_eggs._Pf.:_собрать_(соберу,_соберёшь).
+нести|to carry; to lay (eggs) (impf.)|verb|impf 1s=несу 2s=несёшь 3s=несёт 1p=несём 2p=несёте 3p=несут f3p=Наши_куры_хорошо_{}_яйца. note=несу,_несёшь._Куры_несутся_=_the_hens_are_laying.
+сбежать|to run off, get out (pf.)|verb|pf 1s=сбегу 2s=сбежишь 3s=сбежит 1p=сбежим 2p=сбежите 3p=сбегут f3p=Если_ворота_открыты,_коровы_{}. note=сбегу,_сбежишь,_сбегут_(like_бежать)._«Корова_сбежала!»_=_the_cow_got_out!
+Коровы пасутся на лугу.|The cows are grazing in the meadow.|phrase
+Закрой ворота!|Close the gate!|phrase
+Корова сбежала!|The cow got out!|phrase
+Сколько у вас голов скота?|How many head of cattle do you have?|phrase
 @Молчат Дома: Колесом
 колесо|wheel|n|thing|npl=колёса gpl=колёс note=«Колесом»_(instrumental)_=_like_a_wheel,_rolling._Pl._колёса,_колёс.|колеса|колесу|колесо|колесом|колесе|колёса|колёс
 цикл|cycle|m|abstract|skip=gen,acc note=«Цикл_закончится»_=_the_cycle_will_end.|цикла|циклу|цикл|циклом|цикле|циклы|циклов

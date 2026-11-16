@@ -7,7 +7,7 @@ var CATS=[["all","All"],["basics","Basics"],["cases","Cases"],["conjugation","Ve
 var LEVELS=[["A1-A2","A1–A2"],["B1-C1","B1–C1"]];
 var MODES=[["choice","Choice"],["type","Type"]];
 var VDRILLS=[["mixed","Mixed"],["cases","Cases"],["plurals","Plurals"],["numbers","Numbers"],["conj","Verbs"],["cards","Flashcards"]];
-var KIND_LABEL={thing:"thing",food:"food/drink",place:"place",person:"person",event:"service/event",transport:"transport",money:"money",unit:"measure",home:"furniture/spot in a room",abstract:"abstract (feeling, sound, idea)",body:"body part"};
+var KIND_LABEL={thing:"thing",food:"food/drink",place:"place",person:"person",event:"service/event",transport:"transport",money:"money",unit:"measure",home:"furniture/spot in a room",abstract:"abstract (feeling, sound, idea)",body:"body part",animal:"farm animal",wild:"wild animal",farm:"fence, gate, equipment",feed:"feed, hay, grass"};
 var POS_LABEL={adj:"adjective",verb:"verb",phrase:"phrase",adv:"adverb/particle"};
 var G_LABEL={m:"masc.",f:"fem.",n:"neut.",pl:"plural only"};
 var FORM_LABEL={gen:"Genitive (нет …)",dat:"Dative (к …)",acc:"Accusative (вижу …)",ins:"Instrumental (с …)",prep:"Prepositional (о …)",npl:"Nominative plural",gpl:"Genitive plural (много …)"};
@@ -390,7 +390,7 @@ function renderPanel(){
       nw.g=$("fG").value;nw.kind=$("fKind").value;if(nw.kind==="place"||nw.kind==="home")nw.pp=$("fPp").value;
       ["anim","indecl","mass","fleet","es"].forEach(function(c){if($("c_"+c).checked)nw[c]=true});
       var f={};E.KEYS.forEach(function(k){var v=$("fm_"+k).value.trim();if(v)f[k]=v});nw.forms=f;
-      ["skip","loc","enp","enprep","noArt","approach","gplAlt","noFleet","put","lie","nonum"].forEach(function(k){if(w[k]!=null&&nw.ru===w.ru)nw[k]=w[k]});
+      ["skip","loc","enp","enprep","enSg","noArt","approach","gplAlt","noFleet","put","lie","nonum"].forEach(function(k){if(w[k]!=null&&nw.ru===w.ru)nw[k]=w[k]});
       if(w.forms&&w.forms.loc&&nw.ru===w.ru)nw.forms.loc=w.forms.loc;
     }
     if(nw.ru===w.ru){["note"].concat(nw.pos==="verb"&&w.pos==="verb"?["asp","conj","frames"]:[]).forEach(function(k){if(w[k]!=null)nw[k]=w[k]})}
