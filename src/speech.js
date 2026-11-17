@@ -78,19 +78,49 @@ function wrapText(node){
   if(last<txt.length)frag.appendChild(document.createTextNode(txt.slice(last)));
   p.replaceChild(frag,node);
 }
+// ---------- stress marks drawn by CSS, not by U+0301 ----------
+// Many fonts (Georgia on Windows, for one) have no combining acute, so the browser draws U+0301
+// from a fallback font as a separate spaced glyph ("вокза́ л"). Instead, the stressed vowel goes
+// in <span class="sv">, and CSS overlays a spacing acute (´) with zero width. Text nodes then hold
+// no U+0301 at all, so copy/paste and speech get plain words.
+var STRESS_RE=/([аеёиоуыэюяАЕЁИОУЫЭЮЯ])\u0301/g,NO_SV="script,style,textarea,option,title,select";
+function markText(node){
+  var txt=node.nodeValue;if(!txt||txt.indexOf(ACUTE)<0)return;
+  var p=node.parentNode;if(!p||p.nodeType!==1||(p.closest&&p.closest(NO_SV)))return;
+  if(p.classList&&p.classList.contains("sv")){node.nodeValue=strip(txt);return}
+  STRESS_RE.lastIndex=0;var m,last=0,frag=document.createDocumentFragment();
+  while((m=STRESS_RE.exec(txt))){
+    if(m.index>last)frag.appendChild(document.createTextNode(strip(txt.slice(last,m.index))));
+    var s=document.createElement("span");s.className=m[1]===m[1].toLowerCase()?"sv":"sv up";s.textContent=m[1];
+    frag.appendChild(s);last=m.index+m[0].length;
+  }
+  if(last<txt.length)frag.appendChild(document.createTextNode(strip(txt.slice(last))));
+  p.replaceChild(frag,node);
+}
+function markStress(root){
+  if(!root)return;
+  if(root.nodeType===3){markText(root);return}
+  if(root.nodeType!==1)return;
+  var w=document.createTreeWalker(root,4,null,false),list=[],n;
+  while((n=w.nextNode()))if(n.nodeValue.indexOf(ACUTE)>=0)list.push(n);
+  list.forEach(markText);
+}
 function wrap(root){
   if(!root)return;
-  if(root.nodeType===3){wrapText(root);return}
-  if(root.nodeType!==1||(root.closest&&root.closest(SKIP)))return;
-  var w=document.createTreeWalker(root,4,null,false),list=[],n;
-  while((n=w.nextNode()))if(CYR.test(n.nodeValue))list.push(n);
-  list.forEach(wrapText);
+  if(root.nodeType===3){var par=root.parentNode;wrapText(root);markStress(par);return}
+  if(root.nodeType!==1)return;
+  if(!(root.closest&&root.closest(SKIP))){
+    var w=document.createTreeWalker(root,4,null,false),list=[],n;
+    while((n=w.nextNode()))if(CYR.test(n.nodeValue))list.push(n);
+    list.forEach(wrapText);
+  }
+  markStress(root);
 }
 function observe(){
   wrap(document.body);
   if(!window.MutationObserver)return;
   new MutationObserver(function(muts){muts.forEach(function(m){
-    if(m.type==="characterData"){wrapText(m.target);return}
+    if(m.type==="characterData"){var par=m.target.parentNode;wrapText(m.target);markStress(par);return}
     for(var i=0;i<m.addedNodes.length;i++)wrap(m.addedNodes[i]);
   })}).observe(document.body,{childList:true,subtree:true,characterData:true});
 }
@@ -137,7 +167,7 @@ function endTouch(ev){
 document.addEventListener("touchend",endTouch,{passive:false});
 document.addEventListener("touchcancel",endTouch,{passive:true});
 
-R.accent=accent;R.strip=strip;R.speak=speak;R.wrap=wrap;R.voice=function(){return voice};
+R.accent=accent;R.markStress=markStress;R.strip=strip;R.speak=speak;R.wrap=wrap;R.voice=function(){return voice};
 R.setEnabled=function(on){R.enabled=!!on;document.body.classList.toggle("tts-off",!R.enabled)};
 window.RuSpeech=R;
 if(document.body)observe();else document.addEventListener("DOMContentLoaded",observe);
