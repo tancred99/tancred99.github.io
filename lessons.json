@@ -1975,6 +1975,1483 @@
      ]
     }
    ]
+  },
+  "L4": {
+   "id": "L4",
+   "n": 4,
+   "title": "The genitive case: у меня есть / у меня нет (having and not having)",
+   "goal": "By the end you'll be able to say what you and others have and don't have: У меня есть трактор. У нас нет собаки. В магазине нет хлеба.",
+   "minutes": "15–20 min to read, then 35 exercises",
+   "sections": [
+    {
+     "h": "Step 1 · How Russian says “I have”",
+     "open": true,
+     "html": "<p>Russian has a verb “to have” (<span lang=\"ru\" class=\"r\">иметь</span>), but in everyday speech nobody says it about things they own. Instead Russian says <b>“by me there is …”</b>:</p><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">У меня есть трактор.</span><span class=\"g\">I have a tractor. (literally: by me there is a tractor)</span></li><li><span lang=\"ru\" class=\"r\">У нас есть коровы и куры.</span><span class=\"g\">We have cows and chickens.</span></li><li><span lang=\"ru\" class=\"r\">У тебя есть время?</span><span class=\"g\">Do you have time?</span></li></ul><p>Diagram the first sentence and every word has a clear job:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Word</th><th>Job in the sentence</th><th>Case</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">у</span></td><td>preposition “by, at”: always takes the genitive</td><td>—</td></tr><tr><td><span lang=\"ru\" class=\"r\">меня</span></td><td>object of the preposition <span lang=\"ru\" class=\"r\">у</span>: the <b>owner</b></td><td>genitive</td></tr><tr><td><span lang=\"ru\" class=\"r\">есть</span></td><td>verb “there is” (an old present-tense form of <span lang=\"ru\" class=\"r\">быть</span>)</td><td>—</td></tr><tr><td><span lang=\"ru\" class=\"r\">трактор</span></td><td><b>subject</b>: the thing that exists</td><td>nominative</td></tr></tbody></table></div><p class=\"tip\"><b>The thing you own is the subject.</b> That's why it stays in the dictionary form (nominative): <span lang=\"ru\" class=\"r\">У меня есть машина</span>, never “машину”. English makes the owner the subject (<i>I</i> have); Russian makes the <i>thing</i> the subject. In Lesson 5 you'll see why this matters: the past-tense verb agrees with the thing.</p><p class=\"tip\"><b>German helps here:</b> <span lang=\"ru\" class=\"r\">у</span> is very close to <i>bei</i>. <span lang=\"ru\" class=\"r\">у друга</span> = bei meinem Freund (at my friend's place). Russian says, in effect, “bei mir ist ein Traktor.” And <span lang=\"ru\" class=\"r\">у</span> always takes the <b>genitive case</b> (<span lang=\"ru\" class=\"r\">родительный падеж</span>), the same case German uses for “of”: des Bruders.</p>"
+    },
+    {
+     "h": "Step 2 · у меня, у тебя, у него …",
+     "open": false,
+     "html": "<p>The owner after <span lang=\"ru\" class=\"r\">у</span> is in the genitive. Here are the pronouns:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Subject (nominative)</th><th>After у (genitive)</th><th>Example</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">я</span></td><td><span lang=\"ru\" class=\"r\">у меня</span></td><td><span lang=\"ru\" class=\"r\">У меня есть ферма.</span> I have a farm.</td></tr><tr><td><span lang=\"ru\" class=\"r\">ты</span></td><td><span lang=\"ru\" class=\"r\">у тебя</span></td><td><span lang=\"ru\" class=\"r\">У тебя есть собака?</span> Do you have a dog?</td></tr><tr><td><span lang=\"ru\" class=\"r\">он</span></td><td><span lang=\"ru\" class=\"r\">у него</span></td><td><span lang=\"ru\" class=\"r\">У него есть машина.</span> He has a car.</td></tr><tr><td><span lang=\"ru\" class=\"r\">она</span></td><td><span lang=\"ru\" class=\"r\">у неё</span></td><td><span lang=\"ru\" class=\"r\">У неё есть сестра.</span> She has a sister.</td></tr><tr><td><span lang=\"ru\" class=\"r\">мы</span></td><td><span lang=\"ru\" class=\"r\">у нас</span></td><td><span lang=\"ru\" class=\"r\">У нас есть сарай.</span> We have a barn.</td></tr><tr><td><span lang=\"ru\" class=\"r\">вы</span></td><td><span lang=\"ru\" class=\"r\">у вас</span></td><td><span lang=\"ru\" class=\"r\">У вас есть молоко?</span> Do you have milk? (in a store)</td></tr><tr><td><span lang=\"ru\" class=\"r\">они</span></td><td><span lang=\"ru\" class=\"r\">у них</span></td><td><span lang=\"ru\" class=\"r\">У них есть дача.</span> They have a dacha (country house).</td></tr></tbody></table></div><p class=\"tip\"><b>The н- rule:</b> after a preposition, <span lang=\"ru\" class=\"r\">его, её, их</span> add <span lang=\"ru\" class=\"r\">н-</span>: <span lang=\"ru\" class=\"r\">у него, у неё, у них</span>. Without a preposition, <span lang=\"ru\" class=\"r\">его, её, их</span> mean “his, her, their”: <span lang=\"ru\" class=\"r\">Это его трактор</span> (That's his tractor). So “у его” is always wrong.</p><p>To answer a question, just repeat <span lang=\"ru\" class=\"r\">есть</span>:</p><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">У вас есть хлеб? — Да, есть.</span><span class=\"g\">Do you have bread? — Yes, we do.</span></li><li><span lang=\"ru\" class=\"r\">У тебя есть время? — Есть.</span><span class=\"g\">Do you have time? — I do.</span></li></ul>"
+    },
+    {
+     "h": "Step 3 · The genitive endings: у брата, у жены",
+     "open": false,
+     "html": "<p>When the owner is a noun, it takes a genitive ending. In the singular there are only four endings, and the dictionary form tells you which:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Dictionary form</th><th>Genitive</th><th>Examples</th></tr></thead><tbody><tr><td>masc. consonant</td><td>add <span lang=\"ru\" class=\"r\">-а</span></td><td><span lang=\"ru\" class=\"r\">брат → у брата</span> · <span lang=\"ru\" class=\"r\">друг → у друга</span> · <span lang=\"ru\" class=\"r\">сосед → у соседа</span> · <span lang=\"ru\" class=\"r\">фермер → у фермера</span></td></tr><tr><td>masc. <span lang=\"ru\" class=\"r\">-й</span>, <span lang=\"ru\" class=\"r\">-ь</span></td><td><span lang=\"ru\" class=\"r\">-й / -ь → -я</span></td><td><span lang=\"ru\" class=\"r\">Андрей → у Андрея</span> · <span lang=\"ru\" class=\"r\">сарай → сарая</span> · <span lang=\"ru\" class=\"r\">учитель → у учителя</span></td></tr><tr><td>neuter <span lang=\"ru\" class=\"r\">-о / -е</span></td><td><span lang=\"ru\" class=\"r\">-о → -а, -е → -я</span></td><td><span lang=\"ru\" class=\"r\">сено → сена</span> · <span lang=\"ru\" class=\"r\">молоко → молока</span> · <span lang=\"ru\" class=\"r\">море → моря</span></td></tr><tr><td>fem. <span lang=\"ru\" class=\"r\">-а</span></td><td><span lang=\"ru\" class=\"r\">-а → -ы</span></td><td><span lang=\"ru\" class=\"r\">жена → у жены</span> · <span lang=\"ru\" class=\"r\">сестра → у сестры</span> · <span lang=\"ru\" class=\"r\">мама → у мамы</span> · <span lang=\"ru\" class=\"r\">корова → коровы</span></td></tr><tr><td>fem. <span lang=\"ru\" class=\"r\">-я</span></td><td><span lang=\"ru\" class=\"r\">-я → -и</span></td><td><span lang=\"ru\" class=\"r\">Таня → у Тани</span> · <span lang=\"ru\" class=\"r\">деревня → деревни</span></td></tr><tr><td>fem. <span lang=\"ru\" class=\"r\">-ь</span></td><td><span lang=\"ru\" class=\"r\">-ь → -и</span></td><td><span lang=\"ru\" class=\"r\">церковь → церкви</span> · <span lang=\"ru\" class=\"r\">соль → соли</span></td></tr></tbody></table></div><p class=\"tip\"><b>Memory hook:</b> masculine and neuter take <span lang=\"ru\" class=\"r\">-а / -я</span>; feminine takes <span lang=\"ru\" class=\"r\">-ы / -и</span>. Feminine <span lang=\"ru\" class=\"r\">-ь</span> gives <span lang=\"ru\" class=\"r\">-и</span>, the same form you know from <span lang=\"ru\" class=\"r\">в церкви</span>.</p><h4>Spelling rule · after г, к, х, ж, ч, ш, щ write и, never ы</h4><p>Like the rule in Lesson 3 (<span lang=\"ru\" class=\"r\">учу</span>, not “учю”), this is spelling only; the ending is still the feminine one.</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Dictionary form</th><th>Genitive</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">подруга</span> (girl)friend</td><td><span lang=\"ru\" class=\"r\">у подруги</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">собака</span> dog</td><td><span lang=\"ru\" class=\"r\">собаки</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">кошка</span> cat</td><td><span lang=\"ru\" class=\"r\">кошки</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">дача</span> country house</td><td><span lang=\"ru\" class=\"r\">дачи</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">батюшка</span> Father (the priest)</td><td><span lang=\"ru\" class=\"r\">у батюшки</span></td></tr></tbody></table></div><p class=\"tip\"><b>Watch:</b> <span lang=\"ru\" class=\"r\">ц</span> is not on the list, so <span lang=\"ru\" class=\"r\">курица</span> keeps <span lang=\"ru\" class=\"r\">ы</span>: <span lang=\"ru\" class=\"r\">курицы</span>. And <span lang=\"ru\" class=\"r\">батюшка, папа, дедушка</span> are masculine (Lesson 1) but decline like feminine <span lang=\"ru\" class=\"r\">-а</span> nouns: <span lang=\"ru\" class=\"r\">у батюшки, у папы, у дедушки</span>. The <b>ending</b> follows the last letter; the <b>agreement</b> follows the man.</p>"
+    },
+    {
+     "h": "Step 4 · нет + genitive: not having",
+     "open": false,
+     "html": "<p>To say you <b>don't</b> have something, or that something <b>isn't there</b>, replace <span lang=\"ru\" class=\"r\">есть</span> with <span lang=\"ru\" class=\"r\">нет</span> and put the thing into the <b>genitive</b>:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>есть · have / there is (nominative)</th><th>нет · don't have / there isn't (genitive)</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">У меня есть трактор.</span></td><td><span lang=\"ru\" class=\"r\">У меня нет трактора.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">У нас есть корова.</span></td><td><span lang=\"ru\" class=\"r\">У нас нет коровы.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">У соседа есть сено.</span></td><td><span lang=\"ru\" class=\"r\">У соседа нет сена.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">В магазине есть хлеб.</span></td><td><span lang=\"ru\" class=\"r\">В магазине нет хлеба.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Сегодня есть служба.</span></td><td><span lang=\"ru\" class=\"r\">Сегодня нет службы.</span></td></tr></tbody></table></div><p><b>Why the genitive?</b> In the <span lang=\"ru\" class=\"r\">нет</span> sentence there is <b>no subject at all</b>. <span lang=\"ru\" class=\"r\">Нет</span> here means “there is no …”, and Russian puts what's missing into the genitive, the case of “none of”. Diagram <span lang=\"ru\" class=\"r\">У меня нет трактора</span>: <span lang=\"ru\" class=\"r\">у меня</span> = the owner (object of the preposition, genitive); <span lang=\"ru\" class=\"r\">нет</span> = the predicate, “there is no”; <span lang=\"ru\" class=\"r\">трактора</span> = what's missing (genitive). Not one word is in the nominative.</p><p class=\"tip\"><b>German does this with a word; Russian does it with a case.</b> Ich habe <i>keinen</i> Traktor = <span lang=\"ru\" class=\"r\">У меня нет трактора</span>. “У меня нет трактор” (nominative) is the classic mistake: after <span lang=\"ru\" class=\"r\">нет</span>, always the genitive.</p><p>The same rule covers places and people. Whoever or whatever is absent goes into the genitive:</p><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">В деревне нет интернета.</span><span class=\"g\">There's no internet in the village.</span></li><li><span lang=\"ru\" class=\"r\">Зимой в поле нет травы.</span><span class=\"g\">In winter there's no grass in the field.</span></li><li><span lang=\"ru\" class=\"r\">Жены нет дома.</span><span class=\"g\">My wife isn't home. (жена → жены)</span></li><li><span lang=\"ru\" class=\"r\">Батюшки сейчас нет.</span><span class=\"g\">Father isn't here right now.</span></li></ul>"
+    },
+    {
+     "h": "Step 5 · More about у and the genitive",
+     "open": false,
+     "html": "<h4>When to leave out есть</h4><p>Use <span lang=\"ru\" class=\"r\">есть</span> when the point is <b>whether</b> something exists. When everyone knows it exists and you're <b>describing</b> it, leave <span lang=\"ru\" class=\"r\">есть</span> out:</p><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">У меня есть машина.</span><span class=\"g\">I have a car. (new information: it exists)</span></li><li><span lang=\"ru\" class=\"r\">У меня новая машина.</span><span class=\"g\">My car is new. / I have a new car. (describing it)</span></li><li><span lang=\"ru\" class=\"r\">У жены голубые глаза.</span><span class=\"g\">My wife has blue eyes. (of course she has eyes)</span></li></ul><h4>у = at someone's place</h4><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Вчера я был у друга.</span><span class=\"g\">Yesterday I was at my friend's. (bei meinem Freund)</span></li><li><span lang=\"ru\" class=\"r\">В субботу мы обедаем у батюшки.</span><span class=\"g\">On Saturday we're having lunch at Father's.</span></li></ul><h4>The genitive for “of”</h4><p>The genitive also means “of” or “'s”. The owner comes <b>after</b> the thing, exactly like German <i>der Traktor des Nachbarn</i>:</p><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Это трактор соседа.</span><span class=\"g\">That's the neighbor's tractor. (сосед → соседа)</span></li><li><span lang=\"ru\" class=\"r\">Это машина жены.</span><span class=\"g\">That's my wife's car. (жена → жены)</span></li><li><span lang=\"ru\" class=\"r\">Это дом батюшки.</span><span class=\"g\">That's Father's house.</span></li></ul><p class=\"tip\"><b>Useful phrases:</b> <span lang=\"ru\" class=\"r\">У меня нет времени</span> (I don't have time; <span lang=\"ru\" class=\"r\">время → времени</span> is irregular, learn it as a phrase). <span lang=\"ru\" class=\"r\">У вас есть сдача?</span> (Do you have change?)</p>"
+    },
+    {
+     "h": "Summary",
+     "open": false,
+     "html": "<ul class=\"sum\"><li>“I have” = <span lang=\"ru\" class=\"r\">у меня есть</span> + <b>nominative</b>. The thing owned is the subject; the owner is the object of <span lang=\"ru\" class=\"r\">у</span> (genitive).</li><li>Pronouns: <span lang=\"ru\" class=\"r\">у меня, у тебя, у него, у неё, у нас, у вас, у них</span> (н- after a preposition).</li><li>Genitive singular: masculine/neuter <span lang=\"ru\" class=\"r\">-а / -я</span>; feminine <span lang=\"ru\" class=\"r\">-ы / -и</span>. After <span lang=\"ru\" class=\"r\">г, к, х, ж, ч, ш, щ</span> write <span lang=\"ru\" class=\"r\">и</span>: <span lang=\"ru\" class=\"r\">у подруги, у батюшки</span>.</li><li>“I don't have / there isn't” = <span lang=\"ru\" class=\"r\">нет</span> + <b>genitive</b>. No subject: <span lang=\"ru\" class=\"r\">У меня нет трактора. Жены нет дома.</span></li><li>Drop <span lang=\"ru\" class=\"r\">есть</span> when describing: <span lang=\"ru\" class=\"r\">У меня новая машина</span>. The genitive also means “of”: <span lang=\"ru\" class=\"r\">трактор соседа</span>.</li></ul>"
+    }
+   ],
+   "parts": {
+    "A": "Part A · у + the owner (genitive)",
+    "B": "Part B · нет + the genitive",
+    "C": "Part C · есть or нет? Read the context"
+   },
+   "practice": {
+    "title": "Now use it: write to your tutor",
+    "text": "Answer in chat: Что у тебя есть на ферме? Write 4 short sentences: two things you have (у меня есть / у нас есть), one thing you don't have yet (у нас нет + genitive), and one about someone else (у жены, у друга, у соседа).",
+    "examples": [
+     "У нас есть коровы и куры.",
+     "У меня есть трактор.",
+     "У нас пока нет козы.",
+     "У друга есть дача в Беларуси."
+    ]
+   },
+   "exercises": [
+    {
+     "part": "A",
+     "sub": "A · у + the owner (genitive)",
+     "k": "own",
+     "w": "я",
+     "s": "У ___ есть трактор.",
+     "base": "я",
+     "a": "меня",
+     "d": [
+      "я",
+      "мне",
+      "мной"
+     ],
+     "ex": "After у the owner is in the genitive: я → меня. The tractor is the subject (nominative). (Steps 1 and 2)",
+     "translation": "I have a tractor.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · у + the owner (genitive)",
+     "k": "own",
+     "w": "ты",
+     "s": "У ___ есть собака?",
+     "base": "ты",
+     "a": "тебя",
+     "d": [
+      "ты",
+      "тебе",
+      "тобой"
+     ],
+     "ex": "у + genitive: ты → тебя. (Step 2)",
+     "translation": "Do you have a dog?",
+     "glosses": [
+      "собака: dog"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · у + the owner (genitive)",
+     "k": "own",
+     "w": "он",
+     "s": "У ___ есть машина.",
+     "base": "он",
+     "a": "него",
+     "d": [
+      "его",
+      "он",
+      "нему"
+     ],
+     "ex": "After a preposition его becomes него: у него. Plain его means “his”. (Step 2)",
+     "translation": "He has a car.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · у + the owner (genitive)",
+     "k": "own",
+     "w": "она",
+     "s": "У ___ есть паспорт?",
+     "base": "она",
+     "a": "неё",
+     "d": [
+      "её",
+      "она",
+      "ней"
+     ],
+     "ex": "After a preposition её becomes неё: у неё. (Step 2)",
+     "translation": "Does she have a passport?",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · у + the owner (genitive)",
+     "k": "own",
+     "w": "мы",
+     "s": "У ___ есть коровы и куры.",
+     "base": "мы",
+     "a": "нас",
+     "d": [
+      "мы",
+      "нам",
+      "нами"
+     ],
+     "ex": "у + genitive: мы → нас. коровы и куры is the subject, in the nominative. (Steps 1 and 2)",
+     "translation": "We have cows and chickens.",
+     "glosses": [
+      "коровы: cows",
+      "куры: chickens, hens"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · у + the owner (genitive)",
+     "k": "own",
+     "w": "вы",
+     "s": "У ___ есть время?",
+     "base": "вы",
+     "a": "вас",
+     "d": [
+      "вы",
+      "вам",
+      "вами"
+     ],
+     "ex": "у + genitive: вы → вас. (Step 2)",
+     "translation": "Do you have time?",
+     "glosses": [
+      "время: time"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · у + the owner (genitive)",
+     "k": "own",
+     "w": "они",
+     "s": "У ___ есть дача в Беларуси.",
+     "base": "они",
+     "a": "них",
+     "d": [
+      "их",
+      "они",
+      "ним"
+     ],
+     "ex": "After a preposition их becomes них: у них. (Step 2)",
+     "translation": "They have a dacha in Belarus.",
+     "glosses": [
+      "дача: country house, dacha"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · у + the owner (genitive)",
+     "k": "own",
+     "w": "друг",
+     "s": "У ___ есть дача в деревне.",
+     "base": "друг",
+     "a": "друга",
+     "d": [
+      "друг",
+      "другу",
+      "другом"
+     ],
+     "ex": "Masculine consonant: add -а. друг → у друга. (Step 3)",
+     "translation": "My friend has a dacha in the village.",
+     "glosses": [
+      "дача: country house, dacha",
+      "в деревне: in the village"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · у + the owner (genitive)",
+     "k": "own",
+     "w": "сосед",
+     "s": "У ___ есть новый трактор.",
+     "base": "сосед",
+     "a": "соседа",
+     "d": [
+      "сосед",
+      "соседу",
+      "соседом"
+     ],
+     "ex": "Masculine consonant: add -а. сосед → у соседа. (Step 3)",
+     "translation": "The neighbor has a new tractor.",
+     "glosses": [
+      "новый: new"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · у + the owner (genitive)",
+     "k": "own",
+     "w": "жена",
+     "s": "У ___ есть сестра в Минске.",
+     "base": "жена",
+     "a": "жены",
+     "d": [
+      "жена",
+      "жене",
+      "жену"
+     ],
+     "ex": "Feminine -а → -ы: жена → у жены. (Step 3)",
+     "translation": "My wife has a sister in Minsk.",
+     "glosses": [
+      "сестра: sister"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · у + the owner (genitive)",
+     "k": "own",
+     "w": "батюшка",
+     "s": "У ___ есть ключ от храма.",
+     "base": "батюшка",
+     "a": "батюшки",
+     "d": [
+      "батюшка",
+      "батюшкы",
+      "батюшке"
+     ],
+     "ex": "батюшка declines like a feminine -а noun, and after к you write и, not ы: у батюшки. (Step 3)",
+     "translation": "Father has the key to the church.",
+     "glosses": [
+      "ключ: key",
+      "от храма: to (literally from) the church"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · у + the owner (genitive)",
+     "k": "own",
+     "w": "сестра",
+     "s": "У ___ тоже есть корова.",
+     "base": "сестра",
+     "a": "сестры",
+     "d": [
+      "сестра",
+      "сестре",
+      "сестру"
+     ],
+     "ex": "Feminine -а → -ы: сестра → у сестры. (Step 3)",
+     "translation": "My sister has a cow too.",
+     "glosses": [
+      "тоже: too, also"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · нет + genitive",
+     "k": "not",
+     "w": "трактор",
+     "s": "У соседа нет ___, поэтому он берёт наш.",
+     "base": "трактор",
+     "a": "трактора",
+     "d": [
+      "трактор",
+      "трактору",
+      "трактором"
+     ],
+     "ex": "нет + genitive. Masculine consonant: add -а. трактор → трактора. (Steps 3 and 4)",
+     "translation": "The neighbor doesn't have a tractor, so he borrows ours.",
+     "glosses": [
+      "поэтому: so, that's why",
+      "берёт наш: takes (borrows) ours"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · нет + genitive",
+     "k": "not",
+     "w": "хлеб",
+     "s": "В магазине сегодня нет ___.",
+     "base": "хлеб",
+     "a": "хлеба",
+     "d": [
+      "хлеб",
+      "хлебу",
+      "хлебе"
+     ],
+     "ex": "There isn't = нет + genitive: хлеб → хлеба. (Steps 3 and 4)",
+     "translation": "There's no bread at the store today.",
+     "glosses": [
+      "в магазине: at the store",
+      "сегодня: today"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · нет + genitive",
+     "k": "not",
+     "w": "молоко",
+     "s": "В холодильнике нет ___.",
+     "base": "молоко",
+     "a": "молока",
+     "d": [
+      "молоко",
+      "молоку",
+      "молоке"
+     ],
+     "ex": "нет + genitive. Neuter -о → -а: молоко → молока. (Steps 3 and 4)",
+     "translation": "There's no milk in the fridge.",
+     "glosses": [
+      "в холодильнике: in the fridge"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · нет + genitive",
+     "k": "not",
+     "w": "билет",
+     "s": "Извините, у меня нет ___.",
+     "base": "билет",
+     "a": "билета",
+     "d": [
+      "билет",
+      "билету",
+      "билетом"
+     ],
+     "ex": "нет + genitive: билет → билета. (Steps 3 and 4)",
+     "translation": "Sorry, I don't have a ticket.",
+     "glosses": [
+      "извините: excuse me, sorry",
+      "билет: ticket"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · нет + genitive",
+     "k": "not",
+     "w": "служба",
+     "s": "Сегодня нет ___.",
+     "base": "служба",
+     "a": "службы",
+     "d": [
+      "служба",
+      "службу",
+      "службе"
+     ],
+     "ex": "There isn't = нет + genitive. Feminine -а → -ы: служба → службы. (Steps 3 and 4)",
+     "translation": "There's no service today.",
+     "glosses": [
+      "служба: (church) service"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · нет + genitive",
+     "k": "not",
+     "w": "интернет",
+     "s": "В деревне нет ___.",
+     "base": "интернет",
+     "a": "интернета",
+     "d": [
+      "интернет",
+      "интернету",
+      "интернете"
+     ],
+     "ex": "нет + genitive: интернет → интернета. (Steps 3 and 4)",
+     "translation": "There's no internet in the village.",
+     "glosses": [
+      "в деревне: in the village"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · нет + genitive",
+     "k": "not",
+     "w": "собака",
+     "s": "У нас нет ___.",
+     "base": "собака",
+     "a": "собаки",
+     "d": [
+      "собака",
+      "собакы",
+      "собаку"
+     ],
+     "ex": "нет + genitive. Feminine -а normally → -ы, but after к you write и: собаки. (Steps 3 and 4)",
+     "translation": "We don't have a dog.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · нет + genitive",
+     "k": "not",
+     "w": "трава",
+     "s": "Зимой в поле нет ___.",
+     "base": "трава",
+     "a": "травы",
+     "d": [
+      "трава",
+      "траву",
+      "траве"
+     ],
+     "ex": "нет + genitive. Feminine -а → -ы: трава → травы. (Steps 3 and 4)",
+     "translation": "In winter there's no grass in the field.",
+     "glosses": [
+      "зимой: in winter",
+      "в поле: in the field"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · нет + genitive",
+     "k": "not",
+     "w": "сено",
+     "s": "В сарае уже нет ___.",
+     "base": "сено",
+     "a": "сена",
+     "d": [
+      "сено",
+      "сену",
+      "сене"
+     ],
+     "ex": "нет + genitive. Neuter -о → -а: сено → сена. (Steps 3 and 4)",
+     "translation": "There's no more hay in the barn.",
+     "glosses": [
+      "в сарае: in the barn",
+      "уже нет: no more, not any longer"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · нет + genitive",
+     "k": "not",
+     "w": "соль",
+     "s": "В доме нет ___.",
+     "base": "соль",
+     "a": "соли",
+     "d": [
+      "соль",
+      "солью",
+      "солы"
+     ],
+     "ex": "нет + genitive. Feminine -ь → -и: соль → соли. (Steps 3 and 4)",
+     "translation": "There's no salt in the house.",
+     "glosses": [
+      "в доме: in the house"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · нет + genitive",
+     "k": "not",
+     "w": "вода",
+     "s": "В ведре нет ___.",
+     "base": "вода",
+     "a": "воды",
+     "d": [
+      "вода",
+      "воду",
+      "воде"
+     ],
+     "ex": "нет + genitive. Feminine -а → -ы: вода → воды. (Steps 3 and 4)",
+     "translation": "There's no water in the bucket.",
+     "glosses": [
+      "в ведре: in the bucket"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · нет + genitive",
+     "k": "not",
+     "w": "жена",
+     "s": "___ нет дома.",
+     "base": "жена",
+     "a": "Жены",
+     "d": [
+      "Жена",
+      "Жену",
+      "Жене"
+     ],
+     "ex": "Someone who isn't there goes into the genitive too, and the sentence has no subject: жена → жены. (Step 4)",
+     "translation": "My wife isn't home.",
+     "glosses": [
+      "дома: at home"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · есть or нет?",
+     "k": "not",
+     "w": "машина",
+     "s": "Я хожу пешком, потому что у меня ___.",
+     "base": "машина · есть or нет?",
+     "a": "нет машины",
+     "d": [
+      "есть машина",
+      "нет машина",
+      "нет машине"
+     ],
+     "ex": "Walking because … → you don't have one: нет + genitive, машина → машины. (Steps 1 and 4)",
+     "translation": "I walk because I don't have a car.",
+     "glosses": [
+      "хожу пешком: I walk, go on foot",
+      "потому что: because"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · есть or нет?",
+     "k": "have",
+     "w": "трактор",
+     "s": "Сосед пашет поле, потому что у него ___.",
+     "base": "трактор · есть or нет?",
+     "a": "есть трактор",
+     "d": [
+      "нет трактора",
+      "нет трактор",
+      "есть трактору"
+     ],
+     "ex": "He's plowing, so he has one: есть + nominative. The tractor is the subject. (Step 1)",
+     "translation": "The neighbor is plowing the field because he has a tractor.",
+     "glosses": [
+      "пашет: plows",
+      "поле: field"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · есть or нет?",
+     "k": "have",
+     "w": "корова",
+     "s": "Мы не покупаем молоко, потому что у нас ___.",
+     "base": "корова · есть or нет?",
+     "a": "есть корова",
+     "d": [
+      "нет коровы",
+      "нет корова",
+      "есть корове"
+     ],
+     "ex": "You don't buy milk because you have a cow: есть + nominative. (Step 1)",
+     "translation": "We don't buy milk because we have a cow.",
+     "glosses": [
+      "покупаем: (we) buy"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · есть or нет?",
+     "k": "not",
+     "w": "виза",
+     "s": "Мой друг не может поехать в Америку, потому что у него ___.",
+     "base": "виза · есть or нет?",
+     "a": "нет визы",
+     "d": [
+      "есть виза",
+      "нет виза",
+      "нет визе"
+     ],
+     "ex": "He can't go → he doesn't have one: нет + genitive, виза → визы. (Steps 1 and 4)",
+     "translation": "My friend can't go to America because he doesn't have a visa.",
+     "glosses": [
+      "не может поехать: can't go",
+      "виза: visa"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · есть or нет?",
+     "k": "not",
+     "w": "хлеб",
+     "s": "Я покупаю хлеб, потому что дома ___.",
+     "base": "хлеб · есть or нет?",
+     "a": "нет хлеба",
+     "d": [
+      "есть хлеб",
+      "нет хлеб",
+      "нет хлебу"
+     ],
+     "ex": "You're buying it because there isn't any: нет + genitive, хлеб → хлеба. (Step 4)",
+     "translation": "I'm buying bread because there's none at home.",
+     "glosses": [
+      "дома: at home"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · есть or нет?",
+     "k": "not",
+     "w": "трава",
+     "s": "Коровы едят сено, потому что в поле ___.",
+     "base": "трава · есть or нет?",
+     "a": "нет травы",
+     "d": [
+      "есть трава",
+      "нет трава",
+      "нет траве"
+     ],
+     "ex": "They eat hay because there's no grass: нет + genitive, трава → травы. (Step 4)",
+     "translation": "The cows are eating hay because there's no grass in the field.",
+     "glosses": [
+      "едят: (they) eat",
+      "сено: hay"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · есть or нет?",
+     "k": "not",
+     "w": "телефон",
+     "s": "Я не могу позвонить, потому что у меня ___.",
+     "base": "телефон · есть or нет?",
+     "a": "нет телефона",
+     "d": [
+      "есть телефон",
+      "нет телефон",
+      "нет телефону"
+     ],
+     "ex": "You can't call → you don't have one: нет + genitive, телефон → телефона. (Step 4)",
+     "translation": "I can't call because I don't have a phone.",
+     "glosses": [
+      "не могу позвонить: I can't call"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · есть or нет?",
+     "k": "not",
+     "w": "рыба",
+     "s": "Мы едем на рынок, потому что в магазине ___.",
+     "base": "рыба · есть or нет?",
+     "a": "нет рыбы",
+     "d": [
+      "есть рыба",
+      "нет рыба",
+      "нет рыбе"
+     ],
+     "ex": "You're going elsewhere because the store has none: нет + genitive, рыба → рыбы. (Step 4)",
+     "translation": "We're going to the market because there's no fish at the store.",
+     "glosses": [
+      "едем на рынок: we're going to the market"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · есть or нет?",
+     "k": "have",
+     "w": "терминал",
+     "s": "Можно заплатить картой? — Да, у нас ___.",
+     "base": "терминал · есть or нет?",
+     "a": "есть терминал",
+     "d": [
+      "нет терминала",
+      "нет терминал",
+      "есть терминалу"
+     ],
+     "ex": "Yes, you can pay by card → they have one: есть + nominative. (Step 1)",
+     "translation": "Can I pay by card? — Yes, we have a card reader.",
+     "glosses": [
+      "можно заплатить картой: can (I) pay by card",
+      "терминал: card terminal"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · есть or нет?",
+     "k": "have",
+     "w": "дом",
+     "s": "Друг приглашает нас в гости, потому что у него ___ в деревне.",
+     "base": "дом · есть or нет?",
+     "a": "есть дом",
+     "d": [
+      "нет дома",
+      "нет дом",
+      "есть дому"
+     ],
+     "ex": "He's inviting you, so he has a house there: есть + nominative. (Step 1)",
+     "translation": "My friend is inviting us to visit because he has a house in the village.",
+     "glosses": [
+      "приглашает нас в гости: invites us to visit"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · есть or нет?",
+     "k": "not",
+     "w": "сдача",
+     "s": "Извините, у меня ___.",
+     "base": "сдача · есть or нет?",
+     "a": "нет сдачи",
+     "d": [
+      "есть сдача",
+      "нет сдача",
+      "нет сдаче"
+     ],
+     "ex": "Apologizing → you don't have it: нет + genitive. After ч you write и: сдача → сдачи. (Steps 3 and 4)",
+     "translation": "Sorry, I don't have change.",
+     "glosses": [
+      "извините: excuse me, sorry",
+      "сдача: change (money)"
+     ]
+    }
+   ]
+  },
+  "L5": {
+   "id": "L5",
+   "n": 5,
+   "title": "The past tense: я был, она была",
+   "goal": "By the end you'll be able to say what you did and where you were: Вчера я косил сено. Жена была в магазине. У нас была корова.",
+   "minutes": "15–20 min to read, then 36 exercises",
+   "sections": [
+    {
+     "h": "Step 1 · Making the past tense",
+     "open": true,
+     "html": "<p>The past tense is the easiest tense in Russian. Take the infinitive, drop <span lang=\"ru\" class=\"r\">-ть</span>, and add <span lang=\"ru\" class=\"r\">-л</span>. Then add an ending that matches the <b>subject</b> in <b>gender and number</b>:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Subject · ending</th><th><span lang=\"ru\" class=\"r\">работать</span> work</th><th><span lang=\"ru\" class=\"r\">говорить</span> speak</th><th><span lang=\"ru\" class=\"r\">быть</span> be</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">он</span> · <span lang=\"ru\" class=\"r\">-л</span></td><td><span lang=\"ru\" class=\"r\">работа<b>л</b></span></td><td><span lang=\"ru\" class=\"r\">говори<b>л</b></span></td><td><span lang=\"ru\" class=\"r\">бы<b>л</b></span></td></tr><tr><td><span lang=\"ru\" class=\"r\">она</span> · <span lang=\"ru\" class=\"r\">-ла</span></td><td><span lang=\"ru\" class=\"r\">работа<b>ла</b></span></td><td><span lang=\"ru\" class=\"r\">говори<b>ла</b></span></td><td><span lang=\"ru\" class=\"r\">бы<b>ла</b></span></td></tr><tr><td><span lang=\"ru\" class=\"r\">оно</span> · <span lang=\"ru\" class=\"r\">-ло</span></td><td><span lang=\"ru\" class=\"r\">работа<b>ло</b></span></td><td><span lang=\"ru\" class=\"r\">говори<b>ло</b></span></td><td><span lang=\"ru\" class=\"r\">бы<b>ло</b></span></td></tr><tr><td><span lang=\"ru\" class=\"r\">мы, вы, они</span> · <span lang=\"ru\" class=\"r\">-ли</span></td><td><span lang=\"ru\" class=\"r\">работа<b>ли</b></span></td><td><span lang=\"ru\" class=\"r\">говори<b>ли</b></span></td><td><span lang=\"ru\" class=\"r\">бы<b>ли</b></span></td></tr></tbody></table></div><p>There is only one past tense. <span lang=\"ru\" class=\"r\">Я работал</span> covers I worked, I was working, I used to work and I have worked.</p><p class=\"tip\"><b>Unlike German, the person doesn't matter.</b> German changes the ending for every person (ich arbeitete, du arbeitetest, wir arbeiteten). Russian only cares about gender and number. The reason: the <span lang=\"ru\" class=\"r\">-л</span> form was originally a <b>participle</b>, like <i>gearbeitet</i>. Old Russian said the equivalent of “I am worked” (<span lang=\"ru\" class=\"r\">есмь работал</span>), like German ich habe gearbeitet. The helper verb dropped away, and the participle kept its adjective-like endings for gender and number.</p><p>The conjugation group from Lesson 3 doesn't matter, and the present-tense stem changes disappear. The past is built on the <b>infinitive</b>:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Infinitive</th><th>Present (Lesson 3)</th><th>Past</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">любить</span></td><td><span lang=\"ru\" class=\"r\">я люблю</span></td><td><span lang=\"ru\" class=\"r\">он любил</span> (no extra л)</td></tr><tr><td><span lang=\"ru\" class=\"r\">писать</span></td><td><span lang=\"ru\" class=\"r\">я пишу</span></td><td><span lang=\"ru\" class=\"r\">он писал</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">жить</span></td><td><span lang=\"ru\" class=\"r\">я живу</span></td><td><span lang=\"ru\" class=\"r\">он жил</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">хотеть</span></td><td><span lang=\"ru\" class=\"r\">я хочу</span></td><td><span lang=\"ru\" class=\"r\">он хотел</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">ходить</span></td><td><span lang=\"ru\" class=\"r\">я хожу</span></td><td><span lang=\"ru\" class=\"r\">он ходил</span></td></tr></tbody></table></div>"
+    },
+    {
+     "h": "Step 2 · Agreeing with the subject",
+     "open": false,
+     "html": "<p>To pick the ending, find the <b>subject</b> (the nominative) and ask: is it masculine, feminine, neuter or plural?</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Subject</th><th>Ending</th><th>Example</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">я</span> (a man speaking)</td><td><span lang=\"ru\" class=\"r\">-л</span></td><td><span lang=\"ru\" class=\"r\">Вчера я работал дома.</span> You say this.</td></tr><tr><td><span lang=\"ru\" class=\"r\">я</span> (a woman speaking)</td><td><span lang=\"ru\" class=\"r\">-ла</span></td><td><span lang=\"ru\" class=\"r\">Вчера я работала дома.</span> Your wife says this.</td></tr><tr><td><span lang=\"ru\" class=\"r\">ты</span></td><td><span lang=\"ru\" class=\"r\">-л / -ла</span></td><td><span lang=\"ru\" class=\"r\">Ты был в храме?</span> (to a man) · <span lang=\"ru\" class=\"r\">Ты была в храме?</span> (to a woman)</td></tr><tr><td><span lang=\"ru\" class=\"r\">он, брат, батюшка</span></td><td><span lang=\"ru\" class=\"r\">-л</span></td><td><span lang=\"ru\" class=\"r\">Батюшка читал Евангелие.</span> Father read the Gospel.</td></tr><tr><td><span lang=\"ru\" class=\"r\">она, жена, корова</span></td><td><span lang=\"ru\" class=\"r\">-ла</span></td><td><span lang=\"ru\" class=\"r\">Жена готовила ужин.</span> My wife was cooking dinner.</td></tr><tr><td><span lang=\"ru\" class=\"r\">оно, солнце, сено</span></td><td><span lang=\"ru\" class=\"r\">-ло</span></td><td><span lang=\"ru\" class=\"r\">Солнце светило весь день.</span> The sun shone all day.</td></tr><tr><td><span lang=\"ru\" class=\"r\">мы, вы, они, дети</span></td><td><span lang=\"ru\" class=\"r\">-ли</span></td><td><span lang=\"ru\" class=\"r\">Мы с женой были на литургии.</span> My wife and I were at the Liturgy.</td></tr></tbody></table></div><p class=\"tip\"><b>Gender from Lesson 1 decides everything.</b> <span lang=\"ru\" class=\"r\">батюшка, папа, дедушка</span> are masculine, so it's <span lang=\"ru\" class=\"r\">батюшка читал</span>, never “читала”, even though the noun ends in <span lang=\"ru\" class=\"r\">-а</span>.</p><p class=\"tip\"><b><span lang=\"ru\" class=\"r\">вы</span> always takes <span lang=\"ru\" class=\"r\">-ли</span></b>, even when it's polite and you mean one person: <span lang=\"ru\" class=\"r\">Батюшка, вы были в Минске?</span> Just as German Sie takes the plural verb. And <span lang=\"ru\" class=\"r\">мы с женой</span> is <span lang=\"ru\" class=\"r\">мы</span>, so <span lang=\"ru\" class=\"r\">-ли</span>.</p>"
+    },
+    {
+     "h": "Step 3 · -ся verbs and a few irregular pasts",
+     "open": false,
+     "html": "<h4>Verbs with -ся</h4><p>Form the past as usual, then add <span lang=\"ru\" class=\"r\">-ся</span> after a consonant and <span lang=\"ru\" class=\"r\">-сь</span> after a vowel:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Infinitive</th><th>он</th><th>она</th><th>они</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">учиться</span> study</td><td><span lang=\"ru\" class=\"r\">учи<b>лся</b></span></td><td><span lang=\"ru\" class=\"r\">учила<b>сь</b></span></td><td><span lang=\"ru\" class=\"r\">учили<b>сь</b></span></td></tr><tr><td><span lang=\"ru\" class=\"r\">молиться</span> pray</td><td><span lang=\"ru\" class=\"r\">моли<b>лся</b></span></td><td><span lang=\"ru\" class=\"r\">молила<b>сь</b></span></td><td><span lang=\"ru\" class=\"r\">молили<b>сь</b></span></td></tr></tbody></table></div><h4>Irregular pasts to learn now</h4><p>Learn these four now. Verbs whose infinitive ends in <span lang=\"ru\" class=\"r\">-ти</span> or <span lang=\"ru\" class=\"r\">-чь</span> often have no <span lang=\"ru\" class=\"r\">-л</span> in the masculine (<span lang=\"ru\" class=\"r\">шёл, мог, пас</span>), and <span lang=\"ru\" class=\"r\">есть</span> (eat) simply loses its <span lang=\"ru\" class=\"r\">с</span>:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Infinitive</th><th>он</th><th>она</th><th>оно</th><th>они</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">идти</span> go (on foot)</td><td><span lang=\"ru\" class=\"r\">шёл</span></td><td><span lang=\"ru\" class=\"r\">шла</span></td><td><span lang=\"ru\" class=\"r\">шло</span></td><td><span lang=\"ru\" class=\"r\">шли</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">есть</span> eat</td><td><span lang=\"ru\" class=\"r\">ел</span></td><td><span lang=\"ru\" class=\"r\">ела</span></td><td><span lang=\"ru\" class=\"r\">ело</span></td><td><span lang=\"ru\" class=\"r\">ели</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">мочь</span> can, be able</td><td><span lang=\"ru\" class=\"r\">мог</span></td><td><span lang=\"ru\" class=\"r\">могла</span></td><td><span lang=\"ru\" class=\"r\">могло</span></td><td><span lang=\"ru\" class=\"r\">могли</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">пасти</span> graze, herd</td><td><span lang=\"ru\" class=\"r\">пас</span></td><td><span lang=\"ru\" class=\"r\">пасла</span></td><td><span lang=\"ru\" class=\"r\">пасло</span></td><td><span lang=\"ru\" class=\"r\">пасли</span></td></tr></tbody></table></div><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Утром я шёл в храм.</span><span class=\"g\">In the morning I was walking to church.</span></li><li><span lang=\"ru\" class=\"r\">Раньше мой дед пас коров.</span><span class=\"g\">My grandfather used to graze cows.</span></li><li><span lang=\"ru\" class=\"r\">Что ты ела на завтрак?</span><span class=\"g\">What did you eat for breakfast? (to a woman)</span></li></ul><p class=\"tip\"><b>You'll also see</b> past forms like <span lang=\"ru\" class=\"r\">купил, сделал, сбежала</span>. They're <b>perfective</b> verbs (aspect is Lesson 11), but the past tense is formed exactly the same way: <span lang=\"ru\" class=\"r\">Корова сбежала!</span> (The cow got out!)</p>"
+    },
+    {
+     "h": "Step 4 · был, была, было, были",
+     "open": false,
+     "html": "<p>Russian drops “is / am / are” in the present (<span lang=\"ru\" class=\"r\">Я в храме</span>), but in the past you need <span lang=\"ru\" class=\"r\">быть</span>, and it agrees with the subject like any other verb:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Present</th><th>Past</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">Я в храме.</span> (a man)</td><td><span lang=\"ru\" class=\"r\">Я был в храме.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Жена на работе.</span></td><td><span lang=\"ru\" class=\"r\">Жена была на работе.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Солнце на небе.</span></td><td><span lang=\"ru\" class=\"r\">Солнце было на небе.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Мы дома.</span></td><td><span lang=\"ru\" class=\"r\">Мы были дома.</span></td></tr></tbody></table></div><p><b>No subject → neuter.</b> Sentences like “it was cold” have no subject in Russian. With nothing to agree with, the verb takes the neuter <span lang=\"ru\" class=\"r\">-о</span>:</p><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Утром было холодно.</span><span class=\"g\">It was cold in the morning.</span></li><li><span lang=\"ru\" class=\"r\">Было интересно.</span><span class=\"g\">It was interesting.</span></li><li><span lang=\"ru\" class=\"r\">Было поздно.</span><span class=\"g\">It was late.</span></li></ul><p class=\"tip\"><b>Stress:</b> with <span lang=\"ru\" class=\"r\">не</span>, the stress jumps onto <span lang=\"ru\" class=\"r\">не</span> in <span lang=\"ru\" class=\"r\">не был, не было, не были</span> (say NYE-byl), but not in <span lang=\"ru\" class=\"r\">не была</span> (stress on the end). Tap the words to hear them.</p>"
+    },
+    {
+     "h": "Step 5 · Having and not having in the past",
+     "open": false,
+     "html": "<p>In Lesson 4 the thing you have is the <b>subject</b> (nominative). So in the past, <span lang=\"ru\" class=\"r\">был / была / было / были</span> agrees with the <b>thing</b>, not with the owner:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Present</th><th>Past</th><th>Why</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">У меня есть трактор.</span></td><td><span lang=\"ru\" class=\"r\">У меня был трактор.</span></td><td><span lang=\"ru\" class=\"r\">трактор</span> is masculine</td></tr><tr><td><span lang=\"ru\" class=\"r\">У нас есть корова.</span></td><td><span lang=\"ru\" class=\"r\">У нас была корова.</span></td><td><span lang=\"ru\" class=\"r\">корова</span> is feminine</td></tr><tr><td><span lang=\"ru\" class=\"r\">У нас есть сено.</span></td><td><span lang=\"ru\" class=\"r\">У нас было сено.</span></td><td><span lang=\"ru\" class=\"r\">сено</span> is neuter</td></tr><tr><td><span lang=\"ru\" class=\"r\">У нас есть куры.</span></td><td><span lang=\"ru\" class=\"r\">У нас были куры.</span></td><td><span lang=\"ru\" class=\"r\">куры</span> is plural</td></tr></tbody></table></div><p>You and your wife say the same thing: <span lang=\"ru\" class=\"r\">У меня был трактор</span>. The owner (<span lang=\"ru\" class=\"r\">меня</span>) is only the object of <span lang=\"ru\" class=\"r\">у</span>; it doesn't control the verb.</p><p><b>Not having:</b> <span lang=\"ru\" class=\"r\">нет</span> becomes <span lang=\"ru\" class=\"r\">не было</span>, always neuter, because the sentence has no subject:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Present</th><th>Past</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">У меня нет времени.</span></td><td><span lang=\"ru\" class=\"r\">У меня не было времени.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">В магазине нет хлеба.</span></td><td><span lang=\"ru\" class=\"r\">В магазине не было хлеба.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Сегодня нет службы.</span></td><td><span lang=\"ru\" class=\"r\">Вчера не было службы.</span></td></tr></tbody></table></div><p class=\"tip\"><b>Classic mistake:</b> “В магазине не был хлеба”, matching хлеб. But <span lang=\"ru\" class=\"r\">хлеба</span> is genitive, not a subject, so nothing agrees with it: always <span lang=\"ru\" class=\"r\">не было</span>.</p>"
+    },
+    {
+     "h": "Step 6 · Words for talking about the past",
+     "open": false,
+     "html": "<div class=\"tw\"><table class=\"lt \"><thead><tr><th>Russian</th><th>English</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">вчера</span></td><td>yesterday</td></tr><tr><td><span lang=\"ru\" class=\"r\">позавчера</span></td><td>the day before yesterday</td></tr><tr><td><span lang=\"ru\" class=\"r\">утром · днём · вечером</span></td><td>in the morning · in the afternoon · in the evening</td></tr><tr><td><span lang=\"ru\" class=\"r\">в субботу · в воскресенье</span></td><td>on Saturday · on Sunday</td></tr><tr><td><span lang=\"ru\" class=\"r\">на прошлой неделе</span></td><td>last week</td></tr><tr><td><span lang=\"ru\" class=\"r\">в прошлом году</span></td><td>last year</td></tr><tr><td><span lang=\"ru\" class=\"r\">неделю назад</span></td><td>a week ago</td></tr><tr><td><span lang=\"ru\" class=\"r\">раньше</span></td><td>before, used to</td></tr><tr><td><span lang=\"ru\" class=\"r\">давно</span></td><td>a long time ago, for a long time</td></tr></tbody></table></div><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Раньше у деда были свиньи.</span><span class=\"g\">Grandpa used to have pigs.</span></li><li><span lang=\"ru\" class=\"r\">В прошлом году мы ездили в Беларусь.</span><span class=\"g\">Last year we went to Belarus.</span></li><li><span lang=\"ru\" class=\"r\">Позавчера я косил траву.</span><span class=\"g\">The day before yesterday I mowed the grass.</span></li></ul>"
+    },
+    {
+     "h": "Summary",
+     "open": false,
+     "html": "<ul class=\"sum\"><li>Past = infinitive minus <span lang=\"ru\" class=\"r\">-ть</span> + <span lang=\"ru\" class=\"r\">-л / -ла / -ло / -ли</span>. One past tense for worked / was working / used to work.</li><li>The ending agrees with the subject's <b>gender and number</b>, not its person. <span lang=\"ru\" class=\"r\">я / ты</span>: the real person's gender. <span lang=\"ru\" class=\"r\">вы, мы с женой</span>: <span lang=\"ru\" class=\"r\">-ли</span>. <span lang=\"ru\" class=\"r\">батюшка читал</span>.</li><li><span lang=\"ru\" class=\"r\">-ся</span> after a consonant, <span lang=\"ru\" class=\"r\">-сь</span> after a vowel: <span lang=\"ru\" class=\"r\">учился, училась</span>. Irregular: <span lang=\"ru\" class=\"r\">шёл / шла, ел, мог, пас</span>.</li><li>No subject → neuter: <span lang=\"ru\" class=\"r\">было холодно</span>.</li><li><span lang=\"ru\" class=\"r\">У меня был трактор / была корова / было сено / были куры</span>: the verb agrees with the thing. Not having: <span lang=\"ru\" class=\"r\">не было</span> + genitive, always.</li></ul>"
+    }
+   ],
+   "parts": {
+    "A": "Part A · -л, -ла, -ло, -ли",
+    "B": "Part B · был, была, было, были (and не было)",
+    "C": "Part C · Irregular pasts and -ся verbs"
+   },
+   "practice": {
+    "title": "Now use it: write to your tutor",
+    "text": "Answer in chat: Что ты делал в субботу? Write 4 sentences about last weekend: one thing you did (-л), one thing your wife did (-ла), one with мы с женой (-ли), and one with был / была / было or не было.",
+    "examples": [
+     "В субботу я косил траву.",
+     "Жена готовила ужин.",
+     "В воскресенье мы с женой были на литургии.",
+     "Вечером не было дождя."
+    ]
+   },
+   "exercises": [
+    {
+     "part": "A",
+     "sub": "A · -л, -ла, -ло, -ли",
+     "g": "m",
+     "subj": "Андрей",
+     "s": "«Вчера я ___ дома», — говорит Андрей.",
+     "base": "работать",
+     "a": "работал",
+     "d": [
+      "работала",
+      "работали",
+      "работало"
+     ],
+     "ex": "Andrey is a man, so я takes the masculine: -л. (Steps 1 and 2)",
+     "translation": "“Yesterday I worked at home,” says Andrey.",
+     "glosses": [
+      "говорит: says"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · -л, -ла, -ло, -ли",
+     "g": "f",
+     "subj": "жена",
+     "s": "Жена ___ борщ.",
+     "base": "готовить",
+     "a": "готовила",
+     "d": [
+      "готовил",
+      "готовили",
+      "готовило"
+     ],
+     "ex": "The subject жена is feminine: -ла. (Steps 1 and 2)",
+     "translation": "My wife was making borscht.",
+     "glosses": [
+      "борщ: borscht"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · -л, -ла, -ло, -ли",
+     "g": "m",
+     "subj": "батюшка",
+     "s": "Батюшка ___ Евангелие.",
+     "base": "читать",
+     "a": "читал",
+     "d": [
+      "читала",
+      "читали",
+      "читало"
+     ],
+     "ex": "батюшка ends in -а but is masculine (Lesson 1): -л. (Step 2)",
+     "translation": "Father read the Gospel.",
+     "glosses": [
+      "Евангелие: the Gospel"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · -л, -ла, -ло, -ли",
+     "g": "pl",
+     "subj": "мы",
+     "s": "Вечером мы с женой ___ фильм.",
+     "base": "смотреть",
+     "a": "смотрели",
+     "d": [
+      "смотрел",
+      "смотрела",
+      "смотрело"
+     ],
+     "ex": "мы с женой = мы, plural: -ли. (Step 2)",
+     "translation": "In the evening my wife and I watched a movie.",
+     "glosses": [
+      "вечером: in the evening",
+      "мы с женой: my wife and I"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · -л, -ла, -ло, -ли",
+     "g": "f",
+     "subj": "Таня",
+     "s": "Таня, что ты ___ в субботу?",
+     "base": "делать",
+     "a": "делала",
+     "d": [
+      "делал",
+      "делали",
+      "делало"
+     ],
+     "ex": "You're asking Tanya, a woman, so ты takes -ла. (Step 2)",
+     "translation": "Tanya, what did you do on Saturday?",
+     "glosses": [
+      "в субботу: on Saturday"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · -л, -ла, -ло, -ли",
+     "g": "pl",
+     "subj": "вы",
+     "s": "Батюшка, вы ___ с епископом?",
+     "base": "говорить",
+     "a": "говорили",
+     "d": [
+      "говорил",
+      "говорила",
+      "говорило"
+     ],
+     "ex": "вы always takes -ли, even when it's polite and means one person. (Step 2)",
+     "translation": "Father, did you speak with the bishop?",
+     "glosses": [
+      "с епископом: with the bishop"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · -л, -ла, -ло, -ли",
+     "g": "m",
+     "subj": "фермер",
+     "s": "Утром фермер ___ сено.",
+     "base": "косить",
+     "a": "косил",
+     "d": [
+      "косила",
+      "косили",
+      "косило"
+     ],
+     "ex": "The subject фермер is masculine: -л. (Steps 1 and 2)",
+     "translation": "In the morning the farmer was mowing hay.",
+     "glosses": [
+      "утром: in the morning",
+      "сено: hay"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · -л, -ла, -ло, -ли",
+     "g": "f",
+     "subj": "жена",
+     "s": "Утром жена ___ кур.",
+     "base": "кормить",
+     "a": "кормила",
+     "d": [
+      "кормил",
+      "кормили",
+      "кормило"
+     ],
+     "ex": "The subject жена is feminine: -ла. кур is the direct object. (Steps 1 and 2)",
+     "translation": "In the morning my wife fed the chickens.",
+     "glosses": [
+      "кур: the chickens (direct object)"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · -л, -ла, -ло, -ли",
+     "g": "pl",
+     "subj": "друзья",
+     "s": "Вчера друзья из Минска ___ нам.",
+     "base": "звонить",
+     "a": "звонили",
+     "d": [
+      "звонил",
+      "звонила",
+      "звонило"
+     ],
+     "ex": "The subject друзья (friends) is plural: -ли. (Step 2)",
+     "translation": "Yesterday our friends from Minsk called us.",
+     "glosses": [
+      "друзья: friends",
+      "нам: (to) us, the indirect object"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · -л, -ла, -ло, -ли",
+     "g": "f",
+     "subj": "мама",
+     "s": "Мама долго ___ в Гомеле.",
+     "base": "жить",
+     "a": "жила",
+     "d": [
+      "жил",
+      "жили",
+      "жило"
+     ],
+     "ex": "The subject мама is feminine: -ла. The past is built on the infinitive жи-ть, not on живу. (Step 1)",
+     "translation": "Mom lived in Gomel for a long time.",
+     "glosses": [
+      "долго: for a long time"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · -л, -ла, -ло, -ли",
+     "g": "n",
+     "subj": "солнце",
+     "s": "Солнце ___ весь день.",
+     "base": "светить",
+     "a": "светило",
+     "d": [
+      "светил",
+      "светила",
+      "светили"
+     ],
+     "ex": "The subject солнце is neuter (-е): -ло. (Step 2)",
+     "translation": "The sun shone all day.",
+     "glosses": [
+      "весь день: all day"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · -л, -ла, -ло, -ли",
+     "g": "m",
+     "subj": "сосед",
+     "s": "Вчера сосед ___ поле.",
+     "base": "пахать",
+     "a": "пахал",
+     "d": [
+      "пахала",
+      "пахали",
+      "пахало"
+     ],
+     "ex": "The subject сосед is masculine: -л. The present пашет has a stem change, but the past comes from the infinitive: пахал. (Step 1)",
+     "translation": "Yesterday the neighbor plowed the field.",
+     "glosses": [
+      "поле: field"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · был, была, было, были",
+     "g": "pl",
+     "subj": "мы",
+     "s": "В воскресенье мы ___ на литургии.",
+     "base": "быть",
+     "a": "были",
+     "d": [
+      "был",
+      "была",
+      "было"
+     ],
+     "ex": "Subject мы, plural: были. (Step 4)",
+     "translation": "On Sunday we were at the Liturgy.",
+     "glosses": [
+      "в воскресенье: on Sunday"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · был, была, было, были",
+     "g": "m",
+     "subj": "Андрей",
+     "s": "Андрей, где ты ___ вчера?",
+     "base": "быть",
+     "a": "был",
+     "d": [
+      "была",
+      "были",
+      "было"
+     ],
+     "ex": "You're asking Andrey, a man: ты был. (Steps 2 and 4)",
+     "translation": "Andrey, where were you yesterday?",
+     "glosses": [
+      "вчера: yesterday"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · был, была, было, были",
+     "g": "f",
+     "subj": "жена",
+     "s": "Жена ___ в магазине.",
+     "base": "быть",
+     "a": "была",
+     "d": [
+      "был",
+      "были",
+      "было"
+     ],
+     "ex": "Subject жена, feminine: была. (Step 4)",
+     "translation": "My wife was at the store.",
+     "glosses": [
+      "в магазине: at the store"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · был, была, было, были",
+     "g": "f",
+     "subj": "погода",
+     "s": "Вчера ___ хорошая погода.",
+     "base": "быть",
+     "a": "была",
+     "d": [
+      "был",
+      "было",
+      "были"
+     ],
+     "ex": "The subject is погода (weather), feminine: была. The subject can come after the verb. (Step 4)",
+     "translation": "Yesterday the weather was nice.",
+     "glosses": [
+      "хорошая погода: nice weather"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · был, была, было, были",
+     "g": "n",
+     "subj": null,
+     "s": "Утром ___ холодно.",
+     "base": "быть",
+     "a": "было",
+     "d": [
+      "был",
+      "была",
+      "были"
+     ],
+     "ex": "“It was cold” has no subject in Russian, so the verb is neuter: было. (Step 4)",
+     "translation": "It was cold in the morning.",
+     "glosses": [
+      "утром: in the morning",
+      "холодно: cold"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · был, была, было, были",
+     "g": "m",
+     "subj": "трактор",
+     "s": "Раньше у нас ___ старый трактор.",
+     "base": "быть",
+     "a": "был",
+     "d": [
+      "была",
+      "было",
+      "были"
+     ],
+     "ex": "In у нас … the thing owned is the subject. трактор is masculine: был. (Step 5)",
+     "translation": "We used to have an old tractor.",
+     "glosses": [
+      "раньше: before, used to",
+      "старый: old"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · был, была, было, были",
+     "g": "f",
+     "subj": "корова",
+     "s": "У бабушки ___ корова.",
+     "base": "быть",
+     "a": "была",
+     "d": [
+      "был",
+      "было",
+      "были"
+     ],
+     "ex": "The subject is корова (feminine), not бабушка (the owner, after у): была. (Step 5)",
+     "translation": "Grandma had a cow.",
+     "glosses": [
+      "у бабушки: grandma had (literally: by grandma)"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · был, была, было, были",
+     "g": "n",
+     "subj": "сено",
+     "s": "Осенью у нас ___ сено на всю зиму.",
+     "base": "быть",
+     "a": "было",
+     "d": [
+      "был",
+      "была",
+      "были"
+     ],
+     "ex": "The subject сено is neuter: было. (Step 5)",
+     "translation": "In the fall we had hay for the whole winter.",
+     "glosses": [
+      "осенью: in the fall",
+      "на всю зиму: for the whole winter"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · был, была, было, были",
+     "g": "pl",
+     "subj": "куры",
+     "s": "Раньше у нас ___ куры.",
+     "base": "быть",
+     "a": "были",
+     "d": [
+      "был",
+      "была",
+      "было"
+     ],
+     "ex": "The subject куры (chickens) is plural: были. (Step 5)",
+     "translation": "We used to have chickens.",
+     "glosses": [
+      "раньше: before, used to"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · был, была, было, были",
+     "g": "n",
+     "subj": null,
+     "s": "У меня не ___ времени.",
+     "base": "быть",
+     "a": "было",
+     "d": [
+      "был",
+      "была",
+      "были"
+     ],
+     "ex": "нет in the past is не было, always neuter: времени is genitive, not a subject. (Step 5)",
+     "translation": "I didn't have time.",
+     "glosses": [
+      "времени: time (genitive)"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · был, была, было, были",
+     "g": "n",
+     "subj": null,
+     "s": "Вчера в магазине не ___ хлеба.",
+     "base": "быть",
+     "a": "было",
+     "d": [
+      "был",
+      "была",
+      "были"
+     ],
+     "ex": "хлеба is genitive, so nothing agrees with it: не было, never “не был”. (Step 5)",
+     "translation": "Yesterday there was no bread at the store.",
+     "glosses": [
+      "хлеба: bread (genitive)"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · был, была, было, были",
+     "g": "n",
+     "subj": null,
+     "s": "В субботу не ___ службы.",
+     "base": "быть",
+     "a": "было",
+     "d": [
+      "была",
+      "был",
+      "были"
+     ],
+     "ex": "службы is genitive, not a subject: не было, never “не была”. (Step 5)",
+     "translation": "There was no service on Saturday.",
+     "glosses": [
+      "службы: (church) service (genitive)"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · irregular and -ся",
+     "g": "m",
+     "subj": "Андрей",
+     "s": "Андрей ___ домой.",
+     "base": "идти",
+     "a": "шёл",
+     "d": [
+      "шла",
+      "шли",
+      "идл"
+     ],
+     "ex": "идти is irregular: шёл, шла, шли. Андрей is masculine. (Step 3)",
+     "translation": "Andrey was walking home.",
+     "glosses": [
+      "домой: home (direction)"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · irregular and -ся",
+     "g": "f",
+     "subj": "жена",
+     "s": "Жена ___ в церковь.",
+     "base": "идти",
+     "a": "шла",
+     "d": [
+      "шёл",
+      "шли",
+      "идла"
+     ],
+     "ex": "идти is irregular: шёл, шла, шли. жена is feminine. (Step 3)",
+     "translation": "My wife was walking to church.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · irregular and -ся",
+     "g": "pl",
+     "subj": "мы",
+     "s": "Мы ___ по улице.",
+     "base": "идти",
+     "a": "шли",
+     "d": [
+      "шёл",
+      "шла",
+      "идли"
+     ],
+     "ex": "идти is irregular: шёл, шла, шли. мы is plural. (Step 3)",
+     "translation": "We were walking down the street.",
+     "glosses": [
+      "по улице: down the street"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · irregular and -ся",
+     "g": "f",
+     "subj": "Таня",
+     "s": "Таня, что ты ___ на завтрак?",
+     "base": "есть",
+     "a": "ела",
+     "d": [
+      "ел",
+      "ели",
+      "есла"
+     ],
+     "ex": "есть (eat): ел, ела, ели. You're asking Tanya, so feminine. (Step 3)",
+     "translation": "Tanya, what did you eat for breakfast?",
+     "glosses": [
+      "на завтрак: for breakfast"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · irregular and -ся",
+     "g": "pl",
+     "subj": "дети",
+     "s": "Дети ___ блины.",
+     "base": "есть",
+     "a": "ели",
+     "d": [
+      "ел",
+      "ела",
+      "если"
+     ],
+     "ex": "есть (eat): ел, ела, ели. дети (children) is plural. (Step 3)",
+     "translation": "The children were eating pancakes.",
+     "glosses": [
+      "блины: pancakes, blini"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · irregular and -ся",
+     "g": "m",
+     "subj": "Андрей",
+     "s": "Андрей не ___ прийти в субботу.",
+     "base": "мочь",
+     "a": "мог",
+     "d": [
+      "могла",
+      "могли",
+      "мочл"
+     ],
+     "ex": "мочь: мог, могла, могли (no -л in the masculine). (Step 3)",
+     "translation": "Andrey couldn't come on Saturday.",
+     "glosses": [
+      "прийти: to come"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · irregular and -ся",
+     "g": "f",
+     "subj": "жена",
+     "s": "Жена не ___ найти ключи.",
+     "base": "мочь",
+     "a": "могла",
+     "d": [
+      "мог",
+      "могли",
+      "мочла"
+     ],
+     "ex": "мочь: мог, могла, могли. жена is feminine. (Step 3)",
+     "translation": "My wife couldn't find the keys.",
+     "glosses": [
+      "найти: to find",
+      "ключи: keys"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · irregular and -ся",
+     "g": "m",
+     "subj": "дед",
+     "s": "Раньше мой дед ___ коров.",
+     "base": "пасти",
+     "a": "пас",
+     "d": [
+      "пасл",
+      "пасла",
+      "пасли"
+     ],
+     "ex": "пасти: пас, пасла, пасли. The masculine has no -л. (Step 3)",
+     "translation": "My grandfather used to graze cows.",
+     "glosses": [
+      "раньше: before, used to",
+      "коров: cows (direct object)"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · irregular and -ся",
+     "g": "pl",
+     "subj": "мы",
+     "s": "Летом мы с братом ___ коров на лугу.",
+     "base": "пасти",
+     "a": "пасли",
+     "d": [
+      "пас",
+      "пасла",
+      "пасл"
+     ],
+     "ex": "пасти: пас, пасла, пасли. мы с братом is plural. (Steps 2 and 3)",
+     "translation": "In the summer my brother and I grazed cows in the meadow.",
+     "glosses": [
+      "летом: in the summer",
+      "на лугу: in the meadow"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · irregular and -ся",
+     "g": "m",
+     "subj": "друг",
+     "s": "Мой друг ___ в Минске.",
+     "base": "учиться",
+     "a": "учился",
+     "d": [
+      "училась",
+      "учились",
+      "училсь"
+     ],
+     "ex": "-ся after a consonant: учил + ся = учился. друг is masculine. (Step 3)",
+     "translation": "My friend studied in Minsk.",
+     "glosses": [
+      "мой друг: my friend"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · irregular and -ся",
+     "g": "f",
+     "subj": "Таня",
+     "s": "Таня ___ в Гомеле.",
+     "base": "учиться",
+     "a": "училась",
+     "d": [
+      "учился",
+      "учились",
+      "училася"
+     ],
+     "ex": "After a vowel -ся becomes -сь: учила + сь = училась. (Step 3)",
+     "translation": "Tanya studied in Gomel.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · irregular and -ся",
+     "g": "pl",
+     "subj": "мы",
+     "s": "Вчера мы долго ___ в храме.",
+     "base": "молиться",
+     "a": "молились",
+     "d": [
+      "молился",
+      "молилась",
+      "молилися"
+     ],
+     "ex": "Plural: молили + сь (after a vowel) = молились. (Step 3)",
+     "translation": "Yesterday we prayed in church for a long time.",
+     "glosses": [
+      "долго: for a long time"
+     ]
+    }
+   ]
   }
  }
 }

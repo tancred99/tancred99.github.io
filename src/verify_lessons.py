@@ -1,5 +1,5 @@
 # Checks lessons.json: explicit forms table vs OpenCorpora (pymorphy3), every exercise answer, every Cyrillic word.
-# Run with: /tmp/morph/bin/python src/verify_lessons.py
+# Run with: /workspace/venv-morph/bin/python src/verify_lessons.py
 import json, re, sys
 import pymorphy3
 M = pymorphy3.MorphAnalyzer()
@@ -124,6 +124,106 @@ def check_l3(e):
         if nrm(d) == nrm(e["a"]): errs.append("L3 distractor equals answer (ignoring ё): "+d)
     if e["base"] not in GROUP3: errs.append("L3 verb not covered by the lesson's groups: "+e["base"])
 
+# Lesson 4: genitive. Every genitive form shown in the lesson, checked against the dictionary.
+def gen(w):
+    out = set()
+    for q in M.parse(w):
+        if q.tag.POS == "NOUN" and nrm(q.normal_form) == nrm(w) and "plur" not in q.tag and "Fixd" not in q.tag and "Infr" not in q.tag:  # skip indeclinable / informal readings (соль the note, интернет undeclined)
+            x = q.inflect({"gent", "sing"})
+            if x: out.add(x.word)
+    if w == "время": out.add("времени")
+    return out
+def case_forms(w, case):
+    out = set()
+    for q in M.parse(w):
+        if q.tag.POS == "NOUN" and nrm(q.normal_form) == nrm(w):
+            for num in ("sing", "plur"):
+                x = q.inflect({case, num})
+                if x: out.add(x.word)
+    return out
+TABLE4 = {"брат":"брата","друг":"друга","сосед":"соседа","фермер":"фермера","Андрей":"Андрея","сарай":"сарая","учитель":"учителя",
+ "сено":"сена","молоко":"молока","море":"моря","жена":"жены","сестра":"сестры","мама":"мамы","корова":"коровы","Таня":"Тани",
+ "деревня":"деревни","церковь":"церкви","соль":"соли","подруга":"подруги","собака":"собаки","кошка":"кошки","дача":"дачи",
+ "батюшка":"батюшки","курица":"курицы","папа":"папы","дедушка":"дедушки","трактор":"трактора","хлеб":"хлеба","служба":"службы",
+ "интернет":"интернета","трава":"травы","время":"времени","сдача":"сдачи","виза":"визы","телефон":"телефона","рыба":"рыбы",
+ "терминал":"терминала","дом":"дома","билет":"билета","вода":"воды","сосед":"соседа","храм":"храма"}
+for w,g in TABLE4.items():
+    if g.lower() not in gen(w): errs.append("L4 genitive %s: lesson %s, dict %s" % (w,g,gen(w)))
+PRONG = {"я":"меня","ты":"тебя","он":"него","она":"неё","мы":"нас","вы":"вас","они":"них"}
+for pr,f in PRONG.items():
+    if not any(q.normal_form == pr and "gent" in q.tag for q in M.parse(f)): errs.append("L4 pronoun genitive %s %s" % (pr,f))
+def check_l4(e):
+    w, a, k = e["w"], e["a"], e["k"]
+    if k == "own" and w in PRONG:
+        if a != PRONG[w]: errs.append("L4 A pronoun %s: %s" % (w,a))
+        if any(nrm(d) == nrm(a) for d in e["d"]): errs.append("L4 distractor = answer "+e["s"])
+        return
+    G = gen(w)
+    if e["part"] in ("A", "B"):
+        if a.lower() not in G: errs.append("L4 %s answer %s: %s, dict %s" % (e["part"],w,a,G))
+        for d in e["d"]:
+            if d.lower() in G: errs.append("L4 distractor is a correct genitive: %s (%s)" % (d,e["s"]))
+        if k == "own" and not e["s"].startswith("У ___"): errs.append("L4 A sentence shape "+e["s"])
+        if k == "not" and "нет" not in e["s"]: errs.append("L4 B lacks нет "+e["s"])
+        return
+    g1 = sorted(G)[0]
+    right = {"have": "есть " + w, "not": "нет " + g1}
+    if a != right[k]: errs.append("L4 C answer %s: %s (expected %s)" % (w,a,right[k]))
+    other = right["not" if k == "have" else "have"]
+    if other not in e["d"]: errs.append("L4 C missing the opposite as a distractor: "+e["s"])
+    ok_forms = {"есть " + w} | {"нет " + x for x in G}
+    for d in e["d"]:
+        if d != other and d in ok_forms: errs.append("L4 C distractor is grammatical: "+d)
+        pre, form = d.split(" ", 1)
+        if pre == "нет" and form.lower() in G and d != other: errs.append("L4 C distractor genitive "+d)
+        if pre == "есть" and form != w and form.lower() in G and form.lower() in case_forms(w,"nomn"): errs.append("L4 C distractor also a plural nominative (grammatical): "+d)
+    if "нет" in e["s"] or "есть" in e["s"]: errs.append("L4 C sentence gives away the answer: "+e["s"])
+
+# Lesson 5: past tense.
+PG = {"m": {"past","sing","masc"}, "f": {"past","sing","femn"}, "n": {"past","sing","neut"}, "pl": {"past","plur"}}
+def past(inf, g):
+    for q in M.parse(inf):
+        if q.tag.POS == "INFN" and q.word == inf:
+            x = q.inflect(PG[g] | {"indc"})
+            if x: return x.word
+    return None
+TABLE5 = {
+ "работать": "работал работала работало работали", "говорить": "говорил говорила говорило говорили", "быть": "был была было были",
+ "идти": "шёл шла шло шли", "есть": "ел ела ело ели", "мочь": "мог могла могло могли", "пасти": "пас пасла пасло пасли",
+ "учиться": {"m":"учился","f":"училась","pl":"учились"}, "молиться": {"m":"молился","f":"молилась","pl":"молились"},
+ "любить": {"m":"любил"}, "писать": {"m":"писал"}, "жить": {"m":"жил"}, "хотеть": {"m":"хотел"}, "ходить": {"m":"ходил"},
+}
+for inf,forms in TABLE5.items():
+    if isinstance(forms,str): forms = dict(zip(["m","f","n","pl"], forms.split()))
+    for g,f in forms.items():
+        d = past(inf,g)
+        if not d or nrm(d) != nrm(f): errs.append("L5 table %s %s: lesson %s, dict %s" % (inf,g,f,d))
+SUBJ_G = {"Андрей":"m","Таня":"f","мы":"pl","вы":"pl"}
+def subj_g(w):
+    if w in SUBJ_G: return SUBJ_G[w]
+    for q in M.parse(w):
+        if q.tag.POS == "NOUN" and "nomn" in q.tag:
+            if "plur" in q.tag: return "pl"
+            return {"masc":"m","femn":"f","neut":"n","ms-f":"m"}.get(q.tag.gender)
+    return None
+MASC_A = {"батюшка"}  # masculine by meaning (Lesson 1)
+def check_l5(e):
+    exp = past(e["base"], e["g"])
+    if not exp or nrm(exp) != nrm(e["a"]): errs.append("L5 answer %s %s %s: %s, dict %s" % (e["s"],e["base"],e["g"],e["a"],exp))
+    if e["subj"] is None:
+        if e["g"] != "n": errs.append("L5 impersonal not neuter: "+e["s"])
+    else:
+        sg = "m" if e["subj"] in MASC_A else subj_g(e["subj"])
+        if sg != e["g"]: errs.append("L5 subject %s is %s, item says %s: %s" % (e["subj"],sg,e["g"],e["s"]))
+        if e["subj"].lower() not in e["s"].lower(): errs.append("L5 subject not in sentence: "+e["s"])
+    if e["base"] == "быть" and " не ___" in e["s"] and e["a"] != "было": errs.append("L5 не ___ + genitive must be было: "+e["s"])
+    for d in e["d"]:
+        if nrm(d) == nrm(e["a"]): errs.append("L5 distractor = answer: "+d)
+    if e["part"] in ("A","B"):  # distractors are the other three real forms of the same verb
+        others = {nrm(past(e["base"],g) or "") for g in PG if g != e["g"]}
+        if {nrm(d) for d in e["d"]} != others: errs.append("L5 distractors not the other three forms: %s %s" % (e["d"],others))
+
+
 n = 0
 for lid,les in L["lessons"].items():
     for e in les["exercises"]:
@@ -154,6 +254,12 @@ for lid,les in L["lessons"].items():
             continue
         if lid == "L3":
             check_l3(e)
+            continue
+        if lid == "L4":
+            check_l4(e)
+            continue
+        if lid == "L5":
+            check_l5(e)
             continue
         if e["part"] == "A":
             w = e["s"].split(" — ")[0]
