@@ -265,6 +265,50 @@
 Закрой ворота!|Close the gate!|phrase
 Корова сбежала!|The cow got out!|phrase
 Сколько у вас голов скота?|How many head of cattle do you have?|phrase
+@Numbers and counting
+ноль|zero (0)|phrase
+одиннадцать|eleven (11)|phrase
+двенадцать|twelve (12)|phrase
+тринадцать|thirteen (13)|phrase
+четырнадцать|fourteen (14)|phrase
+пятнадцать|fifteen (15)|phrase
+шестнадцать|sixteen (16)|phrase
+семнадцать|seventeen (17)|phrase
+восемнадцать|eighteen (18)|phrase
+девятнадцать|nineteen (19)|phrase
+двадцать|twenty (20)|phrase
+тридцать|thirty (30)|phrase
+сорок|forty (40)|phrase
+пятьдесят|fifty (50)|phrase
+шестьдесят|sixty (60)|phrase
+семьдесят|seventy (70)|phrase
+восемьдесят|eighty (80)|phrase
+девяносто|ninety (90)|phrase
+сто|one hundred (100)|phrase
+двести|two hundred (200)|phrase
+триста|three hundred (300)|phrase
+четыреста|four hundred (400)|phrase
+пятьсот|five hundred (500)|phrase
+шестьсот|six hundred (600)|phrase
+семьсот|seven hundred (700)|phrase
+восемьсот|eight hundred (800)|phrase
+девятьсот|nine hundred (900)|phrase
+тысяча|thousand|f|unit||тысячи|тысяче|тысячу|тысячей|тысяче|тысячи|тысяч
+миллион|million|m|unit||миллиона|миллиону|миллион|миллионом|миллионе|миллионы|миллионов
+мешок|sack, bag|m|thing|fleet es|мешка|мешку|мешок|мешком|мешке|мешки|мешков
+штука|piece, item (for counting)|f|thing|gpl=штук|штуки|штуке|штуку|штукой|штуке|штуки|штук
+раз|time, occasion|m|thing||раза|разу|раз|разом|разе|разы|раз
+цифра|digit (0–9)|f|thing|gpl=цифр|цифры|цифре|цифру|цифрой|цифре|цифры|цифр
+число|number; date (of the month)|n|thing|gpl=чисел|числа|числу|число|числом|числе|числа|чисел
+доллар|dollar|m|money||доллара|доллару|доллар|долларом|долларе|доллары|долларов
+евро|euro|n|money|indecl|-|-|-|-|-|-|-
+сколько|how many, how much|adv
+много|a lot, many|adv
+мало|little, few|adv
+несколько|several, a few|adv
+первый|first|adj
+второй|second|adj
+третий|third|adj
 @Молчат Дома: Колесом
 колесо|wheel|n|thing|npl=колёса gpl=колёс note=«Колесом»_(instrumental)_=_like_a_wheel,_rolling._Pl._колёса,_колёс.|колеса|колесу|колесо|колесом|колесе|колёса|колёс
 цикл|cycle|m|abstract|skip=gen,acc note=«Цикл_закончится»_=_the_cycle_will_end.|цикла|циклу|цикл|циклом|цикле|циклы|циклов

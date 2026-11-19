@@ -67,7 +67,7 @@ const errText = (e) => ERR[e && e.code] || ("Something went wrong" + (e && e.cod
 function mergeDrills(l, c) {
   const out = Object.assign({}, c || {});
   l = l || {}; c = c || {};
-  ["tab", "level", "cat", "mode", "vtheme", "vdrill", "setSize", "tts"].forEach((k) => { if (l[k] != null) out[k] = l[k]; });
+  ["tab", "level", "cat", "mode", "vtheme", "vdrill", "nview", "ndrill", "nrange", "ntheme", "setSize", "tts"].forEach((k) => { if (l[k] != null) out[k] = l[k]; });
   out.best = Math.max(l.best || 0, c.best || 0);
   const items = Object.assign({}, c.items || {});
   Object.keys(l.items || {}).forEach((k) => {

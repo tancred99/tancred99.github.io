@@ -2692,6 +2692,294 @@
   "pos": "phrase"
  },
  {
+  "ru": "ноль",
+  "en": "zero (0)",
+  "theme": "Numbers and counting",
+  "pos": "phrase"
+ },
+ {
+  "ru": "одиннадцать",
+  "en": "eleven (11)",
+  "theme": "Numbers and counting",
+  "pos": "phrase"
+ },
+ {
+  "ru": "двенадцать",
+  "en": "twelve (12)",
+  "theme": "Numbers and counting",
+  "pos": "phrase"
+ },
+ {
+  "ru": "тринадцать",
+  "en": "thirteen (13)",
+  "theme": "Numbers and counting",
+  "pos": "phrase"
+ },
+ {
+  "ru": "четырнадцать",
+  "en": "fourteen (14)",
+  "theme": "Numbers and counting",
+  "pos": "phrase"
+ },
+ {
+  "ru": "пятнадцать",
+  "en": "fifteen (15)",
+  "theme": "Numbers and counting",
+  "pos": "phrase"
+ },
+ {
+  "ru": "шестнадцать",
+  "en": "sixteen (16)",
+  "theme": "Numbers and counting",
+  "pos": "phrase"
+ },
+ {
+  "ru": "семнадцать",
+  "en": "seventeen (17)",
+  "theme": "Numbers and counting",
+  "pos": "phrase"
+ },
+ {
+  "ru": "восемнадцать",
+  "en": "eighteen (18)",
+  "theme": "Numbers and counting",
+  "pos": "phrase"
+ },
+ {
+  "ru": "девятнадцать",
+  "en": "nineteen (19)",
+  "theme": "Numbers and counting",
+  "pos": "phrase"
+ },
+ {
+  "ru": "двадцать",
+  "en": "twenty (20)",
+  "theme": "Numbers and counting",
+  "pos": "phrase"
+ },
+ {
+  "ru": "тридцать",
+  "en": "thirty (30)",
+  "theme": "Numbers and counting",
+  "pos": "phrase"
+ },
+ {
+  "ru": "сорок",
+  "en": "forty (40)",
+  "theme": "Numbers and counting",
+  "pos": "phrase"
+ },
+ {
+  "ru": "пятьдесят",
+  "en": "fifty (50)",
+  "theme": "Numbers and counting",
+  "pos": "phrase"
+ },
+ {
+  "ru": "шестьдесят",
+  "en": "sixty (60)",
+  "theme": "Numbers and counting",
+  "pos": "phrase"
+ },
+ {
+  "ru": "семьдесят",
+  "en": "seventy (70)",
+  "theme": "Numbers and counting",
+  "pos": "phrase"
+ },
+ {
+  "ru": "восемьдесят",
+  "en": "eighty (80)",
+  "theme": "Numbers and counting",
+  "pos": "phrase"
+ },
+ {
+  "ru": "девяносто",
+  "en": "ninety (90)",
+  "theme": "Numbers and counting",
+  "pos": "phrase"
+ },
+ {
+  "ru": "сто",
+  "en": "one hundred (100)",
+  "theme": "Numbers and counting",
+  "pos": "phrase"
+ },
+ {
+  "ru": "двести",
+  "en": "two hundred (200)",
+  "theme": "Numbers and counting",
+  "pos": "phrase"
+ },
+ {
+  "ru": "триста",
+  "en": "three hundred (300)",
+  "theme": "Numbers and counting",
+  "pos": "phrase"
+ },
+ {
+  "ru": "четыреста",
+  "en": "four hundred (400)",
+  "theme": "Numbers and counting",
+  "pos": "phrase"
+ },
+ {
+  "ru": "пятьсот",
+  "en": "five hundred (500)",
+  "theme": "Numbers and counting",
+  "pos": "phrase"
+ },
+ {
+  "ru": "шестьсот",
+  "en": "six hundred (600)",
+  "theme": "Numbers and counting",
+  "pos": "phrase"
+ },
+ {
+  "ru": "семьсот",
+  "en": "seven hundred (700)",
+  "theme": "Numbers and counting",
+  "pos": "phrase"
+ },
+ {
+  "ru": "восемьсот",
+  "en": "eight hundred (800)",
+  "theme": "Numbers and counting",
+  "pos": "phrase"
+ },
+ {
+  "ru": "девятьсот",
+  "en": "nine hundred (900)",
+  "theme": "Numbers and counting",
+  "pos": "phrase"
+ },
+ {
+  "ru": "тысяча",
+  "en": "thousand",
+  "theme": "Numbers and counting",
+  "pos": "noun",
+  "g": "f",
+  "kind": "unit"
+ },
+ {
+  "ru": "миллион",
+  "en": "million",
+  "theme": "Numbers and counting",
+  "pos": "noun",
+  "g": "m",
+  "kind": "unit"
+ },
+ {
+  "ru": "мешок",
+  "en": "sack, bag",
+  "theme": "Numbers and counting",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing",
+  "fleet": true,
+  "es": true
+ },
+ {
+  "ru": "штука",
+  "en": "piece, item (for counting)",
+  "theme": "Numbers and counting",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "forms": {
+   "gpl": "штук"
+  }
+ },
+ {
+  "ru": "раз",
+  "en": "time, occasion",
+  "theme": "Numbers and counting",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing"
+ },
+ {
+  "ru": "цифра",
+  "en": "digit (0–9)",
+  "theme": "Numbers and counting",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "forms": {
+   "gpl": "цифр"
+  }
+ },
+ {
+  "ru": "число",
+  "en": "number; date (of the month)",
+  "theme": "Numbers and counting",
+  "pos": "noun",
+  "g": "n",
+  "kind": "thing",
+  "forms": {
+   "gpl": "чисел"
+  }
+ },
+ {
+  "ru": "доллар",
+  "en": "dollar",
+  "theme": "Numbers and counting",
+  "pos": "noun",
+  "g": "m",
+  "kind": "money"
+ },
+ {
+  "ru": "евро",
+  "en": "euro",
+  "theme": "Numbers and counting",
+  "pos": "noun",
+  "g": "n",
+  "kind": "money",
+  "indecl": true
+ },
+ {
+  "ru": "сколько",
+  "en": "how many, how much",
+  "theme": "Numbers and counting",
+  "pos": "adv"
+ },
+ {
+  "ru": "много",
+  "en": "a lot, many",
+  "theme": "Numbers and counting",
+  "pos": "adv"
+ },
+ {
+  "ru": "мало",
+  "en": "little, few",
+  "theme": "Numbers and counting",
+  "pos": "adv"
+ },
+ {
+  "ru": "несколько",
+  "en": "several, a few",
+  "theme": "Numbers and counting",
+  "pos": "adv"
+ },
+ {
+  "ru": "первый",
+  "en": "first",
+  "theme": "Numbers and counting",
+  "pos": "adj"
+ },
+ {
+  "ru": "второй",
+  "en": "second",
+  "theme": "Numbers and counting",
+  "pos": "adj"
+ },
+ {
+  "ru": "третий",
+  "en": "third",
+  "theme": "Numbers and counting",
+  "pos": "adj"
+ },
+ {
   "ru": "колесо",
   "en": "wheel",
   "theme": "Молчат Дома: Колесом",

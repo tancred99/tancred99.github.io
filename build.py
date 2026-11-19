@@ -9,6 +9,10 @@ s=s.replace('/*__DATA__*/',safe(json.dumps({'exercises':d,'vocab':v,'lessons':le
 s=s.replace('/*__STRESS__*/',safe(open('src/stress.json').read()))
 s=s.replace('/*__SPEECH__*/',safe(open('src/speech.js').read()))
 s=s.replace('/*__ENGINE__*/',safe(open('src/engine.js').read()))
+numdata=open('src/numbers_data.json').read()
+numjs=open('src/numbers.js').read()
+assert '/*__NUMDATA__*/null' in numjs
+s=s.replace('/*__NUMBERS__*/',safe(numjs.replace('/*__NUMDATA__*/null',numdata)))
 s=s.replace('/*__APP__*/',safe(open('src/app.js').read()))
 s=s.replace('/*__FBCONFIG__*/',safe(open('src/firebase-config.js').read()))
 s=s.replace('/*__CLOUD__*/',safe(open('src/cloud.js').read()))

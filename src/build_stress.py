@@ -24,6 +24,15 @@ MANUAL = {"вода": "вода'", "вилка": "ви'лка", "полка": "�
           "нами": "на'ми", "него": "него'", "парке": "па'рке", "анне": "а'нне", "анну": "а'нну", "ивана": "ива'на",
           "родители": "роди'тели", "наших": "на'ших", "статей": "стате'й", "минут": "мину'т", "проволока": "про'волока"}
 
+# Number words (src/numbers_data.json, hand-checked): authoritative, so they also cover forms the dictionary
+# lacks or lists twice (одна, тринадцать, тридцать, второй, сорок = forty not соро́к = of magpies).
+sys.path.insert(0, HERE)
+import numbers_ref
+NUM_STRESS = {}
+for _w in numbers_ref.all_forms():
+    _p = numbers_ref.strip(_w).lower()
+    if numbers_ref.ACUTE in _w and "ё" not in _p: NUM_STRESS[_p] = _w.index(numbers_ref.ACUTE) - 1
+
 def fetch():
     os.makedirs(CACHE, exist_ok=True)
     for f in FILES:
@@ -76,7 +85,7 @@ def content_words():
     words = set()
     def walk(x):
         if isinstance(x, str):
-            for m in WORD.findall(x):
+            for m in WORD.findall(x.replace("\u0301", "")):
                 for part in m.split("-"): words.add(part.lower())
                 words.add(m.lower())
         elif isinstance(x, dict): [walk(v) for v in x.values()]
@@ -86,11 +95,11 @@ def content_words():
     return words
 
 def main():
-    fetch(); groups = load_dict(); words = content_words()
+    fetch(); groups = load_dict(); words = content_words() | set(NUM_STRESS)
     out = {}
     for w in sorted(words):
         if "-" in w: continue  # hyphenated words are stressed part by part at runtime
-        k = MANUAL[w].index("'") - 1 if w in MANUAL else stress_index(w, groups)
+        k = MANUAL[w].index("'") - 1 if w in MANUAL else NUM_STRESS[w] if w in NUM_STRESS else stress_index(w, groups)
         if k is not None: out[w] = k
     json.dump(out, open(os.path.join(HERE, "stress.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"), sort_keys=True)
     poly = [w for w in words if "-" not in w and "ё" not in w and nvow(w) >= 2]

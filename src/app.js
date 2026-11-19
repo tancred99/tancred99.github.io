@@ -6,6 +6,7 @@ var CYR=/[А-Яа-яЁё]/;
 var CATS=[["all","All"],["basics","Basics"],["cases","Cases"],["conjugation","Verbs"],["aspect","Aspect"],["motion","Motion"],["home","At home"],["kakoy","какой / какая / какое / какие"],["frequency","никогда / иногда / всегда / часто / редко"]];
 var LEVELS=[["A1-A2","A1–A2"],["B1-C1","B1–C1"]];
 var MODES=[["choice","Choice"],["type","Type"]];
+var NR=window.RuNumbers||null,NDRILLS=NR?NR.DRILLS:[],NRANGES=NR?NR.RANGES.concat([["all","Any"]]):[];
 var VDRILLS=[["mixed","Mixed"],["cases","Cases"],["plurals","Plurals"],["numbers","Numbers"],["conj","Verbs"],["cards","Flashcards"]];
 var KIND_LABEL={thing:"thing",food:"food/drink",place:"place",person:"person",event:"service/event",transport:"transport",money:"money",unit:"measure",home:"furniture/spot in a room",abstract:"abstract (feeling, sound, idea)",body:"body part",animal:"farm animal",wild:"wild animal",farm:"fence, gate, equipment",feed:"feed, hay, grass"};
 var POS_LABEL={adj:"adjective",verb:"verb",phrase:"phrase",adv:"adverb/particle"};
@@ -18,14 +19,14 @@ var lprog=load(LSL);if(!lprog||typeof lprog.lessons!=="object"||!lprog.lessons)l
 var store=load(LS)||{};
 var cyc=load(LSC);if(!cyc||typeof cyc!=="object")cyc={};
 var st={tab:store.tab||"lessons",lview:"map",lid:null,first:0,lsaved:false,level:store.level||"A1-A2",showTr:false,cat:store.cat||"all",sub:"all",mode:store.mode||"choice",
-  vtheme:store.vtheme||"all",size:sizeOf(store.setSize),tts:store.tts!==false,setN:0,setDone:0,pk:null,pending:null,setInfo:null,setClosed:false,vdrill:store.vdrill||"mixed",wtheme:"all",queue:[],cur:null,answered:false,right:0,total:0,streak:0,picked:null,editing:null,importing:null};
+  vtheme:store.vtheme||"all",size:sizeOf(store.setSize),tts:store.tts!==false,nview:store.nview==="practice"?"practice":"learn",ndrill:store.ndrill||"mixed",nrange:store.nrange||"r0",ntheme:store.ntheme||"",setN:0,setDone:0,pk:null,pending:null,setInfo:null,setClosed:false,vdrill:store.vdrill||"mixed",wtheme:"all",queue:[],cur:null,answered:false,right:0,total:0,streak:0,picked:null,editing:null,importing:null};
 
 function load(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}}
 function sizeOf(n){return (n===0||n===10||n===15||n===20)?n:10}
 function saveCyc(){try{localStorage.setItem(LSC,JSON.stringify(cyc))}catch(e){}}
 var listeners=[],started=false;
 function changed(kind){listeners.forEach(function(f){try{f(kind)}catch(e){}})}
-function saveLocal(){try{store.cat=st.cat;store.mode=st.mode;store.level=st.level;store.tab=st.tab;store.vtheme=st.vtheme;store.vdrill=st.vdrill;store.setSize=st.size;store.tts=st.tts;localStorage.setItem(LS,JSON.stringify(store))}catch(e){}}
+function saveLocal(){try{store.cat=st.cat;store.mode=st.mode;store.level=st.level;store.tab=st.tab;store.vtheme=st.vtheme;store.vdrill=st.vdrill;store.nview=st.nview;store.ndrill=st.ndrill;store.nrange=st.nrange;store.ntheme=st.ntheme;store.setSize=st.size;store.tts=st.tts;localStorage.setItem(LS,JSON.stringify(store))}catch(e){}}
 function save(){saveLocal();changed("drills")}
 function saveLessons(){try{localStorage.setItem(LSL,JSON.stringify(lprog))}catch(e){}changed("lessons")}
 function saveWords(){try{localStorage.setItem(LSW,JSON.stringify({version:1,words:WORDS}))}catch(e){alert("Couldn't save words in this browser (storage full or blocked).")}changed("words")}
@@ -39,6 +40,26 @@ function lvl(){return DATA.filter(function(e){return e.level===st.level})}
 function themes(){var t=[];WORDS.forEach(function(w){if(t.indexOf(w.theme)<0)t.push(w.theme)});return t}
 function themeWords(th){return WORDS.filter(function(w){return th==="all"||w.theme===th})}
 
+// ---------- Numbers ----------
+function numTheme(){var t=st.ntheme||(themes().indexOf("Around the farm")>=0?"Around the farm":"all");return (t==="all"||themes().indexOf(t)>=0)?t:"all"}
+// nouns the number drills may count: countable, with certain genitive singular and plural
+function numNouns(){
+  var out=[];
+  themeWords(numTheme()).forEach(function(w){
+    if(w.pos!=="noun"||w.indecl||w.mass||w.g==="pl"||!w.g||w.kind==="event"||w.nonum||/\s/.test(w.ru))return;
+    var F=E.usable(w);if(!F.gen||!F.gpl)return;
+    out.push({ru:w.ru,forms:[w.ru,F.gen,F.gpl],g:w.g,en:E.en1(w),enPl:E.enPl(w),npl:F.npl,dat:F.dat,money:w.kind==="money"});
+  });
+  return out;
+}
+function numSize(){return st.size||20}
+function newNumbersSession(){
+  var set=NR?NR.makeSet({drill:st.ndrill,range:st.nrange,nouns:numNouns(),size:numSize()}):[];
+  st.pending=null;st.setInfo={random:true,total:set.length};st.setDone=0;st.setClosed=false;st.pk=null;st.setN=set.length;
+  st.queue=set.map(function(e){return {e:e,again:false}});
+  st.right=0;st.total=0;st.streak=0;st.first=0;st.lsaved=false;
+  next();
+}
 // ---------- drill pool ----------
 function lessonItems(L){
   var parts=[];L.exercises.forEach(function(e){if(parts.indexOf(e.part)<0)parts.push(e.part)});
@@ -101,16 +122,22 @@ function subsFor(){
 function renderControls(){
   Array.prototype.forEach.call(document.querySelectorAll(".tab"),function(b){b.setAttribute("aria-selected",String(b.dataset.tab===st.tab))});
   var lex=st.tab==="lessons"&&st.lview==="ex";
-  $("drillArea").classList.toggle("hidden",st.tab==="words"||(st.tab==="lessons"&&!lex));
+  var isNum=st.tab==="numbers",nPrac=isNum&&st.nview==="practice";
+  $("drillArea").classList.toggle("hidden",st.tab==="words"||(st.tab==="lessons"&&!lex)||(isNum&&!nPrac));
+  $("numbersArea").classList.toggle("hidden",!isNum||nPrac);
+  $("numNav").classList.toggle("hidden",!isNum);
+  $("sizeRow").classList.toggle("hidden",isNum);$("numMore").classList.toggle("hidden",!nPrac);
+  $("numCtl").classList.toggle("hidden",!nPrac);
   $("wordsArea").classList.toggle("hidden",st.tab!=="words");
   $("lessonsArea").classList.toggle("hidden",st.tab!=="lessons"||lex);
   $("lessCtl").classList.toggle("hidden",!lex);
   $("gramCtl").classList.toggle("hidden",st.tab!=="grammar");
   $("vocCtl").classList.toggle("hidden",st.tab!=="vocab");
-  $("sub").classList.toggle("hidden",st.tab==="lessons");
+  $("sub").classList.toggle("hidden",st.tab==="lessons"||isNum);
   if(st.tab==="words"){renderWords();return}
   $("sizes").innerHTML=SIZES.map(function(z){return '<button class="chip" data-size="'+z[0]+'" aria-pressed="'+(st.size===z[0])+'">'+z[1]+'</button>'}).join("");
   if(st.tab==="lessons"){$("modes").innerHTML=MODES.map(function(m){return '<button class="chip" data-mode="'+m[0]+'" aria-pressed="'+(st.mode===m[0])+'">'+m[1]+'</button>'}).join("");if(!lex)renderLessons();return}
+  if(isNum){renderNumbers();return}
   if(st.tab==="grammar"){
     var L=lvl();
     $("levels").innerHTML=LEVELS.map(function(l){return '<button class="chip" data-level="'+l[0]+'" aria-pressed="'+(st.level===l[0])+'">'+l[1]+'</button>'}).join("");
@@ -129,6 +156,7 @@ function renderControls(){
 function newSession(){
   if(st.tab==="words")return;
   if(st.tab==="lessons"&&st.lview!=="ex"){st.queue=[];st.cur=null;st.answered=false;return}
+  if(st.tab==="numbers"){if(st.nview!=="practice"){st.queue=[];st.cur=null;st.answered=false;return}newNumbersSession();return}
   var items=pool(),set;
   st.pending=null;st.setInfo=null;st.setDone=0;st.setClosed=false;st.setN=0;st.pk=null;
   if(st.tab==="lessons"){
@@ -168,10 +196,12 @@ function next(){
   if(st.cur)st.cur.opts=shuffle([st.cur.e.a].concat(st.cur.e.d));
   render();
 }
-function itemKey(e){return e.id!=null?String(e.id):("v:"+e.word+"|"+e.sub+"|"+e.s)}
+function itemKey(e){if(e.numkey)return "n:"+e.numkey;return e.id!=null?String(e.id):("v:"+e.word+"|"+e.sub+"|"+e.s)}
 function check(val){
   if(st.answered||!st.cur)return;
-  var e=st.cur.e,ok=[e.a].concat(e.alt||[]).some(function(a){return norm(a)===norm(val)});
+  var e=st.cur.e,ok;
+  if(e.digits){var dv=String(val).replace(/\D/g,"");ok=dv.length>0&&dv===String(e.a).replace(/\D/g,"")}
+  else ok=[e.a].concat(e.alt||[]).some(function(a){return norm(a)===norm(val)});
   st.answered=true;st.picked=val;st.ok=ok;st.total++;
   var rec=store.items=store.items||{};var k=itemKey(e);var r=rec[k]=rec[k]||{seen:0,right:0};r.seen++;
   if(st.pk){
@@ -186,13 +216,15 @@ function check(val){
   save();render();
 }
 
+function disp(e,s){return (e.accMap&&e.accMap[s])||SP.accent(s)}
 function sentenceHTML(e,fill,cls,acc){
   var parts=e.s.split("___"),f=acc?function(x){return SP.accent(x)}:function(x){return x};
-  return esc(f(parts[0]))+'<span class="blank '+(cls||"")+'">'+(fill?esc(SP.accent(fill)):"&nbsp;")+'</span>'+esc(f(parts[1]));
+  return esc(f(parts[0]))+'<span class="blank '+(cls||"")+'">'+(fill?esc(disp(e,fill)):"&nbsp;")+'</span>'+esc(f(parts[1]));
 }
 // what 🔊 reads after an answer: the completed sentence (flashcards: just the Russian word)
 function sayText(e){
   var t;
+  if(e.say)return CYR.test(e.say)?e.say:"";
   if(/^flashcard/.test(e.sub||"")&&e.word)t=e.word;
   else{var rest=e.s.replace("___","");t=CYR.test(e.a)?(CYR.test(rest)?e.s.replace("___",e.a):e.a):rest}
   t=String(t).replace(/^[\s—–-]+|[\s—–-]+$/g,"");
@@ -221,24 +253,31 @@ function render(){
   var fill=st.answered?e.a:"",cls=st.answered?(st.ok?"ok":"bad"):"";
   var say=st.answered?sayText(e):"";
   h+='<div class="sentence" lang="ru">'+sentenceHTML(e,fill,cls,st.answered&&/^flashcard/.test(e.sub||""))+(say?'<button class="say" id="sayBtn" data-say="'+esc(say)+'" aria-label="Hear the sentence" title="Hear it (Shift-click or right-click: slowly)">🔊</button>':'')+'</div>';
+  if(e.listen&&!st.answered)h+='<div class="lis"><button class="btn" id="numPlay" type="button">🔊 Play</button><button class="btn quiet" id="numSlow" type="button">🐢 Slower</button></div>';
   if(e.base)h+='<div class="base">(<b lang="ru">'+esc(e.base)+'</b>)</div>';
   if(e.glosses&&e.glosses.length)h+='<div class="gl">'+esc(e.glosses.join(" · "))+'</div>';
-  if(!st.answered&&e.translation)h+=st.showTr?'<div class="tr">'+esc(e.translation)+'</div>':'<button class="trbtn" id="trBtn">Show translation</button>';
+  if(!st.answered&&e.translation)h+=st.showTr?'<div class="tr">'+esc(e.translation)+'</div>':'<button class="trbtn" id="trBtn">'+esc(e.trLabel||"Show translation")+'</button>';
   if(choice){
     h+='<div class="opts" lang="ru">'+st.cur.opts.map(function(o,i){
       var k="";if(st.answered){if(o===e.a)k="ok";else if(o===st.picked)k="bad"}
-      return '<button class="opt '+k+'" data-i="'+i+'"'+(st.answered?" disabled":"")+'>'+esc(st.answered&&o===e.a?SP.accent(o):o)+'</button>'}).join("")+'</div>';
+      return '<button class="opt '+k+'" data-i="'+i+'"'+(st.answered?" disabled":"")+'>'+esc(st.answered&&o===e.a?disp(e,o):o)+'</button>'}).join("")+'</div>';
   }else{
-    h+='<input type="text" id="typed" lang="ru" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" enterkeyhint="done" placeholder="Type the missing form" '+(st.answered?'disabled value="'+esc(st.picked)+'"':'')+'>';
+    h+='<input type="text" id="typed" lang="ru" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" enterkeyhint="done" placeholder="'+esc(e.ph||"Type the missing form")+'"'+(e.digits?' inputmode="numeric"':"")+' '+(st.answered?'disabled value="'+esc(st.picked)+'"':'')+'>';
     if(!st.answered)h+='<button class="btn" id="checkBtn">Check</button>';
   }
   if(st.answered){
     h+='<div class="fb '+(st.ok?"ok":"bad")+'"><strong>'+(st.ok?"Верно!":"Not quite. It will come back later.")+'</strong>'+
-      (st.ok?"":'<div>Answer: <span class="ans" lang="ru">'+esc(SP.accent(e.a))+'</span>'+((e.alt&&e.alt.length)?' (also accepted: '+esc(e.alt.join(", "))+')':'')+'</div>')+
-      (e.translation?'<div class="tr">'+esc(e.translation)+'</div>':'')+'<div>'+esc(e.ex)+'</div></div>';
+      (st.ok?"":'<div>Answer: <span class="ans" lang="ru">'+esc(disp(e,e.a))+'</span>'+((e.alt&&e.alt.length)?' (also accepted: '+esc(e.alt.join(", "))+')':'')+'</div>')+
+      ((e.translation&&!e.listen)?'<div class="tr">'+esc(e.translation)+'</div>':'')+'<div>'+esc(e.ex)+'</div></div>';
     h+='<button class="btn" id="nextBtn">Next →</button>';
   }
   c.innerHTML=h;
+  if(e.listen&&!st.answered){
+    var pb=$("numPlay"),sb=$("numSlow");
+    if(pb)pb.onclick=function(){if(SP.speak)SP.speak(e.say,false)};
+    if(sb)sb.onclick=function(){if(SP.speak)SP.speak(e.say,true)};
+    if(!st.cur.played){st.cur.played=true;if(SP.speak)setTimeout(function(){SP.speak(e.say,false)},120)}
+  }
   if(choice&&!st.answered){Array.prototype.forEach.call(c.querySelectorAll(".opt"),function(b){b.onclick=function(){check(st.cur.opts[+b.dataset.i])}})}
   if(!choice&&!st.answered){var inp=$("typed");$("checkBtn").onclick=function(){if(inp.value.trim())check(inp.value)};
     inp.onkeydown=function(ev){if(ev.key==="Enter"&&!ev.isComposing&&inp.value.trim()){ev.preventDefault();ev.stopPropagation();check(inp.value)}};setTimeout(function(){inp.focus()},30)}
@@ -247,10 +286,11 @@ function render(){
 }
 
 function setDone(c){
-  var n=st.setN,f=st.first,i=st.setInfo||{},sz=st.size;
+  var n=st.setN,f=st.first,i=st.setInfo||{},sz=st.size||(st.tab==="numbers"?20:0);
   var h='<div class="done"><h2>Отлично, set done!</h2><p><b style="font-size:28px">'+f+'/'+n+'</b><br><span class="muted">right on the first try</span></p>';
   h+='<p class="muted">Every missed item came back until you got it right.';
-  if(i.whole)h+=' This topic only has '+i.total+' question'+(i.total===1?'':'s')+', so each set uses all of them.';
+  if(i.random)h+=' The numbers are random, so the next set is all new.';
+  else if(i.whole)h+=' This topic only has '+i.total+' question'+(i.total===1?'':'s')+', so each set uses all of them.';
   else if(i.newRound)h+=' That finished all '+i.total+' questions here'+(i.refill?' (the last '+i.refill+' were repeats to fill the set, missed ones first)':'')+'. The next set starts a fresh round.';
   else h+=' You’ve now seen '+i.seenAfter+' of '+i.total+' questions here; the next set has none from this round.';
   h+='</p><button class="btn" id="nextSet">'+(i.whole?'Practice these again':'Next '+sz+' →')+'</button><button class="btn quiet" id="toTop">Choose another topic</button></div>';
@@ -264,12 +304,39 @@ function lessonSetDone(c){
   h+='<button class="btn" id="nextSet">Next '+nn+' →</button><button class="btn quiet" data-lread="1">Re-read the lesson</button><button class="btn quiet" data-lmap="1">Back to all lessons</button></div>';
   c.innerHTML=h;$("nextSet").onclick=newSession;
 }
+function renderNumbers(){
+  $("numNav").innerHTML=[["learn","Learn"],["practice","Practice"]].map(function(v){return '<button class="chip" data-nview="'+v[0]+'" aria-pressed="'+(st.nview===v[0])+'">'+v[1]+'</button>'}).join("");
+  if(st.nview!=="practice"){renderNumbersLearn($("numbersArea"));return}
+  $("ndrill").innerHTML=NDRILLS.map(function(d){return '<option value="'+d[0]+'"'+(st.ndrill===d[0]?" selected":"")+'>'+esc(d[1])+'</option>'}).join("");
+  var useRange=["phone","ord"].indexOf(st.ndrill)<0;
+  $("nrange").classList.toggle("hidden",!useRange);
+  $("nrange").innerHTML=NRANGES.map(function(r){return '<option value="'+r[0]+'"'+(st.nrange===r[0]?" selected":"")+'>Range: '+esc(r[1])+'</option>'}).join("");
+  var th=themes(),cur=numTheme(),nn=["noun","mixed"].indexOf(st.ndrill)>=0;
+  $("nthemeRow").classList.toggle("hidden",!nn);
+  $("ntheme").innerHTML='<option value="all"'+(cur==="all"?" selected":"")+'>Nouns from all my words</option>'+th.map(function(x){return '<option value="'+esc(x)+'"'+(cur===x?" selected":"")+'>Nouns from: '+esc(x)+'</option>'}).join("");
+  $("nsizes").innerHTML=SIZES.filter(function(z){return z[0]!==0}).map(function(z){return '<button class="chip" data-size="'+z[0]+'" aria-pressed="'+(numSize()===z[0])+'">'+z[1]+'</button>'}).join("");
+  $("numMoreSum").textContent="⚙ More settings · "+numSize()+" questions per set"+(nn?" · "+(cur==="all"?"all my nouns":cur):"");
+  $("modes").innerHTML=MODES.map(function(m){return '<button class="chip" data-mode="'+m[0]+'" aria-pressed="'+(st.mode===m[0])+'">'+m[1]+'</button>'}).join("");
+}
+function renderNumbersLearn(a){
+  var N=COURSE.numbers;
+  if(!N){a.innerHTML='<div class="lesson"><h2>Numbers</h2><p class="goal">The numbers lesson is not available in this copy of the course.</p><button class="btn" data-nview="practice">Go to practice</button></div>';return}
+  var h='<div class="lesson"><h2>'+esc(N.title)+'</h2><p class="goal">'+esc(N.goal)+'<br>'+esc(N.minutes)+'</p>';
+  h+='<div style="display:flex;gap:8px"><button class="sbtn" data-nexpand="1" style="flex:1">Open all steps</button><button class="sbtn" data-nexpand="0" style="flex:1">Close all</button></div>';
+  N.sections.forEach(function(s){h+='<details class="ls"'+(s.open?" open":"")+'><summary>'+esc(s.h)+'</summary><div>'+s.html+'</div></details>'});
+  var pr=N.practice;
+  if(pr)h+='<div class="practice"><b>'+esc(pr.title)+'</b><div>'+esc(pr.text)+'</div><div class="muted" style="margin-top:6px">For example:</div><ul lang="ru">'+pr.examples.map(function(x){return '<li>'+esc(x)+'</li>'}).join("")+'</ul></div>';
+  h+='<button class="btn" data-nview="practice">Start practicing →</button><p class="muted">Practice has random numbers that never run out: digits to words, words to digits, listening, numbers with nouns, prices and ages, phone numbers and ordinals.</p></div>';
+  a.innerHTML=h;
+}
 // ---------- Lessons ----------
 function lp(id){return lprog.lessons[id]||null}
 function renderLessons(){
   var a=$("lessonsArea");
   if(st.lview==="read"&&COURSE.lessons[st.lid]){renderLesson(a,COURSE.lessons[st.lid]);return}
-  var h='<div class="lesson"><h2>Course roadmap · A1–A2</h2><p class="goal">The classroom way: read a short lesson, practice that one rule, then review. Lessons unlock as they’re written.</p><ol class="course">';
+  var h='<div class="lesson"><h2>Course roadmap · A1–A2</h2><p class="goal">The classroom way: read a short lesson, practice that one rule, then review. Lessons unlock as they’re written.</p>';
+  if(COURSE.numbers)h+='<div class="numcard"><div class="lt1"><b>Numbers: 0 to a million</b><span>Say, read and hear numbers, and use the right noun after them (две коровы, пять коров). Own tab, with endless random practice.</span></div><button class="go" data-gonum="1">Open</button></div>';
+  h+='<ol class="course">';
   COURSE.course.forEach(function(c){
     var L=COURSE.lessons[c.id],p=lp(c.id),ready=!!L,done=p&&p.completed;
     var cls=(c.review?"review ":"")+(ready?"":"soon ")+(done?"fin":"");
@@ -458,6 +525,19 @@ document.addEventListener("click",function(ev){
   if(t.dataset.cat){st.cat=t.dataset.cat;st.sub="all";renderControls();save();newSession()}
   if(t.dataset.mode){st.mode=t.dataset.mode;renderControls();save();if(st.cur&&!st.answered)render()}
 });
+$("numbersArea").addEventListener("click",function(ev){
+  var b=ev.target.closest("button");if(!b)return;
+  if(b.dataset.nexpand!=null){Array.prototype.forEach.call($("numbersArea").querySelectorAll("details.ls"),function(d){d.open=b.dataset.nexpand==="1"})}
+});
+document.addEventListener("click",function(ev){
+  var b=ev.target.closest&&ev.target.closest("[data-nview],[data-rv],[data-gonum]");if(!b)return;
+  if(b.dataset.rv){var box=b.closest(".rv");if(!box)return;var on=box.classList.toggle("nostress");b.textContent=on?"Show stress ´":"Hide stress ´";b.setAttribute("aria-pressed",String(!on));return}
+  if(b.dataset.gonum){st.tab="numbers";st.sub="all";save();renderControls();newSession();window.scrollTo(0,0);return}
+  if(b.dataset.nview){st.nview=b.dataset.nview;save();renderControls();newSession();window.scrollTo(0,0);return}
+});
+$("ndrill").onchange=function(){st.ndrill=this.value;save();renderControls();newSession()};
+$("nrange").onchange=function(){st.nrange=this.value;save();newSession()};
+$("ntheme").onchange=function(){st.ntheme=this.value;save();newSession()};
 document.addEventListener("keydown",function(ev){if(!$("drillArea").classList.contains("hidden")&&st.cur&&ev.key==="Enter"&&st.answered&&document.activeElement.id!=="nextBtn"){ev.preventDefault();next()}});
 $("sub").onchange=function(){st.sub=this.value;newSession()};
 $("vtheme").onchange=function(){st.vtheme=this.value;st.sub="all";save();renderControls();newSession()};
@@ -485,7 +565,7 @@ function addNewStarterThemes(){
   if(n){saveWords();if(st.tab==="words")renderWords();else if(st.tab==="vocab")renderControls()}
 }
 // ---------- bridge for cloud sync (cloud.js) ----------
-function applyPrefs(){st.tab=store.tab||st.tab;st.level=store.level||st.level;st.cat=store.cat||"all";st.mode=store.mode||st.mode;st.vtheme=store.vtheme||"all";st.vdrill=store.vdrill||"mixed";st.size=sizeOf(store.setSize);st.tts=store.tts!==false;st.sub="all";syncTts();
+function applyPrefs(){st.tab=store.tab||st.tab;st.level=store.level||st.level;st.cat=store.cat||"all";st.mode=store.mode||st.mode;st.vtheme=store.vtheme||"all";st.vdrill=store.vdrill||"mixed";st.nview=store.nview==="practice"?"practice":"learn";st.ndrill=store.ndrill||"mixed";st.nrange=store.nrange||"r0";st.ntheme=store.ntheme||"";st.size=sizeOf(store.setSize);st.tts=store.tts!==false;st.sub="all";syncTts();
   if(started){if(!lvl().length)st.level="A1-A2";if(!lvl().some(function(e){return st.cat==="all"||e.cat===st.cat}))st.cat="all"}}
 window.RuApp={
   keys:{drills:LS,lessons:LSL,words:LSW},

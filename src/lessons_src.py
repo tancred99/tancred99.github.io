@@ -830,7 +830,9 @@ LESSONS = {
 
 for _k in ("L4", "L5"): LESSONS[_k]["minutes"] = LESSONS[_k]["minutes"] % len(LESSONS[_k]["exercises"])
 
-out = {"version": 1, "course": COURSE, "lessons": LESSONS}
+import numbers_lesson
+NUMBERS = numbers_lesson.build(t, ru, exl)
+out = {"version": 1, "course": COURSE, "lessons": LESSONS, "numbers": NUMBERS}
 here = os.path.dirname(os.path.abspath(__file__))
 json.dump(out, open(os.path.join(here, "..", "lessons.json"), "w"), ensure_ascii=False, indent=1)
 print("lessons.json:", len(COURSE), "roadmap entries,", sum(len(l["exercises"]) for l in LESSONS.values()), "exercises")
