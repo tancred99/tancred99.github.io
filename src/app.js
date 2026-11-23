@@ -331,6 +331,7 @@ function renderNumbersLearn(a){
 }
 // ---------- Lessons ----------
 function lp(id){return lprog.lessons[id]||null}
+function lessonName(L){return L.review?L.title:("Lesson "+L.n)}
 function renderLessons(){
   var a=$("lessonsArea");
   if(st.lview==="read"&&COURSE.lessons[st.lid]){renderLesson(a,COURSE.lessons[st.lid]);return}
@@ -348,20 +349,20 @@ function renderLessons(){
 }
 function renderLesson(a,L){
   var p=lp(L.id);
-  var h='<div class="lesson"><div class="lhead"><button class="back" data-lmap="1">← All lessons</button><div class="lt2">Lesson '+L.n+(p&&p.completed?' · ✓ best '+p.best+'/'+p.of:'')+'</div></div>';
+  var h='<div class="lesson"><div class="lhead"><button class="back" data-lmap="1">← All lessons</button><div class="lt2">'+esc(lessonName(L))+(p&&p.completed?' · ✓ best '+p.best+'/'+p.of:'')+'</div></div>';
   h+='<h2>'+esc(L.title)+'</h2><p class="goal">'+esc(L.goal)+'<br>'+esc(L.minutes)+'</p>';
   h+='<div style="display:flex;gap:8px"><button class="sbtn" data-lexpand="1" style="flex:1">Open all steps</button><button class="sbtn" data-lexpand="0" style="flex:1">Close all</button></div>';
   L.sections.forEach(function(s){h+='<details class="ls"'+(s.open?" open":"")+'><summary>'+esc(s.h)+'</summary><div>'+s.html+'</div></details>'});
   var run=cyc["L|"+L.id];
   if(run&&run.pos>0&&run.pos<L.exercises.length)h+='<button class="btn" data-lstart="'+L.id+'">Continue the exercises ('+(run.order.length-run.pos)+' of '+L.exercises.length+' left)</button><button class="btn quiet" data-lrestart="'+L.id+'">Start over</button>';
   else h+='<button class="btn" data-lstart="'+L.id+'">Start the exercises ('+L.exercises.length+')</button>';
-  h+='<p class="muted">Three parts: '+Object.keys(L.parts).map(function(k){return esc(L.parts[k])}).join(", ")+'. Every answer comes with the rule behind it.</p></div>';
+  h+='<p class="muted">'+Object.keys(L.parts).map(function(k){return esc(L.parts[k])}).join(", ")+'. Every answer comes with the rule behind it.</p></div>';
   a.innerHTML=h;
 }
 function renderLessonHead(){
   var L=COURSE.lessons[st.lid];if(!L)return;
   var part=st.cur&&st.cur.e.part?L.parts[st.cur.e.part]:"Results";
-  $("lessCtl").innerHTML='<button class="back" data-lread="1">← Lesson '+L.n+'</button><div class="lt2"><b>'+esc(part||"")+'</b>'+esc(L.title)+'</div>';
+  $("lessCtl").innerHTML='<button class="back" data-lread="1">← '+esc(lessonName(L))+'</button><div class="lt2"><b>'+esc(part||"")+'</b>'+esc(L.title)+'</div>';
 }
 function lessonComplete(c){
   var L=COURSE.lessons[st.lid],n=L.exercises.length,first=st.first,pct=Math.round(100*first/n);
@@ -372,7 +373,7 @@ function lessonComplete(c){
     lprog.lessons[L.id]=p;saveLessons();st.lsaved=true;
   }
   var pr=L.practice,best=lprog.lessons[L.id].best;
-  var h='<div class="done"><h2>Lesson '+L.n+' complete!</h2>';
+  var h='<div class="done"><h2>'+esc(lessonName(L))+' complete!</h2>';
   h+='<p><b style="font-size:28px">'+first+'/'+n+'</b><br><span class="muted">right on the first try ('+pct+'%) · best '+best+'/'+n+'</span></p>';
   h+='<p class="muted">'+(pct>=90?"Excellent. You’ve got this rule.":pct>=70?"Good work. Re-read the steps you missed, then try again.":"This one takes practice. Re-read the lesson, then redo the exercises.")+' Every missed item came back until you got it right.</p>';
   if(pr)h+='<div class="practice"><b>'+esc(pr.title)+'</b><div>'+esc(pr.text)+'</div><div class="muted" style="margin-top:6px">For example:</div><ul lang="ru">'+pr.examples.map(function(x){return '<li>'+esc(x)+'</li>'}).join("")+'</ul></div>';

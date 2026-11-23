@@ -3452,6 +3452,2142 @@
      ]
     }
    ]
+  },
+  "R1": {
+   "id": "R1",
+   "review": true,
+   "title": "Review 1",
+   "goal": "Mixed practice on Lessons 1–4: gender and где?, accusative of things and куда?, the present tense, and у меня есть / нет. By the end you'll use all four in short sentences about an ordinary day.",
+   "minutes": "10–15 min to read the recap, then 40 exercises",
+   "sections": [
+    {
+     "h": "Step 1 · Gender and где? (the prepositional)",
+     "open": true,
+     "html": "<p>Every noun is masculine, feminine or neuter, and the last letter of the dictionary form almost always tells you. That gender then picks the prepositional ending when you say <b>where</b> something is (<span lang=\"ru\" class=\"r\">где?</span>).</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Ends in</th><th>Gender</th><th>Prepositional (где?)</th></tr></thead><tbody><tr><td>a consonant or <span lang=\"ru\" class=\"r\">-й</span></td><td>masculine</td><td><span lang=\"ru\" class=\"r\">-е</span>: <span lang=\"ru\" class=\"r\">в офисе</span>, <span lang=\"ru\" class=\"r\">в храме</span>, <span lang=\"ru\" class=\"r\">в Бресте</span>, <span lang=\"ru\" class=\"r\">на сервере</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">-а / -я</span></td><td>feminine</td><td><span lang=\"ru\" class=\"r\">-а → -е, -я → -е</span>: <span lang=\"ru\" class=\"r\">на кухне</span>, <span lang=\"ru\" class=\"r\">на ферме</span>, <span lang=\"ru\" class=\"r\">в гостинице</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">-о / -е</span></td><td>neuter</td><td><span lang=\"ru\" class=\"r\">-е</span> (often no change): <span lang=\"ru\" class=\"r\">на пастбище</span>, <span lang=\"ru\" class=\"r\">в поле</span>, <span lang=\"ru\" class=\"r\">в письме</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">-ь</span></td><td>masc. or fem.</td><td>masculine <span lang=\"ru\" class=\"r\">-е</span> (<span lang=\"ru\" class=\"r\">в Гомеле</span>), feminine <span lang=\"ru\" class=\"r\">-и</span> (<span lang=\"ru\" class=\"r\">в церкви</span>, <span lang=\"ru\" class=\"r\">на площади</span>)</td></tr><tr><td><span lang=\"ru\" class=\"r\">-ий / -ия / -ие</span></td><td>various</td><td><span lang=\"ru\" class=\"r\">-ии</span>: <span lang=\"ru\" class=\"r\">в санатории</span>, <span lang=\"ru\" class=\"r\">в России</span>, <span lang=\"ru\" class=\"r\">в здании</span>, <span lang=\"ru\" class=\"r\">на литургии</span></td></tr></tbody></table></div><p><span lang=\"ru\" class=\"r\">в</span> or <span lang=\"ru\" class=\"r\">на</span> is the same pair you already learned: <span lang=\"ru\" class=\"r\">в</span> for indoors and countries (<span lang=\"ru\" class=\"r\">в офисе, в храме, в Беларуси</span>), <span lang=\"ru\" class=\"r\">на</span> for surfaces, events and a short list of places (<span lang=\"ru\" class=\"r\">на кухне, на ферме, на концерте, на рынке, на работе</span>).</p><p class=\"tip\"><b>German:</b> <span lang=\"ru\" class=\"r\">где?</span> is <i>wo?</i> The prepositional is the case after “in / at / on” for location: in dem Büro = <span lang=\"ru\" class=\"r\">в офисе</span>, auf der Küche isn’t German, but auf dem Konzert ≈ <span lang=\"ru\" class=\"r\">на концерте</span>. Men ending in <span lang=\"ru\" class=\"r\">-а</span> (<span lang=\"ru\" class=\"r\">батюшка, папа, дедушка</span>) stay masculine for agreement, even though they decline like feminine nouns.</p>"
+    },
+    {
+     "h": "Step 2 · Accusative of things and куда?",
+     "open": false,
+     "html": "<p>The <b>accusative</b> (<span lang=\"ru\" class=\"r\">винительный падеж</span>) marks the <b>direct object</b> — the thing you buy, write, see or listen to. For <i>things</i> (Lesson 2) the ending is simple:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Dictionary form</th><th>Accusative</th><th>Examples</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">-а / -я</span> (mostly fem.)</td><td><span lang=\"ru\" class=\"r\">-у / -ю</span></td><td><span lang=\"ru\" class=\"r\">программа → программу</span> · <span lang=\"ru\" class=\"r\">песня → песню</span> · <span lang=\"ru\" class=\"r\">икона → икону</span> · <span lang=\"ru\" class=\"r\">ферма → на ферму</span></td></tr><tr><td>everything else</td><td>no change</td><td><span lang=\"ru\" class=\"r\">файл → файл</span> · <span lang=\"ru\" class=\"r\">код → код</span> · <span lang=\"ru\" class=\"r\">корм → корм</span> · <span lang=\"ru\" class=\"r\">письмо → письмо</span> · <span lang=\"ru\" class=\"r\">Брест → в Брест</span></td></tr></tbody></table></div><p><span lang=\"ru\" class=\"r\">куда?</span> (“where to?”) uses the same <span lang=\"ru\" class=\"r\">в</span> or <span lang=\"ru\" class=\"r\">на</span> as <span lang=\"ru\" class=\"r\">где?</span>, but the noun goes into the <b>accusative</b>. Compare:</p><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Я в офисе.</span><span class=\"g\">I'm in the office. (где? prepositional)</span></li><li><span lang=\"ru\" class=\"r\">Я еду в офис.</span><span class=\"g\">I'm going to the office. (куда? accusative)</span></li><li><span lang=\"ru\" class=\"r\">Жена на кухне.</span><span class=\"g\">My wife is in the kitchen. (где?)</span></li><li><span lang=\"ru\" class=\"r\">Я иду на кухню.</span><span class=\"g\">I'm going to the kitchen. (куда?)</span></li><li><span lang=\"ru\" class=\"r\">Мы на концерте.</span><span class=\"g\">We're at the concert. (где?)</span></li><li><span lang=\"ru\" class=\"r\">Мы идём на концерт.</span><span class=\"g\">We're going to the concert. (куда?)</span></li><li><span lang=\"ru\" class=\"r\">Коровы на пастбище.</span><span class=\"g\">The cows are in the pasture. (где? — neuter, same form)</span></li><li><span lang=\"ru\" class=\"r\">Я еду на ферму.</span><span class=\"g\">I'm going to the farm. (куда?)</span></li></ul><p class=\"tip\"><b>German:</b> <span lang=\"ru\" class=\"r\">где?</span> = <i>wo?</i>, <span lang=\"ru\" class=\"r\">куда?</span> = <i>wohin?</i> ich bin im Büro / ich fahre ins Büro. And “home” is still irregular: <span lang=\"ru\" class=\"r\">дома</span> (где?) vs <span lang=\"ru\" class=\"r\">домой</span> (куда?). Lesson 6 will add people and animals, where the accusative sometimes looks different.</p>"
+    },
+    {
+     "h": "Step 3 · The present tense",
+     "open": false,
+     "html": "<p>A Russian verb has two conjugation classes. The <span lang=\"ru\" class=\"r\">ты</span> form tells you which: <span lang=\"ru\" class=\"r\">-ешь / -ёшь</span> is 1st conjugation (е-verbs), <span lang=\"ru\" class=\"r\">-ишь</span> is 2nd (и-verbs).</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th></th><th>я</th><th>ты</th><th>он / она</th><th>мы</th><th>вы</th><th>они</th></tr></thead><tbody><tr><td>1st: <span lang=\"ru\" class=\"r\">работать, писать, слушать</span></td><td><span lang=\"ru\" class=\"r\">работаю</span><br><span lang=\"ru\" class=\"r\">пишу</span><br><span lang=\"ru\" class=\"r\">слушаю</span></td><td><span lang=\"ru\" class=\"r\">работаешь</span><br><span lang=\"ru\" class=\"r\">пишешь</span><br><span lang=\"ru\" class=\"r\">слушаешь</span></td><td><span lang=\"ru\" class=\"r\">работает</span><br><span lang=\"ru\" class=\"r\">пишет</span><br><span lang=\"ru\" class=\"r\">слушает</span></td><td><span lang=\"ru\" class=\"r\">работаем</span><br><span lang=\"ru\" class=\"r\">пишем</span><br><span lang=\"ru\" class=\"r\">слушаем</span></td><td><span lang=\"ru\" class=\"r\">работаете</span><br><span lang=\"ru\" class=\"r\">пишете</span><br><span lang=\"ru\" class=\"r\">слушаете</span></td><td><span lang=\"ru\" class=\"r\">работают</span><br><span lang=\"ru\" class=\"r\">пишут</span><br><span lang=\"ru\" class=\"r\">слушают</span></td></tr><tr><td>2nd: <span lang=\"ru\" class=\"r\">звонить, готовить, говорить</span></td><td><span lang=\"ru\" class=\"r\">звоню</span><br><span lang=\"ru\" class=\"r\">готовлю</span><br><span lang=\"ru\" class=\"r\">говорю</span></td><td><span lang=\"ru\" class=\"r\">звонишь</span><br><span lang=\"ru\" class=\"r\">готовишь</span><br><span lang=\"ru\" class=\"r\">говоришь</span></td><td><span lang=\"ru\" class=\"r\">звонит</span><br><span lang=\"ru\" class=\"r\">готовит</span><br><span lang=\"ru\" class=\"r\">говорит</span></td><td><span lang=\"ru\" class=\"r\">звоним</span><br><span lang=\"ru\" class=\"r\">готовим</span><br><span lang=\"ru\" class=\"r\">говорим</span></td><td><span lang=\"ru\" class=\"r\">звоните</span><br><span lang=\"ru\" class=\"r\">готовите</span><br><span lang=\"ru\" class=\"r\">говорите</span></td><td><span lang=\"ru\" class=\"r\">звонят</span><br><span lang=\"ru\" class=\"r\">готовят</span><br><span lang=\"ru\" class=\"r\">говорят</span></td></tr></tbody></table></div><p>A few 1st-conjugation verbs change the stem: <span lang=\"ru\" class=\"r\">писать → пишу, пишешь</span>; <span lang=\"ru\" class=\"r\">жить → живу</span>. Some 2nd-conjugation verbs drop a consonant in the <span lang=\"ru\" class=\"r\">я</span> form only: <span lang=\"ru\" class=\"r\">видеть → вижу, видишь</span>; <span lang=\"ru\" class=\"r\">любить → люблю, любишь</span>; <span lang=\"ru\" class=\"r\">готовить → готовлю, готовишь</span>. <span lang=\"ru\" class=\"r\">хотеть</span> is mixed: <span lang=\"ru\" class=\"r\">хочу, хочешь, хочет</span> but <span lang=\"ru\" class=\"r\">хотим, хотите, хотят</span>.</p><p class=\"tip\"><b>German:</b> this is just like choosing a weak vs. a strong verb, except Russian marks the choice on every person, not only on <i>er/sie/es</i>. Once you know the <span lang=\"ru\" class=\"r\">ты</span> form, the rest of the set is regular.</p>"
+    },
+    {
+     "h": "Step 4 · Genitive: у меня есть / нет",
+     "open": false,
+     "html": "<p>Russian says “by me there is …” for “I have.” The <b>owner</b> after <span lang=\"ru\" class=\"r\">у</span> is in the <b>genitive</b>; the <b>thing owned</b> is the <b>subject</b> (nominative). To say you don’t have something, use <span lang=\"ru\" class=\"r\">нет</span> + genitive, and drop the subject:</p><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">У меня есть компьютер.</span><span class=\"g\">I have a computer. (компьютер = subject, nominative)</span></li><li><span lang=\"ru\" class=\"r\">У жены есть подруга в Бресте.</span><span class=\"g\">My wife has a friend in Brest.</span></li><li><span lang=\"ru\" class=\"r\">У нас пока нет индюка.</span><span class=\"g\">We don't have a turkey yet. (нет + genitive)</span></li><li><span lang=\"ru\" class=\"r\">У коллеги нет машины.</span><span class=\"g\">My colleague doesn't have a car.</span></li><li><span lang=\"ru\" class=\"r\">В этом альбоме нет песни.</span><span class=\"g\">That song isn't on this album.</span></li></ul><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Nominative</th><th>After у / after нет (genitive)</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">я, ты, он, она, мы, вы, они</span></td><td><span lang=\"ru\" class=\"r\">меня, тебя, него, неё, нас, вас, них</span></td></tr><tr><td>masc. / neut. consonant or <span lang=\"ru\" class=\"r\">-о</span></td><td><span lang=\"ru\" class=\"r\">-а</span>: <span lang=\"ru\" class=\"r\">компьютер → компьютера</span>, <span lang=\"ru\" class=\"r\">индюк → индюка</span>, <span lang=\"ru\" class=\"r\">ключ → ключа</span></td></tr><tr><td>masc. <span lang=\"ru\" class=\"r\">-й / -ь</span>, neut. <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">-я</span>: <span lang=\"ru\" class=\"r\">пароль → пароля</span>, <span lang=\"ru\" class=\"r\">учитель → учителя</span></td></tr><tr><td>fem. <span lang=\"ru\" class=\"r\">-а / -я / -ь</span></td><td><span lang=\"ru\" class=\"r\">-ы / -и</span>: <span lang=\"ru\" class=\"r\">жена → жены</span>, <span lang=\"ru\" class=\"r\">песня → песни</span>, <span lang=\"ru\" class=\"r\">коза → козы</span>. After <span lang=\"ru\" class=\"r\">г, к, х, ж, ч, ш, щ</span> write <span lang=\"ru\" class=\"r\">и</span>: <span lang=\"ru\" class=\"r\">у подруги</span></td></tr></tbody></table></div><p class=\"tip\"><b>Remember:</b> after a preposition, <span lang=\"ru\" class=\"r\">его / её / их</span> add <span lang=\"ru\" class=\"r\">н-</span>: <span lang=\"ru\" class=\"r\">у него, у неё, у них</span>. And <span lang=\"ru\" class=\"r\">время</span> is irregular: <span lang=\"ru\" class=\"r\">нет времени</span>. German <span lang=\"ru\" class=\"r\">у</span> ≈ <i>bei</i>: bei mir ist ein Computer.</p>"
+    },
+    {
+     "h": "Summary",
+     "open": false,
+     "html": "<ul class=\"sum\"><li>Gender comes from the last letter. <span lang=\"ru\" class=\"r\">где?</span> = <span lang=\"ru\" class=\"r\">в / на</span> + <b>prepositional</b> (<span lang=\"ru\" class=\"r\">в офисе, на кухне, на пастбище, в церкви</span>).</li><li><span lang=\"ru\" class=\"r\">куда?</span> = the same <span lang=\"ru\" class=\"r\">в / на</span> + <b>accusative</b> of a thing (<span lang=\"ru\" class=\"r\">в офис, на кухню, на ферму</span>). Direct objects: <span lang=\"ru\" class=\"r\">-а / -я → -у / -ю</span>, otherwise no change (<span lang=\"ru\" class=\"r\">пишу программу, открываю файл</span>).</li><li>Present tense: 1st conjugation <span lang=\"ru\" class=\"r\">-ешь / -ет / -ют</span>, 2nd <span lang=\"ru\" class=\"r\">-ишь / -ит / -ят</span>. Watch stem changes: <span lang=\"ru\" class=\"r\">пишу, живу, вижу, люблю, готовлю</span>.</li><li>“I have” = <span lang=\"ru\" class=\"r\">у меня есть</span> + nominative. “I don’t have” = <span lang=\"ru\" class=\"r\">нет</span> + genitive. The owner after <span lang=\"ru\" class=\"r\">у</span> is genitive: <span lang=\"ru\" class=\"r\">у меня, у жены, у него</span>.</li></ul>"
+    }
+   ],
+   "parts": {
+    "A": "Lesson 1 · Gender and где?",
+    "B": "Lesson 2 · Accusative and куда?",
+    "C": "Lesson 3 · Present tense",
+    "D": "Lesson 4 · у меня есть / нет"
+   },
+   "practice": {
+    "title": "Now use it: write to your tutor",
+    "text": "Answer in chat: Расскажи про обычный день. Write 4 short sentences: one with где? (where you or someone is — the prepositional), one with куда? or a direct object (the accusative of a thing), one in the present tense about what you, your wife or a friend does, and one with у меня есть or у меня нет.",
+    "examples": [
+     "Сейчас я в офисе.",
+     "После работы я еду на ферму.",
+     "Жена готовит обед.",
+     "У нас пока нет козы."
+    ]
+   },
+   "exercises": [
+    {
+     "part": "A",
+     "sub": "A · Lesson 1: gender and где?",
+     "k": "gender",
+     "s": "компьютер — ___",
+     "base": "computer",
+     "a": "masculine",
+     "d": [
+      "feminine",
+      "neuter",
+      "plural"
+     ],
+     "ex": "It ends in a consonant (р), so it's masculine: он. (Step 1)",
+     "translation": "",
+     "glosses": [],
+     "choiceOnly": true
+    },
+    {
+     "part": "B",
+     "sub": "B · Lesson 2: accusative and куда?",
+     "k": "acc",
+     "s": "Я пишу ___.",
+     "base": "программа",
+     "a": "программу",
+     "d": [
+      "программа",
+      "программы",
+      "программе"
+     ],
+     "ex": "программа is the direct object. Feminine -а → -у in the accusative: программу. (Step 2)",
+     "translation": "I'm writing a program.",
+     "glosses": [
+      "пишу: I'm writing"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · Lesson 3: present tense",
+     "k": "verb",
+     "s": "Дома я ___ код.",
+     "base": "писать",
+     "a": "пишу",
+     "d": [
+      "писаю",
+      "пишет",
+      "пишут"
+     ],
+     "ex": "писать is 1st conjugation and changes its stem: я пишу, ты пишешь. (Step 3)",
+     "translation": "At home I write code.",
+     "glosses": [
+      "код: code"
+     ],
+     "p": "1s"
+    },
+    {
+     "part": "D",
+     "sub": "D · Lesson 4: у меня есть / нет",
+     "k": "own",
+     "s": "У ___ есть новый компьютер.",
+     "base": "я",
+     "a": "меня",
+     "d": [
+      "я",
+      "мне",
+      "мной"
+     ],
+     "ex": "After у the owner is in the genitive: я → меня. компьютер is the subject (nominative). (Step 4)",
+     "translation": "I have a new computer.",
+     "glosses": [],
+     "w": "я"
+    },
+    {
+     "part": "A",
+     "sub": "A · Lesson 1: gender and где?",
+     "k": "where",
+     "s": "Жена сейчас на ___.",
+     "base": "кухня",
+     "a": "кухне",
+     "d": [
+      "кухню",
+      "кухня",
+      "кухни"
+     ],
+     "ex": "где? takes the prepositional: -я → -е. кухня → на кухне. (Step 1)",
+     "translation": "My wife is in the kitchen now.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · Lesson 2: accusative and куда?",
+     "k": "whereto",
+     "s": "Вечером я иду ___.",
+     "base": "кухня · куда?",
+     "a": "на кухню",
+     "d": [
+      "на кухне",
+      "в кухню",
+      "в кухне"
+     ],
+     "ex": "куда? going there: the same на as на кухне, but accusative кухню. (Step 2)",
+     "translation": "In the evening I go to the kitchen.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · Lesson 3: present tense",
+     "k": "verb",
+     "s": "Что ты ___ после литургии?",
+     "base": "делать",
+     "a": "делаешь",
+     "d": [
+      "делаю",
+      "делает",
+      "делаишь"
+     ],
+     "ex": "делать is 1st conjugation: ты делаешь. (Step 3)",
+     "translation": "What do you do after the Liturgy?",
+     "glosses": [
+      "литургия: the Liturgy"
+     ],
+     "p": "2s"
+    },
+    {
+     "part": "D",
+     "sub": "D · Lesson 4: у меня есть / нет",
+     "k": "own",
+     "s": "У ___ есть подруга в Бресте.",
+     "base": "жена",
+     "a": "жены",
+     "d": [
+      "жену",
+      "жене",
+      "жена"
+     ],
+     "ex": "жена is feminine -а → genitive жены. (Step 4)",
+     "translation": "My wife has a friend in Brest.",
+     "glosses": [
+      "подруга: (girl)friend"
+     ],
+     "w": "жена"
+    },
+    {
+     "part": "A",
+     "sub": "A · Lesson 1: gender and где?",
+     "k": "gender",
+     "s": "письмо — ___",
+     "base": "letter",
+     "a": "neuter",
+     "d": [
+      "masculine",
+      "feminine",
+      "plural"
+     ],
+     "ex": "It ends in -о, so it's neuter: оно. (Step 1)",
+     "translation": "",
+     "glosses": [],
+     "choiceOnly": true
+    },
+    {
+     "part": "B",
+     "sub": "B · Lesson 2: accusative and куда?",
+     "k": "acc",
+     "s": "Я открываю ___.",
+     "base": "файл",
+     "a": "файл",
+     "d": [
+      "файла",
+      "файлу",
+      "файле"
+     ],
+     "ex": "файл is masculine and a thing, so the accusative is unchanged. (Step 2)",
+     "translation": "I'm opening a file.",
+     "glosses": [
+      "открываю: I open"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · Lesson 3: present tense",
+     "k": "verb",
+     "s": "Коллега ___ в Минске.",
+     "base": "работать",
+     "a": "работает",
+     "d": [
+      "работаю",
+      "работают",
+      "работаит"
+     ],
+     "ex": "A noun subject is 3rd person singular. работать is 1st conjugation: он работает. (Step 3)",
+     "translation": "My colleague works in Minsk.",
+     "glosses": [
+      "коллега: colleague"
+     ],
+     "p": "3s"
+    },
+    {
+     "part": "D",
+     "sub": "D · Lesson 4: у меня есть / нет",
+     "k": "not",
+     "s": "У коллеги нет ___.",
+     "base": "машина",
+     "a": "машины",
+     "d": [
+      "машина",
+      "машину",
+      "машине"
+     ],
+     "ex": "нет + genitive: машина → машины. (Step 4)",
+     "translation": "My colleague doesn't have a car.",
+     "glosses": [
+      "коллега: colleague"
+     ],
+     "w": "машина"
+    },
+    {
+     "part": "A",
+     "sub": "A · Lesson 1: gender and где?",
+     "k": "where",
+     "s": "Друг живёт в ___.",
+     "base": "Брест",
+     "a": "Бресте",
+     "d": [
+      "Брест",
+      "Бреста",
+      "Бресту"
+     ],
+     "ex": "где? in a city: a consonant adds -е. Брест → в Бресте. (Step 1)",
+     "translation": "My friend lives in Brest.",
+     "glosses": [
+      "живёт: lives"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · Lesson 2: accusative and куда?",
+     "k": "whereto",
+     "s": "Летом я еду ___.",
+     "base": "Брест · куда?",
+     "a": "в Брест",
+     "d": [
+      "в Бресте",
+      "на Брест",
+      "в Бреста"
+     ],
+     "ex": "куда? to a city: в + accusative. Masculine place names don't change: в Брест. Compare в Бресте (где?). (Step 2)",
+     "translation": "In the summer I'm going to Brest.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · Lesson 3: present tense",
+     "k": "verb",
+     "s": "Они ___ в Витебске.",
+     "base": "жить",
+     "a": "живут",
+     "d": [
+      "живит",
+      "живёт",
+      "живу"
+     ],
+     "ex": "жить is 1st conjugation with a stem change: они живут. (Step 3)",
+     "translation": "They live in Vitebsk.",
+     "glosses": [],
+     "p": "3p"
+    },
+    {
+     "part": "D",
+     "sub": "D · Lesson 4: у меня есть / нет",
+     "k": "have",
+     "s": "Друг уже заказал место, потому что у него ___ на концерт.",
+     "base": "билет · есть or нет?",
+     "a": "есть билет",
+     "d": [
+      "нет билета",
+      "нет билет",
+      "есть билету"
+     ],
+     "ex": "He already booked a seat, so he has a ticket: есть + nominative. (Step 4)",
+     "translation": "My friend already reserved a seat, because he has a ticket to the concert.",
+     "glosses": [
+      "заказал место: reserved a seat"
+     ],
+     "w": "билет"
+    },
+    {
+     "part": "A",
+     "sub": "A · Lesson 1: gender and где?",
+     "k": "where",
+     "s": "Коровы сейчас на ___.",
+     "base": "пастбище",
+     "a": "пастбище",
+     "d": [
+      "пастбища",
+      "пастбищу",
+      "пастбищи"
+     ],
+     "ex": "Neuter -е often stays -е in the prepositional: на пастбище. Same word, new job in the sentence. (Step 1)",
+     "translation": "The cows are in the pasture now.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · Lesson 2: accusative and куда?",
+     "k": "whereto",
+     "s": "После работы я еду ___.",
+     "base": "ферма · куда?",
+     "a": "на ферму",
+     "d": [
+      "на ферме",
+      "в ферму",
+      "в ферме"
+     ],
+     "ex": "ферма takes на (like работа, почта). куда? → accusative: на ферму. (Step 2)",
+     "translation": "After work I drive to the farm.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · Lesson 3: present tense",
+     "k": "verb",
+     "s": "По утрам я ___ на ферме.",
+     "base": "работать",
+     "a": "работаю",
+     "d": [
+      "работаешь",
+      "работает",
+      "работают"
+     ],
+     "ex": "я takes the -ю / -у form: я работаю. (Step 3)",
+     "translation": "In the mornings I work on the farm.",
+     "glosses": [],
+     "p": "1s"
+    },
+    {
+     "part": "D",
+     "sub": "D · Lesson 4: у меня есть / нет",
+     "k": "not",
+     "s": "У нас пока нет ___.",
+     "base": "индюк",
+     "a": "индюка",
+     "d": [
+      "индюк",
+      "индюку",
+      "индюке"
+     ],
+     "ex": "нет + genitive. индюк is masculine: add -а → индюка. (Step 4)",
+     "translation": "We don't have a turkey yet.",
+     "glosses": [
+      "индюк: turkey (the male bird)",
+      "пока: yet, for now"
+     ],
+     "w": "индюк"
+    },
+    {
+     "part": "A",
+     "sub": "A · Lesson 1: gender and где?",
+     "k": "gender",
+     "s": "песня — ___",
+     "base": "song",
+     "a": "feminine",
+     "d": [
+      "masculine",
+      "neuter",
+      "plural"
+     ],
+     "ex": "It ends in -я, so it's feminine: она. (Step 1)",
+     "translation": "",
+     "glosses": [],
+     "choiceOnly": true
+    },
+    {
+     "part": "B",
+     "sub": "B · Lesson 2: accusative and куда?",
+     "k": "acc",
+     "s": "Вечером мы слушаем ___.",
+     "base": "песня",
+     "a": "песню",
+     "d": [
+      "песня",
+      "песни",
+      "песне"
+     ],
+     "ex": "песня is the direct object. Feminine -я → -ю: песню. (Step 2)",
+     "translation": "In the evening we listen to a song.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · Lesson 3: present tense",
+     "k": "verb",
+     "s": "Ты ___ Молчат Дома?",
+     "base": "слушать",
+     "a": "слушаешь",
+     "d": [
+      "слушаю",
+      "слушает",
+      "слушишь"
+     ],
+     "ex": "слушать is 1st conjugation: ты слушаешь. The band name Молчат Дома doesn't decline. (Step 3)",
+     "translation": "Do you listen to Molchat Doma?",
+     "glosses": [
+      "Молчат Дома: a Belarusian band"
+     ],
+     "p": "2s"
+    },
+    {
+     "part": "D",
+     "sub": "D · Lesson 4: у меня есть / нет",
+     "k": "not",
+     "s": "В этом альбоме нет ___.",
+     "base": "песня",
+     "a": "песни",
+     "d": [
+      "песня",
+      "песню",
+      "песне"
+     ],
+     "ex": "нет + genitive. песня is feminine -я → песни. (Step 4)",
+     "translation": "This album doesn't have that song.",
+     "glosses": [
+      "альбом: album"
+     ],
+     "w": "песня"
+    },
+    {
+     "part": "A",
+     "sub": "A · Lesson 1: gender and где?",
+     "k": "where",
+     "s": "Бык сейчас в ___.",
+     "base": "коровник",
+     "a": "коровнике",
+     "d": [
+      "коровник",
+      "коровника",
+      "коровнику"
+     ],
+     "ex": "где? a masculine consonant adds -е. коровник → в коровнике. (Step 1)",
+     "translation": "The bull is in the cow barn now.",
+     "glosses": [
+      "коровник: cow barn"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · Lesson 2: accusative and куда?",
+     "k": "whereto",
+     "s": "Я иду ___.",
+     "base": "коровник · куда?",
+     "a": "в коровник",
+     "d": [
+      "в коровнике",
+      "на коровник",
+      "в коровника"
+     ],
+     "ex": "куда? into the barn: в + accusative. коровник is a masculine thing, so no ending change. (Step 2)",
+     "translation": "I'm going into the cow barn.",
+     "glosses": [
+      "коровник: cow barn"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · Lesson 3: present tense",
+     "k": "verb",
+     "s": "Вы ___ в храм пешком?",
+     "base": "идти",
+     "a": "идёте",
+     "d": [
+      "идёшь",
+      "идём",
+      "идут"
+     ],
+     "ex": "идти is the one-direction “going on foot”: вы идёте. (ходить is the habitual verb: мы ходим в церковь.) (Step 3)",
+     "translation": "Are you walking to church?",
+     "glosses": [
+      "пешком: on foot"
+     ],
+     "p": "2p"
+    },
+    {
+     "part": "D",
+     "sub": "D · Lesson 4: у меня есть / нет",
+     "k": "not",
+     "s": "У меня нет ___ от номера.",
+     "base": "ключ",
+     "a": "ключа",
+     "d": [
+      "ключ",
+      "ключу",
+      "ключе"
+     ],
+     "ex": "нет + genitive. ключ is masculine: ключа. (Step 4)",
+     "translation": "I don't have the key to the room.",
+     "glosses": [
+      "номер: hotel room"
+     ],
+     "w": "ключ"
+    },
+    {
+     "part": "A",
+     "sub": "A · Lesson 1: gender and где?",
+     "k": "where",
+     "s": "Сегодня я в ___.",
+     "base": "офис",
+     "a": "офисе",
+     "d": [
+      "офис",
+      "офиса",
+      "офису"
+     ],
+     "ex": "где? at the office: в + prepositional, офис → офисе. (Step 1)",
+     "translation": "I'm in the office today.",
+     "glosses": [
+      "офис: office"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · Lesson 2: accusative and куда?",
+     "k": "whereto",
+     "s": "Утром я еду ___.",
+     "base": "офис · куда?",
+     "a": "в офис",
+     "d": [
+      "в офисе",
+      "на офис",
+      "в офиса"
+     ],
+     "ex": "куда? to the office: в + accusative, unchanged. Compare сегодня я в офисе (где?). (Step 2)",
+     "translation": "In the morning I drive to the office.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · Lesson 3: present tense",
+     "k": "verb",
+     "s": "Коллеги ___ новый сайт.",
+     "base": "делать",
+     "a": "делают",
+     "d": [
+      "делаем",
+      "делает",
+      "делаим"
+     ],
+     "ex": "Коллеги is plural, so 3rd person plural: они делают. делать is 1st conjugation (-ют). (Step 3)",
+     "translation": "The colleagues are making a new site.",
+     "glosses": [
+      "сайт: website"
+     ],
+     "p": "3p"
+    },
+    {
+     "part": "D",
+     "sub": "D · Lesson 4: у меня есть / нет",
+     "k": "notc",
+     "s": "Я не могу открыть почту, потому что у меня ___.",
+     "base": "пароль",
+     "a": "нет пароля",
+     "d": [
+      "есть пароль",
+      "нет пароль",
+      "нет паролю"
+     ],
+     "ex": "You can't open the mail, so you don't have it: нет + genitive. пароль (masc. -ь) → пароля. (Step 4)",
+     "translation": "I can't open my mail because I don't have the password.",
+     "glosses": [
+      "пароль: password",
+      "почта: mail (here: email)"
+     ],
+     "w": "пароль"
+    },
+    {
+     "part": "A",
+     "sub": "A · Lesson 1: gender and где?",
+     "k": "gender",
+     "s": "лошадь — ___",
+     "base": "horse",
+     "a": "feminine",
+     "d": [
+      "masculine",
+      "neuter",
+      "plural"
+     ],
+     "ex": "лошадь ends in -ь after д, so it is feminine, like площадь. (Step 1)",
+     "translation": "",
+     "glosses": [],
+     "choiceOnly": true
+    },
+    {
+     "part": "B",
+     "sub": "B · Lesson 2: accusative and куда?",
+     "k": "acc",
+     "s": "Я покупаю ___ для коров.",
+     "base": "корм",
+     "a": "корм",
+     "d": [
+      "корма",
+      "корму",
+      "корме"
+     ],
+     "ex": "корм is a masculine thing (feed), so the accusative doesn't change. (Step 2)",
+     "translation": "I'm buying feed for the cows.",
+     "glosses": [
+      "корм: feed (for animals)"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · Lesson 3: present tense",
+     "k": "verb",
+     "s": "Жена ___ обед.",
+     "base": "готовить",
+     "a": "готовит",
+     "d": [
+      "готовлит",
+      "готовлю",
+      "готовет"
+     ],
+     "ex": "готовить is 2nd conjugation (ты готовишь). она готовит. The я form drops л: я готовлю. (Step 3)",
+     "translation": "My wife is making lunch.",
+     "glosses": [
+      "обед: lunch, dinner (the midday/main meal)"
+     ],
+     "p": "3s"
+    },
+    {
+     "part": "D",
+     "sub": "D · Lesson 4: у меня есть / нет",
+     "k": "not",
+     "s": "У соседа нет ___.",
+     "base": "коза",
+     "a": "козы",
+     "d": [
+      "коза",
+      "козу",
+      "козе"
+     ],
+     "ex": "нет + genitive. коза is feminine -а → козы. (Step 4)",
+     "translation": "The neighbor doesn't have a goat.",
+     "glosses": [],
+     "w": "коза"
+    },
+    {
+     "part": "A",
+     "sub": "A · Lesson 1: gender and где?",
+     "k": "ven",
+     "s": "Мы уже ___.",
+     "base": "концерт · в or на?",
+     "a": "на концерте",
+     "d": [
+      "в концерте",
+      "на концерт",
+      "в концерт"
+     ],
+     "ex": "Events take на. We're already there (где?), so prepositional: на концерте, not на концерт. (Steps 1 and 2)",
+     "translation": "We're already at the concert.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · Lesson 2: accusative and куда?",
+     "k": "whereto",
+     "s": "Завтра мы идём ___.",
+     "base": "концерт · куда?",
+     "a": "на концерт",
+     "d": [
+      "на концерте",
+      "в концерт",
+      "в концерте"
+     ],
+     "ex": "куда? to an event: на + accusative. на концерт, not на концерте (that's где?). (Step 2)",
+     "translation": "Tomorrow we're going to a concert.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · Lesson 3: present tense",
+     "k": "verb",
+     "s": "Друг ___ мне каждый вечер.",
+     "base": "звонить",
+     "a": "звонит",
+     "d": [
+      "звоню",
+      "звонят",
+      "звонет"
+     ],
+     "ex": "звонить is 2nd conjugation: он звонит. (мне is dative “to me” — that's Lesson 7, but you can already use the form.) (Step 3)",
+     "translation": "My friend calls me every evening.",
+     "glosses": [],
+     "p": "3s"
+    },
+    {
+     "part": "D",
+     "sub": "D · Lesson 4: у меня есть / нет",
+     "k": "notc",
+     "s": "Мы остаёмся дома, потому что у жены ___.",
+     "base": "время",
+     "a": "нет времени",
+     "d": [
+      "есть время",
+      "нет время",
+      "нет времениу"
+     ],
+     "ex": "You're staying home because she has no time: нет + genitive. время is irregular: времени. (Step 4)",
+     "translation": "We're staying home because my wife doesn't have time.",
+     "glosses": [
+      "остаёмся: we're staying"
+     ],
+     "w": "время"
+    }
+   ]
+  },
+  "L6": {
+   "id": "L6",
+   "n": 6,
+   "title": "Accusative of people and animals: я вижу брата",
+   "goal": "By the end you'll mark people and animals as direct objects: Я вижу брата. Я вижу корову. Я вижу батюшку. Мы пасём коров. Ты видишь меня?",
+   "minutes": "15–20 min to read, then 35 exercises",
+   "sections": [
+    {
+     "h": "Step 1 · People and animals are “animate”",
+     "open": true,
+     "html": "<p>In Lesson 2 the <b>direct object</b> (the thing you see, know, love, feed or look for) took the <b>accusative</b> (<span lang=\"ru\" class=\"r\">винительный падеж</span>). For things, that was easy: <span lang=\"ru\" class=\"r\">-а / -я → -у / -ю</span>, and everything else stayed the same. When the direct object is a <b>person or an animal</b>, Russian adds one more rule.</p><p>Grammarians call these nouns <b>animate</b> (<span lang=\"ru\" class=\"r\">одушевлённые</span>). The question word changes too:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Question</th><th>Asks about</th><th>Example</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">что?</span></td><td>a thing (inanimate)</td><td><span lang=\"ru\" class=\"r\">Что ты видишь? — Храм. Код. Письмо.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">кого?</span></td><td>a person or animal (animate)</td><td><span lang=\"ru\" class=\"r\">Кого ты видишь? — Брата. Быка. Жену.</span></td></tr></tbody></table></div><p class=\"tip\"><b>German helps, with a catch:</b> German marks <i>every</i> masculine noun in the accusative: ich sehe <i>den Bruder</i>, ich sehe <i>den Tisch</i>. Russian only does the special marking when the noun is a person or animal: <span lang=\"ru\" class=\"r\">я вижу брата</span>, but <span lang=\"ru\" class=\"r\">я вижу стол</span>. So the Russian “<span lang=\"ru\" class=\"r\">den</span>” is reserved for <i>whom?</i>, not <i>what?</i> The pronoun is the same idea: ich sehe <i>ihn</i> = <span lang=\"ru\" class=\"r\">я вижу его</span>.</p>"
+    },
+    {
+     "h": "Step 2 · Masculine animate: accusative = genitive",
+     "open": false,
+     "html": "<p>If a masculine noun ends in a <b>consonant, <span lang=\"ru\" class=\"r\">-й</span> or <span lang=\"ru\" class=\"r\">-ь</span></b> and names a person or animal, the accusative singular copies the <b>genitive</b> you already know from Lesson 4:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Nominative (subject)</th><th>Accusative = genitive</th><th>In a sentence</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">брат</span> brother</td><td><span lang=\"ru\" class=\"r\">брата</span></td><td><span lang=\"ru\" class=\"r\">Я вижу брата.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">друг</span> friend</td><td><span lang=\"ru\" class=\"r\">друга</span></td><td><span lang=\"ru\" class=\"r\">Я встречаю друга в аэропорту.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">учитель</span> teacher</td><td><span lang=\"ru\" class=\"r\">учителя</span></td><td><span lang=\"ru\" class=\"r\">Я знаю учителя.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">отец</span> father</td><td><span lang=\"ru\" class=\"r\">отца</span></td><td><span lang=\"ru\" class=\"r\">Дети любят отца.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Андрей</span></td><td><span lang=\"ru\" class=\"r\">Андрея</span></td><td><span lang=\"ru\" class=\"r\">Я знаю Андрея из Гомеля.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">священник</span> priest</td><td><span lang=\"ru\" class=\"r\">священника</span></td><td><span lang=\"ru\" class=\"r\">Мы слушаем священника.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">врач</span> doctor</td><td><span lang=\"ru\" class=\"r\">врача</span></td><td><span lang=\"ru\" class=\"r\">Я ищу врача.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">бык</span> bull</td><td><span lang=\"ru\" class=\"r\">быка</span></td><td><span lang=\"ru\" class=\"r\">На лугу мы видим быка.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">олень</span> deer</td><td><span lang=\"ru\" class=\"r\">оленя</span></td><td><span lang=\"ru\" class=\"r\">Утром у леса я вижу оленя.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">петух</span> rooster</td><td><span lang=\"ru\" class=\"r\">петуха</span></td><td><span lang=\"ru\" class=\"r\">Жена кормит петуха.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">заяц</span> hare</td><td><span lang=\"ru\" class=\"r\">зайца</span></td><td><span lang=\"ru\" class=\"r\">Ты видишь зайца в поле?</span></td></tr></tbody></table></div><p>Inanimate masculines still follow Lesson 2 — <b>no change</b>:</p><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Из окна я вижу храм.</span><span class=\"g\">I see the church from the window. (a building, not a person)</span></li><li><span lang=\"ru\" class=\"r\">Я проверяю код.</span><span class=\"g\">I'm checking the code.</span></li><li><span lang=\"ru\" class=\"r\">Я покупаю корм.</span><span class=\"g\">I'm buying feed.</span></li></ul><p class=\"tip\"><b>Memory hook:</b> for these masculines, “whom I see” looks like “of whom”: <span lang=\"ru\" class=\"r\">вижу брата</span> / <span lang=\"ru\" class=\"r\">у брата</span>. Same ending, different job. <span lang=\"ru\" class=\"r\">брату</span> would be the dative (Lesson 7): to the brother.</p>"
+    },
+    {
+     "h": "Step 3 · Feminine, and men ending in -а",
+     "open": false,
+     "html": "<p>Feminine nouns in <span lang=\"ru\" class=\"r\">-а / -я</span> do <b>not</b> copy the genitive. They take the same <span lang=\"ru\" class=\"r\">-у / -ю</span> you already know from Lesson 2, whether the noun is a person, an animal, or a thing:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Nominative</th><th>Accusative</th><th>Not the genitive</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">жена</span> wife</td><td><span lang=\"ru\" class=\"r\">жену</span></td><td><span lang=\"ru\" class=\"r\">жены</span> is genitive: <span lang=\"ru\" class=\"r\">у жены</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">сестра</span> sister</td><td><span lang=\"ru\" class=\"r\">сестру</span></td><td><span lang=\"ru\" class=\"r\">сестры</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">мама</span> mom</td><td><span lang=\"ru\" class=\"r\">маму</span></td><td><span lang=\"ru\" class=\"r\">мамы</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">девушка</span> young woman</td><td><span lang=\"ru\" class=\"r\">девушку</span></td><td><span lang=\"ru\" class=\"r\">девушки</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">корова</span> cow</td><td><span lang=\"ru\" class=\"r\">корову</span></td><td><span lang=\"ru\" class=\"r\">коровы</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">курица</span> hen</td><td><span lang=\"ru\" class=\"r\">курицу</span></td><td><span lang=\"ru\" class=\"r\">курицы</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">собака</span> dog</td><td><span lang=\"ru\" class=\"r\">собаку</span></td><td><span lang=\"ru\" class=\"r\">собаки</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">песня</span> song (a thing)</td><td><span lang=\"ru\" class=\"r\">песню</span></td><td>same ending, because of <span lang=\"ru\" class=\"r\">-я</span>, not because it's animate</td></tr></tbody></table></div><p>And the masculine names in <span lang=\"ru\" class=\"r\">-а / -я</span> from Lesson 1 — <span lang=\"ru\" class=\"r\">папа, дедушка, батюшка, мужчина, коллега</span> — follow the <b>last letter</b>, not “masculine = genitive”:</p><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">На службе я вижу батюшку.</span><span class=\"g\">At the service I see Father. (not “батюшки” — that's genitive: у батюшки)</span></li><li><span lang=\"ru\" class=\"r\">Дети любят дедушку.</span><span class=\"g\">The children love Grandpa.</span></li><li><span lang=\"ru\" class=\"r\">Я встречаю коллегу в офисе.</span><span class=\"g\">I meet my colleague at the office.</span></li></ul><p class=\"tip\"><b>Don't overgeneralize.</b> “Animate accusative = genitive” is a <b>masculine-consonant</b> rule, plus all animates in the plural (Step 5). It is not a rule for <span lang=\"ru\" class=\"r\">жена</span> or <span lang=\"ru\" class=\"r\">батюшка</span>.</p>"
+    },
+    {
+     "h": "Step 4 · Feminine -ь: no change in the singular",
+     "open": false,
+     "html": "<p>A handful of feminine animate nouns end in <span lang=\"ru\" class=\"r\">-ь</span>. In the <b>singular</b> their accusative is the same as the nominative — even though they are people or animals:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Nominative = accusative</th><th>Genitive (for comparison)</th><th>Example</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">лошадь</span> horse</td><td><span lang=\"ru\" class=\"r\">лошади</span></td><td><span lang=\"ru\" class=\"r\">В поле я вижу лошадь.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">дочь</span> daughter</td><td><span lang=\"ru\" class=\"r\">дочери</span></td><td><span lang=\"ru\" class=\"r\">Я люблю дочь.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">мать</span> mother</td><td><span lang=\"ru\" class=\"r\">матери</span></td><td><span lang=\"ru\" class=\"r\">Дети любят мать.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">мышь</span> mouse</td><td><span lang=\"ru\" class=\"r\">мыши</span></td><td><span lang=\"ru\" class=\"r\">Кошка видит мышь.</span></td></tr></tbody></table></div><p>In the <b>plural</b> they behave like other animates: accusative = genitive: <span lang=\"ru\" class=\"r\">вижу лошадей, дочерей, матерей, мышей</span>.</p><p class=\"tip\">You already know this pattern from things in <span lang=\"ru\" class=\"r\">-ь</span>: <span lang=\"ru\" class=\"r\">я вижу церковь, я вижу площадь</span>. The new fact is that <span lang=\"ru\" class=\"r\">лошадь</span> and <span lang=\"ru\" class=\"r\">дочь</span> work the same way in the singular, even though you would ask <span lang=\"ru\" class=\"r\">кого?</span>, not <span lang=\"ru\" class=\"r\">что?</span>.</p>"
+    },
+    {
+     "h": "Step 5 · Animate plurals: accusative = genitive",
+     "open": false,
+     "html": "<p>In the plural the animate rule is broader: <b>all</b> animate nouns (masculine, feminine, and the <span lang=\"ru\" class=\"r\">-а</span> men) take accusative = genitive. Inanimate plurals keep accusative = nominative.</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Nominative plural</th><th>Accusative plural</th><th>Animate?</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">братья</span> brothers</td><td><span lang=\"ru\" class=\"r\">братьев</span></td><td>yes: <span lang=\"ru\" class=\"r\">Я знаю братьев.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">друзья</span> friends</td><td><span lang=\"ru\" class=\"r\">друзей</span></td><td>yes</td></tr><tr><td><span lang=\"ru\" class=\"r\">девушки</span> young women</td><td><span lang=\"ru\" class=\"r\">девушек</span></td><td>yes: <span lang=\"ru\" class=\"r\">Я вижу девушек.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">коровы</span> cows</td><td><span lang=\"ru\" class=\"r\">коров</span></td><td>yes: <span lang=\"ru\" class=\"r\">Мы пасём коров.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">олени</span> deer</td><td><span lang=\"ru\" class=\"r\">оленей</span></td><td>yes: <span lang=\"ru\" class=\"r\">Зимой мы видим оленей.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">батюшки</span> priests (Fathers)</td><td><span lang=\"ru\" class=\"r\">батюшек</span></td><td>yes</td></tr><tr><td><span lang=\"ru\" class=\"r\">храмы</span> churches</td><td><span lang=\"ru\" class=\"r\">храмы</span></td><td>no: same as nominative</td></tr><tr><td><span lang=\"ru\" class=\"r\">письма</span> letters</td><td><span lang=\"ru\" class=\"r\">письма</span></td><td>no</td></tr><tr><td><span lang=\"ru\" class=\"r\">файлы</span> files</td><td><span lang=\"ru\" class=\"r\">файлы</span></td><td>no</td></tr><tr><td><span lang=\"ru\" class=\"r\">песни</span> songs</td><td><span lang=\"ru\" class=\"r\">песни</span></td><td>no</td></tr></tbody></table></div><p class=\"tip\"><b>A useful pair:</b> <span lang=\"ru\" class=\"r\">я вижу коровы</span> is always wrong. <span lang=\"ru\" class=\"r\">коровы</span> is nominative plural (the cows are the subject: <span lang=\"ru\" class=\"r\">коровы на пастбище</span>). As a direct object you need <span lang=\"ru\" class=\"r\">коров</span>. You'll meet that genitive-plural form again after numbers: <span lang=\"ru\" class=\"r\">пять коров</span> (Numbers section).</p>"
+    },
+    {
+     "h": "Step 6 · The pronouns: меня, тебя, его, её, нас, вас, их",
+     "open": false,
+     "html": "<p>The personal pronouns have their own accusative forms. They are the same as the genitive forms you learned after <span lang=\"ru\" class=\"r\">у</span> in Lesson 4, <b>except</b> that without a preposition there is no <span lang=\"ru\" class=\"r\">н-</span>:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Nominative</th><th>Accusative (direct object)</th><th>After a preposition (for comparison)</th><th>German</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">я</span></td><td><span lang=\"ru\" class=\"r\">меня</span></td><td><span lang=\"ru\" class=\"r\">у меня</span> · <span lang=\"ru\" class=\"r\">для меня</span></td><td>mich</td></tr><tr><td><span lang=\"ru\" class=\"r\">ты</span></td><td><span lang=\"ru\" class=\"r\">тебя</span></td><td><span lang=\"ru\" class=\"r\">у тебя</span></td><td>dich</td></tr><tr><td><span lang=\"ru\" class=\"r\">он / оно</span></td><td><span lang=\"ru\" class=\"r\">его</span></td><td><span lang=\"ru\" class=\"r\">у него</span>, <span lang=\"ru\" class=\"r\">для него</span></td><td>ihn / es</td></tr><tr><td><span lang=\"ru\" class=\"r\">она</span></td><td><span lang=\"ru\" class=\"r\">её</span></td><td><span lang=\"ru\" class=\"r\">у неё</span>, <span lang=\"ru\" class=\"r\">для неё</span></td><td>sie (her)</td></tr><tr><td><span lang=\"ru\" class=\"r\">мы</span></td><td><span lang=\"ru\" class=\"r\">нас</span></td><td><span lang=\"ru\" class=\"r\">у нас</span></td><td>uns</td></tr><tr><td><span lang=\"ru\" class=\"r\">вы</span></td><td><span lang=\"ru\" class=\"r\">вас</span></td><td><span lang=\"ru\" class=\"r\">у вас</span></td><td>euch / Sie</td></tr><tr><td><span lang=\"ru\" class=\"r\">они</span></td><td><span lang=\"ru\" class=\"r\">их</span></td><td><span lang=\"ru\" class=\"r\">у них</span>, <span lang=\"ru\" class=\"r\">для них</span></td><td>sie (them)</td></tr></tbody></table></div><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Ты видишь меня?</span><span class=\"g\">Do you see me?</span></li><li><span lang=\"ru\" class=\"r\">Да, я знаю тебя.</span><span class=\"g\">Yes, I know you.</span></li><li><span lang=\"ru\" class=\"r\">Жена ищет его.</span><span class=\"g\">My wife is looking for him. (его, not него — no preposition)</span></li><li><span lang=\"ru\" class=\"r\">Мы очень любим её.</span><span class=\"g\">We love her very much.</span></li><li><span lang=\"ru\" class=\"r\">Батюшка знает нас.</span><span class=\"g\">Father knows us.</span></li><li><span lang=\"ru\" class=\"r\">Смотри, я вижу их на пастбище.</span><span class=\"g\">Look, I see them in the pasture.</span></li></ul><p class=\"tip\"><b>German:</b> Wen siehst du? — Ich sehe <i>ihn</i> / <i>sie</i> / <i>uns</i>. Russian: <span lang=\"ru\" class=\"r\">Кого ты видишь? — Я вижу его / её / нас</span>. The <span lang=\"ru\" class=\"r\">н-</span> only appears after a preposition, the same rule as <span lang=\"ru\" class=\"r\">у него</span> in Lesson 4.</p>"
+    },
+    {
+     "h": "Summary",
+     "open": false,
+     "html": "<ul class=\"sum\"><li>The accusative still marks the <b>direct object</b>. Ask <span lang=\"ru\" class=\"r\">что?</span> for things, <span lang=\"ru\" class=\"r\">кого?</span> for people and animals.</li><li>Masculine animate (consonant / <span lang=\"ru\" class=\"r\">-й</span> / <span lang=\"ru\" class=\"r\">-ь</span>): accusative = genitive. <span lang=\"ru\" class=\"r\">вижу брата, быка, учителя, оленя</span>. Inanimate: no change (<span lang=\"ru\" class=\"r\">вижу храм, проверяю код</span>).</li><li>Feminine <span lang=\"ru\" class=\"r\">-а / -я</span> and men in <span lang=\"ru\" class=\"r\">-а</span>: always <span lang=\"ru\" class=\"r\">-у / -ю</span>. <span lang=\"ru\" class=\"r\">вижу жену, корову, батюшку</span> — not the genitive.</li><li>Feminine <span lang=\"ru\" class=\"r\">-ь</span> in the singular: no change. <span lang=\"ru\" class=\"r\">вижу лошадь, люблю дочь</span>.</li><li>All animate plurals: accusative = genitive. <span lang=\"ru\" class=\"r\">вижу братьев, коров, девушек</span>. Inanimate plurals stay nominative: <span lang=\"ru\" class=\"r\">вижу храмы, письма</span>.</li><li>Pronouns: <span lang=\"ru\" class=\"r\">меня, тебя, его, её, нас, вас, их</span>. No <span lang=\"ru\" class=\"r\">н-</span> without a preposition.</li></ul>"
+    }
+   ],
+   "parts": {
+    "A": "Part A · masculine animate (and a few things)",
+    "B": "Part B · feminine, men in -а, and лошадь / дочь",
+    "C": "Part C · plurals and pronouns"
+   },
+   "practice": {
+    "title": "Now use it: write to your tutor",
+    "text": "Answer in chat: Кого ты видишь за обычный день? Write 4 sentences with a direct object: one masculine person or animal (вижу брата, быка, оленя), one feminine noun or a man in -а (жену, корову, батюшку), one animate plural (коров, друзей, девушек), and one with a pronoun (меня, его, её, их).",
+    "examples": [
+     "Утром на лугу я вижу оленя.",
+     "На службе я вижу батюшку.",
+     "Мы пасём коров.",
+     "Жена ищет меня."
+    ]
+   },
+   "exercises": [
+    {
+     "part": "A",
+     "sub": "A · masculine animate (and a few things)",
+     "k": "anim_m",
+     "w": "друг",
+     "s": "В аэропорту я встречаю ___.",
+     "base": "друг",
+     "a": "друга",
+     "d": [
+      "друг",
+      "другу",
+      "другом"
+     ],
+     "ex": "друг is masculine and a person, so accusative = genitive: друга. (Steps 1 and 2)",
+     "translation": "At the airport I meet my friend.",
+     "glosses": [
+      "встречаю: I meet"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · masculine animate (and a few things)",
+     "k": "anim_m",
+     "w": "учитель",
+     "s": "Я хорошо знаю ___.",
+     "base": "учитель",
+     "a": "учителя",
+     "d": [
+      "учитель",
+      "учителю",
+      "учителем"
+     ],
+     "ex": "учитель is masculine animate ending in -ь: accusative = genitive, учителя. (Step 2)",
+     "translation": "I know the teacher well.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · masculine animate (and a few things)",
+     "k": "anim_m",
+     "w": "бык",
+     "s": "На лугу мы видим ___.",
+     "base": "бык",
+     "a": "быка",
+     "d": [
+      "бык",
+      "быку",
+      "быке"
+     ],
+     "ex": "бык is a masculine animal: accusative = genitive, быка. (Step 2)",
+     "translation": "We see the bull in the meadow.",
+     "glosses": [
+      "луг: meadow"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · masculine animate (and a few things)",
+     "k": "anim_m",
+     "w": "олень",
+     "s": "Утром у леса я вижу ___.",
+     "base": "олень",
+     "a": "оленя",
+     "d": [
+      "олень",
+      "оленю",
+      "олене"
+     ],
+     "ex": "олень is masculine animate ending in -ь: олень → оленя. (Step 2)",
+     "translation": "In the morning I see a deer by the woods.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · masculine animate (and a few things)",
+     "k": "anim_m",
+     "w": "петух",
+     "s": "Жена кормит ___.",
+     "base": "петух",
+     "a": "петуха",
+     "d": [
+      "петух",
+      "петуху",
+      "петухе"
+     ],
+     "ex": "петух is a masculine animal: accusative = genitive, петуха. (Step 2)",
+     "translation": "My wife is feeding the rooster.",
+     "glosses": [
+      "петух: rooster",
+      "кормит: is feeding"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · masculine animate (and a few things)",
+     "k": "anim_m",
+     "w": "заяц",
+     "s": "Ты видишь ___ в поле?",
+     "base": "заяц",
+     "a": "зайца",
+     "d": [
+      "заяц",
+      "зайцу",
+      "зайце"
+     ],
+     "ex": "заяц is masculine animate, and the я drops: заяц → зайца. (Step 2)",
+     "translation": "Do you see a hare in the field?",
+     "glosses": [
+      "заяц: hare, wild rabbit"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · masculine animate (and a few things)",
+     "k": "anim_m",
+     "w": "врач",
+     "s": "Я ищу ___.",
+     "base": "врач",
+     "a": "врача",
+     "d": [
+      "врач",
+      "врачу",
+      "враче"
+     ],
+     "ex": "врач is masculine animate: врача. Don't use врачу — that's the dative (to the doctor). (Step 2)",
+     "translation": "I'm looking for the doctor.",
+     "glosses": [
+      "ищу: I'm looking for"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · masculine animate (and a few things)",
+     "k": "anim_m",
+     "w": "отец",
+     "s": "Дети любят ___.",
+     "base": "отец",
+     "a": "отца",
+     "d": [
+      "отец",
+      "отцу",
+      "отцом"
+     ],
+     "ex": "отец is masculine animate; the е drops: отец → отца. (Step 2)",
+     "translation": "The children love their father.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · masculine animate (and a few things)",
+     "k": "anim_m",
+     "w": "Андрей",
+     "s": "Я знаю ___ из Гомеля.",
+     "base": "Андрей",
+     "a": "Андрея",
+     "d": [
+      "Андрей",
+      "Андрею",
+      "Андреем"
+     ],
+     "ex": "Андрей ends in -й, masculine animate: Андрея. Same ending as у Андрея in Lesson 4, different job. (Step 2)",
+     "translation": "I know Andrey from Gomel.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · masculine animate (and a few things)",
+     "k": "anim_m",
+     "w": "священник",
+     "s": "Мы слушаем ___.",
+     "base": "священник",
+     "a": "священника",
+     "d": [
+      "священник",
+      "священнику",
+      "священнике"
+     ],
+     "ex": "священник is masculine animate: священника. (Step 2)",
+     "translation": "We're listening to the priest.",
+     "glosses": [
+      "священник: priest"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · masculine animate (and a few things)",
+     "k": "inan_m",
+     "w": "храм",
+     "s": "Из окна я вижу ___.",
+     "base": "храм",
+     "a": "храм",
+     "d": [
+      "храма",
+      "храму",
+      "храме"
+     ],
+     "ex": "храм is a building, not a person, so the accusative stays храм. (Steps 1 and 2)",
+     "translation": "I see the church from the window.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · masculine animate (and a few things)",
+     "k": "inan_m",
+     "w": "код",
+     "s": "Я проверяю ___.",
+     "base": "код",
+     "a": "код",
+     "d": [
+      "кода",
+      "коду",
+      "коде"
+     ],
+     "ex": "код is an inanimate thing: accusative = nominative, код. (Step 2)",
+     "translation": "I'm checking the code.",
+     "glosses": [
+      "проверяю: I check, I'm checking"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · feminine, men in -а, and лошадь / дочь",
+     "k": "fem",
+     "w": "жена",
+     "s": "Вечером я встречаю ___.",
+     "base": "жена",
+     "a": "жену",
+     "d": [
+      "жена",
+      "жены",
+      "жене"
+     ],
+     "ex": "жена is feminine -а → -у: жену. жены is the genitive (у жены), not the accusative. (Step 3)",
+     "translation": "In the evening I meet my wife.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · feminine, men in -а, and лошадь / дочь",
+     "k": "fem",
+     "w": "сестра",
+     "s": "Я очень люблю ___.",
+     "base": "сестра",
+     "a": "сестру",
+     "d": [
+      "сестра",
+      "сестры",
+      "сестре"
+     ],
+     "ex": "сестра is feminine -а → -у: сестру, not genitive сестры. (Step 3)",
+     "translation": "I love my sister very much.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · feminine, men in -а, and лошадь / дочь",
+     "k": "fem",
+     "w": "корова",
+     "s": "Утром мы кормим ___.",
+     "base": "корова",
+     "a": "корову",
+     "d": [
+      "корова",
+      "коровы",
+      "корове"
+     ],
+     "ex": "корова is feminine, so -а → -у: корову. Don't use коровы (nominative/genitive) here. (Step 3)",
+     "translation": "In the morning we feed the cow.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · feminine, men in -а, and лошадь / дочь",
+     "k": "masc_a",
+     "w": "батюшка",
+     "s": "На службе я вижу ___.",
+     "base": "батюшка",
+     "a": "батюшку",
+     "d": [
+      "батюшка",
+      "батюшки",
+      "батюшке"
+     ],
+     "ex": "батюшка is masculine, but it ends in -а, so accusative батюшку — like a feminine -а noun, not genitive батюшки. (Step 3)",
+     "translation": "At the service I see Father.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · feminine, men in -а, and лошадь / дочь",
+     "k": "masc_a",
+     "w": "дедушка",
+     "s": "Дети любят ___.",
+     "base": "дедушка",
+     "a": "дедушку",
+     "d": [
+      "дедушка",
+      "дедушки",
+      "дедушке"
+     ],
+     "ex": "дедушка ends in -а: accusative дедушку. (Step 3)",
+     "translation": "The children love Grandpa.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · feminine, men in -а, and лошадь / дочь",
+     "k": "fem",
+     "w": "девушка",
+     "s": "Я знаю ___ в Минске.",
+     "base": "девушка",
+     "a": "девушку",
+     "d": [
+      "девушка",
+      "девушки",
+      "девушке"
+     ],
+     "ex": "девушка is feminine -а → -у: девушку. After ш write у, not ю. (Step 3)",
+     "translation": "I know a young woman in Minsk.",
+     "glosses": [
+      "девушка: young woman, girl"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · feminine, men in -а, and лошадь / дочь",
+     "k": "fem",
+     "w": "курица",
+     "s": "Жена кормит ___.",
+     "base": "курица",
+     "a": "курицу",
+     "d": [
+      "курица",
+      "курицы",
+      "курице"
+     ],
+     "ex": "курица is feminine -а → -у: курицу. (Step 3)",
+     "translation": "My wife is feeding the hen.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · feminine, men in -а, and лошадь / дочь",
+     "k": "fem",
+     "w": "собака",
+     "s": "Во дворе я вижу ___.",
+     "base": "собака",
+     "a": "собаку",
+     "d": [
+      "собака",
+      "собаки",
+      "собаке"
+     ],
+     "ex": "собака is feminine -а → -у: собаку. After к write у. (Step 3)",
+     "translation": "I see a dog in the yard.",
+     "glosses": [
+      "двор: yard, courtyard"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · feminine, men in -а, and лошадь / дочь",
+     "k": "soft_f",
+     "w": "лошадь",
+     "s": "В поле я вижу ___.",
+     "base": "лошадь",
+     "a": "лошадь",
+     "d": [
+      "лошади",
+      "лошадю",
+      "лошадя"
+     ],
+     "ex": "лошадь is feminine -ь: in the singular the accusative stays лошадь, even though it's an animal. (Step 4)",
+     "translation": "I see a horse in the field.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · feminine, men in -а, and лошадь / дочь",
+     "k": "soft_f",
+     "w": "дочь",
+     "s": "Я люблю ___.",
+     "base": "дочь",
+     "a": "дочь",
+     "d": [
+      "дочери",
+      "дочю",
+      "дочу"
+     ],
+     "ex": "дочь is feminine -ь: accusative singular = nominative, дочь. дочери is genitive/dative. (Step 4)",
+     "translation": "I love my daughter.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · feminine, men in -а, and лошадь / дочь",
+     "k": "fem",
+     "w": "мама",
+     "s": "Батюшка знает ___.",
+     "base": "мама",
+     "a": "маму",
+     "d": [
+      "мама",
+      "мамы",
+      "маме"
+     ],
+     "ex": "мама is feminine -а → -у: маму. (Step 3)",
+     "translation": "Father knows my mom.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · feminine, men in -а, and лошадь / дочь",
+     "k": "fem",
+     "w": "песня",
+     "s": "Мы слушаем ___.",
+     "base": "песня",
+     "a": "песню",
+     "d": [
+      "песня",
+      "песни",
+      "песне"
+     ],
+     "ex": "песня is a thing, but it still takes -я → -ю because of the ending, not because it's animate: песню. (Step 3)",
+     "translation": "We're listening to a song.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · plurals and pronouns",
+     "k": "anim_pl",
+     "w": "брат",
+     "s": "Я хорошо знаю ___.",
+     "base": "брат · plural",
+     "a": "братьев",
+     "d": [
+      "братья",
+      "братьям",
+      "братов"
+     ],
+     "ex": "Animate plural: accusative = genitive. братья → братьев. (Step 5)",
+     "translation": "I know the brothers well.",
+     "glosses": [
+      "братья: brothers"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · plurals and pronouns",
+     "k": "anim_pl",
+     "w": "корова",
+     "s": "Утром мы пасём ___.",
+     "base": "корова · plural",
+     "a": "коров",
+     "d": [
+      "коровы",
+      "коровам",
+      "корову"
+     ],
+     "ex": "Animate plural: коровы → коров. коровы would make the cows the subject. (Step 5)",
+     "translation": "In the morning we graze the cows.",
+     "glosses": [
+      "пасём: we graze, we herd"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · plurals and pronouns",
+     "k": "anim_pl",
+     "w": "девушка",
+     "s": "На улице я вижу ___.",
+     "base": "девушка · plural",
+     "a": "девушек",
+     "d": [
+      "девушки",
+      "девушкам",
+      "девушку"
+     ],
+     "ex": "Animate plural: девушки → девушек. (Step 5)",
+     "translation": "I see some young women on the street.",
+     "glosses": [
+      "девушка: young woman, girl"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · plurals and pronouns",
+     "k": "anim_pl",
+     "w": "олень",
+     "s": "Зимой у леса мы видим ___.",
+     "base": "олень · plural",
+     "a": "оленей",
+     "d": [
+      "олени",
+      "оленям",
+      "оленя"
+     ],
+     "ex": "Animate plural: олени → оленей. (Step 5)",
+     "translation": "In the winter we see deer by the woods.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · plurals and pronouns",
+     "k": "inan_pl",
+     "w": "храм",
+     "s": "В городе я вижу ___.",
+     "base": "храм · plural",
+     "a": "храмы",
+     "d": [
+      "храмов",
+      "храмам",
+      "храма"
+     ],
+     "ex": "храмы is inanimate plural: accusative = nominative, храмы. (Step 5)",
+     "translation": "I see churches in the city.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · plurals and pronouns",
+     "k": "inan_pl",
+     "w": "письмо",
+     "s": "Я отправляю ___ другу.",
+     "base": "письмо · plural",
+     "a": "письма",
+     "d": [
+      "писем",
+      "письмам",
+      "письмо"
+     ],
+     "ex": "письма is inanimate plural: accusative = nominative, письма. (The friend is dative другу — Lesson 7.) (Step 5)",
+     "translation": "I'm sending letters to my friend.",
+     "glosses": [
+      "отправляю: I send"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · plurals and pronouns",
+     "k": "pron",
+     "w": "я",
+     "s": "Скажи, ты видишь ___?",
+     "base": "я",
+     "a": "меня",
+     "d": [
+      "я",
+      "мне",
+      "мной"
+     ],
+     "ex": "я as a direct object is меня. (Step 6)",
+     "translation": "Tell me, do you see me?",
+     "glosses": [
+      "скажи: tell me"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · plurals and pronouns",
+     "k": "pron",
+     "w": "ты",
+     "s": "Да, я знаю ___.",
+     "base": "ты",
+     "a": "тебя",
+     "d": [
+      "ты",
+      "тебе",
+      "тобой"
+     ],
+     "ex": "ты as a direct object is тебя. (Step 6)",
+     "translation": "Yes, I know you.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · plurals and pronouns",
+     "k": "pron",
+     "w": "он",
+     "s": "Жена ищет ___.",
+     "base": "он",
+     "a": "его",
+     "d": [
+      "он",
+      "ему",
+      "него"
+     ],
+     "ex": "он as a direct object is его. Not него — there's no preposition here. (Step 6)",
+     "translation": "My wife is looking for him.",
+     "glosses": [
+      "ищет: is looking for"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · plurals and pronouns",
+     "k": "pron",
+     "w": "она",
+     "s": "Мы очень любим ___.",
+     "base": "она",
+     "a": "её",
+     "d": [
+      "она",
+      "ей",
+      "неё"
+     ],
+     "ex": "она as a direct object is её. Not неё, because there's no preposition. (Step 6)",
+     "translation": "We love her very much.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · plurals and pronouns",
+     "k": "pron",
+     "w": "они",
+     "s": "Смотри, я вижу ___ на пастбище.",
+     "base": "они",
+     "a": "их",
+     "d": [
+      "они",
+      "им",
+      "них"
+     ],
+     "ex": "они as a direct object is их. Not них — no preposition. (Step 6)",
+     "translation": "Look, I see them in the pasture.",
+     "glosses": [
+      "смотри: look"
+     ]
+    }
+   ]
+  },
+  "L7": {
+   "id": "L7",
+   "n": 7,
+   "title": "The dative: кому? мне нравится",
+   "goal": "By the end you'll mark the indirect object and use the main dative patterns: Я дал воду коровам. Мне нравится эта песня. Я иду к батюшке. По субботам я на ферме. Мне сорок лет.",
+   "minutes": "15–20 min to read, then 35 exercises",
+   "sections": [
+    {
+     "h": "Step 1 · The dative is the indirect object",
+     "open": true,
+     "html": "<p>The <b>dative</b> (<span lang=\"ru\" class=\"r\">дательный падеж</span>) marks the <b>indirect object</b>: <b>to whom</b> or <b>for whom</b> something is given, said, sent or done. The question is <span lang=\"ru\" class=\"r\">кому?</span>.</p><p>A sentence you already almost had — and one worth getting right — is:</p><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Я дал воду коровам.</span><span class=\"g\">I gave water to the cows.</span></li></ul><p>Diagram it and every word has a clear job:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Word</th><th>Job in the sentence</th><th>Case</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">я</span></td><td><b>subject</b> — who did it</td><td>nominative</td></tr><tr><td><span lang=\"ru\" class=\"r\">дал</span></td><td>verb (past tense, masculine: Lesson 5)</td><td>—</td></tr><tr><td><span lang=\"ru\" class=\"r\">воду</span></td><td><b>direct object</b> — what was given</td><td>accusative (Lesson 2)</td></tr><tr><td><span lang=\"ru\" class=\"r\">коровам</span></td><td><b>indirect object</b> — who received it</td><td>dative</td></tr></tbody></table></div><p class=\"tip\"><b>A real mistake to watch:</b> <span lang=\"ru\" class=\"r\">Я дал воду коров</span> uses <span lang=\"ru\" class=\"r\">коров</span>, which is the accusative/genitive plural (the cows as a direct object: <span lang=\"ru\" class=\"r\">вижу коров</span>). Here the cows are receiving the water, so they need the dative plural: <span lang=\"ru\" class=\"r\">коровам</span>.</p><p class=\"tip\"><b>German:</b> this is <i>der Dativ</i>, the same job as <i>dem / der / den</i> and <i>mir, dir, ihm</i>. ich gebe dem Bruder das Buch = <span lang=\"ru\" class=\"r\">я даю брату книгу</span>. ich gab den Kühen Wasser = <span lang=\"ru\" class=\"r\">я дал воду коровам</span>.</p>"
+    },
+    {
+     "h": "Step 2 · The singular endings",
+     "open": false,
+     "html": "<p>In the singular there are only a few endings, and the dictionary form tells you which:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Dictionary form</th><th>Dative singular</th><th>Examples</th></tr></thead><tbody><tr><td>masc. consonant / neut. <span lang=\"ru\" class=\"r\">-о</span></td><td><span lang=\"ru\" class=\"r\">-у</span></td><td><span lang=\"ru\" class=\"r\">друг → другу</span> · <span lang=\"ru\" class=\"r\">бык → быку</span> · <span lang=\"ru\" class=\"r\">врач → врачу</span> · <span lang=\"ru\" class=\"r\">окно → окну</span></td></tr><tr><td>masc. <span lang=\"ru\" class=\"r\">-й / -ь</span>, neut. <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">-ю</span></td><td><span lang=\"ru\" class=\"r\">Андрей → Андрею</span> · <span lang=\"ru\" class=\"r\">учитель → учителю</span> · <span lang=\"ru\" class=\"r\">олень → оленю</span> · <span lang=\"ru\" class=\"r\">поле → полю</span></td></tr><tr><td>fem. <span lang=\"ru\" class=\"r\">-а</span></td><td><span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">жена → жене</span> · <span lang=\"ru\" class=\"r\">сестра → сестре</span> · <span lang=\"ru\" class=\"r\">корова → корове</span></td></tr><tr><td>fem. <span lang=\"ru\" class=\"r\">-я</span> / <span lang=\"ru\" class=\"r\">-ь</span></td><td><span lang=\"ru\" class=\"r\">-и</span></td><td><span lang=\"ru\" class=\"r\">песня → песне</span> is <span lang=\"ru\" class=\"r\">-я → -е</span>; but <span lang=\"ru\" class=\"r\">-ия → -ии</span> (<span lang=\"ru\" class=\"r\">Мария → Марии</span>), and <span lang=\"ru\" class=\"r\">-ь → -и</span>: <span lang=\"ru\" class=\"r\">лошадь → лошади</span>, <span lang=\"ru\" class=\"r\">дочь → дочери</span>, <span lang=\"ru\" class=\"r\">церковь → церкви</span></td></tr><tr><td>masc. <span lang=\"ru\" class=\"r\">-а / -я</span></td><td><span lang=\"ru\" class=\"r\">-е</span> (like feminine)</td><td><span lang=\"ru\" class=\"r\">батюшка → батюшке</span> · <span lang=\"ru\" class=\"r\">папа → папе</span> · <span lang=\"ru\" class=\"r\">дедушка → дедушке</span> · <span lang=\"ru\" class=\"r\">коллега → коллеге</span></td></tr></tbody></table></div><p>After <span lang=\"ru\" class=\"r\">г, к, х, ж, ч, ш, щ</span> the vowel is still the dative one, with the usual spelling: <span lang=\"ru\" class=\"r\">подруга → подруге</span>, <span lang=\"ru\" class=\"r\">девушка → девушке</span>.</p><p class=\"tip\">Same idea as Lesson 6: the <b>ending</b> follows the last letter, the <b>agreement</b> follows the person. <span lang=\"ru\" class=\"r\">батюшке</span> looks like <span lang=\"ru\" class=\"r\">жене</span>, but <span lang=\"ru\" class=\"r\">батюшка дал</span> stays masculine.</p>"
+    },
+    {
+     "h": "Step 3 · The plural, and two irregulars",
+     "open": false,
+     "html": "<p>The dative plural is regular for almost every noun: <span lang=\"ru\" class=\"r\">-ам</span> after a hard stem, <span lang=\"ru\" class=\"r\">-ям</span> after a soft one.</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Nominative plural</th><th>Dative plural</th><th>Example</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">коровы</span></td><td><span lang=\"ru\" class=\"r\">коровам</span></td><td><span lang=\"ru\" class=\"r\">Я дал воду коровам.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">куры / курицы</span></td><td><span lang=\"ru\" class=\"r\">курицам</span></td><td><span lang=\"ru\" class=\"r\">Я даю зерно курицам.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">друзья</span></td><td><span lang=\"ru\" class=\"r\">друзьям</span></td><td><span lang=\"ru\" class=\"r\">Я пишу письма друзьям.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">братья</span></td><td><span lang=\"ru\" class=\"r\">братьям</span></td><td><span lang=\"ru\" class=\"r\">Я звоню братьям.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">жены</span></td><td><span lang=\"ru\" class=\"r\">жёнам</span></td><td><span lang=\"ru\" class=\"r\">Батюшка говорит жёнам и мужьям.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">коллеги</span></td><td><span lang=\"ru\" class=\"r\">коллегам</span></td><td><span lang=\"ru\" class=\"r\">Я отправил файл коллегам.</span></td></tr></tbody></table></div><p>Two very common words are irregular. Learn them as a pair:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Nominative</th><th>Dative</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">дети</span> children (sg. <span lang=\"ru\" class=\"r\">ребёнок</span>)</td><td><span lang=\"ru\" class=\"r\">детям</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">люди</span> people (sg. <span lang=\"ru\" class=\"r\">человек</span>)</td><td><span lang=\"ru\" class=\"r\">людям</span></td></tr></tbody></table></div><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Мама читает книгу детям.</span><span class=\"g\">Mom is reading a book to the children.</span></li><li><span lang=\"ru\" class=\"r\">Батюшка говорит людям.</span><span class=\"g\">Father is speaking to the people.</span></li></ul><p class=\"tip\">If you remember only two plural datives this week, make them <span lang=\"ru\" class=\"r\">коровам</span> and <span lang=\"ru\" class=\"r\">детям</span> / <span lang=\"ru\" class=\"r\">людям</span>.</p>"
+    },
+    {
+     "h": "Step 4 · The pronouns: мне, тебе, ему, ей, нам, вам, им",
+     "open": false,
+     "html": "<p>The dative pronouns are new forms — they are <b>not</b> the same as the accusative/genitive <span lang=\"ru\" class=\"r\">меня, тебя, его</span>.</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Nominative</th><th>Dative (to / for whom)</th><th>Accusative (for contrast)</th><th>German</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">я</span></td><td><span lang=\"ru\" class=\"r\">мне</span></td><td><span lang=\"ru\" class=\"r\">меня</span></td><td>mir</td></tr><tr><td><span lang=\"ru\" class=\"r\">ты</span></td><td><span lang=\"ru\" class=\"r\">тебе</span></td><td><span lang=\"ru\" class=\"r\">тебя</span></td><td>dir</td></tr><tr><td><span lang=\"ru\" class=\"r\">он / оно</span></td><td><span lang=\"ru\" class=\"r\">ему</span></td><td><span lang=\"ru\" class=\"r\">его</span></td><td>ihm</td></tr><tr><td><span lang=\"ru\" class=\"r\">она</span></td><td><span lang=\"ru\" class=\"r\">ей</span></td><td><span lang=\"ru\" class=\"r\">её</span></td><td>ihr</td></tr><tr><td><span lang=\"ru\" class=\"r\">мы</span></td><td><span lang=\"ru\" class=\"r\">нам</span></td><td><span lang=\"ru\" class=\"r\">нас</span></td><td>uns</td></tr><tr><td><span lang=\"ru\" class=\"r\">вы</span></td><td><span lang=\"ru\" class=\"r\">вам</span></td><td><span lang=\"ru\" class=\"r\">вас</span></td><td>euch / Ihnen</td></tr><tr><td><span lang=\"ru\" class=\"r\">они</span></td><td><span lang=\"ru\" class=\"r\">им</span></td><td><span lang=\"ru\" class=\"r\">их</span></td><td>ihnen</td></tr></tbody></table></div><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Друг звонит мне каждый вечер.</span><span class=\"g\">My friend calls me every evening.</span></li><li><span lang=\"ru\" class=\"r\">Я пишу тебе письмо.</span><span class=\"g\">I'm writing you a letter.</span></li><li><span lang=\"ru\" class=\"r\">Жена даёт ему ключ.</span><span class=\"g\">My wife gives him the key.</span></li></ul><p>After a preposition, <span lang=\"ru\" class=\"r\">ему / ей / им</span> add <span lang=\"ru\" class=\"r\">н-</span>, the same rule as Lesson 4:</p><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Я иду к нему.</span><span class=\"g\">I'm going to him. (к + dative)</span></li><li><span lang=\"ru\" class=\"r\">Мы идём к ней.</span><span class=\"g\">We're going to her.</span></li><li><span lang=\"ru\" class=\"r\">Я иду к ним.</span><span class=\"g\">I'm going to them.</span></li></ul><p class=\"tip\"><b>Don't mix the cases:</b> <span lang=\"ru\" class=\"r\">вижу его</span> (direct object, accusative) vs <span lang=\"ru\" class=\"r\">звоню ему</span> (to him, dative) vs <span lang=\"ru\" class=\"r\">иду к нему</span> (to him, preposition + dative with <span lang=\"ru\" class=\"r\">н-</span>).</p>"
+    },
+    {
+     "h": "Step 5 · мне нравится, нужно / надо, мне холодно",
+     "open": false,
+     "html": "<p>A group of very common expressions puts the person in the <b>dative</b> and makes the thing the <b>subject</b>.</p><h4><span lang=\"ru\" class=\"r\">нравиться</span> — to be pleasing (to like)</h4><p><span lang=\"ru\" class=\"r\">мне нравится</span> is built like German <i>das gefällt mir</i>: “it is pleasing to me.” The thing you like is the subject, so the verb agrees with <b>that thing</b>, not with “me”:</p><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Мне нравится эта песня.</span><span class=\"g\">I like this song. (песня is singular → нравится)</span></li><li><span lang=\"ru\" class=\"r\">Мне нравятся коровы.</span><span class=\"g\">I like the cows. (коровы is plural → нравятся)</span></li><li><span lang=\"ru\" class=\"r\">Тебе нравится Молчат Дома?</span><span class=\"g\">Do you like Molchat Doma?</span></li><li><span lang=\"ru\" class=\"r\">Ей нравится Беларусь.</span><span class=\"g\">She likes Belarus.</span></li><li><span lang=\"ru\" class=\"r\">Жене нравится этот альбом.</span><span class=\"g\">My wife likes this album.</span></li><li><span lang=\"ru\" class=\"r\">Детям нравятся блины.</span><span class=\"g\">The children like pancakes.</span></li></ul><h4><span lang=\"ru\" class=\"r\">нужно / надо</span> — need to / have to, and <span lang=\"ru\" class=\"r\">мне холодно</span></h4><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Мне нужно ехать в Минск.</span><span class=\"g\">I need to go to Minsk.</span></li><li><span lang=\"ru\" class=\"r\">Нам надо позвонить домой.</span><span class=\"g\">We need to call home.</span></li><li><span lang=\"ru\" class=\"r\">Что вам нужно?</span><span class=\"g\">What do you need?</span></li><li><span lang=\"ru\" class=\"r\">Зимой нам холодно на улице.</span><span class=\"g\">In winter we're cold outside. (literally: it is cold to us)</span></li><li><span lang=\"ru\" class=\"r\">Сегодня мне можно не работать.</span><span class=\"g\">I don't have to work today. (можно + dative: it's allowed to me)</span></li></ul><p class=\"tip\"><b>German:</b> es gefällt mir, es ist mir kalt, mir ist schlecht, ich muss nach Minsk — Russian uses the dative for all of these except “I must,” which is still <span lang=\"ru\" class=\"r\">мне нужно / мне надо</span> + infinitive, not a verb that conjugates with <span lang=\"ru\" class=\"r\">я</span>.</p>"
+    },
+    {
+     "h": "Step 6 · к + dative, and по + dative",
+     "open": false,
+     "html": "<p><span lang=\"ru\" class=\"r\">к</span> + dative means <b>to a person</b> (or toward someone). Use <span lang=\"ru\" class=\"r\">в / на</span> + accusative for a <b>place</b>, the way you did in Lesson 2:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>To a person (к + dative)</th><th>To a place (в / на + accusative)</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">Я иду к батюшке.</span></td><td><span lang=\"ru\" class=\"r\">Я иду в храм.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Мы едем к другу в Гомель.</span></td><td><span lang=\"ru\" class=\"r\">Мы едем в Гомель.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Завтра я иду к врачу.</span></td><td><span lang=\"ru\" class=\"r\">Завтра я иду в больницу.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Я иду к ней.</span></td><td><span lang=\"ru\" class=\"r\">Я иду к ней домой.</span></td></tr></tbody></table></div><p><span lang=\"ru\" class=\"r\">по</span> + dative covers several useful meanings: by means of, along, and “every / on (Saturdays)”:</p><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Мы часто говорим по телефону.</span><span class=\"g\">We often talk on the phone. (by telephone)</span></li><li><span lang=\"ru\" class=\"r\">По субботам я работаю на ферме.</span><span class=\"g\">On Saturdays I work on the farm. (every Saturday)</span></li><li><span lang=\"ru\" class=\"r\">По воскресеньям мы идём в храм.</span><span class=\"g\">On Sundays we go to church.</span></li><li><span lang=\"ru\" class=\"r\">По дороге мы видим оленя.</span><span class=\"g\">Along the road we see a deer.</span></li></ul><p class=\"tip\"><b>German:</b> <span lang=\"ru\" class=\"r\">к врачу</span> ≈ zu dem Arzt / zum Arzt. <span lang=\"ru\" class=\"r\">по субботам</span> is close to <i>samstags</i> (regularly on Saturdays), not just <i>am Samstag</i> (this Saturday). <span lang=\"ru\" class=\"r\">по телефону</span> is per Telefon / am Telefon.</p>"
+    },
+    {
+     "h": "Step 7 · Age: мне сорок лет",
+     "open": false,
+     "html": "<p>To say how old someone is, Russian uses the <b>dative</b> + the number + the word for “year.” Literally: “to me are forty years.”</p><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Мне сорок лет.</span><span class=\"g\">I'm forty years old.</span></li><li><span lang=\"ru\" class=\"r\">Другу тридцать два года.</span><span class=\"g\">My friend is thirty-two.</span></li><li><span lang=\"ru\" class=\"r\">Детям пять лет.</span><span class=\"g\">The children are five.</span></li><li><span lang=\"ru\" class=\"r\">Сыну один год.</span><span class=\"g\">My son is one year old.</span></li><li><span lang=\"ru\" class=\"r\">Ей двадцать два года.</span><span class=\"g\">She is twenty-two.</span></li></ul><p>The word for “year” follows the number rule from the <b>Numbers</b> section:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>The number ends in</th><th>Form</th><th>Examples</th></tr></thead><tbody><tr><td>1 (but not 11)</td><td><span lang=\"ru\" class=\"r\">год</span></td><td><span lang=\"ru\" class=\"r\">один год</span>, <span lang=\"ru\" class=\"r\">двадцать один год</span></td></tr><tr><td>2, 3 or 4 (but not 12–14)</td><td><span lang=\"ru\" class=\"r\">года</span></td><td><span lang=\"ru\" class=\"r\">два года</span>, <span lang=\"ru\" class=\"r\">тридцать два года</span>, <span lang=\"ru\" class=\"r\">четыре года</span></td></tr><tr><td>5–20, or 5–0 at the end (0, 5, 6, 7, 8, 9)</td><td><span lang=\"ru\" class=\"r\">лет</span></td><td><span lang=\"ru\" class=\"r\">пять лет</span>, <span lang=\"ru\" class=\"r\">сорок лет</span>, <span lang=\"ru\" class=\"r\">одиннадцать лет</span>, <span lang=\"ru\" class=\"r\">двенадцать лет</span></td></tr></tbody></table></div><p class=\"tip\"><b>German:</b> ich bin vierzig Jahre alt puts “I” in the nominative. Russian never says “я сорок лет.” It is always <span lang=\"ru\" class=\"r\">мне сорок лет</span>. If you want practice with the numbers themselves, use the Numbers tab, then come back and say your age and your family's ages in the dative.</p>"
+    },
+    {
+     "h": "Summary",
+     "open": false,
+     "html": "<ul class=\"sum\"><li>The dative marks the <b>indirect object</b> (<span lang=\"ru\" class=\"r\">кому?</span>): <span lang=\"ru\" class=\"r\">Я дал воду коровам</span>, not <span lang=\"ru\" class=\"r\">коров</span>.</li><li>Singular: masc./neut. <span lang=\"ru\" class=\"r\">-у / -ю</span> (<span lang=\"ru\" class=\"r\">другу, учителю, быку</span>); fem. <span lang=\"ru\" class=\"r\">-е / -и</span> (<span lang=\"ru\" class=\"r\">жене, лошади</span>); men in <span lang=\"ru\" class=\"r\">-а</span> take <span lang=\"ru\" class=\"r\">-е</span> (<span lang=\"ru\" class=\"r\">батюшке, коллеге</span>).</li><li>Plural: <span lang=\"ru\" class=\"r\">-ам / -ям</span>. Irregular: <span lang=\"ru\" class=\"r\">детям, людям</span>.</li><li>Pronouns: <span lang=\"ru\" class=\"r\">мне, тебе, ему, ей, нам, вам, им</span>. After a preposition: <span lang=\"ru\" class=\"r\">к нему, к ней, к ним</span>.</li><li><span lang=\"ru\" class=\"r\">мне нравится / нравятся</span> (the thing is the subject); <span lang=\"ru\" class=\"r\">нужно / надо</span>; <span lang=\"ru\" class=\"r\">мне холодно</span>.</li><li><span lang=\"ru\" class=\"r\">к</span> + dative = to a person; <span lang=\"ru\" class=\"r\">по</span> + dative = by / along / every (Saturday). Age: <span lang=\"ru\" class=\"r\">мне сорок лет</span> (1 <span lang=\"ru\" class=\"r\">год</span>, 2–4 <span lang=\"ru\" class=\"r\">года</span>, 5+ <span lang=\"ru\" class=\"r\">лет</span>).</li></ul>"
+    }
+   ],
+   "parts": {
+    "A": "Part A · the indirect object (noun endings)",
+    "B": "Part B · pronouns, нравится, нужно, холодно",
+    "C": "Part C · к, по, and age"
+   },
+   "practice": {
+    "title": "Now use it: write to your tutor",
+    "text": "Answer in chat: Кому ты звонишь и что тебе нравится? Write 4 sentences: one with an indirect object (дал / пишу / звоню + dative), one with нравится or нравятся, one with к or по + dative, and one with someone's age (мне / другу / сыну … лет).",
+    "examples": [
+     "Я дал воду коровам.",
+     "Мне нравится эта песня.",
+     "По воскресеньям мы идём к батюшке.",
+     "Другу тридцать два года."
+    ]
+   },
+   "exercises": [
+    {
+     "part": "A",
+     "sub": "A · the indirect object (noun endings)",
+     "k": "dat_pl",
+     "w": "корова",
+     "s": "Я дал воду ___.",
+     "base": "корова · plural",
+     "a": "коровам",
+     "d": [
+      "коров",
+      "коровы",
+      "корове"
+     ],
+     "ex": "The cows are receiving the water (indirect object), so dative plural: коровам. коров is accusative/genitive plural (вижу коров). (Steps 1 and 3)",
+     "translation": "I gave water to the cows.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · the indirect object (noun endings)",
+     "k": "dat_sg",
+     "w": "друг",
+     "s": "Я пишу письмо ___.",
+     "base": "друг",
+     "a": "другу",
+     "d": [
+      "друга",
+      "друг",
+      "другом"
+     ],
+     "ex": "The friend is the indirect object: masculine consonant adds -у, другу. друга would be genitive/accusative. (Step 2)",
+     "translation": "I'm writing a letter to my friend.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · the indirect object (noun endings)",
+     "k": "dat_sg",
+     "w": "сестра",
+     "s": "Жена звонит ___.",
+     "base": "сестра",
+     "a": "сестре",
+     "d": [
+      "сестру",
+      "сестры",
+      "сестра"
+     ],
+     "ex": "звонить takes the dative (to whom you call). сестра → сестре. (Step 2)",
+     "translation": "My wife is calling her sister.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · the indirect object (noun endings)",
+     "k": "dat_sg",
+     "w": "батюшка",
+     "s": "Мы помогаем ___.",
+     "base": "батюшка",
+     "a": "батюшке",
+     "d": [
+      "батюшку",
+      "батюшки",
+      "батюшка"
+     ],
+     "ex": "помогать takes the dative. батюшка ends in -а, so батюшке (like жене). (Step 2)",
+     "translation": "We help Father.",
+     "glosses": [
+      "помогаем: we help"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · the indirect object (noun endings)",
+     "k": "dat_sg",
+     "w": "бык",
+     "s": "Я даю сено ___.",
+     "base": "бык",
+     "a": "быку",
+     "d": [
+      "быка",
+      "бык",
+      "быке"
+     ],
+     "ex": "The bull is receiving the hay: dative быку. быка is genitive/accusative (вижу быка). (Step 2)",
+     "translation": "I give hay to the bull.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · the indirect object (noun endings)",
+     "k": "dat_pl",
+     "w": "дети",
+     "s": "Мама читает книгу ___.",
+     "base": "дети",
+     "a": "детям",
+     "d": [
+      "детей",
+      "дети",
+      "ребёнку"
+     ],
+     "ex": "дети has an irregular dative: детям. детей would be genitive/accusative plural. (Step 3)",
+     "translation": "Mom is reading a book to the children.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · the indirect object (noun endings)",
+     "k": "dat_sg",
+     "w": "коллега",
+     "s": "Я отправил файл ___.",
+     "base": "коллега",
+     "a": "коллеге",
+     "d": [
+      "коллегу",
+      "коллеги",
+      "коллега"
+     ],
+     "ex": "коллега ends in -а (a person): dative коллеге. (Step 2)",
+     "translation": "I sent a file to my colleague.",
+     "glosses": [
+      "отправил: I sent (perf.)",
+      "коллега: colleague"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · the indirect object (noun endings)",
+     "k": "dat_sg",
+     "w": "жена",
+     "s": "Я дарю икону ___.",
+     "base": "жена",
+     "a": "жене",
+     "d": [
+      "жену",
+      "жены",
+      "жена"
+     ],
+     "ex": "The wife is receiving the icon: dative жене. жену is the accusative (вижу жену). (Step 2)",
+     "translation": "I'm giving my wife an icon as a gift.",
+     "glosses": [
+      "дарю: I give as a gift",
+      "икона: icon"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · the indirect object (noun endings)",
+     "k": "dat_sg",
+     "w": "врач",
+     "s": "Я звоню ___.",
+     "base": "врач",
+     "a": "врачу",
+     "d": [
+      "врача",
+      "врач",
+      "враче"
+     ],
+     "ex": "звонить + dative: врач → врачу. врача is the accusative (ищу врача). (Step 2)",
+     "translation": "I'm calling the doctor.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · the indirect object (noun endings)",
+     "k": "dat_pl",
+     "w": "люди",
+     "s": "Батюшка говорит ___.",
+     "base": "люди",
+     "a": "людям",
+     "d": [
+      "людей",
+      "люди",
+      "человеку"
+     ],
+     "ex": "люди has an irregular dative: людям. (Step 3)",
+     "translation": "Father is speaking to the people.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · the indirect object (noun endings)",
+     "k": "dat_sg",
+     "w": "лошадь",
+     "s": "Я купил корм ___.",
+     "base": "лошадь",
+     "a": "лошади",
+     "d": [
+      "лошадь",
+      "лошадью",
+      "лошадя"
+     ],
+     "ex": "лошадь is feminine -ь: dative лошади (the same form as the genitive). (Step 2)",
+     "translation": "I bought feed for the horse.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · the indirect object (noun endings)",
+     "k": "dat_pl",
+     "w": "курица",
+     "s": "Я даю зерно ___.",
+     "base": "курица · plural",
+     "a": "курицам",
+     "d": [
+      "курам",
+      "куриц",
+      "курицы"
+     ],
+     "ex": "Dative plural of курица is курицам (not “курам”). (Step 3)",
+     "translation": "I give grain to the hens.",
+     "glosses": [
+      "зерно: grain"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · pronouns, нравится, нужно, холодно",
+     "k": "pron",
+     "w": "я",
+     "s": "___ нравится эта песня.",
+     "base": "я",
+     "a": "Мне",
+     "d": [
+      "Меня",
+      "Я",
+      "Мной"
+     ],
+     "ex": "The person who likes something is in the dative: я → мне. Capital Мне because it's the start of the sentence. (Steps 4 and 5)",
+     "translation": "I like this song.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · pronouns, нравится, нужно, холодно",
+     "k": "pron",
+     "w": "ты",
+     "s": "___ нравится Молчат Дома?",
+     "base": "ты",
+     "a": "Тебе",
+     "d": [
+      "Тебя",
+      "Ты",
+      "Тобой"
+     ],
+     "ex": "ты → тебе in the dative. The band name doesn't decline. (Steps 4 and 5)",
+     "translation": "Do you like Molchat Doma?",
+     "glosses": [
+      "Молчат Дома: a Belarusian band"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · pronouns, нравится, нужно, холодно",
+     "k": "nslike",
+     "w": "нравиться",
+     "s": "Мне ___ коровы.",
+     "base": "нравиться",
+     "a": "нравятся",
+     "d": [
+      "нравится",
+      "нравлюсь",
+      "нравитесь"
+     ],
+     "ex": "коровы is plural, so the verb is plural: нравятся. The cows are the subject; мне is dative. (Step 5)",
+     "translation": "I like the cows.",
+     "glosses": [],
+     "g": "pl"
+    },
+    {
+     "part": "B",
+     "sub": "B · pronouns, нравится, нужно, холодно",
+     "k": "pron",
+     "w": "он",
+     "s": "___ нужно ехать в Минск.",
+     "base": "он",
+     "a": "Ему",
+     "d": [
+      "Его",
+      "Он",
+      "Нему"
+     ],
+     "ex": "он → ему in the dative. Нему would need a preposition (к нему). (Steps 4 and 5)",
+     "translation": "He needs to go to Minsk.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · pronouns, нравится, нужно, холодно",
+     "k": "pron",
+     "w": "мы",
+     "s": "На улице ___ холодно.",
+     "base": "мы",
+     "a": "нам",
+     "d": [
+      "нас",
+      "мы",
+      "нами"
+     ],
+     "ex": "мне / нам холодно: the person who feels cold is in the dative. (Step 5)",
+     "translation": "We're cold outside.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · pronouns, нравится, нужно, холодно",
+     "k": "pron",
+     "w": "она",
+     "s": "___ нравится Беларусь.",
+     "base": "она",
+     "a": "Ей",
+     "d": [
+      "Её",
+      "Она",
+      "Ней"
+     ],
+     "ex": "она → ей in the dative. (Steps 4 and 5)",
+     "translation": "She likes Belarus.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · pronouns, нравится, нужно, холодно",
+     "k": "pron",
+     "w": "вы",
+     "s": "Что ___ нужно в магазине?",
+     "base": "вы",
+     "a": "вам",
+     "d": [
+      "вас",
+      "вы",
+      "вами"
+     ],
+     "ex": "вы → вам in the dative. (Steps 4 and 5)",
+     "translation": "What do you need at the store?",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · pronouns, нравится, нужно, холодно",
+     "k": "pron",
+     "w": "мы",
+     "s": "___ надо позвонить домой.",
+     "base": "мы",
+     "a": "Нам",
+     "d": [
+      "Нас",
+      "Мы",
+      "Нами"
+     ],
+     "ex": "надо / нужно + dative + infinitive: нам надо позвонить. (Steps 4 and 5)",
+     "translation": "We need to call home.",
+     "glosses": [
+      "надо: it is necessary, we need to"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · pronouns, нравится, нужно, холодно",
+     "k": "pron",
+     "w": "они",
+     "s": "___ нравится наша ферма.",
+     "base": "они",
+     "a": "Им",
+     "d": [
+      "Их",
+      "Они",
+      "Ним"
+     ],
+     "ex": "они → им in the dative. (Steps 4 and 5)",
+     "translation": "They like our farm.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · pronouns, нравится, нужно, холодно",
+     "k": "nslike",
+     "w": "нравиться",
+     "s": "Жене ___ этот альбом.",
+     "base": "нравиться",
+     "a": "нравится",
+     "d": [
+      "нравятся",
+      "нравлюсь",
+      "нравишься"
+     ],
+     "ex": "альбом is singular, so нравится. Жене is already in the dative. (Step 5)",
+     "translation": "My wife likes this album.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · pronouns, нравится, нужно, холодно",
+     "k": "nslike",
+     "w": "нравиться",
+     "s": "Детям ___ блины.",
+     "base": "нравиться",
+     "a": "нравятся",
+     "d": [
+      "нравится",
+      "нравлюсь",
+      "нравитесь"
+     ],
+     "ex": "блины is plural, so нравятся. Детям is the irregular dative of дети. (Steps 3 and 5)",
+     "translation": "The children like pancakes.",
+     "glosses": [
+      "блины: pancakes"
+     ],
+     "g": "pl"
+    },
+    {
+     "part": "B",
+     "sub": "B · pronouns, нравится, нужно, холодно",
+     "k": "nslike",
+     "w": "нравиться",
+     "s": "Коллеге ___ новый проект.",
+     "base": "нравиться",
+     "a": "нравится",
+     "d": [
+      "нравятся",
+      "нравлюсь",
+      "нравишься"
+     ],
+     "ex": "проект is singular → нравится. коллеге is dative (a person in -а). (Steps 2 and 5)",
+     "translation": "My colleague likes the new project.",
+     "glosses": [
+      "коллега: colleague",
+      "проект: project"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · к, по, and age",
+     "k": "k",
+     "w": "батюшка",
+     "s": "После службы я иду к ___.",
+     "base": "батюшка",
+     "a": "батюшке",
+     "d": [
+      "батюшку",
+      "батюшки",
+      "батюшка"
+     ],
+     "ex": "к takes the dative: к батюшке. Not в батюшку and not к батюшку. (Steps 2 and 6)",
+     "translation": "After the service I go to Father.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · к, по, and age",
+     "k": "k",
+     "w": "друг",
+     "s": "Летом мы едем к ___ в Гомель.",
+     "base": "друг",
+     "a": "другу",
+     "d": [
+      "друга",
+      "друг",
+      "другом"
+     ],
+     "ex": "к + dative: к другу (to our friend). в Гомель is the place, in the accusative. (Step 6)",
+     "translation": "In the summer we go to our friend in Gomel.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · к, по, and age",
+     "k": "k",
+     "w": "врач",
+     "s": "Завтра я иду к ___.",
+     "base": "врач",
+     "a": "врачу",
+     "d": [
+      "врача",
+      "врач",
+      "враче"
+     ],
+     "ex": "к + dative: к врачу (to the doctor). (Step 6)",
+     "translation": "Tomorrow I'm going to the doctor.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · к, по, and age",
+     "k": "po",
+     "w": "телефон",
+     "s": "Мы часто говорим по ___.",
+     "base": "телефон",
+     "a": "телефону",
+     "d": [
+      "телефон",
+      "телефона",
+      "телефоне"
+     ],
+     "ex": "по + dative: по телефону (by phone). (Step 6)",
+     "translation": "We often talk on the phone.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · к, по, and age",
+     "k": "po",
+     "w": "суббота",
+     "s": "По ___ я работаю на ферме.",
+     "base": "суббота · plural",
+     "a": "субботам",
+     "d": [
+      "субботе",
+      "субботу",
+      "суббота"
+     ],
+     "ex": "по + dative plural means “every / on Saturdays”: по субботам. (Step 6)",
+     "translation": "On Saturdays I work on the farm.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · к, по, and age",
+     "k": "po",
+     "w": "воскресенье",
+     "s": "По ___ мы идём в храм.",
+     "base": "воскресенье · plural",
+     "a": "воскресеньям",
+     "d": [
+      "воскресенью",
+      "воскресенье",
+      "воскресении"
+     ],
+     "ex": "по + dative plural: по воскресеньям (every Sunday). (Step 6)",
+     "translation": "On Sundays we go to church.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · к, по, and age",
+     "k": "age_pron",
+     "w": "я",
+     "s": "___ сорок лет.",
+     "base": "я",
+     "a": "Мне",
+     "d": [
+      "Я",
+      "Меня",
+      "Мной"
+     ],
+     "ex": "Age uses the dative: мне сорок лет, never “я сорок лет.” сорок takes лет (5+ / 0 at the end). (Step 7)",
+     "translation": "I'm forty years old.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · к, по, and age",
+     "k": "age_unit",
+     "w": "год",
+     "s": "Другу тридцать два ___.",
+     "base": "год",
+     "a": "года",
+     "d": [
+      "лет",
+      "год",
+      "годы"
+     ],
+     "ex": "32 ends in 2 (and is not 12), so года. 1 год, 2–4 года, 5+ лет. (Step 7 and the Numbers section)",
+     "translation": "My friend is thirty-two.",
+     "glosses": [],
+     "n": 32
+    },
+    {
+     "part": "C",
+     "sub": "C · к, по, and age",
+     "k": "age_unit",
+     "w": "год",
+     "s": "Детям пять ___.",
+     "base": "год",
+     "a": "лет",
+     "d": [
+      "года",
+      "год",
+      "годы"
+     ],
+     "ex": "5 and up take лет (the genitive plural). (Step 7 and the Numbers section)",
+     "translation": "The children are five.",
+     "glosses": [],
+     "n": 5
+    },
+    {
+     "part": "C",
+     "sub": "C · к, по, and age",
+     "k": "age_unit",
+     "w": "год",
+     "s": "Сыну один ___.",
+     "base": "год",
+     "a": "год",
+     "d": [
+      "года",
+      "лет",
+      "годы"
+     ],
+     "ex": "1 (but not 11) takes nominative год. (Step 7 and the Numbers section)",
+     "translation": "My son is one year old.",
+     "glosses": [],
+     "n": 1
+    },
+    {
+     "part": "C",
+     "sub": "C · к, по, and age",
+     "k": "k_pron",
+     "w": "она",
+     "s": "Вечером я иду к ___.",
+     "base": "она",
+     "a": "ней",
+     "d": [
+      "ей",
+      "её",
+      "неё"
+     ],
+     "ex": "After the preposition к, ей adds н-: к ней. (Steps 4 and 6)",
+     "translation": "In the evening I'm going to her place.",
+     "glosses": []
+    }
+   ]
   }
  },
  "numbers": {

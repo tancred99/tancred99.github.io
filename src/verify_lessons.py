@@ -23,6 +23,10 @@ T = {
  "стол": ("m","на","столе"), "служба": ("f","на","службе"), "Франция": ("f","во","Франции"), "Владимир": ("m","во","Владимире"),
  "аэропорт": ("m","в","аэропорту"), "лес": ("m","в","лесу"), "мост": ("m","на","мосту"), "сад": ("m","в","саду"), "пол": ("m","на","полу"), "шкаф": ("m","в","шкафу"),
  "Америка": ("f","в","Америке"),
+ "офис": ("m","в","офисе"), "кухня": ("f","на","кухне"), "пастбище": ("n","на","пастбище"),
+ "коровник": ("m","в","коровнике"), "концерт": ("m","на","концерте"), "ферма": ("f","на","ферме"),
+ "компьютер": ("m",None,None), "письмо": ("n",None,None), "песня": ("f",None,None), "лошадь": ("f",None,None),
+ "сервер": ("m","на","сервере"), "гостиница": ("f","в","гостинице"),
 }
 # forms after о (about) mentioned in the lesson
 ABOUT = {"Минск": "Минске", "лес": "лесе", "аэропорт": "аэропорте", "Америка": "Америке"}
@@ -60,6 +64,10 @@ ACC = {
  "литургия": ("на","литургию"), "Америка": ("в","Америку"), "Россия": ("в","Россию"), "почта": ("на","почту"), "таможня": ("на","таможню"),
  "музей": ("в","музей"), "Гомель": ("в","Гомель"), "море": ("на","море"), "деревня": ("в","деревню"), "площадь": ("на","площадь"),
  "Франция": ("во","Францию"), "очередь": ("в","очередь"),
+ "программа": (None,"программу"), "файл": (None,"файл"), "кухня": ("на","кухню"),
+ "Брест": ("в","Брест"), "ферма": ("на","ферму"), "песня": (None,"песню"),
+ "коровник": ("в","коровник"), "офис": ("в","офис"), "корм": (None,"корм"),
+ "концерт": ("на","концерт"), "письмо": (None,"письмо"), "икона": (None,"икону"),
 }
 MANUAL = {"Джексон": ("m","в","Джексоне","Джексон")}  # the city; the dictionary only has the surname
 for w,(pr,acc) in ACC.items():
@@ -119,7 +127,17 @@ def check_l3(e):
     toks = [w.strip("?,.!").lower() for w in e["s"].split()]
     ps = {PRON[w] for w in toks if w in PRON}
     if ps and ps != {e["p"]}: errs.append("L3 subject pronoun vs person: %s (%s)" % (e["s"],e["p"]))
-    if not ps and e["p"] != "3s": errs.append("L3 noun subject should be 3s: "+e["s"])
+    if not ps and e["p"] != "3s":
+        plural_noun = False
+        if e["p"] == "3p":
+            for tok in toks:
+                for q in M.parse(tok):
+                    if q.tag.POS == "NOUN" and "nomn" in q.tag and "plur" in q.tag:
+                        plural_noun = True
+                        break
+                if plural_noun: break
+        if not plural_noun:
+            errs.append("L3 noun subject should be 3s: "+e["s"])
     for d in e["d"]:
         if nrm(d) == nrm(e["a"]): errs.append("L3 distractor equals answer (ignoring ё): "+d)
     if e["base"] not in GROUP3: errs.append("L3 verb not covered by the lesson's groups: "+e["base"])
@@ -146,7 +164,9 @@ TABLE4 = {"брат":"брата","друг":"друга","сосед":"сосе
  "деревня":"деревни","церковь":"церкви","соль":"соли","подруга":"подруги","собака":"собаки","кошка":"кошки","дача":"дачи",
  "батюшка":"батюшки","курица":"курицы","папа":"папы","дедушка":"дедушки","трактор":"трактора","хлеб":"хлеба","служба":"службы",
  "интернет":"интернета","трава":"травы","время":"времени","сдача":"сдачи","виза":"визы","телефон":"телефона","рыба":"рыбы",
- "терминал":"терминала","дом":"дома","билет":"билета","вода":"воды","сосед":"соседа","храм":"храма"}
+ "терминал":"терминала","дом":"дома","билет":"билета","вода":"воды","сосед":"соседа","храм":"храма",
+ "компьютер":"компьютера","машина":"машины","индюк":"индюка","песня":"песни","ключ":"ключа",
+ "пароль":"пароля","коза":"козы","коллега":"коллеги"}
 for w,g in TABLE4.items():
     if g.lower() not in gen(w): errs.append("L4 genitive %s: lesson %s, dict %s" % (w,g,gen(w)))
 PRONG = {"я":"меня","ты":"тебя","он":"него","она":"неё","мы":"нас","вы":"вас","они":"них"}
@@ -224,6 +244,146 @@ def check_l5(e):
         if {nrm(d) for d in e["d"]} != others: errs.append("L5 distractors not the other three forms: %s %s" % (e["d"],others))
 
 
+# Review 1: mixed items from lessons 1–4.
+GENDER = {"компьютер":"masculine","письмо":"neuter","песня":"feminine","лошадь":"feminine"}
+def check_r1(e):
+    k, a = e["k"], e["a"]
+    if k == "gender":
+        w = e["s"].split(" — ")[0]
+        if GENDER.get(w) != a: errs.append("R1 gender %s: %s" % (w,a))
+        return
+    if k == "where":
+        w = e["base"]
+        if T[w][2] != a: errs.append("R1 where %s: %s vs %s" % (w,a,T[w][2]))
+        pre = e["s"].split("___")[0].split()[-1]
+        if pre != T[w][1]: errs.append("R1 prep in sentence %s: %s vs %s" % (w,pre,T[w][1]))
+        return
+    if k == "ven":
+        w = e["base"].split(" · ")[0]
+        exp = T[w][1]+" "+T[w][2]
+        if a != exp: errs.append("R1 ven %s: %s vs %s" % (w,a,exp))
+        return
+    if k == "acc":
+        w = e["base"]
+        if ACC[w][1] != a: errs.append("R1 acc %s: %s vs %s" % (w,a,ACC[w][1]))
+        return
+    if k == "whereto":
+        w = e["base"].split(" · ")[0]
+        exp = ACC[w][0]+" "+ACC[w][1]
+        if a != exp: errs.append("R1 whereto %s: %s vs %s" % (w,a,exp))
+        # the где? form should be among the distractors when it differs
+        if w in T and T[w][1] and T[w][2]:
+            other = T[w][1]+" "+T[w][2]
+            if other != exp and other not in e["d"]:
+                errs.append("R1 whereto missing где? distractor %s" % e["s"])
+        return
+    if k == "verb":
+        check_l3(e)
+        return
+    if k in ("own","not","have","notc"):
+        e2 = dict(e)
+        e2["k"] = "not" if k == "notc" else k
+        e2["part"] = {"own":"A","not":"B","have":"C","notc":"C"}[k]
+        check_l4(e2)
+        return
+    errs.append("R1 unknown k %s: %s" % (k,e["s"]))
+
+# Lesson 6: animate accusative.
+PRONA = {"я":"меня","ты":"тебя","он":"его","она":"её","оно":"его","мы":"нас","вы":"вас","они":"их"}
+def acc_set(w, num, prefer_anim=None):
+    out=set()
+    for q in M.parse(w):
+        if q.tag.POS != "NOUN": continue
+        if nrm(q.normal_form) != nrm(w) and not (num=="plur" and nrm(q.normal_form) in {nrm(w)}):
+            # allow asking from the lemma only
+            if nrm(q.normal_form) != nrm(w): continue
+        if prefer_anim is True and "anim" not in q.tag: continue
+        if prefer_anim is False and "anim" in q.tag: continue
+        if "Geox" in q.tag or "Infr" in q.tag or "Fixd" in q.tag: continue
+        x = q.inflect({"accs", num})
+        if x: out.add(x.word)
+    return out
+def check_l6(e):
+    w, a, k = e["w"], e["a"], e["k"]
+    if k == "pron":
+        if nrm(a) != nrm(PRONA[w]): errs.append("L6 pronoun %s: %s vs %s" % (w,a,PRONA[w]))
+        for d in e["d"]:
+            if nrm(d)==nrm(a): errs.append("L6 distractor = answer "+e["s"])
+        return
+    num = "plur" if k.endswith("_pl") else "sing"
+    prefer = False if k.startswith("inan") else True if k in ("anim_m","anim_pl","fem","masc_a","soft_f") else None
+    forms = acc_set(w, num, prefer if k.startswith("inan") or k.startswith("anim") else None)
+    # For fem / masc_a / soft_f, take the obvious noun reading (animate if there is one for people/animals).
+    if k in ("fem","masc_a","soft_f","inan_m","inan_pl","anim_m","anim_pl"):
+        if not forms:
+            forms = acc_set(w, num, None)
+        if nrm(a) not in {nrm(x) for x in forms}:
+            errs.append("L6 answer %s %s: %s, dict %s" % (k,w,a,forms))
+    for d in e["d"]:
+        if nrm(d)==nrm(a): errs.append("L6 distractor = answer "+e["s"])
+
+# Lesson 7: dative.
+PROND = {"я":"мне","ты":"тебе","он":"ему","она":"ей","оно":"ему","мы":"нам","вы":"вам","они":"им"}
+PROND_PREP = {"он":"нему","она":"ней","они":"ним"}
+def dat_set(w, num):
+    out=set()
+    lemmas = {nrm(w)}
+    # дети / люди are the plural lemmas of ребёнок / человек
+    if nrm(w)=="дети": lemmas.add("ребёнок"); lemmas.add("ребенок")
+    if nrm(w)=="люди": lemmas.add("человек")
+    for q in M.parse(w):
+        if q.tag.POS != "NOUN": continue
+        x = q.inflect({"datv", num})
+        if x: out.add(x.word)
+    if not out:
+        for lemma in lemmas:
+            for q in M.parse(lemma):
+                if q.tag.POS != "NOUN": continue
+                x = q.inflect({"datv", num})
+                if x: out.add(x.word)
+    return out
+def year_word(n):
+    if 11 <= (n % 100) <= 14: return "лет"
+    r = n % 10
+    if r == 1: return "год"
+    if r in (2,3,4): return "года"
+    return "лет"
+def check_l7(e):
+    w, a, k = e["w"], e["a"], e["k"]
+    if k in ("pron","age_pron"):
+        exp = PROND[w]
+        if nrm(a) != nrm(exp): errs.append("L7 pronoun %s: %s vs %s" % (w,a,exp))
+        return
+    if k == "k_pron":
+        exp = PROND_PREP[w]
+        if nrm(a) != nrm(exp): errs.append("L7 prep pronoun %s: %s vs %s" % (w,a,exp))
+        return
+    if k == "nslike":
+        g = e.get("g","sg")
+        exp = past if False else None
+        tag = {"3per","pres","plur" if g=="pl" else "sing","indc"}
+        got=None
+        for q in M.parse("нравиться"):
+            if q.tag.POS=="INFN":
+                x=q.inflect(tag)
+                if x: got=x.word; break
+        if not got or nrm(got)!=nrm(a): errs.append("L7 нравиться %s: %s vs %s" % (e["s"],a,got))
+        return
+    if k == "age_unit":
+        exp = year_word(e["n"])
+        if a != exp: errs.append("L7 year word n=%s: %s vs %s" % (e["n"],a,exp))
+        return
+    num = "plur" if k in ("dat_pl","po") and ("plural" in e.get("base","") or e.get("base") in ("дети","люди") or k=="dat_pl" and e["base"].endswith("plural") or e.get("base") in ("суббота · plural","воскресенье · plural","корова · plural","курица · plural")) else "sing"
+    if k == "dat_pl" or (k=="po" and "plural" in e.get("base","")):
+        num="plur"
+    elif k in ("dat_sg","k") or (k=="po" and "plural" not in e.get("base","")):
+        num="sing"
+    forms = dat_set(w, num)
+    if nrm(a) not in {nrm(x) for x in forms}:
+        errs.append("L7 answer %s %s %s: %s, dict %s" % (k,w,num,a,forms))
+    for d in e["d"]:
+        if nrm(d)==nrm(a): errs.append("L7 distractor = answer "+e["s"])
+
 n = 0
 for lid,les in L["lessons"].items():
     for e in les["exercises"]:
@@ -260,6 +420,15 @@ for lid,les in L["lessons"].items():
             continue
         if lid == "L5":
             check_l5(e)
+            continue
+        if lid == "R1":
+            check_r1(e)
+            continue
+        if lid == "L6":
+            check_l6(e)
+            continue
+        if lid == "L7":
+            check_l7(e)
             continue
         if e["part"] == "A":
             w = e["s"].split(" — ")[0]
