@@ -110,7 +110,7 @@ def distractors(g,c,a):
     return out[:3]
 def cap(w,on): return w[0].upper()+w[1:] if on else w
 if __name__=="__main__":
-    ex=[e for e in json.load(open('exercises.json')) if e.get('cat')!='kakoy']
+    ex=[e for e in json.load(open('exercises.json')) if e.get('cat')!='kakoy' or e.get('src')=='bank']
     nid=max(e['id'] for e in ex)+1
     for g,c,s,noun,tr,expl,gl in X:
         a=F[g][c]; d=distractors(g,c,a); up=s.startswith('___')

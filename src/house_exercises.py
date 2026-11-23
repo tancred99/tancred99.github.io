@@ -40,7 +40,7 @@ X=[
 (B,"asp","Можно ___ обувь?","снимать / снять","снять",[],["снимать","сниму","снял"],"Asking permission for one action → perfective снять.","May I take off my shoes?",["обувь: shoes"]),
 (B,"asp","Проходите, ___!","садиться / сесть","садитесь",[],["сидите","садиться","сидеть"],"A warm invitation to sit down uses the imperfective imperative: садитесь. Сидите means 'stay seated'.","Come in, have a seat!",["проходите: come in"]),
 ]
-ex=[e for e in json.load(open('exercises.json')) if e.get('cat')!='home']
+ex=[e for e in json.load(open('exercises.json')) if e.get('cat')!='home' or e.get('src')=='bank']
 nid=max(e['id'] for e in ex)+1
 for lv,sub,s,base,a,alt,d,expl,tr,gl in X:
     assert s.count('___')==1 and a not in d and len(set(d))==3, s

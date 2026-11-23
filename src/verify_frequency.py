@@ -19,7 +19,8 @@ def clauses(s): return re.split(r"[.!?:—]|, (?:а|но|когда|поэтом
 def neg_ok(s):
     # each clause that contains a ни-word must also contain the particle не (not «ни» alone, not «не ни…»)
     for c in clauses(s):
-        if NI.search(c) and not re.search(r"\bне\b", c, re.I): return False
+        # «нет» (не + есть) also counts: ничего нет, никого нет
+        if NI.search(c) and not re.search(r"\bне(?:т)?\b", c, re.I): return False
         if re.search(r"\bне\s+(никогда|ничего|никто)\b", c, re.I): return False
         if re.search(r"\bни\s+(когда|работаю)\b", c, re.I): return False
     return True
@@ -27,6 +28,7 @@ unknown = set(); meaning = []
 # self-test of the rule
 assert neg_ok("Я никогда не пью водку.") and not neg_ok("Я никогда пью водку.") and not neg_ok("Я не никогда пью водку.")
 assert neg_ok("Я иногда не работаю в субботу.") and not neg_ok("Я ни разу был в Москве.")
+assert neg_ok("В холодильнике ничего нет.") and neg_ok("Никого нет дома.")
 for e in F:
     if e["s"].count("___") != 1: errs.append("blank count %d" % e["id"])
     if e["a"] in e["d"] or len(set(e["d"])) != len(e["d"]) or len(e["d"]) < 2: errs.append("options %d" % e["id"])
@@ -41,7 +43,7 @@ for e in F:
     if re.search(r"\b(всегда|часто|редко)\s+не\b", good, re.I) and e["sub"].startswith("context"):
         errs.append("positive adverb + не in answer %d" % e["id"])
     # gap items whose sentence has «___ не» need a negative answer (никогда, ни разу, почти никогда) and vice versa
-    if e["s"].startswith("___") is False and "___ не " in e["s"] and e["a"].lower() not in ("никогда", "ни разу", "почти никогда", "ничего", "никто"):
+    if e["s"].startswith("___") is False and "___ не " in e["s"] and e["a"].lower() not in ("никогда", "ни разу", "почти никогда", "ничего", "никто", "никого", "никому", "никуда", "нигде", "ничем"):
         errs.append("blank before не but answer is %s (%d)" % (e["a"], e["id"]))
     # any distractor that keeps a ни-word and is grammatical by this rule would be a second right answer for sentence items
     if e.get("choiceOnly"):

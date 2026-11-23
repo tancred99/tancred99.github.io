@@ -160,7 +160,7 @@ def items():
         out.append(dict(level=lv,cat="frequency",sub=sub,s="___",base='Which sentence means: "'+en+'"',a=a,alt=[],d=d,ex=ex,translation="",glosses=[],choiceOnly=True))
     return out
 if __name__=="__main__":
-    ex=[e for e in json.load(open('exercises.json')) if e.get('cat')!='frequency']
+    ex=[e for e in json.load(open('exercises.json')) if e.get('cat')!='frequency' or e.get('src')=='bank']
     nid=max(e['id'] for e in ex)+1
     new=items()
     # A1-A2 first, then B1-C1 (same ordering idea as kakoy)

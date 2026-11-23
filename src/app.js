@@ -149,7 +149,11 @@ function renderControls(){
     $("vdrills").innerHTML=VDRILLS.map(function(d){return '<button class="chip" data-vdrill="'+d[0]+'" aria-pressed="'+(st.vdrill===d[0])+'">'+d[1]+'</button>'}).join("");
   }
   var subs=subsFor();if(subs.indexOf(st.sub)<0)st.sub="all";
-  $("sub").innerHTML='<option value="all">'+(st.tab==="vocab"?"All drill types":"All subtopics")+'</option>'+subs.map(function(s){return '<option value="'+esc(s)+'"'+(st.sub===s?" selected":"")+'>'+esc(s)+'</option>'}).join("");
+  var subN={};
+  if(st.tab==="grammar")lvl().forEach(function(e){if(st.cat==="all"||e.cat===st.cat)subN[e.sub]=(subN[e.sub]||0)+1});
+  var allLabel=st.tab==="vocab"?"All drill types":"All subtopics";
+  var allCount=st.tab==="grammar"?(st.cat==="all"?lvl().length:lvl().filter(function(e){return e.cat===st.cat}).length):0;
+  $("sub").innerHTML='<option value="all">'+allLabel+(allCount?" · "+allCount:"")+'</option>'+subs.map(function(s){return '<option value="'+esc(s)+'"'+(st.sub===s?" selected":"")+'>'+esc(s)+(subN[s]!=null?" · "+subN[s]:"")+'</option>'}).join("");
   $("modes").innerHTML=MODES.map(function(m){return '<button class="chip" data-mode="'+m[0]+'" aria-pressed="'+(st.mode===m[0])+'">'+m[1]+'</button>'}).join("");
 }
 
