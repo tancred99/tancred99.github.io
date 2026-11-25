@@ -13,6 +13,8 @@ var RuEngine = (function () {
     "глаз": ["глаза", "глаз"], "раз": ["разы", "раз"], "солдат": ["солдаты", "солдат"], "господин": ["господа", "господ"], "хозяин": ["хозяева", "хозяев"],
     "гражданин": ["граждане", "граждан"], "англичанин": ["англичане", "англичан"], "белорус": ["белорусы", "белорусов"] };
   var IRREG_ALL = ["мать", "дочь", "время", "имя", "путь", "ребёнок", "человек", "гражданин", "англичанин", "церковь", "любовь", "господин"];
+  var IRREG_DPL = { "брат": "братьям", "друг": "друзьям", "сын": "сыновьям", "муж": "мужьям", "человек": "людям", "ребёнок": "детям", "мать": "матерям", "дочь": "дочерям", "сосед": "соседям", "сестра": "сёстрам" };
+  var IRREG_IPL = { "брат": "братьями", "друг": "друзьями", "сын": "сыновьями", "муж": "мужьями", "человек": "людьми", "ребёнок": "детьми", "мать": "матерями", "дочь": "дочерьми", "сосед": "соседями", "сестра": "сёстрами" };
   function isV(c) { return VOW.indexOf(c) >= 0; }
   function L(s, n) { return s.charAt(s.length - (n || 1)).toLowerCase(); }
   function vowelCount(s) { var n = 0; for (var i = 0; i < s.length; i++) if (isV(s.charAt(i).toLowerCase())) n++; return n; }
@@ -105,6 +107,8 @@ var RuEngine = (function () {
     var lw = ru.toLowerCase();
     if (IRREG_ALL.indexOf(lw) >= 0 && !(w.forms && Object.keys(w.forms).length)) { allUnc("This word is irregular. Type its forms."); }
     if (IRREG_PL[lw]) { f.npl = IRREG_PL[lw][0]; f.gpl = IRREG_PL[lw][1]; delete unc.npl; delete unc.gpl; }
+    if (IRREG_DPL[lw]) { f.dpl = IRREG_DPL[lw]; delete unc.dpl; }
+    if (IRREG_IPL[lw]) { f.ipl = IRREG_IPL[lw]; delete unc.ipl; }
     // explicit forms always win
     var ov = w.forms || {};
     Object.keys(ov).forEach(function (k) { if (ov[k]) { f[k] = ov[k]; delete unc[k]; } });
@@ -121,6 +125,7 @@ var RuEngine = (function () {
       out[k] = d.f[k];
     });
     if (d.f.loc) out.loc = d.f.loc;
+    ["dpl", "ipl"].forEach(function (k) { if (d.f[k] && !d.unc[k]) out[k] = d.f[k]; });
     return out;
   }
 
@@ -268,7 +273,7 @@ var RuEngine = (function () {
     return out;
   }
   function distractorsFrom(F, ans, w) {
-    var pool = uniq([w.ru, F.gen, F.dat, F.acc, F.ins, F.prep, F.loc, F.npl, F.gpl], ans);
+    var pool = uniq([w.ru, F.gen, F.dat, F.acc, F.ins, F.prep, F.loc, F.npl, F.gpl, F.dpl, F.ipl], ans);
     return shuffle(pool).slice(0, 3);
   }
 
@@ -305,6 +310,23 @@ var RuEngine = (function () {
             translation: fillEn(tpl[1], w, false), glosses: gl, word: w.ru
           });
         });
+        if (F.dpl && skip.indexOf("dat") < 0 && (w.kind === "person" || w.kind === "animal" || plOnly)) {
+          out.push({
+            cat: "vocab", sub: "dative plural", s: "Я звоню ___.", base: w.ru + ", plural", a: F.dpl, alt: [],
+            d: distractorsFrom(F, F.dpl, w),
+            ex: "Звонить кому? takes the dative plural. " + w.ru + " → " + F.dpl + ".",
+            translation: "I'm calling the " + enPl(w) + ".", glosses: gl, word: w.ru
+          });
+        }
+        if (F.ipl && skip.indexOf("ins") < 0 && (w.kind === "person" || w.kind === "animal" || plOnly)) {
+          var ip = prepFix("с", F.ipl);
+          out.push({
+            cat: "vocab", sub: "instrumental plural", s: "Я живу " + ip + " ___.", base: w.ru + ", plural", a: F.ipl, alt: [],
+            d: distractorsFrom(F, F.ipl, w),
+            ex: "С (with) takes the instrumental plural. " + w.ru + " → " + F.ipl + ".",
+            translation: "I live with the " + enPl(w) + ".", glosses: gl, word: w.ru
+          });
+        }
       }
       var countable = !w.mass && !plOnly && w.kind !== "event";
       var numOk = countable && !w.nonum; // nonum: adjective-type nouns (ванная) need adjective endings after 2-4

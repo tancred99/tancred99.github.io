@@ -36927,5 +36927,941 @@
   ],
   "src": "bank",
   "id": 1896
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "Я путешествую с ___.",
+  "base": "друг",
+  "a": "друзьями",
+  "alt": [],
+  "d": [
+   "друг",
+   "друга",
+   "другу"
+  ],
+  "ex": "С (with) takes the instrumental plural. Друг → друзья → друзьями, not “другами”.",
+  "translation": "I travel with friends.",
+  "glosses": [
+   "путешествовать: to travel"
+  ],
+  "src": "bank",
+  "id": 1897
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "Я работаю с ___.",
+  "base": "коллега",
+  "a": "коллегами",
+  "alt": [],
+  "d": [
+   "коллега",
+   "коллегу",
+   "коллеги"
+  ],
+  "ex": "С + instrumental plural: коллеги → коллегами.",
+  "translation": "I work with colleagues.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1898
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "Мы часто говорим с ___.",
+  "base": "врач",
+  "a": "врачами",
+  "alt": [],
+  "d": [
+   "врач",
+   "врача",
+   "врачу"
+  ],
+  "ex": "С + instrumental plural: врачи → врачами.",
+  "translation": "We often talk with doctors.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1899
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "Я живу рядом с ___.",
+  "base": "родитель",
+  "a": "родителями",
+  "alt": [],
+  "d": [
+   "родитель",
+   "родителя",
+   "родителю"
+  ],
+  "ex": "Рядом с (next to) takes the instrumental: родители → родителями.",
+  "translation": "I live next to my parents.",
+  "glosses": [
+   "родители: parents",
+   "рядом с: next to"
+  ],
+  "src": "bank",
+  "id": 1900
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "Я работаю со ___.",
+  "base": "студент",
+  "a": "студентами",
+  "alt": [],
+  "d": [
+   "студент",
+   "студента",
+   "студенту"
+  ],
+  "ex": "Со (not с) before ст-: со студентами. Regular -ами.",
+  "translation": "I work with students.",
+  "glosses": [
+   "студент: student"
+  ],
+  "src": "bank",
+  "id": 1901
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "Мы едим ___ и вилками.",
+  "base": "нож",
+  "a": "ножами",
+  "alt": [],
+  "d": [
+   "нож",
+   "ножа",
+   "ножу"
+  ],
+  "ex": "Чем? The tool is instrumental plural, with no с: ножи → ножами.",
+  "translation": "We eat with knives and forks.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1902
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "Мы едим суп ложками и ___.",
+  "base": "вилка",
+  "a": "вилками",
+  "alt": [],
+  "d": [
+   "вилка",
+   "вилку",
+   "вилки"
+  ],
+  "ex": "Чем? Вилки → вилками.",
+  "translation": "We eat soup with spoons and forks.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1903
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "Чем мы обычно едим щи? ___.",
+  "base": "ложка",
+  "a": "ложками",
+  "alt": [],
+  "d": [
+   "ложка",
+   "ложку",
+   "ложки"
+  ],
+  "ex": "Чем? Ложки → ложками. No с.",
+  "translation": "What do we usually eat shchi with? With spoons.",
+  "glosses": [
+   "щи: cabbage soup"
+  ],
+  "src": "bank",
+  "id": 1904
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "Мы пишем ___.",
+  "base": "ручка",
+  "a": "ручками",
+  "alt": [],
+  "d": [
+   "ручка",
+   "ручку",
+   "ручки"
+  ],
+  "ex": "Чем? Ручки → ручками.",
+  "translation": "We write with pens.",
+  "glosses": [
+   "ручка: pen"
+  ],
+  "src": "bank",
+  "id": 1905
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "Мы рисуем ручками и ___.",
+  "base": "карандаш",
+  "a": "карандашами",
+  "alt": [],
+  "d": [
+   "карандаш",
+   "карандаша",
+   "карандашу"
+  ],
+  "ex": "Чем? Карандаши → карандашами.",
+  "translation": "We draw with pens and pencils.",
+  "glosses": [
+   "карандаш: pencil",
+   "рисовать: to draw"
+  ],
+  "src": "bank",
+  "id": 1906
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "Чем мы стрижём волосы? ___.",
+  "base": "ножницы",
+  "a": "ножницами",
+  "alt": [],
+  "d": [
+   "ножницы",
+   "ножниц",
+   "ножницам"
+  ],
+  "ex": "Ножницы is plural only: ножницами. Чем? — no с.",
+  "translation": "What do we cut hair with? With scissors.",
+  "glosses": [
+   "стричь: to cut (hair)",
+   "ножницы: scissors"
+  ],
+  "src": "bank",
+  "id": 1907
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "В китайском ресторане мы едим ___.",
+  "base": "палочка",
+  "a": "палочками",
+  "alt": [],
+  "d": [
+   "палочка",
+   "палочку",
+   "палочки"
+  ],
+  "ex": "Палочки (chopsticks) are used in the plural: палочками.",
+  "translation": "In a Chinese restaurant we eat with chopsticks.",
+  "glosses": [
+   "палочка: stick; chopsticks (pl.)"
+  ],
+  "src": "bank",
+  "id": 1908
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "Зимой мы пользуемся ___.",
+  "base": "лыжи",
+  "a": "лыжами",
+  "alt": [],
+  "d": [
+   "лыжи",
+   "лыж",
+   "лыжам"
+  ],
+  "ex": "Лыжи is used as a pair: пользоваться + instrumental → лыжами.",
+  "translation": "In winter we use skis.",
+  "glosses": [
+   "пользоваться: to use",
+   "лыжи: skis"
+  ],
+  "src": "bank",
+  "id": 1909
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "Я часто гуляю с красивыми ___.",
+  "base": "женщина",
+  "a": "женщинами",
+  "alt": [],
+  "d": [
+   "женщина",
+   "женщину",
+   "женщины"
+  ],
+  "ex": "С + instrumental plural: женщины → женщинами. Красивыми agrees (instrumental plural).",
+  "translation": "I often go for a walk with beautiful women.",
+  "glosses": [
+   "женщина: woman"
+  ],
+  "src": "bank",
+  "id": 1910
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "Батюшка после службы говорит с ___.",
+  "base": "человек",
+  "a": "людьми",
+  "alt": [],
+  "d": [
+   "человек",
+   "человека",
+   "человеку"
+  ],
+  "ex": "Exception: человек → люди → людьми, not “людями”.",
+  "translation": "After the service Father talks with the people.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1911
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "На работе я каждый день советуюсь с ___.",
+  "base": "адвокат",
+  "a": "адвокатами",
+  "alt": [],
+  "d": [
+   "адвокат",
+   "адвоката",
+   "адвокату"
+  ],
+  "ex": "С + instrumental plural: адвокаты → адвокатами.",
+  "translation": "At work I consult with lawyers every day.",
+  "glosses": [
+   "адвокат: lawyer"
+  ],
+  "src": "bank",
+  "id": 1912
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "Мы ездили в Минск с ___.",
+  "base": "брат",
+  "a": "братьями",
+  "alt": [],
+  "d": [
+   "брат",
+   "брата",
+   "брату"
+  ],
+  "ex": "Брат → братья → братьями, not “братами”.",
+  "translation": "We went to Minsk with (our) brothers.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1913
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "Она живёт с ___.",
+  "base": "сестра",
+  "a": "сёстрами",
+  "alt": [],
+  "d": [
+   "сестра",
+   "сестру",
+   "сестры"
+  ],
+  "ex": "Сестра → сёстры → сёстрами.",
+  "translation": "She lives with (her) sisters.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1914
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "Между этими ___ находится река.",
+  "base": "страна",
+  "a": "странами",
+  "alt": [],
+  "d": [
+   "страна",
+   "страну",
+   "страны"
+  ],
+  "ex": "Между (between) takes the instrumental plural: страны → странами.",
+  "translation": "The river is between these countries.",
+  "glosses": [
+   "страна: country"
+  ],
+  "src": "bank",
+  "id": 1915
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "Я путешествую один или с ___.",
+  "base": "семья",
+  "a": "семьёй",
+  "alt": [],
+  "d": [
+   "семья",
+   "семью",
+   "семьи"
+  ],
+  "ex": "С + instrumental singular: семья → семьёй (with ё).",
+  "translation": "I travel alone or with my family.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1916
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "dative",
+  "s": "Преподаватель читает лекцию ___.",
+  "base": "студент",
+  "a": "студентам",
+  "alt": [],
+  "d": [
+   "студент",
+   "студента",
+   "студенту"
+  ],
+  "ex": "Читать лекцию кому? Dative plural: студенты → студентам.",
+  "translation": "The lecturer is giving a lecture to the students.",
+  "glosses": [
+   "преподаватель: lecturer",
+   "лекция: lecture"
+  ],
+  "src": "bank",
+  "id": 1917
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "dative",
+  "s": "Я сказал об экскурсии ___.",
+  "base": "друг",
+  "a": "друзьям",
+  "alt": [],
+  "d": [
+   "друг",
+   "друга",
+   "другу"
+  ],
+  "ex": "Сказать кому? Друг → друзья → друзьям, not “другам”.",
+  "translation": "I told my friends about the excursion.",
+  "glosses": [
+   "экскурсия: excursion, tour"
+  ],
+  "src": "bank",
+  "id": 1918
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "dative",
+  "s": "Я купил подарки ___.",
+  "base": "сестра",
+  "a": "сёстрам",
+  "alt": [],
+  "d": [
+   "сестра",
+   "сестру",
+   "сестры"
+  ],
+  "ex": "Купить кому? Сестра → сёстры → сёстрам.",
+  "translation": "I bought presents for my sisters.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1919
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "dative",
+  "s": "Сегодня я звонил ___.",
+  "base": "родитель",
+  "a": "родителям",
+  "alt": [],
+  "d": [
+   "родитель",
+   "родителя",
+   "родителю"
+  ],
+  "ex": "Звонить кому? Родители → родителям.",
+  "translation": "I called my parents today.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1920
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "dative",
+  "s": "Мы дарим цветы ___.",
+  "base": "женщина",
+  "a": "женщинам",
+  "alt": [],
+  "d": [
+   "женщина",
+   "женщину",
+   "женщины"
+  ],
+  "ex": "Дарить кому? Женщины → женщинам.",
+  "translation": "We give flowers to women.",
+  "glosses": [
+   "дарить: to give as a gift",
+   "цветы: flowers"
+  ],
+  "src": "bank",
+  "id": 1921
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "dative",
+  "s": "Мать купила лыжи ___.",
+  "base": "дочь",
+  "a": "дочерям",
+  "alt": [],
+  "d": [
+   "дочь",
+   "дочери",
+   "дочерью"
+  ],
+  "ex": "Купить кому? Дочь → дочери → дочерям (the hidden -ер- comes back).",
+  "translation": "The mother bought skis for her daughters.",
+  "glosses": [
+   "лыжи: skis"
+  ],
+  "src": "bank",
+  "id": 1922
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "dative",
+  "s": "Анна помогает ___.",
+  "base": "брат",
+  "a": "братьям",
+  "alt": [],
+  "d": [
+   "брат",
+   "брата",
+   "брату"
+  ],
+  "ex": "Помогать кому? Брат → братья → братьям, not “братам”.",
+  "translation": "Anna helps her brothers.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1923
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "dative",
+  "s": "Благодаря ___ дети учатся в школе.",
+  "base": "родитель",
+  "a": "родителям",
+  "alt": [],
+  "d": [
+   "родитель",
+   "родителя",
+   "родителю"
+  ],
+  "ex": "Благодаря (thanks to) takes the dative, not the genitive: благодаря родителям. (Для родителей would be “for the parents.”)",
+  "translation": "Thanks to their parents, the children go to school.",
+  "glosses": [
+   "благодаря: thanks to"
+  ],
+  "src": "bank",
+  "id": 1924
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "dative",
+  "s": "Тарас послал свои фотографии ___.",
+  "base": "коллега",
+  "a": "коллегам",
+  "alt": [],
+  "d": [
+   "коллега",
+   "коллегу",
+   "коллеги"
+  ],
+  "ex": "Послать кому? Коллеги → коллегам.",
+  "translation": "Taras sent his photographs to (his) colleagues.",
+  "glosses": [
+   "послать: to send"
+  ],
+  "src": "bank",
+  "id": 1925
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "dative",
+  "s": "На прошлой неделе я приехал в Джексон к ___.",
+  "base": "друг",
+  "a": "друзьям",
+  "alt": [],
+  "d": [
+   "друг",
+   "друга",
+   "другу"
+  ],
+  "ex": "К (to a person) takes the dative, also in the plural: к друзьям.",
+  "translation": "Last week I arrived in Jackson to stay with friends.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1926
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "dative",
+  "s": "Мы ездили в Минск к моим ___.",
+  "base": "друг",
+  "a": "друзьям",
+  "alt": [],
+  "d": [
+   "друг",
+   "друга",
+   "другу"
+  ],
+  "ex": "К + dative plural: к моим друзьям.",
+  "translation": "We went to Minsk to stay with my friends.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1927
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "dative",
+  "s": "По вечерам он ходит к ___.",
+  "base": "врач",
+  "a": "врачам",
+  "alt": [],
+  "d": [
+   "врач",
+   "врача",
+   "врачу"
+  ],
+  "ex": "К + dative plural: к врачам (to people). В больницу would be to the place.",
+  "translation": "In the evenings he goes to see doctors.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1928
+ },
+ {
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "genitive (из / у / для / без): какого / какой / каких",
+  "s": "До ___ урока у них встреча?",
+  "base": "какой",
+  "a": "какого",
+  "alt": [],
+  "d": [
+   "какой",
+   "каких",
+   "какому"
+  ],
+  "ex": "До takes the genitive. Урок is masculine → до какого урока.",
+  "translation": "Until which lesson do they have a meeting?",
+  "glosses": [
+   "встреча: meeting"
+  ],
+  "src": "bank",
+  "id": 1929
+ },
+ {
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "genitive (из / у / для / без): какого / какой / каких",
+  "s": "У ___ дома мы встретимся?",
+  "base": "какой",
+  "a": "какого",
+  "alt": [],
+  "d": [
+   "какой",
+   "каких",
+   "какому"
+  ],
+  "ex": "У takes the genitive. Дом is masculine → у какого дома.",
+  "translation": "By which house shall we meet?",
+  "glosses": [],
+  "src": "bank",
+  "id": 1930
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "accusative (things): какой / какую / какое / какие",
+  "s": "В ___ город ты едешь?",
+  "base": "какой",
+  "a": "какой",
+  "alt": [],
+  "d": [
+   "какую",
+   "какое",
+   "какого"
+  ],
+  "ex": "Куда? в + accusative. Город is masculine inanimate → в какой город. (В каком городе would be где?.)",
+  "translation": "Which city are you going to?",
+  "glosses": [],
+  "src": "bank",
+  "id": 1931
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "accusative (things): какой / какую / какое / какие",
+  "s": "На ___ фестиваль мы идём?",
+  "base": "какой",
+  "a": "какой",
+  "alt": [],
+  "d": [
+   "какую",
+   "какое",
+   "какого"
+  ],
+  "ex": "Куда? на + accusative (events take на). Фестиваль is masculine → на какой фестиваль.",
+  "translation": "Which festival are we going to?",
+  "glosses": [
+   "фестиваль: festival"
+  ],
+  "src": "bank",
+  "id": 1932
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "accusative (things): какой / какую / какое / какие",
+  "s": "На ___ вечеринку ты идёшь?",
+  "base": "какой",
+  "a": "какую",
+  "alt": [],
+  "d": [
+   "какой",
+   "какая",
+   "какое"
+  ],
+  "ex": "Куда? на + accusative. Вечеринка is feminine → на какую вечеринку.",
+  "translation": "Which party are you going to?",
+  "glosses": [
+   "вечеринка: party"
+  ],
+  "src": "bank",
+  "id": 1933
+ },
+ {
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "genitive (из / у / для / без): какого / какой / каких",
+  "s": "Около ___ дачи стоит машина?",
+  "base": "какой",
+  "a": "какой",
+  "alt": [],
+  "d": [
+   "какого",
+   "какая",
+   "какую"
+  ],
+  "ex": "Около (near) takes the genitive. Дача is feminine → около какой дачи.",
+  "translation": "Near which dacha is the car standing?",
+  "glosses": [
+   "дача: dacha, country house"
+  ],
+  "src": "bank",
+  "id": 1934
+ },
+ {
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "genitive (из / у / для / без): какого / какой / каких",
+  "s": "У ___ подруги ключи?",
+  "base": "какой",
+  "a": "какой",
+  "alt": [],
+  "d": [
+   "какого",
+   "какая",
+   "какую"
+  ],
+  "ex": "У takes the genitive. Подруга is feminine → у какой подруги.",
+  "translation": "Which (female) friend has the keys?",
+  "glosses": [],
+  "src": "bank",
+  "id": 1935
+ },
+ {
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "instrumental (с / чем?): каким / какой / какими",
+  "s": "Между ___ странами находится эта река?",
+  "base": "какой",
+  "a": "какими",
+  "alt": [],
+  "d": [
+   "каким",
+   "какие",
+   "какой"
+  ],
+  "ex": "Между takes the instrumental. Страны is plural → между какими странами.",
+  "translation": "Between which countries is this river?",
+  "glosses": [
+   "страна: country"
+  ],
+  "src": "bank",
+  "id": 1936
+ },
+ {
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "dative (к / по): какому / какой / каким",
+  "s": "К ___ врачам он ходит?",
+  "base": "какой",
+  "a": "каким",
+  "alt": [],
+  "d": [
+   "какому",
+   "какие",
+   "какой"
+  ],
+  "ex": "К (to a person) takes the dative, also in the plural → к каким врачам.",
+  "translation": "Which doctors does he go to?",
+  "glosses": [],
+  "src": "bank",
+  "id": 1937
+ },
+ {
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "dative (к / по): какому / какой / каким",
+  "s": "По ___ вопросам он консультирует?",
+  "base": "какой",
+  "a": "каким",
+  "alt": [],
+  "d": [
+   "какому",
+   "какие",
+   "какой"
+  ],
+  "ex": "По takes the dative. Вопросы is plural → по каким вопросам.",
+  "translation": "On which questions does he give advice?",
+  "glosses": [
+   "вопрос: question",
+   "консультировать: to advise"
+  ],
+  "src": "bank",
+  "id": 1938
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "prepositional (в / на / о): каком / какой / каких",
+  "s": "В ___ шкафу лежит футболка?",
+  "base": "какой",
+  "a": "каком",
+  "alt": [],
+  "d": [
+   "какой",
+   "каких",
+   "какого"
+  ],
+  "ex": "Где? в + prepositional. Шкаф has the special locative -у: в шкафу, and какой agrees: в каком шкафу.",
+  "translation": "In which wardrobe is the T-shirt lying?",
+  "glosses": [
+   "шкаф: wardrobe",
+   "футболка: T-shirt"
+  ],
+  "src": "bank",
+  "id": 1939
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "nominative: какой / какая / какое / какие",
+  "s": "___ у тебя полотенце?",
+  "base": "какой",
+  "a": "Какое",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какая",
+   "Какого"
+  ],
+  "ex": "Полотенце is neuter and the subject after у тебя (nominative) → какое.",
+  "translation": "What sort of towel do you have?",
+  "glosses": [
+   "полотенце: towel"
+  ],
+  "src": "bank",
+  "id": 1940
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "prepositional (в / на / о): каком / какой / каких",
+  "s": "На ___ столе стоит стакан?",
+  "base": "какой",
+  "a": "каком",
+  "alt": [],
+  "d": [
+   "какой",
+   "каких",
+   "какого"
+  ],
+  "ex": "Где? на + prepositional. Стол is masculine → на каком столе.",
+  "translation": "On which table is the glass standing?",
+  "glosses": [],
+  "src": "bank",
+  "id": 1941
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "accusative (things): какой / какую / какое / какие",
+  "s": "В ___ зал ты идёшь?",
+  "base": "какой",
+  "a": "какой",
+  "alt": [],
+  "d": [
+   "какую",
+   "какое",
+   "какого"
+  ],
+  "ex": "Куда? в + accusative. Зал is masculine inanimate → в какой зал. (В каком зале would be где?.)",
+  "translation": "Which hall are you going into?",
+  "glosses": [
+   "зал: hall"
+  ],
+  "src": "bank",
+  "id": 1942
  }
 ]

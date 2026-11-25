@@ -1241,7 +1241,8 @@ SECTIONS7 = [
   ])
   + exl([("Мама читает книгу детям.", "Mom is reading a book to the children."),
          ("Батюшка говорит людям.", "Father is speaking to the people.")])
-  + '<p class="tip">If you remember only two plural datives this week, make them ' + ru("коровам") + " and " + ru("детям") + " / " + ru("людям") + ".</p>"},
+  + '<p class="tip">If you remember only two plural datives this week, make them ' + ru("коровам") + " and " + ru("детям") + " / " + ru("людям") + ".</p>"
+  + "<p>One more preposition takes the dative: " + ru("благодаря") + " (thanks to). " + ru("Благодаря родителям дети учатся в школе.") + " It is <b>not</b> the genitive (that would be " + ru("для родителей") + ", which you know from Lesson 9).</p>"},
  {"h": "Step 4 · The pronouns: мне, тебе, ему, ей, нам, вам, им", "open": False, "html":
   "<p>The dative pronouns are new forms — they are <b>not</b> the same as the accusative/genitive " + ru("меня, тебя, его") + ".</p>"
   + t(["Nominative", "Dative (to / for whom)", "Accusative (for contrast)", "German"], [
@@ -1286,6 +1287,7 @@ SECTIONS7 = [
     [ru("Завтра я иду к врачу."), ru("Завтра я иду в больницу.")],
     [ru("Я иду к ней."), ru("Я иду к ней домой.")],
   ])
+  + "<p>The same " + ru("к") + " works in the <b>plural</b> when you visit more than one person: " + ru("Мы ездили к друзьям в Минск") + ", " + ru("он ходит к врачам") + ".</p>"
   + "<p>" + ru("по") + " + dative covers several useful meanings: by means of, along, and “every / on (Saturdays)”:</p>"
   + exl([("Мы часто говорим по телефону.", "We often talk on the phone. (by telephone)"),
          ("По субботам я работаю на ферме.", "On Saturdays I work on the farm. (every Saturday)"),
@@ -1313,7 +1315,7 @@ SECTIONS7 = [
   + "<li>Plural: " + ru("-ам / -ям") + ". Irregular: " + ru("детям, людям") + ".</li>"
   + "<li>Pronouns: " + ru("мне, тебе, ему, ей, нам, вам, им") + ". After a preposition: " + ru("к нему, к ней, к ним") + ".</li>"
   + "<li>" + ru("мне нравится / нравятся") + " (the thing is the subject); " + ru("нужно / надо") + "; " + ru("мне холодно") + ".</li>"
-  + "<li>" + ru("к") + " + dative = to a person; " + ru("по") + " + dative = by / along / every (Saturday). Age: " + ru("мне сорок лет") + " (1 " + ru("год") + ", 2–4 " + ru("года") + ", 5+ " + ru("лет") + ").</li>"
+  + "<li>" + ru("к") + " + dative = to a person (also in the plural: " + ru("к друзьям, к врачам") + "); " + ru("по") + " + dative = by / along / every (Saturday). " + ru("благодаря") + " + dative = thanks to (" + ru("благодаря родителям") + "). Age: " + ru("мне сорок лет") + " (1 " + ru("год") + ", 2–4 " + ru("года") + ", 5+ " + ru("лет") + ").</li>"
   + "</ul>"},
 ]
 
@@ -1594,6 +1596,9 @@ LESSONS = {
 }
 
 for _k in ("L4", "L5", "R1", "L6", "L7"): LESSONS[_k]["minutes"] = LESSONS[_k]["minutes"] % len(LESSONS[_k]["exercises"])
+
+import lesson8
+LESSONS["L8"] = lesson8.build(t, ru, exl)
 
 import lesson9
 LESSONS["L9"] = lesson9.build(t, ru, exl)

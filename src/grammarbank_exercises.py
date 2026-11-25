@@ -70,6 +70,10 @@ MANUAL = {
                 "npl": "дети", "gpl": "детей", "apl": "детей", "dpl": "детям", "ipl": "детьми", "ppl": "детях"},
     "человек": {"nom": "человек", "gen": "человека", "dat": "человеку", "acc": "человека", "ins": "человеком", "prep": "человеке",
                 "npl": "люди", "gpl": "человек", "apl": "людей", "dpl": "людям", "ipl": "людьми", "ppl": "людях"},
+    "дочь": {"nom": "дочь", "gen": "дочери", "dat": "дочери", "acc": "дочь", "ins": "дочерью", "prep": "дочери",
+             "npl": "дочери", "gpl": "дочерей", "apl": "дочерей", "dpl": "дочерям", "ipl": "дочерьми", "ppl": "дочерях"},
+    "мать": {"nom": "мать", "gen": "матери", "dat": "матери", "acc": "мать", "ins": "матерью", "prep": "матери",
+             "npl": "матери", "gpl": "матерей", "apl": "матерей", "dpl": "матерям", "ipl": "матерями", "ppl": "матерях"},
 }
 
 SC = {"nom": "nomn", "gen": "gent", "dat": "datv", "acc": "accs", "ins": "ablt", "prep": "loct"}
@@ -2271,6 +2275,7 @@ def build():
     build_home_kakoy_freq()
     build_l9_bank()
     build_topup_bank()
+    build_l8_bank()
 
 
 def build_l9_bank():
@@ -2498,6 +2503,199 @@ def build_topup_bank():
     ]:
         add_noun(A, C, S, s, lemma, case, tr, ex, gl)
 
+
+
+def build_l8_bank():
+    """Lesson 8 follow-up: instrumental plural, dative-plural exceptions, and missing какой frames.
+    Appended last so earlier bank ids (1–1896) stay stable."""
+    A, B = "A1-A2", "B1-C1"
+    C = "cases"
+
+    # ---- instrumental plural (tutor set: tools, people, со, рядом с, между) ----
+    INS = "instrumental"
+    rows_ins = [
+        (A, "Я путешествую с ___.", "друг", "ipl",
+         "I travel with friends.",
+         "С (with) takes the instrumental plural. Друг → друзья → друзьями, not “другами”.",
+         ["путешествовать: to travel"]),
+        (A, "Я работаю с ___.", "коллега", "ipl",
+         "I work with colleagues.",
+         "С + instrumental plural: коллеги → коллегами.",
+         []),
+        (A, "Мы часто говорим с ___.", "врач", "ipl",
+         "We often talk with doctors.",
+         "С + instrumental plural: врачи → врачами.",
+         []),
+        (A, "Я живу рядом с ___.", "родитель", "ipl",
+         "I live next to my parents.",
+         "Рядом с (next to) takes the instrumental: родители → родителями.",
+         ["родители: parents","рядом с: next to"]),
+        (A, "Я работаю со ___.", "студент", "ipl",
+         "I work with students.",
+         "Со (not с) before ст-: со студентами. Regular -ами.",
+         ["студент: student"]),
+        (A, "Мы едим ___ и вилками.", "нож", "ipl",
+         "We eat with knives and forks.",
+         "Чем? The tool is instrumental plural, with no с: ножи → ножами.",
+         []),
+        (A, "Мы едим суп ложками и ___.", "вилка", "ipl",
+         "We eat soup with spoons and forks.",
+         "Чем? Вилки → вилками.",
+         []),
+        (A, "Чем мы обычно едим щи? ___.", "ложка", "ipl",
+         "What do we usually eat shchi with? With spoons.",
+         "Чем? Ложки → ложками. No с.",
+         ["щи: cabbage soup"]),
+        (A, "Мы пишем ___.", "ручка", "ipl",
+         "We write with pens.",
+         "Чем? Ручки → ручками.",
+         ["ручка: pen"]),
+        (A, "Мы рисуем ручками и ___.", "карандаш", "ipl",
+         "We draw with pens and pencils.",
+         "Чем? Карандаши → карандашами.",
+         ["карандаш: pencil","рисовать: to draw"]),
+        (A, "Чем мы стрижём волосы? ___.", "ножницы", "ipl",
+         "What do we cut hair with? With scissors.",
+         "Ножницы is plural only: ножницами. Чем? — no с.",
+         ["стричь: to cut (hair)","ножницы: scissors"]),
+        (A, "В китайском ресторане мы едим ___.", "палочка", "ipl",
+         "In a Chinese restaurant we eat with chopsticks.",
+         "Палочки (chopsticks) are used in the plural: палочками.",
+         ["палочка: stick; chopsticks (pl.)"]),
+        (A, "Зимой мы пользуемся ___.", "лыжи", "ipl",
+         "In winter we use skis.",
+         "Лыжи is used as a pair: пользоваться + instrumental → лыжами.",
+         ["пользоваться: to use","лыжи: skis"]),
+        (A, "Я часто гуляю с красивыми ___.", "женщина", "ipl",
+         "I often go for a walk with beautiful women.",
+         "С + instrumental plural: женщины → женщинами. Красивыми agrees (instrumental plural).",
+         ["женщина: woman"]),
+        (B, "Батюшка после службы говорит с ___.", "человек", "ipl",
+         "After the service Father talks with the people.",
+         "Exception: человек → люди → людьми, not “людями”.",
+         []),
+        (B, "На работе я каждый день советуюсь с ___.", "адвокат", "ipl",
+         "At work I consult with lawyers every day.",
+         "С + instrumental plural: адвокаты → адвокатами.",
+         ["адвокат: lawyer"]),
+        (B, "Мы ездили в Минск с ___.", "брат", "ipl",
+         "We went to Minsk with (our) brothers.",
+         "Брат → братья → братьями, not “братами”.",
+         []),
+        (B, "Она живёт с ___.", "сестра", "ipl",
+         "She lives with (her) sisters.",
+         "Сестра → сёстры → сёстрами.",
+         []),
+        (B, "Между этими ___ находится река.", "страна", "ipl",
+         "The river is between these countries.",
+         "Между (between) takes the instrumental plural: страны → странами.",
+         ["страна: country"]),
+        (B, "Я путешествую один или с ___.", "семья", "ins",
+         "I travel alone or with my family.",
+         "С + instrumental singular: семья → семьёй (with ё).",
+         []),
+    ]
+    for level, s, lemma, case, tr, ex, gl in rows_ins:
+        add_noun(level, C, INS, s, lemma, case, tr, ex, gl)
+
+    # ---- dative-plural exceptions (L7 already teaches -ам/-ям; these fill the tutor set) ----
+    DAT = "dative"
+    rows_dat = [
+        (A, "Преподаватель читает лекцию ___.", "студент", "dpl",
+         "The lecturer is giving a lecture to the students.",
+         "Читать лекцию кому? Dative plural: студенты → студентам.",
+         ["преподаватель: lecturer","лекция: lecture"]),
+        (A, "Я сказал об экскурсии ___.", "друг", "dpl",
+         "I told my friends about the excursion.",
+         "Сказать кому? Друг → друзья → друзьям, not “другам”.",
+         ["экскурсия: excursion, tour"]),
+        (A, "Я купил подарки ___.", "сестра", "dpl",
+         "I bought presents for my sisters.",
+         "Купить кому? Сестра → сёстры → сёстрам.",
+         []),
+        (A, "Сегодня я звонил ___.", "родитель", "dpl",
+         "I called my parents today.",
+         "Звонить кому? Родители → родителям.",
+         []),
+        (A, "Мы дарим цветы ___.", "женщина", "dpl",
+         "We give flowers to women.",
+         "Дарить кому? Женщины → женщинам.",
+         ["дарить: to give as a gift","цветы: flowers"]),
+        (A, "Мать купила лыжи ___.", "дочь", "dpl",
+         "The mother bought skis for her daughters.",
+         "Купить кому? Дочь → дочери → дочерям (the hidden -ер- comes back).",
+         ["лыжи: skis"]),
+        (A, "Анна помогает ___.", "брат", "dpl",
+         "Anna helps her brothers.",
+         "Помогать кому? Брат → братья → братьям, not “братам”.",
+         []),
+        (A, "Благодаря ___ дети учатся в школе.", "родитель", "dpl",
+         "Thanks to their parents, the children go to school.",
+         "Благодаря (thanks to) takes the dative, not the genitive: благодаря родителям. (Для родителей would be “for the parents.”)",
+         ["благодаря: thanks to"]),
+        (B, "Тарас послал свои фотографии ___.", "коллега", "dpl",
+         "Taras sent his photographs to (his) colleagues.",
+         "Послать кому? Коллеги → коллегам.",
+         ["послать: to send"]),
+        (B, "На прошлой неделе я приехал в Джексон к ___.", "друг", "dpl",
+         "Last week I arrived in Jackson to stay with friends.",
+         "К (to a person) takes the dative, also in the plural: к друзьям.",
+         []),
+        (B, "Мы ездили в Минск к моим ___.", "друг", "dpl",
+         "We went to Minsk to stay with my friends.",
+         "К + dative plural: к моим друзьям.",
+         []),
+        (B, "По вечерам он ходит к ___.", "врач", "dpl",
+         "In the evenings he goes to see doctors.",
+         "К + dative plural: к врачам (to people). В больницу would be to the place.",
+         []),
+    ]
+    for level, s, lemma, case, tr, ex, gl in rows_dat:
+        add_noun(level, C, DAT, s, lemma, case, tr, ex, gl)
+
+    # ---- какой: remaining tutor frames (do not regenerate kakoy_exercises.py) ----
+    Fk = {"m":{"N":"какой","A":"какой","AA":"какого","G":"какого","D":"какому","I":"каким","P":"каком"},
+          "n":{"N":"какое","A":"какое","G":"какого","D":"какому","I":"каким","P":"каком"},
+          "f":{"N":"какая","A":"какую","AA":"какую","G":"какой","D":"какой","I":"какой","P":"какой"},
+          "p":{"N":"какие","A":"какие","AA":"каких","G":"каких","D":"каким","I":"какими","P":"каких"}}
+    SUBk = {"N":"nominative: какой / какая / какое / какие",
+            "A":"accusative (things): какой / какую / какое / какие",
+            "AA":"accusative (people, animals): какого / какую / каких",
+            "P":"prepositional (в / на / о): каком / какой / каких",
+            "G":"genitive (из / у / для / без): какого / какой / каких",
+            "D":"dative (к / по): какому / какой / каким",
+            "I":"instrumental (с / чем?): каким / какой / какими"}
+    LVk = {"N":A,"A":A,"P":A,"AA":B,"G":B,"D":B,"I":B}
+    ORDERk = ["m","f","n","p"]; CASESk = ["N","A","G","D","I","P"]
+    def kdist(g_, c_, a_):
+        cc = "A" if c_ == "AA" else c_
+        same_case = [Fk[x].get(c_, Fk[x][cc]) for x in ORDERk if x != g_]
+        same_gen = [Fk[g_][k] for k in CASESk if k != cc]
+        out = []
+        for pair in zip(same_case + [None]*6, same_gen):
+            for o in pair:
+                if o and o != a_ and o not in out:
+                    out.append(o)
+        return out[:3]
+    rows_k = [
+        ("m","G","До ___ урока у них встреча?","Until which lesson do they have a meeting?","До takes the genitive. Урок is masculine → до какого урока.",["встреча: meeting"]),
+        ("m","G","У ___ дома мы встретимся?","By which house shall we meet?","У takes the genitive. Дом is masculine → у какого дома.",[]),
+        ("m","A","В ___ город ты едешь?","Which city are you going to?","Куда? в + accusative. Город is masculine inanimate → в какой город. (В каком городе would be где?.)",[]),
+        ("m","A","На ___ фестиваль мы идём?","Which festival are we going to?","Куда? на + accusative (events take на). Фестиваль is masculine → на какой фестиваль.",["фестиваль: festival"]),
+        ("f","A","На ___ вечеринку ты идёшь?","Which party are you going to?","Куда? на + accusative. Вечеринка is feminine → на какую вечеринку.",["вечеринка: party"]),
+        ("f","G","Около ___ дачи стоит машина?","Near which dacha is the car standing?","Около (near) takes the genitive. Дача is feminine → около какой дачи.",["дача: dacha, country house"]),
+        ("f","G","У ___ подруги ключи?","Which (female) friend has the keys?","У takes the genitive. Подруга is feminine → у какой подруги.",[]),
+        ("p","I","Между ___ странами находится эта река?","Between which countries is this river?","Между takes the instrumental. Страны is plural → между какими странами.",["страна: country"]),
+        ("p","D","К ___ врачам он ходит?","Which doctors does he go to?","К (to a person) takes the dative, also in the plural → к каким врачам.",[]),
+        ("p","D","По ___ вопросам он консультирует?","On which questions does he give advice?","По takes the dative. Вопросы is plural → по каким вопросам.",["вопрос: question","консультировать: to advise"]),
+        ("m","P","В ___ шкафу лежит футболка?","In which wardrobe is the T-shirt lying?","Где? в + prepositional. Шкаф has the special locative -у: в шкафу, and какой agrees: в каком шкафу.",["шкаф: wardrobe","футболка: T-shirt"]),
+        ("n","N","___ у тебя полотенце?","What sort of towel do you have?","Полотенце is neuter and the subject after у тебя (nominative) → какое.",["полотенце: towel"]),
+        ("m","P","На ___ столе стоит стакан?","On which table is the glass standing?","Где? на + prepositional. Стол is masculine → на каком столе.",[]),
+        ("m","A","В ___ зал ты идёшь?","Which hall are you going into?","Куда? в + accusative. Зал is masculine inanimate → в какой зал. (В каком зале would be где?.)",["зал: hall"]),
+    ]
+    for g_, c_, s, tr, ex, gl in rows_k:
+        a_ = Fk[g_][c_]
+        add(LVk[c_], "kakoy", SUBk[c_], s, "какой", a_, kdist(g_, c_, a_), ex, tr, gl)
 
 
 def _poss_forms(stem):

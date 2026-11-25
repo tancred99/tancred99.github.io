@@ -870,6 +870,73 @@
   "pos": "phrase"
  },
  {
+  "ru": "ножницы",
+  "en": "scissors",
+  "theme": "At the restaurant",
+  "pos": "noun",
+  "g": "pl",
+  "kind": "thing",
+  "enSg": true,
+  "note": "Plural only, like ворота and вилы: одни ножницы, ножницами.",
+  "forms": {
+   "gen": "ножниц",
+   "dat": "ножницам",
+   "acc": "ножницы",
+   "ins": "ножницами",
+   "prep": "ножницах",
+   "gpl": "ножниц"
+  }
+ },
+ {
+  "ru": "ручка",
+  "en": "pen",
+  "theme": "At the restaurant",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "note": "Here: a pen (for writing). Чем мы пишем? Ручками.",
+  "forms": {
+   "gpl": "ручек"
+  }
+ },
+ {
+  "ru": "карандаш",
+  "en": "pencil",
+  "theme": "At the restaurant",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing",
+  "es": true
+ },
+ {
+  "ru": "палочки",
+  "en": "chopsticks",
+  "theme": "At the restaurant",
+  "pos": "noun",
+  "g": "pl",
+  "kind": "thing",
+  "enSg": true,
+  "note": "Plural in this meaning (chopsticks). A single stick is палочка.",
+  "forms": {
+   "gen": "палочек",
+   "dat": "палочкам",
+   "acc": "палочки",
+   "ins": "палочками",
+   "prep": "палочках",
+   "gpl": "палочек"
+  }
+ },
+ {
+  "ru": "ужин",
+  "en": "dinner, supper",
+  "theme": "At the restaurant",
+  "pos": "noun",
+  "g": "m",
+  "kind": "event",
+  "pp": "на",
+  "note": "На ужин = for dinner. Пригласили на ужин."
+ },
+ {
   "ru": "граница",
   "en": "border",
   "theme": "At the border",
@@ -1325,6 +1392,25 @@
   "en": "I'll have a meeting. / I have a meeting (coming up).",
   "theme": "Travel",
   "pos": "phrase"
+ },
+ {
+  "ru": "путешествовать",
+  "en": "to travel (impf.)",
+  "theme": "Travel",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "путешествовать с + instrumental: путешествовать с семьёй.",
+  "conj": {
+   "1s": "путешествую",
+   "2s": "путешествуешь",
+   "3s": "путешествует",
+   "1p": "путешествуем",
+   "2p": "путешествуете",
+   "3p": "путешествуют"
+  },
+  "frames": {
+   "1s": "Я {} с друзьями."
+  }
  },
  {
   "ru": "Поехали!",
@@ -2001,6 +2087,26 @@
   "en": "at home (где?) / home, homeward (куда?)",
   "theme": "Around the house",
   "pos": "phrase"
+ },
+ {
+  "ru": "зал",
+  "en": "hall, large room",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "m",
+  "kind": "place",
+  "pp": "в"
+ },
+ {
+  "ru": "футболка",
+  "en": "T-shirt",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "forms": {
+   "gpl": "футболок"
+  }
  },
  {
   "ru": "ферма",
@@ -4143,7 +4249,13 @@
   "g": "m",
   "kind": "person",
   "anim": true,
-  "nonum": true
+  "nonum": true,
+  "forms": {
+   "npl": "мужья",
+   "gpl": "мужей",
+   "dpl": "мужьям",
+   "ipl": "мужьями"
+  }
  },
  {
   "ru": "брат",
@@ -4152,7 +4264,11 @@
   "pos": "noun",
   "g": "m",
   "kind": "person",
-  "anim": true
+  "anim": true,
+  "forms": {
+   "dpl": "братьям",
+   "ipl": "братьями"
+  }
  },
  {
   "ru": "сестра",
@@ -4164,7 +4280,9 @@
   "anim": true,
   "forms": {
    "npl": "сёстры",
-   "gpl": "сестёр"
+   "gpl": "сестёр",
+   "dpl": "сёстрам",
+   "ipl": "сёстрами"
   }
  },
  {
@@ -4196,7 +4314,11 @@
    "dat": "матери",
    "acc": "мать",
    "ins": "матерью",
-   "prep": "матери"
+   "prep": "матери",
+   "npl": "матери",
+   "gpl": "матерей",
+   "dpl": "матерям",
+   "ipl": "матерями"
   }
  },
  {
@@ -4212,7 +4334,11 @@
    "dat": "дочери",
    "acc": "дочь",
    "ins": "дочерью",
-   "prep": "дочери"
+   "prep": "дочери",
+   "npl": "дочери",
+   "gpl": "дочерей",
+   "dpl": "дочерям",
+   "ipl": "дочерьми"
   }
  },
  {
@@ -4222,7 +4348,13 @@
   "pos": "noun",
   "g": "m",
   "kind": "person",
-  "anim": true
+  "anim": true,
+  "forms": {
+   "npl": "сыновья",
+   "gpl": "сыновей",
+   "dpl": "сыновьям",
+   "ipl": "сыновьями"
+  }
  },
  {
   "ru": "тётя",
@@ -4261,7 +4393,9 @@
   "anim": true,
   "forms": {
    "npl": "друзья",
-   "gpl": "друзей"
+   "gpl": "друзей",
+   "dpl": "друзьям",
+   "ipl": "друзьями"
   }
  },
  {
@@ -4283,7 +4417,9 @@
   "anim": true,
   "forms": {
    "npl": "соседи",
-   "gpl": "соседей"
+   "gpl": "соседей",
+   "dpl": "соседям",
+   "ipl": "соседями"
   }
  },
  {
@@ -4302,7 +4438,48 @@
    "dat": "ребёнку",
    "acc": "ребёнка",
    "ins": "ребёнком",
-   "prep": "ребёнке"
+   "prep": "ребёнке",
+   "dpl": "детям",
+   "ipl": "детьми"
+  }
+ },
+ {
+  "ru": "родители",
+  "en": "parents",
+  "theme": "Family",
+  "pos": "noun",
+  "g": "pl",
+  "kind": "person",
+  "anim": true,
+  "enp": "parents",
+  "note": "Usually used in the plural: моя мама и папа = мои родители.",
+  "forms": {
+   "gen": "родителей",
+   "dat": "родителям",
+   "acc": "родителей",
+   "ins": "родителями",
+   "prep": "родителях",
+   "gpl": "родителей",
+   "dpl": "родителям",
+   "ipl": "родителями"
+  }
+ },
+ {
+  "ru": "человек",
+  "en": "person, human",
+  "theme": "Family",
+  "pos": "noun",
+  "g": "m",
+  "kind": "person",
+  "anim": true,
+  "enp": "people",
+  "note": "Irregular: человек → люди. After 5+ use человек (пять человек); after много use людей.",
+  "forms": {
+   "npl": "люди",
+   "gpl": "людей",
+   "dpl": "людям",
+   "ipl": "людьми",
+   "apl": "людей"
   }
  },
  {
@@ -4369,6 +4546,64 @@
   "en": "Let's have a call tomorrow.",
   "theme": "Work and IT",
   "pos": "phrase"
+ },
+ {
+  "ru": "врач",
+  "en": "doctor",
+  "theme": "Work and IT",
+  "pos": "noun",
+  "g": "m",
+  "kind": "person",
+  "anim": true,
+  "forms": {
+   "ins": "врачом"
+  }
+ },
+ {
+  "ru": "адвокат",
+  "en": "lawyer",
+  "theme": "Work and IT",
+  "pos": "noun",
+  "g": "m",
+  "kind": "person",
+  "anim": true
+ },
+ {
+  "ru": "студент",
+  "en": "student",
+  "theme": "Work and IT",
+  "pos": "noun",
+  "g": "m",
+  "kind": "person",
+  "anim": true
+ },
+ {
+  "ru": "учитель",
+  "en": "teacher",
+  "theme": "Work and IT",
+  "pos": "noun",
+  "g": "m",
+  "kind": "person",
+  "anim": true
+ },
+ {
+  "ru": "работать",
+  "en": "to work (impf.)",
+  "theme": "Work and IT",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "работать + instrumental = work as: работать учителем. Pf.: поработать.",
+  "conj": {
+   "1s": "работаю",
+   "2s": "работаешь",
+   "3s": "работает",
+   "1p": "работаем",
+   "2p": "работаете",
+   "3p": "работают"
+  },
+  "frames": {
+   "1s": "Я {} программистом."
+  }
  },
  {
   "ru": "На созвоне было двенадцать человек.",
@@ -4516,6 +4751,71 @@
   "g": "f",
   "kind": "abstract",
   "mass": true
+ },
+ {
+  "ru": "мероприятие",
+  "en": "event, function",
+  "theme": "In town and daily life",
+  "pos": "noun",
+  "g": "n",
+  "kind": "event",
+  "pp": "на",
+  "note": "A fundraiser is благотворительное мероприятие. Удачи на мероприятии!"
+ },
+ {
+  "ru": "женщина",
+  "en": "woman",
+  "theme": "In town and daily life",
+  "pos": "noun",
+  "g": "f",
+  "kind": "person",
+  "anim": true,
+  "forms": {
+   "gpl": "женщин"
+  }
+ },
+ {
+  "ru": "рассказывать",
+  "en": "to tell, narrate (impf.)",
+  "theme": "In town and daily life",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "рассказывать + dative (to whom) + accusative (what). Pf.: рассказать.",
+  "conj": {
+   "1s": "рассказываю",
+   "2s": "рассказываешь",
+   "3s": "рассказывает",
+   "1p": "рассказываем",
+   "2p": "рассказываете",
+   "3p": "рассказывают"
+  },
+  "frames": {
+   "1s": "Я {} истории детям."
+  }
+ },
+ {
+  "ru": "лыжи",
+  "en": "skis",
+  "theme": "In town and daily life",
+  "pos": "noun",
+  "g": "pl",
+  "kind": "thing",
+  "enSg": true,
+  "note": "Used as a pair: одни лыжи, кататься на лыжах, пользоваться лыжами.",
+  "forms": {
+   "gen": "лыж",
+   "dat": "лыжам",
+   "acc": "лыжи",
+   "ins": "лыжами",
+   "prep": "лыжах",
+   "gpl": "лыж"
+  }
+ },
+ {
+  "ru": "Удачи!",
+  "en": "Good luck!",
+  "theme": "In town and daily life",
+  "pos": "phrase"
  },
  {
   "ru": "мечтать",

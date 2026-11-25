@@ -429,6 +429,60 @@ def check_l9(e):
     for x in e.get("alt", []):
         if nrm(x) not in forms: errs.append("L9 alt not a real form: "+x)
 
+
+# Lesson 8: instrumental singular / plural (all dictionary readings), pronouns after с/со,
+# and the с / рядом с / между / перед choice. Trap forms the dictionary also lists:
+# дочерями (non-standard next to taught дочерьми), человеками / людями.
+L8_PRON = {"я": "мной", "ты": "тобой", "он": "ним", "оно": "ним", "она": "ней", "мы": "нами", "вы": "вами", "они": "ними"}
+L8_TRAP = {("дочь", "дочерями"), ("человек", "человеками"), ("человек", "людями"), ("люди", "человеками")}
+def l8_forms(w, tags):
+    out = set()
+    for q in M.parse(w):
+        if q.tag.POS not in ("NOUN", "NPRO"): continue
+        if "Surn" in q.tag or "Fixd" in q.tag: continue
+        if nrm(q.normal_form) != nrm(w) and nrm(q.word) != nrm(w): continue
+        for f in q.lexeme:
+            if tags <= f.tag.grammemes: out.add(nrm(f.word))
+    return out
+def check_l8(e):
+    k, a, w = e["k"], e["a"], e["w"]
+    if k == "pron":
+        exp = L8_PRON[w]
+        if nrm(a) != nrm(exp): errs.append("L8 pronoun %s: %s vs %s" % (w, a, exp))
+        for d in e["d"]:
+            if nrm(d) == nrm(a): errs.append("L8 distractor = answer "+e["s"])
+        return
+    if k == "prep":
+        if nrm(a) not in ("с", "со", "рядом с", "между", "перед"):
+            errs.append("L8 prep answer: "+a)
+        for d in e["d"]:
+            if nrm(d) == nrm(a): errs.append("L8 distractor = answer "+e["s"])
+        return
+    if k == "ins_sg":
+        forms = l8_forms(w, {"ablt", "sing"})
+        # лыжи / ножницы are plural-only in the lesson, but ins_sg isn't used for them
+    elif k == "ins_pl":
+        forms = l8_forms(w, {"ablt", "plur"})
+        if w in ("лыжи", "ножницы"):
+            forms |= l8_forms(w, {"ablt"})
+        if w == "родители":
+            forms |= {nrm("родителями")}
+    else:
+        errs.append("L8 unknown k %s: %s" % (k, e["s"])); return
+    if not forms:
+        # last-resort inflect
+        for q in M.parse(w):
+            x = q.inflect({"ablt", "plur"} if k == "ins_pl" else {"ablt", "sing"})
+            if x: forms.add(nrm(x.word))
+    if nrm(a) not in forms:
+        errs.append("L8 answer %s %s: %s, dict %s" % (k, w, a, sorted(forms)))
+    for d in e["d"]:
+        if nrm(d) == nrm(a): errs.append("L8 distractor = answer "+e["s"])
+        if nrm(d) in forms and (w, nrm(d)) not in L8_TRAP:
+            # archaic -ою / -ею variants are also tagged instrumental; ignore those as "also right"
+            if nrm(d).endswith(("ою", "ею", "ёю")): continue
+            errs.append("L8 distractor is also a right form %s: %s" % (d, e["s"]))
+
 n = 0
 for lid,les in L["lessons"].items():
     for e in les["exercises"]:
@@ -474,6 +528,9 @@ for lid,les in L["lessons"].items():
             continue
         if lid == "L7":
             check_l7(e)
+            continue
+        if lid == "L8":
+            check_l8(e)
             continue
         if lid == "L9":
             check_l9(e)
