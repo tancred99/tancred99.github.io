@@ -36313,5 +36313,619 @@
   "glosses": [],
   "src": "bank",
   "id": 1866
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "prepositional (в / на / о): каком / какой / каких",
+  "s": "О ___ машине ты мечтаешь?",
+  "base": "какой",
+  "a": "какой",
+  "alt": [],
+  "d": [
+   "каком",
+   "какая",
+   "какую"
+  ],
+  "ex": "Мечтать о takes the prepositional. Машина is feminine → о какой машине.",
+  "translation": "Which car do you dream of?",
+  "glosses": [
+   "мечтать: to dream (of)"
+  ],
+  "src": "bank",
+  "id": 1867
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "prepositional (в / на / о): каком / какой / каких",
+  "s": "О ___ доме ты мечтаешь?",
+  "base": "какой",
+  "a": "каком",
+  "alt": [],
+  "d": [
+   "какой",
+   "каких",
+   "какого"
+  ],
+  "ex": "Мечтать о + prepositional. Дом is masculine → о каком доме.",
+  "translation": "Which house do you dream of?",
+  "glosses": [
+   "мечтать: to dream (of)"
+  ],
+  "src": "bank",
+  "id": 1868
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "prepositional (в / на / о): каком / какой / каких",
+  "s": "О ___ работе ты думаешь?",
+  "base": "какой",
+  "a": "какой",
+  "alt": [],
+  "d": [
+   "каком",
+   "какая",
+   "какую"
+  ],
+  "ex": "Думать о takes the prepositional. Работа is feminine → о какой работе.",
+  "translation": "Which job are you thinking about?",
+  "glosses": [],
+  "src": "bank",
+  "id": 1869
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "prepositional (в / на / о): каком / какой / каких",
+  "s": "О ___ проблеме он говорит?",
+  "base": "какой",
+  "a": "какой",
+  "alt": [],
+  "d": [
+   "каком",
+   "какая",
+   "какую"
+  ],
+  "ex": "Говорить о + prepositional. Проблема is feminine → о какой проблеме.",
+  "translation": "Which problem is he talking about?",
+  "glosses": [
+   "проблема: problem"
+  ],
+  "src": "bank",
+  "id": 1870
+ },
+ {
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "dative (к / по): какому / какой / каким",
+  "s": "___ другу ты даришь подарок?",
+  "base": "какой",
+  "a": "Какому",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Каким",
+   "Какого"
+  ],
+  "ex": "Дарить кому? takes the dative. Друг is masculine → какому другу.",
+  "translation": "Which friend are you giving a present to?",
+  "glosses": [
+   "дарить: to give as a gift",
+   "подарок: present"
+  ],
+  "src": "bank",
+  "id": 1871
+ },
+ {
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "dative (к / по): какому / какой / каким",
+  "s": "___ девушке ты даёшь машину?",
+  "base": "какой",
+  "a": "Какой",
+  "alt": [],
+  "d": [
+   "Какому",
+   "Какая",
+   "Какую"
+  ],
+  "ex": "Давать кому? takes the dative. Девушка is feminine → какой девушке.",
+  "translation": "Which girl are you giving the car to?",
+  "glosses": [
+   "давать: to give"
+  ],
+  "src": "bank",
+  "id": 1872
+ },
+ {
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "dative (к / по): какому / какой / каким",
+  "s": "___ знакомому ты звонишь?",
+  "base": "какой",
+  "a": "Какому",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Каким",
+   "Какого"
+  ],
+  "ex": "Звонить кому? takes the dative. Знакомый (a person you know) is masculine → какому знакомому.",
+  "translation": "Which acquaintance are you calling?",
+  "glosses": [
+   "знакомый: acquaintance"
+  ],
+  "src": "bank",
+  "id": 1873
+ },
+ {
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "dative (к / по): какому / какой / каким",
+  "s": "___ ребёнку ты звонишь?",
+  "base": "какой",
+  "a": "Какому",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Каким",
+   "Какого"
+  ],
+  "ex": "Звонить + dative. Ребёнок is masculine → какому ребёнку.",
+  "translation": "Which child are you calling?",
+  "glosses": [],
+  "src": "bank",
+  "id": 1874
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "prepositional (в / на / о): каком / какой / каких",
+  "s": "В ___ городе ты родился?",
+  "base": "какой",
+  "a": "каком",
+  "alt": [],
+  "d": [
+   "какой",
+   "каких",
+   "какого"
+  ],
+  "ex": "Где? в + prepositional. Город is masculine → в каком городе.",
+  "translation": "Which city were you born in?",
+  "glosses": [
+   "родиться: to be born"
+  ],
+  "src": "bank",
+  "id": 1875
+ },
+ {
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "instrumental (с / чем?): каким / какой / какими",
+  "s": "___ спортом ты занимаешься?",
+  "base": "какой",
+  "a": "Каким",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какими",
+   "Какого"
+  ],
+  "ex": "Заниматься (to go in for) takes the instrumental. Спорт is masculine → каким спортом.",
+  "translation": "What sport do you do?",
+  "glosses": [
+   "заниматься: to go in for, be busy with"
+  ],
+  "src": "bank",
+  "id": 1876
+ },
+ {
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "instrumental (с / чем?): каким / какой / какими",
+  "s": "___ видами спорта ты увлекаешься?",
+  "base": "какой",
+  "a": "Какими",
+  "alt": [],
+  "d": [
+   "Каким",
+   "Какие",
+   "Какой"
+  ],
+  "ex": "Увлекаться takes the instrumental. Виды is plural → какими видами.",
+  "translation": "Which sports are you keen on?",
+  "glosses": [
+   "увлекаться: to be keen on, into",
+   "вид спорта: a sport"
+  ],
+  "src": "bank",
+  "id": 1877
+ },
+ {
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "dative (к / по): какому / какой / каким",
+  "s": "___ детям подарили подарки?",
+  "base": "какой",
+  "a": "Каким",
+  "alt": [],
+  "d": [
+   "Какому",
+   "Какие",
+   "Какой"
+  ],
+  "ex": "The children are the indirect object (кому?): dative plural → каким детям.",
+  "translation": "Which children were given presents?",
+  "glosses": [
+   "подарить: to give as a gift (pf.)"
+  ],
+  "src": "bank",
+  "id": 1878
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "nominative: какой / какая / какое / какие",
+  "s": "___ они люди?",
+  "base": "какой",
+  "a": "Какие",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какая",
+   "Каких"
+  ],
+  "ex": "Люди is plural and the predicate after они (nominative) → какие.",
+  "translation": "What kind of people are they?",
+  "glosses": [],
+  "src": "bank",
+  "id": 1879
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "accusative (things): какой / какую / какое / какие",
+  "s": "В ___ деревню мы едем?",
+  "base": "какой",
+  "a": "какую",
+  "alt": [],
+  "d": [
+   "какой",
+   "какая",
+   "какое"
+  ],
+  "ex": "Куда? в + accusative. Деревня is feminine → в какую деревню. (В какой деревне would be где?.)",
+  "translation": "Which village are we going to?",
+  "glosses": [
+   "деревня: village"
+  ],
+  "src": "bank",
+  "id": 1880
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "accusative (things): какой / какую / какое / какие",
+  "s": "___ дверь она открыла?",
+  "base": "какой",
+  "a": "Какую",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какая",
+   "Какое"
+  ],
+  "ex": "Дверь is feminine, the direct object of открыла → какую.",
+  "translation": "Which door did she open?",
+  "glosses": [],
+  "src": "bank",
+  "id": 1881
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "nominative: какой / какая / какое / какие",
+  "s": "___ учительница дала задание?",
+  "base": "какой",
+  "a": "Какая",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какую",
+   "Какое"
+  ],
+  "ex": "Учительница is feminine and the subject (nominative) → какая.",
+  "translation": "Which teacher gave the assignment?",
+  "glosses": [
+   "учительница: (female) teacher",
+   "задание: assignment"
+  ],
+  "src": "bank",
+  "id": 1882
+ },
+ {
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "genitive (из / у / для / без): какого / какой / каких",
+  "s": "Для ___ брата она купила подарки?",
+  "base": "какой",
+  "a": "какого",
+  "alt": [],
+  "d": [
+   "какой",
+   "каких",
+   "какому"
+  ],
+  "ex": "Для takes the genitive. Брат is masculine → для какого брата.",
+  "translation": "Which brother did she buy the presents for?",
+  "glosses": [],
+  "src": "bank",
+  "id": 1883
+ },
+ {
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "dative (к / по): какому / какой / каким",
+  "s": "По ___ улице мы идём?",
+  "base": "какой",
+  "a": "какой",
+  "alt": [],
+  "d": [
+   "какому",
+   "какая",
+   "какую"
+  ],
+  "ex": "По (along) takes the dative. Улица is feminine → по какой улице.",
+  "translation": "Which street are we walking along?",
+  "glosses": [],
+  "src": "bank",
+  "id": 1884
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "nominative: какой / какая / какое / какие",
+  "s": "___ блюдо популярно во Флориде?",
+  "base": "какой",
+  "a": "Какое",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какая",
+   "Какого"
+  ],
+  "ex": "Блюдо is neuter and the subject (nominative) → какое. Во Флориде is prepositional (в + о).",
+  "translation": "Which dish is popular in Florida?",
+  "glosses": [
+   "Флорида: Florida"
+  ],
+  "src": "bank",
+  "id": 1885
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "nominative: какой / какая / какое / какие",
+  "s": "___ самое красивое место во Флориде?",
+  "base": "какой",
+  "a": "Какое",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какая",
+   "Какого"
+  ],
+  "ex": "Место is neuter, the subject → какое. Самое красивое agrees with it.",
+  "translation": "What is the most beautiful place in Florida?",
+  "glosses": [
+   "место: place"
+  ],
+  "src": "bank",
+  "id": 1886
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "accusative (things): какой / какую / какое / какие",
+  "s": "___ фильмы ты любишь?",
+  "base": "какой",
+  "a": "Какие",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какую",
+   "Каких"
+  ],
+  "ex": "Фильмы is inanimate plural, the direct object of любишь → какие (accusative = nominative).",
+  "translation": "Which films do you like?",
+  "glosses": [],
+  "src": "bank",
+  "id": 1887
+ },
+ {
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "accusative (people, animals): какого / какую / каких",
+  "s": "___ учителей ты встретил?",
+  "base": "какой",
+  "a": "Каких",
+  "alt": [],
+  "d": [
+   "Какого",
+   "Какие",
+   "Какую"
+  ],
+  "ex": "Учителя are people: plural accusative = genitive → каких учителей.",
+  "translation": "Which teachers did you meet?",
+  "glosses": [
+   "встретить: to meet"
+  ],
+  "src": "bank",
+  "id": 1888
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "До ___ я завтракал.",
+  "base": "урок",
+  "a": "урока",
+  "alt": [],
+  "d": [
+   "урок",
+   "уроку",
+   "уроком"
+  ],
+  "ex": "До (before; as far as, until) takes the genitive: до урока. This is time: before. After the lesson would be после урока, also genitive.",
+  "translation": "I had breakfast before the lesson.",
+  "glosses": [
+   "завтракал: I had breakfast"
+  ],
+  "src": "bank",
+  "id": 1889
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "До ___ мы обычно молимся дома.",
+  "base": "служба",
+  "a": "службы",
+  "alt": [],
+  "d": [
+   "служба",
+   "службу",
+   "службе"
+  ],
+  "ex": "До (before; as far as, until) takes the genitive: до службы (before). После службы is after the service.",
+  "translation": "Before the service we usually pray at home.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1890
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "От фермы до ___ всего пять минут пешком.",
+  "base": "школа",
+  "a": "школы",
+  "alt": [],
+  "d": [
+   "школа",
+   "школу",
+   "школе"
+  ],
+  "ex": "До (before; as far as, until) takes the genitive: до школы. This is distance: as far as, up to. От фермы is also genitive (от).",
+  "translation": "It's only a five-minute walk from the farm to the school.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1891
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "До ___ двадцать часов на машине.",
+  "base": "Флорида",
+  "a": "Флориды",
+  "alt": [],
+  "d": [
+   "Флорида",
+   "Флориду",
+   "Флориде"
+  ],
+  "ex": "До (before; as far as, until) takes the genitive: до Флориды (as far as / until you get there). На машине is instrumental (by car).",
+  "translation": "It's a twenty-hour drive to Florida.",
+  "glosses": [
+   "Флорида: Florida"
+  ],
+  "src": "bank",
+  "id": 1892
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Дети играли на улице до ___.",
+  "base": "темнота",
+  "a": "темноты",
+  "alt": [],
+  "d": [
+   "темнота",
+   "темноту",
+   "темноте"
+  ],
+  "ex": "До (before; as far as, until) takes the genitive: до темноты (until). Темнота is feminine: -а → -ы.",
+  "translation": "The children played outside until dark.",
+  "glosses": [
+   "темнота: darkness, dark"
+  ],
+  "src": "bank",
+  "id": 1893
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "До ___ я ещё покормлю коров.",
+  "base": "созвон",
+  "a": "созвона",
+  "alt": [],
+  "d": [
+   "созвон",
+   "созвону",
+   "созвоном"
+  ],
+  "ex": "До (before; as far as, until) takes the genitive: до созвона (before). Покормлю is perfective future.",
+  "translation": "I'll feed the cows before the (video) call.",
+  "glosses": [
+   "созвон: (video) call"
+  ],
+  "src": "bank",
+  "id": 1894
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Я работал в офисе до ___.",
+  "base": "вечер",
+  "a": "вечера",
+  "alt": [],
+  "d": [
+   "вечер",
+   "вечеру",
+   "вечером"
+  ],
+  "ex": "До (before; as far as, until) takes the genitive: до вечера (until). Вечер is masculine: -а.",
+  "translation": "I worked at the office until evening.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1895
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "До ___ я зашёл на ферму.",
+  "base": "завтрак",
+  "a": "завтрака",
+  "alt": [],
+  "d": [
+   "завтрак",
+   "завтраку",
+   "завтраком"
+  ],
+  "ex": "До (before; as far as, until) takes the genitive: до завтрака (before). Contrast после завтрака (after breakfast).",
+  "translation": "Before breakfast I stopped by the farm.",
+  "glosses": [
+   "завтрак: breakfast",
+   "зашёл: I stopped by"
+  ],
+  "src": "bank",
+  "id": 1896
  }
 ]

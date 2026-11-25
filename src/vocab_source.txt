@@ -141,6 +141,15 @@
 Где находится…?|Where is…?|phrase
 Один билет до Минска.|One ticket to Minsk.|phrase
 прямо, налево, направо|straight ahead, left, right|phrase
+Флорида|Florida|f|place|pp=в mass noArt skip=dat,ins|Флориды|Флориде|Флориду|Флоридой|Флориде|-|-
+пляж|beach|m|place|pp=на|пляжа|пляжу|пляж|пляжем|пляже|пляжи|пляжей
+место|place, spot|n|thing||места|месту|место|местом|месте|места|мест
+путешествие|trip, journey|n|event|skip=acc,prep|путешествия|путешествию|путешествие|путешествием|путешествии|путешествия|путешествий
+Где вы были?|Where were you? / Where have you been?|phrase
+Это далеко от вас?|Is that far from you?|phrase
+20 часов на машине.|Twenty hours by car.|phrase
+У меня будет встреча.|I'll have a meeting. / I have a meeting (coming up).|phrase
+Поехали!|Let's go!|phrase
 @Around the house
 комната|room|f|place|pp=в skip=gen,dat,ins|комнаты|комнате|комнату|комнатой|комнате|комнаты|комнат
 кухня|kitchen|f|place|pp=на enprep=in skip=gen,dat,ins gpl=кухонь|кухни|кухне|кухню|кухней|кухне|кухни|кухонь
@@ -402,6 +411,11 @@
 сын|son|m|person|anim|сына|сыну|сына|сыном|сыне|сыновья|сыновей
 тётя|aunt|f|person|anim|тёти|тёте|тётю|тётей|тёте|тёти|тёть
 Я работаю ради моей семьи.|I work for the sake of my family.|phrase
+бабушка|grandmother|f|person|anim gpl=бабушек|бабушки|бабушке|бабушку|бабушкой|бабушке|бабушки|бабушек
+друг|friend|m|person|anim npl=друзья gpl=друзей|друга|другу|друга|другом|друге|друзья|друзей
+подруга|friend (female)|f|person|anim|подруги|подруге|подругу|подругой|подруге|подруги|подруг
+сосед|neighbor|m|person|anim npl=соседи gpl=соседей|соседа|соседу|соседа|соседом|соседе|соседи|соседей
+ребёнок|child (pl. дети)|m|person|anim enp=children npl=дети gpl=детей gen=ребёнка dat=ребёнку acc=ребёнка ins=ребёнком prep=ребёнке|ребёнка|ребёнку|ребёнка|ребёнком|ребёнке|дети|детей
 @Work and IT
 созвон|call|m|event|note=Colloquial:_a_video_or_phone_call._На_созвоне_=_on_the_call.|созвона|созвону|созвон|созвоном|созвоне|созвоны|созвонов
 онлайн-конференция|online conference|f|event||онлайн-конференции|онлайн-конференции|онлайн-конференцию|онлайн-конференцией|онлайн-конференции|онлайн-конференции|онлайн-конференций
@@ -422,6 +436,17 @@
 Машина стоит перед домом.|The car is parked in front of the house. (перед = in front of, + instrumental)|phrase
 Я ем всё, кроме сыра.|I eat everything except cheese. (кроме = except, + genitive)|phrase
 Увидимся скоро!|See you soon!|phrase
+встреча|meeting, appointment|f|event||встречи|встрече|встречу|встречей|встрече|встречи|встреч
+ремонт|repair|m|thing|note=ремонт_машины_=_car_repair.|ремонта|ремонту|ремонт|ремонтом|ремонте|ремонты|ремонтов
+механик|mechanic|m|person|anim note=A_car_mechanic_is_also_автомеханик.|механика|механику|механика|механиком|механике|механики|механиков
+подарок|present, gift|m|thing|fleet|подарка|подарку|подарок|подарком|подарке|подарки|подарков
+собака|dog|f|animal|anim|собаки|собаке|собаку|собакой|собаке|собаки|собак
+кот|cat (male)|m|animal|anim|кота|коту|кота|котом|коте|коты|котов
+погода|weather|f|abstract|mass|погоды|погоде|погоду|погодой|погоде|-|-
+мечтать|to dream, daydream (impf.) of (о + prep.)|verb|impf 1s=мечтаю 2s=мечтаешь 3s=мечтает 1p=мечтаем 2p=мечтаете 3p=мечтают f1s=Я_{}_о_доме_в_деревне. note=мечтать_о_+_prepositional:_мечтать_о_машине.
+заниматься|to go in for, be busy with (impf.) + inst.|verb|impf 1s=занимаюсь 2s=занимаешься 3s=занимается 1p=занимаемся 2p=занимаетесь 3p=занимаются f1s=Я_{}_спортом. note=заниматься_+_instrumental:_заниматься_спортом,_фермой._Pf.:_заняться.
+увлекаться|to be keen on, into (impf.) + inst.|verb|impf 1s=увлекаюсь 2s=увлекаешься 3s=увлекается 1p=увлекаемся 2p=увлекаетесь 3p=увлекаются f1s=Я_{}_историей. note=увлекаться_+_instrumental:_увлекаться_спортом,_музыкой.
+ремонт машины|car repair|phrase
 @Films, music and food
 фильм|film, movie|m|thing||фильма|фильму|фильм|фильмом|фильме|фильмы|фильмов
 жанр|genre|m|thing||жанра|жанру|жанр|жанром|жанре|жанры|жанров

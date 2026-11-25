@@ -122,8 +122,10 @@ def build(t, ru, exl):
         [ru("из"), "from, out of (a place) · <i>aus</i>", ru("Мой друг из Березина.")],
         [ru("от"), "from (a person); away from · <i>von</i>", ru("Письмо от батюшки.")],
         [ru("после"), "after · <i>nach</i>", ru("После службы мы пьём чай.")],
+        [ru("до"), "before; as far as, until · <i>vor / bis</i>", ru("До урока я завтракал.")],
         [ru("около"), "near, by · <i>bei, neben</i>", ru("Около заправки есть магазин.")],
       ]))
+      + "<p>" + ru("После") + " and " + ru("до") + " are a pair, and both take the <b>genitive</b>: " + ru("после урока") + " = after the lesson, " + ru("до урока") + " = before it. " + ru("до") + " also means “as far as / until you get there”: " + ru("До Флориды двадцать часов на машине.") + " German splits these: <i>nach dem Unterricht</i> (after), <i>vor dem Unterricht</i> (before), <i>bis nach Florida</i> (as far as).</p>"
       + "<p>In your tutor's sentences the possessive goes into the genitive too, to agree: " + ru("мои коровы → для моих коров") + ", " + ru("мой дом → напротив моего дома") + ", " + ru("моя семья → ради моей семьи") + ". (Adjective and possessive endings are Lesson 10; for now, learn these three as phrases.)</p>"
       + "<h4>для or ради?</h4>"
       + exl([("Я работаю для компании в Джексоне.", "I work for a company in Jackson. (who benefits / the employer)"),
@@ -150,7 +152,7 @@ def build(t, ru, exl):
       + "<li>Use it after 5+, " + ru("много / мало / сколько / несколько") + ", " + ru("нет") + ", genitive prepositions, and for animate plural direct objects.</li>"
       + "<li>Exceptions: " + ru("людей (пять человек), лет, детей, денег, братьев, друзей, стульев, раз, глаз, солдат, сапог, носков, кур, яиц, семей, тёть, мест, дел, полей") + ".</li>"
       + "<li>The verb agrees with the <b>subject</b>: " + ru("Мне нравятся все виды сыра") + " (виды = plural).</li>"
-      + "<li>Genitive prepositions: " + ru("для, кроме, напротив, ради, без, из, от, после, около") + " (and " + ru("у") + ").</li>"
+      + "<li>Genitive prepositions: " + ru("для, кроме, напротив, ради, без, из, от, после, до, около") + " (and " + ru("у") + ").</li>"
       + "<li>" + ru("кроме") + " = except (gen.); " + ru("напротив") + " = opposite / across from (gen.); " + ru("перед") + " = in front of (<b>instrumental</b>).</li>"
       + "</ul>"})
 

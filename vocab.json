@@ -1259,6 +1259,80 @@
   "pos": "phrase"
  },
  {
+  "ru": "Флорида",
+  "en": "Florida",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "f",
+  "kind": "place",
+  "pp": "в",
+  "mass": true,
+  "noArt": true,
+  "skip": [
+   "dat",
+   "ins"
+  ]
+ },
+ {
+  "ru": "пляж",
+  "en": "beach",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "m",
+  "kind": "place",
+  "pp": "на"
+ },
+ {
+  "ru": "место",
+  "en": "place, spot",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "n",
+  "kind": "thing"
+ },
+ {
+  "ru": "путешествие",
+  "en": "trip, journey",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "n",
+  "kind": "event",
+  "skip": [
+   "acc",
+   "prep"
+  ]
+ },
+ {
+  "ru": "Где вы были?",
+  "en": "Where were you? / Where have you been?",
+  "theme": "Travel",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Это далеко от вас?",
+  "en": "Is that far from you?",
+  "theme": "Travel",
+  "pos": "phrase"
+ },
+ {
+  "ru": "20 часов на машине.",
+  "en": "Twenty hours by car.",
+  "theme": "Travel",
+  "pos": "phrase"
+ },
+ {
+  "ru": "У меня будет встреча.",
+  "en": "I'll have a meeting. / I have a meeting (coming up).",
+  "theme": "Travel",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Поехали!",
+  "en": "Let's go!",
+  "theme": "Travel",
+  "pos": "phrase"
+ },
+ {
   "ru": "комната",
   "en": "room",
   "theme": "Around the house",
@@ -4166,6 +4240,72 @@
   "pos": "phrase"
  },
  {
+  "ru": "бабушка",
+  "en": "grandmother",
+  "theme": "Family",
+  "pos": "noun",
+  "g": "f",
+  "kind": "person",
+  "anim": true,
+  "forms": {
+   "gpl": "бабушек"
+  }
+ },
+ {
+  "ru": "друг",
+  "en": "friend",
+  "theme": "Family",
+  "pos": "noun",
+  "g": "m",
+  "kind": "person",
+  "anim": true,
+  "forms": {
+   "npl": "друзья",
+   "gpl": "друзей"
+  }
+ },
+ {
+  "ru": "подруга",
+  "en": "friend (female)",
+  "theme": "Family",
+  "pos": "noun",
+  "g": "f",
+  "kind": "person",
+  "anim": true
+ },
+ {
+  "ru": "сосед",
+  "en": "neighbor",
+  "theme": "Family",
+  "pos": "noun",
+  "g": "m",
+  "kind": "person",
+  "anim": true,
+  "forms": {
+   "npl": "соседи",
+   "gpl": "соседей"
+  }
+ },
+ {
+  "ru": "ребёнок",
+  "en": "child (pl. дети)",
+  "theme": "Family",
+  "pos": "noun",
+  "g": "m",
+  "kind": "person",
+  "anim": true,
+  "enp": "children",
+  "forms": {
+   "npl": "дети",
+   "gpl": "детей",
+   "gen": "ребёнка",
+   "dat": "ребёнку",
+   "acc": "ребёнка",
+   "ins": "ребёнком",
+   "prep": "ребёнке"
+  }
+ },
+ {
   "ru": "созвон",
   "en": "call",
   "theme": "Work and IT",
@@ -4311,6 +4451,132 @@
  {
   "ru": "Увидимся скоро!",
   "en": "See you soon!",
+  "theme": "In town and daily life",
+  "pos": "phrase"
+ },
+ {
+  "ru": "встреча",
+  "en": "meeting, appointment",
+  "theme": "In town and daily life",
+  "pos": "noun",
+  "g": "f",
+  "kind": "event"
+ },
+ {
+  "ru": "ремонт",
+  "en": "repair",
+  "theme": "In town and daily life",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing",
+  "note": "ремонт машины = car repair."
+ },
+ {
+  "ru": "механик",
+  "en": "mechanic",
+  "theme": "In town and daily life",
+  "pos": "noun",
+  "g": "m",
+  "kind": "person",
+  "anim": true,
+  "note": "A car mechanic is also автомеханик."
+ },
+ {
+  "ru": "подарок",
+  "en": "present, gift",
+  "theme": "In town and daily life",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing",
+  "fleet": true
+ },
+ {
+  "ru": "собака",
+  "en": "dog",
+  "theme": "In town and daily life",
+  "pos": "noun",
+  "g": "f",
+  "kind": "animal",
+  "anim": true
+ },
+ {
+  "ru": "кот",
+  "en": "cat (male)",
+  "theme": "In town and daily life",
+  "pos": "noun",
+  "g": "m",
+  "kind": "animal",
+  "anim": true
+ },
+ {
+  "ru": "погода",
+  "en": "weather",
+  "theme": "In town and daily life",
+  "pos": "noun",
+  "g": "f",
+  "kind": "abstract",
+  "mass": true
+ },
+ {
+  "ru": "мечтать",
+  "en": "to dream, daydream (impf.) of (о + prep.)",
+  "theme": "In town and daily life",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "мечтать о + prepositional: мечтать о машине.",
+  "conj": {
+   "1s": "мечтаю",
+   "2s": "мечтаешь",
+   "3s": "мечтает",
+   "1p": "мечтаем",
+   "2p": "мечтаете",
+   "3p": "мечтают"
+  },
+  "frames": {
+   "1s": "Я {} о доме в деревне."
+  }
+ },
+ {
+  "ru": "заниматься",
+  "en": "to go in for, be busy with (impf.) + inst.",
+  "theme": "In town and daily life",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "заниматься + instrumental: заниматься спортом, фермой. Pf.: заняться.",
+  "conj": {
+   "1s": "занимаюсь",
+   "2s": "занимаешься",
+   "3s": "занимается",
+   "1p": "занимаемся",
+   "2p": "занимаетесь",
+   "3p": "занимаются"
+  },
+  "frames": {
+   "1s": "Я {} спортом."
+  }
+ },
+ {
+  "ru": "увлекаться",
+  "en": "to be keen on, into (impf.) + inst.",
+  "theme": "In town and daily life",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "увлекаться + instrumental: увлекаться спортом, музыкой.",
+  "conj": {
+   "1s": "увлекаюсь",
+   "2s": "увлекаешься",
+   "3s": "увлекается",
+   "1p": "увлекаемся",
+   "2p": "увлекаетесь",
+   "3p": "увлекаются"
+  },
+  "frames": {
+   "1s": "Я {} историей."
+  }
+ },
+ {
+  "ru": "ремонт машины",
+  "en": "car repair",
   "theme": "In town and daily life",
   "pos": "phrase"
  },

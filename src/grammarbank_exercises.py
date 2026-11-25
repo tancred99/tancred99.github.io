@@ -2270,6 +2270,7 @@ def build():
     build_motion_aspect()
     build_home_kakoy_freq()
     build_l9_bank()
+    build_topup_bank()
 
 
 def build_l9_bank():
@@ -2400,6 +2401,103 @@ def build_l9_bank():
     ]:
         a_ = Fk[g_][c_]
         add(LVk[c_], "kakoy", SUBk[c_], s, "какой", a_, kdist(g_, c_, a_), ex, tr, gl)
+
+
+def build_topup_bank():
+    """Tutor-session top-up: missing какой questions, and A1 до + genitive.
+    Appended last so earlier bank ids stay stable."""
+    A, B = "A1-A2", "B1-C1"
+    # ---- какой: new verbs and frames from the tutor session ----
+    Fk = {"m":{"N":"какой","A":"какой","AA":"какого","G":"какого","D":"какому","I":"каким","P":"каком"},
+          "n":{"N":"какое","A":"какое","G":"какого","D":"какому","I":"каким","P":"каком"},
+          "f":{"N":"какая","A":"какую","AA":"какую","G":"какой","D":"какой","I":"какой","P":"какой"},
+          "p":{"N":"какие","A":"какие","AA":"каких","G":"каких","D":"каким","I":"какими","P":"каких"}}
+    SUBk = {"N":"nominative: какой / какая / какое / какие",
+            "A":"accusative (things): какой / какую / какое / какие",
+            "AA":"accusative (people, animals): какого / какую / каких",
+            "P":"prepositional (в / на / о): каком / какой / каких",
+            "G":"genitive (из / у / для / без): какого / какой / каких",
+            "D":"dative (к / по): какому / какой / каким",
+            "I":"instrumental (с / чем?): каким / какой / какими"}
+    LVk = {"N":A,"A":A,"P":A,"AA":B,"G":B,"D":B,"I":B}
+    ORDERk = ["m","f","n","p"]; CASESk = ["N","A","G","D","I","P"]
+    def kdist(g_, c_, a_):
+        cc = "A" if c_ == "AA" else c_
+        same_case = [Fk[x].get(c_, Fk[x][cc]) for x in ORDERk if x != g_]
+        same_gen = [Fk[g_][k] for k in CASESk if k != cc]
+        out = []
+        for pair in zip(same_case + [None]*6, same_gen):
+            for o in pair:
+                if o and o != a_ and o not in out:
+                    out.append(o)
+        return out[:3]
+    rows = [
+        ("f","P","О ___ машине ты мечтаешь?","Which car do you dream of?","Мечтать о takes the prepositional. Машина is feminine → о какой машине.",["мечтать: to dream (of)"]),
+        ("m","P","О ___ доме ты мечтаешь?","Which house do you dream of?","Мечтать о + prepositional. Дом is masculine → о каком доме.",["мечтать: to dream (of)"]),
+        ("f","P","О ___ работе ты думаешь?","Which job are you thinking about?","Думать о takes the prepositional. Работа is feminine → о какой работе.",[]),
+        ("f","P","О ___ проблеме он говорит?","Which problem is he talking about?","Говорить о + prepositional. Проблема is feminine → о какой проблеме.",["проблема: problem"]),
+        ("m","D","___ другу ты даришь подарок?","Which friend are you giving a present to?","Дарить кому? takes the dative. Друг is masculine → какому другу.",["дарить: to give as a gift","подарок: present"]),
+        ("f","D","___ девушке ты даёшь машину?","Which girl are you giving the car to?","Давать кому? takes the dative. Девушка is feminine → какой девушке.",["давать: to give"]),
+        ("m","D","___ знакомому ты звонишь?","Which acquaintance are you calling?","Звонить кому? takes the dative. Знакомый (a person you know) is masculine → какому знакомому.",["знакомый: acquaintance"]),
+        ("m","D","___ ребёнку ты звонишь?","Which child are you calling?","Звонить + dative. Ребёнок is masculine → какому ребёнку.",[]),
+        ("m","P","В ___ городе ты родился?","Which city were you born in?","Где? в + prepositional. Город is masculine → в каком городе.",["родиться: to be born"]),
+        ("m","I","___ спортом ты занимаешься?","What sport do you do?","Заниматься (to go in for) takes the instrumental. Спорт is masculine → каким спортом.",["заниматься: to go in for, be busy with"]),
+        ("p","I","___ видами спорта ты увлекаешься?","Which sports are you keen on?","Увлекаться takes the instrumental. Виды is plural → какими видами.",["увлекаться: to be keen on, into","вид спорта: a sport"]),
+        ("p","D","___ детям подарили подарки?","Which children were given presents?","The children are the indirect object (кому?): dative plural → каким детям.",["подарить: to give as a gift (pf.)"]),
+        ("p","N","___ они люди?","What kind of people are they?","Люди is plural and the predicate after они (nominative) → какие.",[]),
+        ("f","A","В ___ деревню мы едем?","Which village are we going to?","Куда? в + accusative. Деревня is feminine → в какую деревню. (В какой деревне would be где?.)",["деревня: village"]),
+        ("f","A","___ дверь она открыла?","Which door did she open?","Дверь is feminine, the direct object of открыла → какую.",[]),
+        ("f","N","___ учительница дала задание?","Which teacher gave the assignment?","Учительница is feminine and the subject (nominative) → какая.",["учительница: (female) teacher","задание: assignment"]),
+        ("m","G","Для ___ брата она купила подарки?","Which brother did she buy the presents for?","Для takes the genitive. Брат is masculine → для какого брата.",[]),
+        ("f","D","По ___ улице мы идём?","Which street are we walking along?","По (along) takes the dative. Улица is feminine → по какой улице.",[]),
+        ("n","N","___ блюдо популярно во Флориде?","Which dish is popular in Florida?","Блюдо is neuter and the subject (nominative) → какое. Во Флориде is prepositional (в + о).",["Флорида: Florida"]),
+        ("n","N","___ самое красивое место во Флориде?","What is the most beautiful place in Florida?","Место is neuter, the subject → какое. Самое красивое agrees with it.",["место: place"]),
+        ("p","A","___ фильмы ты любишь?","Which films do you like?","Фильмы is inanimate plural, the direct object of любишь → какие (accusative = nominative).",[]),
+        ("p","AA","___ учителей ты встретил?","Which teachers did you meet?","Учителя are people: plural accusative = genitive → каких учителей.",["встретить: to meet"]),
+    ]
+    for g_, c_, s, tr, ex, gl in rows:
+        a_ = Fk[g_][c_]
+        add(LVk[c_], "kakoy", SUBk[c_], s, "какой", a_, kdist(g_, c_, a_), ex, tr, gl)
+
+    # ---- A1 до + genitive (time and distance); same pool as the other genitive prepositions ----
+    C, S = "cases", "для, кроме, напротив, ради (and перед)"
+    DO = "До (before; as far as, until) takes the genitive: "
+    for s, lemma, case, tr, ex, gl in [
+        ("До ___ я завтракал.", "урок", "gen",
+         "I had breakfast before the lesson.",
+         DO + "до урока. This is time: before. After the lesson would be после урока, also genitive.",
+         ["завтракал: I had breakfast"]),
+        ("До ___ мы обычно молимся дома.", "служба", "gen",
+         "Before the service we usually pray at home.",
+         DO + "до службы (before). После службы is after the service.",
+         []),
+        ("От фермы до ___ всего пять минут пешком.", "школа", "gen",
+         "It's only a five-minute walk from the farm to the school.",
+         DO + "до школы. This is distance: as far as, up to. От фермы is also genitive (от).",
+         []),
+        ("До ___ двадцать часов на машине.", "Флорида", "gen",
+         "It's a twenty-hour drive to Florida.",
+         DO + "до Флориды (as far as / until you get there). На машине is instrumental (by car).",
+         ["Флорида: Florida"]),
+        ("Дети играли на улице до ___.", "темнота", "gen",
+         "The children played outside until dark.",
+         DO + "до темноты (until). Темнота is feminine: -а → -ы.",
+         ["темнота: darkness, dark"]),
+        ("До ___ я ещё покормлю коров.", "созвон", "gen",
+         "I'll feed the cows before the (video) call.",
+         DO + "до созвона (before). Покормлю is perfective future.",
+         ["созвон: (video) call"]),
+        ("Я работал в офисе до ___.", "вечер", "gen",
+         "I worked at the office until evening.",
+         DO + "до вечера (until). Вечер is masculine: -а.",
+         []),
+        ("До ___ я зашёл на ферму.", "завтрак", "gen",
+         "Before breakfast I stopped by the farm.",
+         DO + "до завтрака (before). Contrast после завтрака (after breakfast).",
+         ["завтрак: breakfast","зашёл: I stopped by"]),
+    ]:
+        add_noun(A, C, S, s, lemma, case, tr, ex, gl)
+
 
 
 def _poss_forms(stem):
