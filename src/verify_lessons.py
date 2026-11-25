@@ -384,6 +384,51 @@ def check_l7(e):
     for d in e["d"]:
         if nrm(d)==nrm(a): errs.append("L7 distractor = answer "+e["s"])
 
+# Lesson 9: genitive plural (all dictionary readings, so стульев / кур / человек count), genitive / instrumental after a preposition,
+# нравится / нравятся agreement, and the кроме / напротив / перед choice checked against the case of the next word.
+def l9_forms(w, tags):
+    out = set()
+    for q in M.parse(w):
+        if q.tag.POS != "NOUN": continue
+        if nrm(q.normal_form) != nrm(w) and nrm(q.word) != nrm(w): continue
+        for f in q.lexeme:
+            if tags <= f.tag.grammemes: out.add(nrm(f.word))
+    return out
+# Trap distractors the dictionary also lists, but that are wrong in these sentences (explained in Step 5):
+# годов (decades only, not after a number), стулов (non-standard), человеков (colloquial/jocular), людей vs человек by context.
+L9_TRAP = {("год","годов"), ("стул","стулов"), ("человек","человеков"), ("человек","людей"), ("человек","человек")}
+L9_GPL_EXTRA = {"куры": {"кур", "куриц"}}  # farm plural of курица (dictionary lemma кура); textbook куриц
+def check_l9(e):
+    k, a, w = e["k"], e["a"], e["w"]
+    if k in ("gpl", "gpl_num"):
+        forms = L9_GPL_EXTRA.get(w) or l9_forms(w, {"gent", "plur"})
+        if w == "человек" and k == "gpl" and nrm(a) != "людей": errs.append("L9 много + людей expected: "+e["s"])
+        if k == "gpl_num" and nrm(a) != nrm(w): errs.append("L9 counting form expected: "+e["s"])
+    elif k == "gen":
+        num = "plur" if "plural" in e["base"] else "sing"
+        forms = l9_forms(w, {"gent", num})
+    elif k == "ins":
+        forms = l9_forms(w, {"ablt", "sing"})
+    elif k == "nslike":
+        num = "plur" if e.get("g") == "pl" else "sing"
+        forms = {nrm(x.word) for q in M.parse(w) if q.tag.POS == "INFN" for x in [q.inflect({"3per", num, "pres", "indc"})] if x}
+    elif k == "prep":
+        after = e["s"].split("___")[1].split()[0].strip(".,!?")
+        tags = set()
+        for q in M.parse(after): tags |= set(q.tag.grammemes)
+        exp_ins = "ablt" in tags and "gent" not in tags
+        if exp_ins != (nrm(a) == "перед"): errs.append("L9 preposition vs case of %s: %s" % (after, e["s"]))
+        if nrm(a) not in ("кроме", "напротив", "перед"): errs.append("L9 prep answer: "+a)
+        forms = {nrm(a)}
+    else:
+        errs.append("L9 unknown k %s: %s" % (k, e["s"])); return
+    if nrm(a) not in forms: errs.append("L9 answer %s %s: %s, dict %s" % (k, w, a, sorted(forms)))
+    for d in e["d"]:
+        if nrm(d) == nrm(a): errs.append("L9 distractor = answer "+e["s"])
+        if k != "prep" and nrm(d) in forms and (w, nrm(d)) not in L9_TRAP: errs.append("L9 distractor is also a right form %s: %s" % (d, e["s"]))
+    for x in e.get("alt", []):
+        if nrm(x) not in forms: errs.append("L9 alt not a real form: "+x)
+
 n = 0
 for lid,les in L["lessons"].items():
     for e in les["exercises"]:
@@ -429,6 +474,9 @@ for lid,les in L["lessons"].items():
             continue
         if lid == "L7":
             check_l7(e)
+            continue
+        if lid == "L9":
+            check_l9(e)
             continue
         if e["part"] == "A":
             w = e["s"].split(" — ")[0]

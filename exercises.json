@@ -34872,5 +34872,1446 @@
   "glosses": [],
   "src": "bank",
   "id": 1793
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Наша церковь стоит напротив ___.",
+  "base": "почта",
+  "a": "почты",
+  "alt": [],
+  "d": [
+   "почта",
+   "почту",
+   "почте"
+  ],
+  "ex": "Напротив (opposite, across from) takes the genitive: напротив почты. In front of would be перед почтой (instrumental).",
+  "translation": "Our church stands across from the post office.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1794
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Напротив ___ есть заправка.",
+  "base": "школа",
+  "a": "школы",
+  "alt": [],
+  "d": [
+   "школа",
+   "школу",
+   "школе"
+  ],
+  "ex": "Напротив (opposite, across from) takes the genitive: напротив школы.",
+  "translation": "There's a gas station across from the school.",
+  "glosses": [
+   "заправка: gas station"
+  ],
+  "src": "bank",
+  "id": 1795
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Я живу напротив ___.",
+  "base": "парк",
+  "a": "парка",
+  "alt": [],
+  "d": [
+   "парк",
+   "парку",
+   "парком"
+  ],
+  "ex": "Напротив (opposite, across from) takes the genitive: напротив парка.",
+  "translation": "I live across from the park.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1796
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Магазин находится напротив ___.",
+  "base": "вокзал",
+  "a": "вокзала",
+  "alt": [],
+  "d": [
+   "вокзал",
+   "вокзалу",
+   "вокзалом"
+  ],
+  "ex": "Напротив (opposite, across from) takes the genitive: напротив вокзала. Находится = is located.",
+  "translation": "The store is located across from the station.",
+  "glosses": [
+   "находиться: to be located"
+  ],
+  "src": "bank",
+  "id": 1797
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Напротив ___ большое поле.",
+  "base": "ферма",
+  "a": "фермы",
+  "alt": [],
+  "d": [
+   "ферма",
+   "ферму",
+   "ферме"
+  ],
+  "ex": "Напротив (opposite, across from) takes the genitive: напротив фермы.",
+  "translation": "There's a big field across from the farm.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1798
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Мой офис напротив ___.",
+  "base": "банк",
+  "a": "банка",
+  "alt": [],
+  "d": [
+   "банк",
+   "банку",
+   "банком"
+  ],
+  "ex": "Напротив (opposite, across from) takes the genitive: напротив банка.",
+  "translation": "My office is across from the bank.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1799
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Напротив ___ стоит старый сарай.",
+  "base": "дом",
+  "a": "дома",
+  "alt": [],
+  "d": [
+   "дом",
+   "дому",
+   "домом"
+  ],
+  "ex": "Напротив (opposite, across from) takes the genitive: напротив дома. Перед домом would be right in front of it.",
+  "translation": "An old barn stands across from the house.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1800
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "В храме я стою напротив ___.",
+  "base": "икона",
+  "a": "иконы",
+  "alt": [],
+  "d": [
+   "икона",
+   "икону",
+   "иконе"
+  ],
+  "ex": "Напротив (opposite, across from) takes the genitive: напротив иконы. Перед иконой (instrumental) = in front of the icon.",
+  "translation": "In church I stand facing the icon.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1801
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Напротив ___ в Березине есть кафе.",
+  "base": "церковь",
+  "a": "церкви",
+  "alt": [],
+  "d": [
+   "церковь",
+   "церковью",
+   "церквей"
+  ],
+  "ex": "Напротив (opposite, across from) takes the genitive: напротив церкви (feminine -ь → -и).",
+  "translation": "There's a café across from the church in Berezino.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1802
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Остановка напротив ___.",
+  "base": "магазин",
+  "a": "магазина",
+  "alt": [],
+  "d": [
+   "магазин",
+   "магазину",
+   "магазином"
+  ],
+  "ex": "Напротив (opposite, across from) takes the genitive: напротив магазина.",
+  "translation": "The bus stop is across from the store.",
+  "glosses": [
+   "остановка: (bus) stop"
+  ],
+  "src": "bank",
+  "id": 1803
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Почта находится напротив ___.",
+  "base": "библиотека",
+  "a": "библиотеки",
+  "alt": [],
+  "d": [
+   "библиотека",
+   "библиотеку",
+   "библиотеке"
+  ],
+  "ex": "Напротив (opposite, across from) takes the genitive: напротив библиотеки (к → и).",
+  "translation": "The post office is across from the library.",
+  "glosses": [
+   "библиотека: library"
+  ],
+  "src": "bank",
+  "id": 1804
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Пикап стоит напротив ___.",
+  "base": "гараж",
+  "a": "гаража",
+  "alt": [],
+  "d": [
+   "гараж",
+   "гаражу",
+   "гаражом"
+  ],
+  "ex": "Напротив (opposite, across from) takes the genitive: напротив гаража.",
+  "translation": "The pickup is parked across from the garage.",
+  "glosses": [
+   "гараж: garage"
+  ],
+  "src": "bank",
+  "id": 1805
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Напротив ___ стоит памятник.",
+  "base": "музей",
+  "a": "музея",
+  "alt": [],
+  "d": [
+   "музей",
+   "музею",
+   "музеем"
+  ],
+  "ex": "Напротив (opposite, across from) takes the genitive: напротив музея (-й → -я).",
+  "translation": "There's a monument across from the museum.",
+  "glosses": [
+   "памятник: monument"
+  ],
+  "src": "bank",
+  "id": 1806
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Наш дом стоит напротив ___.",
+  "base": "пруд",
+  "a": "пруда",
+  "alt": [],
+  "d": [
+   "пруд",
+   "пруду",
+   "прудом"
+  ],
+  "ex": "Напротив (opposite, across from) takes the genitive: напротив пруда.",
+  "translation": "Our house stands across from the pond.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1807
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Напротив ___ живёт мой брат.",
+  "base": "больница",
+  "a": "больницы",
+  "alt": [],
+  "d": [
+   "больница",
+   "больницу",
+   "больнице"
+  ],
+  "ex": "Напротив (opposite, across from) takes the genitive: напротив больницы.",
+  "translation": "My brother lives across from the hospital.",
+  "glosses": [
+   "больница: hospital"
+  ],
+  "src": "bank",
+  "id": 1808
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Сосед живёт напротив ___.",
+  "base": "мы",
+  "a": "нас",
+  "alt": [],
+  "d": [
+   "мы",
+   "нам",
+   "нами"
+  ],
+  "ex": "Напротив + genitive: напротив нас.",
+  "translation": "Our neighbor lives across from us.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1809
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "В офисе коллега сидит напротив ___.",
+  "base": "я",
+  "a": "меня",
+  "alt": [],
+  "d": [
+   "я",
+   "мне",
+   "мной"
+  ],
+  "ex": "Напротив + genitive: напротив меня.",
+  "translation": "At the office my colleague sits across from me.",
+  "glosses": [
+   "коллега: colleague"
+  ],
+  "src": "bank",
+  "id": 1810
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "За столом жена сидит напротив ___.",
+  "base": "он",
+  "a": "него",
+  "alt": [],
+  "d": [
+   "он",
+   "его",
+   "ему"
+  ],
+  "ex": "Напротив + genitive, with н- after the preposition: напротив него (not напротив его).",
+  "translation": "At the table my wife sits across from him.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1811
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "На работе никто, кроме ___, не знает этот сервер.",
+  "base": "я",
+  "a": "меня",
+  "alt": [],
+  "d": [
+   "я",
+   "мне",
+   "мной"
+  ],
+  "ex": "Кроме (except) takes the genitive: кроме меня.",
+  "translation": "At work nobody but me knows this server.",
+  "glosses": [
+   "сервер: server"
+  ],
+  "src": "bank",
+  "id": 1812
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Все пришли на обед, кроме ___.",
+  "base": "брат",
+  "a": "брата",
+  "alt": [],
+  "d": [
+   "брат",
+   "брату",
+   "братом"
+  ],
+  "ex": "Кроме (besides, except, other than) takes the genitive: кроме брата.",
+  "translation": "Everyone came to lunch except my brother.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1813
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Я люблю всю музыку, кроме ___.",
+  "base": "джаз",
+  "a": "джаза",
+  "alt": [],
+  "d": [
+   "джаз",
+   "джазу",
+   "джазом"
+  ],
+  "ex": "Кроме (besides, except, other than) takes the genitive: кроме джаза.",
+  "translation": "I like all music except jazz.",
+  "glosses": [
+   "джаз: jazz"
+  ],
+  "src": "bank",
+  "id": 1814
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Кроме наших ___ у нас есть куры и козы.",
+  "base": "корова",
+  "a": "коров",
+  "alt": [],
+  "d": [
+   "коровы",
+   "корова",
+   "коровам"
+  ],
+  "ex": "Кроме (besides, except, other than) takes the genitive: plural → genitive plural кроме коров.",
+  "translation": "Besides our cows we have chickens and goats.",
+  "glosses": [
+   "коза: goat"
+  ],
+  "src": "bank",
+  "id": 1815
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Кроме ___ я пью только воду.",
+  "base": "чай",
+  "a": "чая",
+  "alt": [],
+  "d": [
+   "чай",
+   "чаю",
+   "чаем"
+  ],
+  "ex": "Кроме (besides, except, other than) takes the genitive: кроме чая.",
+  "translation": "Apart from tea I drink only water.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1816
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Жена ест всё, кроме ___.",
+  "base": "рыба",
+  "a": "рыбы",
+  "alt": [],
+  "d": [
+   "рыба",
+   "рыбу",
+   "рыбе"
+  ],
+  "ex": "Кроме (besides, except, other than) takes the genitive: кроме рыбы.",
+  "translation": "My wife eats everything except fish.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1817
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Магазин работает каждый день, кроме ___.",
+  "base": "воскресенье",
+  "a": "воскресенья",
+  "alt": [],
+  "d": [
+   "воскресенье",
+   "воскресенью",
+   "воскресеньем"
+  ],
+  "ex": "Кроме (besides, except, other than) takes the genitive: кроме воскресенья (neuter -е → -я).",
+  "translation": "The store is open every day except Sunday.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1818
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Все мои друзья, кроме ___, живут в Минске.",
+  "base": "Андрей",
+  "a": "Андрея",
+  "alt": [],
+  "d": [
+   "Андрей",
+   "Андрею",
+   "Андреем"
+  ],
+  "ex": "Кроме (besides, except, other than) takes the genitive: кроме Андрея.",
+  "translation": "All my friends except Andrei live in Minsk.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1819
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Ради наших ___ я встаю в пять утра.",
+  "base": "корова",
+  "a": "коров",
+  "alt": [],
+  "d": [
+   "коровы",
+   "корова",
+   "коровам"
+  ],
+  "ex": "Ради (for the sake of) takes the genitive: plural → ради коров.",
+  "translation": "For our cows' sake I get up at five in the morning.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1820
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Мы делаем это ради наших ___.",
+  "base": "ребёнок",
+  "a": "детей",
+  "alt": [],
+  "d": [
+   "дети",
+   "ребёнок",
+   "детям"
+  ],
+  "ex": "Ради (for the sake of) takes the genitive: ради детей (irregular genitive plural of ребёнок / дети).",
+  "translation": "We do this for the sake of our children.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1821
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Он переехал в Джексон ради ___.",
+  "base": "работа",
+  "a": "работы",
+  "alt": [],
+  "d": [
+   "работа",
+   "работу",
+   "работе"
+  ],
+  "ex": "Ради (for the sake of) takes the genitive: ради работы.",
+  "translation": "He moved to Jackson for the sake of work.",
+  "glosses": [
+   "переехать: to move (house)"
+  ],
+  "src": "bank",
+  "id": 1822
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Ради ___ я выучил русский.",
+  "base": "жена",
+  "a": "жены",
+  "alt": [],
+  "d": [
+   "жена",
+   "жену",
+   "жене"
+  ],
+  "ex": "Ради (for the sake of) takes the genitive: ради жены.",
+  "translation": "I learned Russian for my wife's sake.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1823
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Мы ходим в храм не ради ___.",
+  "base": "традиция",
+  "a": "традиции",
+  "alt": [],
+  "d": [
+   "традиция",
+   "традицию",
+   "традицией"
+  ],
+  "ex": "Ради (for the sake of) takes the genitive: ради традиции (-ия → -ии).",
+  "translation": "We don't go to church for the sake of tradition.",
+  "glosses": [
+   "традиция: tradition"
+  ],
+  "src": "bank",
+  "id": 1824
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Ради ___ он продал машину.",
+  "base": "семья",
+  "a": "семьи",
+  "alt": [],
+  "d": [
+   "семья",
+   "семью",
+   "семье"
+  ],
+  "ex": "Ради (for the sake of) takes the genitive: ради семьи.",
+  "translation": "He sold the car for the sake of his family.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1825
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Ради ___ они поехали в Минск.",
+  "base": "концерт",
+  "a": "концерта",
+  "alt": [],
+  "d": [
+   "концерт",
+   "концерту",
+   "концертом"
+  ],
+  "ex": "Ради (for the sake of) takes the genitive: ради концерта.",
+  "translation": "They went to Minsk for the sake of the concert.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1826
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Это корм для наших ___.",
+  "base": "свинья",
+  "a": "свиней",
+  "alt": [],
+  "d": [
+   "свиньи",
+   "свинья",
+   "свиньям"
+  ],
+  "ex": "Для (for) takes the genitive: plural → для свиней.",
+  "translation": "This is feed for our pigs.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1827
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Я купил подарок для ___.",
+  "base": "мама",
+  "a": "мамы",
+  "alt": [],
+  "d": [
+   "мама",
+   "маму",
+   "маме"
+  ],
+  "ex": "Для (for) takes the genitive: для мамы.",
+  "translation": "I bought a present for Mom.",
+  "glosses": [
+   "подарок: present"
+  ],
+  "src": "bank",
+  "id": 1828
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Мы купили свечи для ___.",
+  "base": "храм",
+  "a": "храма",
+  "alt": [],
+  "d": [
+   "храм",
+   "храму",
+   "храмом"
+  ],
+  "ex": "Для (for) takes the genitive: для храма.",
+  "translation": "We bought candles for the church.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1829
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Это сыр для ___: я делаю их на завтрак.",
+  "base": "бутерброд",
+  "a": "бутербродов",
+  "alt": [],
+  "d": [
+   "бутерброды",
+   "бутерброд",
+   "бутербродам"
+  ],
+  "ex": "Для (for) takes the genitive: plural → для бутербродов.",
+  "translation": "This cheese is for sandwiches: I make them for breakfast.",
+  "glosses": [
+   "бутерброд: (open) sandwich"
+  ],
+  "src": "bank",
+  "id": 1830
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Я пишу код для ___ в Джексоне.",
+  "base": "компания",
+  "a": "компании",
+  "alt": [],
+  "d": [
+   "компания",
+   "компанию",
+   "компанией"
+  ],
+  "ex": "Для (for) takes the genitive: для компании (-ия → -ии). Для = who benefits; ради = for the sake of.",
+  "translation": "I write code for a company in Jackson.",
+  "glosses": [
+   "компания: company"
+  ],
+  "src": "bank",
+  "id": 1831
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Трактор стоит ___ сараем.",
+  "base": "кроме / напротив / перед",
+  "a": "перед",
+  "alt": [],
+  "d": [
+   "напротив",
+   "кроме",
+   "для"
+  ],
+  "ex": "Сараем is instrumental, so only перед (in front of) fits. Напротив and кроме take the genitive.",
+  "translation": "The tractor is parked in front of the barn.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1832
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Заправка находится ___ магазина, через дорогу.",
+  "base": "кроме / напротив / перед",
+  "a": "напротив",
+  "alt": [],
+  "d": [
+   "перед",
+   "кроме",
+   "ради"
+  ],
+  "ex": "Магазина is genitive (not перед), and через дорогу (across the road) means напротив.",
+  "translation": "The gas station is across the road from the store.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1833
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "___ службой мы молимся дома.",
+  "base": "кроме / напротив / перед",
+  "a": "Перед",
+  "alt": [],
+  "d": [
+   "Напротив",
+   "Кроме",
+   "Для"
+  ],
+  "ex": "Службой is instrumental: перед службой = just before the service.",
+  "translation": "Before the service we pray at home.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1834
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Мы встречаемся ___ церковью.",
+  "base": "кроме / напротив / перед",
+  "a": "перед",
+  "alt": [],
+  "d": [
+   "напротив",
+   "кроме",
+   "ради"
+  ],
+  "ex": "Церковью is instrumental: перед церковью = in front of the church.",
+  "translation": "We're meeting in front of the church.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1835
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Кафе ___ вокзала, на другой стороне улицы.",
+  "base": "кроме / напротив / перед",
+  "a": "напротив",
+  "alt": [],
+  "d": [
+   "перед",
+   "кроме",
+   "для"
+  ],
+  "ex": "Вокзала is genitive, and на другой стороне улицы (on the other side of the street) means напротив.",
+  "translation": "The café is opposite the station, on the other side of the street.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1836
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "для, кроме, напротив, ради (and перед)",
+  "s": "Все были на созвоне, ___ меня.",
+  "base": "кроме / напротив / перед",
+  "a": "кроме",
+  "alt": [],
+  "d": [
+   "напротив",
+   "перед",
+   "ради"
+  ],
+  "ex": "Everyone except me: кроме + genitive (меня).",
+  "translation": "Everyone was on the call except me.",
+  "glosses": [
+   "созвон: (video) call"
+  ],
+  "src": "bank",
+  "id": 1837
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "genitive plural",
+  "s": "У меня в Березине пять ___.",
+  "base": "тётя",
+  "a": "тёть",
+  "alt": [],
+  "d": [
+   "тёти",
+   "тётев",
+   "тётю"
+  ],
+  "ex": "After 5: genitive plural. Тётя → тёть (zero ending with a soft sign).",
+  "translation": "I have five aunts in Berezino.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1838
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "genitive plural",
+  "s": "Купи, пожалуйста, две пары ___.",
+  "base": "носок",
+  "a": "носков",
+  "alt": [],
+  "d": [
+   "носки",
+   "носка",
+   "носоков"
+  ],
+  "ex": "Пара (a pair) takes the genitive plural. Носок → носков (fleeting о, then -ов).",
+  "translation": "Please buy two pairs of socks.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1839
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "genitive plural",
+  "s": "У меня нет зимних ___.",
+  "base": "сапог",
+  "a": "сапог",
+  "alt": [],
+  "d": [
+   "сапогов",
+   "сапоги",
+   "сапога"
+  ],
+  "ex": "Нет + genitive plural. Сапог has a zero ending: сапог (compare носков).",
+  "translation": "I don't have winter boots.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1840
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "genitive plural",
+  "s": "В машине только пять ___.",
+  "base": "место",
+  "a": "мест",
+  "alt": [],
+  "d": [
+   "местов",
+   "места",
+   "месте"
+  ],
+  "ex": "After 5: genitive plural. Neuter -о: zero ending, мест.",
+  "translation": "There are only five seats in the car.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1841
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "genitive plural",
+  "s": "Сегодня у меня на работе много ___.",
+  "base": "дело",
+  "a": "дел",
+  "alt": [],
+  "d": [
+   "делов",
+   "дела",
+   "деле"
+  ],
+  "ex": "Много + genitive plural. Дело → дел (zero ending).",
+  "translation": "I have a lot to do at work today.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1842
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "genitive plural",
+  "s": "Вокруг Березина много ___.",
+  "base": "поле",
+  "a": "полей",
+  "alt": [],
+  "d": [
+   "поля",
+   "полев",
+   "поле"
+  ],
+  "ex": "Много + genitive plural. Neuter -е → -ей: полей.",
+  "translation": "There are many fields around Berezino.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1843
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "genitive plural",
+  "s": "У дочери цвет ___ как у мамы.",
+  "base": "глаз",
+  "a": "глаз",
+  "alt": [],
+  "d": [
+   "глазов",
+   "глаза",
+   "глазу"
+  ],
+  "ex": "Цвет (the colour of) + genitive plural. Глаз → глаз (zero ending).",
+  "translation": "My daughter's eye colour is like her mother's.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1844
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "genitive plural",
+  "s": "Я уже десять ___ говорил ему про забор.",
+  "base": "раз",
+  "a": "раз",
+  "alt": [],
+  "d": [
+   "разов",
+   "раза",
+   "разы"
+  ],
+  "ex": "After 10: genitive plural. Раз → раз (no ending).",
+  "translation": "I've told him about the fence ten times already.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1845
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "genitive plural",
+  "s": "В нашем приходе двадцать ___.",
+  "base": "семья",
+  "a": "семей",
+  "alt": [],
+  "d": [
+   "семьёв",
+   "семьи",
+   "семью"
+  ],
+  "ex": "After 20: genitive plural. Семья → семей.",
+  "translation": "There are twenty families in our parish.",
+  "glosses": [
+   "приход: parish"
+  ],
+  "src": "bank",
+  "id": 1846
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "genitive plural",
+  "s": "На созвоне было двенадцать ___.",
+  "base": "человек",
+  "a": "человек",
+  "alt": [],
+  "d": [
+   "людей",
+   "человеков",
+   "люди"
+  ],
+  "ex": "After a number, человек stays человек: двенадцать человек. После много → людей.",
+  "translation": "There were twelve people on the call.",
+  "glosses": [
+   "созвон: (video) call"
+  ],
+  "src": "bank",
+  "id": 1847
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "genitive plural",
+  "s": "На площади в Джексоне было много ___.",
+  "base": "люди",
+  "a": "людей",
+  "alt": [],
+  "d": [
+   "люди",
+   "людям",
+   "человеков"
+  ],
+  "ex": "Много + genitive plural: людей. After a number it would be человек.",
+  "translation": "There were a lot of people on the square in Jackson.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1848
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "genitive plural",
+  "s": "Сколько ___ ты работаешь программистом?",
+  "base": "год",
+  "a": "лет",
+  "alt": [],
+  "d": [
+   "годов",
+   "года",
+   "годы"
+  ],
+  "ex": "Сколько + genitive plural, and for год that's лет. Годов is only for decades.",
+  "translation": "How many years have you worked as a programmer?",
+  "glosses": [],
+  "src": "bank",
+  "id": 1849
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "genitive plural",
+  "s": "На кухне не хватает ___ для гостей.",
+  "base": "стул",
+  "a": "стульев",
+  "alt": [],
+  "d": [
+   "стулов",
+   "стулья",
+   "стула"
+  ],
+  "ex": "Не хватает + genitive plural. Стул → стулья → стульев.",
+  "translation": "There aren't enough chairs in the kitchen for the guests.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1850
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "genitive plural",
+  "s": "У брата нет ___ в городе.",
+  "base": "друг",
+  "a": "друзей",
+  "alt": [],
+  "d": [
+   "другов",
+   "друзья",
+   "друга"
+  ],
+  "ex": "Нет + genitive plural. Друг → друзья → друзей.",
+  "translation": "My brother has no friends in town.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1851
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "genitive plural",
+  "s": "У соседа шесть ___.",
+  "base": "брат",
+  "a": "братьев",
+  "alt": [],
+  "d": [
+   "братов",
+   "братья",
+   "брата"
+  ],
+  "ex": "After 6: genitive plural. Брат → братья → братьев.",
+  "translation": "My neighbor has six brothers.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1852
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "genitive plural",
+  "s": "Мне нужна корзина для ___.",
+  "base": "яйцо",
+  "a": "яиц",
+  "alt": [],
+  "d": [
+   "яйцов",
+   "яйца",
+   "яйцу"
+  ],
+  "ex": "Для + genitive plural. Яйцо → яиц (irregular).",
+  "translation": "I need a basket for eggs.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1853
+ },
+ {
+  "level": "B1-C1",
+  "cat": "kakoy",
+  "sub": "accusative (people, animals): какого / какую / каких",
+  "s": "___ девушку он любит?",
+  "base": "какой",
+  "a": "Какую",
+  "alt": [],
+  "d": [
+   "Какого",
+   "Какая",
+   "Какое"
+  ],
+  "ex": "Девушка is feminine, the direct object of любит → accusative какую (feminine is -ую for people too).",
+  "translation": "Which girl does he love?",
+  "glosses": [
+   "девушка: girl, young woman; girlfriend"
+  ],
+  "src": "bank",
+  "id": 1854
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "accusative (things): какой / какую / какое / какие",
+  "s": "___ машину ты купил?",
+  "base": "какой",
+  "a": "Какую",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какая",
+   "Какое"
+  ],
+  "ex": "Машина is feminine, the direct object of купил → accusative какую.",
+  "translation": "Which car did you buy?",
+  "glosses": [],
+  "src": "bank",
+  "id": 1855
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "prepositional (в / на / о): каком / какой / каких",
+  "s": "В ___ деревне ты живёшь?",
+  "base": "какой",
+  "a": "какой",
+  "alt": [],
+  "d": [
+   "каком",
+   "какая",
+   "какую"
+  ],
+  "ex": "Где? в + prepositional. Деревня is feminine → в какой деревне.",
+  "translation": "Which village do you live in?",
+  "glosses": [
+   "деревня: village"
+  ],
+  "src": "bank",
+  "id": 1856
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "accusative (things): какой / какую / какое / какие",
+  "s": "___ музыку он слушает?",
+  "base": "какой",
+  "a": "Какую",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какая",
+   "Какое"
+  ],
+  "ex": "Музыка is feminine, the direct object of слушает → какую.",
+  "translation": "What music does he listen to?",
+  "glosses": [],
+  "src": "bank",
+  "id": 1857
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "nominative: какой / какая / какое / какие",
+  "s": "___ картина тебе нравится?",
+  "base": "какой",
+  "a": "Какая",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какую",
+   "Какое"
+  ],
+  "ex": "With нравится the thing you like is the subject (nominative). Картина is feminine → какая.",
+  "translation": "Which painting do you like?",
+  "glosses": [
+   "картина: painting, picture"
+  ],
+  "src": "bank",
+  "id": 1858
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "prepositional (в / на / о): каком / какой / каких",
+  "s": "О ___ машине ты говоришь?",
+  "base": "какой",
+  "a": "какой",
+  "alt": [],
+  "d": [
+   "каком",
+   "какая",
+   "какую"
+  ],
+  "ex": "О + prepositional. Машина is feminine → о какой машине.",
+  "translation": "Which car are you talking about?",
+  "glosses": [],
+  "src": "bank",
+  "id": 1859
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "prepositional (в / на / о): каком / какой / каких",
+  "s": "В ___ школе ты учился?",
+  "base": "какой",
+  "a": "какой",
+  "alt": [],
+  "d": [
+   "каком",
+   "какая",
+   "какую"
+  ],
+  "ex": "Где? в + prepositional. Школа is feminine → в какой школе.",
+  "translation": "Which school did you go to?",
+  "glosses": [
+   "учиться: to study (at school)"
+  ],
+  "src": "bank",
+  "id": 1860
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "accusative (things): какой / какую / какое / какие",
+  "s": "___ колу ты предпочитаешь?",
+  "base": "какой",
+  "a": "Какую",
+  "alt": [],
+  "d": [
+   "Какой",
+   "Какая",
+   "Какое"
+  ],
+  "ex": "Кола is feminine, the direct object of предпочитаешь → какую.",
+  "translation": "Which cola do you prefer?",
+  "glosses": [
+   "предпочитать: to prefer"
+  ],
+  "src": "bank",
+  "id": 1861
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "nominative: какой / какая / какое / какие",
+  "s": "___ жанр тебе нравится?",
+  "base": "какой",
+  "a": "Какой",
+  "alt": [],
+  "d": [
+   "Какая",
+   "Какое",
+   "Какого"
+  ],
+  "ex": "With нравится the thing is the subject. Жанр is masculine → какой. (Answer: Мне нравится джаз.)",
+  "translation": "Which genre do you like?",
+  "glosses": [
+   "жанр: genre"
+  ],
+  "src": "bank",
+  "id": 1862
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "accusative (things): какой / какую / какое / какие",
+  "s": "___ фильм вы вчера смотрели?",
+  "base": "какой",
+  "a": "Какой",
+  "alt": [],
+  "d": [
+   "Какую",
+   "Какое",
+   "Какого"
+  ],
+  "ex": "Фильм is masculine and inanimate: accusative = nominative → какой.",
+  "translation": "Which film did you watch yesterday?",
+  "glosses": [],
+  "src": "bank",
+  "id": 1863
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "accusative (things): какой / какую / какое / какие",
+  "s": "___ последний фильм вы смотрели?",
+  "base": "какой",
+  "a": "Какой",
+  "alt": [],
+  "d": [
+   "Какую",
+   "Какое",
+   "Какого"
+  ],
+  "ex": "Фильм is the direct object, masculine inanimate → какой (последний agrees).",
+  "translation": "What was the last film you watched?",
+  "glosses": [
+   "последний: last, latest"
+  ],
+  "src": "bank",
+  "id": 1864
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "accusative (things): какой / какую / какое / какие",
+  "s": "___ сорт вина вы любите?",
+  "base": "какой",
+  "a": "Какой",
+  "alt": [],
+  "d": [
+   "Какую",
+   "Какое",
+   "Какого"
+  ],
+  "ex": "Сорт is masculine inanimate, the direct object → какой. Вина is genitive (of wine).",
+  "translation": "Which kind of wine do you like?",
+  "glosses": [
+   "сорт: kind, variety"
+  ],
+  "src": "bank",
+  "id": 1865
+ },
+ {
+  "level": "A1-A2",
+  "cat": "kakoy",
+  "sub": "nominative: какой / какая / какое / какие",
+  "s": "___ город тебе нравится больше всего?",
+  "base": "какой",
+  "a": "Какой",
+  "alt": [],
+  "d": [
+   "Какая",
+   "Какое",
+   "Какого"
+  ],
+  "ex": "With нравится the city is the subject. Город is masculine → какой. (Мне нравится Нью-Йорк.)",
+  "translation": "Which city do you like most of all?",
+  "glosses": [],
+  "src": "bank",
+  "id": 1866
  }
 ]

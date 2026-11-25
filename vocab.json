@@ -4034,5 +4034,344 @@
   "theme": "Молчат Дома: Не вдвоём",
   "pos": "adv",
   "note": "Same as снова. «Встретил вновь её» = met her again."
+ },
+ {
+  "ru": "семья",
+  "en": "family",
+  "theme": "Family",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "forms": {
+   "ins": "семьёй",
+   "gpl": "семей"
+  }
+ },
+ {
+  "ru": "жена",
+  "en": "wife",
+  "theme": "Family",
+  "pos": "noun",
+  "g": "f",
+  "kind": "person",
+  "anim": true,
+  "nonum": true,
+  "forms": {
+   "npl": "жёны",
+   "gpl": "жён"
+  }
+ },
+ {
+  "ru": "муж",
+  "en": "husband",
+  "theme": "Family",
+  "pos": "noun",
+  "g": "m",
+  "kind": "person",
+  "anim": true,
+  "nonum": true
+ },
+ {
+  "ru": "брат",
+  "en": "brother",
+  "theme": "Family",
+  "pos": "noun",
+  "g": "m",
+  "kind": "person",
+  "anim": true
+ },
+ {
+  "ru": "сестра",
+  "en": "sister",
+  "theme": "Family",
+  "pos": "noun",
+  "g": "f",
+  "kind": "person",
+  "anim": true,
+  "forms": {
+   "npl": "сёстры",
+   "gpl": "сестёр"
+  }
+ },
+ {
+  "ru": "отец",
+  "en": "father",
+  "theme": "Family",
+  "pos": "noun",
+  "g": "m",
+  "kind": "person",
+  "anim": true,
+  "fleet": true,
+  "nonum": true,
+  "forms": {
+   "ins": "отцом",
+   "gpl": "отцов"
+  }
+ },
+ {
+  "ru": "мать",
+  "en": "mother",
+  "theme": "Family",
+  "pos": "noun",
+  "g": "f",
+  "kind": "person",
+  "anim": true,
+  "nonum": true,
+  "forms": {
+   "gen": "матери",
+   "dat": "матери",
+   "acc": "мать",
+   "ins": "матерью",
+   "prep": "матери"
+  }
+ },
+ {
+  "ru": "дочь",
+  "en": "daughter",
+  "theme": "Family",
+  "pos": "noun",
+  "g": "f",
+  "kind": "person",
+  "anim": true,
+  "forms": {
+   "gen": "дочери",
+   "dat": "дочери",
+   "acc": "дочь",
+   "ins": "дочерью",
+   "prep": "дочери"
+  }
+ },
+ {
+  "ru": "сын",
+  "en": "son",
+  "theme": "Family",
+  "pos": "noun",
+  "g": "m",
+  "kind": "person",
+  "anim": true
+ },
+ {
+  "ru": "тётя",
+  "en": "aunt",
+  "theme": "Family",
+  "pos": "noun",
+  "g": "f",
+  "kind": "person",
+  "anim": true
+ },
+ {
+  "ru": "Я работаю ради моей семьи.",
+  "en": "I work for the sake of my family.",
+  "theme": "Family",
+  "pos": "phrase"
+ },
+ {
+  "ru": "созвон",
+  "en": "call",
+  "theme": "Work and IT",
+  "pos": "noun",
+  "g": "m",
+  "kind": "event",
+  "note": "Colloquial: a video or phone call. На созвоне = on the call."
+ },
+ {
+  "ru": "онлайн-конференция",
+  "en": "online conference",
+  "theme": "Work and IT",
+  "pos": "noun",
+  "g": "f",
+  "kind": "event"
+ },
+ {
+  "ru": "коллега",
+  "en": "colleague",
+  "theme": "Work and IT",
+  "pos": "noun",
+  "g": "m",
+  "kind": "person",
+  "anim": true,
+  "note": "A man or a woman: мой коллега / моя коллега."
+ },
+ {
+  "ru": "программист",
+  "en": "programmer",
+  "theme": "Work and IT",
+  "pos": "noun",
+  "g": "m",
+  "kind": "person",
+  "anim": true
+ },
+ {
+  "ru": "код",
+  "en": "code",
+  "theme": "Work and IT",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing",
+  "mass": true
+ },
+ {
+  "ru": "задача",
+  "en": "task, problem",
+  "theme": "Work and IT",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing"
+ },
+ {
+  "ru": "созвониться",
+  "en": "to have a call, to call each other (pf.)",
+  "theme": "Work and IT",
+  "pos": "verb"
+ },
+ {
+  "ru": "Давай созвонимся завтра.",
+  "en": "Let's have a call tomorrow.",
+  "theme": "Work and IT",
+  "pos": "phrase"
+ },
+ {
+  "ru": "На созвоне было двенадцать человек.",
+  "en": "There were twelve people on the call.",
+  "theme": "Work and IT",
+  "pos": "phrase"
+ },
+ {
+  "ru": "заправка",
+  "en": "gas station",
+  "theme": "In town and daily life",
+  "pos": "noun",
+  "g": "f",
+  "kind": "place",
+  "pp": "на",
+  "forms": {
+   "gpl": "заправок"
+  }
+ },
+ {
+  "ru": "деревня",
+  "en": "village",
+  "theme": "In town and daily life",
+  "pos": "noun",
+  "g": "f",
+  "kind": "place",
+  "pp": "в",
+  "skip": [
+   "ins"
+  ],
+  "forms": {
+   "gpl": "деревень"
+  }
+ },
+ {
+  "ru": "школа",
+  "en": "school",
+  "theme": "In town and daily life",
+  "pos": "noun",
+  "g": "f",
+  "kind": "place",
+  "pp": "в"
+ },
+ {
+  "ru": "почта",
+  "en": "post office",
+  "theme": "In town and daily life",
+  "pos": "noun",
+  "g": "f",
+  "kind": "place",
+  "pp": "на",
+  "forms": {
+   "gpl": "почт"
+  }
+ },
+ {
+  "ru": "находиться",
+  "en": "to be located (impf.)",
+  "theme": "In town and daily life",
+  "pos": "verb"
+ },
+ {
+  "ru": "Моя машина стоит напротив моего дома.",
+  "en": "My car is parked across from my house. (напротив = opposite, + genitive)",
+  "theme": "In town and daily life",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Машина стоит перед домом.",
+  "en": "The car is parked in front of the house. (перед = in front of, + instrumental)",
+  "theme": "In town and daily life",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Я ем всё, кроме сыра.",
+  "en": "I eat everything except cheese. (кроме = except, + genitive)",
+  "theme": "In town and daily life",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Увидимся скоро!",
+  "en": "See you soon!",
+  "theme": "In town and daily life",
+  "pos": "phrase"
+ },
+ {
+  "ru": "фильм",
+  "en": "film, movie",
+  "theme": "Films, music and food",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing"
+ },
+ {
+  "ru": "жанр",
+  "en": "genre",
+  "theme": "Films, music and food",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing"
+ },
+ {
+  "ru": "картина",
+  "en": "painting, picture",
+  "theme": "Films, music and food",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing"
+ },
+ {
+  "ru": "сорт",
+  "en": "variety",
+  "theme": "Films, music and food",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing",
+  "note": "Kind, variety (of wine, cheese, apples): Какой сорт вина? Plural сорта."
+ },
+ {
+  "ru": "бутерброд",
+  "en": "sandwich",
+  "theme": "Films, music and food",
+  "pos": "noun",
+  "g": "m",
+  "kind": "food",
+  "note": "An open sandwich: bread with cheese, sausage or butter on top."
+ },
+ {
+  "ru": "предпочитать",
+  "en": "to prefer (impf.)",
+  "theme": "Films, music and food",
+  "pos": "verb"
+ },
+ {
+  "ru": "Какой фильм вы вчера смотрели?",
+  "en": "Which film did you watch yesterday?",
+  "theme": "Films, music and food",
+  "pos": "phrase"
+ },
+ {
+  "ru": "Мне нравятся все виды сыра, кроме бри.",
+  "en": "I like all kinds of cheese except Brie.",
+  "theme": "Films, music and food",
+  "pos": "phrase"
  }
 ]

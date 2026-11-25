@@ -2269,6 +2269,138 @@ def build():
     build_conj_b1()
     build_motion_aspect()
     build_home_kakoy_freq()
+    build_l9_bank()
+
+
+def build_l9_bank():
+    """Lesson 9 / tutor session additions (appended last so earlier bank ids stay stable)."""
+    C = "cases"
+    # ---- A1-A2: genitive prepositions, with the перед contrast ----
+    S = "для, кроме, напротив, ради (and перед)"
+    NAP = "Напротив (opposite, across from) takes the genitive: "
+    rows = [
+        ("Наша церковь стоит напротив ___.", "почта", "gen", "Our church stands across from the post office.", NAP + "напротив почты. In front of would be перед почтой (instrumental).", []),
+        ("Напротив ___ есть заправка.", "школа", "gen", "There's a gas station across from the school.", NAP + "напротив школы.", ["заправка: gas station"]),
+        ("Я живу напротив ___.", "парк", "gen", "I live across from the park.", NAP + "напротив парка.", []),
+        ("Магазин находится напротив ___.", "вокзал", "gen", "The store is located across from the station.", NAP + "напротив вокзала. Находится = is located.", ["находиться: to be located"]),
+        ("Напротив ___ большое поле.", "ферма", "gen", "There's a big field across from the farm.", NAP + "напротив фермы.", []),
+        ("Мой офис напротив ___.", "банк", "gen", "My office is across from the bank.", NAP + "напротив банка.", []),
+        ("Напротив ___ стоит старый сарай.", "дом", "gen", "An old barn stands across from the house.", NAP + "напротив дома. Перед домом would be right in front of it.", []),
+        ("В храме я стою напротив ___.", "икона", "gen", "In church I stand facing the icon.", NAP + "напротив иконы. Перед иконой (instrumental) = in front of the icon.", []),
+        ("Напротив ___ в Березине есть кафе.", "церковь", "gen", "There's a café across from the church in Berezino.", NAP + "напротив церкви (feminine -ь → -и).", []),
+        ("Остановка напротив ___.", "магазин", "gen", "The bus stop is across from the store.", NAP + "напротив магазина.", ["остановка: (bus) stop"]),
+        ("Почта находится напротив ___.", "библиотека", "gen", "The post office is across from the library.", NAP + "напротив библиотеки (к → и).", ["библиотека: library"]),
+        ("Пикап стоит напротив ___.", "гараж", "gen", "The pickup is parked across from the garage.", NAP + "напротив гаража.", ["гараж: garage"]),
+        ("Напротив ___ стоит памятник.", "музей", "gen", "There's a monument across from the museum.", NAP + "напротив музея (-й → -я).", ["памятник: monument"]),
+        ("Наш дом стоит напротив ___.", "пруд", "gen", "Our house stands across from the pond.", NAP + "напротив пруда.", []),
+        ("Напротив ___ живёт мой брат.", "больница", "gen", "My brother lives across from the hospital.", NAP + "напротив больницы.", ["больница: hospital"]),
+    ]
+    for s, lemma, case, tr, ex, gl in rows:
+        add_noun(A, C, S, s, lemma, case, tr, ex, gl)
+    for s, lemma, case, tr, ex, gl in [
+        ("Сосед живёт напротив ___.", "мы", "gen", "Our neighbor lives across from us.", "Напротив + genitive: напротив нас.", []),
+        ("В офисе коллега сидит напротив ___.", "я", "gen", "At the office my colleague sits across from me.", "Напротив + genitive: напротив меня.", ["коллега: colleague"]),
+        ("За столом жена сидит напротив ___.", "он", "pgen", "At the table my wife sits across from him.", "Напротив + genitive, with н- after the preposition: напротив него (not напротив его).", []),
+        ("На работе никто, кроме ___, не знает этот сервер.", "я", "gen", "At work nobody but me knows this server.", "Кроме (except) takes the genitive: кроме меня.", ["сервер: server"]),
+    ]:
+        add_pron(A, C, S, s, lemma, case, tr, ex, gl)
+    KR = "Кроме (besides, except, other than) takes the genitive: "
+    RD = "Ради (for the sake of) takes the genitive: "
+    DL = "Для (for) takes the genitive: "
+    rows = [
+        ("Все пришли на обед, кроме ___.", "брат", "gen", "Everyone came to lunch except my brother.", KR + "кроме брата.", []),
+        ("Я люблю всю музыку, кроме ___.", "джаз", "gen", "I like all music except jazz.", KR + "кроме джаза.", ["джаз: jazz"]),
+        ("Кроме наших ___ у нас есть куры и козы.", "корова", "gpl", "Besides our cows we have chickens and goats.", KR + "plural → genitive plural кроме коров.", ["коза: goat"]),
+        ("Кроме ___ я пью только воду.", "чай", "gen", "Apart from tea I drink only water.", KR + "кроме чая.", []),
+        ("Жена ест всё, кроме ___.", "рыба", "gen", "My wife eats everything except fish.", KR + "кроме рыбы.", []),
+        ("Магазин работает каждый день, кроме ___.", "воскресенье", "gen", "The store is open every day except Sunday.", KR + "кроме воскресенья (neuter -е → -я).", []),
+        ("Все мои друзья, кроме ___, живут в Минске.", "Андрей", "gen", "All my friends except Andrei live in Minsk.", KR + "кроме Андрея.", []),
+        ("Ради наших ___ я встаю в пять утра.", "корова", "gpl", "For our cows' sake I get up at five in the morning.", RD + "plural → ради коров.", []),
+        ("Мы делаем это ради наших ___.", "ребёнок", "gpl", "We do this for the sake of our children.", RD + "ради детей (irregular genitive plural of ребёнок / дети).", []),
+        ("Он переехал в Джексон ради ___.", "работа", "gen", "He moved to Jackson for the sake of work.", RD + "ради работы.", ["переехать: to move (house)"]),
+        ("Ради ___ я выучил русский.", "жена", "gen", "I learned Russian for my wife's sake.", RD + "ради жены.", []),
+        ("Мы ходим в храм не ради ___.", "традиция", "gen", "We don't go to church for the sake of tradition.", RD + "ради традиции (-ия → -ии).", ["традиция: tradition"]),
+        ("Ради ___ он продал машину.", "семья", "gen", "He sold the car for the sake of his family.", RD + "ради семьи.", []),
+        ("Ради ___ они поехали в Минск.", "концерт", "gen", "They went to Minsk for the sake of the concert.", RD + "ради концерта.", []),
+        ("Это корм для наших ___.", "свинья", "gpl", "This is feed for our pigs.", DL + "plural → для свиней.", []),
+        ("Я купил подарок для ___.", "мама", "gen", "I bought a present for Mom.", DL + "для мамы.", ["подарок: present"]),
+        ("Мы купили свечи для ___.", "храм", "gen", "We bought candles for the church.", DL + "для храма.", []),
+        ("Это сыр для ___: я делаю их на завтрак.", "бутерброд", "gpl", "This cheese is for sandwiches: I make them for breakfast.", DL + "plural → для бутербродов.", ["бутерброд: (open) sandwich"]),
+        ("Я пишу код для ___ в Джексоне.", "компания", "gen", "I write code for a company in Jackson.", DL + "для компании (-ия → -ии). Для = who benefits; ради = for the sake of.", ["компания: company"]),
+    ]
+    for s, lemma, case, tr, ex, gl in rows:
+        # plural objects: keep the genitive singular out of the options (для свиньи would also be grammatical)
+        add_noun(A, C, S, s, lemma, case, tr, ex, gl,
+                 prefer=["npl", "nom", "dpl", "ipl", "ppl", "dat", "ins"] if case == "gpl" else None)
+    PB = "кроме / напротив / перед"
+    for s, a, d, ex, tr in [
+        ("Трактор стоит ___ сараем.", "перед", ["напротив", "кроме", "для"], "Сараем is instrumental, so only перед (in front of) fits. Напротив and кроме take the genitive.", "The tractor is parked in front of the barn."),
+        ("Заправка находится ___ магазина, через дорогу.", "напротив", ["перед", "кроме", "ради"], "Магазина is genitive (not перед), and через дорогу (across the road) means напротив.", "The gas station is across the road from the store."),
+        ("___ службой мы молимся дома.", "перед", ["напротив", "кроме", "для"], "Службой is instrumental: перед службой = just before the service.", "Before the service we pray at home."),
+        ("Мы встречаемся ___ церковью.", "перед", ["напротив", "кроме", "ради"], "Церковью is instrumental: перед церковью = in front of the church.", "We're meeting in front of the church."),
+        ("Кафе ___ вокзала, на другой стороне улицы.", "напротив", ["перед", "кроме", "для"], "Вокзала is genitive, and на другой стороне улицы (on the other side of the street) means напротив.", "The café is opposite the station, on the other side of the street."),
+        ("Все были на созвоне, ___ меня.", "кроме", ["напротив", "перед", "ради"], "Everyone except me: кроме + genitive (меня).", "Everyone was on the call except me."),
+    ]:
+        add(A, C, S, s, PB, a, d, ex, tr, ["созвон: (video) call"] if "созвон" in s else [])
+
+    # ---- B1-C1 genitive plural: the exceptions from Lesson 9, Step 5 ----
+    S = "genitive plural"
+    for s, base, a, d, ex, tr in [
+        ("У меня в Березине пять ___.", "тётя", "тёть", ["тёти", "тётев", "тётю"], "After 5: genitive plural. Тётя → тёть (zero ending with a soft sign).", "I have five aunts in Berezino."),
+        ("Купи, пожалуйста, две пары ___.", "носок", "носков", ["носки", "носка", "носоков"], "Пара (a pair) takes the genitive plural. Носок → носков (fleeting о, then -ов).", "Please buy two pairs of socks."),
+        ("У меня нет зимних ___.", "сапог", "сапог", ["сапогов", "сапоги", "сапога"], "Нет + genitive plural. Сапог has a zero ending: сапог (compare носков).", "I don't have winter boots."),
+        ("В машине только пять ___.", "место", "мест", ["местов", "места", "месте"], "After 5: genitive plural. Neuter -о: zero ending, мест.", "There are only five seats in the car."),
+        ("Сегодня у меня на работе много ___.", "дело", "дел", ["делов", "дела", "деле"], "Много + genitive plural. Дело → дел (zero ending).", "I have a lot to do at work today."),
+        ("Вокруг Березина много ___.", "поле", "полей", ["поля", "полев", "поле"], "Много + genitive plural. Neuter -е → -ей: полей.", "There are many fields around Berezino."),
+        ("У дочери цвет ___ как у мамы.", "глаз", "глаз", ["глазов", "глаза", "глазу"], "Цвет (the colour of) + genitive plural. Глаз → глаз (zero ending).", "My daughter's eye colour is like her mother's."),
+        ("Я уже десять ___ говорил ему про забор.", "раз", "раз", ["разов", "раза", "разы"], "After 10: genitive plural. Раз → раз (no ending).", "I've told him about the fence ten times already."),
+        ("В нашем приходе двадцать ___.", "семья", "семей", ["семьёв", "семьи", "семью"], "After 20: genitive plural. Семья → семей.", "There are twenty families in our parish.", ),
+        ("На созвоне было двенадцать ___.", "человек", "человек", ["людей", "человеков", "люди"], "After a number, человек stays человек: двенадцать человек. После много → людей.", "There were twelve people on the call."),
+        ("На площади в Джексоне было много ___.", "люди", "людей", ["люди", "людям", "человеков"], "Много + genitive plural: людей. After a number it would be человек.", "There were a lot of people on the square in Jackson."),
+        ("Сколько ___ ты работаешь программистом?", "год", "лет", ["годов", "года", "годы"], "Сколько + genitive plural, and for год that's лет. Годов is only for decades.", "How many years have you worked as a programmer?"),
+        ("На кухне не хватает ___ для гостей.", "стул", "стульев", ["стулов", "стулья", "стула"], "Не хватает + genitive plural. Стул → стулья → стульев.", "There aren't enough chairs in the kitchen for the guests."),
+        ("У брата нет ___ в городе.", "друг", "друзей", ["другов", "друзья", "друга"], "Нет + genitive plural. Друг → друзья → друзей.", "My brother has no friends in town."),
+        ("У соседа шесть ___.", "брат", "братьев", ["братов", "братья", "брата"], "After 6: genitive plural. Брат → братья → братьев.", "My neighbor has six brothers."),
+        ("Мне нужна корзина для ___.", "яйцо", "яиц", ["яйцов", "яйца", "яйцу"], "Для + genitive plural. Яйцо → яиц (irregular).", "I need a basket for eggs."),
+    ]:
+        add(B, C, S, s, base, a, d, ex, tr, ["приход: parish"] if "приход" in s else (["созвон: (video) call"] if "созвон" in s else []))
+
+    # ---- какой: the tutor's questions not already in the bank ----
+    Fk = {"m":{"N":"какой","A":"какой","AA":"какого","G":"какого","D":"какому","I":"каким","P":"каком"},
+          "n":{"N":"какое","A":"какое","G":"какого","D":"какому","I":"каким","P":"каком"},
+          "f":{"N":"какая","A":"какую","AA":"какую","G":"какой","D":"какой","I":"какой","P":"какой"},
+          "p":{"N":"какие","A":"какие","AA":"каких","G":"каких","D":"каким","I":"какими","P":"каких"}}
+    SUBk = {"N":"nominative: какой / какая / какое / какие", "A":"accusative (things): какой / какую / какое / какие",
+            "AA":"accusative (people, animals): какого / какую / каких", "P":"prepositional (в / на / о): каком / какой / каких"}
+    LVk = {"N":A,"A":A,"P":A,"AA":B}
+    ORDERk = ["m","f","n","p"]; CASESk = ["N","A","G","D","I","P"]
+    def kdist(g_, c_, a_):
+        cc = "A" if c_ == "AA" else c_
+        same_case = [Fk[x].get(c_, Fk[x][cc]) for x in ORDERk if x != g_]
+        same_gen = [Fk[g_][k] for k in CASESk if k != cc]
+        out = []
+        for pair in zip(same_case + [None]*6, same_gen):
+            for o in pair:
+                if o and o != a_ and o not in out: out.append(o)
+        return out[:3]
+    for g_, c_, s, tr, ex, gl in [
+        ("f","AA","___ девушку он любит?","Which girl does he love?","Девушка is feminine, the direct object of любит → accusative какую (feminine is -ую for people too).",["девушка: girl, young woman; girlfriend"]),
+        ("f","A","___ машину ты купил?","Which car did you buy?","Машина is feminine, the direct object of купил → accusative какую.",[]),
+        ("f","P","В ___ деревне ты живёшь?","Which village do you live in?","Где? в + prepositional. Деревня is feminine → в какой деревне.",["деревня: village"]),
+        ("f","A","___ музыку он слушает?","What music does he listen to?","Музыка is feminine, the direct object of слушает → какую.",[]),
+        ("f","N","___ картина тебе нравится?","Which painting do you like?","With нравится the thing you like is the subject (nominative). Картина is feminine → какая.",["картина: painting, picture"]),
+        ("f","P","О ___ машине ты говоришь?","Which car are you talking about?","О + prepositional. Машина is feminine → о какой машине.",[]),
+        ("f","P","В ___ школе ты учился?","Which school did you go to?","Где? в + prepositional. Школа is feminine → в какой школе.",["учиться: to study (at school)"]),
+        ("f","A","___ колу ты предпочитаешь?","Which cola do you prefer?","Кола is feminine, the direct object of предпочитаешь → какую.",["предпочитать: to prefer"]),
+        ("m","N","___ жанр тебе нравится?","Which genre do you like?","With нравится the thing is the subject. Жанр is masculine → какой. (Answer: Мне нравится джаз.)",["жанр: genre"]),
+        ("m","A","___ фильм вы вчера смотрели?","Which film did you watch yesterday?","Фильм is masculine and inanimate: accusative = nominative → какой.",[]),
+        ("m","A","___ последний фильм вы смотрели?","What was the last film you watched?","Фильм is the direct object, masculine inanimate → какой (последний agrees).",["последний: last, latest"]),
+        ("m","A","___ сорт вина вы любите?","Which kind of wine do you like?","Сорт is masculine inanimate, the direct object → какой. Вина is genitive (of wine).",["сорт: kind, variety"]),
+        ("m","N","___ город тебе нравится больше всего?","Which city do you like most of all?","With нравится the city is the subject. Город is masculine → какой. (Мне нравится Нью-Йорк.)",[]),
+    ]:
+        a_ = Fk[g_][c_]
+        add(LVk[c_], "kakoy", SUBk[c_], s, "какой", a_, kdist(g_, c_, a_), ex, tr, gl)
+
 
 def _poss_forms(stem):
     # stem is мой/твой/наш/ваш/чей

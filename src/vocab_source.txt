@@ -390,3 +390,44 @@
 изнутри|from inside|adv|note=«Ритм_сердца_изнутри»_=_the_heartbeat_from_within.
 вдвоём|the two of us, together (as a pair)|adv|note=«Мы_проснулись_не_вдвоём»_=_we_didn’t_wake_up_together.
 вновь|again (poetic)|adv|note=Same_as_снова._«Встретил_вновь_её»_=_met_her_again.
+@Family
+семья|family|f|thing|ins=семьёй gpl=семей|семьи|семье|семью|семьёй|семье|семьи|семей
+жена|wife|f|person|anim npl=жёны gpl=жён nonum|жены|жене|жену|женой|жене|жёны|жён
+муж|husband|m|person|anim nonum|мужа|мужу|мужа|мужем|муже|мужья|мужей
+брат|brother|m|person|anim|брата|брату|брата|братом|брате|братья|братьев
+сестра|sister|f|person|anim npl=сёстры gpl=сестёр|сестры|сестре|сестру|сестрой|сестре|сёстры|сестёр
+отец|father|m|person|anim fleet ins=отцом gpl=отцов nonum|отца|отцу|отца|отцом|отце|отцы|отцов
+мать|mother|f|person|anim gen=матери dat=матери acc=мать ins=матерью prep=матери nonum|матери|матери|мать|матерью|матери|матери|матерей
+дочь|daughter|f|person|anim gen=дочери dat=дочери acc=дочь ins=дочерью prep=дочери|дочери|дочери|дочь|дочерью|дочери|дочери|дочерей
+сын|son|m|person|anim|сына|сыну|сына|сыном|сыне|сыновья|сыновей
+тётя|aunt|f|person|anim|тёти|тёте|тётю|тётей|тёте|тёти|тёть
+Я работаю ради моей семьи.|I work for the sake of my family.|phrase
+@Work and IT
+созвон|call|m|event|note=Colloquial:_a_video_or_phone_call._На_созвоне_=_on_the_call.|созвона|созвону|созвон|созвоном|созвоне|созвоны|созвонов
+онлайн-конференция|online conference|f|event||онлайн-конференции|онлайн-конференции|онлайн-конференцию|онлайн-конференцией|онлайн-конференции|онлайн-конференции|онлайн-конференций
+коллега|colleague|m|person|anim note=A_man_or_a_woman:_мой_коллега_/_моя_коллега.|коллеги|коллеге|коллегу|коллегой|коллеге|коллеги|коллег
+программист|programmer|m|person|anim|программиста|программисту|программиста|программистом|программисте|программисты|программистов
+код|code|m|thing|mass|кода|коду|код|кодом|коде|-|-
+задача|task, problem|f|thing||задачи|задаче|задачу|задачей|задаче|задачи|задач
+созвониться|to have a call, to call each other (pf.)|verb
+Давай созвонимся завтра.|Let's have a call tomorrow.|phrase
+На созвоне было двенадцать человек.|There were twelve people on the call.|phrase
+@In town and daily life
+заправка|gas station|f|place|pp=на gpl=заправок|заправки|заправке|заправку|заправкой|заправке|заправки|заправок
+деревня|village|f|place|pp=в skip=ins gpl=деревень|деревни|деревне|деревню|деревней|деревне|деревни|деревень
+школа|school|f|place|pp=в|школы|школе|школу|школой|школе|школы|школ
+почта|post office|f|place|pp=на gpl=почт|почты|почте|почту|почтой|почте|почты|почт
+находиться|to be located (impf.)|verb
+Моя машина стоит напротив моего дома.|My car is parked across from my house. (напротив = opposite, + genitive)|phrase
+Машина стоит перед домом.|The car is parked in front of the house. (перед = in front of, + instrumental)|phrase
+Я ем всё, кроме сыра.|I eat everything except cheese. (кроме = except, + genitive)|phrase
+Увидимся скоро!|See you soon!|phrase
+@Films, music and food
+фильм|film, movie|m|thing||фильма|фильму|фильм|фильмом|фильме|фильмы|фильмов
+жанр|genre|m|thing||жанра|жанру|жанр|жанром|жанре|жанры|жанров
+картина|painting, picture|f|thing||картины|картине|картину|картиной|картине|картины|картин
+сорт|variety|m|thing|note=Kind,_variety_(of_wine,_cheese,_apples):_Какой_сорт_вина?_Plural_сорта.|сорта|сорту|сорт|сортом|сорте|сорта|сортов
+бутерброд|sandwich|m|food|note=An_open_sandwich:_bread_with_cheese,_sausage_or_butter_on_top.|бутерброда|бутерброду|бутерброд|бутербродом|бутерброде|бутерброды|бутербродов
+предпочитать|to prefer (impf.)|verb
+Какой фильм вы вчера смотрели?|Which film did you watch yesterday?|phrase
+Мне нравятся все виды сыра, кроме бри.|I like all kinds of cheese except Brie.|phrase

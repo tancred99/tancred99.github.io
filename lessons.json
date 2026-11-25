@@ -64,8 +64,8 @@
   {
    "n": 9,
    "id": "L9",
-   "title": "Plurals",
-   "topic": "один билет, два билета, пять билетов"
+   "title": "Plurals and the genitive plural",
+   "topic": "пять коров, много друзей; для, кроме, напротив"
   },
   {
    "n": 10,
@@ -5585,6 +5585,739 @@
      ],
      "ex": "After the preposition к, ей adds н-: к ней. (Steps 4 and 6)",
      "translation": "In the evening I'm going to her place.",
+     "glosses": []
+    }
+   ]
+  },
+  "L9": {
+   "id": "L9",
+   "n": 9,
+   "title": "Plurals and the genitive plural: пять коров, много друзей",
+   "goal": "By the end you'll count and quantify anything: У нас двадцать коров. У жены много подруг. Мне сорок пять лет. You'll also use the genitive prepositions (для, кроме, напротив, ради…) and tell напротив from перед.",
+   "minutes": "20–25 min to read, then 38 exercises",
+   "sections": [
+    {
+     "h": "Step 1 · The nominative plural (a quick review)",
+     "open": true,
+     "html": "<p>Before the genitive plural, a quick look at the plain plural, the <b>nominative plural</b> (<span lang=\"ru\" class=\"r\">именительный падеж, множественное число</span>). It's the form for the <b>subject</b>: <span lang=\"ru\" class=\"r\">Коровы пасутся на лугу</span>.</p><div class=\"rv nostress\"><div class=\"rvbar\"><span class=\"rvh\">Say each word out loud first. Then check the stress:</span><button type=\"button\" class=\"sbtn\" data-rv=\"1\" aria-pressed=\"false\">Show stress ´</button></div><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Dictionary form</th><th>Nominative plural</th><th>Examples</th></tr></thead><tbody><tr><td>masc. consonant</td><td><span lang=\"ru\" class=\"r\">-ы</span> (<span lang=\"ru\" class=\"r\">-и</span> after г, к, х, ж, ч, ш, щ)</td><td><span lang=\"ru\" class=\"r\">студент</span> → <span lang=\"ru\" class=\"r\">студенты</span> · <span lang=\"ru\" class=\"r\">программист</span> → <span lang=\"ru\" class=\"r\">программисты</span> · <span lang=\"ru\" class=\"r\">петух</span> → <span lang=\"ru\" class=\"r\">петухи</span> · <span lang=\"ru\" class=\"r\">врач</span> → <span lang=\"ru\" class=\"r\">врачи</span></td></tr><tr><td>masc. <span lang=\"ru\" class=\"r\">-й / -ь</span>, fem. <span lang=\"ru\" class=\"r\">-я / -ь</span></td><td><span lang=\"ru\" class=\"r\">-и</span></td><td><span lang=\"ru\" class=\"r\">музей</span> → <span lang=\"ru\" class=\"r\">музеи</span> · <span lang=\"ru\" class=\"r\">словарь</span> → <span lang=\"ru\" class=\"r\">словари</span> · <span lang=\"ru\" class=\"r\">песня</span> → <span lang=\"ru\" class=\"r\">песни</span> · <span lang=\"ru\" class=\"r\">тетрадь</span> → <span lang=\"ru\" class=\"r\">тетради</span></td></tr><tr><td>fem. <span lang=\"ru\" class=\"r\">-а</span></td><td><span lang=\"ru\" class=\"r\">-ы / -и</span></td><td><span lang=\"ru\" class=\"r\">корова</span> → <span lang=\"ru\" class=\"r\">коровы</span> · <span lang=\"ru\" class=\"r\">улица</span> → <span lang=\"ru\" class=\"r\">улицы</span> · <span lang=\"ru\" class=\"r\">подруга</span> → <span lang=\"ru\" class=\"r\">подруги</span></td></tr><tr><td>neut. <span lang=\"ru\" class=\"r\">-о / -е</span></td><td><span lang=\"ru\" class=\"r\">-а / -я</span></td><td><span lang=\"ru\" class=\"r\">место</span> → <span lang=\"ru\" class=\"r\">места</span> · <span lang=\"ru\" class=\"r\">поле</span> → <span lang=\"ru\" class=\"r\">поля</span> · <span lang=\"ru\" class=\"r\">общежитие</span> → <span lang=\"ru\" class=\"r\">общежития</span></td></tr><tr><td>some masc. (stressed)</td><td><span lang=\"ru\" class=\"r\">-а</span></td><td><span lang=\"ru\" class=\"r\">город</span> → <span lang=\"ru\" class=\"r\">города</span> · <span lang=\"ru\" class=\"r\">дом</span> → <span lang=\"ru\" class=\"r\">дома</span> · <span lang=\"ru\" class=\"r\">сорт</span> → <span lang=\"ru\" class=\"r\">сорта</span></td></tr></tbody></table></div></div><p>A handful are irregular in the plural itself. You've met most of them already:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">человек</span> person</td><td><span lang=\"ru\" class=\"r\">люди</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">ребёнок</span> child</td><td><span lang=\"ru\" class=\"r\">дети</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">друг</span> friend</td><td><span lang=\"ru\" class=\"r\">друзья</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">брат</span> brother</td><td><span lang=\"ru\" class=\"r\">братья</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">сестра</span> sister</td><td><span lang=\"ru\" class=\"r\">сёстры</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">жена</span> wife</td><td><span lang=\"ru\" class=\"r\">жёны</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">мать</span> / <span lang=\"ru\" class=\"r\">дочь</span></td><td><span lang=\"ru\" class=\"r\">матери</span> / <span lang=\"ru\" class=\"r\">дочери</span> (the hidden <span lang=\"ru\" class=\"r\">-ер-</span> comes back)</td></tr></tbody></table></div><p class=\"tip\"><b>German:</b> German marks the plural mostly with the article (die Kühe, die Brüder). Russian has no article, so the <b>ending</b> carries all the information, and the plural has its own set of cases. This lesson is about the most-used of those cases after the nominative.</p>"
+    },
+    {
+     "h": "Step 2 · The genitive plural: masculine nouns (-ов / -ев / -ей)",
+     "open": false,
+     "html": "<p>The <b>genitive plural</b> (<span lang=\"ru\" class=\"r\">родительный падеж, множественное число</span>) answers <span lang=\"ru\" class=\"r\">кого? чего?</span> for more than one: <span lang=\"ru\" class=\"r\">много коров</span>, <span lang=\"ru\" class=\"r\">пять друзей</span>, <span lang=\"ru\" class=\"r\">нет денег</span>. Unlike the other plural cases, it has <b>three</b> different endings, and the dictionary form tells you which one.</p><p>Masculine nouns, from your tutor's chart and your own life:</p><div class=\"rv nostress\"><div class=\"rvbar\"><span class=\"rvh\">Say each word out loud first. Then check the stress:</span><button type=\"button\" class=\"sbtn\" data-rv=\"1\" aria-pressed=\"false\">Show stress ´</button></div><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Dictionary form ends in</th><th>Genitive plural</th><th>Examples</th></tr></thead><tbody><tr><td>a hard consonant</td><td><span lang=\"ru\" class=\"r\">-ов</span></td><td><span lang=\"ru\" class=\"r\">студент</span> → <span lang=\"ru\" class=\"r\">студентов</span> · <span lang=\"ru\" class=\"r\">город</span> → <span lang=\"ru\" class=\"r\">городов</span> · <span lang=\"ru\" class=\"r\">учебник</span> → <span lang=\"ru\" class=\"r\">учебников</span> · <span lang=\"ru\" class=\"r\">отец</span> → <span lang=\"ru\" class=\"r\">отцов</span> · <span lang=\"ru\" class=\"r\">петух</span> → <span lang=\"ru\" class=\"r\">петухов</span> · <span lang=\"ru\" class=\"r\">программист</span> → <span lang=\"ru\" class=\"r\">программистов</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">-й</span></td><td><span lang=\"ru\" class=\"r\">-ев</span></td><td><span lang=\"ru\" class=\"r\">музей</span> → <span lang=\"ru\" class=\"r\">музеев</span> · <span lang=\"ru\" class=\"r\">планетарий</span> → <span lang=\"ru\" class=\"r\">планетариев</span> · <span lang=\"ru\" class=\"r\">сарай</span> → <span lang=\"ru\" class=\"r\">сараев</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">ж, ч, ш, щ</span></td><td><span lang=\"ru\" class=\"r\">-ей</span></td><td><span lang=\"ru\" class=\"r\">этаж</span> → <span lang=\"ru\" class=\"r\">этажей</span> · <span lang=\"ru\" class=\"r\">врач</span> → <span lang=\"ru\" class=\"r\">врачей</span> · <span lang=\"ru\" class=\"r\">карандаш</span> → <span lang=\"ru\" class=\"r\">карандашей</span> · <span lang=\"ru\" class=\"r\">товарищ</span> → <span lang=\"ru\" class=\"r\">товарищей</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">-ь</span></td><td><span lang=\"ru\" class=\"r\">-ей</span></td><td><span lang=\"ru\" class=\"r\">преподаватель</span> → <span lang=\"ru\" class=\"r\">преподавателей</span> · <span lang=\"ru\" class=\"r\">словарь</span> → <span lang=\"ru\" class=\"r\">словарей</span> · <span lang=\"ru\" class=\"r\">рубль</span> → <span lang=\"ru\" class=\"r\">рублей</span> · <span lang=\"ru\" class=\"r\">гость</span> → <span lang=\"ru\" class=\"r\">гостей</span></td></tr></tbody></table></div></div><p>Notice <span lang=\"ru\" class=\"r\">отец → отцов</span>: the <span lang=\"ru\" class=\"r\">е</span> in <span lang=\"ru\" class=\"r\">отец</span> is a <b>fleeting vowel</b>. It drops out as soon as an ending is added (<span lang=\"ru\" class=\"r\">отца, отцу, отцы, отцов</span>). The same happens with <span lang=\"ru\" class=\"r\">петушок → петушков</span>, <span lang=\"ru\" class=\"r\">огурец → огурцов</span>.</p><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">У нас на ферме двенадцать петухов.</span><span class=\"g\">We have twelve roosters on the farm.</span></li><li><span lang=\"ru\" class=\"r\">В нашем офисе пять программистов.</span><span class=\"g\">There are five programmers in our office.</span></li><li><span lang=\"ru\" class=\"r\">В Джексоне много музеев?</span><span class=\"g\">Are there many museums in Jackson?</span></li></ul><p class=\"tip\">A memory hook: after the “hushing” sounds <span lang=\"ru\" class=\"r\">ж, ч, ш, щ</span> and after <span lang=\"ru\" class=\"r\">-ь</span>, Russian wants <span lang=\"ru\" class=\"r\">-ей</span>. <span lang=\"ru\" class=\"r\">-ов</span> after <span lang=\"ru\" class=\"r\">ж/ч/ш/щ</span> (<span lang=\"ru\" class=\"r\">врачов</span>) is the most common learner mistake here.</p>"
+    },
+    {
+     "h": "Step 3 · Feminine and neuter: the zero ending",
+     "open": false,
+     "html": "<p>Most feminine nouns in <span lang=\"ru\" class=\"r\">-а / -я</span> and neuter nouns in <span lang=\"ru\" class=\"r\">-о</span> take <b>no ending at all</b> in the genitive plural: you just remove the last vowel. This is the “zero ending”.</p><div class=\"rv nostress\"><div class=\"rvbar\"><span class=\"rvh\">Say each word out loud first. Then check the stress:</span><button type=\"button\" class=\"sbtn\" data-rv=\"1\" aria-pressed=\"false\">Show stress ´</button></div><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Dictionary form</th><th>Genitive plural</th><th>Examples</th></tr></thead><tbody><tr><td>fem. <span lang=\"ru\" class=\"r\">-а</span></td><td>drop <span lang=\"ru\" class=\"r\">-а</span></td><td><span lang=\"ru\" class=\"r\">комната</span> → <span lang=\"ru\" class=\"r\">комнат</span> · <span lang=\"ru\" class=\"r\">подруга</span> → <span lang=\"ru\" class=\"r\">подруг</span> · <span lang=\"ru\" class=\"r\">улица</span> → <span lang=\"ru\" class=\"r\">улиц</span> · <span lang=\"ru\" class=\"r\">корова</span> → <span lang=\"ru\" class=\"r\">коров</span> · <span lang=\"ru\" class=\"r\">икона</span> → <span lang=\"ru\" class=\"r\">икон</span> · <span lang=\"ru\" class=\"r\">школа</span> → <span lang=\"ru\" class=\"r\">школ</span></td></tr><tr><td>neut. <span lang=\"ru\" class=\"r\">-о</span></td><td>drop <span lang=\"ru\" class=\"r\">-о</span></td><td><span lang=\"ru\" class=\"r\">посольство</span> → <span lang=\"ru\" class=\"r\">посольств</span> · <span lang=\"ru\" class=\"r\">место</span> → <span lang=\"ru\" class=\"r\">мест</span> · <span lang=\"ru\" class=\"r\">дело</span> → <span lang=\"ru\" class=\"r\">дел</span></td></tr><tr><td>fem. <span lang=\"ru\" class=\"r\">-ия</span>, neut. <span lang=\"ru\" class=\"r\">-ие</span></td><td><span lang=\"ru\" class=\"r\">-ий</span></td><td><span lang=\"ru\" class=\"r\">аудитория</span> → <span lang=\"ru\" class=\"r\">аудиторий</span> · <span lang=\"ru\" class=\"r\">литургия</span> → <span lang=\"ru\" class=\"r\">литургий</span> · <span lang=\"ru\" class=\"r\">общежитие</span> → <span lang=\"ru\" class=\"r\">общежитий</span> · <span lang=\"ru\" class=\"r\">здание</span> → <span lang=\"ru\" class=\"r\">зданий</span></td></tr><tr><td>fem. <span lang=\"ru\" class=\"r\">-ь</span>, neut. <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">-ей</span></td><td><span lang=\"ru\" class=\"r\">тетрадь</span> → <span lang=\"ru\" class=\"r\">тетрадей</span> · <span lang=\"ru\" class=\"r\">лошадь</span> → <span lang=\"ru\" class=\"r\">лошадей</span> · <span lang=\"ru\" class=\"r\">море</span> → <span lang=\"ru\" class=\"r\">морей</span> · <span lang=\"ru\" class=\"r\">поле</span> → <span lang=\"ru\" class=\"r\">полей</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">мать, дочь</span></td><td><span lang=\"ru\" class=\"r\">-ерей</span></td><td><span lang=\"ru\" class=\"r\">мать</span> → <span lang=\"ru\" class=\"r\">матерей</span> · <span lang=\"ru\" class=\"r\">дочь</span> → <span lang=\"ru\" class=\"r\">дочерей</span></td></tr></tbody></table></div></div><h4>The fleeting vowel comes in</h4><p>If removing the vowel would leave two consonants jammed together at the end, Russian <b>inserts</b> an <span lang=\"ru\" class=\"r\">о</span> or <span lang=\"ru\" class=\"r\">е / ё</span> to make the word pronounceable:</p><div class=\"rv nostress\"><div class=\"rvbar\"><span class=\"rvh\">Say each word out loud first. Then check the stress:</span><button type=\"button\" class=\"sbtn\" data-rv=\"1\" aria-pressed=\"false\">Show stress ´</button></div><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Dictionary form</th><th>Without help (impossible)</th><th>Genitive plural</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">тарелка</span></td><td>тарелк</td><td><span lang=\"ru\" class=\"r\">тарелок</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">чашка</span></td><td>чашк</td><td><span lang=\"ru\" class=\"r\">чашек</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">бутылка</span></td><td>бутылк</td><td><span lang=\"ru\" class=\"r\">бутылок</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">заправка</span></td><td>заправк</td><td><span lang=\"ru\" class=\"r\">заправок</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">сестра</span></td><td>сестр</td><td><span lang=\"ru\" class=\"r\">сестёр</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">песня</span></td><td>песн</td><td><span lang=\"ru\" class=\"r\">песен</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">деревня</span></td><td>деревн</td><td><span lang=\"ru\" class=\"r\">деревень</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">письмо</span></td><td>письм</td><td><span lang=\"ru\" class=\"r\">писем</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">окно</span></td><td>окн</td><td><span lang=\"ru\" class=\"r\">окон</span></td></tr></tbody></table></div></div><p class=\"tip\"><b>Shorter, not longer:</b> German has nothing like the zero ending, so it feels odd at first. The key point is that here the genitive plural is the <b>shortest</b> form: <span lang=\"ru\" class=\"r\">коров</span> is shorter than <span lang=\"ru\" class=\"r\">корова</span>. That is why <span lang=\"ru\" class=\"r\">“коровов”</span> sounds so wrong to a Russian.</p>"
+    },
+    {
+     "h": "Step 4 · When to use the genitive plural",
+     "open": false,
+     "html": "<p>You'll need the genitive plural in five everyday situations:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Trigger</th><th>Example</th><th>Note</th></tr></thead><tbody><tr><td>a number of 5 or more (and 11–14)</td><td><span lang=\"ru\" class=\"r\">пять коров</span> · <span lang=\"ru\" class=\"r\">двадцать петухов</span></td><td>the <b>Numbers</b> section, Step 8: 1 nominative, 2–4 genitive singular, 5+ genitive plural. Only the last digit counts: <span lang=\"ru\" class=\"r\">двадцать две коровы</span>.</td></tr><tr><td><span lang=\"ru\" class=\"r\">много, мало, сколько, несколько</span></td><td><span lang=\"ru\" class=\"r\">много друзей</span> · <span lang=\"ru\" class=\"r\">сколько яиц?</span></td><td>quantity words always take the genitive (plural if you can count it)</td></tr><tr><td><span lang=\"ru\" class=\"r\">нет</span> + plural</td><td><span lang=\"ru\" class=\"r\">в деревне нет школ</span> · <span lang=\"ru\" class=\"r\">у нас нет свиней</span></td><td>Lesson 4's <span lang=\"ru\" class=\"r\">нет</span> rule, in the plural</td></tr><tr><td>a genitive preposition</td><td><span lang=\"ru\" class=\"r\">для коров</span> · <span lang=\"ru\" class=\"r\">кроме друзей</span></td><td>Step 6</td></tr><tr><td>animate direct object, plural</td><td><span lang=\"ru\" class=\"r\">я вижу коров</span> · <span lang=\"ru\" class=\"r\">я жду друзей</span></td><td>Lesson 6: animate accusative plural = genitive plural</td></tr></tbody></table></div><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">У нас много коров и кур.</span><span class=\"g\">We have a lot of cows and chickens.</span></li><li><span lang=\"ru\" class=\"r\">Сколько у тебя петухов? — Два петуха.</span><span class=\"g\">How many roosters do you have? — Two. (2 → genitive singular)</span></li><li><span lang=\"ru\" class=\"r\">В Березине нет больших заправок.</span><span class=\"g\">There are no big gas stations in Berezino.</span></li><li><span lang=\"ru\" class=\"r\">На альбоме Молчат Дома десять песен.</span><span class=\"g\">There are ten songs on the Molchat Doma album.</span></li></ul><p class=\"tip\"><b>Don’t over-apply it:</b> with <span lang=\"ru\" class=\"r\">есть</span> the thing is the <b>subject</b>, so it stays nominative plural: <span lang=\"ru\" class=\"r\">У нас есть коровы</span> (we have cows), but <span lang=\"ru\" class=\"r\">У нас много коров</span> (we have many cows). It's exactly the pair <span lang=\"ru\" class=\"r\">есть / нет</span> from Lesson 4.</p>"
+    },
+    {
+     "h": "Step 5 · Exceptions to watch",
+     "open": false,
+     "html": "<p>These are the words that trip up even advanced learners, because the “regular” form you'd build from Steps 2–3 is wrong. Russians notice them instantly. If you build a genitive plural for one of these and it <b>looks regular</b>, stop and check this list.</p><div class=\"rv nostress\"><div class=\"rvbar\"><span class=\"rvh\">Say each word out loud first. Then check the stress:</span><button type=\"button\" class=\"sbtn\" data-rv=\"1\" aria-pressed=\"false\">Show stress ´</button></div><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Word</th><th>Genitive plural</th><th>The trap</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">человек</span> person</td><td><span lang=\"ru\" class=\"r\">людей</span> · but <span lang=\"ru\" class=\"r\">пять человек</span></td><td>after <b>numbers</b>: <span lang=\"ru\" class=\"r\">человек</span> (<span lang=\"ru\" class=\"r\">пять человек, двадцать человек</span>); after <span lang=\"ru\" class=\"r\">много / мало / сколько</span>: <span lang=\"ru\" class=\"r\">людей</span>. Never <span lang=\"ru\" class=\"r\">“человеков”</span>.</td></tr><tr><td><span lang=\"ru\" class=\"r\">год</span> year</td><td><span lang=\"ru\" class=\"r\">лет</span></td><td><span lang=\"ru\" class=\"r\">пять лет</span>, <span lang=\"ru\" class=\"r\">сорок лет</span>, <span lang=\"ru\" class=\"r\">много лет</span>. <span lang=\"ru\" class=\"r\">годов</span> is only for decades (<span lang=\"ru\" class=\"r\">девяностых годов</span>).</td></tr><tr><td><span lang=\"ru\" class=\"r\">ребёнок</span> child</td><td><span lang=\"ru\" class=\"r\">детей</span></td><td>from <span lang=\"ru\" class=\"r\">дети</span>: <span lang=\"ru\" class=\"r\">трое детей</span>, <span lang=\"ru\" class=\"r\">много детей</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">деньги</span> money</td><td><span lang=\"ru\" class=\"r\">денег</span></td><td>plural only, with a fleeting <span lang=\"ru\" class=\"r\">е</span>: <span lang=\"ru\" class=\"r\">нет денег</span>, not <span lang=\"ru\" class=\"r\">“деньгов”</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">брат</span> brother</td><td><span lang=\"ru\" class=\"r\">братьев</span></td><td>plural <span lang=\"ru\" class=\"r\">братья</span> → <span lang=\"ru\" class=\"r\">братьев</span> (also <span lang=\"ru\" class=\"r\">стул → стулья → стульев</span>)</td></tr><tr><td><span lang=\"ru\" class=\"r\">друг</span> friend</td><td><span lang=\"ru\" class=\"r\">друзей</span></td><td>plural <span lang=\"ru\" class=\"r\">друзья</span> → <span lang=\"ru\" class=\"r\">друзей</span>, not <span lang=\"ru\" class=\"r\">“другов”</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">стул</span> chair</td><td><span lang=\"ru\" class=\"r\">стульев</span></td><td>plural <span lang=\"ru\" class=\"r\">стулья</span>, like <span lang=\"ru\" class=\"r\">братья</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">раз</span> time (occasion)</td><td><span lang=\"ru\" class=\"r\">раз</span></td><td><span lang=\"ru\" class=\"r\">пять раз</span>, <span lang=\"ru\" class=\"r\">много раз</span>: no ending, like <span lang=\"ru\" class=\"r\">глаз → глаз</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">глаз</span> eye</td><td><span lang=\"ru\" class=\"r\">глаз</span></td><td><span lang=\"ru\" class=\"r\">у неё красивые глаза</span>, but <span lang=\"ru\" class=\"r\">цвет глаз</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">солдат</span> soldier</td><td><span lang=\"ru\" class=\"r\">солдат</span></td><td>zero ending although it's masculine: <span lang=\"ru\" class=\"r\">пять солдат</span> (the film <span lang=\"ru\" class=\"r\">«Солдаты неудачи»</span>)</td></tr><tr><td><span lang=\"ru\" class=\"r\">сапог</span> boot</td><td><span lang=\"ru\" class=\"r\">сапог</span></td><td><span lang=\"ru\" class=\"r\">пара сапог</span> — but <span lang=\"ru\" class=\"r\">носок → носков</span> (<span lang=\"ru\" class=\"r\">пара носков</span>)</td></tr><tr><td><span lang=\"ru\" class=\"r\">носок</span> sock</td><td><span lang=\"ru\" class=\"r\">носков</span></td><td>fleeting <span lang=\"ru\" class=\"r\">о</span>, then <span lang=\"ru\" class=\"r\">-ов</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">курица</span> / <span lang=\"ru\" class=\"r\">куры</span> hens</td><td><span lang=\"ru\" class=\"r\">кур</span></td><td>on the farm the plural is <span lang=\"ru\" class=\"r\">куры</span>, genitive <span lang=\"ru\" class=\"r\">кур</span> (<span lang=\"ru\" class=\"r\">много кур</span>). The textbook form <span lang=\"ru\" class=\"r\">куриц</span> exists too.</td></tr><tr><td><span lang=\"ru\" class=\"r\">яйцо</span> egg</td><td><span lang=\"ru\" class=\"r\">яиц</span></td><td><span lang=\"ru\" class=\"r\">десять яиц</span> — not <span lang=\"ru\" class=\"r\">“яйцов”</span> or <span lang=\"ru\" class=\"r\">“яица”</span>. (2–4: <span lang=\"ru\" class=\"r\">четыре яйца</span>)</td></tr><tr><td><span lang=\"ru\" class=\"r\">семья</span> family</td><td><span lang=\"ru\" class=\"r\">семей</span></td><td><span lang=\"ru\" class=\"r\">-ья → -ей</span>: <span lang=\"ru\" class=\"r\">много семей</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">тётя</span> aunt</td><td><span lang=\"ru\" class=\"r\">тёть</span></td><td>zero ending with a soft sign: <span lang=\"ru\" class=\"r\">у меня пять тёть</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">место</span> / <span lang=\"ru\" class=\"r\">дело</span></td><td><span lang=\"ru\" class=\"r\">мест</span> / <span lang=\"ru\" class=\"r\">дел</span></td><td>neuter zero ending: <span lang=\"ru\" class=\"r\">нет мест</span>, <span lang=\"ru\" class=\"r\">много дел</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">поле</span> field</td><td><span lang=\"ru\" class=\"r\">полей</span></td><td>neuter <span lang=\"ru\" class=\"r\">-е → -ей</span>: <span lang=\"ru\" class=\"r\">вокруг фермы много полей</span></td></tr></tbody></table></div></div><h4>The other trap: нравится or нравятся?</h4><p>Your tutor's sentence is a great example of where the genitive and agreement meet:</p><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Мне нравятся все виды сыра, кроме бри.</span><span class=\"g\">I like all kinds of cheese except Brie.</span></li></ul><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Word</th><th>Job in the sentence</th><th>Case</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">мне</span></td><td>the person who likes (Lesson 7)</td><td>dative</td></tr><tr><td><span lang=\"ru\" class=\"r\">нравятся</span></td><td>verb, plural to agree with the subject</td><td>—</td></tr><tr><td><span lang=\"ru\" class=\"r\">все виды</span></td><td><b>subject</b>: “all kinds”</td><td>nominative <b>plural</b></td></tr><tr><td><span lang=\"ru\" class=\"r\">сыра</span></td><td>“of cheese”</td><td>genitive</td></tr><tr><td><span lang=\"ru\" class=\"r\">кроме бри</span></td><td>except Brie; <span lang=\"ru\" class=\"r\">бри</span> never changes</td><td>genitive (indeclinable)</td></tr></tbody></table></div><p class=\"tip\"><b>Check the subject, not the nearest noun.</b> The scratch-pad note said <span lang=\"ru\" class=\"r\">Мне нравится все виды сыра</span>, but <span lang=\"ru\" class=\"r\">виды</span> is plural, so the verb must be <span lang=\"ru\" class=\"r\">нравятся</span>. Compare <span lang=\"ru\" class=\"r\">Мне нравится джаз</span> and <span lang=\"ru\" class=\"r\">Мне нравится Нью-Йорк</span> (one thing → <span lang=\"ru\" class=\"r\">нравится</span>) with <span lang=\"ru\" class=\"r\">Мне нравятся песни Молчат Дома</span> (plural → <span lang=\"ru\" class=\"r\">нравятся</span>). A genitive in between (<span lang=\"ru\" class=\"r\">сыра</span>, <span lang=\"ru\" class=\"r\">коров</span>) never decides the verb.</p>"
+    },
+    {
+     "h": "Step 6 · Prepositions that take the genitive",
+     "open": false,
+     "html": "<p>You know <span lang=\"ru\" class=\"r\">у</span> from Lesson 4. A whole group of prepositions works the same way: the noun after them goes into the <b>genitive</b>, singular or plural. Grammatically, that noun is the <b>object of the preposition</b>, never the direct object.</p><div class=\"rv nostress\"><div class=\"rvbar\"><span class=\"rvh\">Say each word out loud first. Then check the stress:</span><button type=\"button\" class=\"sbtn\" data-rv=\"1\" aria-pressed=\"false\">Show stress ´</button></div><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Preposition</th><th>Meaning · German</th><th>Example</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">для</span></td><td>for (a purpose, or who benefits) · <i>für</i></td><td><span lang=\"ru\" class=\"r\">Вода для моих коров.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">кроме</span></td><td>besides, except, other than · <i>außer</i></td><td><span lang=\"ru\" class=\"r\">Я ем всё, кроме сыра.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">напротив</span></td><td><b>opposite, across from</b> · <i>gegenüber</i></td><td><span lang=\"ru\" class=\"r\">Моя машина стоит напротив моего дома.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">ради</span></td><td>for the sake of · <i>um … willen</i></td><td><span lang=\"ru\" class=\"r\">Я работаю ради моей семьи.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">без</span></td><td>without · <i>ohne</i></td><td><span lang=\"ru\" class=\"r\">Без интернета сервер не работает.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">из</span></td><td>from, out of (a place) · <i>aus</i></td><td><span lang=\"ru\" class=\"r\">Мой друг из Березина.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">от</span></td><td>from (a person); away from · <i>von</i></td><td><span lang=\"ru\" class=\"r\">Письмо от батюшки.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">после</span></td><td>after · <i>nach</i></td><td><span lang=\"ru\" class=\"r\">После службы мы пьём чай.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">около</span></td><td>near, by · <i>bei, neben</i></td><td><span lang=\"ru\" class=\"r\">Около заправки есть магазин.</span></td></tr></tbody></table></div></div><p>In your tutor's sentences the possessive goes into the genitive too, to agree: <span lang=\"ru\" class=\"r\">мои коровы → для моих коров</span>, <span lang=\"ru\" class=\"r\">мой дом → напротив моего дома</span>, <span lang=\"ru\" class=\"r\">моя семья → ради моей семьи</span>. (Adjective and possessive endings are Lesson 10; for now, learn these three as phrases.)</p><h4>для or ради?</h4><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Я работаю для компании в Джексоне.</span><span class=\"g\">I work for a company in Jackson. (who benefits / the employer)</span></li><li><span lang=\"ru\" class=\"r\">Я работаю ради моей семьи.</span><span class=\"g\">I work for the sake of my family. (why I do it, the motive)</span></li><li><span lang=\"ru\" class=\"r\">Это корм для кур.</span><span class=\"g\">This is feed for the hens. (purpose)</span></li></ul><p class=\"tip\"><b>German makes <span lang=\"ru\" class=\"r\">ради</span> easy:</b> “um meiner Familie willen” uses the German genitive, just like <span lang=\"ru\" class=\"r\">ради моей семьи</span>. <span lang=\"ru\" class=\"r\">для</span> is the everyday “für”.</p>"
+    },
+    {
+     "h": "Step 7 · кроме, напротив or перед?",
+     "open": false,
+     "html": "<p>Your tutor's notes glossed <span lang=\"ru\" class=\"r\">напротив</span> as “in front of”. That's a slip worth fixing now, because it's a real mix-up even for native speakers explaining in English: <span lang=\"ru\" class=\"r\">напротив</span> means <b>opposite / across from</b> (facing it, usually with a street or room in between). “In front of” is <span lang=\"ru\" class=\"r\">перед</span>, and it takes a <b>different case</b>.</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Preposition</th><th>Meaning · case</th><th>Example</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">кроме</span></td><td>besides, except · <b>genitive</b></td><td><span lang=\"ru\" class=\"r\">Кроме меня, на ферме никого нет.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">напротив</span></td><td>opposite, across from · <b>genitive</b></td><td><span lang=\"ru\" class=\"r\">Церковь стоит напротив почты.</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">перед</span></td><td>in front of; just before · <b>instrumental</b></td><td><span lang=\"ru\" class=\"r\">Машина стоит перед домом.</span></td></tr></tbody></table></div><p class=\"tip\"><b>German lines up neatly:</b> <span lang=\"ru\" class=\"r\">кроме</span> = außer (außer mir), <span lang=\"ru\" class=\"r\">напротив</span> = gegenüber (gegenüber der Post), <span lang=\"ru\" class=\"r\">перед</span> = vor (vor dem Haus). In German all three take the dative; in Russian the first two take the genitive and <span lang=\"ru\" class=\"r\">перед</span> the instrumental.</p><p>Picture your street: the car parked <span lang=\"ru\" class=\"r\">перед домом</span> is right at your door; the house <span lang=\"ru\" class=\"r\">напротив моего дома</span> is on the other side of the road, facing you.</p><p>The <b>instrumental</b> after <span lang=\"ru\" class=\"r\">перед</span> is the subject of Lesson 8. For now, recognize the endings: masculine/neuter <span lang=\"ru\" class=\"r\">-ом / -ем</span> (<span lang=\"ru\" class=\"r\">перед домом, перед зданием</span>), feminine <span lang=\"ru\" class=\"r\">-ой / -ей</span> (<span lang=\"ru\" class=\"r\">перед иконой, перед заправкой</span>), soft <span lang=\"ru\" class=\"r\">-ь → -ью</span> (<span lang=\"ru\" class=\"r\">перед церковью</span>). In time expressions <span lang=\"ru\" class=\"r\">перед</span> means “just before”: <span lang=\"ru\" class=\"r\">перед службой</span>, <span lang=\"ru\" class=\"r\">перед едой</span>.</p><p class=\"tip\"><b>The case is your clue.</b> If the noun is genitive (<span lang=\"ru\" class=\"r\">почты, дома, школы</span>), the preposition can be <span lang=\"ru\" class=\"r\">напротив</span> or <span lang=\"ru\" class=\"r\">кроме</span>, never <span lang=\"ru\" class=\"r\">перед</span>. If it's instrumental (<span lang=\"ru\" class=\"r\">домом, иконой</span>), only <span lang=\"ru\" class=\"r\">перед</span> fits. Then the meaning decides between <span lang=\"ru\" class=\"r\">кроме</span> (except) and <span lang=\"ru\" class=\"r\">напротив</span> (across from).</p>"
+    },
+    {
+     "h": "Summary",
+     "open": false,
+     "html": "<ul class=\"sum\"><li>Genitive plural, masculine: hard consonant <span lang=\"ru\" class=\"r\">-ов</span> (<span lang=\"ru\" class=\"r\">студентов, петухов</span>), <span lang=\"ru\" class=\"r\">-й → -ев</span> (<span lang=\"ru\" class=\"r\">музеев</span>), <span lang=\"ru\" class=\"r\">ж, ч, ш, щ, -ь → -ей</span> (<span lang=\"ru\" class=\"r\">врачей, словарей</span>).</li><li>Feminine <span lang=\"ru\" class=\"r\">-а / -я</span> and neuter <span lang=\"ru\" class=\"r\">-о</span>: <b>zero ending</b> (<span lang=\"ru\" class=\"r\">коров, подруг, мест</span>), with a fleeting vowel when needed (<span lang=\"ru\" class=\"r\">тарелок, чашек, сестёр, песен</span>). <span lang=\"ru\" class=\"r\">-ия / -ие → -ий</span>; <span lang=\"ru\" class=\"r\">-ь / -е → -ей</span> (<span lang=\"ru\" class=\"r\">тетрадей, морей</span>); <span lang=\"ru\" class=\"r\">матерей, дочерей</span>.</li><li>Use it after 5+, <span lang=\"ru\" class=\"r\">много / мало / сколько / несколько</span>, <span lang=\"ru\" class=\"r\">нет</span>, genitive prepositions, and for animate plural direct objects.</li><li>Exceptions: <span lang=\"ru\" class=\"r\">людей (пять человек), лет, детей, денег, братьев, друзей, стульев, раз, глаз, солдат, сапог, носков, кур, яиц, семей, тёть, мест, дел, полей</span>.</li><li>The verb agrees with the <b>subject</b>: <span lang=\"ru\" class=\"r\">Мне нравятся все виды сыра</span> (виды = plural).</li><li>Genitive prepositions: <span lang=\"ru\" class=\"r\">для, кроме, напротив, ради, без, из, от, после, около</span> (and <span lang=\"ru\" class=\"r\">у</span>).</li><li><span lang=\"ru\" class=\"r\">кроме</span> = except (gen.); <span lang=\"ru\" class=\"r\">напротив</span> = opposite / across from (gen.); <span lang=\"ru\" class=\"r\">перед</span> = in front of (<b>instrumental</b>).</li></ul>"
+    }
+   ],
+   "parts": {
+    "A": "Part A · genitive plural endings",
+    "B": "Part B · exceptions to watch",
+    "C": "Part C · genitive prepositions: кроме / напротив / перед"
+   },
+   "practice": {
+    "title": "Now use it: write to your tutor",
+    "text": "Answer in chat: Что есть напротив твоего дома? Для кого ты работаешь? Кого и чего у тебя много? Write 4 sentences: one with напротив, one with для or ради, one with много / мало + genitive plural, and one with a number of 5 or more (watch the exceptions: людей / человек, лет, яиц, друзей).",
+    "examples": [
+     "Напротив моего дома большое поле.",
+     "Я работаю ради моей семьи.",
+     "У нас много коров и кур.",
+     "Наши куры несут десять яиц в день."
+    ]
+   },
+   "exercises": [
+    {
+     "part": "A",
+     "sub": "A · genitive plural endings",
+     "k": "gpl",
+     "w": "корова",
+     "s": "У нас на ферме двадцать ___.",
+     "base": "корова",
+     "a": "коров",
+     "d": [
+      "коровы",
+      "корова",
+      "коровов"
+     ],
+     "ex": "20 behaves like 5+: genitive plural. Feminine -а has a zero ending: коров (shorter than корова). (Steps 3 and 4)",
+     "translation": "We have twenty cows on the farm.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · genitive plural endings",
+     "k": "gpl",
+     "w": "программист",
+     "s": "На работе у нас пять ___.",
+     "base": "программист",
+     "a": "программистов",
+     "d": [
+      "программисты",
+      "программиста",
+      "программист"
+     ],
+     "ex": "After 5: genitive plural. Masculine hard consonant → -ов. (Steps 2 and 4)",
+     "translation": "We have five programmers at work.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · genitive plural endings",
+     "k": "gpl",
+     "w": "музей",
+     "s": "Сколько ___ в Джексоне?",
+     "base": "музей",
+     "a": "музеев",
+     "d": [
+      "музеи",
+      "музеей",
+      "музея"
+     ],
+     "ex": "Сколько takes the genitive plural. Masculine -й → -ев: музеев. (Steps 2 and 4)",
+     "translation": "How many museums are there in Jackson?",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · genitive plural endings",
+     "k": "gpl",
+     "w": "врач",
+     "s": "В нашем городе мало ___.",
+     "base": "врач",
+     "a": "врачей",
+     "d": [
+      "врачов",
+      "врачи",
+      "врача"
+     ],
+     "ex": "Мало + genitive plural. After ч the ending is -ей, not -ов. (Step 2)",
+     "translation": "There are few doctors in our town.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · genitive plural endings",
+     "k": "gpl",
+     "w": "подруга",
+     "s": "У жены много ___.",
+     "base": "подруга",
+     "a": "подруг",
+     "d": [
+      "подруги",
+      "подругов",
+      "подруге"
+     ],
+     "ex": "Много + genitive plural. Feminine -а: zero ending, подруг. (Steps 3 and 4)",
+     "translation": "My wife has a lot of friends.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · genitive plural endings",
+     "k": "gpl",
+     "w": "тарелка",
+     "s": "На кухне нет чистых ___.",
+     "base": "тарелка",
+     "a": "тарелок",
+     "d": [
+      "тарелки",
+      "тарелков",
+      "тарелка"
+     ],
+     "ex": "Нет + genitive plural. Zero ending; тарелк can't be said, so a fleeting о is inserted: тарелок. Чистых agrees. (Steps 3 and 4)",
+     "translation": "There are no clean plates in the kitchen.",
+     "glosses": [
+      "чистый: clean"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · genitive plural endings",
+     "k": "gpl",
+     "w": "сестра",
+     "s": "У меня две сестры, а у друга пять ___.",
+     "base": "сестра",
+     "a": "сестёр",
+     "d": [
+      "сестры",
+      "сестров",
+      "сестрей"
+     ],
+     "ex": "After 5: genitive plural, zero ending with an inserted ё: сестёр. After 2 it's the genitive singular сестры. (Steps 3 and 4)",
+     "translation": "I have two sisters, and my friend has five.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · genitive plural endings",
+     "k": "gpl",
+     "w": "песня",
+     "s": "На новом альбоме Молчат Дома десять ___.",
+     "base": "песня",
+     "a": "песен",
+     "d": [
+      "песни",
+      "песнов",
+      "песнях"
+     ],
+     "ex": "After 10: genitive plural. Песня → песен (zero ending + fleeting е). (Steps 3 and 4)",
+     "translation": "There are ten songs on the new Molchat Doma album.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · genitive plural endings",
+     "k": "gpl",
+     "w": "посольство",
+     "s": "В Минске несколько ___.",
+     "base": "посольство",
+     "a": "посольств",
+     "d": [
+      "посольства",
+      "посольствов",
+      "посольстве"
+     ],
+     "ex": "Несколько + genitive plural. Neuter -о: zero ending, посольств. (Steps 3 and 4)",
+     "translation": "There are several embassies in Minsk.",
+     "glosses": [
+      "посольство: embassy"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · genitive plural endings",
+     "k": "gpl",
+     "w": "литургия",
+     "s": "Батюшка служит много ___ в году.",
+     "base": "литургия",
+     "a": "литургий",
+     "d": [
+      "литургии",
+      "литургией",
+      "литургиев"
+     ],
+     "ex": "Много + genitive plural. Feminine -ия → -ий: литургий. (Step 3)",
+     "translation": "Father serves many liturgies a year.",
+     "glosses": [
+      "служить: to serve (a service)"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · genitive plural endings",
+     "k": "gpl",
+     "w": "мать",
+     "s": "На службе было много ___ с детьми.",
+     "base": "мать",
+     "a": "матерей",
+     "d": [
+      "матери",
+      "матей",
+      "мать"
+     ],
+     "ex": "Много + genitive plural. Мать brings back its hidden -ер-: матерей (like дочерей). (Steps 1 and 3)",
+     "translation": "There were many mothers with children at the service.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · exceptions to watch",
+     "k": "gpl_num",
+     "w": "человек",
+     "s": "На онлайн-конференции было сто ___.",
+     "base": "человек",
+     "a": "человек",
+     "d": [
+      "людей",
+      "человеков",
+      "люди"
+     ],
+     "ex": "After a number, человек stays человек: сто человек. Людей is for много / мало / сколько. (Step 5)",
+     "translation": "There were a hundred people at the online conference.",
+     "glosses": [
+      "онлайн-конференция: online conference"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · exceptions to watch",
+     "k": "gpl",
+     "w": "человек",
+     "s": "В храме на Пасху было много ___.",
+     "base": "человек / люди",
+     "a": "людей",
+     "d": [
+      "человек",
+      "человеков",
+      "люди"
+     ],
+     "ex": "After много use людей (from люди). Пять человек, but много людей. (Step 5)",
+     "translation": "There were a lot of people in church at Easter.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · exceptions to watch",
+     "k": "gpl",
+     "w": "год",
+     "s": "Мне сорок пять ___.",
+     "base": "год",
+     "a": "лет",
+     "d": [
+      "годов",
+      "года",
+      "годы"
+     ],
+     "ex": "45 ends in 5: genitive plural, and for год that's лет. Годов is only for decades. (Step 5 and the Numbers section)",
+     "translation": "I'm forty-five.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · exceptions to watch",
+     "k": "gpl",
+     "w": "ребёнок",
+     "s": "У брата трое ___.",
+     "base": "ребёнок",
+     "a": "детей",
+     "d": [
+      "ребёнков",
+      "дети",
+      "ребёнка"
+     ],
+     "ex": "Трое (a group of three) takes the genitive plural. Ребёнок → дети → детей. (Step 5)",
+     "translation": "My brother has three children.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · exceptions to watch",
+     "k": "gpl",
+     "w": "деньги",
+     "s": "У меня нет ___ на новый трактор.",
+     "base": "деньги",
+     "a": "денег",
+     "d": [
+      "деньгов",
+      "деньги",
+      "деньгах"
+     ],
+     "ex": "Нет + genitive plural. Деньги → денег (fleeting е), never деньгов. (Step 5)",
+     "translation": "I don't have money for a new tractor.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · exceptions to watch",
+     "k": "gpl",
+     "w": "брат",
+     "s": "У жены пять ___.",
+     "base": "брат",
+     "a": "братьев",
+     "d": [
+      "братов",
+      "братья",
+      "брата"
+     ],
+     "ex": "After 5: genitive plural. Брат → братья → братьев, not братов. (Step 5)",
+     "translation": "My wife has five brothers.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · exceptions to watch",
+     "k": "gpl",
+     "w": "друг",
+     "s": "На мой день рождения пришло много ___.",
+     "base": "друг",
+     "a": "друзей",
+     "d": [
+      "другов",
+      "друзья",
+      "друга"
+     ],
+     "ex": "Много + genitive plural. Друг → друзья → друзей, not другов. (Step 5)",
+     "translation": "A lot of friends came to my birthday.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · exceptions to watch",
+     "k": "gpl",
+     "w": "стул",
+     "s": "На кухне шесть ___.",
+     "base": "стул",
+     "a": "стульев",
+     "d": [
+      "стулов",
+      "стулья",
+      "стула"
+     ],
+     "ex": "After 6: genitive plural. Стул → стулья → стульев (like братьев). (Step 5)",
+     "translation": "There are six chairs in the kitchen.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · exceptions to watch",
+     "k": "gpl",
+     "w": "раз",
+     "s": "Я звонил тебе пять ___!",
+     "base": "раз",
+     "a": "раз",
+     "d": [
+      "разов",
+      "раза",
+      "разы"
+     ],
+     "ex": "Раз (time, occasion) has no ending in the genitive plural: пять раз. Two times = два раза. (Step 5)",
+     "translation": "I called you five times!",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · exceptions to watch",
+     "k": "gpl",
+     "w": "куры",
+     "s": "У нас много ___, но мало петухов.",
+     "base": "куры (курица)",
+     "a": "кур",
+     "d": [
+      "куров",
+      "куры",
+      "курей"
+     ],
+     "ex": "Много + genitive plural. The farm plural куры → кур. (The textbook куриц is also correct.) Петухов is regular -ов. (Step 5)",
+     "translation": "We have a lot of hens but few roosters.",
+     "glosses": [],
+     "alt": [
+      "куриц"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · exceptions to watch",
+     "k": "gpl",
+     "w": "яйцо",
+     "s": "Наши куры несут десять ___ в день.",
+     "base": "яйцо",
+     "a": "яиц",
+     "d": [
+      "яйцов",
+      "яйца",
+      "яйцев"
+     ],
+     "ex": "After 10: genitive plural, and яйцо is irregular: яиц. (2–4 would be яйца.) (Step 5)",
+     "translation": "Our hens lay ten eggs a day.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · exceptions to watch",
+     "k": "gpl",
+     "w": "семья",
+     "s": "В нашей церкви много больших ___.",
+     "base": "семья",
+     "a": "семей",
+     "d": [
+      "семьёв",
+      "семьи",
+      "семьёй"
+     ],
+     "ex": "Много + genitive plural. Семья → семей. Больших agrees with it. (Step 5)",
+     "translation": "There are many big families in our church.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · exceptions to watch",
+     "k": "gpl",
+     "w": "солдат",
+     "s": "В фильме «Солдаты неудачи» пять ___.",
+     "base": "солдат",
+     "a": "солдат",
+     "d": [
+      "солдатов",
+      "солдаты",
+      "солдата"
+     ],
+     "ex": "After 5: genitive plural. Солдат is a masculine word with a zero ending: пять солдат. (Step 5)",
+     "translation": "There are five soldiers in the film Tropic Thunder.",
+     "glosses": [
+      "«Солдаты неудачи»: the Russian title of Tropic Thunder"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · exceptions to watch",
+     "k": "nslike",
+     "w": "нравиться",
+     "s": "Мне ___ все виды сыра, кроме бри.",
+     "base": "нравиться",
+     "a": "нравятся",
+     "d": [
+      "нравится",
+      "нравлюсь",
+      "нравишься"
+     ],
+     "ex": "The subject is все виды (plural), so the verb is plural: нравятся. Сыра is genitive and doesn't decide the verb. (Step 5)",
+     "translation": "I like all kinds of cheese except Brie.",
+     "glosses": [
+      "вид: kind, type",
+      "бри: Brie (indeclinable)"
+     ],
+     "g": "pl"
+    },
+    {
+     "part": "C",
+     "sub": "C · genitive prepositions: кроме / напротив / перед",
+     "k": "gen",
+     "w": "корова",
+     "s": "Вода для моих ___.",
+     "base": "корова · plural",
+     "a": "коров",
+     "d": [
+      "коровы",
+      "коровам",
+      "корову"
+     ],
+     "ex": "Для takes the genitive; plural → genitive plural коров. Моих agrees. (Step 6)",
+     "translation": "Water for my cows.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · genitive prepositions: кроме / напротив / перед",
+     "k": "gen",
+     "w": "сыр",
+     "s": "Я ем всё, кроме ___.",
+     "base": "сыр",
+     "a": "сыра",
+     "d": [
+      "сыр",
+      "сыру",
+      "сыром"
+     ],
+     "ex": "Кроме (except) takes the genitive: кроме сыра. (Steps 6 and 7)",
+     "translation": "I eat everything except cheese.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · genitive prepositions: кроме / напротив / перед",
+     "k": "gen",
+     "w": "дом",
+     "s": "Моя машина стоит напротив моего ___.",
+     "base": "дом",
+     "a": "дома",
+     "d": [
+      "дом",
+      "доме",
+      "домом"
+     ],
+     "ex": "Напротив (opposite, across from) takes the genitive: напротив моего дома. Домом would need перед. (Steps 6 and 7)",
+     "translation": "My car is parked across from my house.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · genitive prepositions: кроме / напротив / перед",
+     "k": "gen",
+     "w": "семья",
+     "s": "Я работаю ради моей ___.",
+     "base": "семья",
+     "a": "семьи",
+     "d": [
+      "семью",
+      "семье",
+      "семьёй"
+     ],
+     "ex": "Ради (for the sake of) takes the genitive: ради моей семьи. (Step 6)",
+     "translation": "I work for the sake of my family.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · genitive prepositions: кроме / напротив / перед",
+     "k": "gen",
+     "w": "служба",
+     "s": "После ___ мы пьём чай у батюшки.",
+     "base": "служба",
+     "a": "службы",
+     "d": [
+      "служба",
+      "службу",
+      "службой"
+     ],
+     "ex": "После takes the genitive: после службы. (Перед службой would be instrumental.) (Step 6)",
+     "translation": "After the service we have tea at Father's.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · genitive prepositions: кроме / напротив / перед",
+     "k": "gen",
+     "w": "заправка",
+     "s": "Около ___ есть маленький магазин.",
+     "base": "заправка",
+     "a": "заправки",
+     "d": [
+      "заправка",
+      "заправку",
+      "заправкой"
+     ],
+     "ex": "Около (near) takes the genitive: около заправки. (Step 6)",
+     "translation": "There's a small store near the gas station.",
+     "glosses": [
+      "заправка: gas station"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · genitive prepositions: кроме / напротив / перед",
+     "k": "ins",
+     "w": "дом",
+     "s": "Мой пикап стоит перед ___.",
+     "base": "дом",
+     "a": "домом",
+     "d": [
+      "дома",
+      "доме",
+      "дом"
+     ],
+     "ex": "Перед (in front of) takes the instrumental: перед домом. Напротив дома would be across the street. (Step 7)",
+     "translation": "My pickup is parked in front of the house.",
+     "glosses": [
+      "пикап: pickup truck"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · genitive prepositions: кроме / напротив / перед",
+     "k": "prep",
+     "w": "кроме / напротив / перед",
+     "s": "Наша церковь стоит ___ почты, через дорогу.",
+     "base": "кроме / напротив / перед",
+     "a": "напротив",
+     "d": [
+      "перед",
+      "кроме",
+      "для"
+     ],
+     "ex": "Почты is genitive, so not перед; через дорогу (across the road) means напротив. (Step 7)",
+     "translation": "Our church stands opposite the post office, across the road.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · genitive prepositions: кроме / напротив / перед",
+     "k": "prep",
+     "w": "кроме / напротив / перед",
+     "s": "Машина стоит ___ домом.",
+     "base": "кроме / напротив / перед",
+     "a": "перед",
+     "d": [
+      "напротив",
+      "кроме",
+      "для"
+     ],
+     "ex": "Домом is instrumental, and only перед takes the instrumental here: in front of the house. (Step 7)",
+     "translation": "The car is parked in front of the house.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · genitive prepositions: кроме / напротив / перед",
+     "k": "prep",
+     "w": "кроме / напротив / перед",
+     "s": "На ферме никого не было, ___ меня.",
+     "base": "кроме / напротив / перед",
+     "a": "кроме",
+     "d": [
+      "напротив",
+      "перед",
+      "ради"
+     ],
+     "ex": "Nobody was there except me: кроме + genitive (меня). (Step 7)",
+     "translation": "There was no one on the farm except me.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · genitive prepositions: кроме / напротив / перед",
+     "k": "prep",
+     "w": "кроме / напротив / перед",
+     "s": "Жена молится ___ иконой.",
+     "base": "кроме / напротив / перед",
+     "a": "перед",
+     "d": [
+      "напротив",
+      "кроме",
+      "для"
+     ],
+     "ex": "Иконой is instrumental: перед иконой, in front of the icon. (Step 7)",
+     "translation": "My wife prays in front of the icon.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · genitive prepositions: кроме / напротив / перед",
+     "k": "prep",
+     "w": "кроме / напротив / перед",
+     "s": "Я живу ___ школы, прямо через улицу.",
+     "base": "кроме / напротив / перед",
+     "a": "напротив",
+     "d": [
+      "перед",
+      "кроме",
+      "ради"
+     ],
+     "ex": "Школы is genitive and через улицу tells you it's across the street: напротив школы. (Step 7)",
+     "translation": "I live opposite the school, right across the street.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · genitive prepositions: кроме / напротив / перед",
+     "k": "prep",
+     "w": "кроме / напротив / перед",
+     "s": "Я люблю все песни Молчат Дома, ___ одной.",
+     "base": "кроме / напротив / перед",
+     "a": "кроме",
+     "d": [
+      "напротив",
+      "перед",
+      "для"
+     ],
+     "ex": "All the songs except one: кроме + genitive (одной). (Step 7)",
+     "translation": "I love all of Molchat Doma's songs except one.",
      "glosses": []
     }
    ]

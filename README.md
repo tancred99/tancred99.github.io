@@ -1,6 +1,6 @@
 # Russian grammar drills
 
-Mobile-friendly static site for Russian grammar and vocabulary practice, with Lessons and Numbers tabs. Lessons 1–7 and Review 1 are ready; the rest of the course is on the roadmap. Numbers has its own lesson, drills (including listening), and a counting vocabulary theme. It is published at the root of <https://tancred99.github.io>.
+Mobile-friendly static site for Russian grammar and vocabulary practice, with Lessons and Numbers tabs. Lessons 1–7, Review 1, and Lesson 9 are ready; the rest of the course is on the roadmap. Numbers has its own lesson, drills (including listening), and a counting vocabulary theme. It is published at the root of <https://tancred99.github.io>.
 
 `index.html` is the app. Served over HTTP, it loads `lessons.json`, `exercises.json`, and `vocab.json` from the same directory. Opened as a local file, it uses the copy of that data built into the page. Signing in (Firebase project `russian-drills`) saves lesson progress, drill scores, and My words to the account; without an account they stay in the browser.
 

@@ -23,7 +23,7 @@ COURSE = [
   {"n": 7, "id": "L7", "title": "Dative", "topic": "to whom? мне нравится"},
   {"n": 8, "id": "L8", "title": "Instrumental", "topic": "with whom? чай с молоком"},
   {"review": True, "id": "R2", "title": "Review 2", "topic": "mixed practice on lessons 5–8"},
-  {"n": 9, "id": "L9", "title": "Plurals", "topic": "один билет, два билета, пять билетов"},
+  {"n": 9, "id": "L9", "title": "Plurals and the genitive plural", "topic": "пять коров, много друзей; для, кроме, напротив"},
   {"n": 10, "id": "L10", "title": "Adjective agreement", "topic": "новый храм, новая церковь"},
   {"n": 11, "id": "L11", "title": "Aspect: an introduction", "topic": "делать / сделать"},
   {"n": 12, "id": "L12", "title": "Verbs of motion: an introduction", "topic": "идти / ходить, ехать / ездить"},
@@ -1594,6 +1594,9 @@ LESSONS = {
 }
 
 for _k in ("L4", "L5", "R1", "L6", "L7"): LESSONS[_k]["minutes"] = LESSONS[_k]["minutes"] % len(LESSONS[_k]["exercises"])
+
+import lesson9
+LESSONS["L9"] = lesson9.build(t, ru, exl)
 
 import numbers_lesson
 NUMBERS = numbers_lesson.build(t, ru, exl)
