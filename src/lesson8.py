@@ -92,7 +92,9 @@ def build(t, ru, exl):
       + exl([("Я живу рядом с родителями, в соседнем доме.", "I live next to my parents, in the neighbouring house."),
              ("Между фермой и лесом течёт ручей.", "A stream runs between the farm and the forest."),
              ("Жена молится перед иконой.", "My wife prays in front of the icon.")])
-      + '<p class="tip"><b>German:</b> mit, neben, zwischen, vor all take the dative in German (vor dem Haus, zwischen dem Hof und dem Wald). In Russian these four take the instrumental: ' + ru("перед домом, между фермой и лесом") + ".</p>"})
+      + '<p class="tip"><b>German:</b> mit, neben, zwischen, vor all take the dative in German (vor dem Haus, zwischen dem Hof und dem Wald). In Russian these four take the instrumental: ' + ru("перед домом, между фермой и лесом") + ".</p>"
+      + "<p>Two more prepositions take the instrumental, for place: " + ru("над") + " (above, over) and " + ru("под") + " (under). " + ru("Над городом летит самолёт.") + " " + ru("Под зданием находится подвал.") + "</p>"
+      + "<p>Two everyday verbs also take the instrumental, with no " + ru("с") + ": " + ru("увлекаться") + " (to be keen on) and " + ru("заниматься") + " (to go in for, be busy with). " + ru("Я увлекаюсь музыкой.") + " " + ru("Они занимаются спортом.") + " " + ru("Чем вы увлекаетесь?") + "</p>"})
 
     S.append({"h": "Step 7 · чем for tools, and работать учителем", "open": False, "html":
       "<p>" + ru("чем?") + " asks “with what? / using what?” The tool goes in the instrumental, usually <b>without</b> " + ru("с") + ":</p>"
@@ -113,7 +115,7 @@ def build(t, ru, exl):
       + "<li>Plural: " + ru("-ами / -ями") + " (" + ru("коровами, друзьями, братьями, ножами") + ").</li>"
       + "<li>Exceptions: " + ru("детьми, людьми, дочерьми, матерями, друзьями, братьями") + "; " + ru("семьёй") + "; " + ru("со") + " before a cluster and before " + ru("мной") + "; plural-only " + ru("ножницы, лыжи, палочки") + " (and farm " + ru("вилы, ворота") + ").</li>"
       + "<li>Pronouns: " + ru("мной, тобой, им, ей, нами, вами, ими") + ". After a preposition: " + ru("со мной, с тобой, с ним, с ней, с ними") + ".</li>"
-      + "<li>Prepositions: " + ru("с / со") + " (with), " + ru("рядом с") + " (next to), " + ru("между") + " (between), " + ru("перед") + " (in front of) — all + instrumental. " + ru("с") + " + genitive is “from,” not “with.”</li>"
+      + "<li>Prepositions: " + ru("с / со") + " (with), " + ru("рядом с") + " (next to), " + ru("между") + " (between), " + ru("перед") + " (in front of) — all + instrumental. Also " + ru("над") + " (over) and " + ru("под") + " (under): " + ru("над городом, под зданием") + ". " + ru("с") + " + genitive is “from,” not “with.” " + ru("увлекаться") + " and " + ru("заниматься") + " take the instrumental with no " + ru("с") + ": " + ru("Я увлекаюсь музыкой") + ", " + ru("они занимаются спортом") + ".</li>"
       + "<li>Tools: " + ru("чем?") + " → " + ru("ножом, ручками, ножницами") + " (no " + ru("с") + "). Jobs: " + ru("работает учителем, программистом") + " (no " + ru("с") + ").</li>"
       + "</ul>"})
 

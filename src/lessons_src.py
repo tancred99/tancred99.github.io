@@ -24,6 +24,7 @@ COURSE = [
   {"n": 8, "id": "L8", "title": "Instrumental", "topic": "with whom? чай с молоком"},
   {"review": True, "id": "R2", "title": "Review 2", "topic": "mixed practice on lessons 5–8"},
   {"n": 9, "id": "L9", "title": "Plurals and the genitive plural", "topic": "пять коров, много друзей; для, кроме, напротив"},
+  {"id": "LK", "title": "The relative pronoun который", "topic": "дом, который я купил; друг, которого я видел"},
   {"n": 10, "id": "L10", "title": "Adjective agreement", "topic": "новый храм, новая церковь"},
   {"n": 11, "id": "L11", "title": "Aspect: an introduction", "topic": "делать / сделать"},
   {"n": 12, "id": "L12", "title": "Verbs of motion: an introduction", "topic": "идти / ходить, ехать / ездить"},
@@ -101,7 +102,8 @@ SECTIONS = [
     [ru("Могилёв"), ru("в Могилёве")], [ru("Гомель"), ru("в Гомеле")],
     [ru("Березино"), ru("в Березине") + " (in everyday speech you'll also hear " + ru("в Березино") + ")"],
     [ru("Беларусь"), ru("в Беларуси")],
-  ])},
+  ])
+  + "<p>To say where you are from, ask " + ru("Откуда вы?") + " and answer with " + ru("Я из") + " + the <b>genitive</b> (" + ru("родительный падеж") + "): " + ru("Я из Минска") + ", " + ru("Я из Бреста") + ", " + ru("Я из Беларуси") + ", " + ru("Я из Техаса") + ", " + ru("Я из Арканзаса") + ". Foreign names in " + ru("-о") + " often stay put: " + ru("Я из Колорадо") + ", " + ru("Я еду в Колорадо") + ".</p>"},
  {"h": "Step 5 · в or на?", "open": False, "html":
   "<p><b>" + ru("в") + " = in, inside.</b> Use it for buildings and rooms, and for cities and countries: " + ru("в храме, в церкви, в магазине, в Минске, в Беларуси") + ".</p>"
   + "<p><b>" + ru("на") + " = on, at.</b> Use it for surfaces (" + ru("на столе") + ", on the table), for events and activities (" + ru("на литургии, на службе, на работе") + "), and for a set of places you just have to learn:</p>"
@@ -373,7 +375,8 @@ SECTIONS3 = [
     [ru("-ать, -ять"), "1st: " + ru("работать, читать, гулять"), "a few are 2nd: " + ru("слышать") + " (hear), " + ru("стоять") + " (stand), " + ru("спать") + " (sleep): " + ru("слышишь, стоишь, спишь")],
     [ru("-еть"), "the common ones are 2nd: " + ru("смотреть") + " (watch), " + ru("видеть") + " (see), " + ru("сидеть") + " (sit)", "a few are 1st: " + ru("уметь") + " (know how): " + ru("умею, умеешь")],
   ])
-  + '<p class="tip"><b>The sure test is the ' + ru("ты") + " form.</b> " + ru("-ешь") + " means 1st conjugation, " + ru("-ишь") + " means 2nd. That's why good dictionaries list every verb with its " + ru("я") + " and " + ru("ты") + " forms: " + ru("читать (-аю, -аешь)") + ", " + ru("говорить (-ю, -ишь)") + ". Learn new verbs in threes: " + ru("говорить · говорю · говоришь") + ". From those you can build the whole verb.</p>"},
+  + '<p class="tip"><b>The sure test is the ' + ru("ты") + " form.</b> " + ru("-ешь") + " means 1st conjugation, " + ru("-ишь") + " means 2nd. That's why good dictionaries list every verb with its " + ru("я") + " and " + ru("ты") + " forms: " + ru("читать (-аю, -аешь)") + ", " + ru("говорить (-ю, -ишь)") + ". Learn new verbs in threes: " + ru("говорить · говорю · говоришь") + ". From those you can build the whole verb.</p>"
+  + '<p class="tip"><b>' + ru("уметь") + " vs " + ru("мочь") + ".</b> " + ru("уметь") + " is “know how”: " + ru("Я не умею танцевать") + " (I don’t know how to dance). " + ru("мочь") + " is “be able / can / may”: " + ru("Я не могу вам помочь") + " (I can’t help you — maybe there is no time, or you’re not allowed). Both take an infinitive. Don’t swap them.</p>"},
  {"h": "Step 5 · Two spelling rules for the я form", "open": False, "html":
   "<h4>Rule 1 · After ж, ч, ш, щ write у and а</h4>"
   + "<p>Russian spelling never puts " + ru("ю") + " or " + ru("я") + " after " + ru("ж, ч, ш, щ") + ". The sound is the same; only the letter changes: " + ru("-ю → -у") + " and " + ru("-ят → -ат") + ".</p>"
@@ -1602,6 +1605,9 @@ LESSONS["L8"] = lesson8.build(t, ru, exl)
 
 import lesson9
 LESSONS["L9"] = lesson9.build(t, ru, exl)
+
+import lesson_kotoryy
+LESSONS["LK"] = lesson_kotoryy.build(t, ru, exl)
 
 import numbers_lesson
 NUMBERS = numbers_lesson.build(t, ru, exl)

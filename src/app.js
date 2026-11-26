@@ -335,7 +335,7 @@ function renderNumbersLearn(a){
 }
 // ---------- Lessons ----------
 function lp(id){return lprog.lessons[id]||null}
-function lessonName(L){return L.review?L.title:("Lesson "+L.n)}
+function lessonName(L){return (L.review||L.n==null)?L.title:("Lesson "+L.n)}
 function renderLessons(){
   var a=$("lessonsArea");
   if(st.lview==="read"&&COURSE.lessons[st.lid]){renderLesson(a,COURSE.lessons[st.lid]);return}
@@ -346,7 +346,8 @@ function renderLessons(){
     var L=COURSE.lessons[c.id],p=lp(c.id),ready=!!L,done=p&&p.completed;
     var cls=(c.review?"review ":"")+(ready?"":"soon ")+(done?"fin":"");
     var stx=ready?(done?'<div class="st ok">✓ Completed<br>best '+p.best+'/'+p.of+'</div>':''):'<div class="st">Coming soon</div>';
-    h+='<li class="'+cls+'"><div class="num">'+(c.review?"★":c.n)+'</div><div class="lt1"><b>'+(c.review?"":"Lesson "+c.n+": ")+esc(c.title)+'</b><span>'+esc(c.topic)+'</span></div>'+stx+
+    var num=c.review?"★":(c.n!=null?c.n:"•"), label=(c.review||c.n==null)?esc(c.title):("Lesson "+c.n+": "+esc(c.title));
+    h+='<li class="'+cls+'"><div class="num">'+num+'</div><div class="lt1"><b>'+label+'</b><span>'+esc(c.topic)+'</span></div>'+stx+
       (ready?'<button class="go" data-lopen="'+c.id+'">'+(done?"Review":"Start")+'</button>':'')+'</li>';
   });
   a.innerHTML=h+'</ol></div>';

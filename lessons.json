@@ -68,6 +68,11 @@
    "topic": "пять коров, много друзей; для, кроме, напротив"
   },
   {
+   "id": "LK",
+   "title": "The relative pronoun который",
+   "topic": "дом, который я купил; друг, которого я видел"
+  },
+  {
    "n": 10,
    "id": "L10",
    "title": "Adjective agreement",
@@ -118,7 +123,7 @@
     {
      "h": "Step 4 · The endings: -е or -и",
      "open": false,
-     "html": "<p>Take the dictionary form, look at the ending, and apply one of two rules.</p><h4>Rule 1 · Most nouns take -е</h4><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Dictionary form</th><th>What happens</th><th>Где?</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">храм</span></td><td>add <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">в храме</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Минск</span></td><td>add <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">в Минске</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">магазин</span></td><td>add <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">в магазине</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">музей</span></td><td><span lang=\"ru\" class=\"r\">-й</span> → <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">в музее</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">работа</span></td><td><span lang=\"ru\" class=\"r\">-а</span> → <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">на работе</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">граница</span></td><td><span lang=\"ru\" class=\"r\">-а</span> → <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">на границе</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">деревня</span></td><td><span lang=\"ru\" class=\"r\">-я</span> → <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">в деревне</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">таможня</span></td><td><span lang=\"ru\" class=\"r\">-я</span> → <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">на таможне</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">место</span></td><td><span lang=\"ru\" class=\"r\">-о</span> → <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">на месте</span> (in place, on the spot)</td></tr><tr><td><span lang=\"ru\" class=\"r\">море</span></td><td>stays <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">на море</span> (at the seaside)</td></tr><tr><td><span lang=\"ru\" class=\"r\">Гомель</span> (masc.)</td><td><span lang=\"ru\" class=\"r\">-ь</span> → <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">в Гомеле</span></td></tr></tbody></table></div><h4>Rule 2 · Two groups take -и</h4><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Group</th><th>Dictionary form</th><th>Где?</th></tr></thead><tbody><tr><td>feminine <span lang=\"ru\" class=\"r\">-ь</span></td><td><span lang=\"ru\" class=\"r\">церковь</span></td><td><span lang=\"ru\" class=\"r\">в церкви</span> (the о drops out)</td></tr><tr><td></td><td><span lang=\"ru\" class=\"r\">Беларусь</span></td><td><span lang=\"ru\" class=\"r\">в Беларуси</span></td></tr><tr><td></td><td><span lang=\"ru\" class=\"r\">очередь</span></td><td><span lang=\"ru\" class=\"r\">в очереди</span> (in line)</td></tr><tr><td></td><td><span lang=\"ru\" class=\"r\">площадь</span></td><td><span lang=\"ru\" class=\"r\">на площади</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">-ия</span></td><td><span lang=\"ru\" class=\"r\">Россия</span></td><td><span lang=\"ru\" class=\"r\">в России</span></td></tr><tr><td></td><td><span lang=\"ru\" class=\"r\">литургия</span></td><td><span lang=\"ru\" class=\"r\">на литургии</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">-ие</span></td><td><span lang=\"ru\" class=\"r\">здание</span></td><td><span lang=\"ru\" class=\"r\">в здании</span></td></tr><tr><td></td><td><span lang=\"ru\" class=\"r\">расписание</span></td><td><span lang=\"ru\" class=\"r\">в расписании</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">-ий</span></td><td><span lang=\"ru\" class=\"r\">санаторий</span> (health resort)</td><td><span lang=\"ru\" class=\"r\">в санатории</span></td></tr></tbody></table></div><p class=\"tip\"><b>Memory hook:</b> feminine <span lang=\"ru\" class=\"r\">-ь</span>, and anything with <span lang=\"ru\" class=\"r\">и</span> just before the ending (<span lang=\"ru\" class=\"r\">-ия, -ие, -ий</span>), takes <span lang=\"ru\" class=\"r\">-и</span>. Everything else takes <span lang=\"ru\" class=\"r\">-е</span>. So it's <span lang=\"ru\" class=\"r\">в России</span>, never “в Россие”, and <span lang=\"ru\" class=\"r\">в Гомеле</span> (masculine), but <span lang=\"ru\" class=\"r\">в Беларуси</span> (feminine).</p><h4>Around Belarus</h4><div class=\"tw\"><table class=\"lt \"><thead><tr><th>City / country</th><th>Где?</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">Минск</span></td><td><span lang=\"ru\" class=\"r\">в Минске</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Брест</span></td><td><span lang=\"ru\" class=\"r\">в Бресте</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Витебск</span></td><td><span lang=\"ru\" class=\"r\">в Витебске</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Могилёв</span></td><td><span lang=\"ru\" class=\"r\">в Могилёве</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Гомель</span></td><td><span lang=\"ru\" class=\"r\">в Гомеле</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Березино</span></td><td><span lang=\"ru\" class=\"r\">в Березине</span> (in everyday speech you'll also hear <span lang=\"ru\" class=\"r\">в Березино</span>)</td></tr><tr><td><span lang=\"ru\" class=\"r\">Беларусь</span></td><td><span lang=\"ru\" class=\"r\">в Беларуси</span></td></tr></tbody></table></div>"
+     "html": "<p>Take the dictionary form, look at the ending, and apply one of two rules.</p><h4>Rule 1 · Most nouns take -е</h4><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Dictionary form</th><th>What happens</th><th>Где?</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">храм</span></td><td>add <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">в храме</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Минск</span></td><td>add <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">в Минске</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">магазин</span></td><td>add <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">в магазине</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">музей</span></td><td><span lang=\"ru\" class=\"r\">-й</span> → <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">в музее</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">работа</span></td><td><span lang=\"ru\" class=\"r\">-а</span> → <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">на работе</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">граница</span></td><td><span lang=\"ru\" class=\"r\">-а</span> → <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">на границе</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">деревня</span></td><td><span lang=\"ru\" class=\"r\">-я</span> → <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">в деревне</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">таможня</span></td><td><span lang=\"ru\" class=\"r\">-я</span> → <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">на таможне</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">место</span></td><td><span lang=\"ru\" class=\"r\">-о</span> → <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">на месте</span> (in place, on the spot)</td></tr><tr><td><span lang=\"ru\" class=\"r\">море</span></td><td>stays <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">на море</span> (at the seaside)</td></tr><tr><td><span lang=\"ru\" class=\"r\">Гомель</span> (masc.)</td><td><span lang=\"ru\" class=\"r\">-ь</span> → <span lang=\"ru\" class=\"r\">-е</span></td><td><span lang=\"ru\" class=\"r\">в Гомеле</span></td></tr></tbody></table></div><h4>Rule 2 · Two groups take -и</h4><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Group</th><th>Dictionary form</th><th>Где?</th></tr></thead><tbody><tr><td>feminine <span lang=\"ru\" class=\"r\">-ь</span></td><td><span lang=\"ru\" class=\"r\">церковь</span></td><td><span lang=\"ru\" class=\"r\">в церкви</span> (the о drops out)</td></tr><tr><td></td><td><span lang=\"ru\" class=\"r\">Беларусь</span></td><td><span lang=\"ru\" class=\"r\">в Беларуси</span></td></tr><tr><td></td><td><span lang=\"ru\" class=\"r\">очередь</span></td><td><span lang=\"ru\" class=\"r\">в очереди</span> (in line)</td></tr><tr><td></td><td><span lang=\"ru\" class=\"r\">площадь</span></td><td><span lang=\"ru\" class=\"r\">на площади</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">-ия</span></td><td><span lang=\"ru\" class=\"r\">Россия</span></td><td><span lang=\"ru\" class=\"r\">в России</span></td></tr><tr><td></td><td><span lang=\"ru\" class=\"r\">литургия</span></td><td><span lang=\"ru\" class=\"r\">на литургии</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">-ие</span></td><td><span lang=\"ru\" class=\"r\">здание</span></td><td><span lang=\"ru\" class=\"r\">в здании</span></td></tr><tr><td></td><td><span lang=\"ru\" class=\"r\">расписание</span></td><td><span lang=\"ru\" class=\"r\">в расписании</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">-ий</span></td><td><span lang=\"ru\" class=\"r\">санаторий</span> (health resort)</td><td><span lang=\"ru\" class=\"r\">в санатории</span></td></tr></tbody></table></div><p class=\"tip\"><b>Memory hook:</b> feminine <span lang=\"ru\" class=\"r\">-ь</span>, and anything with <span lang=\"ru\" class=\"r\">и</span> just before the ending (<span lang=\"ru\" class=\"r\">-ия, -ие, -ий</span>), takes <span lang=\"ru\" class=\"r\">-и</span>. Everything else takes <span lang=\"ru\" class=\"r\">-е</span>. So it's <span lang=\"ru\" class=\"r\">в России</span>, never “в Россие”, and <span lang=\"ru\" class=\"r\">в Гомеле</span> (masculine), but <span lang=\"ru\" class=\"r\">в Беларуси</span> (feminine).</p><h4>Around Belarus</h4><div class=\"tw\"><table class=\"lt \"><thead><tr><th>City / country</th><th>Где?</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">Минск</span></td><td><span lang=\"ru\" class=\"r\">в Минске</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Брест</span></td><td><span lang=\"ru\" class=\"r\">в Бресте</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Витебск</span></td><td><span lang=\"ru\" class=\"r\">в Витебске</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Могилёв</span></td><td><span lang=\"ru\" class=\"r\">в Могилёве</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Гомель</span></td><td><span lang=\"ru\" class=\"r\">в Гомеле</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Березино</span></td><td><span lang=\"ru\" class=\"r\">в Березине</span> (in everyday speech you'll also hear <span lang=\"ru\" class=\"r\">в Березино</span>)</td></tr><tr><td><span lang=\"ru\" class=\"r\">Беларусь</span></td><td><span lang=\"ru\" class=\"r\">в Беларуси</span></td></tr></tbody></table></div><p>To say where you are from, ask <span lang=\"ru\" class=\"r\">Откуда вы?</span> and answer with <span lang=\"ru\" class=\"r\">Я из</span> + the <b>genitive</b> (<span lang=\"ru\" class=\"r\">родительный падеж</span>): <span lang=\"ru\" class=\"r\">Я из Минска</span>, <span lang=\"ru\" class=\"r\">Я из Бреста</span>, <span lang=\"ru\" class=\"r\">Я из Беларуси</span>, <span lang=\"ru\" class=\"r\">Я из Техаса</span>, <span lang=\"ru\" class=\"r\">Я из Арканзаса</span>. Foreign names in <span lang=\"ru\" class=\"r\">-о</span> often stay put: <span lang=\"ru\" class=\"r\">Я из Колорадо</span>, <span lang=\"ru\" class=\"r\">Я еду в Колорадо</span>.</p>"
     },
     {
      "h": "Step 5 · в or на?",
@@ -1339,7 +1344,7 @@
     {
      "h": "Step 4 · Which group is a verb in?",
      "open": false,
-     "html": "<p>The infinitive gives you a strong hint, with a few exceptions to learn:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Infinitive ends in</th><th>Usually</th><th>Exceptions to know</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">-ить</span></td><td>2nd: <span lang=\"ru\" class=\"r\">говорить, звонить, любить, учить, платить, ходить</span></td><td><span lang=\"ru\" class=\"r\">жить</span> (live) and <span lang=\"ru\" class=\"r\">пить</span> (drink) are 1st: <span lang=\"ru\" class=\"r\">живёшь, пьёшь</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">-ать, -ять</span></td><td>1st: <span lang=\"ru\" class=\"r\">работать, читать, гулять</span></td><td>a few are 2nd: <span lang=\"ru\" class=\"r\">слышать</span> (hear), <span lang=\"ru\" class=\"r\">стоять</span> (stand), <span lang=\"ru\" class=\"r\">спать</span> (sleep): <span lang=\"ru\" class=\"r\">слышишь, стоишь, спишь</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">-еть</span></td><td>the common ones are 2nd: <span lang=\"ru\" class=\"r\">смотреть</span> (watch), <span lang=\"ru\" class=\"r\">видеть</span> (see), <span lang=\"ru\" class=\"r\">сидеть</span> (sit)</td><td>a few are 1st: <span lang=\"ru\" class=\"r\">уметь</span> (know how): <span lang=\"ru\" class=\"r\">умею, умеешь</span></td></tr></tbody></table></div><p class=\"tip\"><b>The sure test is the <span lang=\"ru\" class=\"r\">ты</span> form.</b> <span lang=\"ru\" class=\"r\">-ешь</span> means 1st conjugation, <span lang=\"ru\" class=\"r\">-ишь</span> means 2nd. That's why good dictionaries list every verb with its <span lang=\"ru\" class=\"r\">я</span> and <span lang=\"ru\" class=\"r\">ты</span> forms: <span lang=\"ru\" class=\"r\">читать (-аю, -аешь)</span>, <span lang=\"ru\" class=\"r\">говорить (-ю, -ишь)</span>. Learn new verbs in threes: <span lang=\"ru\" class=\"r\">говорить · говорю · говоришь</span>. From those you can build the whole verb.</p>"
+     "html": "<p>The infinitive gives you a strong hint, with a few exceptions to learn:</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Infinitive ends in</th><th>Usually</th><th>Exceptions to know</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">-ить</span></td><td>2nd: <span lang=\"ru\" class=\"r\">говорить, звонить, любить, учить, платить, ходить</span></td><td><span lang=\"ru\" class=\"r\">жить</span> (live) and <span lang=\"ru\" class=\"r\">пить</span> (drink) are 1st: <span lang=\"ru\" class=\"r\">живёшь, пьёшь</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">-ать, -ять</span></td><td>1st: <span lang=\"ru\" class=\"r\">работать, читать, гулять</span></td><td>a few are 2nd: <span lang=\"ru\" class=\"r\">слышать</span> (hear), <span lang=\"ru\" class=\"r\">стоять</span> (stand), <span lang=\"ru\" class=\"r\">спать</span> (sleep): <span lang=\"ru\" class=\"r\">слышишь, стоишь, спишь</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">-еть</span></td><td>the common ones are 2nd: <span lang=\"ru\" class=\"r\">смотреть</span> (watch), <span lang=\"ru\" class=\"r\">видеть</span> (see), <span lang=\"ru\" class=\"r\">сидеть</span> (sit)</td><td>a few are 1st: <span lang=\"ru\" class=\"r\">уметь</span> (know how): <span lang=\"ru\" class=\"r\">умею, умеешь</span></td></tr></tbody></table></div><p class=\"tip\"><b>The sure test is the <span lang=\"ru\" class=\"r\">ты</span> form.</b> <span lang=\"ru\" class=\"r\">-ешь</span> means 1st conjugation, <span lang=\"ru\" class=\"r\">-ишь</span> means 2nd. That's why good dictionaries list every verb with its <span lang=\"ru\" class=\"r\">я</span> and <span lang=\"ru\" class=\"r\">ты</span> forms: <span lang=\"ru\" class=\"r\">читать (-аю, -аешь)</span>, <span lang=\"ru\" class=\"r\">говорить (-ю, -ишь)</span>. Learn new verbs in threes: <span lang=\"ru\" class=\"r\">говорить · говорю · говоришь</span>. From those you can build the whole verb.</p><p class=\"tip\"><b><span lang=\"ru\" class=\"r\">уметь</span> vs <span lang=\"ru\" class=\"r\">мочь</span>.</b> <span lang=\"ru\" class=\"r\">уметь</span> is “know how”: <span lang=\"ru\" class=\"r\">Я не умею танцевать</span> (I don’t know how to dance). <span lang=\"ru\" class=\"r\">мочь</span> is “be able / can / may”: <span lang=\"ru\" class=\"r\">Я не могу вам помочь</span> (I can’t help you — maybe there is no time, or you’re not allowed). Both take an infinitive. Don’t swap them.</p>"
     },
     {
      "h": "Step 5 · Two spelling rules for the я form",
@@ -5624,7 +5629,7 @@
     {
      "h": "Step 6 · с, рядом с, между, перед",
      "open": false,
-     "html": "<p>Four prepositions take the <b>instrumental</b>. You already met <span lang=\"ru\" class=\"r\">перед</span> in Lesson 9 (in front of — not <span lang=\"ru\" class=\"r\">напротив</span>, which is genitive).</p><div class=\"rv nostress\"><div class=\"rvbar\"><span class=\"rvh\">Say each word out loud first. Then check the stress:</span><button type=\"button\" class=\"sbtn\" data-rv=\"1\" aria-pressed=\"false\">Show stress ´</button></div><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Preposition</th><th>Meaning · German</th><th>Example</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">с / со</span></td><td>with · mit</td><td><span lang=\"ru\" class=\"r\">чай с молоком</span> · <span lang=\"ru\" class=\"r\">с друзьями</span> · <span lang=\"ru\" class=\"r\">со студентами</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">рядом с / со</span></td><td>next to, beside · neben</td><td><span lang=\"ru\" class=\"r\">Я живу рядом с родителями.</span> · <span lang=\"ru\" class=\"r\">рядом с тобой</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">между</span></td><td>between · zwischen</td><td><span lang=\"ru\" class=\"r\">Между фермой и лесом течёт ручей.</span> · <span lang=\"ru\" class=\"r\">между странами</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">перед</span></td><td>in front of · vor</td><td><span lang=\"ru\" class=\"r\">Машина стоит перед домом.</span> · <span lang=\"ru\" class=\"r\">перед церковью</span></td></tr></tbody></table></div></div><p>A useful trap: <span lang=\"ru\" class=\"r\">с / со</span> plus the <b>genitive</b> means <b>from</b> (off, down from), not “with”: <span lang=\"ru\" class=\"r\">с работы</span> = from work, <span lang=\"ru\" class=\"r\">со стола</span> = off the table. If you mean “together with,” you need the instrumental: <span lang=\"ru\" class=\"r\">с женой</span>, <span lang=\"ru\" class=\"r\">с молоком</span>.</p><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Я живу рядом с родителями, в соседнем доме.</span><span class=\"g\">I live next to my parents, in the neighbouring house.</span></li><li><span lang=\"ru\" class=\"r\">Между фермой и лесом течёт ручей.</span><span class=\"g\">A stream runs between the farm and the forest.</span></li><li><span lang=\"ru\" class=\"r\">Жена молится перед иконой.</span><span class=\"g\">My wife prays in front of the icon.</span></li></ul><p class=\"tip\"><b>German:</b> mit, neben, zwischen, vor all take the dative in German (vor dem Haus, zwischen dem Hof und dem Wald). In Russian these four take the instrumental: <span lang=\"ru\" class=\"r\">перед домом, между фермой и лесом</span>.</p>"
+     "html": "<p>Four prepositions take the <b>instrumental</b>. You already met <span lang=\"ru\" class=\"r\">перед</span> in Lesson 9 (in front of — not <span lang=\"ru\" class=\"r\">напротив</span>, which is genitive).</p><div class=\"rv nostress\"><div class=\"rvbar\"><span class=\"rvh\">Say each word out loud first. Then check the stress:</span><button type=\"button\" class=\"sbtn\" data-rv=\"1\" aria-pressed=\"false\">Show stress ´</button></div><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Preposition</th><th>Meaning · German</th><th>Example</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">с / со</span></td><td>with · mit</td><td><span lang=\"ru\" class=\"r\">чай с молоком</span> · <span lang=\"ru\" class=\"r\">с друзьями</span> · <span lang=\"ru\" class=\"r\">со студентами</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">рядом с / со</span></td><td>next to, beside · neben</td><td><span lang=\"ru\" class=\"r\">Я живу рядом с родителями.</span> · <span lang=\"ru\" class=\"r\">рядом с тобой</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">между</span></td><td>between · zwischen</td><td><span lang=\"ru\" class=\"r\">Между фермой и лесом течёт ручей.</span> · <span lang=\"ru\" class=\"r\">между странами</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">перед</span></td><td>in front of · vor</td><td><span lang=\"ru\" class=\"r\">Машина стоит перед домом.</span> · <span lang=\"ru\" class=\"r\">перед церковью</span></td></tr></tbody></table></div></div><p>A useful trap: <span lang=\"ru\" class=\"r\">с / со</span> plus the <b>genitive</b> means <b>from</b> (off, down from), not “with”: <span lang=\"ru\" class=\"r\">с работы</span> = from work, <span lang=\"ru\" class=\"r\">со стола</span> = off the table. If you mean “together with,” you need the instrumental: <span lang=\"ru\" class=\"r\">с женой</span>, <span lang=\"ru\" class=\"r\">с молоком</span>.</p><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Я живу рядом с родителями, в соседнем доме.</span><span class=\"g\">I live next to my parents, in the neighbouring house.</span></li><li><span lang=\"ru\" class=\"r\">Между фермой и лесом течёт ручей.</span><span class=\"g\">A stream runs between the farm and the forest.</span></li><li><span lang=\"ru\" class=\"r\">Жена молится перед иконой.</span><span class=\"g\">My wife prays in front of the icon.</span></li></ul><p class=\"tip\"><b>German:</b> mit, neben, zwischen, vor all take the dative in German (vor dem Haus, zwischen dem Hof und dem Wald). In Russian these four take the instrumental: <span lang=\"ru\" class=\"r\">перед домом, между фермой и лесом</span>.</p><p>Two more prepositions take the instrumental, for place: <span lang=\"ru\" class=\"r\">над</span> (above, over) and <span lang=\"ru\" class=\"r\">под</span> (under). <span lang=\"ru\" class=\"r\">Над городом летит самолёт.</span> <span lang=\"ru\" class=\"r\">Под зданием находится подвал.</span></p><p>Two everyday verbs also take the instrumental, with no <span lang=\"ru\" class=\"r\">с</span>: <span lang=\"ru\" class=\"r\">увлекаться</span> (to be keen on) and <span lang=\"ru\" class=\"r\">заниматься</span> (to go in for, be busy with). <span lang=\"ru\" class=\"r\">Я увлекаюсь музыкой.</span> <span lang=\"ru\" class=\"r\">Они занимаются спортом.</span> <span lang=\"ru\" class=\"r\">Чем вы увлекаетесь?</span></p>"
     },
     {
      "h": "Step 7 · чем for tools, and работать учителем",
@@ -5634,7 +5639,7 @@
     {
      "h": "Summary",
      "open": false,
-     "html": "<ul class=\"sum\"><li>The instrumental (<span lang=\"ru\" class=\"r\">творительный падеж</span>) answers <span lang=\"ru\" class=\"r\">с кем?</span> (with whom?) and <span lang=\"ru\" class=\"r\">чем?</span> (with what? / by means of what?).</li><li>Singular: masc./neut. <span lang=\"ru\" class=\"r\">-ом / -ем</span> (<span lang=\"ru\" class=\"r\">другом, учителем, ножом, молоком</span>); fem. <span lang=\"ru\" class=\"r\">-ой / -ёй</span> or <span lang=\"ru\" class=\"r\">-ью</span> (<span lang=\"ru\" class=\"r\">женой, семьёй, дочерью</span>); men in <span lang=\"ru\" class=\"r\">-а</span> take <span lang=\"ru\" class=\"r\">-ой</span> (<span lang=\"ru\" class=\"r\">батюшкой, коллегой</span>).</li><li>Plural: <span lang=\"ru\" class=\"r\">-ами / -ями</span> (<span lang=\"ru\" class=\"r\">коровами, друзьями, братьями, ножами</span>).</li><li>Exceptions: <span lang=\"ru\" class=\"r\">детьми, людьми, дочерьми, матерями, друзьями, братьями</span>; <span lang=\"ru\" class=\"r\">семьёй</span>; <span lang=\"ru\" class=\"r\">со</span> before a cluster and before <span lang=\"ru\" class=\"r\">мной</span>; plural-only <span lang=\"ru\" class=\"r\">ножницы, лыжи, палочки</span> (and farm <span lang=\"ru\" class=\"r\">вилы, ворота</span>).</li><li>Pronouns: <span lang=\"ru\" class=\"r\">мной, тобой, им, ей, нами, вами, ими</span>. After a preposition: <span lang=\"ru\" class=\"r\">со мной, с тобой, с ним, с ней, с ними</span>.</li><li>Prepositions: <span lang=\"ru\" class=\"r\">с / со</span> (with), <span lang=\"ru\" class=\"r\">рядом с</span> (next to), <span lang=\"ru\" class=\"r\">между</span> (between), <span lang=\"ru\" class=\"r\">перед</span> (in front of) — all + instrumental. <span lang=\"ru\" class=\"r\">с</span> + genitive is “from,” not “with.”</li><li>Tools: <span lang=\"ru\" class=\"r\">чем?</span> → <span lang=\"ru\" class=\"r\">ножом, ручками, ножницами</span> (no <span lang=\"ru\" class=\"r\">с</span>). Jobs: <span lang=\"ru\" class=\"r\">работает учителем, программистом</span> (no <span lang=\"ru\" class=\"r\">с</span>).</li></ul>"
+     "html": "<ul class=\"sum\"><li>The instrumental (<span lang=\"ru\" class=\"r\">творительный падеж</span>) answers <span lang=\"ru\" class=\"r\">с кем?</span> (with whom?) and <span lang=\"ru\" class=\"r\">чем?</span> (with what? / by means of what?).</li><li>Singular: masc./neut. <span lang=\"ru\" class=\"r\">-ом / -ем</span> (<span lang=\"ru\" class=\"r\">другом, учителем, ножом, молоком</span>); fem. <span lang=\"ru\" class=\"r\">-ой / -ёй</span> or <span lang=\"ru\" class=\"r\">-ью</span> (<span lang=\"ru\" class=\"r\">женой, семьёй, дочерью</span>); men in <span lang=\"ru\" class=\"r\">-а</span> take <span lang=\"ru\" class=\"r\">-ой</span> (<span lang=\"ru\" class=\"r\">батюшкой, коллегой</span>).</li><li>Plural: <span lang=\"ru\" class=\"r\">-ами / -ями</span> (<span lang=\"ru\" class=\"r\">коровами, друзьями, братьями, ножами</span>).</li><li>Exceptions: <span lang=\"ru\" class=\"r\">детьми, людьми, дочерьми, матерями, друзьями, братьями</span>; <span lang=\"ru\" class=\"r\">семьёй</span>; <span lang=\"ru\" class=\"r\">со</span> before a cluster and before <span lang=\"ru\" class=\"r\">мной</span>; plural-only <span lang=\"ru\" class=\"r\">ножницы, лыжи, палочки</span> (and farm <span lang=\"ru\" class=\"r\">вилы, ворота</span>).</li><li>Pronouns: <span lang=\"ru\" class=\"r\">мной, тобой, им, ей, нами, вами, ими</span>. After a preposition: <span lang=\"ru\" class=\"r\">со мной, с тобой, с ним, с ней, с ними</span>.</li><li>Prepositions: <span lang=\"ru\" class=\"r\">с / со</span> (with), <span lang=\"ru\" class=\"r\">рядом с</span> (next to), <span lang=\"ru\" class=\"r\">между</span> (between), <span lang=\"ru\" class=\"r\">перед</span> (in front of) — all + instrumental. Also <span lang=\"ru\" class=\"r\">над</span> (over) and <span lang=\"ru\" class=\"r\">под</span> (under): <span lang=\"ru\" class=\"r\">над городом, под зданием</span>. <span lang=\"ru\" class=\"r\">с</span> + genitive is “from,” not “with.” <span lang=\"ru\" class=\"r\">увлекаться</span> and <span lang=\"ru\" class=\"r\">заниматься</span> take the instrumental with no <span lang=\"ru\" class=\"r\">с</span>: <span lang=\"ru\" class=\"r\">Я увлекаюсь музыкой</span>, <span lang=\"ru\" class=\"r\">они занимаются спортом</span>.</li><li>Tools: <span lang=\"ru\" class=\"r\">чем?</span> → <span lang=\"ru\" class=\"r\">ножом, ручками, ножницами</span> (no <span lang=\"ru\" class=\"r\">с</span>). Jobs: <span lang=\"ru\" class=\"r\">работает учителем, программистом</span> (no <span lang=\"ru\" class=\"r\">с</span>).</li></ul>"
     }
    ],
    "parts": {
@@ -7057,6 +7062,645 @@
      "ex": "All the songs except one: кроме + genitive (одной). (Step 7)",
      "translation": "I love all of Molchat Doma's songs except one.",
      "glosses": []
+    }
+   ]
+  },
+  "LK": {
+   "id": "LK",
+   "title": "The relative pronoun который",
+   "goal": "By the end you'll join two sentences with который, take gender and number from the head noun and case from the relative clause, and keep the preposition: Это человек, который работает в магазине. Друг, которого я видел. Книга, которая мне нужна.",
+   "minutes": "20–25 min to read, then 32 exercises",
+   "sections": [
+    {
+     "h": "Step 1 · который joins two sentences",
+     "open": true,
+     "html": "<p>The <b>relative pronoun</b> (<span lang=\"ru\" class=\"r\">относительное местоимение</span>) <span lang=\"ru\" class=\"r\">который</span> means <b>who / which / that</b>. It takes two short sentences and makes them one.</p><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Это человек. Человек работает в магазине.</span><span class=\"g\">This is a person. The person works in a store.</span></li><li><span lang=\"ru\" class=\"r\">Это человек, который работает в магазине.</span><span class=\"g\">This is a person who works in a store.</span></li><li><span lang=\"ru\" class=\"r\">Это девушка. Девушка живёт в Москве.</span><span class=\"g\">This is a girl. The girl lives in Moscow.</span></li><li><span lang=\"ru\" class=\"r\">Это девушка, которая живёт в Москве.</span><span class=\"g\">This is a girl who lives in Moscow.</span></li></ul><p>A common slip is to drop the preposition: not “работает магазине,” but <span lang=\"ru\" class=\"r\">работает в магазине</span>. The relative clause still needs <span lang=\"ru\" class=\"r\">в</span>, <span lang=\"ru\" class=\"r\">на</span>, <span lang=\"ru\" class=\"r\">с</span>, <span lang=\"ru\" class=\"r\">о</span> — whatever the original sentence had.</p><p class=\"tip\"><b><span lang=\"ru\" class=\"r\">какой</span> vs <span lang=\"ru\" class=\"r\">который</span>.</b> <span lang=\"ru\" class=\"r\">какой</span> is an interrogative / descriptive adjective: “what kind? / which one?” (<span lang=\"ru\" class=\"r\">Какой у вас телефон?</span>, <span lang=\"ru\" class=\"r\">Какие животные вам нравятся?</span>). You already drill it in the Grammar tab. <span lang=\"ru\" class=\"r\">который</span> is a <b>relative pronoun</b>: it points back to a noun you just named and opens a new clause about that noun.</p>"
+    },
+    {
+     "h": "Step 2 · The endings, and where the case comes from",
+     "open": false,
+     "html": "<p><b>Gender and number</b> come from the <b>head noun</b> (the word <span lang=\"ru\" class=\"r\">который</span> points back to): <span lang=\"ru\" class=\"r\">человек → который</span>, <span lang=\"ru\" class=\"r\">девушка → которая</span>, <span lang=\"ru\" class=\"r\">письмо → которое</span>, <span lang=\"ru\" class=\"r\">друзья → которые</span>.</p><p><b>Case</b> comes from the <b>job <span lang=\"ru\" class=\"r\">который</span> does inside the relative clause</b>, not from the case of the head noun in the main clause.</p><div class=\"rv nostress\"><div class=\"rvbar\"><span class=\"rvh\">Say each word out loud first. Then check the stress:</span><button type=\"button\" class=\"sbtn\" data-rv=\"1\" aria-pressed=\"false\">Show stress ´</button></div><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Case (падеж)</th><th>Masc.</th><th>Neut.</th><th>Fem.</th><th>Plural</th></tr></thead><tbody><tr><td>nominative <span lang=\"ru\" class=\"r\">(именительный)</span></td><td><span lang=\"ru\" class=\"r\">который</span></td><td><span lang=\"ru\" class=\"r\">которое</span></td><td><span lang=\"ru\" class=\"r\">которая</span></td><td><span lang=\"ru\" class=\"r\">которые</span></td></tr><tr><td>genitive <span lang=\"ru\" class=\"r\">(родительный)</span></td><td><span lang=\"ru\" class=\"r\">которого</span></td><td><span lang=\"ru\" class=\"r\">которого</span></td><td><span lang=\"ru\" class=\"r\">которой</span></td><td><span lang=\"ru\" class=\"r\">которых</span></td></tr><tr><td>dative <span lang=\"ru\" class=\"r\">(дательный)</span></td><td><span lang=\"ru\" class=\"r\">которому</span></td><td><span lang=\"ru\" class=\"r\">которому</span></td><td><span lang=\"ru\" class=\"r\">которой</span></td><td><span lang=\"ru\" class=\"r\">которым</span></td></tr><tr><td>accusative <span lang=\"ru\" class=\"r\">(винительный)</span></td><td><span lang=\"ru\" class=\"r\">который</span> (anim. <span lang=\"ru\" class=\"r\">которого</span>)</td><td><span lang=\"ru\" class=\"r\">которое</span></td><td><span lang=\"ru\" class=\"r\">которую</span></td><td><span lang=\"ru\" class=\"r\">которые</span> (anim. <span lang=\"ru\" class=\"r\">которых</span>)</td></tr><tr><td>instrumental <span lang=\"ru\" class=\"r\">(творительный)</span></td><td><span lang=\"ru\" class=\"r\">которым</span></td><td><span lang=\"ru\" class=\"r\">которым</span></td><td><span lang=\"ru\" class=\"r\">которой</span></td><td><span lang=\"ru\" class=\"r\">которыми</span></td></tr><tr><td>prepositional <span lang=\"ru\" class=\"r\">(предложный)</span></td><td><span lang=\"ru\" class=\"r\">о котором</span></td><td><span lang=\"ru\" class=\"r\">о котором</span></td><td><span lang=\"ru\" class=\"r\">о которой</span></td><td><span lang=\"ru\" class=\"r\">о которых</span></td></tr></tbody></table></div></div><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Дом, который я купил.</span><span class=\"g\">The house that I bought. (дом is inanimate masculine → accusative = nominative: который)</span></li><li><span lang=\"ru\" class=\"r\">Друг, которого я видел.</span><span class=\"g\">The friend whom I saw. (друг is animate masculine → accusative = genitive: которого)</span></li></ul><p class=\"tip\"><b>German:</b> the relative pronoun takes the case of its job in the relative clause: <i>das Haus, das ich gekauft habe</i> vs <i>der Freund, den ich gesehen habe</i> (accusative <i>den</i>, because he is the person I saw). Russian does the same: <span lang=\"ru\" class=\"r\">дом, который я купил</span> vs <span lang=\"ru\" class=\"r\">друг, которого я видел</span>. Gender and number come from the head noun; the case comes from the clause. <i>der / den / dem / dessen</i> is the closest hook for <span lang=\"ru\" class=\"r\">который / которого / которому / которого</span> (genitive).</p>"
+    },
+    {
+     "h": "Step 3 · Animate vs inanimate accusative",
+     "open": false,
+     "html": "<p>In the accusative, <span lang=\"ru\" class=\"r\">который</span> follows the same animate rule you know from Lesson 6.</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Head noun</th><th>Accusative of <span lang=\"ru\" class=\"r\">который</span></th><th>Example</th></tr></thead><tbody><tr><td>masc. inanimate (<span lang=\"ru\" class=\"r\">дом, роман, храм</span>)</td><td><span lang=\"ru\" class=\"r\">который</span> (= nom.)</td><td><span lang=\"ru\" class=\"r\">Дом, который я купил.</span></td></tr><tr><td>masc. animate (<span lang=\"ru\" class=\"r\">друг, врач, сын</span>)</td><td><span lang=\"ru\" class=\"r\">которого</span> (= gen.)</td><td><span lang=\"ru\" class=\"r\">Друг, которого я видел.</span></td></tr><tr><td>neuter (<span lang=\"ru\" class=\"r\">письмо, сено, лекарство</span>)</td><td><span lang=\"ru\" class=\"r\">которое</span> (always)</td><td><span lang=\"ru\" class=\"r\">Письмо, которое я прочитал.</span></td></tr><tr><td>feminine, any (<span lang=\"ru\" class=\"r\">книга, корова, девушка</span>)</td><td><span lang=\"ru\" class=\"r\">которую</span></td><td><span lang=\"ru\" class=\"r\">Книга, которую я читаю.</span> · <span lang=\"ru\" class=\"r\">Девушка, которую я знаю.</span></td></tr><tr><td>plural inanimate (<span lang=\"ru\" class=\"r\">дома, письма, книги</span>)</td><td><span lang=\"ru\" class=\"r\">которые</span> (= nom.)</td><td><span lang=\"ru\" class=\"r\">Дома, которые мы купили.</span></td></tr><tr><td>plural animate (<span lang=\"ru\" class=\"r\">друзей, коров, детей</span>)</td><td><span lang=\"ru\" class=\"r\">которых</span> (= gen.)</td><td><span lang=\"ru\" class=\"r\">Друзья, которых я встретил.</span></td></tr></tbody></table></div><p>Feminine singular is always <span lang=\"ru\" class=\"r\">которую</span> in the accusative, whether the noun is a person or a thing. The animate split only shows up in the masculine singular and in the plural.</p>"
+    },
+    {
+     "h": "Step 4 · The preposition stays with который",
+     "open": false,
+     "html": "<p>If the original sentence had a preposition, keep it, and put <span lang=\"ru\" class=\"r\">который</span> in the case that preposition takes. Dropping the preposition is the same slip as “работает магазине.”</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Original</th><th>Joined with <span lang=\"ru\" class=\"r\">который</span></th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">В этом городе живёт 10 миллионов человек.</span></td><td><span lang=\"ru\" class=\"r\">город, в котором живёт 10 миллионов человек</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Об этом романе все говорят.</span></td><td><span lang=\"ru\" class=\"r\">роман, о котором все говорят</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">С Анной я не встречался много лет.</span></td><td><span lang=\"ru\" class=\"r\">Анна, с которой я не встречался много лет</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Этому другу я обещал написать письмо.</span></td><td><span lang=\"ru\" class=\"r\">друг, которому я обещал написать письмо</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">Этого врача я хорошо знаю.</span></td><td><span lang=\"ru\" class=\"r\">врач, которого я хорошо знаю</span></td></tr></tbody></table></div><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Москва — это большой и красивый город, в котором живёт 10 миллионов человек.</span><span class=\"g\">Moscow is a large and beautiful city, in which 10 million people live.</span></li><li><span lang=\"ru\" class=\"r\">Я прочитала роман, о котором все говорят.</span><span class=\"g\">I read a novel that everyone is talking about.</span></li><li><span lang=\"ru\" class=\"r\">Мне звонила Анна, с которой я не встречался много лет.</span><span class=\"g\">Anna called me, whom I hadn't seen in many years.</span></li><li><span lang=\"ru\" class=\"r\">У моего сына есть собака, с которой он любит гулять.</span><span class=\"g\">My son has a dog that he likes to walk with.</span></li></ul><p><span lang=\"ru\" class=\"r\">которой</span> alone is ambiguous (feminine genitive, dative, instrumental and prepositional all look the same). Write <span lang=\"ru\" class=\"r\">с которой</span>, <span lang=\"ru\" class=\"r\">о которой</span>, <span lang=\"ru\" class=\"r\">к которой</span> so the preposition is visible.</p>"
+    },
+    {
+     "h": "Step 5 · The verb in the clause picks the case",
+     "open": false,
+     "html": "<p>Look at the verb (and its preposition) <b>inside</b> the relative clause. That government decides the case, the same way it would without <span lang=\"ru\" class=\"r\">который</span>.</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Pattern</th><th>Case</th><th>Example</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">рассказать / дать / помочь</span> + person</td><td>dative <span lang=\"ru\" class=\"r\">(дательный)</span></td><td><span lang=\"ru\" class=\"r\">человек, которому я рассказал эту историю</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">играть / работать / встречаться с</span></td><td>instrumental with <span lang=\"ru\" class=\"r\">с</span></td><td><span lang=\"ru\" class=\"r\">коллега, с которым я люблю играть в теннис</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">мечтать о</span></td><td>prepositional with <span lang=\"ru\" class=\"r\">о</span></td><td><span lang=\"ru\" class=\"r\">поездка, о которой я мечтал всю жизнь</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">привыкнуть к</span></td><td>dative with <span lang=\"ru\" class=\"r\">к</span></td><td><span lang=\"ru\" class=\"r\">лекарство, к которому я привык</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">нужна / нужен / нужно / нужны</span></td><td>nominative <span lang=\"ru\" class=\"r\">(именительный)</span></td><td><span lang=\"ru\" class=\"r\">книга, которая мне нужна</span></td></tr><tr><td><span lang=\"ru\" class=\"r\">гордиться</span></td><td>instrumental, no <span lang=\"ru\" class=\"r\">с</span></td><td><span lang=\"ru\" class=\"r\">дети, которыми мы гордимся</span></td></tr></tbody></table></div><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Человек, которому я рассказал эту историю, обещал мне помочь.</span><span class=\"g\">The person I told this story to promised to help me. (рассказать кому?)</span></li><li><span lang=\"ru\" class=\"r\">Это поездка, о которой я мечтал всю жизнь.</span><span class=\"g\">This is a trip I had dreamed of all my life. (мечтать о + prepositional)</span></li><li><span lang=\"ru\" class=\"r\">Это лекарство, к которому я привык.</span><span class=\"g\">This is the medicine I have gotten used to. (привыкнуть к + dative)</span></li></ul><p><span lang=\"ru\" class=\"r\">нужна</span> is the one English speakers miss: in <span lang=\"ru\" class=\"r\">книга мне нужна</span>, <span lang=\"ru\" class=\"r\">книга</span> is the <b>subject</b> (nominative). So: <span lang=\"ru\" class=\"r\">книга, которая мне нужна</span> — not “которую.”</p>"
+    },
+    {
+     "h": "Step 6 · Traps and exceptions",
+     "open": false,
+     "html": "<p>A short list to check before you lock in an ending.</p><div class=\"rv nostress\"><div class=\"rvbar\"><span class=\"rvh\">Say each word out loud first. Then check the stress:</span><button type=\"button\" class=\"sbtn\" data-rv=\"1\" aria-pressed=\"false\">Show stress ´</button></div><div class=\"tw\"><table class=\"lt \"><thead><tr><th>Trap</th><th>Right form</th><th>Why</th></tr></thead><tbody><tr><td><span lang=\"ru\" class=\"r\">книга, ___ мне нужна</span></td><td><span lang=\"ru\" class=\"r\">которая</span></td><td><span lang=\"ru\" class=\"r\">книга</span> is the subject of <span lang=\"ru\" class=\"r\">нужна</span>. Not accusative <span lang=\"ru\" class=\"r\">которую</span>.</td></tr><tr><td><span lang=\"ru\" class=\"r\">привыкнуть к</span> + noun</td><td><span lang=\"ru\" class=\"r\">к которому</span> / <span lang=\"ru\" class=\"r\">к которой</span></td><td>The preposition <span lang=\"ru\" class=\"r\">к</span> stays, and it takes the dative. Not bare <span lang=\"ru\" class=\"r\">которое</span>.</td></tr><tr><td><span lang=\"ru\" class=\"r\">мечтать о</span> + noun</td><td><span lang=\"ru\" class=\"r\">о котором</span> / <span lang=\"ru\" class=\"r\">о которой</span></td><td><span lang=\"ru\" class=\"r\">о</span> stays; prepositional case.</td></tr><tr><td><span lang=\"ru\" class=\"r\">коллега</span></td><td><span lang=\"ru\" class=\"r\">с которым</span> or <span lang=\"ru\" class=\"r\">с которой</span></td><td><span lang=\"ru\" class=\"r\">коллега</span> is <b>common gender</b> (<span lang=\"ru\" class=\"r\">общий род</span>): agreement follows the person’s sex. A man: <span lang=\"ru\" class=\"r\">мой коллега, с которым…</span>; a woman: <span lang=\"ru\" class=\"r\">моя коллега, с которой…</span>. If the sex is not named, masculine is the textbook default.</td></tr><tr><td><span lang=\"ru\" class=\"r\">о ком</span> vs <span lang=\"ru\" class=\"r\">о чём</span></td><td><span lang=\"ru\" class=\"r\">о ком</span> (people), <span lang=\"ru\" class=\"r\">о чём</span> (things)</td><td><span lang=\"ru\" class=\"r\">О ком вы мечтаете? О жене.</span> <span lang=\"ru\" class=\"r\">О чём вы любите говорить? О машинах.</span> The noun itself still takes <span lang=\"ru\" class=\"r\">о которой</span> / <span lang=\"ru\" class=\"r\">о котором</span> in a relative clause.</td></tr><tr><td>Dropped preposition</td><td><span lang=\"ru\" class=\"r\">в котором</span>, <span lang=\"ru\" class=\"r\">с которой</span>, <span lang=\"ru\" class=\"r\">к которому</span></td><td>Keep <span lang=\"ru\" class=\"r\">в</span>, <span lang=\"ru\" class=\"r\">с</span>, <span lang=\"ru\" class=\"r\">к</span>, <span lang=\"ru\" class=\"r\">о</span>. Feminine <span lang=\"ru\" class=\"r\">которой</span> alone is not enough.</td></tr><tr><td><span lang=\"ru\" class=\"r\">в какую церковь</span></td><td><span lang=\"ru\" class=\"r\">церковь</span> (acc. = nom.)</td><td>Soft-sign feminines you know from Lesson 2: <span lang=\"ru\" class=\"r\">в церковь, в Беларусь</span>. The relative form still changes: <span lang=\"ru\" class=\"r\">церковь, в которую мы идём</span>.</td></tr></tbody></table></div></div><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Ольга дала мне книгу, которая мне нужна.</span><span class=\"g\">Olga gave me a book that I need.</span></li><li><span lang=\"ru\" class=\"r\">У меня есть коллега, с которым я люблю играть в теннис.</span><span class=\"g\">I have a colleague I like to play tennis with. (If she is a woman: с которой.)</span></li><li><span lang=\"ru\" class=\"r\">О ком вы мечтаете? О жене. О чём вы любите говорить? О машинах.</span><span class=\"g\">About whom are you dreaming? About my wife. What do you like to talk about? About cars.</span></li></ul>"
+    },
+    {
+     "h": "Step 7 · Join the sentences (worked examples)",
+     "open": false,
+     "html": "<p>These are the joins from this week’s homework, written out in full. The blank in the exercises is just the <span lang=\"ru\" class=\"r\">который</span> form — sometimes with its preposition.</p><div class=\"tw\"><table class=\"lt \"><thead><tr><th>#</th><th>Two sentences</th><th>One sentence</th></tr></thead><tbody><tr><td>1</td><td><span lang=\"ru\" class=\"r\">Москва — это большой и красивый город. В этом городе живёт 10 миллионов человек.</span></td><td><span lang=\"ru\" class=\"r\">Москва — это большой и красивый город, в котором живёт 10 миллионов человек.</span></td></tr><tr><td>2</td><td><span lang=\"ru\" class=\"r\">Я прочитала роман. Об этом романе все говорят.</span></td><td><span lang=\"ru\" class=\"r\">Я прочитала роман, о котором все говорят.</span></td></tr><tr><td>3</td><td><span lang=\"ru\" class=\"r\">Мне звонила Анна. С Анной я не встречался много лет.</span></td><td><span lang=\"ru\" class=\"r\">Мне звонила Анна, с которой я не встречался много лет.</span></td></tr><tr><td>4</td><td><span lang=\"ru\" class=\"r\">Мне звонил друг. Этому другу я обещал написать письмо.</span></td><td><span lang=\"ru\" class=\"r\">Мне звонил друг, которому я обещал написать письмо.</span></td></tr><tr><td>5</td><td><span lang=\"ru\" class=\"r\">Она пошла к врачу. Этого врача я хорошо знаю.</span></td><td><span lang=\"ru\" class=\"r\">Она пошла к врачу, которого я хорошо знаю.</span></td></tr></tbody></table></div><p>And the five gap sentences, already filled:</p><ul class=\"exl\"><li><span lang=\"ru\" class=\"r\">Человек, которому я рассказал эту историю, обещал мне помочь.</span><span class=\"g\">The person I told this story to promised to help me.</span></li><li><span lang=\"ru\" class=\"r\">У меня есть коллега, с которым я люблю играть в теннис.</span><span class=\"g\">I have a colleague I like to play tennis with.</span></li><li><span lang=\"ru\" class=\"r\">Это поездка, о которой я мечтал всю жизнь.</span><span class=\"g\">This is a trip I had dreamed of all my life.</span></li><li><span lang=\"ru\" class=\"r\">Это лекарство, к которому я привык.</span><span class=\"g\">This is the medicine I have gotten used to.</span></li><li><span lang=\"ru\" class=\"r\">Ольга дала мне книгу, которая мне нужна.</span><span class=\"g\">Olga gave me a book that I need.</span></li></ul>"
+    },
+    {
+     "h": "Summary",
+     "open": false,
+     "html": "<ul class=\"sum\"><li><span lang=\"ru\" class=\"r\">который</span> is a <b>relative pronoun</b> (<span lang=\"ru\" class=\"r\">относительное местоимение</span>): who / which / that. <span lang=\"ru\" class=\"r\">какой</span> is a different word (“what kind / which”).</li><li>Gender and number come from the <b>head noun</b>. Case comes from the <b>relative clause</b> (the same rule as German <i>der / den / dem</i>).</li><li>Accusative: inanimate masc. and inanimate plural = nominative (<span lang=\"ru\" class=\"r\">который, которые</span>); animate masc. and animate plural = genitive (<span lang=\"ru\" class=\"r\">которого, которых</span>); feminine is always <span lang=\"ru\" class=\"r\">которую</span>; neuter is <span lang=\"ru\" class=\"r\">которое</span>.</li><li>Prepositions stay: <span lang=\"ru\" class=\"r\">в котором, о котором, с которой, к которому</span> — not bare <span lang=\"ru\" class=\"r\">которой</span>.</li><li>Watch the verb: <span lang=\"ru\" class=\"r\">рассказать</span> + dative; <span lang=\"ru\" class=\"r\">играть с</span> + instrumental; <span lang=\"ru\" class=\"r\">мечтать о</span> + prepositional; <span lang=\"ru\" class=\"r\">привыкнуть к</span> + dative; <span lang=\"ru\" class=\"r\">нужна</span> takes a nominative subject (<span lang=\"ru\" class=\"r\">книга, которая мне нужна</span>).</li><li><span lang=\"ru\" class=\"r\">коллега</span> is common gender: <span lang=\"ru\" class=\"r\">с которым</span> or <span lang=\"ru\" class=\"r\">с которой</span>, following the person’s sex. <span lang=\"ru\" class=\"r\">О ком</span> is for people, <span lang=\"ru\" class=\"r\">о чём</span> for things.</li></ul>"
+    }
+   ],
+   "parts": {
+    "A": "A · agreement and the basic cases",
+    "B": "B · prepositions stay; joining sentences",
+    "C": "C · verb government, and the traps"
+   },
+   "practice": {
+    "title": "Now use it: write to your tutor",
+    "text": "Answer in chat: Who or what did you see, need, or dream of this week? Write 4 sentences with который: one nominative (X, который/которая works…), one animate accusative (друг, которого…), one with a preposition that stays (в котором / о которой / с которым), and one trap (нужна → которая, привыкнуть к, мечтать о, or коллега).",
+    "examples": [
+     "Это человек, который работает в магазине.",
+     "Я видел друга, которого знаю из Минска.",
+     "Я прочитал роман, о котором все говорят.",
+     "Ольга дала мне книгу, которая мне нужна."
+    ]
+   },
+   "exercises": [
+    {
+     "part": "A",
+     "sub": "A · agreement and the basic cases",
+     "k": "rel",
+     "w": "который",
+     "s": "Это человек, ___ работает в магазине.",
+     "base": "который",
+     "a": "который",
+     "d": [
+      "которая",
+      "которого",
+      "которое"
+     ],
+     "ex": "Head noun человек is masculine singular; in the clause который is the subject (nominative). Don’t drop в: работает в магазине. (Steps 1 and 2)",
+     "translation": "This is a person who works in a store.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · agreement and the basic cases",
+     "k": "rel",
+     "w": "который",
+     "s": "Это девушка, ___ живёт в Москве.",
+     "base": "который",
+     "a": "которая",
+     "d": [
+      "который",
+      "которую",
+      "которое"
+     ],
+     "ex": "Head noun девушка is feminine singular; which/who is the subject of живёт → nominative которая. (Steps 1 and 2)",
+     "translation": "This is a girl who lives in Moscow.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · agreement and the basic cases",
+     "k": "rel",
+     "w": "который",
+     "s": "Письмо, ___ пришло из Беларуси, лежит на столе.",
+     "base": "который",
+     "a": "которое",
+     "d": [
+      "который",
+      "которая",
+      "которого"
+     ],
+     "ex": "Письмо is neuter, and которое is the subject of пришло → nominative neuter которое. (Step 2)",
+     "translation": "The letter that arrived from Belarus is lying on the table.",
+     "glosses": [
+      "пришло: arrived"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · agreement and the basic cases",
+     "k": "rel",
+     "w": "который",
+     "s": "Дом, ___ я купил, стоит в деревне.",
+     "base": "который",
+     "a": "который",
+     "d": [
+      "которого",
+      "которому",
+      "которое"
+     ],
+     "ex": "Дом is masculine inanimate. In the clause it is the object of купил → accusative, which equals nominative: который. (Steps 2 and 3)",
+     "translation": "The house that I bought stands in the village.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · agreement and the basic cases",
+     "k": "rel",
+     "w": "который",
+     "s": "Друг, ___ я видел вчера, живёт в Минске.",
+     "base": "который",
+     "a": "которого",
+     "d": [
+      "который",
+      "которому",
+      "которым"
+     ],
+     "ex": "Друг is masculine animate. Object of видел → accusative = genitive: которого. Compare дом, который я купил. (Step 3)",
+     "translation": "The friend I saw yesterday lives in Minsk.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · agreement and the basic cases",
+     "k": "rel",
+     "w": "который",
+     "s": "Это друзья, ___ работают на ферме.",
+     "base": "который",
+     "a": "которые",
+     "d": [
+      "которых",
+      "которым",
+      "который"
+     ],
+     "ex": "Друзья is plural; they are the subject of работают → nominative plural которые. (Step 2)",
+     "translation": "These are friends who work on the farm.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · agreement and the basic cases",
+     "k": "rel",
+     "w": "который",
+     "s": "Машина, ___ отец купил, стоит у дома.",
+     "base": "который",
+     "a": "которую",
+     "d": [
+      "которая",
+      "которой",
+      "которое"
+     ],
+     "ex": "Машина is feminine; object of купил → accusative которую. Feminine accusative is always которую, person or thing. (Step 3)",
+     "translation": "The car Father bought is standing by the house.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · agreement and the basic cases",
+     "k": "rel",
+     "w": "который",
+     "s": "Это сено, ___ мы сушили вчера.",
+     "base": "который",
+     "a": "которое",
+     "d": [
+      "который",
+      "которого",
+      "которую"
+     ],
+     "ex": "Сено is neuter; object of сушили → accusative neuter, which equals nominative: которое. (Step 3)",
+     "translation": "This is the hay we dried yesterday.",
+     "glosses": [
+      "сушили: dried (past plural)",
+      "сено: hay"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · agreement and the basic cases",
+     "k": "rel",
+     "w": "который",
+     "s": "Я люблю собак, ___ мы кормим на ферме.",
+     "base": "который",
+     "a": "которых",
+     "d": [
+      "которые",
+      "которым",
+      "которого"
+     ],
+     "ex": "Собак is animate plural (object of люблю, and of кормим). Accusative animate plural = genitive: которых. (Step 3)",
+     "translation": "I love the dogs that we feed on the farm.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · agreement and the basic cases",
+     "k": "rel",
+     "w": "который",
+     "s": "Батюшка, ___ служит в нашей церкви, знает всех.",
+     "base": "который",
+     "a": "который",
+     "d": [
+      "которого",
+      "которому",
+      "которая"
+     ],
+     "ex": "Батюшка is masculine; который is the subject of служит → nominative. (Steps 1 and 2)",
+     "translation": "The priest who serves in our church knows everyone.",
+     "glosses": []
+    },
+    {
+     "part": "A",
+     "sub": "A · agreement and the basic cases",
+     "k": "rel",
+     "w": "который",
+     "s": "Программист, ___ пишет код, работает из Бреста.",
+     "base": "который",
+     "a": "который",
+     "d": [
+      "которое",
+      "которого",
+      "которая"
+     ],
+     "ex": "Программист is masculine; который is the subject of пишет → nominative. (Step 2)",
+     "translation": "The programmer who writes the code works from Brest.",
+     "glosses": [
+      "код: code"
+     ]
+    },
+    {
+     "part": "A",
+     "sub": "A · agreement and the basic cases",
+     "k": "rel",
+     "w": "который",
+     "s": "Дети, ___ играют во дворе, живут рядом с фермой.",
+     "base": "который",
+     "a": "которые",
+     "d": [
+      "которых",
+      "которыми",
+      "который"
+     ],
+     "ex": "Дети is plural; которые is the subject of играют → nominative plural. (Step 2)",
+     "translation": "The children who are playing in the yard live next to the farm.",
+     "glosses": [
+      "двор: yard"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · prepositions stay; joining sentences",
+     "k": "rel_prep",
+     "w": "который",
+     "s": "Москва — это большой и красивый город, ___ живёт десять миллионов человек.",
+     "base": "который",
+     "a": "в котором",
+     "d": [
+      "котором",
+      "в который",
+      "о котором"
+     ],
+     "ex": "Original: В этом городе живёт… Где? в + prepositional. The preposition stays: в котором. Bare котором is the dropped-preposition trap. (Steps 4 and 7)",
+     "translation": "Moscow is a large and beautiful city in which ten million people live.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · prepositions stay; joining sentences",
+     "k": "rel_prep",
+     "w": "который",
+     "s": "Я прочитала роман, ___ все говорят.",
+     "base": "который",
+     "a": "о котором",
+     "d": [
+      "котором",
+      "о которой",
+      "в котором"
+     ],
+     "ex": "Original: Об этом романе все говорят. говорить о + prepositional. Keep о: о котором. (Steps 4, 5 and 7)",
+     "translation": "I read a novel that everyone is talking about.",
+     "glosses": [
+      "роман: novel"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · prepositions stay; joining sentences",
+     "k": "rel_prep",
+     "w": "который",
+     "s": "Мне звонила Анна, ___ я не встречался много лет.",
+     "base": "который",
+     "a": "с которой",
+     "d": [
+      "которой",
+      "с которым",
+      "которую"
+     ],
+     "ex": "Original: С Анной я не встречался… встречаться с + instrumental. Анна is feminine → с которой, not bare которой. (Steps 4 and 7)",
+     "translation": "Anna called me, whom I hadn't seen in many years.",
+     "glosses": [
+      "встречаться: to meet, see each other"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · prepositions stay; joining sentences",
+     "k": "rel_prep",
+     "w": "который",
+     "s": "Мне звонил друг, ___ я обещал написать письмо.",
+     "base": "который",
+     "a": "которому",
+     "d": [
+      "которого",
+      "которым",
+      "который"
+     ],
+     "ex": "Original: Этому другу я обещал написать письмо. обещать / написать письмо кому? → dative которому. No preposition here. (Steps 5 and 7)",
+     "translation": "A friend called me, to whom I had promised to write a letter.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · prepositions stay; joining sentences",
+     "k": "rel_prep",
+     "w": "который",
+     "s": "Она пошла к врачу, ___ я хорошо знаю.",
+     "base": "который",
+     "a": "которого",
+     "d": [
+      "которому",
+      "который",
+      "которым"
+     ],
+     "ex": "Original: Этого врача я хорошо знаю. знать + accusative; врач is animate masculine → которого. The к in пошла к врачу belongs to the main clause, not to который. (Steps 3, 4 and 7)",
+     "translation": "She went to a doctor whom I know well.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · prepositions stay; joining sentences",
+     "k": "rel_prep",
+     "w": "который",
+     "s": "У моего сына есть собака, ___ он любит гулять.",
+     "base": "который",
+     "a": "с которой",
+     "d": [
+      "которой",
+      "с которым",
+      "которую"
+     ],
+     "ex": "гулять с + instrumental. Собака is feminine → с которой. The preposition stays. (Step 4)",
+     "translation": "My son has a dog that he likes to walk with.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · prepositions stay; joining sentences",
+     "k": "rel_prep",
+     "w": "который",
+     "s": "Я ездил в храм, ___ служит наш батюшка.",
+     "base": "который",
+     "a": "в котором",
+     "d": [
+      "в который",
+      "котором",
+      "в которой"
+     ],
+     "ex": "Где? The priest serves in the church: в + prepositional. Храм is masculine → в котором. В который would be куда? (Step 4)",
+     "translation": "I went to the church in which our priest serves.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · prepositions stay; joining sentences",
+     "k": "rel_prep",
+     "w": "который",
+     "s": "Церковь, ___ мы идём, стоит напротив почты.",
+     "base": "который",
+     "a": "в которую",
+     "d": [
+      "в которой",
+      "в который",
+      "которую"
+     ],
+     "ex": "Куда? мы идём в церковь: в + accusative. Церковь is feminine → в которую. (The noun itself is a soft-sign feminine, acc. = nom., but который still takes которую.) (Steps 3 and 4)",
+     "translation": "The church we are going to stands across from the post office.",
+     "glosses": []
+    },
+    {
+     "part": "B",
+     "sub": "B · prepositions stay; joining sentences",
+     "k": "rel_prep",
+     "w": "который",
+     "s": "Сервер, ___ мы работаем, стоит в офисе.",
+     "base": "который",
+     "a": "на котором",
+     "d": [
+      "на который",
+      "в котором",
+      "котором"
+     ],
+     "ex": "работать на + prepositional (на сервере). Сервер is masculine → на котором. (Step 4)",
+     "translation": "The server we work on is in the office.",
+     "glosses": [
+      "сервер: server"
+     ]
+    },
+    {
+     "part": "B",
+     "sub": "B · prepositions stay; joining sentences",
+     "k": "rel_prep",
+     "w": "который",
+     "s": "Родители, ___ я живу, держат коров.",
+     "base": "который",
+     "a": "с которыми",
+     "d": [
+      "которыми",
+      "с которым",
+      "которых"
+     ],
+     "ex": "жить с + instrumental, plural → с которыми. Bare которыми would drop the preposition. (Step 4)",
+     "translation": "My parents, who I live with, keep cows.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · verb government, and the traps",
+     "k": "rel_trap",
+     "w": "который",
+     "s": "Человек, ___ я рассказал эту историю, обещал мне помочь.",
+     "base": "который",
+     "a": "которому",
+     "d": [
+      "которого",
+      "которым",
+      "который"
+     ],
+     "ex": "рассказать кому? → dative которому. (Steps 5 and 7)",
+     "translation": "The person I told this story to promised to help me.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · verb government, and the traps",
+     "k": "rel_trap",
+     "w": "который",
+     "s": "У меня есть коллега, ___ я люблю играть в теннис.",
+     "base": "который",
+     "a": "с которым",
+     "d": [
+      "которому",
+      "которой",
+      "которым"
+     ],
+     "ex": "играть с + instrumental. коллега is common gender (общий род): с которым if the colleague is a man (the textbook default when sex is not named), с которой if a woman. Not dative которому. (Steps 5, 6 and 7)",
+     "translation": "I have a colleague I like to play tennis with.",
+     "glosses": [
+      "теннис: tennis"
+     ],
+     "alt": [
+      "с которой"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · verb government, and the traps",
+     "k": "rel_trap",
+     "w": "который",
+     "s": "Это поездка, ___ я мечтал всю жизнь.",
+     "base": "который",
+     "a": "о которой",
+     "d": [
+      "которой",
+      "к которой",
+      "о котором"
+     ],
+     "ex": "мечтать о + prepositional. Поездка is feminine → о которой, not bare которой and not к которой. (Steps 5, 6 and 7)",
+     "translation": "This is a trip I had dreamed of all my life.",
+     "glosses": [
+      "мечтать: to dream of"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · verb government, and the traps",
+     "k": "rel_trap",
+     "w": "который",
+     "s": "Это лекарство, ___ я привык.",
+     "base": "который",
+     "a": "к которому",
+     "d": [
+      "которое",
+      "к которой",
+      "которому"
+     ],
+     "ex": "привыкнуть к + dative. Лекарство is neuter → к которому, not bare которое. (Steps 5, 6 and 7)",
+     "translation": "This is the medicine I have gotten used to.",
+     "glosses": [
+      "привыкнуть: to get used to",
+      "лекарство: medicine"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · verb government, and the traps",
+     "k": "rel_trap",
+     "w": "который",
+     "s": "Ольга дала мне книгу, ___ мне нужна.",
+     "base": "который",
+     "a": "которая",
+     "d": [
+      "которую",
+      "которой",
+      "которое"
+     ],
+     "ex": "книга мне нужна: книга is the subject of нужна, so nominative которая — not accusative которую. English “a book which I need” is the trap. (Steps 5, 6 and 7)",
+     "translation": "Olga gave me a book that I need.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · verb government, and the traps",
+     "k": "rel_trap",
+     "w": "о ком",
+     "s": "О ___ вы мечтаете? О жене.",
+     "base": "о ком",
+     "a": "ком",
+     "d": [
+      "чём",
+      "которой",
+      "ком-то"
+     ],
+     "ex": "For a person the question is о ком, not о чём. The answer О жене is prepositional, but the question-word is ком. (Step 6)",
+     "translation": "About whom are you dreaming? About my wife.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · verb government, and the traps",
+     "k": "rel_trap",
+     "w": "о чём",
+     "s": "О ___ вы любите говорить с друзьями? О машинах.",
+     "base": "о чём",
+     "a": "чём",
+     "d": [
+      "ком",
+      "чём-то",
+      "которых"
+     ],
+     "ex": "For things the question is о чём, not о ком. (Step 6)",
+     "translation": "What do you like to talk about with friends? About cars.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · verb government, and the traps",
+     "k": "rel_trap",
+     "w": "который",
+     "s": "Коллега Анна, ___ я работаю, живёт в Гомеле.",
+     "base": "который",
+     "a": "с которой",
+     "d": [
+      "с которым",
+      "которой",
+      "с которому"
+     ],
+     "ex": "работать с + instrumental. Анна is a woman, so even though коллега is common gender, agreement follows her sex: с которой, not с которым. (Step 6)",
+     "translation": "My colleague Anna, who I work with, lives in Gomel.",
+     "glosses": []
+    },
+    {
+     "part": "C",
+     "sub": "C · verb government, and the traps",
+     "k": "rel_trap",
+     "w": "который",
+     "s": "Это люди, ___ я горжусь.",
+     "base": "который",
+     "a": "которыми",
+     "d": [
+      "которых",
+      "с которыми",
+      "которым"
+     ],
+     "ex": "гордиться + instrumental, no с: которыми. С которыми would be “with whom.” (Step 5)",
+     "translation": "These are people I am proud of.",
+     "glosses": [
+      "гордиться: to be proud of"
+     ]
+    },
+    {
+     "part": "C",
+     "sub": "C · verb government, and the traps",
+     "k": "rel_trap",
+     "w": "который",
+     "s": "Фермер, ___ мы помогаем, держит кур.",
+     "base": "который",
+     "a": "которому",
+     "d": [
+      "которого",
+      "которым",
+      "который"
+     ],
+     "ex": "помогать кому? → dative которому. Not accusative которого. (Step 5)",
+     "translation": "The farmer we are helping keeps hens.",
+     "glosses": [
+      "помогать: to help",
+      "держит кур: keeps hens"
+     ]
     }
    ]
   }

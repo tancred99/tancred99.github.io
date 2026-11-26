@@ -1419,6 +1419,207 @@
   "pos": "phrase"
  },
  {
+  "ru": "Москва",
+  "en": "Moscow",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "f",
+  "kind": "place",
+  "pp": "в",
+  "mass": true,
+  "noArt": true,
+  "skip": [
+   "dat",
+   "ins"
+  ]
+ },
+ {
+  "ru": "Беларусь",
+  "en": "Belarus",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "f",
+  "kind": "place",
+  "pp": "в",
+  "mass": true,
+  "noArt": true,
+  "skip": [
+   "dat",
+   "ins"
+  ]
+ },
+ {
+  "ru": "Брест",
+  "en": "Brest",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "m",
+  "kind": "place",
+  "pp": "в",
+  "mass": true,
+  "noArt": true,
+  "skip": [
+   "dat",
+   "ins"
+  ]
+ },
+ {
+  "ru": "Луизиана",
+  "en": "Louisiana",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "f",
+  "kind": "place",
+  "pp": "в",
+  "mass": true,
+  "noArt": true,
+  "skip": [
+   "dat",
+   "ins"
+  ]
+ },
+ {
+  "ru": "Техас",
+  "en": "Texas",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "m",
+  "kind": "place",
+  "pp": "в",
+  "mass": true,
+  "noArt": true,
+  "skip": [
+   "dat",
+   "ins"
+  ]
+ },
+ {
+  "ru": "Арканзас",
+  "en": "Arkansas",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "m",
+  "kind": "place",
+  "pp": "в",
+  "mass": true,
+  "noArt": true,
+  "skip": [
+   "dat",
+   "ins"
+  ],
+  "note": "Genitive из Арканзаса (not «Аркинса»)."
+ },
+ {
+  "ru": "Колорадо",
+  "en": "Colorado",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "n",
+  "kind": "place",
+  "indecl": true,
+  "pp": "в",
+  "mass": true,
+  "noArt": true,
+  "note": "Indeclinable: Я из Колорадо, Я еду в Колорадо."
+ },
+ {
+  "ru": "Мичиган",
+  "en": "Michigan",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "m",
+  "kind": "place",
+  "pp": "в",
+  "mass": true,
+  "noArt": true,
+  "skip": [
+   "dat",
+   "ins"
+  ]
+ },
+ {
+  "ru": "поездка",
+  "en": "trip, outing",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "f",
+  "kind": "event",
+  "note": "A shorter trip than путешествие: хорошая поездка, мечтать о поездке.",
+  "forms": {
+   "gpl": "поездок"
+  }
+ },
+ {
+  "ru": "кемпинг",
+  "en": "camping, campground",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "m",
+  "kind": "place",
+  "pp": "на",
+  "skip": [
+   "ins"
+  ]
+ },
+ {
+  "ru": "палатка",
+  "en": "tent",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "pp": "в",
+  "forms": {
+   "gpl": "палаток"
+  }
+ },
+ {
+  "ru": "самолёт",
+  "en": "airplane, plane",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "m",
+  "kind": "transport",
+  "pp": "на",
+  "enprep": "on"
+ },
+ {
+  "ru": "выходные",
+  "en": "weekend",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "pl",
+  "kind": "time",
+  "enSg": true,
+  "note": "Usually plural: на выходных, в выходные.",
+  "forms": {
+   "gen": "выходных",
+   "dat": "выходным",
+   "acc": "выходные",
+   "ins": "выходными",
+   "prep": "выходных",
+   "gpl": "выходных"
+  }
+ },
+ {
+  "ru": "крепость",
+  "en": "fortress, fort",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "f",
+  "kind": "place",
+  "pp": "в"
+ },
+ {
+  "ru": "музей",
+  "en": "museum",
+  "theme": "Travel",
+  "pos": "noun",
+  "g": "m",
+  "kind": "place",
+  "pp": "в"
+ },
+ {
   "ru": "комната",
   "en": "room",
   "theme": "Around the house",
@@ -2107,6 +2308,40 @@
   "forms": {
    "gpl": "футболок"
   }
+ },
+ {
+  "ru": "сад",
+  "en": "garden",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "m",
+  "kind": "place",
+  "pp": "в",
+  "skip": [
+   "ins"
+  ],
+  "note": "Special locative -у: работать в саду (not «в саде»).",
+  "forms": {
+   "loc": "саду"
+  }
+ },
+ {
+  "ru": "подвал",
+  "en": "basement, cellar",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "m",
+  "kind": "place",
+  "pp": "в"
+ },
+ {
+  "ru": "здание",
+  "en": "building",
+  "theme": "Around the house",
+  "pos": "noun",
+  "g": "n",
+  "kind": "place",
+  "pp": "в"
  },
  {
   "ru": "ферма",
@@ -2870,6 +3105,19 @@
   "en": "How many head of cattle do you have?",
   "theme": "Around the farm",
   "pos": "phrase"
+ },
+ {
+  "ru": "животное",
+  "en": "animal",
+  "theme": "Around the farm",
+  "pos": "noun",
+  "g": "n",
+  "kind": "animal",
+  "anim": true,
+  "note": "Neuter animate: вижу животное, вижу животных. Какие животные вам нравятся?",
+  "forms": {
+   "gpl": "животных"
+  }
  },
  {
   "ru": "ноль",
@@ -4342,6 +4590,19 @@
   }
  },
  {
+  "ru": "дочка",
+  "en": "daughter (diminutive)",
+  "theme": "Family",
+  "pos": "noun",
+  "g": "f",
+  "kind": "person",
+  "anim": true,
+  "note": "Diminutive of дочь: моей дочке, с дочерью / с дочкой.",
+  "forms": {
+   "gpl": "дочек"
+  }
+ },
+ {
   "ru": "сын",
   "en": "son",
   "theme": "Family",
@@ -4881,6 +5142,95 @@
   "pos": "phrase"
  },
  {
+  "ru": "парикмахерская",
+  "en": "hairdresser's, salon",
+  "theme": "In town and daily life",
+  "pos": "noun",
+  "g": "f",
+  "kind": "place",
+  "pp": "в",
+  "nonum": true,
+  "note": "Adjectival noun: в парикмахерскую, в парикмахерской.",
+  "forms": {
+   "gen": "парикмахерской",
+   "dat": "парикмахерской",
+   "acc": "парикмахерскую",
+   "ins": "парикмахерской",
+   "prep": "парикмахерской",
+   "npl": "парикмахерские",
+   "gpl": "парикмахерских"
+  }
+ },
+ {
+  "ru": "кошка",
+  "en": "cat (female)",
+  "theme": "In town and daily life",
+  "pos": "noun",
+  "g": "f",
+  "kind": "animal",
+  "anim": true,
+  "forms": {
+   "gpl": "кошек"
+  }
+ },
+ {
+  "ru": "ждать",
+  "en": "to wait (impf.)",
+  "theme": "In town and daily life",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "Irregular stem: жду, ждёшь, ждут.",
+  "conj": {
+   "1s": "жду",
+   "2s": "ждёшь",
+   "3s": "ждёт",
+   "1p": "ждём",
+   "2p": "ждёте",
+   "3p": "ждут"
+  },
+  "frames": {
+   "1s": "Я {} тебя у входа."
+  }
+ },
+ {
+  "ru": "уметь",
+  "en": "to know how, be able (skill) (impf.)",
+  "theme": "In town and daily life",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "уметь = know how (Я не умею танцевать). Contrast мочь = be able / can (Я не могу вам помочь).",
+  "conj": {
+   "1s": "умею",
+   "2s": "умеешь",
+   "3s": "умеет",
+   "1p": "умеем",
+   "2p": "умеете",
+   "3p": "умеют"
+  },
+  "frames": {
+   "1s": "Я {} танцевать."
+  }
+ },
+ {
+  "ru": "танцевать",
+  "en": "to dance (impf.)",
+  "theme": "In town and daily life",
+  "pos": "verb",
+  "asp": "impf",
+  "note": "танцую, танцуешь (е → у in the present: танцевать → танцую).",
+  "conj": {
+   "1s": "танцую",
+   "2s": "танцуешь",
+   "3s": "танцует",
+   "1p": "танцуем",
+   "2p": "танцуете",
+   "3p": "танцуют"
+  },
+  "frames": {
+   "1s": "Я {} хорошо."
+  }
+ },
+ {
   "ru": "фильм",
   "en": "film, movie",
   "theme": "Films, music and food",
@@ -4939,5 +5289,30 @@
   "en": "I like all kinds of cheese except Brie.",
   "theme": "Films, music and food",
   "pos": "phrase"
+ },
+ {
+  "ru": "музыка",
+  "en": "music",
+  "theme": "Films, music and food",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing",
+  "mass": true
+ },
+ {
+  "ru": "кальян",
+  "en": "hookah, shisha",
+  "theme": "Films, music and food",
+  "pos": "noun",
+  "g": "m",
+  "kind": "thing"
+ },
+ {
+  "ru": "сигара",
+  "en": "cigar",
+  "theme": "Films, music and food",
+  "pos": "noun",
+  "g": "f",
+  "kind": "thing"
  }
 ]

@@ -2276,6 +2276,7 @@ def build():
     build_l9_bank()
     build_topup_bank()
     build_l8_bank()
+    build_kotoryy_bank()
 
 
 def build_l9_bank():
@@ -2696,6 +2697,207 @@ def build_l8_bank():
     for g_, c_, s, tr, ex, gl in rows_k:
         a_ = Fk[g_][c_]
         add(LVk[c_], "kakoy", SUBk[c_], s, "какой", a_, kdist(g_, c_, a_), ex, tr, gl)
+
+
+
+def build_kotoryy_bank():
+    """Lesson LK / tutor notes set 4. Appended last so ids 1–1942 stay stable."""
+    C, S = "cases", "который (relative pronoun)"
+    # 24 который items, B1-C1 (relative clauses sit a step above A1; pool minimum is 20).
+    rows = [
+        ("Вот программист, ___ пишет код в Минске.", "который",
+         ["которая", "которого", "которое"],
+         "The programmer who writes the code lives in Minsk.",
+         "Программист is masculine; который is the subject of пишет → nominative который.",
+         ["программист: programmer", "код: code"]),
+        ("Это девушка, ___ живёт в Бресте.", "которая",
+         ["который", "которую", "которое"],
+         "This is a girl who lives in Brest.",
+         "Девушка is feminine; которая is the subject of живёт → nominative которая.",
+         []),
+        ("Письмо, ___ пришло из Беларуси, лежит на столе.", "которое",
+         ["который", "которая", "которого"],
+         "The letter that arrived from Belarus is lying on the table.",
+         "Письмо is neuter; которое is the subject of пришло → nominative которое.",
+         ["пришло: arrived"]),
+        ("Мы купили дом, ___ стоит рядом с фермой.", "который",
+         ["которого", "которому", "которое"],
+         "We bought a house that stands next to the farm.",
+         "Дом is masculine inanimate; который is the subject of стоит → nominative (same form as inanimate accusative).",
+         []),
+        ("Я знаю врача, ___ работает в нашей деревне.", "который",
+         ["которого", "которому", "которая"],
+         "I know a doctor who works in our village.",
+         "The relative clause is который работает: nominative, even though врача in the main clause is animate accusative.",
+         []),
+        ("Батюшка, ___ я исповедовался, служит в этом храме.", "которому",
+         ["которого", "которым", "который"],
+         "The priest I confessed to serves in this church.",
+         "исповедоваться кому? → dative которому.",
+         ["исповедоваться: to confess"]),
+        ("Это корова, ___ мы доим каждое утро.", "которую",
+         ["которая", "которой", "которое"],
+         "This is the cow we milk every morning.",
+         "Корова is feminine; object of доим → accusative которую.",
+         ["доим: we milk"]),
+        ("Друзья, ___ я встретил в Гомеле, зовут нас в гости.", "которых",
+         ["которые", "которым", "которого"],
+         "The friends I met in Gomel are inviting us over.",
+         "Animate plural object of встретил → accusative = genitive которых.",
+         []),
+        ("Сервер, ___ стоит в офисе, работает всю ночь.", "который",
+         ["которое", "которого", "которая"],
+         "The server that is in the office runs all night.",
+         "Сервер is masculine; который is the subject of стоит → nominative.",
+         ["сервер: server"]),
+        ("Книги, ___ лежат на аналое, очень старые.", "которые",
+         ["которых", "которым", "который"],
+         "The books that are lying on the analogion are very old.",
+         "Книги is inanimate plural; которые is the subject of лежат → nominative plural.",
+         ["аналой: analogion, lectern"]),
+        ("Город, ___ мы едем, называется Березино.", "в который",
+         ["в котором", "в которую", "который"],
+         "The town we are going to is called Berezino.",
+         "Куда? ехать в + accusative. Город is masculine inanimate → в который.",
+         []),
+        ("Церковь, ___ мы молимся, стоит напротив почты.", "в которой",
+         ["в которую", "в котором", "которой"],
+         "The church we pray in stands across from the post office.",
+         "Где? молиться в + prepositional. Церковь is feminine → в которой. Keep в.",
+         ["молиться: to pray"]),
+        ("Это роман, ___ все говорят в нашем городе.", "о котором",
+         ["котором", "о которой", "в котором"],
+         "This is a novel that everyone in our town is talking about.",
+         "говорить о + prepositional. Роман is masculine → о котором. The preposition stays.",
+         ["роман: novel"]),
+        ("У сына есть собака, ___ он гуляет каждый вечер.", "с которой",
+         ["которой", "с которым", "которую"],
+         "My son has a dog that he walks every evening.",
+         "гулять с + instrumental. Собака is feminine → с которой, not bare которой.",
+         []),
+        ("Ферма, ___ течёт ручей, принадлежит нашим соседям.", "рядом с которой",
+         ["с которой", "рядом с которым", "которой"],
+         "The farm that a stream runs next to belongs to our neighbors.",
+         "рядом с + instrumental. Ферма is feminine → рядом с которой.",
+         ["ручей: stream", "принадлежит: belongs"]),
+        ("Человек, ___ я дал ключи, обещал вернуть их вечером.", "которому",
+         ["которого", "которым", "который"],
+         "The person I gave the keys to promised to return them in the evening.",
+         "дать кому? → dative которому.",
+         []),
+        ("Коллега Иван, ___ я обедаю, работает программистом.", "с которым",
+         ["с которой", "которым", "которому"],
+         "My colleague Ivan, who I have lunch with, works as a programmer.",
+         "обедать с + instrumental. Иван is a man, so с которым (коллега is common gender; agreement follows the person’s sex).",
+         ["обедать: to have lunch"]),
+        ("Поездка, ___ мы мечтали три года, наконец начинается.", "о которой",
+         ["которой", "к которой", "о котором"],
+         "The trip we had dreamed of for three years is finally starting.",
+         "мечтать о + prepositional. Поездка is feminine → о которой.",
+         ["мечтать: to dream of"]),
+        ("Это лекарство, ___ жена привыкла после операции.", "к которому",
+         ["которое", "к которой", "которому"],
+         "This is the medicine my wife got used to after the operation.",
+         "привыкнуть к + dative. Лекарство is neuter → к которому, not bare которое.",
+         ["привыкнуть: to get used to", "лекарство: medicine"]),
+        ("Ольга купила книгу, ___ ей нужна для работы.", "которая",
+         ["которую", "которой", "которое"],
+         "Olga bought a book that she needs for work.",
+         "книга ей нужна: книга is the subject of нужна → nominative которая, not accusative которую.",
+         []),
+        ("Это люди, ___ батюшка говорит после службы.", "с которыми",
+         ["которыми", "с которым", "которых"],
+         "These are people the priest talks with after the service.",
+         "говорить с + instrumental, plural → с которыми. Bare которыми drops the preposition.",
+         []),
+        ("Машина, ___ отец ездит на рынок, стоит у сарая.", "на которой",
+         ["в которой", "на котором", "которой"],
+         "The car Father drives to the market is standing by the barn.",
+         "ездить на машине: на + prepositional. Машина is feminine → на которой.",
+         ["сарай: barn"]),
+        ("Дети, ___ мы гордимся, помогают на ферме.", "которыми",
+         ["которых", "с которыми", "которым"],
+         "The children we are proud of help on the farm.",
+         "гордиться + instrumental, no с → которыми.",
+         ["гордиться: to be proud of"]),
+        ("Жена, ___ он мечтает вечерами, живёт в Минске.", "о которой",
+         ["о котором", "которой", "о ком"],
+         "The wife he dreams about in the evenings lives in Minsk.",
+         "мечтать о + prepositional. Жена is feminine → о которой. (The question about a person would be о ком, but the relative form agrees with жена.)",
+         []),
+    ]
+    for s_, a, d, tr, ex, gl in rows:
+        add(B, C, S, s_, "который", a, d, ex, tr, gl)
+
+    # ~10 instrumental: над / под, увлекаться / заниматься, pronouns с ней / с ними / с вами / со мной
+    SI = "instrumental"
+    add_noun(A, C, SI, "Над ___ летит самолёт.", "город", "ins",
+             "A plane is flying over the city.",
+             "Над (over, above) takes the instrumental: над городом.",
+             ["самолёт: airplane"])
+    add_noun(A, C, SI, "Под ___ находится подвал.", "здание", "ins",
+             "There is a basement under the building.",
+             "Под (under) takes the instrumental: под зданием.",
+             ["подвал: basement", "здание: building"])
+    add_noun(A, C, SI, "Самолёт долго кружил над ___.", "лес", "ins",
+             "The plane circled over the forest for a long time.",
+             "Над + instrumental: над лесом.",
+             ["кружил: circled"])
+    add_noun(A, C, SI, "Я с детства увлекаюсь ___.", "музыка", "ins",
+             "I have been keen on music since childhood.",
+             "увлекаться takes the instrumental, with no с: увлекаюсь музыкой.",
+             ["увлекаться: to be keen on"])
+    add_noun(A, C, SI, "По вечерам они занимаются ___.", "спорт", "ins",
+             "In the evenings they work out / go in for sport.",
+             "заниматься takes the instrumental, with no с: занимаются спортом.",
+             ["заниматься: to go in for, be busy with"])
+    add_noun(A, C, SI, "После урока он занимается ___.", "спорт", "ins",
+             "After the lesson he works out / goes in for sport.",
+             "заниматься + instrumental: занимается спортом. Чем они занимаются сегодня?",
+             [])
+    add_pron(A, C, SI, "Я уже год работаю с ___.", "она", "pins",
+             "I have already been working with her for a year.",
+             "с + instrumental; after a preposition она → ней: с ней.",
+             [])
+    add_pron(A, C, SI, "Мы всегда встречаемся с ___ поздно.", "они", "pins",
+             "We always meet up with them late.",
+             "с + instrumental; after a preposition они → ними: с ними.",
+             ["встречаться: to meet up"])
+    add_pron(A, C, SI, "С ___ интересно говорить о ферме.", "вы", "ins",
+             "It is interesting to talk with you about the farm.",
+             "с + instrumental: с вами (plural or formal you).",
+             [])
+    add_pron(A, C, SI, "Хочешь поговорить со ___ после службы?", "я", "ins",
+             "Do you want to talk with me after the service?",
+             "со мной: с becomes со before мной.",
+             ["поговорить: to talk (a bit)"])
+
+    # 4 мочь vs уметь contrast items, in the existing irregular conjugation pool
+    SUB = "irregular"
+    add(A, "conjugation", SUB,
+        "Я не ___ вам помочь: у меня нет времени.", "мочь", "могу",
+        ["умею", "можете", "мог"],
+        "мочь is “be able / can / may” (circumstance). There is no time, so не могу — not не умею (that would mean “I don’t know how”).",
+        "I can’t help you: I don’t have time.",
+        ["помочь: to help"])
+    add(A, "conjugation", SUB,
+        "Я не ___ танцевать: меня не учили.", "уметь", "умею",
+        ["могу", "умеешь", "умел"],
+        "уметь is “know how.” Nobody taught me, so не умею танцевать — not не могу (that would be “I can’t right now / I’m not allowed”).",
+        "I don’t know how to dance: I was never taught.",
+        ["танцевать: to dance"])
+    add(A, "conjugation", SUB,
+        "Он не ___ прийти завтра: билетов уже нет.", "мочь", "может",
+        ["умеет", "могут", "мог"],
+        "No tickets is a circumstance, so мочь: не может прийти. умеет would be “doesn’t know how to come.”",
+        "He can’t come tomorrow: there are no tickets left.",
+        ["прийти: to come", "билетов: tickets (gen. pl.)"])
+    add(A, "conjugation", SUB,
+        "Она не ___ водить трактор, хотя очень хочет научиться.", "уметь", "умеет",
+        ["может", "умею", "умела"],
+        "She wants to learn, so this is a skill she doesn’t have yet: не умеет. не может would be “isn’t able / isn’t allowed right now.”",
+        "She doesn’t know how to drive a tractor, though she very much wants to learn.",
+        ["водить: to drive", "научиться: to learn how"])
 
 
 def _poss_forms(stem):

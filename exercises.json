@@ -37863,5 +37863,783 @@
   ],
   "src": "bank",
   "id": 1942
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "который (relative pronoun)",
+  "s": "Вот программист, ___ пишет код в Минске.",
+  "base": "который",
+  "a": "который",
+  "alt": [],
+  "d": [
+   "которая",
+   "которого",
+   "которое"
+  ],
+  "ex": "Программист is masculine; который is the subject of пишет → nominative который.",
+  "translation": "The programmer who writes the code lives in Minsk.",
+  "glosses": [
+   "программист: programmer",
+   "код: code"
+  ],
+  "src": "bank",
+  "id": 1943
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "который (relative pronoun)",
+  "s": "Это девушка, ___ живёт в Бресте.",
+  "base": "который",
+  "a": "которая",
+  "alt": [],
+  "d": [
+   "который",
+   "которую",
+   "которое"
+  ],
+  "ex": "Девушка is feminine; которая is the subject of живёт → nominative которая.",
+  "translation": "This is a girl who lives in Brest.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1944
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "который (relative pronoun)",
+  "s": "Письмо, ___ пришло из Беларуси, лежит на столе.",
+  "base": "который",
+  "a": "которое",
+  "alt": [],
+  "d": [
+   "который",
+   "которая",
+   "которого"
+  ],
+  "ex": "Письмо is neuter; которое is the subject of пришло → nominative которое.",
+  "translation": "The letter that arrived from Belarus is lying on the table.",
+  "glosses": [
+   "пришло: arrived"
+  ],
+  "src": "bank",
+  "id": 1945
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "который (relative pronoun)",
+  "s": "Мы купили дом, ___ стоит рядом с фермой.",
+  "base": "который",
+  "a": "который",
+  "alt": [],
+  "d": [
+   "которого",
+   "которому",
+   "которое"
+  ],
+  "ex": "Дом is masculine inanimate; который is the subject of стоит → nominative (same form as inanimate accusative).",
+  "translation": "We bought a house that stands next to the farm.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1946
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "который (relative pronoun)",
+  "s": "Я знаю врача, ___ работает в нашей деревне.",
+  "base": "который",
+  "a": "который",
+  "alt": [],
+  "d": [
+   "которого",
+   "которому",
+   "которая"
+  ],
+  "ex": "The relative clause is который работает: nominative, even though врача in the main clause is animate accusative.",
+  "translation": "I know a doctor who works in our village.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1947
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "который (relative pronoun)",
+  "s": "Батюшка, ___ я исповедовался, служит в этом храме.",
+  "base": "который",
+  "a": "которому",
+  "alt": [],
+  "d": [
+   "которого",
+   "которым",
+   "который"
+  ],
+  "ex": "исповедоваться кому? → dative которому.",
+  "translation": "The priest I confessed to serves in this church.",
+  "glosses": [
+   "исповедоваться: to confess"
+  ],
+  "src": "bank",
+  "id": 1948
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "который (relative pronoun)",
+  "s": "Это корова, ___ мы доим каждое утро.",
+  "base": "который",
+  "a": "которую",
+  "alt": [],
+  "d": [
+   "которая",
+   "которой",
+   "которое"
+  ],
+  "ex": "Корова is feminine; object of доим → accusative которую.",
+  "translation": "This is the cow we milk every morning.",
+  "glosses": [
+   "доим: we milk"
+  ],
+  "src": "bank",
+  "id": 1949
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "который (relative pronoun)",
+  "s": "Друзья, ___ я встретил в Гомеле, зовут нас в гости.",
+  "base": "который",
+  "a": "которых",
+  "alt": [],
+  "d": [
+   "которые",
+   "которым",
+   "которого"
+  ],
+  "ex": "Animate plural object of встретил → accusative = genitive которых.",
+  "translation": "The friends I met in Gomel are inviting us over.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1950
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "который (relative pronoun)",
+  "s": "Сервер, ___ стоит в офисе, работает всю ночь.",
+  "base": "который",
+  "a": "который",
+  "alt": [],
+  "d": [
+   "которое",
+   "которого",
+   "которая"
+  ],
+  "ex": "Сервер is masculine; который is the subject of стоит → nominative.",
+  "translation": "The server that is in the office runs all night.",
+  "glosses": [
+   "сервер: server"
+  ],
+  "src": "bank",
+  "id": 1951
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "который (relative pronoun)",
+  "s": "Книги, ___ лежат на аналое, очень старые.",
+  "base": "который",
+  "a": "которые",
+  "alt": [],
+  "d": [
+   "которых",
+   "которым",
+   "который"
+  ],
+  "ex": "Книги is inanimate plural; которые is the subject of лежат → nominative plural.",
+  "translation": "The books that are lying on the analogion are very old.",
+  "glosses": [
+   "аналой: analogion, lectern"
+  ],
+  "src": "bank",
+  "id": 1952
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "который (relative pronoun)",
+  "s": "Город, ___ мы едем, называется Березино.",
+  "base": "который",
+  "a": "в который",
+  "alt": [],
+  "d": [
+   "в котором",
+   "в которую",
+   "который"
+  ],
+  "ex": "Куда? ехать в + accusative. Город is masculine inanimate → в который.",
+  "translation": "The town we are going to is called Berezino.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1953
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "который (relative pronoun)",
+  "s": "Церковь, ___ мы молимся, стоит напротив почты.",
+  "base": "который",
+  "a": "в которой",
+  "alt": [],
+  "d": [
+   "в которую",
+   "в котором",
+   "которой"
+  ],
+  "ex": "Где? молиться в + prepositional. Церковь is feminine → в которой. Keep в.",
+  "translation": "The church we pray in stands across from the post office.",
+  "glosses": [
+   "молиться: to pray"
+  ],
+  "src": "bank",
+  "id": 1954
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "который (relative pronoun)",
+  "s": "Это роман, ___ все говорят в нашем городе.",
+  "base": "который",
+  "a": "о котором",
+  "alt": [],
+  "d": [
+   "котором",
+   "о которой",
+   "в котором"
+  ],
+  "ex": "говорить о + prepositional. Роман is masculine → о котором. The preposition stays.",
+  "translation": "This is a novel that everyone in our town is talking about.",
+  "glosses": [
+   "роман: novel"
+  ],
+  "src": "bank",
+  "id": 1955
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "который (relative pronoun)",
+  "s": "У сына есть собака, ___ он гуляет каждый вечер.",
+  "base": "который",
+  "a": "с которой",
+  "alt": [],
+  "d": [
+   "которой",
+   "с которым",
+   "которую"
+  ],
+  "ex": "гулять с + instrumental. Собака is feminine → с которой, not bare которой.",
+  "translation": "My son has a dog that he walks every evening.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1956
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "который (relative pronoun)",
+  "s": "Ферма, ___ течёт ручей, принадлежит нашим соседям.",
+  "base": "который",
+  "a": "рядом с которой",
+  "alt": [],
+  "d": [
+   "с которой",
+   "рядом с которым",
+   "которой"
+  ],
+  "ex": "рядом с + instrumental. Ферма is feminine → рядом с которой.",
+  "translation": "The farm that a stream runs next to belongs to our neighbors.",
+  "glosses": [
+   "ручей: stream",
+   "принадлежит: belongs"
+  ],
+  "src": "bank",
+  "id": 1957
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "который (relative pronoun)",
+  "s": "Человек, ___ я дал ключи, обещал вернуть их вечером.",
+  "base": "который",
+  "a": "которому",
+  "alt": [],
+  "d": [
+   "которого",
+   "которым",
+   "который"
+  ],
+  "ex": "дать кому? → dative которому.",
+  "translation": "The person I gave the keys to promised to return them in the evening.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1958
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "который (relative pronoun)",
+  "s": "Коллега Иван, ___ я обедаю, работает программистом.",
+  "base": "который",
+  "a": "с которым",
+  "alt": [],
+  "d": [
+   "с которой",
+   "которым",
+   "которому"
+  ],
+  "ex": "обедать с + instrumental. Иван is a man, so с которым (коллега is common gender; agreement follows the person’s sex).",
+  "translation": "My colleague Ivan, who I have lunch with, works as a programmer.",
+  "glosses": [
+   "обедать: to have lunch"
+  ],
+  "src": "bank",
+  "id": 1959
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "который (relative pronoun)",
+  "s": "Поездка, ___ мы мечтали три года, наконец начинается.",
+  "base": "который",
+  "a": "о которой",
+  "alt": [],
+  "d": [
+   "которой",
+   "к которой",
+   "о котором"
+  ],
+  "ex": "мечтать о + prepositional. Поездка is feminine → о которой.",
+  "translation": "The trip we had dreamed of for three years is finally starting.",
+  "glosses": [
+   "мечтать: to dream of"
+  ],
+  "src": "bank",
+  "id": 1960
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "который (relative pronoun)",
+  "s": "Это лекарство, ___ жена привыкла после операции.",
+  "base": "который",
+  "a": "к которому",
+  "alt": [],
+  "d": [
+   "которое",
+   "к которой",
+   "которому"
+  ],
+  "ex": "привыкнуть к + dative. Лекарство is neuter → к которому, not bare которое.",
+  "translation": "This is the medicine my wife got used to after the operation.",
+  "glosses": [
+   "привыкнуть: to get used to",
+   "лекарство: medicine"
+  ],
+  "src": "bank",
+  "id": 1961
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "который (relative pronoun)",
+  "s": "Ольга купила книгу, ___ ей нужна для работы.",
+  "base": "который",
+  "a": "которая",
+  "alt": [],
+  "d": [
+   "которую",
+   "которой",
+   "которое"
+  ],
+  "ex": "книга ей нужна: книга is the subject of нужна → nominative которая, not accusative которую.",
+  "translation": "Olga bought a book that she needs for work.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1962
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "который (relative pronoun)",
+  "s": "Это люди, ___ батюшка говорит после службы.",
+  "base": "который",
+  "a": "с которыми",
+  "alt": [],
+  "d": [
+   "которыми",
+   "с которым",
+   "которых"
+  ],
+  "ex": "говорить с + instrumental, plural → с которыми. Bare которыми drops the preposition.",
+  "translation": "These are people the priest talks with after the service.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1963
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "который (relative pronoun)",
+  "s": "Машина, ___ отец ездит на рынок, стоит у сарая.",
+  "base": "который",
+  "a": "на которой",
+  "alt": [],
+  "d": [
+   "в которой",
+   "на котором",
+   "которой"
+  ],
+  "ex": "ездить на машине: на + prepositional. Машина is feminine → на которой.",
+  "translation": "The car Father drives to the market is standing by the barn.",
+  "glosses": [
+   "сарай: barn"
+  ],
+  "src": "bank",
+  "id": 1964
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "который (relative pronoun)",
+  "s": "Дети, ___ мы гордимся, помогают на ферме.",
+  "base": "который",
+  "a": "которыми",
+  "alt": [],
+  "d": [
+   "которых",
+   "с которыми",
+   "которым"
+  ],
+  "ex": "гордиться + instrumental, no с → которыми.",
+  "translation": "The children we are proud of help on the farm.",
+  "glosses": [
+   "гордиться: to be proud of"
+  ],
+  "src": "bank",
+  "id": 1965
+ },
+ {
+  "level": "B1-C1",
+  "cat": "cases",
+  "sub": "который (relative pronoun)",
+  "s": "Жена, ___ он мечтает вечерами, живёт в Минске.",
+  "base": "который",
+  "a": "о которой",
+  "alt": [],
+  "d": [
+   "о котором",
+   "которой",
+   "о ком"
+  ],
+  "ex": "мечтать о + prepositional. Жена is feminine → о которой. (The question about a person would be о ком, but the relative form agrees with жена.)",
+  "translation": "The wife he dreams about in the evenings lives in Minsk.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1966
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "Над ___ летит самолёт.",
+  "base": "город",
+  "a": "городом",
+  "alt": [],
+  "d": [
+   "город",
+   "города",
+   "городу"
+  ],
+  "ex": "Над (over, above) takes the instrumental: над городом.",
+  "translation": "A plane is flying over the city.",
+  "glosses": [
+   "самолёт: airplane"
+  ],
+  "src": "bank",
+  "id": 1967
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "Под ___ находится подвал.",
+  "base": "здание",
+  "a": "зданием",
+  "alt": [],
+  "d": [
+   "здание",
+   "здания",
+   "зданию"
+  ],
+  "ex": "Под (under) takes the instrumental: под зданием.",
+  "translation": "There is a basement under the building.",
+  "glosses": [
+   "подвал: basement",
+   "здание: building"
+  ],
+  "src": "bank",
+  "id": 1968
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "Самолёт долго кружил над ___.",
+  "base": "лес",
+  "a": "лесом",
+  "alt": [],
+  "d": [
+   "лес",
+   "леса",
+   "лесу"
+  ],
+  "ex": "Над + instrumental: над лесом.",
+  "translation": "The plane circled over the forest for a long time.",
+  "glosses": [
+   "кружил: circled"
+  ],
+  "src": "bank",
+  "id": 1969
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "Я с детства увлекаюсь ___.",
+  "base": "музыка",
+  "a": "музыкой",
+  "alt": [],
+  "d": [
+   "музыка",
+   "музыку",
+   "музыки"
+  ],
+  "ex": "увлекаться takes the instrumental, with no с: увлекаюсь музыкой.",
+  "translation": "I have been keen on music since childhood.",
+  "glosses": [
+   "увлекаться: to be keen on"
+  ],
+  "src": "bank",
+  "id": 1970
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "По вечерам они занимаются ___.",
+  "base": "спорт",
+  "a": "спортом",
+  "alt": [],
+  "d": [
+   "спорт",
+   "спорта",
+   "спорту"
+  ],
+  "ex": "заниматься takes the instrumental, with no с: занимаются спортом.",
+  "translation": "In the evenings they work out / go in for sport.",
+  "glosses": [
+   "заниматься: to go in for, be busy with"
+  ],
+  "src": "bank",
+  "id": 1971
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "После урока он занимается ___.",
+  "base": "спорт",
+  "a": "спортом",
+  "alt": [],
+  "d": [
+   "спорт",
+   "спорта",
+   "спорту"
+  ],
+  "ex": "заниматься + instrumental: занимается спортом. Чем они занимаются сегодня?",
+  "translation": "After the lesson he works out / goes in for sport.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1972
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "Я уже год работаю с ___.",
+  "base": "она",
+  "a": "ней",
+  "alt": [],
+  "d": [
+   "она",
+   "её",
+   "ей"
+  ],
+  "ex": "с + instrumental; after a preposition она → ней: с ней.",
+  "translation": "I have already been working with her for a year.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1973
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "Мы всегда встречаемся с ___ поздно.",
+  "base": "они",
+  "a": "ними",
+  "alt": [],
+  "d": [
+   "они",
+   "их",
+   "им"
+  ],
+  "ex": "с + instrumental; after a preposition они → ними: с ними.",
+  "translation": "We always meet up with them late.",
+  "glosses": [
+   "встречаться: to meet up"
+  ],
+  "src": "bank",
+  "id": 1974
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "С ___ интересно говорить о ферме.",
+  "base": "вы",
+  "a": "вами",
+  "alt": [],
+  "d": [
+   "вы",
+   "вас",
+   "вам"
+  ],
+  "ex": "с + instrumental: с вами (plural or formal you).",
+  "translation": "It is interesting to talk with you about the farm.",
+  "glosses": [],
+  "src": "bank",
+  "id": 1975
+ },
+ {
+  "level": "A1-A2",
+  "cat": "cases",
+  "sub": "instrumental",
+  "s": "Хочешь поговорить со ___ после службы?",
+  "base": "я",
+  "a": "мной",
+  "alt": [],
+  "d": [
+   "я",
+   "меня",
+   "мне"
+  ],
+  "ex": "со мной: с becomes со before мной.",
+  "translation": "Do you want to talk with me after the service?",
+  "glosses": [
+   "поговорить: to talk (a bit)"
+  ],
+  "src": "bank",
+  "id": 1976
+ },
+ {
+  "level": "A1-A2",
+  "cat": "conjugation",
+  "sub": "irregular",
+  "s": "Я не ___ вам помочь: у меня нет времени.",
+  "base": "мочь",
+  "a": "могу",
+  "alt": [],
+  "d": [
+   "умею",
+   "можете",
+   "мог"
+  ],
+  "ex": "мочь is “be able / can / may” (circumstance). There is no time, so не могу — not не умею (that would mean “I don’t know how”).",
+  "translation": "I can’t help you: I don’t have time.",
+  "glosses": [
+   "помочь: to help"
+  ],
+  "src": "bank",
+  "id": 1977
+ },
+ {
+  "level": "A1-A2",
+  "cat": "conjugation",
+  "sub": "irregular",
+  "s": "Я не ___ танцевать: меня не учили.",
+  "base": "уметь",
+  "a": "умею",
+  "alt": [],
+  "d": [
+   "могу",
+   "умеешь",
+   "умел"
+  ],
+  "ex": "уметь is “know how.” Nobody taught me, so не умею танцевать — not не могу (that would be “I can’t right now / I’m not allowed”).",
+  "translation": "I don’t know how to dance: I was never taught.",
+  "glosses": [
+   "танцевать: to dance"
+  ],
+  "src": "bank",
+  "id": 1978
+ },
+ {
+  "level": "A1-A2",
+  "cat": "conjugation",
+  "sub": "irregular",
+  "s": "Он не ___ прийти завтра: билетов уже нет.",
+  "base": "мочь",
+  "a": "может",
+  "alt": [],
+  "d": [
+   "умеет",
+   "могут",
+   "мог"
+  ],
+  "ex": "No tickets is a circumstance, so мочь: не может прийти. умеет would be “doesn’t know how to come.”",
+  "translation": "He can’t come tomorrow: there are no tickets left.",
+  "glosses": [
+   "прийти: to come",
+   "билетов: tickets (gen. pl.)"
+  ],
+  "src": "bank",
+  "id": 1979
+ },
+ {
+  "level": "A1-A2",
+  "cat": "conjugation",
+  "sub": "irregular",
+  "s": "Она не ___ водить трактор, хотя очень хочет научиться.",
+  "base": "уметь",
+  "a": "умеет",
+  "alt": [],
+  "d": [
+   "может",
+   "умею",
+   "умела"
+  ],
+  "ex": "She wants to learn, so this is a skill she doesn’t have yet: не умеет. не может would be “isn’t able / isn’t allowed right now.”",
+  "translation": "She doesn’t know how to drive a tractor, though she very much wants to learn.",
+  "glosses": [
+   "водить: to drive",
+   "научиться: to learn how"
+  ],
+  "src": "bank",
+  "id": 1980
  }
 ]

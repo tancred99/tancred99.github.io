@@ -42,6 +42,22 @@ def norm(w):
     return (w or "").strip().lower().replace("ё", "е")
 
 
+# Leading prepositions that may sit on a declined answer (в котором, рядом с которой, к которому).
+PREPS = (
+    "рядом с", "вместе с", "из-за", "из-под",
+    "о", "об", "обо", "в", "во", "на", "с", "со", "к", "ко",
+    "у", "от", "до", "из", "без", "для", "после", "перед", "над", "под", "между", "про",
+)
+
+def bare_form(a):
+    n = norm(a)
+    for prep in sorted(PREPS, key=len, reverse=True):
+        prefix = norm(prep) + " "
+        if n.startswith(prefix):
+            return a[len(prep):].strip()
+    return a
+
+
 def is_cyr(s):
     return bool(CYR.search(s or ""))
 
@@ -157,14 +173,19 @@ for e in EX:
         forms.add(norm(t))
     # listed multi-word adverbs as whole tokens
     forms |= {norm(x) for x in ADVERBS}
-    if norm(a) in forms:
+    candidates = {norm(a), norm(bare_form(a))}
+    if candidates & forms:
         checked += 1
     else:
-        # last chance: any parse of the answer has a normal_form in toks
+        # last chance: any parse of the answer (or the form after a preposition)
+        # has a normal_form in toks
         ok = False
-        for p in M.parse(a):
-            if any(norm(p.normal_form) == norm(t) for t in toks):
-                ok = True
+        for piece in (a, bare_form(a)):
+            for p in M.parse(piece):
+                if any(norm(p.normal_form) == norm(t) for t in toks):
+                    ok = True
+                    break
+            if ok:
                 break
         if ok:
             checked += 1
